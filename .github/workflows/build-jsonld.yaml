@@ -34,14 +34,14 @@ jobs:
       - name: Validate CSV-Ws
         run: make validate
       
-      # - name: Build JSON-LD
-      #   # Doing a little bit of parallelisation here to speed everything up.
-      #   # This will result in incoherent log outputs which aren't suitable for debugging.
-      #   run: make jsonld -j 2
+      - name: Build JSON-LD
+        # Doing a little bit of parallelisation here to speed everything up.
+        # This will result in incoherent log outputs which aren't suitable for debugging.
+        run: make jsonld -j 2
 
-      # - name: Generate JSON-LD artifacts
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: schema-org-jsonld-outputs
-      #     path: out/*.json
+      - name: Generate JSON-LD artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-org-jsonld-outputs
+          path: out/*.json
         
