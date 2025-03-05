@@ -23,14 +23,13 @@ jobs:
 
       - name: Initialise make
         run: |
-          if [ -e docker-images.tar ]; do
+          if [ -e docker-images.tar ]; then
             docker load -i docker-images.tar
           fi
 
           make init
 
           docker save $(docker images -q) -o docker-images.tar
-        # todo: Probably want to use a docker cache here to speed things up.
 
       - name: Validate CSV-Ws
         run: make validate
