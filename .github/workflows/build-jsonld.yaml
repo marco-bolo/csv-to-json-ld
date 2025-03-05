@@ -18,7 +18,7 @@ jobs:
       - name: Load previous outputs from cache for differential build.
         uses: actions/cache@v4
         with:
-          path: out
+          path: out/
           key: ${{ github.ref }}
 
       - name: Initialise make
