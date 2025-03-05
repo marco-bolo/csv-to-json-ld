@@ -15,6 +15,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Fix timestamps
+      - name: restore timestamps
+        uses: chetan/git-restore-mtime-action@v2
+
       - name: Load previous outputs from cache for differential build.
         uses: actions/cache@v4
         with:
