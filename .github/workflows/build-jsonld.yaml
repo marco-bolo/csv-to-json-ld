@@ -1,0 +1,35 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    - opened
+    - edited
+  
+jobs:
+  validate-csvws-build-jsonld:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Initialise make
+        run: make init
+        # todo: Probably want to use a docker cache here to speed things up.
+
+      - name: Validate CSV-Ws
+        run: make validate
+      
+      - name: Build JSON-LD
+        run: make jsonld
+
+      - name: Generate JSON-LD artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-org-jsonld-outputs
+          path: out/
+        
