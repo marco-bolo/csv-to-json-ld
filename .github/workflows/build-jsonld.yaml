@@ -18,26 +18,31 @@ jobs:
       - name: Load docker cache.
         uses: actions/cache@v4
         with:
-          path: |
-            /var/lib/docker/image/overlay2
-            /var/lib/docker/overlay2
+          path: docker-images.tar
           key: ${{ runner.os }}-${{ hashFiles('Makefile') }}
 
       - name: Initialise make
-        run: make init
+        run: |
+          if [ -e docker-images.tar ]; do
+            docker load -i docker-images.tar
+          fi
+
+          make init
+
+          docker save $(docker images -q) -o docker-images.tar
         # todo: Probably want to use a docker cache here to speed things up.
 
       - name: Validate CSV-Ws
         run: make validate
       
-      - name: Build JSON-LD
-        # Doing a little bit of parallelisation here to speed everything up.
-        # This will result in incoherent log outputs which aren't suitable for debugging.
-        run: make jsonld -j 2
+      # - name: Build JSON-LD
+      #   # Doing a little bit of parallelisation here to speed everything up.
+      #   # This will result in incoherent log outputs which aren't suitable for debugging.
+      #   run: make jsonld -j 2
 
-      - name: Generate JSON-LD artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: schema-org-jsonld-outputs
-          path: out/*.json
+      # - name: Generate JSON-LD artifacts
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: schema-org-jsonld-outputs
+      #     path: out/*.json
         
