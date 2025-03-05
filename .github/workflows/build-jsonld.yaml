@@ -4,8 +4,7 @@ on:
     branches:
       - main
   pull_request:
-    - opened
-    - edited
+    types: [opened, edited]
   
 jobs:
   validate-csvws-build-jsonld:
