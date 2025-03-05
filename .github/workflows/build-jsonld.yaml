@@ -15,21 +15,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Load docker cache.
+      - name: Load previous outputs from cache for differential build.
         uses: actions/cache@v4
         with:
-          path: docker-images.tar
-          key: ${{ runner.os }}-${{ hashFiles('Makefile') }}
+          path: out
+          key: ${{ github.ref }}
 
       - name: Initialise make
-        run: |
-          if [ -e docker-images.tar ]; then
-            docker load -i docker-images.tar
-          fi
-
-          make init
-
-          docker save $(docker images -q) -o docker-images.tar
+        run: make init
+        # It turns out that caching docker images doesn't save any real time.
 
       - name: Validate CSV-Ws
         run: make validate

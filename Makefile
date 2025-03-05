@@ -1,4 +1,4 @@
-.PHONY: dockersetup output-directories jsonld clean bulk-ttl bulk-jsonld all init
+.PHONY: dockersetup output-directories jsonld clean bulk-ttl bulk-jsonld all init remove-orphaned
 
 WORKING_DIR			:= $(shell pwd)
 
@@ -22,6 +22,7 @@ CSVW_METADATA_FILES 			:= $(wildcard remote/*.csv-metadata.json)
 CSVW_METADATA_VALIDATION_FILES	:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/validation/%.log)
 BULK_TTL_FILES    				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bulk/%.ttl)
 BULK_JSON_LD_FILES 				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bulk/%.json)
+EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES) $(BULK_JSON_LD_FILES)
 REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
 dockersetup: $(MBO_TOOLS_DOCKER_FILE) $(MBO_TOOLS_SCRIPTS_DIR)
@@ -61,9 +62,9 @@ out/bulk/%.json: out/bulk/%.ttl
 	@$(RIOT) --syntax ttl --out json-ld "$<" > "$@";
 	@echo "";
 
-bulk-ttl: $(BULK_TTL_FILES)
+bulk-ttl: $(BULK_TTL_FILES) remove-orphaned
 
-bulk-jsonld: $(BULK_JSON_LD_FILES)
+bulk-jsonld: $(BULK_JSON_LD_FILES) remove-orphaned
 
 jsonld: $(BULK_TTL_FILES)
 	@$(MAKE) -f split/Makefile jsonld
@@ -74,6 +75,16 @@ init:
 
 all:
 	@$(MAKE) init validate bulk-jsonld jsonld
+
+define DELETE_UNEXPECTED_BULK_FILES
+ifeq ($$(filter $$(file),$(EXPECTED_BULK_OUT_FILES)),) 
+  $$(shell rm -f "$$(file)")
+endif
+endef
+
+# Remove orphaned outputs which should no longer be present.
+remove-orphaned: $(wildcard out/bulk/*.ttl) $(wildcard out/bulk/*.json)
+	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_BULK_FILES)))
 
 clean:
 	@$(MAKE) -f split/Makefile clean

@@ -1,4 +1,4 @@
-.PHONY: split clean output-directories init
+.PHONY: split clean output-directories init remove-orphaned
 
 WORKING_DIR				:= $(shell pwd)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
@@ -15,7 +15,6 @@ SCHEMA_ORG_FILE			:= out/resources/schema-context.json
 
 BULK_TTL_FILES 			:= $(wildcard out/bulk/*.ttl)
 	
-
 output-directories:
 	@mkdir -p out/ttl
 	@mkdir -p out/resources
@@ -83,10 +82,22 @@ endef
 
 $(foreach file,$(BULK_TTL_FILES),$(eval $(call SPLIT_TTL,$(file))))
 
-SPLIT_JSON_LD_FILES	:= $(SPLIT_TTL_FILES:out/ttl/%.ttl=out/%.json)
+SPLIT_JSON_LD_FILES				:= $(SPLIT_TTL_FILES:out/ttl/%.ttl=out/%.json)
+EXPECTED_INDIVIDUAL_OUT_FILES 	:= $(SPLIT_TTL_FILES) $(SPLIT_JSON_LD_FILES)
 
-ttl: $(SPLIT_TTL_FILES)
-jsonld: $(SPLIT_JSON_LD_FILES)
+
+define DELETE_UNEXPECTED_INDIVIDUAL_FILES
+ifeq ($$(filter $$(file),$(EXPECTED_INDIVIDUAL_OUT_FILES)),) 
+  $$(shell rm -f "$$(file)")
+endif
+endef
+
+# Remove orphaned outputs which should no longer be present.
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/ttl/*.ttl)
+	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
+
+ttl: $(SPLIT_TTL_FILES) remove-orphaned
+jsonld: $(SPLIT_JSON_LD_FILES) remove-orphaned
 
 clean:
 	@rm -f $(SCHEMA_ORG_FILE)
