@@ -72,6 +72,7 @@ classes:
       - citeSoftwareApplicationMboIds
       - childStepMboIds
       - howToImplementTipMboIds
+      - audienceMboIds
 
   HowToTip:
     description: |
@@ -87,6 +88,7 @@ classes:
       - positionInParent
       - description
       - url
+      - audienceMboIds
 
   Dataset:
     description: A dataset either produced as part of MBO or used in the process of producing an MBO dataset.
@@ -117,6 +119,7 @@ classes:
       - licenseMboId
       - conditionsOfAccess
       - keywords
+      - audienceMboIds
 
   PersonOrOrganization:
     description: |
@@ -228,6 +231,7 @@ classes:
       - maintainerId
       - publisherId
       - licenseMboId
+      - audienceMboIds
       - sha256
       - contentSize
     slot_usage:
@@ -400,3 +404,19 @@ classes:
       - taxonGenus
       - taxonomicStatus
       - taxonVerbatimTaxonRank
+
+  Audience:
+    class_uri: schema:Audience
+    description: |
+      The target audience for an entity.
+
+      TODO: Should we add defined terms for different types of organization here?
+      Available options:
+        - <https://w3id.org/cerif/vocab/OrganisationTypes>
+        - <https://vocabulary.odm2.org/organizationtype/>
+    slots:
+      - mboId
+      - metadataPublisherId
+      - audienceType
+      - title
+      - audienceTypeDescription

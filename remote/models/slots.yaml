@@ -87,6 +87,13 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:abstract
+  audienceMboIds:
+    description: |
+      The intended audiences for this entity.
+    required: false
+    multivalued: true
+    range: Audience
+    slot_uri: schema:audience
 
   # People or organization slots
   authorId:
@@ -772,3 +779,22 @@ slots:
     multivalued: false
     range: string
     slot_uri: dwc:verbatimTaxonRank
+
+  # Audience slots
+  audienceType:
+    description: |
+      The specific type of audience, for example `Researcher`.
+
+      One of: Audience, BusinessAudience, EducationalAudience, Researcher.
+    required: true
+    multivalued: false
+    range: string
+    pattern: '^(Audience|BusinessAudience|EducationalAudience|MedicalAudience|Patient|PeopleAudience|MedicalAudience|ParentAudience|Researcher)$'
+    slot_uri: rdf:type
+  audienceTypeDescription:
+    description: |
+      A textual description of the intended audience.
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: schema:audienceType
