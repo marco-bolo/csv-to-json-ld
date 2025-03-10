@@ -757,6 +757,15 @@ slots:
     multivalued: false
     range: string
     slot_uri: dwc:genus
+  taxonSpecificEpithet:
+    description: |
+      The name of the first or species epithet of the dwc:scientificName.
+
+      Actually represents dwc:specificEpithet via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:specificEpithet
   taxonomicStatus:
     description: |
       The status of the use of the dwc:scientificName as a label for a taxon. 

@@ -402,6 +402,7 @@ classes:
       - taxonOrder
       - taxonFamily
       - taxonGenus
+      - taxonSpecificEpithet
       - taxonomicStatus
       - taxonVerbatimTaxonRank
 
