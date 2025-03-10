@@ -4,6 +4,7 @@ prefixes:
   linkml: https://w3id.org/linkml/
   schema: https://schema.org/
   mbo: https://w3id.org/marco-bolo/
+  dwc: http://rs.tdwg.org/dwc/terms/
 imports:
   - linkml:types
   - ./classes
@@ -189,11 +190,19 @@ slots:
     range: date
     slot_uri: mbo:inProgressDataDate
   variableMeasuredMboIds:
+    title: Variables Measured
     description: 'The MBO Ids of the variables measured in your dataset; these should include EBVs, EOVs, etc.'
     required: false
     multivalued: true
     range: VariableMeasured
     slot_uri: schema:variableMeasured
+  aboutTaxonMboIds:
+    title: Taxa
+    description: The MBO Ids of the taxa observed in your dataset.
+    required: false
+    multivalued: true
+    range: Taxon
+    slot_uri: schema:about
   spatialCoveragePlaceMboId:
     description: 'A place defining the spatial coverage of the dataset.'
     required: false
@@ -675,3 +684,91 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:amount/schema:currency
+
+  # Taxon slots
+  taxonIdentifier:
+    subproperty_of: identifier
+    description: |
+      An identifier for this specific taxon.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:identifier
+  taxonScientificName:
+    description: |
+      The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, 
+      this should be the name in lowest level taxonomic rank that can be determined. This term should not contain 
+      identification qualifications, which should instead be supplied in the dwc:identificationQualifier term.
+      
+      Actually represents dwc:scientificName via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:scientificName
+  taxonKingdom:
+    description: |
+      The full scientific name of the kingdom in which the dwc:Taxon is classified.
+      
+      Actually represents dwc:kingdom via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:kingdom
+  taxonPhylum:
+    description: |
+      The full scientific name of the phylum or division in which the dwc:Taxon is classified.
+      
+      Actually represents dwc:phylum via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:phylum
+  taxonOrder:
+    description: |
+      The full scientific name of the order in which the dwc:Taxon is classified.
+      
+      Actually represents dwc:order via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:order
+  taxonFamily:
+    description: |
+      The full scientific name of the family in which the dwc:Taxon is classified.
+      
+      Actually represents dwc:family via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:family
+  taxonGenus:
+    description: |
+      The full scientific name of the genus in which the dwc:Taxon is classified.
+      
+      Actually represents dwc:genus via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:genus
+  taxonomicStatus:
+    description: |
+      The status of the use of the dwc:scientificName as a label for a taxon. 
+      Requires taxonomic opinion to define the scope of a dwc:Taxon. 
+      Rules of priority then are used to define the taxonomic status of the 
+      nomenclature contained in that scope, combined with the experts opinion. 
+      It must be linked to a specific taxonomic reference that defines the concept.
+      
+      Actually represents dwc:taxonomicStatus via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:taxonomicStatus
+  taxonVerbatimTaxonRank:
+    description: |
+      The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.
+      
+      Actually represents dwc:verbatimTaxonRank via a schema:PropertyValue (schema:additionalValue/schema:value).
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: dwc:verbatimTaxonRank

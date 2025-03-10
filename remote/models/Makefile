@@ -30,6 +30,20 @@ validate: $(LINKML_SCHEMA_FILES)
 		echo "\n"; \
 	)
 
+	# Sometimes the above just doesn't catch some errors. The following will catch more:
+	@echo "======================> Testing docs generation (quick)"
+
+	@$(LINKML) generate doc \
+		--directory validating-docs-generation \
+		--sort-by rank \
+		--no-render-imports \
+		--stacktrace \
+		classes.yaml || rm -rf validating-docs-generation
+
+
+	@rm -rf validating-docs-generation
+
+
 $(MMD_FILES): $(LINKML_SCHEMA_FILES)
 	@echo "Generating mermaid for $(@:mermaid-outputs/%=%)"; 
 	@$(LINKML) generate erdiagram --format mermaid -c "$(@:diagrams/%.mmd=%)" --max-hops 0 classes.yaml > "$@";
@@ -64,6 +78,7 @@ all: diagrams docs
 
 clean:
 	@rm -rf diagrams
+	@rm -rf validating-docs-generation
 	@rm -rf docs
 	@rm -rf site
 
