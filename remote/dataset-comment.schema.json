@@ -43,7 +43,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
-            "valueUrl": "{+creator}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+creator}"
         },
         {
             "name": "text",

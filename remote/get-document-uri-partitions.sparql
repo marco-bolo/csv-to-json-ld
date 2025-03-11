@@ -1,0 +1,13 @@
+SELECT DISTINCT ?partition WHERE {
+     { 
+        # Strip the hash parts off URLs where they exist
+        ?s ?p ?o. 
+        FILTER (contains(str(?s), '#')). 
+        BIND (strbefore(str(?s), '#') as ?partition). 
+    } UNION 
+    { 
+        ?s ?p ?o. 
+        FILTER (! contains(str(?s), '#')). 
+        BIND(str(?s) as ?partition). 
+    } 
+}

@@ -109,7 +109,15 @@
             "virtual": true,
             "propertyUrl": "https://schema.org/amount",
             "valueUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}#amount"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}#amount",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/MonetaryAmount"
         }
+
+        
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}",
     "primaryKey": [

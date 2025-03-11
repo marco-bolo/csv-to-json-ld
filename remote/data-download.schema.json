@@ -172,7 +172,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/author",
-            "valueUrl": "{+authorId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+authorId}"
         },
         {
             "name": "publisherId",
@@ -184,7 +184,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/publisher",
-            "valueUrl": "{+publisherId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+publisherId}"
         },
         {
             "name": "producerId",
@@ -196,7 +196,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/producer",
-            "valueUrl": "{+producerId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+producerId}"
         },
         {
             "name": "creativeWorkStatus",

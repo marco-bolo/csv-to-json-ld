@@ -57,7 +57,7 @@ define SPLIT_TTL =
 #	from each of them and then converts that into an `out/ttl/file-name.ttl` which is where that subject's 
 #	data will be placed. 
 $(eval INDIVIDUAL_TTL_FILE_NAMES_$(1) = \
-  $(shell $(SPARQL) --data "$(1)" --results tsv 'SELECT DISTINCT ?s WHERE { ?s ?p ?o .}' \
+  $(shell $(SPARQL) --data "$(1)" --results tsv --query remote/get-document-uri-partitions.sparql \
     | tail -n +2 \
 	| cut -c 2- \
 	| rev \
@@ -73,7 +73,7 @@ $(INDIVIDUAL_TTL_FILE_NAMES_$(1)) &: $(1)
 	@$(foreach output_ttl_file,$(INDIVIDUAL_TTL_FILE_NAMES_$(1)), \
 		file_name=$$$$(basename "$(output_ttl_file)"); \
 		uri_stub=$$$$(echo "$$$${file_name%.ttl}"); \
-		$(SPARQL) --data "$(1)" "prefix schema: <https://schema.org/> prefix goos: <https://goosocean.org/document/> prefix mbo: <https://w3id.org/marco-bolo/> CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o. FILTER (STRENDS(STR(?s), \"$$$$uri_stub\")).}" > "$(output_ttl_file).tmp"; \
+		$(SPARQL) --data "$(1)" "prefix schema: <https://schema.org/> prefix goos: <https://goosocean.org/document/> prefix mbo: <https://w3id.org/marco-bolo/> CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o. FILTER (STRENDS(STR(?s), \"$$$$uri_stub\") || STRENDS(strbefore(str(?s), '#'), \"$$$$uri_stub\")).}" > "$(output_ttl_file).tmp"; \
 		$(RIOT) --syntax ttl --formatted ttl --check --strict "$(output_ttl_file).tmp" > "$(output_ttl_file)"; \
 		rm -f "$(output_ttl_file).tmp"; \
 		echo "$(output_ttl_file) complete." ;)

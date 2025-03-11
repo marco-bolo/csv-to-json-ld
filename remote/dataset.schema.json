@@ -77,7 +77,8 @@
             "propertyUrl": "https://w3id.org/marco-bolo/inProgressDataDate#TODO",
             "datatype": {
                 "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "format": "yyyy-MM-dd"
             }
         },
         {
