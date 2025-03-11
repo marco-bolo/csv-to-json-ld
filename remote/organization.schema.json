@@ -1,0 +1,210 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "organizationId",
+            "required": true,
+            "titles": {
+                "en": [
+                    "MBO ID",
+                    "MBO Permanent Identifier"
+                ]
+            },
+            "suppressOutput": true
+        },
+        {
+            "name": "metadataPublisherId",
+            "required": true,
+            "titles": {
+                "en": [
+                    "Metadata Publisher PID (you)",
+                    "Metadata Publisher PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/sdPublisher",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "organizationType",
+            "required": true,
+            "titles": {
+                "en": ["Organization Type", "Type"]
+            },
+            "datatype": {
+                "base": "string",
+                "format": "^(Organization|Airline|Consortium|Corporation|EducationalOrganization|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|MedicalOrganization|NGO|NewsMediaOrganization|OnlineBusiness|PerformingGroup|PoliticalParty|Project|ResearchOrganization|SearchRescueOrganization|SportsOrganization|WorkersUnion)$"
+            },
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/{+organizationType}"
+        },
+        {
+            "name": "title",
+            "required": true,
+            "titles": {
+                "en": ["Title"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/name"
+        },
+        {
+            "name": "legalName",
+            "required": false,
+            "titles": {
+                "en": ["Legal Name"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/legalName"
+        },
+        {
+            "name": "alternateName",
+            "required": false,
+            "titles": {
+                "en": ["Alt Name"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/alternateName"
+        },
+        {
+            "name": "identifiers",
+            "required": false,
+            "titles": {
+                "en": ["Identifiers"]
+            },
+            "separator": "|",
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/identifier"
+        },
+        {
+            "name": "url",
+            "required": false,
+            "titles": {
+                "en": ["URL"]
+            },
+            "datatype": {
+                "@id": "https://schema.org/URL",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/url"
+        },
+        {
+            "name": "description",
+            "required": false,
+            "titles": {
+                "en": ["Description"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/description"
+        },
+        {
+            "name": "foundingDate",
+            "required": false,
+            "titles": {
+                "en": ["Founding Date"]
+            },
+            "datatype": {
+                "base": "date",
+                "format": "yyyy-MM-dd"
+            },
+            "propertyUrl": "https://schema.org/foundingDate"
+        },
+        {
+            "name": "dissolutionDate",
+            "required": false,
+            "titles": {
+                "en": ["Dissolution Date"]
+            },
+            "datatype": {
+                "base": "date",
+                "format": "yyyy-MM-dd"
+            },
+            "propertyUrl": "https://schema.org/dissolutionDate"
+        },
+        {
+            "name": "contactPointIds",
+            "required": false,
+            "titles": {
+                "en": [
+                    "Contact Point Ids"
+                ]
+            },
+            "propertyUrl": "https://schema.org/contactPoint",
+            "ordered": false,
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "parentOrganizationId",
+            "required": false,
+            "titles": {
+                "en": ["Parent Organization Id"]
+            },
+            "propertyUrl": "https://schema.org/parentOrganization",
+            "valueUrl": "https://w3id.org/marco-bolo/{+parentOrganizationId}"
+        },
+        {
+            "name": "memberOfOrganizationIds",
+            "required": false,
+            "titles": {
+                "en": ["Member of Organization Ids"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/memberOf"
+        },
+        {
+            "name": "departmentOrganizationIds",
+            "required": false,
+            "titles": {
+                "en": ["Department Organization Ids"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/department"
+        }, 
+        {
+            "name": "fundingGrantIds",
+            "required": false,
+            "titles": {
+                "en": ["Funding Grant Ids"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/funding"
+        }, 
+        {
+            "name": "keywords",
+            "required": false,
+            "titles": {
+                "en": ["Keywords"]
+            },
+            "separator": "|",
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/keywords"
+        }  
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+organizationId}",
+    "primaryKey": [
+        "organizationId"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
+            }
+        }
+    ]
+}

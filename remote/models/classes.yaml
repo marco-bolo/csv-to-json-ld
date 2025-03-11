@@ -123,7 +123,7 @@ classes:
 
       todo: How do we apply foreign key constraints on fields which are unions of types like these?
     slots:
-      - personOrOrganizationId
+      - mboId
 
   Person:
     is_a: PersonOrOrganization

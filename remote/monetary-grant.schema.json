@@ -1,0 +1,127 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "monetaryGrantId",
+            "required": true,
+            "titles": {
+                "en": [
+                    "MBO ID",
+                    "MBO Permanent Identifier"
+                ]
+            },
+            "suppressOutput": true
+        },
+        {
+            "name": "metadataPublisherId",
+            "required": true,
+            "titles": {
+                "en": [
+                    "Metadata Publisher PID (you)",
+                    "Metadata Publisher PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/sdPublisher",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "title",
+            "required": true,
+            "titles": {
+                "en": ["Title"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/name"
+        },
+        {
+            "name": "amount",
+            "required": true,
+            "titles": {
+                "en": ["Amount"]
+            },
+            "datatype": "string",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}#amount",
+            "propertyUrl": "https://schema.org/value"
+        },
+        {
+            "name": "currency",
+            "required": true,
+            "titles": {
+                "en": ["Currency"]
+            },
+            "datatype": "string",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}#amount",
+            "propertyUrl": "https://schema.org/currency"
+        },
+        {
+            "name": "funderOrganizationIds",
+            "required": false,
+            "titles": {
+                "en": ["Funder Organization Ids", "Funders"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/funder"
+        },
+        {
+            "name": "sponsorOrganizationIds",
+            "required": false,
+            "titles": {
+                "en": ["Sponsor Organization Ids", "Sponsors"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/sponsor"
+        },
+        {
+            "name": "description",
+            "required": false,
+            "titles": {
+                "en": ["Description"]
+            },
+            "datatype": "string",
+            "propertyUrl": "https://schema.org/description"
+        },
+        {
+            "name": "url",
+            "required": false,
+            "titles": {
+                "en": ["URL"]
+            },
+            "datatype": {
+                "@id": "https://schema.org/URL",
+                "base": "string"
+            },
+            "propertyUrl": "https://schema.org/url"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/MonetaryGrant"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/amount",
+            "valueUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}#amount"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+monetaryGrantId}",
+    "primaryKey": [
+        "monetaryGrantId"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
+            }
+        }
+    ]
+}

@@ -1,3 +1,4 @@
+
 .PHONY: dockersetup output-directories jsonld clean bulk-ttl bulk-jsonld all init remove-orphaned
 
 WORKING_DIR			:= $(shell pwd)
@@ -15,6 +16,7 @@ SPARQL							:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DO
 MBO_TOOLS_DOCKER_RUN			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)"
 CONVERT_LIST_VALUES_TO_NODES	:= $(MBO_TOOLS_DOCKER_RUN) listcolumnsasnodes
 LIST_COLUMN_FOREIGN_KEY_CHECK	:= $(MBO_TOOLS_DOCKER_RUN) listcolumnforeignkeycheck
+UNION_UNIQUE_IDENTIFIERS		:= $(MBO_TOOLS_DOCKER_RUN) unionuniqueidentifiers
 JQ								:= $(MBO_TOOLS_DOCKER_RUN) jq
 JSONLD_CLI						:= $(MBO_TOOLS_DOCKER_RUN) jsonld
 
@@ -25,7 +27,12 @@ BULK_JSON_LD_FILES 				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/b
 EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES) $(BULK_JSON_LD_FILES)
 REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
-dockersetup: $(MBO_TOOLS_DOCKER_FILE) $(MBO_TOOLS_SCRIPTS_DIR)
+# Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
+# foreign key validation on.
+MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= dataset.csv organization.csv person.csv monetary-grant.csv
+MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.log)
+
+dockersetup:
 	@echo "=============================== Pulling & Building required docker images. ==============================="
 	@docker pull $(CSVW_CHECK_DOCKER)
 	@docker pull $(CSV2RDF_DOCKER)
@@ -37,13 +44,14 @@ output-directories:
 	@mkdir -p out/bulk
 	@mkdir -p out/validation
 
+validate: $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
 
-validate: $(CSVW_METADATA_VALIDATION_FILES) out/validation/list-column-foreign-key-checks.log
+out/validation/person-or-organization.csv: person.csv organization.csv
+	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv person.csv organization.csv
 
-out/validation/list-column-foreign-key-checks.log: dataset.csv variable-measured.csv data-download.csv
+out/validation/dataset-csv-list-column-foreign-key.log: dataset.csv variable-measured.csv data-download.csv
 	@# Now we perform some more manual foreign key checks on the values inside particular list columns. 
 	@# The detection of these could be automated in future, but they are so limited in scope at the moment that it probably isn't worth it.
-
 
 	@echo "=============================== Validating values in dataset.csv['Variables Measured'] ==============================="
 	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) dataset.csv "Variables Measured" variable-measured.csv "MBO PID" --separator "|"
@@ -51,11 +59,55 @@ out/validation/list-column-foreign-key-checks.log: dataset.csv variable-measured
 	@echo "=============================== Validating values in dataset.csv['Distributions'] ==============================="
 	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) dataset.csv "Distributions" data-download.csv "MBO Permanent Identifier" --separator "|"
 
-
-	@echo "" > out/validation/list-column-foreign-key-checks.log # Let the build know we've done this validation now.
+	@echo "" > out/validation/dataset-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
 	@echo ""
 
 
+out/validation/organization-csv-list-column-foreign-key.log: organization.csv contact-point.csv monetary-grant.csv
+	@echo "=============================== Validating values in organization.csv['Contact Point Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) organization.csv "Contact Point Ids" contact-point.csv "MBO Permanent Identifier"	
+
+	@# Now technically this one isn't a list column, but we're using the foreign key validation here since CSV-Ws don't support nullable 
+	@# foreign key references. <https://github.com/roblinksdata/csvw-check/issues/2>
+	@echo "=============================== Validating values in organization.csv['Parent Organization Id'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) organization.csv "Parent Organization Id" organization.csv "MBO Permanent Identifier"	
+
+	@echo "=============================== Validating values in organization.csv['Member of Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) organization.csv "Member of Organization Ids" organization.csv "MBO Permanent Identifier"
+	
+	@echo "=============================== Validating values in organization.csv['Department Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) organization.csv "Department Organization Ids" organization.csv "MBO Permanent Identifier"
+	
+	@echo "=============================== Validating values in organization.csv['Funding Grant Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) organization.csv "Funding Grant Ids" monetary-grant.csv "MBO Permanent Identifier"
+
+	@echo "" > out/validation/organization-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
+	@echo ""
+
+out/validation/person-csv-list-column-foreign-key.log: person.csv organization.csv contact-point.csv
+	@echo "=============================== Validating values in person.csv['Works For Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) person.csv "Works For Organization Ids" organization.csv "MBO Permanent Identifier"
+
+	@echo "=============================== Validating values in person.csv['Affiliated Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) person.csv "Affiliated Organization Ids" organization.csv "MBO Permanent Identifier"
+
+	@echo "=============================== Validating values in person.csv['Contact Point Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) person.csv "Contact Point Ids" contact-point.csv "MBO Permanent Identifier"
+
+
+	@echo "" > out/validation/person-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
+	@echo ""	
+
+out/validation/monetary-grant-csv-list-column-foreign-key.log: monetary-grant.csv organization.csv
+	@echo "=============================== Validating values in monetary-grant.csv['Funder Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) monetary-grant.csv "Funder Organization Ids" organization.csv "MBO Permanent Identifier"
+
+	@echo "=============================== Validating values in monetary-grant.csv['Sponsor Organization Ids'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) monetary-grant.csv "Sponsor Organization Ids" organization.csv "MBO Permanent Identifier"
+
+
+	@echo "" > out/validation/monetary-grant-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
+	@echo ""
 
 out/bulk/%.json: out/bulk/%.ttl
 	@echo "=============================== Converting $< to JSON-LD $@ ===============================" ;
@@ -101,32 +153,34 @@ $(eval TTL_FILE_$(1) := $(CSVW_FILE_NAME:%.csv-metadata.json=out/bulk/%.ttl))
 $(eval CSVW_LOG_FILE_$(1) := $(CSVW_FILE_NAME:%.csv-metadata.json=out/validation/%.log))
 $(eval CSVW_DIR_NAME_$(1) := $(shell dirname $$(realpath $(1))))
 
-# $(eval INDIVIDUAL_CSV_DEPENDENCIES_COMMAND_$(1) := $(RIOT) --syntax jsonld --formatted ttl "$(1)" > "$(1).tmp.ttl"; \
-# 		$(SPARQL) --data "$(1).tmp.ttl" --results tsv --query "$(REFERENCED_CSVS_QUERY_FILE)" \
-# 			| tail -n +2 \
-# 			| sed 's/"\(.*\)"/\1/g' \
-# 			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
-# 			| xargs -l realpath --relative-to "$(WORKING_DIR)" \
-# 			| xargs;)
-# $(eval $(shell rm -rf "$(1).tmp.ttl"))
-# The above using SPARQL is more general and correct, but the below using jq is far more performant and should meet our needs.
 
-$(eval INDIVIDUAL_CSV_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
+$(eval INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
+			| $(JQ) '.tables[] | .url' \
+			| sed 's/"\(.*\)"/\1/g' \
+			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
+			| xargs -l realpath --relative-to "$(WORKING_DIR)" \
+			| xargs;)
+
+$(eval INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1) = $(shell $(INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1)) ))
+
+
+$(CSVW_LOG_FILE_$(1)): $(1) $(INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1))
+	@echo "=============================== Validating $$< ===============================" 
+	@$(CSVW_CHECK) "$$<"
+	@echo "" > "$(CSVW_LOG_FILE_$(1))"; # Let the build know that we've validated this file now.
+	@echo ""
+
+
+$(eval INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
 			| $(JQ) '.tables[] | select(.suppressOutput != true) | .url' \
 			| sed 's/"\(.*\)"/\1/g' \
 			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
 			| xargs -l realpath --relative-to "$(WORKING_DIR)" \
 			| xargs;)
 
-$(eval INDIVIDUAL_CSV_DEPENDENCIES_$(1) = $(shell $(INDIVIDUAL_CSV_DEPENDENCIES_COMMAND_$(1)) ))
+$(eval INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1) = $(shell $(INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1)) ))
 
-$(CSVW_LOG_FILE_$(1)): $(1) $(INDIVIDUAL_CSV_DEPENDENCIES_$(1))
-	@echo "=============================== Validating $$< ===============================" 
-	@$(CSVW_CHECK) "$$<"
-	@echo "" > "$(CSVW_LOG_FILE_$(1))"; # Let the build know that we've validated this file now.
-	@echo ""
-
-$(TTL_FILE_$(1)): $(1) $(INDIVIDUAL_CSV_DEPENDENCIES_$(1))
+$(TTL_FILE_$(1)): $(1) $(INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1))
 	@echo "=============================== Converting $$< to ttl $$@ ==============================="
 	@$$(CSV2RDF) "$$<" -o "$$@"
 	@$$(CONVERT_LIST_VALUES_TO_NODES) "$$@"

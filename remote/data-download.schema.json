@@ -22,7 +22,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/sdPublisher",
-            "valueUrl": "{+metadataPublisherId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
             "name": "title",
@@ -242,29 +242,29 @@
         {
             "columnReference": "metadataPublisherId",
             "reference": {
-                "resource": "person-or-organization.csv",
-                "columnReference": "personOrOrganizationId"
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
             }
         },
         {
             "columnReference": "authorId",
             "reference": {
-                "resource": "person-or-organization.csv",
-                "columnReference": "personOrOrganizationId"
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
             }
         },
         {
             "columnReference": "publisherId",
             "reference": {
-                "resource": "person-or-organization.csv",
-                "columnReference": "personOrOrganizationId"
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
             }
         },
         {
             "columnReference": "producerId",
             "reference": {
-                "resource": "person-or-organization.csv",
-                "columnReference": "personOrOrganizationId"
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
             }
         },
         {

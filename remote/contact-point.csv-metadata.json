@@ -3,8 +3,8 @@
     "@context": "http://www.w3.org/ns/csvw",
     "tables": [
         {
-            "url": "../variable-measured.csv",
-            "tableSchema": "property-value.schema.json"
+            "url": "../contact-point.csv",
+            "tableSchema": "contact-point.schema.json"
         },
         {
             "url": "../out/validation/person-or-organization.csv",

@@ -1,3 +1,3 @@
 MBO Permanent Identifier,Metadata Publisher PID (you),Dataset MBO Identifier,Creator Identifier (you),Comment Text
-MBO_TODO_COMMENT_1,https://oceanexpert.org/expert/27172,mbo_TODO_DATASET_10,https://example.com/someone,This dataset took a lot of hard work to create.
-MBO_TODO_COMMENT_2,https://oceanexpert.org/expert/27172,mbo_TODO_DATASET_5,https://example.com/someone,This one was hard work too.
+MBO_TODO_COMMENT_1,mbo_todo_organization_mbo,mbo_TODO_DATASET_10,mbo_todo_organization_mbo,This dataset took a lot of hard work to create.
+MBO_TODO_COMMENT_2,mbo_todo_organization_mbo,mbo_TODO_DATASET_5,mbo_todo_organization_mbo,This one was hard work too.

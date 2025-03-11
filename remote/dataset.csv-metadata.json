@@ -17,8 +17,8 @@
             "suppressOutput": true
         },
         {
-            "url": "person-or-organization.csv",
-            "tableSchema": "person-or-organization.schema.json",
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
             "suppressOutput": true
         },
         {

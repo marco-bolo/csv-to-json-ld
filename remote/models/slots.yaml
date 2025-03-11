@@ -11,7 +11,7 @@ default_prefix: mbo
 
 slots: 
   # Identifier slots
-  personOrOrganizationId:
+  mboId:
     description: 'The URI PID of the person or organization.'
     identifier: true
     required: true
@@ -28,7 +28,7 @@ slots:
     pattern: '^mbo_\\d{7}$'
     implicit_prefix: mbo
     slot_uri: schema:identifier
-  identifier:
+  identifiers:
     identifier: true
     multivalued: true
     required: false
@@ -44,7 +44,7 @@ slots:
     range: string
     slot_uri: schema:name
   alternateName:
-    required: true
+    required: false
     multivalued: false
     description: 'An alternative name.'
     range: string
@@ -560,7 +560,7 @@ slots:
     required: true
     multivalued: false
     range: string
-    pattern: '^(Airline|Consortium|Corporation|EducationalOrganization|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|MedicalOrganization|NGO|NewsMediaOrganization|OnlineBusiness|PerformingGroup|PoliticalParty|Project|ResearchOrganization|SearchRescueOrganization|SportsOrganization|WorkersUnion)$'
+    pattern: '^(Organization|Airline|Consortium|Corporation|EducationalOrganization|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|MedicalOrganization|NGO|NewsMediaOrganization|OnlineBusiness|PerformingGroup|PoliticalParty|Project|ResearchOrganization|SearchRescueOrganization|SportsOrganization|WorkersUnion)$'
   departmentMboIds:
     description: A department within the organization.
     required: false
@@ -570,7 +570,7 @@ slots:
   parentOrganizationMboId:
     description: Parent organization of this one (inverse of `subOrganizationMboIds`).
     required: false
-    multivalued: true
+    multivalued: false
     range: Organization
     slot_uri: schema:parentOrganization
   memberOfOrganizationMboIds:

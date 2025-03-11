@@ -19,7 +19,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/sdPublisher",
-            "valueUrl": "{+metadataPublisherId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
             "name": "name",
@@ -116,8 +116,8 @@
         {
             "columnReference": "metadataPublisherId",
             "reference": {
-                "resource": "person-or-organization.csv",
-                "columnReference": "personOrOrganizationId"
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "mboId"
             }
         }
     ]

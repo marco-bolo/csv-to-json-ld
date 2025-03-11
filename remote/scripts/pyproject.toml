@@ -12,6 +12,7 @@ packages = [
 [tool.poetry.scripts]
 listcolumnsasnodes = 'mbocsvwscripts.listcolumnsasnodes:main'
 listcolumnforeignkeycheck = 'mbocsvwscripts.listcolumnforeignkeycheck:main'
+unionuniqueidentifiers = 'mbocsvwscripts.unionuniqueidentifiers:main'
 
 [tool.poetry.dependencies]
 python = "^3.12"

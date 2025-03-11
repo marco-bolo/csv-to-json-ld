@@ -3,8 +3,13 @@
     "@context": "http://www.w3.org/ns/csvw",
     "tables": [
         {
-            "url": "../variable-measured.csv",
-            "tableSchema": "property-value.schema.json"
+            "url": "../monetary-grant.csv",
+            "tableSchema": "monetary-grant.schema.json"
+        },
+        {
+            "url": "../organization.csv",
+            "tableSchema": "organization.schema.json",
+            "suppressOutput": true
         },
         {
             "url": "../out/validation/person-or-organization.csv",

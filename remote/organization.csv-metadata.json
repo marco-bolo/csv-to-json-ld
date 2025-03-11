@@ -1,0 +1,25 @@
+
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../organization.csv",
+            "tableSchema": "organization.schema.json"
+        },
+        {
+            "url": "../person.csv",
+            "tableSchema": "person.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../contact-point.csv",
+            "tableSchema": "contact-point.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}
