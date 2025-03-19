@@ -10,7 +10,7 @@
             "suppressOutput": true
         },
         {
-            "name": "metadataPublisherId",
+            "name": "dataEntryPersonId",
             "required": true,
             "titles": {
                 "en": [
@@ -19,7 +19,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/sdPublisher",
-            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
         {
             "name": "name",
@@ -114,7 +114,7 @@
     ],
     "foreignKeys": [
         {
-            "columnReference": "metadataPublisherId",
+            "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
                 "columnReference": "mboId"

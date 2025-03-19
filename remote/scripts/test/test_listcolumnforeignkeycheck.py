@@ -27,6 +27,7 @@ def test_list_column_foreign_key_success():
 
     assert not any(invalid_values)
 
+
 def test_list_column_foreign_key_success_comma_separator():
     invalid_values = _get_invalid_list_column_values(
         TEST_CASES_DIR / "child_table_valid_comma.csv",
@@ -37,6 +38,7 @@ def test_list_column_foreign_key_success_comma_separator():
     )
 
     assert not any(invalid_values)
+
 
 if __name__ == "__main__":
     pytest.main()

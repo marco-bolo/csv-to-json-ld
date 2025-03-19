@@ -65,7 +65,9 @@ def main(
         )
         sys.exit(1)
     else:
-        print(f"All values found in {csv_child_table}['{list_column_title_in_child_table}'] appear to be valid.")
+        print(
+            f"All values found in {csv_child_table}['{list_column_title_in_child_table}'] appear to be valid."
+        )
         sys.exit(0)
 
 
@@ -92,7 +94,7 @@ def _get_invalid_list_column_values(
 def _get_unique_parent_values(column_title_in_parent_table, csv_parent_table):
     parent_table = pd.read_csv(csv_parent_table)
     parent_table_column = parent_table[column_title_in_parent_table]
-    non_null_parent_values: pd.Series = parent_table_column[~parent_table_column.isnull()] # type: ignore
+    non_null_parent_values: pd.Series = parent_table_column[~parent_table_column.isnull()]  # type: ignore
     unique_parent_values = {str(value) for (_, value) in non_null_parent_values.items()}
     return unique_parent_values
 
@@ -102,7 +104,7 @@ def _get_unique_child_table_values(
 ) -> Set[Any]:
     child_table = pd.read_csv(csv_child_table)
     child_table_column = child_table[list_column_title_in_child_table]
-    non_null_child_values: pd.Series = child_table_column[~child_table_column.isnull()] # type: ignore
+    non_null_child_values: pd.Series = child_table_column[~child_table_column.isnull()]  # type: ignore
     return {
         individual_value
         for (_, cell_value) in non_null_child_values.items()

@@ -1,0 +1,9 @@
+
+<https://w3id.org/marco-bolo/mbo_todo_monetary_grant_1> a <https://schema.org/MonetaryGrant>;
+  <https://schema.org/sdPublisher> <https://w3id.org/marco-bolo/mbo_todo_person_roblinksdata>;
+  <https://schema.org/name> "Some grant";
+  <https://schema.org/amount> <https://w3id.org/marco-bolo/mbo_todo_monetary_grant_1#amount> .
+
+<https://w3id.org/marco-bolo/mbo_todo_monetary_grant_1#amount> a <https://schema.org/MonetaryAmount>;
+  <https://schema.org/value> "1";
+  <https://schema.org/currency> "Kudos" .

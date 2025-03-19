@@ -10,16 +10,17 @@
             "suppressOutput": true
         },
         {
-            "name": "metadataPublisherId",
+            "name": "dataEntryPersonId",
             "required": true,
             "titles": {
                 "en": [
-                    "Metadata Publisher PID (you)",
-                    "Metadata Publisher PID"
+                    "Data Entry Person PID (you)",
+                    "Data Entry Person PID"
                 ]
             },
-            "propertyUrl": "https://schema.org/sdPublisher",
-            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "propertyUrl": "https://schema.org/creator",
+            "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
         {
             "name": "name",
@@ -52,6 +53,24 @@
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/CreativeWork"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+licenseId}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "license.csv#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}",
@@ -60,7 +79,7 @@
     ],
     "foreignKeys": [
         {
-            "columnReference": "metadataPublisherId",
+            "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
                 "columnReference": "mboId"

@@ -16,7 +16,7 @@ import rdflib
 @click.argument("ttl_file", type=click.Path(exists=True))
 def main(ttl_file: click.Path):
     """
-    Loads the TTL_FILE and transforms all literals of type <https://w3id.org/marco-bolo/ConvertMboIdToNode> and 
+    Loads the TTL_FILE and transforms all literals of type <https://w3id.org/marco-bolo/ConvertMboIdToNode> and
         <https://w3id.org/marco-bolo/ConvertIriToNode> into references to nodes in the graph.
     """
     _convert_literals_to_nodes_in_file(Path(str(ttl_file)))
@@ -64,9 +64,7 @@ def _update_literals_to_nodes_in_graph_assert_success(
 
     num_remaining = _get_number_to_be_converted_in_graph(graph)
     if num_remaining != 0:
-        raise Exception(
-            f"Failed to convert {num_remaining}literals."
-        )
+        raise Exception(f"Failed to convert {num_remaining}literals.")
 
     return graph
 

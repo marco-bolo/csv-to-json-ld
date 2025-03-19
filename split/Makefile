@@ -9,6 +9,9 @@ RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER
 SPARQL					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER) sparql
 JQ						:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jq
 JSONLD_CLI				:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jsonld
+PARTITON_CLI			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition execute
+PARTITON_LIST_CLI			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition list
+
 
 SCHEMA_ORG_CONTEXT_URL 	:= https://schema.org/docs/jsonldcontext.json
 SCHEMA_ORG_FILE			:= out/resources/schema-context.json
@@ -16,7 +19,7 @@ SCHEMA_ORG_FILE			:= out/resources/schema-context.json
 BULK_TTL_FILES 			:= $(wildcard out/bulk/*.ttl)
 	
 output-directories:
-	@mkdir -p out/ttl
+	@mkdir -p out/raw-jsonld
 	@mkdir -p out/resources
 
 $(SCHEMA_ORG_FILE):
@@ -30,10 +33,10 @@ $(SCHEMA_ORG_FILE):
 
 init: output-directories $(SCHEMA_ORG_FILE)
 
-out/%.json: out/ttl/%.ttl
+out/%.json: out/raw-jsonld/%.json
 	@echo "=============================== Converting $< to schema.org JSON-LD $@ ===============================" ;
 
-	@# 1. We do a raw conversion of the TTL into JSON-LD
+	@# 1. We do a raw conversion of the raw JSON-LD into tidier schema.org JSON-LD
 	@# 2. We change all https://schema.org/ URIs to http://schema.org/ in preparation for compaction 
 	@# 		against the schema.org JSON-LD context (which uses exclusively http://schema.org URIs).
 	@# 3. We now compact against the schema.org JSON-LD context so we can have things like `"@type": "Dataset"` 
@@ -41,7 +44,7 @@ out/%.json: out/ttl/%.ttl
 	@# 4. Then we set the context to make use of the schema.org context, but tell it to use https URIs instead 
 	@# 		of http.
 	
-	@$(RIOT) --syntax ttl --out json-ld "$<" \
+	@cat "$<" \
 		| sed 's/https:\/\/schema.org\//http:\/\/schema.org\//g' \
 		| $(JSONLD_CLI) compact --context "$(SCHEMA_ORG_FILE)" --allow all \
 		| $(JQ) '.["@context"] = { "@import": "https://schema.org/", "schema": "https://schema.org/" }' > "$@";
@@ -56,35 +59,22 @@ define SPLIT_TTL =
 #   Overall it queries the bulk TTL file for the unique subjects defined therein, pulls out the slug
 #	from each of them and then converts that into an `out/ttl/file-name.ttl` which is where that subject's 
 #	data will be placed. 
-$(eval INDIVIDUAL_TTL_FILE_NAMES_$(1) = \
-  $(shell $(SPARQL) --data "$(1)" --results tsv --query remote/get-document-uri-partitions.sparql \
-    | tail -n +2 \
-	| cut -c 2- \
-	| rev \
-	| cut -c 2- \
-	| rev \
-	| xargs basename -a \
-	| sed -e 's/^\(.*\)$$/out\/ttl\/\\\1.ttl/' \
-	| xargs ))
-$(eval SPLIT_TTL_FILES += $(INDIVIDUAL_TTL_FILE_NAMES_$(1)))
+$(eval INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1) = \
+  $(shell $(PARTITON_LIST_CLI) --out out/raw-jsonld "$(1)" ))
+$(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)))
 
-$(INDIVIDUAL_TTL_FILE_NAMES_$(1)) &: $(1)
-	@echo "=============================== Splitting $(1) into $(INDIVIDUAL_TTL_FILE_NAMES_$(1)) ==============================="
-	@$(foreach output_ttl_file,$(INDIVIDUAL_TTL_FILE_NAMES_$(1)), \
-		file_name=$$$$(basename "$(output_ttl_file)"); \
-		uri_stub=$$$$(echo "$$$${file_name%.ttl}"); \
-		$(SPARQL) --data "$(1)" "prefix schema: <https://schema.org/> prefix goos: <https://goosocean.org/document/> prefix mbo: <https://w3id.org/marco-bolo/> CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o. FILTER (STRENDS(STR(?s), \"$$$$uri_stub\") || STRENDS(strbefore(str(?s), '#'), \"$$$$uri_stub\")).}" > "$(output_ttl_file).tmp"; \
-		$(RIOT) --syntax ttl --formatted ttl --check --strict "$(output_ttl_file).tmp" > "$(output_ttl_file)"; \
-		rm -f "$(output_ttl_file).tmp"; \
-		echo "$(output_ttl_file) complete." ;)
+$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) &: $(1)
+	@echo "=============================== Splitting $(1) into $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) ==============================="
+	@$(PARTITON_CLI) --out out/raw-jsonld "$(1)"
+	
+	@echo "Done".
 	@echo ""
 endef
 
 $(foreach file,$(BULK_TTL_FILES),$(eval $(call SPLIT_TTL,$(file))))
 
-SPLIT_JSON_LD_FILES				:= $(SPLIT_TTL_FILES:out/ttl/%.ttl=out/%.json)
-EXPECTED_INDIVIDUAL_OUT_FILES 	:= $(SPLIT_TTL_FILES) $(SPLIT_JSON_LD_FILES)
-
+TIDY_JSON_LD_FILES				:= $(SPLIT_RAW_JSON_LD_FILES:out/raw-jsonld/%=out/%)
+EXPECTED_INDIVIDUAL_OUT_FILES 	:= $(TIDY_JSON_LD_FILES) $(SPLIT_RAW_JSON_LD_FILES)
 
 define DELETE_UNEXPECTED_INDIVIDUAL_FILES
 ifeq ($$(filter $$(file),$(EXPECTED_INDIVIDUAL_OUT_FILES)),) 
@@ -93,16 +83,15 @@ endif
 endef
 
 # Remove orphaned outputs which should no longer be present.
-remove-orphaned: $(wildcard out/*.json) $(wildcard out/ttl/*.ttl)
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.ttl)
 	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
 
-ttl: $(SPLIT_TTL_FILES) remove-orphaned
-jsonld: $(SPLIT_JSON_LD_FILES) remove-orphaned
+jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned
 
 clean:
 	@rm -f $(SCHEMA_ORG_FILE)
 	@rm -rf out/resources
-	@rm -rf out/ttl
-	@rm -f $(SPLIT_JSON_LD_FILES)
+	@rm -rf out/raw-jsonld
+	@rm -f $(TIDY_JSON_LD_FILES)
 
 .DEFAULT_GOAL := jsonld

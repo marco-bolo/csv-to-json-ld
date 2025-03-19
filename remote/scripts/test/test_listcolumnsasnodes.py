@@ -5,7 +5,10 @@ import shutil
 import rdflib
 import pytest
 
-from mbocsvwscripts.listcolumnsasnodes import _convert_literals_to_nodes_in_file, _get_number_to_be_converted_in_graph
+from mbocsvwscripts.listcolumnsasnodes import (
+    _convert_literals_to_nodes_in_file,
+    _get_number_to_be_converted_in_graph,
+)
 from .utils import TEST_CASES_DIR
 
 
@@ -48,14 +51,14 @@ def test_mbo_list_columns_values_converted_to_node_references():
         assert list(results) == [True]
 
 
-
 def test_number_literals_to_be_converted_in_graph():
     graph = rdflib.Graph()
     graph = graph.parse(TEST_CASES_DIR / "dataset.ttl", format="ttl")
 
     num_to_be_converted = _get_number_to_be_converted_in_graph(graph)
 
-    assert(num_to_be_converted == 10)
+    assert num_to_be_converted == 10
+
 
 if __name__ == "__main__":
     pytest.main()
