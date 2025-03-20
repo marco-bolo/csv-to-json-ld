@@ -7,8 +7,9 @@ Converts literals of type <https://w3id.org/marco-bolo/ConvertMboIdToNode> and <
 This makes up for a limitation in the CSV on the web standard, see <https://lists.w3.org/Archives/Public/public-csvw/2016Aug/0001.html>.
 """
 
-import click
 from pathlib import Path
+
+import click
 import rdflib
 
 

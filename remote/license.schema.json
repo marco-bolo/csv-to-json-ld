@@ -18,7 +18,7 @@
                     "Data Entry Person PID"
                 ]
             },
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-input-metadata",
             "propertyUrl": "https://schema.org/creator",
             "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
@@ -56,21 +56,27 @@
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-input-metadata",
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/DataDownload"
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-input-metadata",
             "propertyUrl": "https://schema.org/about",
             "valueUrl": "https://w3id.org/marco-bolo/{+licenseId}"
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-data",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}-input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "license.csv#row={_row}"
+            "valueUrl": "https://raw.githubusercontent.com/marco-bolo/csv-to-json-ld/refs/heads/main/license.csv#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}",

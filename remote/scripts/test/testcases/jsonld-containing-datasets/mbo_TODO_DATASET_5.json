@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_TODO_DATASET_5",
+  "@type": "Dataset",
+  "conditionsOfAccess": "I don’t want to publish it please.",
+  "description": "Some third description",
+  "license": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1",
+  "name": "Some third title",
+  "sdPublisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+  },
+  "url": "https://example.com/some-even-further-landing-page",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/MBO_variable_measured_1"
+  },
+  "https://w3id.org/marco-bolo/inProgressDataDate#TODO": {
+    "@type": "Date",
+    "@value": "2028-01-01"
+  }
+}

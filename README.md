@@ -96,3 +96,6 @@ This is an identifier which is used in CSV-W metadata documents and is necessary
 
 N.B. <https://w3id.org/marco-bolo/ConvertIriToNode> provides a similar function but more generally for IRIs.
 
+## <https://w3id.org/marco-bolo/InputMetadataDescription>
+
+This is an identifier which is used to internally track the parametadata describing who input the metadata about something, when it was done, etc. It is helpful since some of the metadata which helps distinguish parametadata from 

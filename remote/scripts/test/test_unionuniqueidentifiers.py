@@ -1,8 +1,8 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-import pytest
 import pandas as pd
+import pytest
 
 from mbocsvwscripts.unionuniqueidentifiers import _union_identifiers
 from .utils import TEST_CASES_DIR

@@ -1,9 +1,9 @@
+import shutil
 from pathlib import Path
 from tempfile import TemporaryDirectory
-import shutil
 
-import rdflib
 import pytest
+import rdflib
 
 from mbocsvwscripts.listcolumnsasnodes import (
     _convert_literals_to_nodes_in_file,

@@ -9,10 +9,15 @@ LABEL org.opencontainers.image.licenses=CC0-1.0
 RUN apk update && apk add bash jq npm
 RUN npm install -g jsonld-cli
 
+RUN pip install poetry
+
 RUN mkdir -p /scripts
 
 COPY ./ /scripts
 
 WORKDIR /scripts
+
+RUN poetry install
+RUN poetry run pytest
 
 RUN pip install .

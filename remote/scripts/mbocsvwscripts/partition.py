@@ -5,8 +5,8 @@ partition
 Partitions ttl files into multiple JSON-LD files with one subject per file.
 """
 
-from typing import Set
 from pathlib import Path
+from typing import Set
 from urllib.parse import urlparse
 
 import click
@@ -61,8 +61,8 @@ def _list_partition_files_out(bulk_ttl_file: Path, out_folder: Path) -> Set[Path
     bulk_ttl_graph.parse(bulk_ttl_file, format="ttl")
 
     return {
-        _get_partition_file_path(out_folder, partition)
-        for partition in _get_partition_uri_prefixes(bulk_ttl_graph)
+        _get_partition_file_path(out_folder, part)
+        for part in _get_partition_uri_prefixes(bulk_ttl_graph)
     }
 
 
@@ -70,21 +70,19 @@ def _partition_to_individual_files(bulk_ttl_file: Path, out_folder: Path) -> Non
     bulk_ttl_graph = rdflib.Graph()
     bulk_ttl_graph.parse(bulk_ttl_file, format="ttl")
 
-    for partition in _get_partition_uri_prefixes(bulk_ttl_graph):
-        partitioned_triples = _partition_triples(bulk_ttl_graph, partition)
+    for part in _get_partition_uri_prefixes(bulk_ttl_graph):
+        partitioned_triples = _partition_triples(bulk_ttl_graph, part)
 
-        partition_file_path = _get_partition_file_path(out_folder, partition)
+        partition_file_path = _get_partition_file_path(out_folder, part)
         partitioned_triples.serialize(partition_file_path, format="json-ld")
 
 
-def _get_partition_file_path(
-    out_folder: Path, partition: rdflib.term.Identifier
-) -> Path:
-    url_slug = Path(urlparse(str(partition)).path).parts[-1]
+def _get_partition_file_path(out_folder: Path, part: rdflib.term.Identifier) -> Path:
+    url_slug = Path(urlparse(str(part)).path).parts[-1]
     return out_folder / f"{url_slug}.json"
 
 
-def _partition_triples(bulk_ttl_graph: rdflib.Graph, partition: rdflib.term.Identifier):
+def _partition_triples(bulk_ttl_graph: rdflib.Graph, part: rdflib.term.Identifier):
     partitioned_triples_graph = rdflib.Graph()
     partitioned_triple_results = bulk_ttl_graph.query(
         """
@@ -100,7 +98,7 @@ def _partition_triples(bulk_ttl_graph: rdflib.Graph, partition: rdflib.term.Iden
                 FILTER(str(?s) = ?v || strbefore(str(?s), '#') = ?v)
             }
         """,
-        initBindings={"v": partition},
+        initBindings={"v": part},
     )
 
     for partitioned_triple in partitioned_triple_results:
@@ -135,4 +133,4 @@ def _get_partition_uri_prefixes(
 
 
 if __name__ == "__main__":
-    partition()
+    main()

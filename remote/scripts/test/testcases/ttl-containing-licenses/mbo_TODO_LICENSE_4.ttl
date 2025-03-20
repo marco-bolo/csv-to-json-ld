@@ -1,0 +1,7 @@
+PREFIX schema: <https://schema.org/>
+
+<https://w3id.org/marco-bolo/mbo_TODO_LICENSE_4>
+        a                   schema:CreativeWork;
+        schema:description  "This license was released: 19 May 2016. This license is available in the 22 official languages of the EU.";
+        schema:name         "European Union Public License 1.2";
+        schema:url          <https://spdx.org/licenses/EUPL-1.2> .

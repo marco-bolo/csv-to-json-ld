@@ -23,8 +23,7 @@ JSONLD_CLI						:= $(MBO_TOOLS_DOCKER_RUN) jsonld
 CSVW_METADATA_FILES 			:= $(wildcard remote/*.csv-metadata.json)
 CSVW_METADATA_VALIDATION_FILES	:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/validation/%.log)
 BULK_TTL_FILES    				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bulk/%.ttl)
-BULK_JSON_LD_FILES 				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bulk/%.json)
-EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES) $(BULK_JSON_LD_FILES)
+EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES)
 REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
 # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
@@ -115,8 +114,6 @@ out/bulk/%.json: out/bulk/%.ttl
 	@echo "";
 
 bulk-ttl: $(BULK_TTL_FILES) remove-orphaned
-
-bulk-jsonld: $(BULK_JSON_LD_FILES) remove-orphaned
 
 jsonld: $(BULK_TTL_FILES)
 	@$(MAKE) -f split/Makefile jsonld

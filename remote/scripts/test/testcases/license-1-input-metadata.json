@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_2-input-metadata",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "DataDownload"
+  ],
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_2"
+  },
+  "contentUrl": "https://raw.githubusercontent.com/marco-bolo/csv-to-json-ld/refs/heads/main/license.csv#row=2",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+  }
+}

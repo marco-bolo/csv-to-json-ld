@@ -53,11 +53,11 @@ out/%.json: out/raw-jsonld/%.json
 
 define SPLIT_TTL =
 # The following line is a bit of a beast.
-# 	It creates a variable called `INDIVIDUAL_TTL_FILE_NAMES_$(1)` which is unique to each bulk TTL file.
+# 	It creates a variable called `INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)` which is unique to each bulk TTL file.
 # 	This is necessary so we don't get conflicting variables in the same scope.
 #
 #   Overall it queries the bulk TTL file for the unique subjects defined therein, pulls out the slug
-#	from each of them and then converts that into an `out/ttl/file-name.ttl` which is where that subject's 
+#	from each of them and then converts that into an `out/raw-jsonld/file-name.json` which is where that subject's 
 #	data will be placed. 
 $(eval INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1) = \
   $(shell $(PARTITON_LIST_CLI) --out out/raw-jsonld "$(1)" ))
@@ -83,7 +83,7 @@ endif
 endef
 
 # Remove orphaned outputs which should no longer be present.
-remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.ttl)
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) 
 	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
 
 jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned
