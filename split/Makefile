@@ -52,14 +52,6 @@ out/%.json: out/raw-jsonld/%.json
 
 	@echo "";
 
-define GENERATE_INPUT_METADATA_FILE =
-$(eval INPUT_METADATA_FILE_$(1) := $(1:%.json=%-input-metadata.json))
-
-$(INPUT_METADATA_FILE_$(1)): $(1)
-	@echo "=============================== Creating $(INPUT_METADATA_FILE_$(1)) input metadata description file."
-	@$(PROCESS_PARA_METADATA) "$(1)" "$(INPUT_METADATA_FILE_$(1))"
-endef
-
 define SPLIT_TTL =
 # The following line is a bit of a beast.
 # 	It creates a variable called `INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)` which is unique to each bulk TTL file.
@@ -72,14 +64,16 @@ $(eval INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1) = \
   $(shell $(PARTITON_LIST_CLI) --out out/raw-jsonld "$(1)" ))
 $(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):%.json=%-input-metadata.json))
 
-$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) &: $(1)
-	@echo "=============================== Splitting $(1) into $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) ==============================="
+$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):%.json=%-input-metadata.json)  &: $(1)
+	@echo "=============================== Splitting $(1) into $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) and associated para-metadata files ==============================="
 	@$(PARTITON_CLI) --out out/raw-jsonld "$(1)"
-	
+	@$(foreach file,$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)),\
+		$(eval INPUT_METADATA_FILE_$(file) := $(file:%.json=%-input-metadata.json)) \
+		$(PROCESS_PARA_METADATA) "$(file)" "$(INPUT_METADATA_FILE_$(file))"; \
+	)
 	@echo "Done".
 	@echo ""
 
-$(foreach file,$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)),$(eval $(call GENERATE_INPUT_METADATA_FILE,$(file))))
 
 endef
 
