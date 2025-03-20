@@ -13,7 +13,6 @@ jobs:
   docker_build_push:
     env:
       GIT_REF: ${{ github.ref }}
-    if: startsWith(github.ref, 'refs/tags/v')
     permissions:
       contents: read
       packages: write
