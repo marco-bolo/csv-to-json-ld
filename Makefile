@@ -6,7 +6,7 @@ WORKING_DIR			:= $(shell pwd)
 CSVW_CHECK_DOCKER	:= roblinksdata/csvw-check:latest
 CSV2RDF_DOCKER		:= europe-west2-docker.pkg.dev/swirrl-devops-infrastructure-1/public/csv2rdf:v0.7.1
 JENA_CLI_DOCKER		:= gsscogs/gss-jvm-build-tools:latest
-MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
+MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-16
 
 CSVW_CHECK						:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(CSVW_CHECK_DOCKER) -s
 CSV2RDF							:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(CSV2RDF_DOCKER) csv2rdf -m minimal -u 
@@ -123,7 +123,7 @@ init:
 	@$(MAKE) -f split/Makefile init
 
 all:
-	@$(MAKE) init validate bulk-jsonld jsonld
+	@$(MAKE) init validate jsonld
 
 define DELETE_UNEXPECTED_BULK_FILES
 ifeq ($$(filter $$(file),$(EXPECTED_BULK_OUT_FILES)),) 

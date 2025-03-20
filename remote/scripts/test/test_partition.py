@@ -2,14 +2,12 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 import pytest
-import rdflib
-from rdflib.compare import graph_diff
 
 from mbocsvwscripts.partition import (
     _partition_to_individual_files,
     _list_partition_files_out,
 )
-from .utils import TEST_CASES_DIR
+from .utils import TEST_CASES_DIR, assert_file_contains_only_these_triples
 
 
 def test_expected_partitions_listed():
@@ -46,7 +44,7 @@ def test_partitions_contain_expected_triples():
         tmp_dir = Path(tmp_dir)
         _partition_to_individual_files(TEST_CASES_DIR / "bulk-licenses.ttl", tmp_dir)
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_1.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -58,7 +56,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_1-data.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -71,7 +69,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_2.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -84,7 +82,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_2-data.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -97,7 +95,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_3.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -110,7 +108,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_3-data.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -123,7 +121,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_4.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -136,7 +134,7 @@ def test_partitions_contain_expected_triples():
         """,
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_TODO_LICENSE_4-data.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -160,7 +158,7 @@ def test_partitions_contains_expected_hash_urls():
             TEST_CASES_DIR / "bulk-monetary-grant.ttl", tmp_dir
         )
 
-        _assert_file_contains_only_these_triples(
+        assert_file_contains_only_these_triples(
             tmp_dir / "mbo_todo_monetary_grant_1.json",
             """
             @prefix mbo: <https://w3id.org/marco-bolo/>.
@@ -176,18 +174,6 @@ def test_partitions_contains_expected_hash_urls():
               schema:currency "Kudos" .
         """,
         )
-
-
-def _assert_file_contains_only_these_triples(
-    actual_triples_file: Path, expected_ttl: str
-) -> None:
-    expected_graph = rdflib.Graph()
-    expected_graph.parse(data=expected_ttl, format="ttl")
-    actual_graph: rdflib.Graph = rdflib.Graph()
-    actual_graph.parse(actual_triples_file)
-    (_, in_first, in_second) = graph_diff(expected_graph, actual_graph)
-    assert not any(in_first), list(in_first)
-    assert not any(in_second), list(in_second)
 
 
 if __name__ == "__main__":

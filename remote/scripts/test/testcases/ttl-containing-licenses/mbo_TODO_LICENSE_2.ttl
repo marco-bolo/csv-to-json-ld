@@ -1,7 +1,0 @@
-PREFIX schema: <https://schema.org/>
-
-<https://w3id.org/marco-bolo/mbo_TODO_LICENSE_2>
-        a                   schema:CreativeWork;
-        schema:description  "The European Commission has approved the EUPL on 9 January 2007.";
-        schema:name         "European Union Public License 1.0";
-        schema:url          <https://spdx.org/licenses/EUPL-1.0> .

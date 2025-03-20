@@ -1,7 +1,0 @@
-PREFIX schema: <https://schema.org/>
-
-<https://w3id.org/marco-bolo/mbo_TODO_LICENSE_3-input-metadata>
-        a                  <https://w3id.org/marco-bolo/InputMetadataDescription> , schema:DataDownload;
-        schema:about       <https://w3id.org/marco-bolo/mbo_TODO_LICENSE_3>;
-        schema:contentUrl  <https://raw.githubusercontent.com/marco-bolo/csv-to-json-ld/refs/heads/main/license.csv#row=3>;
-        schema:creator     <https://w3id.org/marco-bolo/mbo_todo_organization_mbo> .

@@ -1,6 +1,0 @@
-PREFIX schema: <https://schema.org/>
-
-<https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1>
-        a            schema:CreativeWork;
-        schema:name  "Creative Commons Zero v1.0 Universal";
-        schema:url   <https://spdx.org/licenses/CC0-1.0> .

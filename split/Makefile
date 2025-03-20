@@ -2,7 +2,7 @@
 
 WORKING_DIR				:= $(shell pwd)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
-MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
+MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-16
 
 
 RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER) riot
@@ -10,7 +10,8 @@ SPARQL					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCK
 JQ						:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jq
 JSONLD_CLI				:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jsonld
 PARTITON_CLI			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition execute
-PARTITON_LIST_CLI			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition list
+PARTITON_LIST_CLI		:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition list
+PROCESS_PARA_METADATA	:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" processparametadata
 
 
 SCHEMA_ORG_CONTEXT_URL 	:= https://schema.org/docs/jsonldcontext.json
@@ -51,6 +52,14 @@ out/%.json: out/raw-jsonld/%.json
 
 	@echo "";
 
+define GENERATE_INPUT_METADATA_FILE =
+$(eval INPUT_METADATA_FILE_$(1) := $(1:%.json=%-input-metadata.json))
+
+$(INPUT_METADATA_FILE_$(1)): $(1)
+	@echo "=============================== Creating $(INPUT_METADATA_FILE_$(1)) input metadata description file."
+	@$(PROCESS_PARA_METADATA) "$(1)" "$(INPUT_METADATA_FILE_$(1))"
+endef
+
 define SPLIT_TTL =
 # The following line is a bit of a beast.
 # 	It creates a variable called `INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)` which is unique to each bulk TTL file.
@@ -61,7 +70,7 @@ define SPLIT_TTL =
 #	data will be placed. 
 $(eval INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1) = \
   $(shell $(PARTITON_LIST_CLI) --out out/raw-jsonld "$(1)" ))
-$(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)))
+$(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):%.json=%-input-metadata.json))
 
 $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) &: $(1)
 	@echo "=============================== Splitting $(1) into $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) ==============================="
@@ -69,6 +78,9 @@ $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) &: $(1)
 	
 	@echo "Done".
 	@echo ""
+
+$(foreach file,$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)),$(eval $(call GENERATE_INPUT_METADATA_FILE,$(file))))
+
 endef
 
 $(foreach file,$(BULK_TTL_FILES),$(eval $(call SPLIT_TTL,$(file))))

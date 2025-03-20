@@ -1,0 +1,41 @@
+[
+  {
+    "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1",
+    "@type": [
+      "https://schema.org/CreativeWork"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Creative Commons Zero v1.0 Universal"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://spdx.org/licenses/CC0-1.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1#input-metadata",
+    "@type": [
+      "https://w3id.org/marco-bolo/InputMetadataDescription",
+      "https://schema.org/DataDownload"
+    ],
+    "https://schema.org/dateCreated": "2019-01-01T00:00:00Z",
+    "https://schema.org/about": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1"
+      }
+    ],
+    "https://schema.org/contentUrl": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1"
+      }
+    ],
+    "https://schema.org/creator": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      }
+    ]
+  }
+]
