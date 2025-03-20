@@ -39,7 +39,7 @@
             "required": true,
             "titles": {
                 "en": [
-                    "Creator Identifier (you)",
+                    "Creator Identifier",
                     "Creator"
                 ]
             },
