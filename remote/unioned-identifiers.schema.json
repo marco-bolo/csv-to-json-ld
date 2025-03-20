@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "columns": [
         {
-            "name": "mboId",
+            "name": "id",
             "required": true,
             "titles": {
                 "en": ["MBO PID"]
@@ -10,8 +10,8 @@
             "suppressOutput": true
         }
     ],
-    "aboutUrl": "https://w3id.org/marco-bolo/{+mboId}",
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
     "primaryKey": [
-        "mboId"
+        "id"
     ]
 }

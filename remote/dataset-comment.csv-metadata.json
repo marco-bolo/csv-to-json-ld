@@ -13,7 +13,7 @@
         },
         {
             "url": "../variable-measured.csv",
-            "tableSchema": "property-value.schema.json",
+            "tableSchema": "variable-measured.schema.json",
             "suppressOutput": true
         },
         {

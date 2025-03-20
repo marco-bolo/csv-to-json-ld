@@ -4,7 +4,7 @@
     "tables": [
         {
             "url": "../variable-measured.csv",
-            "tableSchema": "property-value.schema.json"
+            "tableSchema": "variable-measured.schema.json"
         },
         {
             "url": "../out/validation/person-or-organization.csv",

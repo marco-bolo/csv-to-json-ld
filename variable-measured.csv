@@ -1,4 +1,4 @@
-MBO PID,Metadata Publisher PID (you),Title,Description,Permanent Identifier,Measurement Method,Measurement Technique,Minimum Value,Maximum Value,Unit Code,Unit Text
+MBO PID,Data Entry Person PID (you),Title,Description,Permanent Identifier,Measurement Method,Measurement Technique,Minimum Value,Maximum Value,Unit Code,Unit Text
 MBO_variable_measured_1,mbo_todo_organization_mbo,Number of hotdogs consumed,Number of hotdogs consumed per person in a one minute competitive eating competition.,,Manual counting,"We counted out 20 hot dogs per participant before the minute elapsed, and counted the number remaining at the end.",0.5,6,HOTDOGS,Number of hotdogs
 MBO_variable_measured_eov_1,mbo_todo_organization_mbo,Zooplankton biomass and diversity,Zooplankton biomass and diversity, https://goosocean.org/document/17509,,,,,,
 MBO_variable_measured_eov_2,mbo_todo_organization_mbo,Phytoplankton biomass and diversity,Phytoplankton biomass and diversity, https://goosocean.org/document/17507,,,,,,

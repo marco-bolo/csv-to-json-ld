@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "columns": [
         {
-            "name": "licenseId",
+            "name": "id",
             "required": true,
             "titles": {
                 "en": ["MBO PID", "MBO Permanent Identifier"]
@@ -18,7 +18,7 @@
                     "Data Entry Person PID"
                 ]
             },
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}#input-metadata",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/creator",
             "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
@@ -56,39 +56,39 @@
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}#input-metadata",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/DataDownload"
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}#input-metadata",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "rdf:type",
             "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}#input-metadata",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/about",
-            "valueUrl": "https://w3id.org/marco-bolo/{+licenseId}"
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
         },
         {
             "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}#input-metadata",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
             "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row={_row}"
         }
     ],
-    "aboutUrl": "https://w3id.org/marco-bolo/{+licenseId}",
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
     "primaryKey": [
-        "licenseId"
+        "id"
     ],
     "foreignKeys": [
         {
             "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
-                "columnReference": "mboId"
+                "columnReference": "id"
             }
         }
     ]

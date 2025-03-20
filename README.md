@@ -98,4 +98,4 @@ N.B. <https://w3id.org/marco-bolo/ConvertIriToNode> provides a similar function 
 
 ## <https://w3id.org/marco-bolo/InputMetadataDescription>
 
-This is an identifier which is used to internally track the parametadata describing who input the metadata about something, when it was done, etc. It is helpful since some of the metadata which helps distinguish parametadata from 
+This is an identifier which is used to internally track the parametadata describing who input the metadata about something, when it was done, etc. It is helpful since some of the metadata which helps distinguish para-metadata from the more practical metadata we're describing here.

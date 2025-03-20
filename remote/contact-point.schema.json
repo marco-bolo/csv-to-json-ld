@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "columns": [
         {
-            "name": "contactPointId",
+            "name": "id",
             "required": true,
             "titles": {
                 "en": [
@@ -17,11 +17,12 @@
             "required": true,
             "titles": {
                 "en": [
-                    "Metadata Publisher PID (you)",
-                    "Metadata Publisher PID"
+                    "Data Entry Person PID (you)",
+                    "Data Entry Person PID"
                 ]
             },
-            "propertyUrl": "https://schema.org/sdPublisher",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/creator",
             "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
         {
@@ -86,18 +87,42 @@
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/Person"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_contact-point.csv#row={_row}"
         }
     ],
-    "aboutUrl": "https://w3id.org/marco-bolo/{+contactPointId}",
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
     "primaryKey": [
-        "contactPointId"
+        "id"
     ],
     "foreignKeys": [
         {
             "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
-                "columnReference": "mboId"
+                "columnReference": "id"
             }
         }
     ]
