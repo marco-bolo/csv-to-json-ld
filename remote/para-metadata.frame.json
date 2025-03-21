@@ -1,0 +1,8 @@
+{
+    "@type": "https://schema.org/Dataset",
+    "distribution": [
+        {
+            "@type": "https://schema.org/DataDownload"
+        }
+    ]
+}

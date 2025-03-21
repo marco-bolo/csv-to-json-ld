@@ -69,7 +69,10 @@ $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(
 	@$(PARTITON_CLI) --out out/raw-jsonld "$(1)"
 	@$(foreach file,$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)),\
 		$(eval INPUT_METADATA_FILE_$(file) := $(file:%.json=%-input-metadata.json)) \
-		$(PROCESS_PARA_METADATA) "$(file)" "$(INPUT_METADATA_FILE_$(file))"; \
+		$(eval INPUT_METADATA_FILE_TMP_$(file) := $(file:%.json=%-input-metadata-tmp.json)) \
+		$(PROCESS_PARA_METADATA) "$(file)" "$(INPUT_METADATA_FILE_TMP_$(file))"; \
+		$(JSONLD_CLI) frame --frame remote/para-metadata.frame.json "$(INPUT_METADATA_FILE_TMP_$(file))" > "$(INPUT_METADATA_FILE_$(file))"; \
+		rm -f "$(INPUT_METADATA_FILE_TMP_$(file))"; \
 	)
 	@echo "Done".
 	@echo ""
@@ -89,7 +92,7 @@ endif
 endef
 
 # Remove orphaned outputs which should no longer be present.
-remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) 
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) $(wildcard out/**/tmp-*.json)
 	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
 
 jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned

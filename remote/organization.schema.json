@@ -81,11 +81,8 @@
             "titles": {
                 "en": ["URL"]
             },
-            "datatype": {
-                "@id": "https://schema.org/URL",
-                "base": "string"
-            },
-            "propertyUrl": "https://schema.org/url"
+            "propertyUrl": "https://schema.org/url",
+            "valueUrl": "{+url}"
         },
         {
             "name": "description",

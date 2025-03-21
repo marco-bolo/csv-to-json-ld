@@ -56,21 +56,21 @@ def test_expected_output_triples_present():
             @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
             
             mbo:mbo_TODO_LICENSE_1-input-metadata a schema:Dataset;
-                                                  schema:dateCreated "2019-01-01T00:00:00Z";
+                                                  schema:dateCreated "2019-01-01T00:00:00Z"^^schema:DateTime;
                                                   schema:about mbo:mbo_TODO_LICENSE_1;
                                                   schema:creator mbo:mbo_todo_organization_mbo;
                                                   schema:distribution <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}>,
                                                                       <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
                                                                       
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}> a schema:DataDownload;
-                                                             schema:dateCreated "2019-01-01T00:00:00Z";
+                                                             schema:dateCreated "2019-01-01T00:00:00Z"^^schema:DateTime;
                                                              schema:creator mbo:mbo_todo_organization_mbo;
                                                              schema:about mbo:mbo_TODO_LICENSE_1;
                                                              schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
                                                              schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1>.
             
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
-                                                                schema:dateCreated "2024-12-13T01:02:03+00:00";
+                                                                schema:dateCreated "2024-12-13T01:02:03+00:00"^^schema:DateTime;
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
                                                                 schema:about mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;

@@ -21,7 +21,10 @@
       "https://w3id.org/marco-bolo/InputMetadataDescription",
       "https://schema.org/DataDownload"
     ],
-    "https://schema.org/dateCreated": "2019-01-01T00:00:00Z",
+    "https://schema.org/dateCreated": {
+      "@type": "https://schema.org/DateTime",
+      "@value": "2019-01-01T00:00:00Z"
+    },
     "https://schema.org/about": [
       {
         "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1"

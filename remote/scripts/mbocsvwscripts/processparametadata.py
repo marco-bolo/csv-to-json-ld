@@ -104,7 +104,7 @@ def _build_para_metadata_graph(uri_described_in_original_metadata: URIRef, input
 
     json_data_download_triples = [
         (jsonld_data_download_uri, RDF.type, SCHEMA.DataDownload),
-        (jsonld_data_download_uri, SCHEMA.dateCreated, Literal(dt_stamp.isoformat())),
+        (jsonld_data_download_uri, SCHEMA.dateCreated, Literal(dt_stamp.isoformat(), datatype=SCHEMA.DateTime)),
         (jsonld_data_download_uri, SCHEMA.creator, MBO_ORGANIZATION_URI),
         (jsonld_data_download_uri, SCHEMA.about, uri_described_in_original_metadata),
         (jsonld_data_download_uri, SCHEMA.encodesCreativeWork, dataset_uri),
