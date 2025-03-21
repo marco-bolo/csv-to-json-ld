@@ -150,34 +150,41 @@ $(eval TTL_FILE_$(1) := $(CSVW_FILE_NAME:%.csv-metadata.json=out/bulk/%.ttl))
 $(eval CSVW_LOG_FILE_$(1) := $(CSVW_FILE_NAME:%.csv-metadata.json=out/validation/%.log))
 $(eval CSVW_DIR_NAME_$(1) := $(shell dirname $$(realpath $(1))))
 
-
-$(eval INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
-			| $(JQ) '.tables[] | .url' \
+$(eval TABLE_SCHEMA_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
+			| $(JQ) '.tables[] | .tableSchema' \
 			| sed 's/"\(.*\)"/\1/g' \
 			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
 			| xargs -l realpath --relative-to "$(WORKING_DIR)" \
 			| xargs;)
+$(eval TABLE_SCHEMA_DEPENDENCIES_$(1) = $(shell $(TABLE_SCHEMA_DEPENDENCIES_COMMAND_$(1)) ))
 
-$(eval INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1) = $(shell $(INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1)) ))
+$(eval CSVCHECK_CSV_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
+			| $(JQ) '.tables[] | .url' \
+			| sed 's/"\(.*\)"/\1/g' \
+			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
+			| xargs -l realpath -q --relative-to "$(WORKING_DIR)" \
+			| xargs;)
+
+$(eval CSVCHECK_CSV_DEPENDENCIES_$(1) = $(shell $(CSVCHECK_CSV_DEPENDENCIES_COMMAND_$(1)) ))
 
 
-$(CSVW_LOG_FILE_$(1)): $(1) $(INDIVIDUAL_CSVCHECK_DEPENDENCIES_COMMAND_$(1))
+$(CSVW_LOG_FILE_$(1)): $(1) $(CSVCHECK_CSV_DEPENDENCIES_$(1)) $(TABLE_SCHEMA_DEPENDENCIES_$(1))
 	@echo "=============================== Validating $$< ===============================" 
 	@$(CSVW_CHECK) "$$<"
 	@echo "" > "$(CSVW_LOG_FILE_$(1))"; # Let the build know that we've validated this file now.
 	@echo ""
 
 
-$(eval INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
+$(eval CSV2RDF_CSV_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
 			| $(JQ) '.tables[] | select(.suppressOutput != true) | .url' \
 			| sed 's/"\(.*\)"/\1/g' \
 			| awk '{print "$(CSVW_DIR_NAME_$(1))/" $$$$0}' \
-			| xargs -l realpath --relative-to "$(WORKING_DIR)" \
+			| xargs -l realpath -q --relative-to "$(WORKING_DIR)" \
 			| xargs;)
 
-$(eval INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1) = $(shell $(INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1)) ))
+$(eval CSV2RDF_CSV_DEPENDENCIES_$(1) = $(shell $(CSV2RDF_CSV_DEPENDENCIES_COMMAND_$(1)) ))
 
-$(TTL_FILE_$(1)): $(1) $(INDIVIDUAL_CSV2RDF_DEPENDENCIES_COMMAND_$(1))
+$(TTL_FILE_$(1)): $(1) $(CSV2RDF_CSV_DEPENDENCIES_$(1)) $(TABLE_SCHEMA_DEPENDENCIES_$(1))
 	@echo "=============================== Converting $$< to ttl $$@ ==============================="
 	@$$(CSV2RDF) "$$<" -o "$$@"
 	@$$(CONVERT_LIST_VALUES_TO_NODES) "$$@"
