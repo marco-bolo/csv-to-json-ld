@@ -128,7 +128,7 @@ def _build_para_metadata_graph(
         (jsonld_data_download_uri, RDF.type, SCHEMA.DataDownload),
         (
             jsonld_data_download_uri,
-            SCHEMA.dateCreated,
+            SCHEMA.dateModified,
             Literal(date_created.isoformat(), datatype=SCHEMA.Date),
         ),
         (jsonld_data_download_uri, SCHEMA.creator, MBO_ORGANIZATION_URI),

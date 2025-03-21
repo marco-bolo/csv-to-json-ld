@@ -76,7 +76,7 @@ def test_expected_output_triples_present():
                                                              schema:encodingFormat "text/csv".
             
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
-                                                                schema:dateCreated "2024-12-13"^^schema:Date;
+                                                                schema:dateModified "2024-12-13"^^schema:Date;
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
                                                                 schema:about mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
