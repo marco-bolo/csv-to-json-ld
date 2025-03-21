@@ -22,8 +22,8 @@
       "https://schema.org/DataDownload"
     ],
     "https://schema.org/dateCreated": {
-      "@type": "https://schema.org/DateTime",
-      "@value": "2019-01-01T00:00:00Z"
+      "@type": "https://schema.org/Date",
+      "@value": "2019-01-01"
     },
     "https://schema.org/about": [
       {

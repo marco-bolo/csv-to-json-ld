@@ -1,8 +1,8 @@
+import shutil
+from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Tuple, Optional
-import shutil
-from datetime import datetime
 
 import pytest
 import rdflib
@@ -10,9 +10,14 @@ import rdflib
 from mbocsvwscripts.processparametadata import (
     _process_para_metadata,
     INPUT_METADATA_DATA_TYPE_URI,
-    MBO_ORGANIZATION_URI, MBO,
+    MBO_ORGANIZATION_URI,
+    MBO,
 )
-from .utils import TEST_CASES_DIR, assert_file_contains_only_these_triples, assert_file_contains_these_triples
+from .utils import (
+    TEST_CASES_DIR,
+    assert_file_contains_only_these_triples,
+    assert_file_contains_these_triples,
+)
 
 
 def test_removal_of_triples_from_input():
@@ -45,7 +50,7 @@ def test_expected_output_triples_present():
             TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
             "mbo_TODO_LICENSE_1-input-metadata.json",
             tmp_dir,
-            dt_stamp=datetime.fromisoformat("2024-12-13T01:02:03Z"),
+            date_created=date.fromisoformat("2024-12-13"),
         )
 
         assert_file_contains_only_these_triples(
@@ -56,25 +61,27 @@ def test_expected_output_triples_present():
             @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
             
             mbo:mbo_TODO_LICENSE_1-input-metadata a schema:Dataset;
-                                                  schema:dateCreated "2019-01-01T00:00:00Z"^^schema:DateTime;
+                                                  schema:dateCreated "2019-01-01"^^schema:Date;
                                                   schema:about mbo:mbo_TODO_LICENSE_1;
                                                   schema:creator mbo:mbo_todo_organization_mbo;
                                                   schema:distribution <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}>,
                                                                       <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
                                                                       
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}> a schema:DataDownload;
-                                                             schema:dateCreated "2019-01-01T00:00:00Z"^^schema:DateTime;
+                                                             schema:dateCreated "2019-01-01"^^schema:Date;
                                                              schema:creator mbo:mbo_todo_organization_mbo;
                                                              schema:about mbo:mbo_TODO_LICENSE_1;
                                                              schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                             schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1>.
+                                                             schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1>;
+                                                             schema:encodingFormat "text/csv".
             
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
-                                                                schema:dateCreated "2024-12-13T01:02:03+00:00"^^schema:DateTime;
+                                                                schema:dateCreated "2024-12-13"^^schema:Date;
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
                                                                 schema:about mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                                schema:contentUrl mbo:mbo_TODO_LICENSE_1.
+                                                                schema:contentUrl mbo:mbo_TODO_LICENSE_1;
+                                                                schema:encodingFormat "application/ld+json".
         """,
         )
 
@@ -87,7 +94,7 @@ def test_github_output_triples_present():
             TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
             "mbo_TODO_LICENSE_1-input-metadata.json",
             tmp_dir,
-            git_repo_commit_file_url=github_repo_commit_file_url
+            git_repo_commit_file_url=github_repo_commit_file_url,
         )
 
         assert_file_contains_these_triples(
@@ -96,7 +103,7 @@ def test_github_output_triples_present():
                 prefix schema: <https://schema.org/>
                 prefix mbo: <https://w3id.org/marco-bolo/>
             """,
-            f"mbo:mbo_TODO_LICENSE_1-input-metadata schema:archivedAt <{github_repo_commit_file_url}>."
+            f"mbo:mbo_TODO_LICENSE_1-input-metadata schema:archivedAt <{github_repo_commit_file_url}>.",
         )
 
 
@@ -104,8 +111,8 @@ def _augment_input_metadata_tmp_dir(
     input_file: Path,
     output_file_name: str,
     tmp_dir: Path,
-    dt_stamp: datetime = datetime.fromisoformat("2020-01-01T01:02:03Z"),
-    git_repo_commit_file_url: Optional[str] = None
+    date_created: date = date.fromisoformat("2020-01-01"),
+    git_repo_commit_file_url: Optional[str] = None,
 ) -> Tuple[Path, Path]:
     """
     We don't want to overwrite our test cases file. So this copies it to the given temporary dir for us.
@@ -114,7 +121,12 @@ def _augment_input_metadata_tmp_dir(
     tmp_input_file = tmp_dir / input_file.name
     shutil.copy(input_file, tmp_input_file)
     output_file = tmp_dir / output_file_name
-    _process_para_metadata(tmp_input_file, output_file, dt_stamp, git_repo_commit_file_url=git_repo_commit_file_url)
+    _process_para_metadata(
+        tmp_input_file,
+        output_file,
+        date_created,
+        git_repo_commit_file_url=git_repo_commit_file_url,
+    )
 
     return tmp_input_file, output_file
 

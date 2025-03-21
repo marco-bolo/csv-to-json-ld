@@ -1,5 +1,8 @@
 .PHONY: split clean output-directories init remove-orphaned
 
+GIT_HASH			:= $(shell git rev-parse --verify HEAD)
+GIT_HASH_REPO_URL	:= https://github.com/marco-bolo/csv-to-json-ld/tree/$(GIT_HASH)
+
 WORKING_DIR				:= $(shell pwd)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
 MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-16
@@ -70,7 +73,7 @@ $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(
 	@$(foreach file,$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)),\
 		$(eval INPUT_METADATA_FILE_$(file) := $(file:%.json=%-input-metadata.json)) \
 		$(eval INPUT_METADATA_FILE_TMP_$(file) := $(file:%.json=%-input-metadata-tmp.json)) \
-		$(PROCESS_PARA_METADATA) "$(file)" "$(INPUT_METADATA_FILE_TMP_$(file))"; \
+		$(PROCESS_PARA_METADATA) --git_repo_commit_file_url "$(GIT_HASH_REPO_URL)" "$(file)" "$(INPUT_METADATA_FILE_TMP_$(file))"; \
 		$(JSONLD_CLI) frame --frame remote/para-metadata.frame.json "$(INPUT_METADATA_FILE_TMP_$(file))" > "$(INPUT_METADATA_FILE_$(file))"; \
 		rm -f "$(INPUT_METADATA_FILE_TMP_$(file))"; \
 	)

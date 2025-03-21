@@ -22,20 +22,25 @@ def assert_file_contains_only_these_triples(
     assert not any(in_first), list(in_first)
     assert not any(in_second), list(in_second)
 
+
 def assert_file_contains_these_triples(
     actual_triples_file: Path, prefixes: str, expected_ttl: str
 ) -> None:
     actual_graph: rdflib.Graph = rdflib.Graph()
     actual_graph.parse(actual_triples_file)
 
-    results = list(actual_graph.query(f"""
+    results = list(
+        actual_graph.query(
+            f"""
         {prefixes}
         
         ASK 
         WHERE {{
             {expected_ttl}
         }}
-    """))
+    """
+        )
+    )
 
     assert len(results) == 1
     assert isinstance(results[0], bool)
