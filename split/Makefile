@@ -95,7 +95,7 @@ endif
 endef
 
 # Remove orphaned outputs which should no longer be present.
-remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) $(wildcard out/**/tmp-*.json)
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) $(wildcard out/**/*-tmp.json)
 	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
 
 jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned
