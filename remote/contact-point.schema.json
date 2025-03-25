@@ -26,6 +26,18 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
         {
+            "name": "dataEntryTaskActionId",
+            "required": true,
+            "titles": {
+                "en": [
+                    "Data Entered for Action (MBO ID)"
+                ]
+            },
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryTaskActionId}"
+        },
+        {
             "name": "contactType",
             "required": true,
             "titles": {
@@ -122,6 +134,13 @@
             "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "dataEntryTaskActionId",
+            "reference": {
+                "resource": "../create-action.csv",
                 "columnReference": "id"
             }
         }

@@ -25,6 +25,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - abstract
       - description
@@ -33,6 +34,7 @@ classes:
       - participantIds
       - actionInputPids
       - resultingDatasetMboIds
+      - childActionMboIds
 
   HowTo:
     description: |
@@ -43,6 +45,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - description
       - howToStepMboId
@@ -62,6 +65,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - positionInParent
       - abstract
@@ -84,6 +88,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - positionInParent
       - description
@@ -96,6 +101,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - description
       - landingPage
@@ -135,6 +141,7 @@ classes:
     class_uri: schema:Person
     slots:
       - metadataPublisherId
+      - metadataDescribedForActionId
       - givenName
       - familyName
       - worksForOrganizationMboIds
@@ -147,6 +154,7 @@ classes:
     class_uri: schema:Organization
     slots:
       - metadataPublisherId
+      - metadataDescribedForActionId
       - organizationType
       - name
       - legalName
@@ -169,6 +177,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - contactType
       - name
       - email
@@ -182,6 +191,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - licenseUrl
       - description
@@ -192,6 +202,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - description
       - propertyId
@@ -213,6 +224,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - datasetMboId
       - description
@@ -242,6 +254,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - datasetMboId
       - authorId
       - commentText
@@ -259,6 +272,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - codeRepositoryUrl
       - description
@@ -285,6 +299,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - softwareVersion
       - description
@@ -314,6 +329,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - embargoedDatasetMboId
       - embargoExpires
       - embargoDescription
@@ -324,6 +340,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - termCode
       - inDefinedTermSetMboId
       - existingTermId
@@ -345,6 +362,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - description
       - latitude
@@ -360,6 +378,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - description
       - box
@@ -374,6 +393,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - amount
       - currency
@@ -393,6 +413,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - name
       - taxonIdentifier
       - taxonScientificName
@@ -417,6 +438,7 @@ classes:
     slots:
       - mboId
       - metadataPublisherId
+      - metadataDescribedForActionId
       - audienceType
       - name
       - audienceTypeDescription

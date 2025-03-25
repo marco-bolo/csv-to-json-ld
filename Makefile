@@ -28,7 +28,7 @@ REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
 # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
 # foreign key validation on.
-MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= dataset.csv organization.csv person.csv monetary-grant.csv
+MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= dataset.csv organization.csv person.csv monetary-grant.csv create-action.csv
 MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.log)
 
 dockersetup:
@@ -107,6 +107,21 @@ out/validation/monetary-grant-csv-list-column-foreign-key.log: monetary-grant.cs
 
 	@echo "" > out/validation/monetary-grant-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
 	@echo ""
+
+out/validation/create-action-csv-list-column-foreign-key.log: monetary-grant.csv organization.csv
+	@echo "=============================== Validating values in create-action.csv['Participants (MBO IDs)'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Participants (MBO IDs)" organization.csv "MBO Permanent Identifier"
+
+	@echo "=============================== Validating values in create-action.csv['Resulting Datasets (MBO IDs)'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Resulting Datasets (MBO IDs)" dataset.csv "MBO Permanent Identifier"
+
+	@echo "=============================== Validating values in create-action.csv['Resulting Action (MBO IDs)'] ==============================="
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Resulting Action (MBO IDs)" create-action.csv "MBO Permanent Identifier"
+
+
+	@echo "" > out/validation/create-action-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
+	@echo ""
+
 
 out/bulk/%.json: out/bulk/%.ttl
 	@echo "=============================== Converting $< to JSON-LD $@ ===============================" ;

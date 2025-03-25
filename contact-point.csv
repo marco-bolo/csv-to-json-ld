@@ -1,2 +1,6 @@
-MBO Permanent Identifier,Data Entry Person PID (you),Contact Type,Title,Email,Telephone,Available Languages,Description
-mbo_TODO_contact_point_1,mbo_todo_person_roblinksdata,Email the guy,Contact roblinksdata,roblinksdata@example.com,,en,
+MBO Permanent Identifier,Data Entry Person PID (you),Data Entered for Action (MBO ID),Contact Type,Title,Email,Telephone,Available Languages,Description
+mbo_TODO_contact_point_1,mbo_todo_person_roblinksdata,mbo_task_1_1,Email the guy,Contact roblinksdata,roblinksdata@example.com,,en,
+mbo_TODO_contact_point_mbo_email,mbo_todo_person_roblinksdata,mbo_task_1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,
+mbo_TODO_contact_point_mbo_nick,mbo_todo_person_roblinksdata,mbo_task_1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC 
+mbo_TODO_contact_point_mbo_giulia,mbo_todo_person_roblinksdata,mbo_task_1_1,Project Management,Giulia Vecchi,giulia.vecchi@embrc.eu,,en,EMBRC-ERIC
+mbo_TODO_contact_point_mbo_mathilde,mbo_todo_person_roblinksdata,mbo_task_1_1,Project Communications,Mathilde Vidal,mathilde@erinn.eu,,en,ERINN Innovation

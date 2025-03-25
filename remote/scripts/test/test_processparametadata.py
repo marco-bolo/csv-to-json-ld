@@ -82,6 +82,11 @@ def test_expected_output_triples_present():
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
                                                                 schema:contentUrl mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodingFormat "application/ld+json".
+                                                                
+            mbo:mbo_some_action a schema:CreateAction;
+                                schema:result mbo:mbo_TODO_LICENSE_1-input-metadata,
+                                              <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}>, 
+                                              <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
         """,
         )
 

@@ -17,8 +17,9 @@
             "required": true,
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)",
-                    "Data Entry Person PID"
+                    "Data Entry Person (MBO ID; you)",
+                    "Data Entry Person (MBO ID)",
+                    "Data Entry Person"
                 ]
             },
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
@@ -26,81 +27,98 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryPersonId}"
         },
         {
-            "name": "dataEntryTaskActionId",
+            "name": "title",
             "required": true,
             "titles": {
-                "en": [
-                    "Data Entered for Action (MBO ID)"
-                ]
-            },
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
-            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
-            "valueUrl": "https://w3id.org/marco-bolo/{+dataEntryTaskActionId}"
-        },
-        {
-            "name": "givenName",
-            "required": true,
-            "titles": {
-                "en": ["Given Name", "First Name"]
+                "en": ["Title"]
             },
             "datatype": "string",
-            "propertyUrl": "https://schema.org/givenName"
+            "propertyUrl": "https://schema.org/name"
         },
         {
-            "name": "familyName",
-            "required": true,
+            "name": "abstract",
+            "required": false,
             "titles": {
-                "en": ["Family Name", "Surname"]
+                "en": ["Abstract"]
             },
             "datatype": "string",
-            "propertyUrl": "https://schema.org/familyName"
+            "propertyUrl": "https://schema.org/abstract"
         },
         {
-            "name": "worksForOrganizationIds",
+            "name": "howToId",
             "required": false,
             "titles": {
-                "en": ["Works For Organization Ids", "Works For"]
+                "en": ["How to Perform Action (MBO ID)", "How To (MBO ID)", "How To"]
+            },
+            "propertyUrl": "https://schema.org/actionProcess",
+            "valueUrl": "https://w3id.org/marco-bolo/{+howToId}"
+        },
+        {
+            "name": "agentId",
+            "required": false,
+            "titles": {
+                "en": ["Agent (MBO ID)", "Agent"]
+            },
+            "propertyUrl": "https://schema.org/agent",
+            "valueUrl": "https://w3id.org/marco-bolo/{+agentId}"
+        },
+        {
+            "name": "partiticantIds",
+            "required": false,
+            "titles": {
+                "en": ["Participants (MBO IDs)", "Participants"]
+            },
+            "propertyUrl": "https://schema.org/participant",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            },
+            "separator": "|"
+        },
+        {
+            "name": "actionInputIds",
+            "required": false,
+            "titles": {
+                "en": ["Action Inputs (URIs)", "Action Inputs"]
+            },
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string",
+                "format": "^https?://.*$"
+            },
+            "propertyUrl": "https://schema.org/object"
+        },
+        {
+            "name": "resultingDatasetIds",
+            "required": false,
+            "titles": {
+                "en": ["Resulting Datasets (MBO IDs)", "Resulting Datasets"]
             },
             "separator": "|",
             "datatype": {
                 "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
                 "base": "string"
             },
-            "propertyUrl": "https://schema.org/worksFor"
+            "propertyUrl": "https://schema.org/result"
         },
         {
-            "name": "affiliatedOrganizationIds",
+            "name": "resultingActionIds",
             "required": false,
             "titles": {
-                "en": ["Affiliated Organization Ids"]
+                "en": ["Resulting Actions (MBO IDs)", "Resulting Actions"]
             },
             "separator": "|",
             "datatype": {
                 "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
                 "base": "string"
             },
-            "propertyUrl": "https://schema.org/affiliation"
-        },
-        {
-            "name": "contactPointIds",
-            "required": false,
-            "titles": {
-                "en": [
-                    "Contact Point Ids"
-                ]
-            },
-            "propertyUrl": "https://schema.org/contactPoint",
-            "ordered": false,
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
+            "propertyUrl": "https://schema.org/result"
         },
         {
             "virtual": true,
             "propertyUrl": "rdf:type",
-            "valueUrl": "https://schema.org/Person"
+            "valueUrl": "https://schema.org/CreateAction"
         },
         {
             "virtual": true,
@@ -124,7 +142,13 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_person.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_create-action.csv#row={_row}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_1000000"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
@@ -143,6 +167,20 @@
             "columnReference": "dataEntryTaskActionId",
             "reference": {
                 "resource": "../create-action.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "howToId",
+            "reference": {
+                "resource": "../how-to.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "agentId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
                 "columnReference": "id"
             }
         }

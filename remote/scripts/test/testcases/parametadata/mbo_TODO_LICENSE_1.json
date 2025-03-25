@@ -39,6 +39,11 @@
       {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       }
+    ],
+    "https://w3id.org/marco-bolo/isResultOf":  [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_some_action"
+      }
     ]
   }
 ]
