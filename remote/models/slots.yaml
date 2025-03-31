@@ -439,6 +439,13 @@ slots:
     multivalued: true
     range: SoftwareApplication
     slot_uri: schema:citation
+  citeServiceMboIds:
+    title: "Service Citations (mPIDs)"
+    description: "The MBO identifiers for services used in this HowToStep."
+    required: false
+    multivalued: true
+    range: Service
+    slot_uri: schema:citation
   childStepMboIds:
     title: "Child Steps (mPIDs)"
     description: "The MBO identifiers for steps which are children of this one."
@@ -504,6 +511,29 @@ slots:
     multivalued: false
     range: uri
     slot_uri: schema:downloadUrl
+
+  # Service slots
+  placesServedMboIds:
+    description: "The geographic area where a service or offered item is provided."
+    required: false
+    multivalued: true
+    range: Place
+    slot_uri: schema:areaServed
+  serviceType:
+    description: The type of service being offered, e.g. veterans' benefits, emergency relief, etc.
+    required: true
+    multivalued: false
+    range: string
+    slot_uri: schema:serviceType
+  serviceProviderOrganizationMboId:
+    description: |
+      The service provider, service operator, or service performer; the goods producer. 
+      Another party (a seller) may offer those services or goods on behalf of the provider. 
+      A provider may also serve as the seller.
+    required: true
+    multivalued: false
+    range: Organization
+    slot_uri: schema:provider
 
   # EmbargoStatement
   embargoExpires:

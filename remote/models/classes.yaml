@@ -70,6 +70,7 @@ classes:
       - providerId
       - citeSourceCodeMboIds
       - citeSoftwareApplicationMboIds
+      - citeServiceMboIds
       - childStepMboIds
       - howToImplementTipMboIds
       - audienceMboIds
@@ -297,6 +298,21 @@ classes:
       - dateModified
       - datePublished
       - keywords
+
+  Service:
+    description: |
+      A service provided by an organization, e.g. delivery service, print services, etc.
+    class_uri: schema:Service
+    slots:
+      - id
+      - metadataPublisherId
+      - serviceType
+      - name
+      - serviceProviderOrganizationMboId
+      - description
+      - url
+      - audienceMboIds
+      - placesServedMboIds
 
   EmbargoStatement:
     class_uri: schema:Statement

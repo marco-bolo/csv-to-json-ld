@@ -2,16 +2,6 @@
     "@context": "http://www.w3.org/ns/csvw",
     "tables": [
         {
-            "url": "../HowToStep.csv",
-            "tableSchema": "HowToStep.schema.json",
-            "suppressOutput": false
-        },
-        {
-            "url": "../HowToTip.csv",
-            "tableSchema": "HowToTip.schema.json",
-            "suppressOutput": true
-        },
-        {
             "url": "../Organization.csv",
             "tableSchema": "Organization.schema.json",
             "suppressOutput": true
@@ -22,24 +12,9 @@
             "suppressOutput": true
         },
         {
-            "url": "../SoftwareSourceCode.csv",
-            "tableSchema": "SoftwareSourceCode.schema.json",
-            "suppressOutput": true
-        },
-        {
-            "url": "../SoftwareApplication.csv",
-            "tableSchema": "SoftwareApplication.schema.json",
-            "suppressOutput": true
-        },
-        {
             "url": "../Service.csv",
             "tableSchema": "Service.schema.json",
-            "suppressOutput": true
-        },
-        {
-            "url": "../PublishingStatusDefinedTerm.csv",
-            "tableSchema": "PublishingStatusDefinedTerm.schema.json",
-            "suppressOutput": true
+            "suppressOutput": false
         },
         {
             "url": "../Place.csv",
