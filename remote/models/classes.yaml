@@ -89,7 +89,7 @@ classes:
       - mboId
       - metadataPublisherId
       - metadataDescribedForActionId
-      - name
+      - title
       - positionInParent
       - description
       - url

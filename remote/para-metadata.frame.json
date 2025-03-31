@@ -5,14 +5,16 @@
             "@type": "https://schema.org/DataDownload",
             "@reverse": {
                 "https://schema.org/result": {
-                    "@type": "https://schema.org/CreateAction"
+                    "@type": "https://schema.org/CreateAction",
+                    "@embed": "@never"
                 }
             }
         }
     ],
     "@reverse": {
         "https://schema.org/result": {
-            "@type": "https://schema.org/CreateAction"
+            "@type": "https://schema.org/CreateAction",
+            "@embed": "@never"
         }
     }
 }

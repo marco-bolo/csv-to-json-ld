@@ -14,8 +14,8 @@
             "required": true,
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)",
-                    "Data Entry Person PID"
+                    "Data Entry Person (MBO ID; you)",
+                    "Data Entry Person"
                 ]
             },
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",

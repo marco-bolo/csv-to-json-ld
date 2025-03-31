@@ -331,7 +331,7 @@ slots:
     slot_uri: schema:object
   howToPerformActionMboId:
     description: "How the action was performed."
-    required: true
+    required: false
     multivalued: false
     range: HowTo
     slot_uri: schema:actionProcess

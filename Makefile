@@ -6,7 +6,7 @@ WORKING_DIR			:= $(shell pwd)
 CSVW_CHECK_DOCKER	:= roblinksdata/csvw-check:latest
 CSV2RDF_DOCKER		:= europe-west2-docker.pkg.dev/swirrl-devops-infrastructure-1/public/csv2rdf:v0.7.1
 JENA_CLI_DOCKER		:= gsscogs/gss-jvm-build-tools:latest
-MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
+MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-18
 
 CSVW_CHECK						:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(CSVW_CHECK_DOCKER) -s
 CSV2RDF							:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(CSV2RDF_DOCKER) csv2rdf -m minimal -u 
@@ -24,7 +24,6 @@ CSVW_METADATA_FILES 			:= $(wildcard remote/*.csv-metadata.json)
 CSVW_METADATA_VALIDATION_FILES	:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/validation/%.log)
 BULK_TTL_FILES    				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bulk/%.ttl)
 EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES)
-REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
 # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
 # foreign key validation on.
@@ -108,7 +107,7 @@ out/validation/monetary-grant-csv-list-column-foreign-key.log: monetary-grant.cs
 	@echo "" > out/validation/monetary-grant-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
 	@echo ""
 
-out/validation/create-action-csv-list-column-foreign-key.log: monetary-grant.csv organization.csv
+out/validation/create-action-csv-list-column-foreign-key.log: create-action.csv organization.csv dataset.csv
 	@echo "=============================== Validating values in create-action.csv['Participants (MBO IDs)'] ==============================="
 	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Participants (MBO IDs)" organization.csv "MBO Permanent Identifier"
 
@@ -116,7 +115,7 @@ out/validation/create-action-csv-list-column-foreign-key.log: monetary-grant.csv
 	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Resulting Datasets (MBO IDs)" dataset.csv "MBO Permanent Identifier"
 
 	@echo "=============================== Validating values in create-action.csv['Resulting Action (MBO IDs)'] ==============================="
-	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Resulting Action (MBO IDs)" create-action.csv "MBO Permanent Identifier"
+	@$(LIST_COLUMN_FOREIGN_KEY_CHECK) create-action.csv "Resulting Actions (MBO IDs)" create-action.csv "MBO Permanent Identifier"
 
 
 	@echo "" > out/validation/create-action-csv-list-column-foreign-key.log # Let the build know we've done this validation now.

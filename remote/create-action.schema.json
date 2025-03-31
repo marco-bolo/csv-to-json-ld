@@ -55,7 +55,7 @@
         },
         {
             "name": "agentId",
-            "required": false,
+            "required": true,
             "titles": {
                 "en": ["Agent (MBO ID)", "Agent"]
             },
@@ -160,20 +160,6 @@
             "columnReference": "dataEntryPersonId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
-                "columnReference": "id"
-            }
-        },
-        {
-            "columnReference": "dataEntryTaskActionId",
-            "reference": {
-                "resource": "../create-action.csv",
-                "columnReference": "id"
-            }
-        },
-        {
-            "columnReference": "howToId",
-            "reference": {
-                "resource": "../how-to.csv",
                 "columnReference": "id"
             }
         },
