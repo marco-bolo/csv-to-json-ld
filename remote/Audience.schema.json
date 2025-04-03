@@ -1,0 +1,104 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_\\\\d{7}$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person PID (you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "audienceType",
+            "titles": {
+                "en": [
+                    "Audience Type"
+                ]
+            },
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/{+audienceType}",
+            "datatype": {
+                "base": "string",
+                "format": "^(Audience|BusinessAudience|EducationalAudience|MedicalAudience|Patient|PeopleAudience|MedicalAudience|ParentAudience|Researcher)$"
+            }
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "audienceTypeDescription",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/audienceType",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Audience.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

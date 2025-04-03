@@ -1,0 +1,137 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_\\\\d{7}$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person PID (you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "givenName",
+            "titles": {
+                "en": [
+                    "Given Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/givenName",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "familyName",
+            "titles": {
+                "en": [
+                    "Family Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/familyName",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "worksForOrganizationMboIds",
+            "titles": {
+                "en": [
+                    "Works for Organizations (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/worksFor",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "affiliatedOrganizationMboIds",
+            "titles": {
+                "en": [
+                    "Affiliated to Organizations (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/affiliation",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "contactPointMboIds",
+            "titles": {
+                "en": [
+                    "Contact Points (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/contactPoint",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/Person"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Person.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

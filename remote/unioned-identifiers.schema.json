@@ -5,7 +5,9 @@
             "name": "id",
             "required": true,
             "titles": {
-                "en": ["MBO PID"]
+                "en": [
+                    "MBO PID"
+                ]
             },
             "suppressOutput": true
         }

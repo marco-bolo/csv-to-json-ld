@@ -1,0 +1,179 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_\\\\d{7}$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person PID (you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "description",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/description",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "propertyId",
+            "titles": {
+                "en": [
+                    "Property PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/propertyID",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "measurementMethod",
+            "titles": {
+                "en": [
+                    "Measurement Method"
+                ]
+            },
+            "propertyUrl": "https://schema.org/measurementMethod",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "measurementTechnique",
+            "titles": {
+                "en": [
+                    "Measurement Technique"
+                ]
+            },
+            "propertyUrl": "https://schema.org/measurementTechnique",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "minValue",
+            "titles": {
+                "en": [
+                    "Min Value"
+                ]
+            },
+            "propertyUrl": "https://schema.org/minValue",
+            "datatype": {
+                "base": "decimal"
+            }
+        },
+        {
+            "name": "maxValue",
+            "titles": {
+                "en": [
+                    "Max Value"
+                ]
+            },
+            "propertyUrl": "https://schema.org/maxValue",
+            "datatype": {
+                "base": "decimal"
+            }
+        },
+        {
+            "name": "unitCode",
+            "titles": {
+                "en": [
+                    "Unit Code"
+                ]
+            },
+            "propertyUrl": "https://schema.org/unitCode",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "unitText",
+            "titles": {
+                "en": [
+                    "Unit Text"
+                ]
+            },
+            "propertyUrl": "https://schema.org/unitText",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/PropertyValue"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_VariableMeasured.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

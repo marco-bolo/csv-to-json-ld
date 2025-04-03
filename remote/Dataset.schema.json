@@ -1,0 +1,360 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_\\\\d{7}$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person PID (you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "description",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/description",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "landingPage",
+            "titles": {
+                "en": [
+                    "Landing Page URL"
+                ]
+            },
+            "propertyUrl": "https://schema.org/url",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "variableMeasuredMboIds",
+            "titles": {
+                "en": [
+                    "Variables Measured (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/variableMeasured",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "aboutTaxonMboIds",
+            "titles": {
+                "en": [
+                    "Taxa (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/about",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "spatialCoveragePlaceMboId",
+            "titles": {
+                "en": [
+                    "Spatial Coverage (Place; PID)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/spatialCoverage",
+            "valueUrl": "https://w3id.org/marco-bolo/{+spatialCoveragePlaceMboId}"
+        },
+        {
+            "name": "temporalCoverage",
+            "titles": {
+                "en": [
+                    "Temporal Coverage"
+                ]
+            },
+            "propertyUrl": "https://schema.org/temporalCoverage",
+            "datatype": {
+                "base": "string",
+                "format": "^([+-]?\\\\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\\\\.\\\\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)/(\\\\.\\\\.|[+-]?\\\\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\\\\.\\\\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)$"
+            }
+        },
+        {
+            "name": "distributions",
+            "titles": {
+                "en": [
+                    "Distributions (PIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/distribution",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "authorId",
+            "titles": {
+                "en": [
+                    "Author PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/author",
+            "valueUrl": "https://w3id.org/marco-bolo/{+authorId}"
+        },
+        {
+            "name": "contributorIds",
+            "titles": {
+                "en": [
+                    "Contributor PIDs"
+                ]
+            },
+            "propertyUrl": "https://schema.org/contributor",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "ownerId",
+            "titles": {
+                "en": [
+                    "Owner PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/copyrightHolder",
+            "valueUrl": "https://w3id.org/marco-bolo/{+ownerId}"
+        },
+        {
+            "name": "maintainerId",
+            "titles": {
+                "en": [
+                    "Maintainer PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/maintainer",
+            "valueUrl": "https://w3id.org/marco-bolo/{+maintainerId}"
+        },
+        {
+            "name": "publisherId",
+            "titles": {
+                "en": [
+                    "Publisher PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/publisher",
+            "valueUrl": "https://w3id.org/marco-bolo/{+publisherId}"
+        },
+        {
+            "name": "basedOn",
+            "titles": {
+                "en": [
+                    "Based On (URL)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/isBasedOn",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "publishingStatusMboId",
+            "titles": {
+                "en": [
+                    "Publishing Status PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creativeWorkStatus",
+            "valueUrl": "https://w3id.org/marco-bolo/{+publishingStatusMboId}"
+        },
+        {
+            "name": "embargoStatementMboId",
+            "titles": {
+                "en": [
+                    "Embargo Statement (PID)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/usageInfo",
+            "valueUrl": "https://w3id.org/marco-bolo/{+embargoStatementMboId}"
+        },
+        {
+            "name": "dateCreated",
+            "titles": {
+                "en": [
+                    "Date Created"
+                ]
+            },
+            "propertyUrl": "https://schema.org/dateCreated",
+            "datatype": {
+                "base": "date"
+            }
+        },
+        {
+            "name": "dateModified",
+            "titles": {
+                "en": [
+                    "Dates Modified"
+                ]
+            },
+            "propertyUrl": "https://schema.org/dateModified",
+            "separator": "|",
+            "datatype": {
+                "base": "date"
+            }
+        },
+        {
+            "name": "datePublished",
+            "titles": {
+                "en": [
+                    "Date Published"
+                ]
+            },
+            "propertyUrl": "https://schema.org/datePublished",
+            "datatype": {
+                "base": "date"
+            }
+        },
+        {
+            "name": "inProgressDataDate",
+            "titles": {
+                "en": [
+                    "In Progress Data Date"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/inProgressDataDate",
+            "datatype": {
+                "base": "date"
+            }
+        },
+        {
+            "name": "licenseMboId",
+            "titles": {
+                "en": [
+                    "License PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/license",
+            "valueUrl": "https://w3id.org/marco-bolo/{+licenseMboId}"
+        },
+        {
+            "name": "conditionsOfAccess",
+            "titles": {
+                "en": [
+                    "Conditions of Access"
+                ]
+            },
+            "propertyUrl": "https://schema.org/conditionsOfAccess",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "keywords",
+            "titles": {
+                "en": [
+                    "Keywords"
+                ]
+            },
+            "propertyUrl": "https://schema.org/keywords",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "audienceMboIds",
+            "titles": {
+                "en": [
+                    "Audience PIDs"
+                ]
+            },
+            "propertyUrl": "https://schema.org/audience",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/Dataset"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Dataset.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

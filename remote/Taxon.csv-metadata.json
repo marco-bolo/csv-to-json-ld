@@ -1,0 +1,15 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../Taxon.csv",
+            "tableSchema": "Taxon.schema.json",
+            "suppressOutput": false
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}

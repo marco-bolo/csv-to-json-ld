@@ -1,0 +1,160 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO PID"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_\\\\d{7}$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person PID (you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "description",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/description",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "box",
+            "titles": {
+                "en": [
+                    "Box"
+                ]
+            },
+            "propertyUrl": "https://schema.org/box",
+            "datatype": {
+                "base": "string",
+                "format": "^[+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+$"
+            }
+        },
+        {
+            "name": "circle",
+            "titles": {
+                "en": [
+                    "Circle"
+                ]
+            },
+            "propertyUrl": "https://schema.org/circle",
+            "datatype": {
+                "base": "string",
+                "format": "^[+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+$"
+            }
+        },
+        {
+            "name": "elevation",
+            "titles": {
+                "en": [
+                    "Elevation (m)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/elevation",
+            "datatype": {
+                "base": "string",
+                "format": "^[+-]?[\\\\d.]+(\\\\s\\\\w+)$"
+            }
+        },
+        {
+            "name": "line",
+            "titles": {
+                "en": [
+                    "Line"
+                ]
+            },
+            "propertyUrl": "https://schema.org/line",
+            "datatype": {
+                "base": "string",
+                "format": "^([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ ){1,}([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+)$"
+            }
+        },
+        {
+            "name": "polygon",
+            "titles": {
+                "en": [
+                    "Polygon"
+                ]
+            },
+            "propertyUrl": "https://schema.org/polygon",
+            "datatype": {
+                "base": "string",
+                "format": "^([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+)\\\\ ([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ ){2,}(\\\\1)$"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/GeoShape"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_GeoShape.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

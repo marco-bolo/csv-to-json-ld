@@ -1,0 +1,20 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../HowToTip.csv",
+            "tableSchema": "HowToTip.schema.json",
+            "suppressOutput": false
+        },
+        {
+            "url": "../Audience.csv",
+            "tableSchema": "Audience.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}

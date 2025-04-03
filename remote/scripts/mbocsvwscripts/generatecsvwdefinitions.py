@@ -221,20 +221,17 @@ def _generate_makefile_manual_foreign_key_checks(
             for manual_fk_check in manual_foreign_key_checks
         }
 
-        makefile_config += dedent(
-            f"""
-            out/validation/{log_file_name}: {" ".join(dependent_files)}
-                {
-        indent(
-            "\n\n".join([_get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir) for manual_fk_check in manual_foreign_key_checks]),
-            "                "
+        makefile_config += f"out/validation/{log_file_name}: {" ".join(dependent_files)}"
+        makefile_config += indent(
+            "\n".join([_get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir) for manual_fk_check in manual_foreign_key_checks]),
+            "	"
         )
-        }                
-
+        makefile_config += indent(
+            dedent("""
                 @echo "" > out/validation/{log_file_name} # Let the build know we've done this validation now.
                 @echo ""
-
-        """
+            """),
+            "	"
         )
 
     return makefile_config
@@ -255,9 +252,9 @@ def _get_makefile_config_for_foreign_key_check(
 
     return dedent(
         f"""
-                @echo "=============================== Validating values in {child_table_path}['{manual_foreign_key_check.child_table_column}'] ==============================="
-                {foreign_key_check_command}
-            """
+            @echo "=============================== Validating values in {child_table_path}['{manual_foreign_key_check.child_table_column}'] ==============================="
+            {foreign_key_check_command}
+        """
     )
 
 
@@ -481,7 +478,7 @@ def _get_column_definition_for_slot(
 
     column_definition: Dict[str, Any] = {
         "name": slot.name,
-        "title": {"en": [slot_column_title]},
+        "titles": {"en": [slot_column_title]},
     }
 
     if slot.identifier is True:
@@ -510,7 +507,7 @@ def _get_column_definition_for_slot(
         )
     else:
         # Primitive data type
-        data_type = {"base": slot.range}
+        data_type = {"base": _map_linkml_data_type_to_csvw(slot)}
         if slot.pattern:
             data_type["format"] = slot.pattern
 
@@ -532,6 +529,13 @@ def _get_column_definition_for_slot(
         column_definition["datatype"] = data_type
 
     return column_definition
+
+
+def _map_linkml_data_type_to_csvw(slot: SlotDefinition) -> str:
+    if slot.range == "uri":
+        return "string"
+
+    return slot.range
 
 
 def _define_related_class_column(
@@ -560,6 +564,10 @@ def _define_related_class_column(
     range_class_pk_slot = _get_primary_key_identifier_slot_definition(
         range_class, _get_slots_for_class(range_class, all_classes, all_slots)
     )
+
+    if range_class.name in _VIRTUAL_CSV_FILES:
+        # Yes, this is pretty hacky.
+        range_class_pk_slot.title = "MBO PID"
 
     if slot.multivalued:
         column_definition["separator"] = _SEPARATOR_CHAR

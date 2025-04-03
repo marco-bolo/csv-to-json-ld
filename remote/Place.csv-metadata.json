@@ -1,0 +1,20 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../Place.csv",
+            "tableSchema": "Place.schema.json",
+            "suppressOutput": false
+        },
+        {
+            "url": "../GeoShape.csv",
+            "tableSchema": "GeoShape.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}

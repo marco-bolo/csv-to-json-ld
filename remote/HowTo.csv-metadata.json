@@ -1,0 +1,45 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../HowTo.csv",
+            "tableSchema": "HowTo.schema.json",
+            "suppressOutput": false
+        },
+        {
+            "url": "../HowToStep.csv",
+            "tableSchema": "HowToStep.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../HowToTip.csv",
+            "tableSchema": "HowToTip.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../SoftwareSourceCode.csv",
+            "tableSchema": "SoftwareSourceCode.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../SoftwareApplication.csv",
+            "tableSchema": "SoftwareApplication.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../PublishingStatusDefinedTerm.csv",
+            "tableSchema": "PublishingStatusDefinedTerm.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../Audience.csv",
+            "tableSchema": "Audience.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}
