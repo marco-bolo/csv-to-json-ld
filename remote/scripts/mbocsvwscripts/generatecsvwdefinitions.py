@@ -227,7 +227,7 @@ def _generate_makefile_manual_foreign_key_checks(
             "	"
         )
         makefile_config += indent(
-            dedent("""
+            dedent(f"""
                 @echo "" > out/validation/{log_file_name} # Let the build know we've done this validation now.
                 @echo ""
             """),
