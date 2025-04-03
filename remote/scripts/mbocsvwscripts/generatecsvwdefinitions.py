@@ -352,7 +352,9 @@ def _generate_csv_and_schema_for_class(
 
     foreign_key_definitions: List[Dict[str, Any]] = []
     primary_key_definition: List[str] = []
-    identifier_slot = _get_primary_key_identifier_slot_definition(clazz, slots_for_class)
+    identifier_slot = _get_primary_key_identifier_slot_definition(
+        clazz, slots_for_class
+    )
 
     manual_build_foreign_key_checks: List[ManualForeignKeyCheckConfig] = []
 
@@ -382,12 +384,14 @@ def _generate_csv_and_schema_for_class(
 
     input_metadata_uri = f"{_MBO_PREFIX}{{+{identifier_slot.name}}}#input-metadata"
 
-    column_definitions += [
-        {
+    if not any ([s for s in slots_for_class if s.designates_type is True]):
+        column_definitions.append({
             "virtual": True,
             "propertyUrl": "rdf:type",
             "valueUrl": clazz.class_uri.as_uri(namespaces),
-        },
+        })
+
+    column_definitions += [
         {
             "virtual": True,
             "aboutUrl": input_metadata_uri,
@@ -516,6 +520,10 @@ def _get_column_definition_for_slot(
         if slot.maximum_value:
             data_type["maximum"] = slot.maximum_value
 
+        if slot.designates_type:
+            column_definition["propertyUrl"] = "rdf:type"
+            column_definition["valueUrl"] = f"{_SCHEMA_ORG_PREFIX}{{+{slot.name}}}"
+
         if slot.multivalued:
             column_definition["separator"] = _SEPARATOR_CHAR
             if slot.range == "uri":
@@ -618,12 +626,9 @@ def _get_virtual_file_path(output_dir: Path, virtual_class_name: str) -> Path:
 
 
 def _get_primary_key_identifier_slot_definition(
-    clazz: ClassDefinition,
-    slots_for_class: List[SlotDefinition]
+    clazz: ClassDefinition, slots_for_class: List[SlotDefinition]
 ):
-    identifier_slots = [
-        s for s in slots_for_class if s.identifier is True
-    ]
+    identifier_slots = [s for s in slots_for_class if s.identifier is True]
     if len(identifier_slots) != 1:
         raise Exception(
             f"Expected to find 1 identifier slots in {clazz.name} but found {len(identifier_slots)}"
