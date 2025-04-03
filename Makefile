@@ -26,24 +26,12 @@ BULK_TTL_FILES    				:= $(CSVW_METADATA_FILES:remote/%.csv-metadata.json=out/bu
 EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES)
 REFERENCED_CSVS_QUERY_FILE		:= remote/csvs-referenced-by-csvw.sparql
 
+# START manual foreign key checks
+
 # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
 # foreign key validation on.
 MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= dataset.csv organization.csv person.csv monetary-grant.csv
 MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.log)
-
-dockersetup:
-	@echo "=============================== Pulling & Building required docker images. ==============================="
-	@docker pull $(CSVW_CHECK_DOCKER)
-	@docker pull $(CSV2RDF_DOCKER)
-	@docker pull $(JENA_CLI_DOCKER)
-	@docker pull $(MBO_TOOLS_DOCKER)
-	@echo "" ; 
-
-output-directories:
-	@mkdir -p out/bulk
-	@mkdir -p out/validation
-
-validate: $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
 
 out/validation/person-or-organization.csv: person.csv organization.csv
 	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv person.csv organization.csv
@@ -107,6 +95,22 @@ out/validation/monetary-grant-csv-list-column-foreign-key.log: monetary-grant.cs
 
 	@echo "" > out/validation/monetary-grant-csv-list-column-foreign-key.log # Let the build know we've done this validation now.
 	@echo ""
+
+# END manual foreign key checks
+
+dockersetup:
+	@echo "=============================== Pulling & Building required docker images. ==============================="
+	@docker pull $(CSVW_CHECK_DOCKER)
+	@docker pull $(CSV2RDF_DOCKER)
+	@docker pull $(JENA_CLI_DOCKER)
+	@docker pull $(MBO_TOOLS_DOCKER)
+	@echo "" ; 
+
+output-directories:
+	@mkdir -p out/bulk
+	@mkdir -p out/validation
+
+validate: $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
 
 out/bulk/%.json: out/bulk/%.ttl
 	@echo "=============================== Converting $< to JSON-LD $@ ===============================" ;

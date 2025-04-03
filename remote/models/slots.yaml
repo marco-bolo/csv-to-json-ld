@@ -12,10 +12,10 @@ default_prefix: mbo
 
 slots:
   # Identifier slots
-  mboId:
+  id:
     identifier: true
     required: true
-    title: "MBO Identifier"
+    title: "MBO Permanent Identifier"
     description: |
       An identifier chosen from the range given to your work package by WP1. 
       Note that when inputting into CSV files this should not be the full URI, 
@@ -25,7 +25,6 @@ slots:
     implicit_prefix: mbo
     slot_uri: schema:identifier
   identifiers:
-    identifier: true
     multivalued: true
     required: false
     description: A generic identifier for this entity. Should not hold the MBO identifier.
@@ -134,7 +133,7 @@ slots:
     required: true
     description: "The Ocean Expert identifier of the person who wrote this metadata record (you)."
     range: PersonOrOrganization
-    slot_uri: schema:sdPublisher
+    slot_uri: schema:creator
 
   # PropertyValue slots
   propertyId:
@@ -488,7 +487,7 @@ slots:
     slot_uri: schema:latitude
   longitude:
     description: |
-      The longitude oft he place (WGS 84)
+      The longitude of the place (WGS 84)
     required: false
     multivalued: false
     minimum_value: -180
