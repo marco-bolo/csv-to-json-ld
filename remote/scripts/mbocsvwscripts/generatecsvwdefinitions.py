@@ -62,7 +62,7 @@ class ManualForeignKeyCheckConfig:
 @click.option("-o", "--output-dir", type=click.Path(), default=".")
 def main(classes_yaml: click.Path, output_dir: click.Path):
     """
-    Generates CSV-W files from the given classes.yaml configuration.
+    Generates CSV-W files from the given all_classes.yaml configuration.
 
     If you're unsure whether you should be using this, you probably shouldn't.
     """
@@ -71,8 +71,8 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
     out_dir.mkdir(exist_ok=True)
 
     schema_view = SchemaView(classes_yaml_path, merge_imports=True)
-    classes = schema_view.all_classes()
-    slots = schema_view.all_slots()
+    all_classes = schema_view.all_classes()
+    all_slots = schema_view.all_slots()
 
     remote_dir = out_dir / _REMOTE_DIR_NAME
     remote_dir.mkdir(exist_ok=True)
@@ -81,13 +81,15 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
     class_schema_map: Dict[str, Path] = {}
     map_class_name_to_csv_dependencies: Dict[str, Set[Path]] = {}
     class_manual_foreign_key_checks: Dict[str, List[ManualForeignKeyCheckConfig]] = {}
-    for _, clazz in classes.items():
-        if any(clazz.slots) and not clazz.abstract:
+    for _, clazz in all_classes.items():
+        slots_for_class = _get_slots_for_class(clazz, all_classes, all_slots)
+        if any(slots_for_class) and not clazz.abstract:
             _generate_csv_and_schema_for_class(
                 clazz,
+                slots_for_class,
                 schema_view,
-                slots,
-                classes,
+                all_slots,
+                all_classes,
                 out_dir,
                 class_csv_map,
                 class_schema_map,
@@ -327,9 +329,10 @@ def _generate_csv_metadata_documents(
 
 def _generate_csv_and_schema_for_class(
     clazz: ClassDefinition,
+    slots_for_class: List[SlotDefinition],
     schema_view: SchemaView,
-    slots: Dict[str, SlotDefinition],
-    classes: Dict[str, ClassDefinition],
+    all_slots: Dict[str, SlotDefinition],
+    all_classes: Dict[str, ClassDefinition],
     output_dir: Path,
     class_csv_map: Dict[str, Path],
     class_schema_map: Dict[str, Path],
@@ -340,7 +343,7 @@ def _generate_csv_and_schema_for_class(
     namespaces = schema_view.namespaces()
 
     csv_starter = pd.DataFrame(
-        {slots[slot_name].title or slot_name: [] for slot_name in clazz.slots}
+        {_get_csv_col_title_for_slot(slot): [] for slot in slots_for_class}
     )
     csv_name_for_class = _get_csv_name_for_class(clazz.name)
     csv_file_path = output_dir / csv_name_for_class
@@ -349,7 +352,7 @@ def _generate_csv_and_schema_for_class(
 
     foreign_key_definitions: List[Dict[str, Any]] = []
     primary_key_definition: List[str] = []
-    identifier_slot = _get_primary_key_identifier_slot_definition(clazz, classes, slots)
+    identifier_slot = _get_primary_key_identifier_slot_definition(clazz, slots_for_class)
 
     manual_build_foreign_key_checks: List[ManualForeignKeyCheckConfig] = []
 
@@ -360,8 +363,8 @@ def _generate_csv_and_schema_for_class(
             clazz,
             identifier_slot,
             slot,
-            classes,
-            slots,
+            all_classes,
+            all_slots,
             primary_key_definition,
             foreign_key_definitions,
             namespaces,
@@ -369,7 +372,7 @@ def _generate_csv_and_schema_for_class(
             output_dir,
             csv_dependencies_for_class,
         )
-        for slot in _get_slots_for_class(clazz, classes, slots)
+        for slot in slots_for_class
     ]
 
     map_class_name_to_csv_dependencies[clazz.name] = csv_dependencies_for_class
@@ -430,15 +433,15 @@ def _generate_csv_and_schema_for_class(
 
 def _get_slots_for_class(
     clazz: ClassDefinition,
-    classes: Dict[str, ClassDefinition],
-    slots: Dict[str, SlotDefinition],
+    all_classes: Dict[str, ClassDefinition],
+    all_slots: Dict[str, SlotDefinition],
 ) -> List[SlotDefinition]:
     inherited_slots = []
     if clazz.is_a:
-        parent_class = classes[str(clazz.is_a)]
-        inherited_slots = _get_slots_for_class(parent_class, classes, slots)
+        parent_class = all_classes[str(clazz.is_a)]
+        inherited_slots = _get_slots_for_class(parent_class, all_classes, all_slots)
 
-    return inherited_slots + [slots[slot_name] for slot_name in clazz.slots]
+    return inherited_slots + [all_slots[slot_name] for slot_name in clazz.slots]
 
 
 def _get_csv_name_for_class(class_name: str) -> str:
@@ -461,8 +464,8 @@ def _get_column_definition_for_slot(
     clazz: ClassDefinition,
     identifier_slot: SlotDefinition,
     slot: SlotDefinition,
-    classes: Dict[str, ClassDefinition],
-    slots: Dict[str, SlotDefinition],
+    all_classes: Dict[str, ClassDefinition],
+    all_slots: Dict[str, SlotDefinition],
     primary_key_definition: List[str],
     foreign_key_definitions: List[Dict[str, Any]],
     namespaces: Namespaces,
@@ -488,10 +491,10 @@ def _get_column_definition_for_slot(
             f"{_MBO_PREFIX}{{+{identifier_slot.name}}}#input-metadata"
         )
 
-    if slot.range in classes:
+    if slot.range in all_classes:
         _define_related_class_column(
-            classes,
-            slots,
+            all_classes,
+            all_slots,
             clazz,
             column_definition,
             foreign_key_definitions,
@@ -524,8 +527,8 @@ def _get_column_definition_for_slot(
 
 
 def _define_related_class_column(
-    classes: Dict[str, ClassDefinition],
-    slots: Dict[str, SlotDefinition],
+    all_classes: Dict[str, ClassDefinition],
+    all_slots: Dict[str, SlotDefinition],
     clazz: ClassDefinition,
     column_definition: Dict[str, Any],
     foreign_key_definitions: List[Dict[str, Any]],
@@ -535,7 +538,7 @@ def _define_related_class_column(
     out_dir: Path,
     csv_dependencies_for_class: Set[Path],
 ) -> None:
-    range_class = classes[slot.range]
+    range_class = all_classes[slot.range]
     class_csv_name = _get_csv_name_for_class(clazz.name)
     class_csv_path = out_dir / class_csv_name
 
@@ -547,7 +550,7 @@ def _define_related_class_column(
     )
     csv_dependencies_for_class.add(range_csv_location)
     range_class_pk_slot = _get_primary_key_identifier_slot_definition(
-        range_class, classes, slots
+        range_class, _get_slots_for_class(range_class, all_classes, all_slots)
     )
 
     if slot.multivalued:
@@ -616,11 +619,10 @@ def _get_virtual_file_path(output_dir: Path, virtual_class_name: str) -> Path:
 
 def _get_primary_key_identifier_slot_definition(
     clazz: ClassDefinition,
-    classes: Dict[str, ClassDefinition],
-    slots: Dict[str, SlotDefinition],
+    slots_for_class: List[SlotDefinition]
 ):
     identifier_slots = [
-        s for s in _get_slots_for_class(clazz, classes, slots) if s.identifier is True
+        s for s in slots_for_class if s.identifier is True
     ]
     if len(identifier_slots) != 1:
         raise Exception(
