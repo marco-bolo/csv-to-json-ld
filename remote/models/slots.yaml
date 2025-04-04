@@ -12,20 +12,20 @@ default_prefix: mbo
 
 slots:
   # Identifier slots
-  mboId:
+  id:
     identifier: true
     required: true
-    title: "MBO Identifier"
+    title: "MBO Permanent Identifier"
     description: |
       An identifier chosen from the range given to your work package by WP1. 
       Note that when inputting into CSV files this should not be the full URI, 
       but just the last part, e.g. 'mbo_0000001'.
     range: string
-    pattern: '^mbo_\\d{7}$'
+    pattern: "^mbo_[_0-9a-z]+$"
     implicit_prefix: mbo
     slot_uri: schema:identifier
   identifiers:
-    identifier: true
+    title: "Identifiers"
     multivalued: true
     required: false
     description: A generic identifier for this entity. Should not hold the MBO identifier.
@@ -34,36 +34,43 @@ slots:
 
   # Generic Thing slots
   name:
+    title: "Name"
     required: true
     description: "A name/title"
     multivalued: false
     range: string
     slot_uri: schema:name
   alternateName:
+    title: "Alternate Name"
     required: false
     multivalued: false
     description: "An alternative name."
     range: string
     slot_uri: schema:alternateName
   description:
+    title: "Description"
     required: false
     multivalued: false
     description: "A description for this entity."
     range: string
     slot_uri: schema:description
   url:
+    title: "URL"
     required: false
     description: "The URL of the entity you are describing."
     range: uri
     slot_uri: schema:url
     multivalued: false
   licenseMboId:
+    title: "License (mPID)"
     required: false
     description: "The MBO PID of the license which covers the entity you are describing."
     slot_uri: schema:license
     range: License
   metadataDescribedForActionId:
+    title: "Data Entered for Action (mPID)"
     required: true
+    multivalued: false
     description: |
       The CreateAction which resulted in this metadata record being described.
 
@@ -76,24 +83,28 @@ slots:
 
   # Generic creative work slots
   publishingStatusMboId:
+    title: "Publishing Status (mPID)"
     description: "The publishing status of the entity."
     required: false
     multivalued: false
     range: PublishingStatusDefinedTerm
     slot_uri: schema:creativeWorkStatus
   keywords:
+    title: "Keywords"
     description: "Key words classifying this entity."
     required: false
     multivalued: true
     range: string
     slot_uri: schema:keywords
   abstract:
+    title: "Abstract"
     description: "A short description summarising this entity."
     required: false
     multivalued: false
     range: string
     slot_uri: schema:abstract
   audienceMboIds:
+    title: "Audiences (mPIDs)"
     description: |
       The intended audiences for this entity.
     required: false
@@ -103,13 +114,16 @@ slots:
 
   # People or organization slots
   authorId:
+    title: "Author (mPID)"
     description: "The Permanent Identifier of person or organization who created this entity."
     required: false
     multivalued: false
     range: PersonOrOrganization
     slot_uri: schema:author
   ownerId:
+    title: "Owner (mPID)"
     required: false
+    multivalued: false
     description: |
       The Permanent Identifier of an person or organization who owns the entity.
 
@@ -118,111 +132,138 @@ slots:
     range: PersonOrOrganization
     slot_uri: schema:copyrightHolder
   publisherId:
+    title: "Publisher (mPID)"
     required: false
     multivalued: false
     description: "The Permanent Identifier of an person or organization who created the entity."
     range: PersonOrOrganization
     slot_uri: schema:publisher
   providerId:
+    title: "Provider (mPID)"
     required: false
     multivalued: false
     description: "The Permanent Identifier of an person or organization who provides or provided the service."
     range: PersonOrOrganization
     slot_uri: schema:provider
   contributorIds:
+    title: "Contributors (mPIDs)"
     required: false
     multivalued: true
     description: "The Permanent Identifiers of people or organizations who contributed to the entity."
     range: PersonOrOrganization
     slot_uri: schema:contributor
   maintainerId:
+    title: "Maintainer (mPID)"
     required: false
     multivalued: false
     description: "The Permanent Identifier of an person or organization who maintains this entity."
     range: PersonOrOrganization
     slot_uri: schema:maintainer
   metadataPublisherId:
+    title: "Data Entry Person (mPID - you)"
     required: true
+    multivalued: false
     description: "The Ocean Expert identifier of the person who wrote this metadata record (you)."
     range: PersonOrOrganization
-    slot_uri: schema:sdPublisher
+    slot_uri: schema:creator
 
   # PropertyValue slots
   propertyId:
+    title: "Property ID (URL)"
     required: false
+    multivalued: false
     description: "The permanent identifer of this property."
     range: uri
     slot_uri: schema:propertyID
   measurementMethod:
+    title: "Measurement Method"
     required: false
+    multivalued: false
     description: "How the property was measured."
     range: string
     slot_uri: schema:measurementMethod
   measurementTechnique:
+    title: "Measurement Technique"
     required: false
+    multivalued: false
     description: "TODO"
     range: string
     slot_uri: schema:measurementTechnique
   minValue:
+    title: "Min Value"
     required: false
+    multivalued: false
     description: "TODO"
     range: decimal
     slot_uri: schema:minValue
   maxValue:
+    title: "Max Value"
     required: false
+    multivalued: false
     description: "TODO"
     range: decimal
     slot_uri: schema:maxValue
   unitCode:
+    title: "Unit Code"
     required: false
+    multivalued: false
     description: "TODO"
     range: string
     slot_uri: schema:unitCode
   unitText:
+    title: "Unit Text"
     required: false
+    multivalued: false
     description: "TODO"
     range: string
     slot_uri: schema:unitText
 
   # Dataset slots
   landingPage:
+    title: "Landing Pages (URLs)"
     subproperty_of: url
     slot_uri: schema:url
     required: false
+    multivalued: true
     description: "The location where the dataset can be acquired."
     range: uri
-    multivalued: true
   embargoStatementMboId:
+    title: "Embargo Statement (mPID)"
     required: false
+    multivalued: false
     description: "Embargo information."
     range: EmbargoStatement
     slot_uri: schema:usageInfo
   inProgressDataDate:
+    title: "In Progress Data Date"
     description: "The point in time when you expect that the data will be accessible."
     required: false
+    multivalued: false
     range: date
     slot_uri: mbo:inProgressDataDate
   variableMeasuredMboIds:
-    title: Variables Measured
+    title: "Variables Measured (mPIDs)"
     description: "The MBO Ids of the variables measured in your dataset; these should include EBVs, EOVs, etc."
     required: false
     multivalued: true
     range: VariableMeasured
     slot_uri: schema:variableMeasured
   aboutTaxonMboIds:
-    title: Taxa
+    title: "Taxa (mPIDs)"
     description: The MBO Ids of the taxa observed in your dataset.
     required: false
     multivalued: true
     range: Taxon
     slot_uri: schema:about
   spatialCoveragePlaceMboId:
+    title: "Spatial Coverage (Place; mPID)"
     description: "A place defining the spatial coverage of the dataset."
     required: false
     multivalued: false
     range: Place
     slot_uri: schema:spatialCoverage
   temporalCoverage:
+    title: "Temporal Coverage"
     description: |
       The temporal range which this dataset covers. For example `2012-01/2013-02`.
 
@@ -230,58 +271,67 @@ slots:
       The MBO project only currently supports the start&end variety.
     required: false
     range: string
-    pattern: '^([+-]?\\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\\.\\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)/(\\.\\.|[+-]?\\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\\.\\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)$'
+    pattern: '^([+-]?\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\.\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)/(\.\.|[+-]?\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\.\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)$'
     slot_uri: schema:temporalCoverage
   basedOn:
+    title: "Based On (URL)"
     description: "The URI PID of any datasets which yours is based on."
     required: false
     multivalued: true
     range: uri
     slot_uri: schema:isBasedOn
   distributions:
+    title: "Distributions (mPIDs)"
     description: "The different formats in which the dataset can be accessed or downloaded."
     required: false
     multivalued: true
     range: DataDownload
     slot_uri: schema:distribution
   conditionsOfAccess:
+    title: "Conditions of Access"
     description: "A description of how the data may be accessed; for use when data is not publicly accessible."
     required: false
     multivalued: false
     range: string
     slot_uri: schema:conditionsOfAccess
-
   datasetMboId:
+    title: "Dataset (mPID)"
     description: "The MBO ID of the dataset."
     required: false
     multivalued: false
     range: Dataset
+    slot_uri: schema:encodesCreativeWork
 
   # DataDownload slots
   version:
+    title: "Version"
     description: "The version of this entity, for example `1.0`."
     required: false
     multivalued: false
     range: string
     slot_uri: schema:version
   contentSize:
+    title: "Content Size (MB/KB)"
     description: "The size of the content in MB or KB"
     required: false
     multivalued: false
     range: string
     slot_uri: schema:contentSize
   encodingFormat:
+    title: "Encoding Format"
     description: "The MIME type of the content."
     required: false
     multivalued: false
     range: string
     slot_uri: schema:encodingFormat
   sha256:
+    title: "File Hash (SHA256)"
     required: false
     multivalued: false
     range: string
     slot_uri: schema:sha256
   downloadUrl:
+    title: "Download URL"
     subproperty_of: url
     description: "The URL where the data can be accessed."
     required: true
@@ -291,6 +341,7 @@ slots:
 
   # License slots
   licenseUrl:
+    title: "License URL"
     subproperty_of: url
     slot_uri: schema:url
     required: false
@@ -300,16 +351,19 @@ slots:
 
   # Date slots
   dateCreated:
+    title: "Date Created"
     required: false
     multivalued: false
     range: date
     slot_uri: schema:dateCreated
   dateModified:
+    title: "Dates Modified"
     required: false
     multivalued: true
     range: date
     slot_uri: schema:dateModified
   datePublished:
+    title: "Date Published"
     required: false
     multivalued: false
     range: date
@@ -317,37 +371,50 @@ slots:
 
   # Comment slots
   commentText:
+    title: "Comment Text"
     required: true
     multivalued: false
     range: string
     slot_uri: schema:text
+  commentAboutDatasetMboId:
+    title: "Dataset (mPID)"
+    description: "The MBO ID of the dataset this comment describes."
+    required: false
+    multivalued: false
+    range: Dataset
+    slot_uri: schema:parentItem
 
   # Action slots
   actionInputPids:
+    title: "Inputs (mPIDs)"
     description: "Inputs to the `Action`; for example datasets or other data sources."
     required: false
     multivalued: true
     range: uri
     slot_uri: schema:object
   howToPerformActionMboId:
+    title: "How To (mPID)"
     description: "How the action was performed."
     required: false
     multivalued: false
     range: HowTo
     slot_uri: schema:actionProcess
   agentId:
+    title: "Agent (mPID)"
     description: "The person or organization who performed the action."
     required: true
     multivalued: false
     range: PersonOrOrganization
     slot_uri: schema:agent
   participantIds:
+    title: "Participants (mPIDs)"
     description: "The IDs of the people or organizations who collaborated in the action."
     required: false
     multivalued: true
     range: PersonOrOrganization
     slot_uri: schema:participant
   resultingDatasetMboIds:
+    title: "Resulting Datasets (mPIDs)"
     description: "The MBO identifiers of any datasets created in this action."
     required: true
     multivalued: true
@@ -362,6 +429,7 @@ slots:
 
   # HowTo slots
   howToStepMboId:
+    title: "How To Step (mPID)"
     description: "The MBO identifier for the all-encompasing 'primary' step."
     required: true
     multivalued: false
@@ -370,30 +438,35 @@ slots:
 
   # HowToStep slots
   positionInParent:
+    title: "Position in Parent"
     description: "A sort order for this step with respect to other steps in its parent."
     required: true
     multivalued: false
     range: integer
     slot_uri: schema:position
   citeSourceCodeMboIds:
+    title: "Source Code Citations (mPIDs)"
     description: "The MBO identifiers for source code used in this HowToStep."
     required: false
     multivalued: true
     range: SoftwareSourceCode
     slot_uri: schema:citation
   citeSoftwareApplicationMboIds:
+    title: "Software Application Citations (mPIDs)"
     description: "The MBO identifiers for software or web applications used in this HowToStep."
     required: false
     multivalued: true
     range: SoftwareApplication
     slot_uri: schema:citation
   childStepMboIds:
+    title: "Child Steps (mPIDs)"
     description: "The MBO identifiers for steps which are children of this one."
     required: false
     multivalued: true
     range: HowToStep
     slot_uri: schema:itemListElement
   howToImplementTipMboIds:
+    title: "Implementation Tips (mPIDs)"
     description: |
       MBO identifiers pointing to tips which detail parameters and other configuration used in the step.
 
@@ -405,18 +478,21 @@ slots:
 
   # SoftwareSourceCode slots
   codeRepositoryUrl:
+    title: "Code Repository URL"
     description: "The URL of the source code repository."
     required: true
     multivalued: false
     range: uri
     slot_uri: schema:codeRepository
   programmingLanguage:
+    title: "Programming Language"
     description: "The programming languages primarily used in the source code."
     required: false
     multivalued: true
     range: string
     slot_uri: schema:programmingLanguage
   runtimePlatform:
+    title: "Runtime Platform"
     description: "The runtime on which the code runs (for example Java 17, .NET Framework 4.6, Python 3.6, etc.)"
     required: false
     multivalued: false
@@ -424,18 +500,24 @@ slots:
     slot_uri: schema:runtimePlatform
 
   # SoftwareApplication
-  isWebApplication:
+  softwareApplicationType:
+    title: "Software Application Type"
     description: "Whether it is a web application or a software application for download."
     required: true
     multivalued: false
-    range: boolean
+    designates_type: true
+    range: string
+    slot_uri: rdf:type
+    pattern: "^(SoftwareApplication|WebApplication)$"
   softwareVersion:
+    title: "Software Version"
     description: "The version of a software or web application."
     required: false
     multivalued: false
     range: string
     slot_uri: schema:softwareVersion
   softwareDownloadUrl:
+    title: "Software Download URL"
     description: "The download url of a software application."
     required: false
     multivalued: false
@@ -444,18 +526,21 @@ slots:
 
   # EmbargoStatement
   embargoExpires:
+    title: "Embargo Expires"
     description: "The date when the embargo expires."
     required: true
     multivalued: false
     range: date
     slot_uri: schema:expires
   embargoedDatasetMboId:
+    title: "Embargo Dataset (mPID)"
     description: "The dataset that this embargo statement describes."
     required: true
     multivalued: false
     range: Dataset
     slot_uri: schema:mainEntity
   embargoDescription:
+    title: "Explanation/Description"
     description: "The textual description of the embargo."
     required: true
     multivalued: false
@@ -464,12 +549,14 @@ slots:
 
   # DefinedTerm slots
   termCode:
+    title: "Term Code"
     description: "A code that identifies this DefinedTerm within a DefinedTermSet."
     required: true
     multivalued: false
     range: string
     slot_uri: schema:termCode
   inDefinedTermSetMboId:
+    title: "In Term-Set (URL)"
     description: |
       The (hardcoded) value of the `DefinedTermSet` that this `DefinedTerm` is in.
 
@@ -480,6 +567,7 @@ slots:
     range: uri
     slot_uri: schema:indefinedTermSet
   existingTermId:
+    title: "Existing Term (URL)"
     description: "An existing URI PID which describes what this term represents."
     required: false
     multivalued: false
@@ -488,6 +576,7 @@ slots:
 
   # Place slots
   geoShapeMboId:
+    title: "GeoShape (mPID)"
     description: |
       The location specified by geographic coordinates.
     required: false
@@ -495,6 +584,7 @@ slots:
     range: GeoShape
     slot_uri: schema:geo
   latitude:
+    title: "Latitude (WGS 84)"
     description: |
       The latitude of the place (WGS 84).
     required: false
@@ -504,8 +594,9 @@ slots:
     maximum_value: +180
     slot_uri: schema:latitude
   longitude:
+    title: "Longitude (WGS 84)"
     description: |
-      The longitude oft he place (WGS 84)
+      The longitude of the place (WGS 84)
     required: false
     multivalued: false
     minimum_value: -180
@@ -515,6 +606,7 @@ slots:
 
   # GeoShape slots
   box:
+    title: "Box"
     description: |
       schema.org expects lat long (Y X) coordinate order.  Box syntax is: miny minx maxy maxx
 
@@ -523,8 +615,9 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:box
-    pattern: '^[+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+$'
+    pattern: '^[+-]?[\d.]+\ [+-]?[\d.]+\ [+-]?[\d.]+\ [+-]?[\d.]+$'
   circle:
+    title: "Circle"
     description: |
       schema.org expects lat long (Y X) coordinate order followed by a radius in metres.
 
@@ -533,8 +626,9 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:circle
-    pattern: '^[+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+$'
+    pattern: '^[+-]?[\d.]+\ [+-]?[\d.]+\ [+-]?[\d.]+$'
   elevation:
+    title: "Elevation (m)"
     description: |
       The elevation of a location (WGS 84), for example '-300 m'.
 
@@ -543,8 +637,9 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:elevation
-    pattern: '^[+-]?[\\d.]+(\\s\\w+)$'
+    pattern: '^[+-]?[\d.]+(\s\w+)$'
   line:
+    title: "Line"
     description: |
       lat long (Y X) coordinates describing waypoints on the line; each waypoint is sepearated from the others by a space. 
       There must be at least two waypoints.
@@ -554,8 +649,9 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:line
-    pattern: '^([+-]?[\\d.]+\\ [+-]?[\\d.]+\\ ){1,}([+-]?[\\d.]+\\ [+-]?[\\d.]+)$'
+    pattern: '^([+-]?[\d.]+\ [+-]?[\d.]+\ ){1,}([+-]?[\d.]+\ [+-]?[\d.]+)$'
   polygon:
+    title: "Polygon"
     description: |
       A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. 
       A polygon is expressed as a series of four or more space delimited points where the first and final points are identical. 
@@ -565,34 +661,39 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:polygon
-    pattern: '^([+-]?[\\d.]+\\ [+-]?[\\d.]+)\\ ([+-]?[\\d.]+\\ [+-]?[\\d.]+\\ ){2,}(\\1)$'
+    pattern: '^([+-]?[\d.]+\ [+-]?[\d.]+)\ ([+-]?[\d.]+\ [+-]?[\d.]+\ ){2,}(\1)$'
 
   # Person slots
   givenName:
+    title: "Given Name"
     description: "The person's first name."
     required: true
     multivalued: false
     range: string
     slot_uri: schema:givenName
   familyName:
+    title: "Family Name"
     description: "The person's surname."
     required: true
     multivalued: false
     range: string
     slot_uri: schema:familyName
   worksForOrganizationMboIds:
+    title: "Works for Organizations (mPIDs)"
     description: "The MBO identifiers of organizations which that the person works for."
     required: false
     multivalued: true
-    range: uri
+    range: Organization
     slot_uri: schema:worksFor
   affiliatedOrganizationMboIds:
+    title: "Affiliated to Organizations (mPIDs)"
     description: "The mbo identifiers of organizations which that the person is affiliated with."
     required: false
     multivalued: true
-    range: uri
+    range: Organization
     slot_uri: schema:affiliation
   contactPointMboIds:
+    title: "Contact Points (mPIDs)"
     description: The MBO identifiers of contact points for this person or organization.
     required: false
     multivalued: true
@@ -601,54 +702,65 @@ slots:
 
   # Organization slots
   organizationType:
+    title: "Organization Type"
+    designates_type: true
     description: Specifies the type of organization that this represents.
     required: true
     multivalued: false
     range: string
     pattern: "^(Organization|Airline|Consortium|Corporation|EducationalOrganization|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|MedicalOrganization|NGO|NewsMediaOrganization|OnlineBusiness|PerformingGroup|PoliticalParty|Project|ResearchOrganization|SearchRescueOrganization|SportsOrganization|WorkersUnion)$"
+    slot_uri: rdf:type
   departmentMboIds:
+    title: "Has Departments (mPIDs)"
     description: A department within the organization.
     required: false
     multivalued: true
     range: Organization
     slot_uri: schema:department
   parentOrganizationMboId:
+    title: "Parent Organization (mPID)"
     description: Parent organization of this one (inverse of `subOrganizationMboIds`).
     required: false
     multivalued: false
     range: Organization
     slot_uri: schema:parentOrganization
   memberOfOrganizationMboIds:
+    title: "Member of Organizations (mPIDs)"
     description: Other organizations that this one is part of.
     required: false
     multivalued: true
     range: Organization
     slot_uri: schema:memberOf
   subOrganizationMboIds:
+    title: "Sub-organizations (mPIDs)"
     description: Organizations which are subsidiaries of this one (inverse of `parentOrganizationMboId`).
     required: false
     multivalued: true
     range: Organization
     slot_uri: schema:memberOf
   legalName:
+    title: "Legal Name"
     description: The legal name of an organization.
     required: false
     multivalued: false
     range: string
     slot_uri: schema:legalName
   foundingDate:
+    title: "Founding Date"
     description: The date that the organization was founded.
     required: false
     multivalued: false
-    range: string
+    range: date
     slot_uri: schema:foundingDate
   dissolutionDate:
+    title: "Dissolution Date"
     description: The date that the organization was (or will be) dissolved.
     required: false
     multivalued: false
-    range: string
+    range: date
     slot_uri: schema:dissolutionDate
   fundingGrantMboIds:
+    title: "Grants (mPIDs)"
     description: Some source of funding for the organization.
     required: false
     multivalued: true
@@ -657,25 +769,29 @@ slots:
 
   # ContactPoint slots
   contactType:
+    title: "ContactPoint Purpose"
     description: The intended purpose of this ContactPoint, e.g. PR for an Organization, or Tech support.
     required: true
     multivalued: false
     range: string
     slot_uri: schema:contactType
   email:
+    title: "Email"
     description: The email address on which this contact can be reached.
     required: false
     multivalued: false
     range: string
     slot_uri: schema:email
   telephone:
+    title: "Telephone (+00)"
     description: The phone number on which this contact can be reached.
     required: false
     multivalued: false
     range: string
-    pattern: '^\\+[0-9-() #]+$'
+    pattern: '^\+[0-9-() #]+$'
     slot_uri: schema:telephone
   availableLanguages:
+    title: "Available Languages (en)"
     description: |
       The languages in which it is possible to communicate with this contact.
 
@@ -691,18 +807,21 @@ slots:
 
   # MonetaryGrant slots
   funderOrganizationMboIds:
+    title: "Funder Organizations (mPIDs)"
     description: The MBO identifiers for organizations which funded this grant.
     required: false
     multivalued: true
     range: Organization
     slot_uri: schema:funder
   sponsorOrganizationMboIds:
+    title: "Sponsor Organizations (mPIDs)"
     description: The MBO identifiers for organizations which sponsored this grant.
     required: false
     multivalued: true
     range: Organization
     slot_uri: schema:sponsor
   amount:
+    title: "Amount"
     description: |
       Used in conjunction with `currency`. 
 
@@ -712,6 +831,7 @@ slots:
     range: decimal
     slot_uri: schema:amount/schema:value
   currency:
+    title: "Currency"
     description: |
       Used in conjunction with `amount`. 
 
@@ -723,6 +843,7 @@ slots:
 
   # Taxon slots
   taxonIdentifier:
+    title: "Identifier"
     subproperty_of: identifier
     description: |
       An identifier for this specific taxon.
@@ -731,6 +852,7 @@ slots:
     range: string
     slot_uri: schema:identifier
   taxonScientificName:
+    title: "Scientific Name"
     description: |
       The full scientific name, with authorship and date information if known. When forming part of a dwc:Identification, 
       this should be the name in lowest level taxonomic rank that can be determined. This term should not contain 
@@ -742,6 +864,7 @@ slots:
     range: string
     slot_uri: dwc:scientificName
   taxonKingdom:
+    title: "Kingdom"
     description: |
       The full scientific name of the kingdom in which the dwc:Taxon is classified.
 
@@ -751,6 +874,7 @@ slots:
     range: string
     slot_uri: dwc:kingdom
   taxonPhylum:
+    title: "Phylum"
     description: |
       The full scientific name of the phylum or division in which the dwc:Taxon is classified.
 
@@ -760,6 +884,7 @@ slots:
     range: string
     slot_uri: dwc:phylum
   taxonOrder:
+    title: "Order"
     description: |
       The full scientific name of the order in which the dwc:Taxon is classified.
 
@@ -769,6 +894,7 @@ slots:
     range: string
     slot_uri: dwc:order
   taxonFamily:
+    title: "Family"
     description: |
       The full scientific name of the family in which the dwc:Taxon is classified.
 
@@ -778,6 +904,7 @@ slots:
     range: string
     slot_uri: dwc:family
   taxonGenus:
+    title: "Genus"
     description: |
       The full scientific name of the genus in which the dwc:Taxon is classified.
 
@@ -787,6 +914,7 @@ slots:
     range: string
     slot_uri: dwc:genus
   taxonSpecificEpithet:
+    title: "Specific Epithet"
     description: |
       The name of the first or species epithet of the dwc:scientificName.
 
@@ -796,6 +924,7 @@ slots:
     range: string
     slot_uri: dwc:specificEpithet
   taxonomicStatus:
+    title: "Status"
     description: |
       The status of the use of the dwc:scientificName as a label for a taxon. 
       Requires taxonomic opinion to define the scope of a dwc:Taxon. 
@@ -809,6 +938,7 @@ slots:
     range: string
     slot_uri: dwc:taxonomicStatus
   taxonVerbatimTaxonRank:
+    title: "Verbatim Taxon Rank"
     description: |
       The taxonomic rank of the most specific name in the dwc:scientificName as it appears in the original record.
 
@@ -820,6 +950,8 @@ slots:
 
   # Audience slots
   audienceType:
+    title: "Audience Type"
+    designates_type: true
     description: |
       The specific type of audience, for example `Researcher`.
 
@@ -830,6 +962,7 @@ slots:
     pattern: "^(Audience|BusinessAudience|EducationalAudience|MedicalAudience|Patient|PeopleAudience|MedicalAudience|ParentAudience|Researcher)$"
     slot_uri: rdf:type
   audienceTypeDescription:
+    title: "Description"
     description: |
       A textual description of the intended audience.
     required: true

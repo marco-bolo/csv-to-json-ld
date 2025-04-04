@@ -34,10 +34,13 @@ validate: $(LINKML_SCHEMA_FILES)
 	@echo "======================> Testing docs generation (quick)"
 
 	@$(LINKML) generate doc \
-		--directory validating-docs-generation \
+		--directory docs \
 		--sort-by rank \
 		--no-render-imports \
 		--stacktrace \
+		--no-use-slot-uris \
+		--no-use-class-uris \
+		--useuris \
 		classes.yaml || rm -rf validating-docs-generation
 
 
@@ -62,6 +65,9 @@ markdown-docs: $(LINKML_SCHEMA_FILES)
 		--sort-by rank \
 		--no-render-imports \
 		--stacktrace \
+		--no-use-slot-uris \
+		--no-use-class-uris \
+		--useuris \
 		classes.yaml 
 
 docs: markdown-docs

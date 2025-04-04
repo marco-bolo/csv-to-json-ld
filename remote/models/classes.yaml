@@ -23,7 +23,7 @@ classes:
       todo: Should we merge this with `HowTo` into one CSV?
     class_uri: schema:CreateAction
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -43,7 +43,7 @@ classes:
       todo: Should we merge this with `Action` into one CSV?
     class_uri: schema:HowTo
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -63,7 +63,7 @@ classes:
       Also, I'm not 100% confident in the way I'm linking source code / software to the step.
     class_uri: schema:HowToStep
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -86,10 +86,10 @@ classes:
       Can be linked to specific configuration files and other documents via the `url` property.
     class_uri: schema:HowToTip
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
-      - title
+      - name
       - positionInParent
       - description
       - url
@@ -99,7 +99,7 @@ classes:
     description: A dataset either produced as part of MBO or used in the process of producing an MBO dataset.
     class_uri: schema:Dataset
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -128,12 +128,13 @@ classes:
       - audienceMboIds
 
   PersonOrOrganization:
+    abstract: true
     description: |
       A collection of people or organization identifiers recognised by the MBO project.
 
       todo: How do we apply foreign key constraints on fields which are unions of types like these?
     slots:
-      - mboId
+      - id
 
   Person:
     is_a: PersonOrOrganization
@@ -175,7 +176,7 @@ classes:
     description: A contact point for a person or organization
     class_uri: schema:ContactPoint
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - contactType
@@ -189,7 +190,7 @@ classes:
     description: A person or organization recognised by the MBO project
     class_uri: schema:CreativeWork
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -197,10 +198,11 @@ classes:
       - description
 
   PropertyValue:
+    abstract: true
     description: "A property value."
     class_uri: schema:PropertyValue
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -222,7 +224,7 @@ classes:
     description: "A distribution of a Dataset, e.g. a CSV version of the dataset, or a PDF containing the dataset."
     class_uri: schema:DataDownload
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -244,23 +246,17 @@ classes:
       - audienceMboIds
       - sha256
       - contentSize
-    slot_usage:
-      datasetMboId:
-        slot_uri: schema:encodesCreativeWork
 
   DatasetComment:
     description: "A comment on a Dataset"
     class_uri: schema:Comment
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
-      - datasetMboId
+      - commentAboutDatasetMboId
       - authorId
       - commentText
-    slot_usage:
-      datasetMboId:
-        slot_uri: schema:parentItem
 
   SoftwareSourceCode:
     description: |
@@ -270,7 +266,7 @@ classes:
       to represent it instead.
     class_uri: schema:SoftwareSourceCode
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -297,15 +293,15 @@ classes:
       `SoftwareSourceCode` to represent it instead.
     class_uri: schema:SoftwareApplication
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
+      - softwareApplicationType
       - name
       - softwareVersion
       - description
       - publishingStatusMboId
       - softwareDownloadUrl
-      - isWebApplication
       - authorId
       - contributorIds
       - maintainerId
@@ -317,17 +313,12 @@ classes:
       - datePublished
       - keywords
 
-  WebApplication:
-    is_a: SoftwareApplication
-    description: "A web application, a specialisation of a `SoftwareApplication`."
-    class_uri: schema:WebApplication
-
   EmbargoStatement:
     class_uri: schema:Statement
     description: |
       A record describing why a dataset has been embargoed and when it will be released.
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - embargoedDatasetMboId
@@ -338,7 +329,7 @@ classes:
     class_uri: schema:DefinedTerm
     description: A defined vocabulary term.
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - termCode
@@ -360,7 +351,7 @@ classes:
     description: |
       A location where something occurred.
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -376,7 +367,7 @@ classes:
 
       Choose one of box/circle/line/polygon to express the location.
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -391,7 +382,7 @@ classes:
     class_uri: schema:MonetaryGrant
     description: A source of money awarded to an organization or project.
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -411,7 +402,7 @@ classes:
         schema:Taxon doesn't actually have `schema:additionalProperty` defined on it.
         <https://github.com/iodepo/odis-arch/issues/494>
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
@@ -436,7 +427,7 @@ classes:
         - <https://w3id.org/cerif/vocab/OrganisationTypes>
         - <https://vocabulary.odm2.org/organizationtype/>
     slots:
-      - mboId
+      - id
       - metadataPublisherId
       - metadataDescribedForActionId
       - audienceType

@@ -4,7 +4,7 @@ on:
     branches:
       - main
   pull_request:
-  
+
 jobs:
   validate-csvws-build-jsonld:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: out/
-          key: ${{ github.ref }}-3
+          key: ${{ github.ref }}-4
 
       - name: Initialise make
         run: make init
@@ -31,7 +31,7 @@ jobs:
 
       - name: Validate CSV-Ws
         run: make validate
-      
+
       - name: Build JSON-LD
         # Doing a little bit of parallelisation here to speed everything up.
         # This will result in incoherent log outputs which aren't suitable for debugging.
@@ -42,4 +42,3 @@ jobs:
         with:
           name: schema-org-jsonld-outputs
           path: out/*.json
-        

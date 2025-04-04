@@ -1,0 +1,219 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO Permanent Identifier"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_[_0-9a-z]+$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person (mPID - you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonIdentifier",
+            "titles": {
+                "en": [
+                    "Identifier"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonScientificName",
+            "titles": {
+                "en": [
+                    "Scientific Name"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/scientificName",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonKingdom",
+            "titles": {
+                "en": [
+                    "Kingdom"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/kingdom",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonPhylum",
+            "titles": {
+                "en": [
+                    "Phylum"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/phylum",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonOrder",
+            "titles": {
+                "en": [
+                    "Order"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/order",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonFamily",
+            "titles": {
+                "en": [
+                    "Family"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/family",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonGenus",
+            "titles": {
+                "en": [
+                    "Genus"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/genus",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonSpecificEpithet",
+            "titles": {
+                "en": [
+                    "Specific Epithet"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/specificEpithet",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonomicStatus",
+            "titles": {
+                "en": [
+                    "Status"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonVerbatimTaxonRank",
+            "titles": {
+                "en": [
+                    "Verbatim Taxon Rank"
+                ]
+            },
+            "propertyUrl": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/Taxon"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Taxon.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../Action.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

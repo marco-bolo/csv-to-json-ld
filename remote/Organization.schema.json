@@ -1,0 +1,275 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO Permanent Identifier"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_[_0-9a-z]+$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person (mPID - you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
+        },
+        {
+            "name": "organizationType",
+            "titles": {
+                "en": [
+                    "Organization Type"
+                ]
+            },
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/{+organizationType}",
+            "datatype": {
+                "base": "string",
+                "format": "^(Organization|Airline|Consortium|Corporation|EducationalOrganization|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|MedicalOrganization|NGO|NewsMediaOrganization|OnlineBusiness|PerformingGroup|PoliticalParty|Project|ResearchOrganization|SearchRescueOrganization|SportsOrganization|WorkersUnion)$"
+            }
+        },
+        {
+            "name": "name",
+            "titles": {
+                "en": [
+                    "Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/name",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "legalName",
+            "titles": {
+                "en": [
+                    "Legal Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/legalName",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "alternateName",
+            "titles": {
+                "en": [
+                    "Alternate Name"
+                ]
+            },
+            "propertyUrl": "https://schema.org/alternateName",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "identifiers",
+            "titles": {
+                "en": [
+                    "Identifiers"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "url",
+            "titles": {
+                "en": [
+                    "URL"
+                ]
+            },
+            "propertyUrl": "https://schema.org/url",
+            "valueUrl": "{+url}",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "description",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/description",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "foundingDate",
+            "titles": {
+                "en": [
+                    "Founding Date"
+                ]
+            },
+            "propertyUrl": "https://schema.org/foundingDate",
+            "datatype": {
+                "@id": "https://schema.org/Date",
+                "base": "date"
+            }
+        },
+        {
+            "name": "dissolutionDate",
+            "titles": {
+                "en": [
+                    "Dissolution Date"
+                ]
+            },
+            "propertyUrl": "https://schema.org/dissolutionDate",
+            "datatype": {
+                "@id": "https://schema.org/Date",
+                "base": "date"
+            }
+        },
+        {
+            "name": "contactPointMboIds",
+            "titles": {
+                "en": [
+                    "Contact Points (mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/contactPoint",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "parentOrganizationMboId",
+            "titles": {
+                "en": [
+                    "Parent Organization (mPID)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/parentOrganization",
+            "valueUrl": "https://w3id.org/marco-bolo/{+parentOrganizationMboId}"
+        },
+        {
+            "name": "memberOfOrganizationMboIds",
+            "titles": {
+                "en": [
+                    "Member of Organizations (mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/memberOf",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "departmentMboIds",
+            "titles": {
+                "en": [
+                    "Has Departments (mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/department",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "fundingGrantMboIds",
+            "titles": {
+                "en": [
+                    "Grants (mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/funding",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "keywords",
+            "titles": {
+                "en": [
+                    "Keywords"
+                ]
+            },
+            "propertyUrl": "https://schema.org/keywords",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Organization.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../Action.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "columns": [
+        {
+            "name": "id",
+            "titles": {
+                "en": [
+                    "MBO Permanent Identifier"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^mbo_[_0-9a-z]+$"
+            }
+        },
+        {
+            "name": "metadataPublisherId",
+            "titles": {
+                "en": [
+                    "Data Entry Person (mPID - you)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/creator",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
+        },
+        {
+            "name": "termCode",
+            "titles": {
+                "en": [
+                    "Term Code"
+                ]
+            },
+            "propertyUrl": "https://schema.org/termCode",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "inDefinedTermSetMboId",
+            "titles": {
+                "en": [
+                    "In Term-Set (URL)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/indefinedTermSet",
+            "valueUrl": "{+inDefinedTermSetMboId}",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "existingTermId",
+            "titles": {
+                "en": [
+                    "Existing Term (URL)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "valueUrl": "{+existingTermId}",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "description",
+            "titles": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "propertyUrl": "https://schema.org/description",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DefinedTerm"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/DataDownload"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://w3id.org/marco-bolo/InputMetadataDescription"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/about",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "propertyUrl": "https://schema.org/contentUrl",
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_DefinedTerm.csv#row={_row}"
+        }
+    ],
+    "aboutUrl": "https://w3id.org/marco-bolo/{+id}",
+    "primaryKey": [
+        "id"
+    ],
+    "foreignKeys": [
+        {
+            "columnReference": "metadataPublisherId",
+            "reference": {
+                "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../Action.csv",
+                "columnReference": "id"
+            }
+        }
+    ]
+}
