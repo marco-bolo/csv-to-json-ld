@@ -22,7 +22,7 @@ from linkml_runtime.utils.schemaview import (
     Namespaces,
 )
 
-_PARA_METADATA_SLOT_NAMES = {"dataEntryPersonId", "dataEntryTaskActionId"}
+_PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionId"}
 """
 The set of slot names which identify the slot as contributing to the para-metadata document (which ends up stored separately)
 
