@@ -514,18 +514,21 @@ slots:
 
   # Service slots
   placesServedMboIds:
+    title: "Places Served (mPIDs)"
     description: "The geographic area where a service or offered item is provided."
     required: false
     multivalued: true
     range: Place
     slot_uri: schema:areaServed
   serviceType:
+    title: "Service Type"
     description: The type of service being offered, e.g. veterans' benefits, emergency relief, etc.
     required: true
     multivalued: false
     range: string
     slot_uri: schema:serviceType
   serviceProviderOrganizationMboId:
+    title: "Service Provider Organization (mPID)"
     description: |
       The service provider, service operator, or service performer; the goods producer. 
       Another party (a seller) may offer those services or goods on behalf of the provider. 

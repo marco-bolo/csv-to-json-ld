@@ -29,7 +29,7 @@
             "name": "serviceType",
             "titles": {
                 "en": [
-                    "serviceType"
+                    "Service Type"
                 ]
             },
             "propertyUrl": "https://schema.org/serviceType",
@@ -53,7 +53,7 @@
             "name": "serviceProviderOrganizationMboId",
             "titles": {
                 "en": [
-                    "serviceProviderOrganizationMboId"
+                    "Service Provider Organization (mPID)"
                 ]
             },
             "propertyUrl": "https://schema.org/provider",
@@ -102,7 +102,7 @@
             "name": "placesServedMboIds",
             "titles": {
                 "en": [
-                    "placesServedMboIds"
+                    "Places Served (mPIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/areaServed",
