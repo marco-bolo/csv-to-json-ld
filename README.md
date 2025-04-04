@@ -98,4 +98,11 @@ N.B. <https://w3id.org/marco-bolo/ConvertIriToNode> provides a similar function 
 
 ## <https://w3id.org/marco-bolo/InputMetadataDescription>
 
-This is an identifier which is used to internally track the parametadata describing who input the metadata about something, when it was done, etc. It is helpful since some of the metadata which helps distinguish para-metadata from the more practical metadata we're describing here.
+This is an identifier which is used to internally track the parametadata describing who input the metadata about something, when it was done, etc. 
+
+## <https://w3id.org/marco-bolo/isResultOf>
+
+An internal MBO predicate which effectively provides an inverse of <https://schema.org/result>. This allows us to specify the relationship `mbo:SomeAction schema:result mbo:SomeParaMetadata.` without having to modify create-action.csv or any of the outputs therefrom which would create an unhelpfully complex build dependencies graph. The resulting triple is represented in JSON-LD as a [@reverse](https://www.w3.org/TR/json-ld11/#reverse-properties) property.
+
+Only to be used in a triple where the subject is an instance of <https://w3id.org/marco-bolo/InputMetadataDescription> and the object is an action defined in create-action.csv
+

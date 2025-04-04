@@ -25,6 +25,10 @@ INPUT_METADATA_DATA_TYPE_URI: URIRef = MBO.InputMetadataDescription
 """
 The rdf:type URI we use to easily identify which subject has the input metadata attached to it.
 """
+IS_RESULT_OF_PREDICATE: URIRef = MBO.isResultOf
+"""
+A predicate which specifies that this metadata is the result of an action (inverse of `schema:result`)
+"""
 MBO_ORGANIZATION_URI: URIRef = MBO.mbo_todo_organization_mbo
 """
 The URI Persistent Identifier for the MARCO-BOLO Organization.
@@ -88,6 +92,11 @@ def _build_para_metadata_graph(
     date_created: date,
     git_repo_commit_file_url: str,
 ):
+    is_result_of_triples = [o for (_, p, o) in input_metadata_triples if p == IS_RESULT_OF_PREDICATE]
+    if len(is_result_of_triples) != 1:
+        raise Exception(f"Expected 1 triples using {IS_RESULT_OF_PREDICATE}, but found {len(is_result_of_triples)}")
+    result_of_action = is_result_of_triples[0]
+
     dataset_uri = URIRef(f"{uri_described_in_original_metadata}-input-metadata")
     csv_data_download_uri = URIRef(
         f"{uri_described_in_original_metadata}-input-metadata#csv"
@@ -101,12 +110,13 @@ def _build_para_metadata_graph(
         (dataset_uri, p, o)
         for (_, p, o) in input_metadata_triples
         # We of course don't bring the type/CSV URL along.
-        if p not in {SCHEMA.contentUrl, RDF.type}
+        if p not in {SCHEMA.contentUrl, RDF.type, IS_RESULT_OF_PREDICATE}
     ]
     dataset_triples += [
         (dataset_uri, RDF.type, SCHEMA.Dataset),
         (dataset_uri, SCHEMA.distribution, csv_data_download_uri),
         (dataset_uri, SCHEMA.distribution, jsonld_data_download_uri),
+        (result_of_action, SCHEMA.result, dataset_uri)
     ]
     if git_repo_commit_file_url is not None:
         dataset_triples.append(
@@ -116,12 +126,13 @@ def _build_para_metadata_graph(
     csv_data_download_triples = [
         (csv_data_download_uri, p, o)
         for (_, p, o) in input_metadata_triples
-        if p != RDF.type
+        if p not in {RDF.type, IS_RESULT_OF_PREDICATE}
     ]
     csv_data_download_triples += [
         (csv_data_download_uri, RDF.type, SCHEMA.DataDownload),
         (csv_data_download_uri, SCHEMA.encodesCreativeWork, dataset_uri),
         (csv_data_download_uri, SCHEMA.encodingFormat, Literal("text/csv")),
+        (result_of_action, SCHEMA.result, csv_data_download_uri)
     ]
 
     json_data_download_triples = [
@@ -144,11 +155,13 @@ def _build_para_metadata_graph(
             SCHEMA.encodingFormat,
             Literal("application/ld+json"),
         ),
+        (result_of_action, SCHEMA.result, jsonld_data_download_uri)
     ]
     para_metadata_graph = rdflib.Graph()
     para_metadata_graph += dataset_triples
     para_metadata_graph += csv_data_download_triples
     para_metadata_graph += json_data_download_triples
+    para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
 
     return para_metadata_graph
 

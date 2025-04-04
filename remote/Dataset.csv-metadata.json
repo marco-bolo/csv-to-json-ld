@@ -2,6 +2,26 @@
     "@context": "http://www.w3.org/ns/csvw",
     "tables": [
         {
+            "url": "../Action.csv",
+            "tableSchema": "Action.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../HowTo.csv",
+            "tableSchema": "HowTo.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../HowToStep.csv",
+            "tableSchema": "HowToStep.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../HowToTip.csv",
+            "tableSchema": "HowToTip.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../Dataset.csv",
             "tableSchema": "Dataset.schema.json",
             "suppressOutput": false
@@ -19,6 +39,16 @@
         {
             "url": "../DataDownload.csv",
             "tableSchema": "DataDownload.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../SoftwareSourceCode.csv",
+            "tableSchema": "SoftwareSourceCode.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../SoftwareApplication.csv",
+            "tableSchema": "SoftwareApplication.schema.json",
             "suppressOutput": true
         },
         {

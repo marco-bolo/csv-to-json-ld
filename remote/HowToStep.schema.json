@@ -22,8 +22,17 @@
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
         },
         {
             "name": "name",
@@ -206,6 +215,13 @@
             "columnReference": "metadataPublisherId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../Action.csv",
                 "columnReference": "id"
             }
         }

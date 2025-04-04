@@ -22,8 +22,17 @@
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
         },
         {
             "name": "name",
@@ -44,8 +53,7 @@
                     "Amount"
                 ]
             },
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
-            "propertyUrl": "https://schema.org/value",
+            "propertyUrl": "https://schema.org/amount/schema:value",
             "datatype": {
                 "base": "decimal"
             }
@@ -57,8 +65,7 @@
                     "Currency"
                 ]
             },
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
-            "propertyUrl": "https://schema.org/currency",
+            "propertyUrl": "https://schema.org/amount/schema:currency",
             "datatype": {
                 "base": "string"
             }
@@ -118,17 +125,6 @@
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/amount",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#amount"
-        },
-        {
-            "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
-            "propertyUrl": "rdf:type",
-            "valueUrl": "https://schema.org/MonetaryAmount"
-        },
-        {
-            "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/MonetaryGrant"
         },
@@ -166,6 +162,13 @@
             "columnReference": "metadataPublisherId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../Action.csv",
                 "columnReference": "id"
             }
         }
