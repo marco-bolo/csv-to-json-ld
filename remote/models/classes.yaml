@@ -287,12 +287,12 @@ classes:
     slots:
       - id
       - metadataPublisherId
+      - softwareApplicationType
       - name
       - softwareVersion
       - description
       - publishingStatusMboId
       - softwareDownloadUrl
-      - isWebApplication
       - authorId
       - contributorIds
       - maintainerId
@@ -303,11 +303,6 @@ classes:
       - dateModified
       - datePublished
       - keywords
-
-  WebApplication:
-    is_a: SoftwareApplication
-    description: "A web application, a specialisation of a `SoftwareApplication`."
-    class_uri: schema:WebApplication
 
   EmbargoStatement:
     class_uri: schema:Statement

@@ -1,1 +1,4 @@
-MBO PID,Data Entry Person PID (you),Term Code,In Term-Set (URL),Existing Term (URL),Description
+MBO Permanent Identifier,Data Entry Person (PID - you),Term Code,In Term-Set (URL),Existing Term (URL),Description
+mbo_todo_status_published,mbo_todo_person_roblinksdata,Published,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,
+mbo_todo_status_incomplete,mbo_todo_person_roblinksdata,Incomplete,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,
+mbo_todo_status_embargoed,mbo_todo_person_roblinksdata,Embargoed,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,

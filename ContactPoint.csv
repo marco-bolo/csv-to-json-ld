@@ -1,1 +1,2 @@
-MBO PID,Data Entry Person PID (you),ContactPoint Purpose,Name,Email,Telephone (+00),Available Languages (en),Description
+MBO Permanent Identifier,Data Entry Person (PID - you),ContactPoint Purpose,Name,Email,Telephone (+00),Available Languages (en),Description
+mbo_todo_contact_point_1,mbo_todo_person_roblinksdata,Email the guy,Contact roblinksdata,roblinksdata@example.com,,en,

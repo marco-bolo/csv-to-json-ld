@@ -5,20 +5,20 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO PID"
+                    "MBO Permanent Identifier"
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
-                "format": "^mbo_\\\\d{7}$"
+                "format": "^mbo_[_0-9a-z]+$"
             }
         },
         {
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)"
+                    "Data Entry Person (PID - you)"
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
@@ -59,7 +59,7 @@
             "propertyUrl": "https://schema.org/box",
             "datatype": {
                 "base": "string",
-                "format": "^[+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+$"
+                "format": "^[+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+$"
             }
         },
         {
@@ -72,7 +72,7 @@
             "propertyUrl": "https://schema.org/circle",
             "datatype": {
                 "base": "string",
-                "format": "^[+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+$"
+                "format": "^[+-]?[\\d.]+\\ [+-]?[\\d.]+\\ [+-]?[\\d.]+$"
             }
         },
         {
@@ -85,7 +85,7 @@
             "propertyUrl": "https://schema.org/elevation",
             "datatype": {
                 "base": "string",
-                "format": "^[+-]?[\\\\d.]+(\\\\s\\\\w+)$"
+                "format": "^[+-]?[\\d.]+(\\s\\w+)$"
             }
         },
         {
@@ -98,7 +98,7 @@
             "propertyUrl": "https://schema.org/line",
             "datatype": {
                 "base": "string",
-                "format": "^([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ ){1,}([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+)$"
+                "format": "^([+-]?[\\d.]+\\ [+-]?[\\d.]+\\ ){1,}([+-]?[\\d.]+\\ [+-]?[\\d.]+)$"
             }
         },
         {
@@ -111,7 +111,7 @@
             "propertyUrl": "https://schema.org/polygon",
             "datatype": {
                 "base": "string",
-                "format": "^([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+)\\\\ ([+-]?[\\\\d.]+\\\\ [+-]?[\\\\d.]+\\\\ ){2,}(\\\\1)$"
+                "format": "^([+-]?[\\d.]+\\ [+-]?[\\d.]+)\\ ([+-]?[\\d.]+\\ [+-]?[\\d.]+\\ ){2,}(\\1)$"
             }
         },
         {

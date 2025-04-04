@@ -5,20 +5,20 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO PID"
+                    "MBO Permanent Identifier"
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
-                "format": "^mbo_\\\\d{7}$"
+                "format": "^mbo_[_0-9a-z]+$"
             }
         },
         {
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)"
+                    "Data Entry Person (PID - you)"
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
@@ -38,7 +38,7 @@
             "name": "authorId",
             "titles": {
                 "en": [
-                    "Author PID"
+                    "Author (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/author",

@@ -1,3 +1,0 @@
-MBO Permanent Identifier,Data Entry Person PID (you),Organization Type,Title,Legal Name,Alt Name,Identifiers,URL,Description,Founding Date,Dissolution Date,Contact Point Ids,Parent Organization Id,Member of Organization Ids,Department Organization Ids,Funding Grant Ids,Keywords
-mbo_todo_organization_awi,mbo_todo_person_roblinksdata,ResearchOrganization,Alfred Wegener Institute,,,,,,1980-07-15,,,,,,mbo_todo_monetary_grant_1,AWI
-mbo_todo_organization_mbo,mbo_todo_person_roblinksdata,Project,MARCO-BOLO,,,,https://marcobolo-project.eu/,,2022-12-01,2026-11-30,,,,,,

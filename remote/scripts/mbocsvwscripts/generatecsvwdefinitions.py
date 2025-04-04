@@ -6,7 +6,7 @@ Generate csv-w defintions from the linkml.
 
 N.B. There are no unit tests for this since it is designed to save development time and hence be run by a developer.
 """
-
+import csv
 import json
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Set
@@ -181,7 +181,7 @@ def _generate_unioned_identifiers_schema(out_dir: Path):
                 {
                     "name": "id",
                     "required": True,
-                    "titles": {"en": ["MBO PID"]},
+                    "titles": {"en": ["MBO Permanent Identifier"]},
                     "suppressOutput": True,
                 }
             ],
@@ -345,7 +345,7 @@ def _generate_csv_and_schema_for_class(
     csv_name_for_class = _get_csv_name_for_class(clazz.name)
     csv_file_path = output_dir / csv_name_for_class
     class_csv_map[clazz.name] = csv_file_path
-    csv_starter.to_csv(csv_file_path, index=False)
+    csv_starter.to_csv(csv_file_path, index=False, quoting=csv.QUOTE_STRINGS)
 
     foreign_key_definitions: List[Dict[str, Any]] = []
     primary_key_definition: List[str] = []
@@ -507,7 +507,7 @@ def _get_column_definition_for_slot(
         )
     else:
         # Primitive data type
-        data_type = {"base": _map_linkml_data_type_to_csvw(slot)}
+        data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(slot)
         if slot.pattern:
             data_type["format"] = slot.pattern
 
@@ -526,16 +526,34 @@ def _get_column_definition_for_slot(
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
 
+        if slot.range == "uri":
+            # Represent URIs as node values in the graph rather than as literal/primitive data types like strings.
+            column_definition["valueUrl"] = f"{{+{slot.name}}}"
+
         column_definition["datatype"] = data_type
 
     return column_definition
 
 
-def _map_linkml_data_type_to_csvw(slot: SlotDefinition) -> str:
+def _map_linkml_data_type_to_csvw(slot: SlotDefinition) -> Dict[str, str]:
     if slot.range == "uri":
-        return "string"
+        return {
+            "base": "string"
+        }
+    elif slot.range == "date":
+        return {
+            "@id": f"{_SCHEMA_ORG_PREFIX}Date",
+            "base": "date"
+        }
+    elif slot.range == "datetime":
+        return {
+            "@id": f"{_SCHEMA_ORG_PREFIX}DateTime",
+            "base": "datetime"
+        }
 
-    return slot.range
+    return {
+        "base": slot.range
+    }
 
 
 def _define_related_class_column(
@@ -564,10 +582,6 @@ def _define_related_class_column(
     range_class_pk_slot = _get_primary_key_identifier_slot_definition(
         range_class, _get_slots_for_class(range_class, all_classes, all_slots)
     )
-
-    if range_class.name in _VIRTUAL_CSV_FILES:
-        # Yes, this is pretty hacky.
-        range_class_pk_slot.title = "MBO PID"
 
     if slot.multivalued:
         column_definition["separator"] = _SEPARATOR_CHAR

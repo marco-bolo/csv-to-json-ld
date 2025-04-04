@@ -7,8 +7,18 @@
             "suppressOutput": false
         },
         {
+            "url": "../Organization.csv",
+            "tableSchema": "Organization.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../ContactPoint.csv",
             "tableSchema": "ContactPoint.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../MonetaryGrant.csv",
+            "tableSchema": "MonetaryGrant.schema.json",
             "suppressOutput": true
         },
         {

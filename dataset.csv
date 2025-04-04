@@ -1,5 +1,0 @@
-MBO Identifier,Data Entry Person PID (you),Title,Description,Data Landing Page URL,Data Not Accessible Reason,In Progress Data Date,Variables Measured,Based On PID,Distributions,License PID
-mbo_TODO_DATASET_10,mbo_todo_person_roblinksdata,Some title,Some description,https://example.com/some-landing-page|https://example.com/some-other-landing-page,,2026-01-01,MBO_variable_measured_eov_4|MBO_variable_measured_eov_15,https://example.com/some-existing-dataset,,mbo_TODO_LICENSE_4
-mbo_TODO_DATASET_2,mbo_todo_person_roblinksdata,Some second title,Some second description,https://example.com/some-further-landing-page,,2025-10-13,MBO_variable_measured_1,https://example.com/some-existing-dataset|https://w3id.org/marco-bolo/mbo_TODO_DATASET_1,MBO_TODO_data_download_1,mbo_TODO_LICENSE_1
-mbo_TODO_DATASET_5,mbo_todo_person_roblinksdata,Some third title,Some third description,https://example.com/some-even-further-landing-page,I don’t want to publish it please.,2028-01-01,MBO_variable_measured_1,,,mbo_TODO_LICENSE_1
-mbo_TODO_DATASET_6,mbo_todo_person_roblinksdata,My fourth title,My fourth description,,,,,,,mbo_TODO_LICENSE_1

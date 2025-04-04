@@ -5,20 +5,20 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO PID"
+                    "MBO Permanent Identifier"
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
-                "format": "^mbo_\\\\d{7}$"
+                "format": "^mbo_[_0-9a-z]+$"
             }
         },
         {
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)"
+                    "Data Entry Person (PID - you)"
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
@@ -45,6 +45,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/codeRepository",
+            "valueUrl": "{+codeRepositoryUrl}",
             "datatype": {
                 "base": "string"
             }
@@ -65,7 +66,7 @@
             "name": "publishingStatusMboId",
             "titles": {
                 "en": [
-                    "Publishing Status PID"
+                    "Publishing Status (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/creativeWorkStatus",
@@ -100,7 +101,7 @@
             "name": "authorId",
             "titles": {
                 "en": [
-                    "Author PID"
+                    "Author (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/author",
@@ -110,7 +111,7 @@
             "name": "contributorIds",
             "titles": {
                 "en": [
-                    "Contributor PIDs"
+                    "Contributors (PIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/contributor",
@@ -124,7 +125,7 @@
             "name": "maintainerId",
             "titles": {
                 "en": [
-                    "Maintainer PID"
+                    "Maintainer (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/maintainer",
@@ -134,7 +135,7 @@
             "name": "ownerId",
             "titles": {
                 "en": [
-                    "Owner PID"
+                    "Owner (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/copyrightHolder",
@@ -144,7 +145,7 @@
             "name": "publisherId",
             "titles": {
                 "en": [
-                    "Publisher PID"
+                    "Publisher (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/publisher",
@@ -159,6 +160,7 @@
             },
             "propertyUrl": "https://schema.org/dateCreated",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },
@@ -172,6 +174,7 @@
             "propertyUrl": "https://schema.org/dateModified",
             "separator": "|",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },
@@ -184,6 +187,7 @@
             },
             "propertyUrl": "https://schema.org/datePublished",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },

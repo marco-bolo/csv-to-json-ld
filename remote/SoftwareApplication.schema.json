@@ -5,25 +5,39 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO PID"
+                    "MBO Permanent Identifier"
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
-                "format": "^mbo_\\\\d{7}$"
+                "format": "^mbo_[_0-9a-z]+$"
             }
         },
         {
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)"
+                    "Data Entry Person (PID - you)"
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
+        },
+        {
+            "name": "softwareApplicationType",
+            "titles": {
+                "en": [
+                    "Software Application Type"
+                ]
+            },
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/{+softwareApplicationType}",
+            "datatype": {
+                "base": "string",
+                "format": "^(SoftwareApplication|WebApplication)$"
+            }
         },
         {
             "name": "name",
@@ -65,7 +79,7 @@
             "name": "publishingStatusMboId",
             "titles": {
                 "en": [
-                    "Publishing Status PID"
+                    "Publishing Status (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/creativeWorkStatus",
@@ -79,26 +93,16 @@
                 ]
             },
             "propertyUrl": "https://schema.org/downloadUrl",
+            "valueUrl": "{+softwareDownloadUrl}",
             "datatype": {
                 "base": "string"
-            }
-        },
-        {
-            "name": "isWebApplication",
-            "titles": {
-                "en": [
-                    "Is Web Application (bool)"
-                ]
-            },
-            "datatype": {
-                "base": "boolean"
             }
         },
         {
             "name": "authorId",
             "titles": {
                 "en": [
-                    "Author PID"
+                    "Author (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/author",
@@ -108,7 +112,7 @@
             "name": "contributorIds",
             "titles": {
                 "en": [
-                    "Contributor PIDs"
+                    "Contributors (PIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/contributor",
@@ -122,7 +126,7 @@
             "name": "maintainerId",
             "titles": {
                 "en": [
-                    "Maintainer PID"
+                    "Maintainer (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/maintainer",
@@ -132,7 +136,7 @@
             "name": "ownerId",
             "titles": {
                 "en": [
-                    "Owner PID"
+                    "Owner (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/copyrightHolder",
@@ -142,7 +146,7 @@
             "name": "providerId",
             "titles": {
                 "en": [
-                    "Provider PID"
+                    "Provider (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/provider",
@@ -152,7 +156,7 @@
             "name": "publisherId",
             "titles": {
                 "en": [
-                    "Publisher PID"
+                    "Publisher (PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/publisher",
@@ -167,6 +171,7 @@
             },
             "propertyUrl": "https://schema.org/dateCreated",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },
@@ -180,6 +185,7 @@
             "propertyUrl": "https://schema.org/dateModified",
             "separator": "|",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },
@@ -192,6 +198,7 @@
             },
             "propertyUrl": "https://schema.org/datePublished",
             "datatype": {
+                "@id": "https://schema.org/Date",
                 "base": "date"
             }
         },
@@ -207,11 +214,6 @@
             "datatype": {
                 "base": "string"
             }
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "rdf:type",
-            "valueUrl": "https://schema.org/SoftwareApplication"
         },
         {
             "virtual": true,

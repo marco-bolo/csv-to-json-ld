@@ -1,1 +1,3 @@
-MBO PID,Data Entry Person PID (you),Organization Type,Name,Legal Name,Alternate Name,Identifiers,URL,Description,Founding Date,Dissolution Date,Contact Points (PIDs),Parent Organization (PID),Member of Organizations (PIDs),Has Departments (PIDs),Grants (PIDs),Keywords
+MBO Permanent Identifier,Data Entry Person (PID - you),Organization Type,Name,Legal Name,Alternate Name,Identifiers,URL,Description,Founding Date,Dissolution Date,Contact Points (PIDs),Parent Organization (PID),Member of Organizations (PIDs),Has Departments (PIDs),Grants (PIDs),Keywords
+mbo_todo_organization_awi,mbo_todo_person_roblinksdata,ResearchOrganization,Alfred Wegener Institute,,,,,,1980-07-15,,,,,,mbo_todo_monetary_grant_1,AWI
+mbo_todo_organization_mbo,mbo_todo_person_roblinksdata,Project,MARCO-BOLO,,,,https://marcobolo-project.eu/,,2022-12-01,2026-11-30,,,,,,

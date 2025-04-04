@@ -5,20 +5,20 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO PID"
+                    "MBO Permanent Identifier"
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
-                "format": "^mbo_\\\\d{7}$"
+                "format": "^mbo_[_0-9a-z]+$"
             }
         },
         {
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person PID (you)"
+                    "Data Entry Person (PID - you)"
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
@@ -45,6 +45,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/indefinedTermSet",
+            "valueUrl": "{+inDefinedTermSetMboId}",
             "datatype": {
                 "base": "string"
             }
@@ -57,6 +58,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
+            "valueUrl": "{+existingTermId}",
             "datatype": {
                 "base": "string"
             }
