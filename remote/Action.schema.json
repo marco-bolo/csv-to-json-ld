@@ -136,7 +136,7 @@
             "name": "childActionMboIds",
             "titles": {
                 "en": [
-                    "childActionMboIds"
+                    "Child Actions (mPIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/result",

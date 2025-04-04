@@ -104,7 +104,7 @@
             "name": "spatialCoveragePlaceMboId",
             "titles": {
                 "en": [
-                    "Spatial Coverage (Place; mPID)"
+                    "Spatial Coverage (Place - mPID)"
                 ]
             },
             "propertyUrl": "https://schema.org/spatialCoverage",

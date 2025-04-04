@@ -1,4 +1,4 @@
-MBO Permanent Identifier,Data Entry Person (mPID - you),Data Entered for Action (mPID),ContactPoint Purpose,Name,Email,Telephone (+00),Available Languages (en),Description
+"MBO Permanent Identifier","Data Entry Person (mPID - you)","Data Entered for Action (mPID)","ContactPoint Purpose","Name","Email","Telephone (+00)","Available Languages (en)","Description"
 mbo_todo_contact_point_1,mbo_todo_person_roblinksdata,mbo_task_1_1,Email the guy,Contact roblinksdata,roblinksdata@example.com,,en,
 mbo_todo_contact_point_mbo_email,mbo_todo_person_roblinksdata,mbo_task_1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,
 mbo_todo_contact_point_mbo_nick,mbo_todo_person_roblinksdata,mbo_task_1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC 
