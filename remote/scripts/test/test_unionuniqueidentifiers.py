@@ -15,7 +15,7 @@ def test_mbo_list_columns_values_converted_to_node_references():
         unioned_file_out = tmp_dir / "a-and-b.csv"
 
         _union_identifiers(
-            [TEST_CASES_DIR / "a.csv", TEST_CASES_DIR / "b.csv"], unioned_file_out
+            [TEST_CASES_DIR / "a.csv", TEST_CASES_DIR / "b.csv"], unioned_file_out, pid_column_name="MBO PID"
         )
 
         actual_df = pd.read_csv(unioned_file_out)
