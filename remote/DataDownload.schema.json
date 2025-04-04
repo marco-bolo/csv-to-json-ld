@@ -44,6 +44,7 @@
                     "Dataset (PID)"
                 ]
             },
+            "propertyUrl": "https://schema.org/encodesCreativeWork",
             "valueUrl": "https://w3id.org/marco-bolo/{+datasetMboId}"
         },
         {

@@ -281,13 +281,13 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:conditionsOfAccess
-
   datasetMboId:
     title: "Dataset (PID)"
     description: "The MBO ID of the dataset."
     required: false
     multivalued: false
     range: Dataset
+    slot_uri: schema:encodesCreativeWork
 
   # DataDownload slots
   version:
@@ -363,6 +363,13 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:text
+  commentAboutDatasetMboId:
+    title: "Dataset (PID)"
+    description: "The MBO ID of the dataset this comment describes."
+    required: false
+    multivalued: false
+    range: Dataset
+    slot_uri: schema:parentItem
 
   # Action slots
   actionInputPids:

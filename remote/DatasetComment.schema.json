@@ -26,13 +26,14 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
-            "name": "datasetMboId",
+            "name": "commentAboutDatasetMboId",
             "titles": {
                 "en": [
                     "Dataset (PID)"
                 ]
             },
-            "valueUrl": "https://w3id.org/marco-bolo/{+datasetMboId}"
+            "propertyUrl": "https://schema.org/parentItem",
+            "valueUrl": "https://w3id.org/marco-bolo/{+commentAboutDatasetMboId}"
         },
         {
             "name": "authorId",

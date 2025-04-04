@@ -58,7 +58,6 @@
             },
             "propertyUrl": "https://schema.org/url",
             "separator": "|",
-            "valueUrl": "{+landingPage}",
             "datatype": {
                 "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
                 "base": "string"
@@ -192,7 +191,6 @@
             },
             "propertyUrl": "https://schema.org/isBasedOn",
             "separator": "|",
-            "valueUrl": "{+basedOn}",
             "datatype": {
                 "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
                 "base": "string"

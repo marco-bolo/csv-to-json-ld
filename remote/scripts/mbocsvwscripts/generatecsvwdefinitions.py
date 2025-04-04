@@ -526,8 +526,10 @@ def _get_column_definition_for_slot(
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
 
-        if slot.range == "uri":
+        if slot.range == "uri" and not slot.multivalued:
             # Represent URIs as node values in the graph rather than as literal/primitive data types like strings.
+            # Multivalued things still need to go via the <https://w3id.org/marco-bolo/ConvertIriToNode> conversion
+            # route so should not have this specified.
             column_definition["valueUrl"] = f"{{+{slot.name}}}"
 
         column_definition["datatype"] = data_type

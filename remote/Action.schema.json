@@ -104,7 +104,6 @@
             },
             "propertyUrl": "https://schema.org/object",
             "separator": "|",
-            "valueUrl": "{+actionInputPids}",
             "datatype": {
                 "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
                 "base": "string"

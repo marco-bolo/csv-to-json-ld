@@ -234,9 +234,6 @@ classes:
       - audienceMboIds
       - sha256
       - contentSize
-    slot_usage:
-      datasetMboId:
-        slot_uri: schema:encodesCreativeWork
 
   DatasetComment:
     description: "A comment on a Dataset"
@@ -244,7 +241,7 @@ classes:
     slots:
       - id
       - metadataPublisherId
-      - datasetMboId
+      - commentAboutDatasetMboId
       - authorId
       - commentText
     slot_usage:
