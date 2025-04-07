@@ -22,6 +22,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/creator",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
@@ -32,6 +33,7 @@
                 ]
             },
             "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
         },
         {
