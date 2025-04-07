@@ -5,7 +5,7 @@ GIT_HASH_REPO_URL	:= https://github.com/marco-bolo/csv-to-json-ld/tree/$(GIT_HAS
 
 WORKING_DIR				:= $(shell pwd)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
-MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
+MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-18
 
 
 RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER) riot

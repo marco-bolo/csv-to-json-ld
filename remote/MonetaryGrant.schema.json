@@ -55,7 +55,8 @@
                     "Amount"
                 ]
             },
-            "propertyUrl": "https://schema.org/amount/schema:value",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
+            "propertyUrl": "https://schema.org/value",
             "datatype": {
                 "base": "decimal"
             }
@@ -67,7 +68,8 @@
                     "Currency"
                 ]
             },
-            "propertyUrl": "https://schema.org/amount/schema:currency",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
+            "propertyUrl": "https://schema.org/currency",
             "datatype": {
                 "base": "string"
             }
@@ -124,6 +126,17 @@
             "datatype": {
                 "base": "string"
             }
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/amount",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#amount"
+        },
+        {
+            "virtual": true,
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#amount",
+            "propertyUrl": "rdf:type",
+            "valueUrl": "https://schema.org/MonetaryAmount"
         },
         {
             "virtual": true,
