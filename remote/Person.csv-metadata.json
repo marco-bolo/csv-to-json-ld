@@ -67,6 +67,11 @@
             "suppressOutput": true
         },
         {
+            "url": "../Service.csv",
+            "tableSchema": "Service.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../EmbargoStatement.csv",
             "tableSchema": "EmbargoStatement.schema.json",
             "suppressOutput": true

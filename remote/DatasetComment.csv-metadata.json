@@ -27,6 +27,16 @@
             "suppressOutput": true
         },
         {
+            "url": "../Organization.csv",
+            "tableSchema": "Organization.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../ContactPoint.csv",
+            "tableSchema": "ContactPoint.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../License.csv",
             "tableSchema": "License.schema.json",
             "suppressOutput": true
@@ -57,6 +67,11 @@
             "suppressOutput": true
         },
         {
+            "url": "../Service.csv",
+            "tableSchema": "Service.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../EmbargoStatement.csv",
             "tableSchema": "EmbargoStatement.schema.json",
             "suppressOutput": true
@@ -74,6 +89,11 @@
         {
             "url": "../GeoShape.csv",
             "tableSchema": "GeoShape.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../MonetaryGrant.csv",
+            "tableSchema": "MonetaryGrant.schema.json",
             "suppressOutput": true
         },
         {
