@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: out/
-          key: ${{ github.ref }}-4
+          key: ${{ github.ref }}-5
 
       - name: Initialise make
         run: make init

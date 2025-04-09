@@ -26,6 +26,17 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)"
+                ]
+            },
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
+        },
+        {
             "name": "name",
             "titles": {
                 "en": [
@@ -124,6 +135,20 @@
             }
         },
         {
+            "name": "childActionMboIds",
+            "titles": {
+                "en": [
+                    "Child Actions (mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/result",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/CreateAction"
@@ -166,9 +191,9 @@
             }
         },
         {
-            "columnReference": "howToPerformActionMboId",
+            "columnReference": "metadataDescribedForActionId",
             "reference": {
-                "resource": "../HowTo.csv",
+                "resource": "../Action.csv",
                 "columnReference": "id"
             }
         },

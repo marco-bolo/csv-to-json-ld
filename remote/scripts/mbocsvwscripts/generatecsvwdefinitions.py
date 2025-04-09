@@ -22,7 +22,7 @@ from linkml_runtime.utils.schemaview import (
     Namespaces,
 )
 
-_PARA_METADATA_SLOT_NAMES = {"metadataPublisherId"}
+_PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionId"}
 """
 The set of slot names which identify the slot as contributing to the para-metadata document (which ends up stored separately)
 
@@ -221,7 +221,7 @@ def _generate_makefile_manual_foreign_key_checks(
             for manual_fk_check in manual_foreign_key_checks
         }
 
-        makefile_config += f"out/validation/{log_file_name}: {" ".join(dependent_files)}"
+        makefile_config += f"out/validation/{log_file_name}: {" ".join(dependent_files)} out/validation"
         makefile_config += indent(
             "\n".join([_get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir) for manual_fk_check in manual_foreign_key_checks]),
             "	"
