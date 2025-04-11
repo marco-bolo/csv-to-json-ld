@@ -55,8 +55,8 @@
             },
             "propertyUrl": "https://schema.org/expires",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {

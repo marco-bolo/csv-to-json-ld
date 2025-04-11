@@ -57,7 +57,7 @@
             },
             "propertyUrl": "https://schema.org/position",
             "datatype": {
-                "base": "integer"
+                "base": "int"
             }
         },
         {

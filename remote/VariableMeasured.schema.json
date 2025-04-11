@@ -64,13 +64,14 @@
             "name": "propertyId",
             "titles": {
                 "en": [
-                    "Property ID (URL)"
+                    "Property ID (URL PID)"
                 ]
             },
             "propertyUrl": "https://schema.org/propertyID",
             "valueUrl": "{+propertyId}",
             "datatype": {
-                "base": "string"
+                "base": "string",
+                "@id": "https://schema.org/URL"
             }
         },
         {

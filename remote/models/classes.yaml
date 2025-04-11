@@ -116,8 +116,8 @@ classes:
       - ownerId
       - maintainerId
       - publisherId
-      - basedOn
-      - hasPart
+      - basedOnIds
+      - hasPartIds
       - publishingStatusMboId
       - embargoStatementMboId
       - dateCreated
@@ -350,7 +350,7 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - termCode
-      - inDefinedTermSetMboId
+      - inDefinedTermSetId
       - existingTermId
       - description
 

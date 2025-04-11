@@ -110,7 +110,7 @@
             "name": "actionInputPids",
             "titles": {
                 "en": [
-                    "Inputs (mPIDs)"
+                    "Inputs (URL PIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/object",

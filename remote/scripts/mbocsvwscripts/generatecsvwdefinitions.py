@@ -19,8 +19,10 @@ from linkml_runtime.utils.schemaview import (
     SchemaView,
     ClassDefinition,
     SlotDefinition,
+    TypeDefinition,
     Namespaces,
 )
+from rdflib.namespace import XSD
 
 _PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionId"}
 """
@@ -73,6 +75,7 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
     schema_view = SchemaView(classes_yaml_path, merge_imports=True)
     all_classes = schema_view.all_classes()
     all_slots = schema_view.all_slots()
+    all_literal_types = schema_view.all_types()
 
     remote_dir = out_dir / _REMOTE_DIR_NAME
     remote_dir.mkdir(exist_ok=True)
@@ -90,6 +93,7 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
                 schema_view,
                 all_slots,
                 all_classes,
+                all_literal_types,
                 out_dir,
                 class_csv_map,
                 class_schema_map,
@@ -330,6 +334,7 @@ def _generate_csv_and_schema_for_class(
     schema_view: SchemaView,
     all_slots: Dict[str, SlotDefinition],
     all_classes: Dict[str, ClassDefinition],
+    all_literal_types: Dict[str, TypeDefinition],
     output_dir: Path,
     class_csv_map: Dict[str, Path],
     class_schema_map: Dict[str, Path],
@@ -364,6 +369,7 @@ def _generate_csv_and_schema_for_class(
             slot,
             all_classes,
             all_slots,
+            all_literal_types,
             primary_key_definition,
             foreign_key_definitions,
             namespaces,
@@ -467,6 +473,7 @@ def _get_column_definition_for_slot(
     slot: SlotDefinition,
     all_classes: Dict[str, ClassDefinition],
     all_slots: Dict[str, SlotDefinition],
+    all_literal_types: Dict[str, TypeDefinition],
     primary_key_definition: List[str],
     foreign_key_definitions: List[Dict[str, Any]],
     namespaces: Namespaces,
@@ -507,7 +514,7 @@ def _get_column_definition_for_slot(
         )
     else:
         # Primitive data type
-        data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(slot)
+        data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(slot, all_literal_types, namespaces)
         if slot.pattern:
             data_type["format"] = slot.pattern
 
@@ -536,27 +543,47 @@ def _get_column_definition_for_slot(
 
     return column_definition
 
+def _map_linkml_built_in_data_type_to_csvw(linkml_built_in_data_type: str) -> str:
 
-def _map_linkml_data_type_to_csvw(slot: SlotDefinition) -> Dict[str, str]:
-    if slot.range == "uri":
-        return {
-            "base": "string"
-        }
-    elif slot.range == "date":
-        return {
-            "@id": f"{_SCHEMA_ORG_PREFIX}Date",
-            "base": "date"
-        }
-    elif slot.range == "datetime":
-        return {
-            "@id": f"{_SCHEMA_ORG_PREFIX}DateTime",
-            "base": "datetime"
-        }
 
-    return {
-        "base": slot.range
-    }
+    raise Exception(f"Unmatched linkml base literal datatype '{linkml_built_in_data_type}'")
 
+def _map_linkml_data_type_to_csvw(slot: SlotDefinition, all_literal_types: Dict[str, TypeDefinition], namespaces: Namespaces) -> Dict[str, str]:
+    if slot.range in all_literal_types:
+        literal_type = all_literal_types[slot.range]
+        literal_type_base = (literal_type.base or "str").lower()
+        data_type_def = {}
+
+        if literal_type.uri is not None:
+            data_type_uri = literal_type.uri.as_uri(namespaces)
+            if not data_type_uri.startswith(str(XSD)):
+                # Can't stick built-in-types here.
+                data_type_def["@id"] = data_type_uri
+
+        if literal_type_base == "str":
+            data_type_def["base"] = "string"
+        elif literal_type_base == "uri":
+            data_type_def["base"] = "string"
+            # Overrides anything already defined
+            data_type_def["@id"] = f"{_SCHEMA_ORG_PREFIX}URL"
+        elif literal_type_base == "xsddate":
+            data_type_def["base"] = "date"
+            # Overrides anything already defined
+            data_type_def["@id"] = f"{_SCHEMA_ORG_PREFIX}Date"
+        elif literal_type_base == "xsddatetime":
+            data_type_def["base"] = "datetime"
+            # Overrides anything already defined
+            data_type_def["@id"] = f"{_SCHEMA_ORG_PREFIX}DateTime"
+        elif literal_type_base == "int":
+            data_type_def["base"] = "int"
+        elif literal_type_base == "decimal":
+            data_type_def["base"] = "decimal"
+        else:
+            raise Exception(f"Unhandled literal data type '{slot.range}'")
+
+        return data_type_def
+
+    raise Exception(f"Unhandled literal datatype '{slot.range}'")
 
 def _define_related_class_column(
     all_classes: Dict[str, ClassDefinition],

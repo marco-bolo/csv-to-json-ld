@@ -56,8 +56,8 @@
                 ]
             },
             "propertyUrl": "https://schema.org/url",
-            "valueUrl": "{+licenseUrl}",
             "datatype": {
+                "@id": "https://schema.org/URL",
                 "base": "string"
             }
         },

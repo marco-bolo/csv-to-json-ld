@@ -56,8 +56,8 @@
                 ]
             },
             "propertyUrl": "https://schema.org/codeRepository",
-            "valueUrl": "{+codeRepositoryUrl}",
             "datatype": {
+                "@id": "https://schema.org/URL",
                 "base": "string"
             }
         },
@@ -171,8 +171,8 @@
             },
             "propertyUrl": "https://schema.org/dateCreated",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -185,8 +185,8 @@
             "propertyUrl": "https://schema.org/dateModified",
             "separator": "|",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -198,8 +198,8 @@
             },
             "propertyUrl": "https://schema.org/datePublished",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {

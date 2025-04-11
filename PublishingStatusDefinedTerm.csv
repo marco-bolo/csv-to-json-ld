@@ -1,4 +1,4 @@
-"MBO Permanent Identifier","Data Entry Person (mPID - you)","Data Entered for Action (mPID)","Term Code","In Term-Set (URL)","Existing Term (URL)","Description"
+"MBO Permanent Identifier","Data Entry Person (mPID - you)","Data Entered for Action (mPID)","Term Code","In Term-Set (URL PID)","Existing Term (URL PID)","Description"
 mbo_todo_status_published,mbo_todo_person_roblinksdata,mbo_task_1_1,Published,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,
 mbo_todo_status_incomplete,mbo_todo_person_roblinksdata,mbo_task_1_1,Incomplete,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,
 mbo_todo_status_embargoed,mbo_todo_person_roblinksdata,mbo_task_1_1,Embargoed,https://w3id.org/marco-bolo/mbo_todo_publishing_term_set,,

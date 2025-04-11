@@ -8,6 +8,7 @@ prefixes:
 imports:
   - linkml:types
   - ./classes
+  - ./literals
 default_prefix: mbo
 
 slots:
@@ -58,7 +59,7 @@ slots:
     title: "URL"
     required: false
     description: "The URL of the entity you are describing."
-    range: uri
+    range: schemaURL
     slot_uri: schema:url
     multivalued: false
   licenseMboId:
@@ -169,7 +170,7 @@ slots:
 
   # PropertyValue slots
   propertyId:
-    title: "Property ID (URL)"
+    title: "Property ID (URL PID)"
     required: false
     multivalued: false
     description: "The permanent identifer of this property."
@@ -226,7 +227,7 @@ slots:
     required: false
     multivalued: true
     description: "The location where the dataset can be acquired."
-    range: uri
+    range: schemaURL
   embargoStatementMboId:
     title: "Embargo Statement (mPID)"
     required: false
@@ -273,18 +274,18 @@ slots:
     range: string
     pattern: '^([+-]?\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\.\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)/(\.\.|[+-]?\d{4}((-?(-?(W[0-5][0-9]|[0-1][0-9])|([0-3][0-9][0-9])|((W[0-5][0-9]-?[0-7]|[0-3][0-9][0-9]|[0-1][0-9]-?[0-3][0-9])(T[0-2][0-9](:?[0-5][0-9](:?[0-5][0-9](\.\d+)?)?)?(Z|([+-][0-2][0-9](:?[0-5][0-9])?))?)?)))?)?)$'
     slot_uri: schema:temporalCoverage
-  basedOn:
-    title: "Based On (URL)"
+  basedOnIds:
+    title: "Based On (URL PIDs)"
     description: |
-      The URI PID of any datasets which yours is based on.
+      The URL PID of any datasets which yours is based on.
 
       WARNING: There are no foreign key checks.
     required: false
     multivalued: true
     range: uri
     slot_uri: schema:isBasedOn
-  hasPart:
-    title: "Has Part (URL)"
+  hasPartIds:
+    title: "Has Parts (URL PIDs)"
     description: |
       Used in aggregate datasets which are composed of multiple parts. You are required to use the full URI here to reference pre-existing Datasets. 
 
@@ -349,7 +350,7 @@ slots:
     description: "The URL where the data can be accessed."
     required: true
     multivalued: false
-    range: uri
+    range: schemaURL
     slot_uri: schema:url
 
   # License slots
@@ -359,7 +360,7 @@ slots:
     slot_uri: schema:url
     required: false
     description: "The location where the license can be acquired."
-    range: uri
+    range: schemaURL
     multivalued: false
 
   # Date slots
@@ -399,7 +400,7 @@ slots:
 
   # Action slots
   actionInputPids:
-    title: "Inputs (mPIDs)"
+    title: "Inputs (URL PIDs)"
     description: "Inputs to the `Action`; for example datasets or other data sources."
     required: false
     multivalued: true
@@ -503,7 +504,7 @@ slots:
     description: "The URL of the source code repository."
     required: true
     multivalued: false
-    range: uri
+    range: schemaURL
     slot_uri: schema:codeRepository
   programmingLanguage:
     title: "Programming Language"
@@ -542,7 +543,7 @@ slots:
     description: "The download url of a software application."
     required: false
     multivalued: false
-    range: uri
+    range: schemaURL
     slot_uri: schema:downloadUrl
 
   # Service slots
@@ -602,19 +603,16 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:termCode
-  inDefinedTermSetMboId:
-    title: "In Term-Set (URL)"
+  inDefinedTermSetId:
+    title: "In Term-Set (URL PID)"
     description: |
-      The (hardcoded) value of the `DefinedTermSet` that this `DefinedTerm` is in.
-
-      It will not be configurable, or a column in the table. It is only here for 
-      information purposes.
+      The term-set which this term is defined in.
     required: true
     multivalued: false
     range: uri
-    slot_uri: schema:indefinedTermSet
+    slot_uri: schema:inDefinedTermSet
   existingTermId:
-    title: "Existing Term (URL)"
+    title: "Existing Term (URL PID)"
     description: "An existing URI PID which describes what this term represents."
     required: false
     multivalued: false

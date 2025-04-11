@@ -70,7 +70,7 @@
             "propertyUrl": "https://schema.org/url",
             "separator": "|",
             "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "@id": "https://schema.org/URL",
                 "base": "string"
             }
         },
@@ -194,10 +194,10 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+publisherId}"
         },
         {
-            "name": "basedOn",
+            "name": "basedOnIds",
             "titles": {
                 "en": [
-                    "Based On (URL)"
+                    "Based On (URL PIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/isBasedOn",
@@ -208,10 +208,10 @@
             }
         },
         {
-            "name": "hasPart",
+            "name": "hasPartIds",
             "titles": {
                 "en": [
-                    "Has Part (URL)"
+                    "Has Parts (URL PIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/hasPart",
@@ -250,8 +250,8 @@
             },
             "propertyUrl": "https://schema.org/dateCreated",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -264,8 +264,8 @@
             "propertyUrl": "https://schema.org/dateModified",
             "separator": "|",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -277,8 +277,8 @@
             },
             "propertyUrl": "https://schema.org/datePublished",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -290,8 +290,8 @@
             },
             "propertyUrl": "https://w3id.org/marco-bolo/inProgressDataDate",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
