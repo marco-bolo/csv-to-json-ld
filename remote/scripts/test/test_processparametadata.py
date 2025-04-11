@@ -72,7 +72,7 @@ def test_expected_output_triples_present():
                                                              schema:creator mbo:mbo_todo_organization_mbo;
                                                              schema:about mbo:mbo_TODO_LICENSE_1;
                                                              schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                             schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1>;
+                                                             schema:contentUrl "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1"^^schema:URL;
                                                              schema:encodingFormat "text/csv".
             
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
@@ -80,7 +80,7 @@ def test_expected_output_triples_present():
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
                                                                 schema:about mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                                schema:contentUrl mbo:mbo_TODO_LICENSE_1;
+                                                                schema:contentUrl "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1"^^schema:URL;
                                                                 schema:encodingFormat "application/ld+json".
                                                                 
             mbo:mbo_some_action a schema:CreateAction;

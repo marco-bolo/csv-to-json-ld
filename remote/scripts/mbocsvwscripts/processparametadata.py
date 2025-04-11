@@ -92,10 +92,8 @@ def _build_para_metadata_graph(
     date_created: date,
     git_repo_commit_file_url: str,
 ):
-    is_result_of_triples = [o for (_, p, o) in input_metadata_triples if p == IS_RESULT_OF_PREDICATE]
-    if len(is_result_of_triples) != 1:
-        raise Exception(f"Expected 1 triples using {IS_RESULT_OF_PREDICATE}, but found {len(is_result_of_triples)}")
-    result_of_action = is_result_of_triples[0]
+    result_of_action = _get_object_from_single_triple_with_predicate(input_metadata_triples, IS_RESULT_OF_PREDICATE)
+    csv_content_url = _get_object_from_single_triple_with_predicate(input_metadata_triples, SCHEMA.contentUrl)
 
     dataset_uri = URIRef(f"{uri_described_in_original_metadata}-input-metadata")
     csv_data_download_uri = URIRef(
@@ -126,12 +124,13 @@ def _build_para_metadata_graph(
     csv_data_download_triples = [
         (csv_data_download_uri, p, o)
         for (_, p, o) in input_metadata_triples
-        if p not in {RDF.type, IS_RESULT_OF_PREDICATE}
+        if p not in {SCHEMA.contentUrl, RDF.type, IS_RESULT_OF_PREDICATE}
     ]
     csv_data_download_triples += [
         (csv_data_download_uri, RDF.type, SCHEMA.DataDownload),
         (csv_data_download_uri, SCHEMA.encodesCreativeWork, dataset_uri),
         (csv_data_download_uri, SCHEMA.encodingFormat, Literal("text/csv")),
+        (csv_data_download_uri, SCHEMA.contentUrl, Literal(str(csv_content_url), datatype=SCHEMA.URL)),
         (result_of_action, SCHEMA.result, csv_data_download_uri)
     ]
 
@@ -148,7 +147,7 @@ def _build_para_metadata_graph(
         (
             jsonld_data_download_uri,
             SCHEMA.contentUrl,
-            uri_described_in_original_metadata,
+            Literal(str(uri_described_in_original_metadata), datatype=SCHEMA.URL),
         ),
         (
             jsonld_data_download_uri,
@@ -164,6 +163,13 @@ def _build_para_metadata_graph(
     para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
 
     return para_metadata_graph
+
+
+def _get_object_from_single_triple_with_predicate(input_metadata_triples: List[Tuple[Node, Node, Node]], matching_predicate: Node):
+    triples_using_predicate = [o for (_, p, o) in input_metadata_triples if p == matching_predicate]
+    if len(triples_using_predicate) != 1:
+        raise Exception(f"Expected 1 triples using {matching_predicate}, but found {len(triples_using_predicate)}")
+    return triples_using_predicate[0]
 
 
 def _get_uri_described_in_original_metadata(

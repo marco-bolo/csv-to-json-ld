@@ -1,0 +1,18 @@
+id: https://w3id.org/marco-bolo/modelling-slots
+name: modelling-slots
+prefixes:
+  linkml: https://w3id.org/linkml/
+  schema: https://schema.org/
+  mbo: https://w3id.org/marco-bolo/
+  dwc: http://rs.tdwg.org/dwc/terms/
+imports:
+  - linkml:types
+default_prefix: mbo
+
+types:
+  schemaURL:
+    uri: schema:URL
+    base: str
+    description: A character string
+    exact_mappings:
+      - schema:URL

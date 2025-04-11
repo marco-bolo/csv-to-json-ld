@@ -79,8 +79,8 @@
                 ]
             },
             "propertyUrl": "https://schema.org/url",
-            "valueUrl": "{+url}",
             "datatype": {
+                "@id": "https://schema.org/URL",
                 "base": "string"
             }
         },

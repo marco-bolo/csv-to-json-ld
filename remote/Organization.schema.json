@@ -107,8 +107,8 @@
                 ]
             },
             "propertyUrl": "https://schema.org/url",
-            "valueUrl": "{+url}",
             "datatype": {
+                "@id": "https://schema.org/URL",
                 "base": "string"
             }
         },
@@ -133,8 +133,8 @@
             },
             "propertyUrl": "https://schema.org/foundingDate",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
@@ -146,8 +146,8 @@
             },
             "propertyUrl": "https://schema.org/dissolutionDate",
             "datatype": {
-                "@id": "https://schema.org/Date",
-                "base": "date"
+                "base": "date",
+                "@id": "https://schema.org/Date"
             }
         },
         {
