@@ -42,8 +42,8 @@
             "suppressOutput": true
         },
         {
-            "url": "../VariableMeasured.csv",
-            "tableSchema": "VariableMeasured.schema.json",
+            "url": "../PropertyValue.csv",
+            "tableSchema": "PropertyValue.schema.json",
             "suppressOutput": false
         },
         {

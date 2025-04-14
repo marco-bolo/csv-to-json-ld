@@ -106,7 +106,7 @@ classes:
       - name
       - description
       - landingPage
-      - variableMeasuredMboIds
+      - containsVariablesMboIds
       - aboutTaxonMboIds
       - spatialCoveragePlaceMboId
       - temporalCoverage
@@ -200,8 +200,8 @@ classes:
       - description
 
   PropertyValue:
-    abstract: true
-    description: "A property value."
+    description: |
+      A property with or without a value.
     class_uri: schema:PropertyValue
     slots:
       - id
@@ -216,11 +216,7 @@ classes:
       - maxValue
       - unitQudtId
       - unitText
-
-  VariableMeasured:
-    is_a: PropertyValue
-    class_uri: schema:PropertyValue
-    description: "A variable that you measured, along with relevant methodology."
+      - isTypeOfPropertyValueMboId
 
   DataDownload:
     description: "A distribution of a Dataset, e.g. a CSV version of the dataset, or a PDF containing the dataset."

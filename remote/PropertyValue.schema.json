@@ -152,6 +152,20 @@
             }
         },
         {
+            "name": "isTypeOfPropertyValueMboId",
+            "titles": {
+                "en": [
+                    "Is Sub-Type Of (PropertyValue mPIDs)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/valueReference",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/PropertyValue"
@@ -178,7 +192,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_VariableMeasured.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_PropertyValue.csv#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

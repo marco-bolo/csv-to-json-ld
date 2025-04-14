@@ -79,10 +79,10 @@
             }
         },
         {
-            "name": "variableMeasuredMboIds",
+            "name": "containsVariablesMboIds",
             "titles": {
                 "en": [
-                    "Variables Measured (mPIDs)"
+                    "Contains Variables (PropertyValue mPIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/variableMeasured",

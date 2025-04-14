@@ -418,6 +418,8 @@ def _generate_csv_and_schema_for_class(
             "aboutUrl": input_metadata_uri,
             "propertyUrl": f"{_SCHEMA_ORG_PREFIX}contentUrl",
             # todo: Properly sort these URIs out.
+            # It unfortunate that we can't define a virtual column with a literal value, but that is a limitation
+            # of the CSV-W specification
             "valueUrl": f"{_MBO_PREFIX}mbo_TODO_{csv_name_for_class}#row={{_row}}",
         },
     ]
