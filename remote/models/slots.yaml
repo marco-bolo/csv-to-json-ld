@@ -430,14 +430,14 @@ slots:
   resultingDatasetMboIds:
     title: "Resulting Datasets (mPIDs)"
     description: "The MBO identifiers of any datasets created in this action."
-    required: true
+    required: false
     multivalued: true
     range: Dataset
     slot_uri: schema:result
   childActionMboIds:
     title: "Child Actions (mPIDs)"
     description: "The MBO identifiers of any child actions created or performed as a result of this action."
-    required: true
+    required: false
     multivalued: true
     range: Action
     slot_uri: schema:result

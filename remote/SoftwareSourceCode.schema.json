@@ -8,6 +8,7 @@
                     "MBO Permanent Identifier"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
@@ -21,6 +22,7 @@
                     "Data Entry Person (mPID - you)"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/creator",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
@@ -32,6 +34,7 @@
                     "Data Entered for Action (mPID)"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
@@ -43,6 +46,7 @@
                     "Name"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/name",
             "datatype": {
                 "base": "string"
@@ -55,6 +59,7 @@
                     "Code Repository URL"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/codeRepository",
             "datatype": {
                 "@id": "https://schema.org/URL",

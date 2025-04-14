@@ -491,6 +491,9 @@ def _get_column_definition_for_slot(
     if slot.identifier is True:
         primary_key_definition.append(slot.name)
 
+    if slot.required is True:
+        column_definition["required"] = True
+
     if slot.slot_uri is not None:
         column_definition["propertyUrl"] = slot.slot_uri.as_uri(namespaces)
 

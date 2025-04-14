@@ -8,6 +8,7 @@
                     "MBO Permanent Identifier"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
                 "base": "string",
@@ -21,6 +22,7 @@
                     "Data Entry Person (mPID - you)"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/creator",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
@@ -32,6 +34,7 @@
                     "Data Entered for Action (mPID)"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
@@ -43,6 +46,7 @@
                     "Name"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/name",
             "datatype": {
                 "base": "string"
@@ -67,6 +71,7 @@
                     "Scientific Name"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/scientificName",
             "datatype": {
                 "base": "string"
@@ -79,6 +84,7 @@
                     "Kingdom"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/kingdom",
             "datatype": {
                 "base": "string"
@@ -91,6 +97,7 @@
                     "Phylum"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/phylum",
             "datatype": {
                 "base": "string"
@@ -103,6 +110,7 @@
                     "Order"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/order",
             "datatype": {
                 "base": "string"
@@ -115,6 +123,7 @@
                     "Family"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/family",
             "datatype": {
                 "base": "string"
@@ -127,6 +136,7 @@
                     "Genus"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/genus",
             "datatype": {
                 "base": "string"
@@ -139,6 +149,7 @@
                     "Specific Epithet"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/specificEpithet",
             "datatype": {
                 "base": "string"
@@ -151,6 +162,7 @@
                     "Status"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
             "datatype": {
                 "base": "string"
@@ -163,6 +175,7 @@
                     "Verbatim Taxon Rank"
                 ]
             },
+            "required": true,
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
             "datatype": {
                 "base": "string"
