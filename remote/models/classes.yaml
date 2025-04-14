@@ -93,7 +93,7 @@ classes:
       - name
       - positionInParent
       - description
-      - url
+      - supportingDocumentationUrls
       - audienceMboIds
 
   Dataset:

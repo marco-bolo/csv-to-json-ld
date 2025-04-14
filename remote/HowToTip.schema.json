@@ -78,13 +78,14 @@
             }
         },
         {
-            "name": "url",
+            "name": "supportingDocumentationUrls",
             "titles": {
                 "en": [
-                    "URL"
+                    "Supporting documentation (URLs)"
                 ]
             },
             "propertyUrl": "https://schema.org/url",
+            "separator": "|",
             "datatype": {
                 "@id": "https://schema.org/URL",
                 "base": "string"

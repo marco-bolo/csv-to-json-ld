@@ -471,6 +471,15 @@ slots:
     multivalued: false
     range: HowToStep
     slot_uri: schema:step
+  supportingDocumentationUrls:
+    subproperty_of: url
+    title: "Supporting documentation (URLs)"
+    description: |
+      The URL(s) of supporting documentation which would help a human repeat this the associated HowToStep.
+    required: false
+    multivalued: true
+    range: schemaURL
+    slot_uri: schema:url
 
   # HowToStep slots
   positionInParent:
