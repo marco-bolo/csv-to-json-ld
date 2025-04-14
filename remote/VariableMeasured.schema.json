@@ -74,8 +74,7 @@
             "propertyUrl": "https://schema.org/propertyID",
             "valueUrl": "{+propertyId}",
             "datatype": {
-                "base": "string",
-                "@id": "https://schema.org/URL"
+                "base": "string"
             }
         },
         {
@@ -127,15 +126,17 @@
             }
         },
         {
-            "name": "unitCode",
+            "name": "unitQudtId",
             "titles": {
                 "en": [
-                    "Unit Code"
+                    "Unit Code (QUDT Code)"
                 ]
             },
             "propertyUrl": "https://schema.org/unitCode",
+            "valueUrl": "http://qudt.org/vocab/unit/{+unitQudtId}",
             "datatype": {
-                "base": "string"
+                "base": "string",
+                "format": "^[A-Za-z0-9-_]+$"
             }
         },
         {

@@ -5,6 +5,7 @@ prefixes:
   schema: https://schema.org/
   mbo: https://w3id.org/marco-bolo/
   dwc: http://rs.tdwg.org/dwc/terms/
+  qudt-unit: http://qudt.org/vocab/unit/
 imports:
   - linkml:types
   - ./classes
@@ -204,12 +205,19 @@ slots:
     description: "TODO"
     range: decimal
     slot_uri: schema:maxValue
-  unitCode:
-    title: "Unit Code"
+  unitQudtId:
+    title: "Unit Code (QUDT Code)"
     required: false
     multivalued: false
-    description: "TODO"
-    range: string
+    description: |
+      The QUDT Code for the unit of measurement.
+
+      For example, for the QUDT unit <http://qudt.org/vocab/unit/NUM-PER-KiloM2> (Number per square kilometre), you should input `NUM-PER-KiloM2`.
+
+      See https://www.qudt.org/doc/2025/01/DOC_VOCAB-UNITS.html for a full list of available units.
+    implicit_prefix: qudt-unit
+    range: uri
+    pattern: "^[A-Za-z0-9-_]+$"
     slot_uri: schema:unitCode
   unitText:
     title: "Unit Text"
@@ -901,6 +909,8 @@ slots:
     subproperty_of: identifier
     description: |
       The life science identifier for this taxon, for example `urn:lsid:marinespecies.org:taxname:578941`.
+
+      For more information, see https://www.lsid.info/
     required: false
     multivalued: false
     range: URN

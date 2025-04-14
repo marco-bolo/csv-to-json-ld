@@ -214,7 +214,7 @@ classes:
       - measurementTechnique
       - minValue
       - maxValue
-      - unitCode
+      - unitQudtId
       - unitText
 
   VariableMeasured:

@@ -63,8 +63,7 @@
             "propertyUrl": "https://schema.org/inDefinedTermSet",
             "valueUrl": "{+inDefinedTermSetId}",
             "datatype": {
-                "base": "string",
-                "@id": "https://schema.org/URL"
+                "base": "string"
             }
         },
         {
@@ -77,8 +76,7 @@
             "propertyUrl": "https://schema.org/identifier",
             "valueUrl": "{+existingTermId}",
             "datatype": {
-                "base": "string",
-                "@id": "https://schema.org/URL"
+                "base": "string"
             }
         },
         {

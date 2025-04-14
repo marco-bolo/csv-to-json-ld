@@ -544,7 +544,16 @@ def _get_column_definition_for_slot(
             # Represent URIs as node values in the graph rather than as literal/primitive data types like strings.
             # Multivalued things still need to go via the <https://w3id.org/marco-bolo/ConvertIriToNode> conversion
             # route so should not have this specified.
-            column_definition["valueUrl"] = f"{{+{slot.name}}}"
+            if slot.implicit_prefix:
+                if not slot.implicit_prefix in namespaces:
+                    raise Exception(f"Unable to find prefix definition for implicit_prefix '{slot.implicit_prefix}'.")
+                prefix = namespaces.get(slot.implicit_prefix)
+                column_definition["valueUrl"] = f"{prefix}{{+{slot.name}}}"
+            else:
+                column_definition["valueUrl"] = f"{{+{slot.name}}}"
+
+        if slot.multivalued and slot.implicit_prefix:
+            raise Exception(f"Unable to currently support implicit_prefix on multivalued slot.")
 
         column_definition["datatype"] = data_type
 
@@ -571,8 +580,6 @@ def _map_linkml_data_type_to_csvw(slot: SlotDefinition, all_literal_types: Dict[
             data_type_def["base"] = "string"
         elif literal_type_base == "uri":
             data_type_def["base"] = "string"
-            # Overrides anything already defined
-            data_type_def["@id"] = f"{_SCHEMA_ORG_PREFIX}URL"
         elif literal_type_base == "xsddate":
             data_type_def["base"] = "date"
             # Overrides anything already defined
