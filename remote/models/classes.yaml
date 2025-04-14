@@ -27,10 +27,10 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
+      - agentId
       - abstract
       - description
       - howToPerformActionMboId
-      - agentId
       - participantIds
       - actionInputPids
       - resultingDatasetMboIds
@@ -47,8 +47,8 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
-      - description
       - howToStepMboId
+      - description
 
   HowToStep:
     description: |
@@ -231,9 +231,9 @@ classes:
       - metadataDescribedForActionId
       - name
       - datasetMboId
+      - downloadUrl
       - description
       - publishingStatusMboId
-      - downloadUrl
       - version
       - encodingFormat
       - dateCreated

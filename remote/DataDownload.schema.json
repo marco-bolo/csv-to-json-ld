@@ -56,11 +56,26 @@
             "name": "datasetMboId",
             "titles": {
                 "en": [
-                    "Dataset (mPID)"
+                    "Dataset (mPID)*"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/encodesCreativeWork",
             "valueUrl": "https://w3id.org/marco-bolo/{+datasetMboId}"
+        },
+        {
+            "name": "downloadUrl",
+            "titles": {
+                "en": [
+                    "Download URL*"
+                ]
+            },
+            "required": true,
+            "propertyUrl": "https://schema.org/url",
+            "datatype": {
+                "@id": "https://schema.org/URL",
+                "base": "string"
+            }
         },
         {
             "name": "description",
@@ -83,20 +98,6 @@
             },
             "propertyUrl": "https://schema.org/creativeWorkStatus",
             "valueUrl": "https://w3id.org/marco-bolo/{+publishingStatusMboId}"
-        },
-        {
-            "name": "downloadUrl",
-            "titles": {
-                "en": [
-                    "Download URL*"
-                ]
-            },
-            "required": true,
-            "propertyUrl": "https://schema.org/url",
-            "datatype": {
-                "@id": "https://schema.org/URL",
-                "base": "string"
-            }
         },
         {
             "name": "version",
@@ -310,6 +311,13 @@
             "columnReference": "metadataDescribedForActionId",
             "reference": {
                 "resource": "../Action.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "datasetMboId",
+            "reference": {
+                "resource": "../Dataset.csv",
                 "columnReference": "id"
             }
         }

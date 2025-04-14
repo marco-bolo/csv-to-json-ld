@@ -53,6 +53,17 @@
             }
         },
         {
+            "name": "howToStepMboId",
+            "titles": {
+                "en": [
+                    "How To Step (mPID)*"
+                ]
+            },
+            "required": true,
+            "propertyUrl": "https://schema.org/step",
+            "valueUrl": "https://w3id.org/marco-bolo/{+howToStepMboId}"
+        },
+        {
             "name": "description",
             "titles": {
                 "en": [
@@ -63,17 +74,6 @@
             "datatype": {
                 "base": "string"
             }
-        },
-        {
-            "name": "howToStepMboId",
-            "titles": {
-                "en": [
-                    "How To Step (mPID)*"
-                ]
-            },
-            "required": true,
-            "propertyUrl": "https://schema.org/step",
-            "valueUrl": "https://w3id.org/marco-bolo/{+howToStepMboId}"
         },
         {
             "virtual": true,

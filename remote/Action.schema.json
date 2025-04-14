@@ -53,6 +53,17 @@
             }
         },
         {
+            "name": "agentId",
+            "titles": {
+                "en": [
+                    "Agent (mPID)*"
+                ]
+            },
+            "required": true,
+            "propertyUrl": "https://schema.org/agent",
+            "valueUrl": "https://w3id.org/marco-bolo/{+agentId}"
+        },
+        {
             "name": "abstract",
             "titles": {
                 "en": [
@@ -85,17 +96,6 @@
             },
             "propertyUrl": "https://schema.org/actionProcess",
             "valueUrl": "https://w3id.org/marco-bolo/{+howToPerformActionMboId}"
-        },
-        {
-            "name": "agentId",
-            "titles": {
-                "en": [
-                    "Agent (mPID)*"
-                ]
-            },
-            "required": true,
-            "propertyUrl": "https://schema.org/agent",
-            "valueUrl": "https://w3id.org/marco-bolo/{+agentId}"
         },
         {
             "name": "participantIds",

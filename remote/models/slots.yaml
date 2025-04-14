@@ -311,7 +311,7 @@ slots:
   datasetMboId:
     title: "Dataset (mPID)"
     description: "The MBO ID of the dataset."
-    required: false
+    required: true
     multivalued: false
     range: Dataset
     slot_uri: schema:encodesCreativeWork
