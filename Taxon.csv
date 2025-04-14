@@ -1,1 +1,2 @@
-"MBO Permanent Identifier*","Data Entry Person (mPID - you)*","Data Entered for Action (mPID)*","Name*","Identifier","Scientific Name*","Kingdom*","Phylum*","Order*","Family*","Genus*","Specific Epithet*","Status*","Verbatim Taxon Rank*"
+"MBO Permanent Identifier*","Data Entry Person (mPID - you)*","Data Entered for Action (mPID)*","Name*","Scientific Name*","Kingdom*","Phylum*","Order*","Family*","Genus*","Specific Epithet*","Status*","Verbatim Taxon Rank*","Identifier",Life Science Identifier (PID)
+mbo_taxon_1,mbo_todo_person_roblinksdata,mbo_task_1_1,Montereina aurea,"Peltodoris aurea Eliot, 1904",Animalia,Mollusca,Nudibranchia ,Discodorididae ,“Montereina” ,“Montereina” aurea, alternative representation ,Species,578941,urn:lsid:marinespecies.org:taxname:578941

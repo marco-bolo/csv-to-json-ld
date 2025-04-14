@@ -896,6 +896,16 @@ slots:
     multivalued: false
     range: string
     slot_uri: schema:identifier
+  taxonLifeScienceIdentifier:
+    title: "Life Science Identifier (PID)"
+    subproperty_of: identifier
+    description: |
+      The life science identifier for this taxon, for example `urn:lsid:marinespecies.org:taxname:578941`.
+    required: false
+    multivalued: false
+    range: URN
+    pattern: '^urn:lsid:[^:\s]+:[^:\s]+:[^:\s]+(:[^:\s]+)?$'
+    slot_uri: schema:identifier
   taxonScientificName:
     title: "Scientific Name"
     description: |

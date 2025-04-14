@@ -53,18 +53,6 @@
             }
         },
         {
-            "name": "taxonIdentifier",
-            "titles": {
-                "en": [
-                    "Identifier"
-                ]
-            },
-            "propertyUrl": "https://schema.org/identifier",
-            "datatype": {
-                "base": "string"
-            }
-        },
-        {
             "name": "taxonScientificName",
             "titles": {
                 "en": [
@@ -179,6 +167,32 @@
             "propertyUrl": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
             "datatype": {
                 "base": "string"
+            }
+        },
+        {
+            "name": "taxonIdentifier",
+            "titles": {
+                "en": [
+                    "Identifier"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "taxonLifeScienceIdentifier",
+            "titles": {
+                "en": [
+                    "Life Science Identifier (PID)"
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertIriToNode",
+                "base": "string",
+                "format": "^urn:lsid:[^:\\s]+:[^:\\s]+:[^:\\s]+(:[^:\\s]+)?$"
             }
         },
         {

@@ -16,3 +16,9 @@ types:
     description: A character string
     exact_mappings:
       - schema:URL
+
+  URN:
+    uri: mbo:ConvertIriToNode
+    base: str
+    description: |
+      A Uniform Resource Name

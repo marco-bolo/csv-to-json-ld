@@ -423,7 +423,6 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
-      - taxonIdentifier
       - taxonScientificName
       - taxonKingdom
       - taxonPhylum
@@ -433,6 +432,8 @@ classes:
       - taxonSpecificEpithet
       - taxonomicStatus
       - taxonVerbatimTaxonRank
+      - taxonIdentifier
+      - taxonLifeScienceIdentifier
 
   Audience:
     class_uri: schema:Audience
