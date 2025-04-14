@@ -6,7 +6,7 @@
             "required": true,
             "titles": {
                 "en": [
-                    "MBO Permanent Identifier"
+                    "MBO Permanent Identifier*"
                 ]
             },
             "suppressOutput": true

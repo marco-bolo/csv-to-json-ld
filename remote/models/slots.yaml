@@ -393,7 +393,7 @@ slots:
   commentAboutDatasetMboId:
     title: "Dataset (mPID)"
     description: "The MBO ID of the dataset this comment describes."
-    required: false
+    required: true
     multivalued: false
     range: Dataset
     slot_uri: schema:parentItem

@@ -5,7 +5,7 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO Permanent Identifier"
+                    "MBO Permanent Identifier*"
                 ]
             },
             "required": true,
@@ -19,7 +19,7 @@
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person (mPID - you)"
+                    "Data Entry Person (mPID - you)*"
                 ]
             },
             "required": true,
@@ -31,7 +31,7 @@
             "name": "metadataDescribedForActionId",
             "titles": {
                 "en": [
-                    "Data Entered for Action (mPID)"
+                    "Data Entered for Action (mPID)*"
                 ]
             },
             "required": true,
@@ -43,7 +43,7 @@
             "name": "name",
             "titles": {
                 "en": [
-                    "Name"
+                    "Name*"
                 ]
             },
             "required": true,
@@ -68,7 +68,7 @@
             "name": "howToStepMboId",
             "titles": {
                 "en": [
-                    "How To Step (mPID)"
+                    "How To Step (mPID)*"
                 ]
             },
             "required": true,

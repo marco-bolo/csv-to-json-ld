@@ -5,7 +5,7 @@
             "name": "id",
             "titles": {
                 "en": [
-                    "MBO Permanent Identifier"
+                    "MBO Permanent Identifier*"
                 ]
             },
             "required": true,
@@ -19,7 +19,7 @@
             "name": "metadataPublisherId",
             "titles": {
                 "en": [
-                    "Data Entry Person (mPID - you)"
+                    "Data Entry Person (mPID - you)*"
                 ]
             },
             "required": true,
@@ -31,7 +31,7 @@
             "name": "metadataDescribedForActionId",
             "titles": {
                 "en": [
-                    "Data Entered for Action (mPID)"
+                    "Data Entered for Action (mPID)*"
                 ]
             },
             "required": true,
@@ -43,9 +43,10 @@
             "name": "commentAboutDatasetMboId",
             "titles": {
                 "en": [
-                    "Dataset (mPID)"
+                    "Dataset (mPID)*"
                 ]
             },
+            "required": true,
             "propertyUrl": "https://schema.org/parentItem",
             "valueUrl": "https://w3id.org/marco-bolo/{+commentAboutDatasetMboId}"
         },
@@ -63,7 +64,7 @@
             "name": "commentText",
             "titles": {
                 "en": [
-                    "Comment Text"
+                    "Comment Text*"
                 ]
             },
             "required": true,
@@ -118,6 +119,13 @@
             "columnReference": "metadataDescribedForActionId",
             "reference": {
                 "resource": "../Action.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "commentAboutDatasetMboId",
+            "reference": {
+                "resource": "../Dataset.csv",
                 "columnReference": "id"
             }
         }
