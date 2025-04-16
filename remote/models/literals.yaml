@@ -12,8 +12,9 @@ default_prefix: mbo
 types:
   schemaURL:
     uri: schema:URL
+    title: URL of a web page/document
     base: str
-    description: A character string
+    description: A schema:URL literal
     exact_mappings:
       - schema:URL
 

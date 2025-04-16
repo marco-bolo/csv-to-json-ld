@@ -6,14 +6,9 @@ N.B. This requires that the build system has [make](https://www.gnu.org/software
 
 ## Data CSVs
 
-For editing by users (except for maybe the eov.csv table):
+End-users should ignore (or perhaps not see) all of the other files which arecurrently stored in [remote](./remote/). But they're necessary for validating the data and converting it to an RDF representation.
 
-* [dataset.csv](./dataset.csv)
-* [dataset-comment.csv](./dataset-comment.csv)
-* [variable-measured.csv](./variable-measured.csv)
-... and a number of others.
-
-End-users would ignore (or perhaps not see) all of the other files which arecurrently stored in [remote](./remote/). But they're necessary for validating the data and converting it to an RDF representation.
+For detailed information about the CSV files and definitions of the columns they contain, see [class-descriptions.md](./class-descriptions.md).
 
 ## Before doing anything
 
@@ -55,40 +50,6 @@ $ p=4 && make -j "$p" init && make -j "$p" validate jsonld
 ```
 
 Files are output in the `out` directory.
-
-Example dataset output: 
-
-```json
-{
-  "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@id": "https://w3id.org/marco-bolo/mbo_TODO_DATASET_2",
-  "@type": "Dataset",
-  "description": "Some second description",
-  "distribution": {
-    "@id": "https://w3id.org/marco-bolo/MBO_TODO_data_download_1"
-  },
-  "isBasedOn": [
-    "https://example.com/some-existing-dataset",
-    "https://w3id.org/marco-bolo/mbo_TODO_DATASET_1"
-  ],
-  "license": "https://spdx.org/licenses/CC0-1.0",
-  "name": "Some second title",
-  "sdPublisher": {
-    "@id": "https://oceanexpert.org/expert/32820"
-  },
-  "url": "https://example.com/some-further-landing-page",
-  "variableMeasured": {
-    "@id": "https://w3id.org/marco-bolo/MBO_variable_measured_1"
-  },
-  "https://w3id.org/marco-bolo/inProgressDataDate#TODO": {
-    "@type": "Date",
-    "@value": "2025-10-13"
-  }
-}
-```
 
 ## <https://w3id.org/marco-bolo/ConvertMboIdToNode>
 

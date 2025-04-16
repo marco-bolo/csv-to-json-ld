@@ -21,7 +21,7 @@ slots:
     description: |
       An identifier chosen from the range given to your work package by WP1. 
       Note that when inputting into CSV files this should not be the full URI, 
-      but just the last part, e.g. 'mbo_0000001'.
+      but just the last part, e.g. `mbo_0000001`.
     range: string
     pattern: "^mbo_[_0-9a-z]+$"
   identifiers:
@@ -72,9 +72,9 @@ slots:
     required: true
     multivalued: false
     description: |
-      The CreateAction which resulted in this metadata record being described.
+      The [Action](#action) which resulted in this metadata record being described.
 
-      Is likely to be the CreateAction associated with a MARCO-BOLO Task.
+      Is likely to be the Action associated with a MARCO-BOLO Task.
 
       Uses the <https://w3id.org/marco-bolo/isResultOf> predicate but ultimately ends up being 
       represented as a triple in the form `<action> schema:result <this-entity>`.
@@ -552,7 +552,8 @@ slots:
   # SoftwareApplication
   softwareApplicationType:
     title: "Software Application Type"
-    description: "Whether it is a web application or a software application for download."
+    description: |
+      The type of software application: `SoftwareApplication` or `WebApplication`.
     required: true
     multivalued: false
     designates_type: true
@@ -778,7 +779,7 @@ slots:
   organizationType:
     title: "Organization Type"
     designates_type: true
-    description: Specifies the type of organization that this represents.
+    description: Specifies the type of organization that this represents. There is a long list, but `ResearchOrganization` is a good one.
     required: true
     multivalued: false
     range: uri
@@ -1063,7 +1064,7 @@ slots:
     description: |
       The specific type of audience, for example `Researcher`.
 
-      One of: Audience, BusinessAudience, EducationalAudience, Researcher.
+      One of: `Audience`, `BusinessAudience`, `EducationalAudience`, `MedicalAudience`, `Patient`, `PeopleAudience`, `MedicalAudience`, `ParentAudience` or `Researcher`.
     required: true
     multivalued: false
     range: uri

@@ -1,10 +1,11 @@
 id: https://w3id.org/marco-bolo/csv-input-classes
 name: csv-input-classes
-description: "
-  This documentation makes use of linkml for the purposes of automatic model documentation and diagram generation.
+description: |
+  MARCO-BOLO CSV models for describing the metadata of the scientific data generation and publishing process.
 
-  The MARCO-BOLO project does not intend to depend on the linkml tooling in the long term.
-  "
+  If a column is multivalued, use the pipe symbol `|` to separate multiple values.
+
+  It is currently recommended that you start the metadata description by defining an [Action](#action) describing a dataset that was created.
 prefixes:
   linkml: https://w3id.org/linkml/
   schema: https://schema.org/
@@ -59,9 +60,6 @@ classes:
       your `HowTo` should link to the identifier of the primary step.
 
       Make sure to describe any configuration or parameters in a HowToTip.
-
-      TODO: I haven't quite figured out a good way to link the parameters/configuration to a step.
-      Also, I'm not 100% confident in the way I'm linking source code / software to the step.
     class_uri: schema:HowToStep
     slots:
       - id
@@ -133,9 +131,7 @@ classes:
   PersonOrOrganization:
     abstract: true
     description: |
-      A collection of people or organization identifiers recognised by the MBO project.
-
-      todo: How do we apply foreign key constraints on fields which are unions of types like these?
+      A collection of people or organization identifiers recognised by the MBO project. The data is sources from the underlying [Person](#person) and [Organization](#organization) CSV files.
     slots:
       - id
 
@@ -357,8 +353,6 @@ classes:
     description: |
       `DefinedTerm`s which describe the status of publication, 
       for example (Incomplete|Draft|Published|Embargoed)
-
-      TODO: Should these be an end-user configurable item, or centrally controlled?
 
   Place:
     class_uri: schema:Place
