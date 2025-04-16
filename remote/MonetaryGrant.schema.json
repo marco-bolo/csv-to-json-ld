@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"
@@ -162,14 +162,14 @@
         },
         {
             "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/MonetaryAmount",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#MonetaryAmount"
+            "propertyUrl": "https://schema.org/amount",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#MonetaryAmount"
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/amount",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#MonetaryAmount"
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/MonetaryAmount",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#MonetaryAmount"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

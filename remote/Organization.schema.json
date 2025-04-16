@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"
@@ -47,7 +47,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "rdf:type",
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
             "valueUrl": "https://schema.org/{+organizationType}",
             "datatype": {
                 "base": "string",

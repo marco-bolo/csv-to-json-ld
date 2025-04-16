@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"
@@ -130,10 +130,10 @@
             }
         },
         {
-            "name": "distributions",
+            "name": "dataDownloadMboIds",
             "titles": {
                 "en": [
-                    "Distributions (mPIDs)"
+                    "Data Downloads (mPIDs)"
                 ]
             },
             "propertyUrl": "https://schema.org/distribution",

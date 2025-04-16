@@ -19,6 +19,7 @@ from os import linesep
 import click
 import pandas as pd
 import rdflib
+from linkml_runtime.utils.metamodelcore import URIorCURIE
 from linkml_runtime.utils.schemaview import (
     SchemaView,
     ClassDefinition,
@@ -132,6 +133,16 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
                 class_manual_foreign_key_checks, out_dir
             )
         )
+
+
+def _expand_curie(uri_or_curie: URIorCURIE, namespaces: Namespaces) -> str:
+    """
+    Causes an exception rather than quietly failing where it can't look the prefix up in `namespaces`.
+    """
+    if URIorCURIE.is_curie(uri_or_curie):
+        return str(namespaces.uri_for(uri_or_curie))
+
+    return str(uri_or_curie)
 
 
 def _perform_transitive_dependency_closure(
@@ -415,7 +426,7 @@ def _generate_csv_and_schema_for_class(
             {
                 "virtual": True,
                 "propertyUrl": "rdf:type",
-                "valueUrl": clazz.class_uri.as_uri(namespaces),
+                "valueUrl": _expand_curie(clazz.class_uri, namespaces),
             }
         )
 
@@ -487,7 +498,7 @@ def _add_user_defined_virtual_columns_for_triples(
     prefixes.append(f"@base <{this_row_temp_identifier_uri}>.")
     ttl_data = linesep.join(prefixes) + linesep + virtual_triples_txt
     virtual_triples_graph.parse(data=ttl_data, format="ttl")
-    for s, p, o in virtual_triples_graph:
+    for s, p, o in sorted(virtual_triples_graph):
         if not isinstance(o, URIRef):
             raise Exception(
                 f"Object '{o}' must be a URI reference to a node in the graph. Arbitrary expression of literals is not supported by the CSV-W spec."
@@ -573,8 +584,10 @@ def _get_column_definition_for_slot(
     if slot.required is True:
         column_definition["required"] = True
 
-    if slot.slot_uri is not None:
-        column_definition["propertyUrl"] = slot.slot_uri.as_uri(namespaces)
+    if slot.slot_uri is None:
+        column_definition["suppressOutput"] = True
+    else:
+        column_definition["propertyUrl"] = _expand_curie(slot.slot_uri, namespaces)
 
     if slot.name in _PARA_METADATA_SLOT_NAMES:
         column_definition["aboutUrl"] = (
@@ -600,6 +613,23 @@ def _get_column_definition_for_slot(
             output_dir,
             csv_dependencies_for_class,
         )
+    elif slot.range == "uri" and slot.slot_uri is not None and not slot.multivalued:
+        # Represent URIs as node values in the graph rather than as literal/primitive data types like strings.
+        # Multivalued things still need to go via the <https://w3id.org/marco-bolo/ConvertIriToNode> conversion
+        # route so should not have this specified.
+        if slot.implicit_prefix:
+            if not slot.implicit_prefix in namespaces:
+                raise Exception(
+                    f"Unable to find prefix definition for implicit_prefix '{slot.implicit_prefix}'."
+                )
+            prefix = namespaces.get(slot.implicit_prefix)
+            column_definition["valueUrl"] = f"{prefix}{{+{slot.name}}}"
+        else:
+            column_definition["valueUrl"] = f"{{+{slot.name}}}"
+
+        if slot.pattern is not None:
+            column_definition["datatype"] = {"base": "string", "format": slot.pattern}
+
     else:
         # Primitive data type
         data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(
@@ -614,33 +644,20 @@ def _get_column_definition_for_slot(
         if slot.maximum_value:
             data_type["maximum"] = slot.maximum_value
 
-        if slot.designates_type:
-            column_definition["propertyUrl"] = "rdf:type"
-            column_definition["valueUrl"] = f"{_SCHEMA_ORG_PREFIX}{{+{slot.name}}}"
-
         if slot.multivalued:
             column_definition["separator"] = _SEPARATOR_CHAR
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
 
-        if slot.range == "uri" and not slot.multivalued:
-            # Represent URIs as node values in the graph rather than as literal/primitive data types like strings.
-            # Multivalued things still need to go via the <https://w3id.org/marco-bolo/ConvertIriToNode> conversion
-            # route so should not have this specified.
-            if slot.implicit_prefix:
-                if not slot.implicit_prefix in namespaces:
-                    raise Exception(
-                        f"Unable to find prefix definition for implicit_prefix '{slot.implicit_prefix}'."
-                    )
-                prefix = namespaces.get(slot.implicit_prefix)
-                column_definition["valueUrl"] = f"{prefix}{{+{slot.name}}}"
+        if slot.implicit_prefix:
+            if slot.multivalued:
+                raise Exception(
+                    f"Unable to currently support implicit_prefix on multivalued slot."
+                )
             else:
-                column_definition["valueUrl"] = f"{{+{slot.name}}}"
-
-        if slot.multivalued and slot.implicit_prefix:
-            raise Exception(
-                f"Unable to currently support implicit_prefix on multivalued slot."
-            )
+                raise Exception(
+                    f"Unexpected/unhandled implicit_prefix value '{slot.implicit_prefix}'."
+                )
 
         column_definition["datatype"] = data_type
 
@@ -665,7 +682,7 @@ def _map_linkml_data_type_to_csvw(
         data_type_def = {}
 
         if literal_type.uri is not None:
-            data_type_uri = literal_type.uri.as_uri(namespaces)
+            data_type_uri = _expand_curie(literal_type.uri, namespaces)
             if not data_type_uri.startswith(str(XSD)):
                 # Can't stick built-in-types here.
                 data_type_def["@id"] = data_type_uri

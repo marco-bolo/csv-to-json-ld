@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"
@@ -236,24 +236,7 @@
         {
             "virtual": true,
             "propertyUrl": "https://schema.org/additionalProperty",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/kingdom",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/additionalProperty",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Status"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Status"
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Family"
         },
         {
             "virtual": true,
@@ -262,33 +245,18 @@
         },
         {
             "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#VerbatimTaxonRank"
+            "propertyUrl": "https://schema.org/additionalProperty",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/genus",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Genus"
+            "propertyUrl": "https://schema.org/additionalProperty",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Order"
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#VerbatimTaxonRank"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Status"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Order"
+            "propertyUrl": "https://schema.org/additionalProperty",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
         },
         {
             "virtual": true,
@@ -298,47 +266,12 @@
         {
             "virtual": true,
             "propertyUrl": "https://schema.org/additionalProperty",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Family"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#ScientificName"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/additionalProperty",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Order"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#SpecificEpithet"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/additionalProperty",
             "valueUrl": "https://w3id.org/marco-bolo/{+id}#SpecificEpithet"
         },
         {
             "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-            "valueUrl": "https://schema.org/PropertyValue",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
-        },
-        {
-            "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/scientificName",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#ScientificName"
+            "propertyUrl": "https://schema.org/additionalProperty",
+            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Status"
         },
         {
             "virtual": true,
@@ -359,12 +292,6 @@
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/phylum",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
-        },
-        {
-            "virtual": true,
             "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
             "valueUrl": "https://schema.org/PropertyValue",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Genus"
@@ -372,8 +299,26 @@
         {
             "virtual": true,
             "propertyUrl": "https://schema.org/propertyID",
-            "valueUrl": "http://rs.tdwg.org/dwc/terms/specificEpithet",
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#SpecificEpithet"
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/genus",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Genus"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/kingdom",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Order"
         },
         {
             "virtual": true,
@@ -383,8 +328,63 @@
         },
         {
             "virtual": true,
-            "propertyUrl": "https://schema.org/additionalProperty",
-            "valueUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/phylum",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Phylum"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#ScientificName"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/scientificName",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#ScientificName"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#SpecificEpithet"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/specificEpithet",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#SpecificEpithet"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Status"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/taxonomicStatus",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Status"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "valueUrl": "https://schema.org/PropertyValue",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#VerbatimTaxonRank"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "https://schema.org/propertyID",
+            "valueUrl": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#VerbatimTaxonRank"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

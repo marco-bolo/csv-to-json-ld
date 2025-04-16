@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"

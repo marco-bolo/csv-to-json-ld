@@ -111,7 +111,7 @@ classes:
       - aboutTaxonMboIds
       - spatialCoveragePlaceMboId
       - temporalCoverage
-      - distributions
+      - dataDownloadMboIds
       - authorId
       - contributorIds
       - ownerId

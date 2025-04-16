@@ -1,6 +1,7 @@
 id: https://w3id.org/marco-bolo/modelling-slots
 name: modelling-slots
 prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   linkml: https://w3id.org/linkml/
   schema: https://schema.org/
   mbo: https://w3id.org/marco-bolo/
@@ -23,8 +24,6 @@ slots:
       but just the last part, e.g. 'mbo_0000001'.
     range: string
     pattern: "^mbo_[_0-9a-z]+$"
-    implicit_prefix: mbo
-    slot_uri: schema:identifier
   identifiers:
     title: "Identifiers"
     multivalued: true
@@ -216,7 +215,7 @@ slots:
 
       For example, for the QUDT unit <http://qudt.org/vocab/unit/NUM-PER-KiloM2> (Number per square kilometre), you should input `NUM-PER-KiloM2`.
 
-      See https://www.qudt.org/doc/2025/01/DOC_VOCAB-UNITS.html for a full list of available units.
+      See <https://www.qudt.org/doc/2025/01/DOC_VOCAB-UNITS.html> for a full list of available units.
     implicit_prefix: qudt-unit
     range: uri
     pattern: "^[A-Za-z0-9-_]+$"
@@ -314,8 +313,8 @@ slots:
     multivalued: true
     range: uri
     slot_uri: schema:hasPart
-  distributions:
-    title: "Distributions (mPIDs)"
+  dataDownloadMboIds:
+    title: "Data Downloads (mPIDs)"
     description: "The different formats in which the dataset can be accessed or downloaded."
     required: false
     multivalued: true
@@ -557,8 +556,9 @@ slots:
     required: true
     multivalued: false
     designates_type: true
-    range: string
+    range: uri
     slot_uri: rdf:type
+    implicit_prefix: schema
     pattern: "^(SoftwareApplication|WebApplication)$"
   softwareVersion:
     title: "Software Version"
@@ -781,9 +781,10 @@ slots:
     description: Specifies the type of organization that this represents.
     required: true
     multivalued: false
-    range: string
+    range: uri
     pattern: "^(Organization|Airline|Consortium|Corporation|EducationalOrganization|CollegeOrUniversity|ElementarySchool|HighSchool|MiddleSchool|Preschool|School|FundingScheme|GovernmentOrganization|LibrarySystem|LocalBusiness|AnimalShelter|ArchiveOrganization|AutomotiveBusiness|AutoBodyShop|AutoDealer|AutoPartsStore|AutoRental|AutoRepair|AutoWash|GasStation|MotorcycleDealer|MotorcycleRepair|ChildCare|Dentist|DryCleaningOrLaundry|EmergencyService|FireStation|Hospital|PoliceStation|EmploymentAgency|EntertainmentBusiness|AdultEntertainment|AmusementPark|ArtGallery|Casino|ComedyClub|MovieTheater|NightClub|FinancialService|AccountingService|AutomatedTeller|BankOrCreditUnion|InsuranceAgency|FoodEstablishment|Bakery|BarOrPub|Brewery|CafeOrCoffeeShop|Distillery|FastFoodRestaurant|IceCreamShop|Restaurant|Winery|GovernmentOffice|HealthAndBeautyBusiness|BeautySalon|DaySpa|HairSalon|HealthClub|NailSalon|TattooParlor|HomeAndConstructionBusiness|Electrician|GeneralContractor|HVACBusiness|HousePainter|Locksmith|MovingCompany|Plumber|RoofingContractor|InternetCafe|LegalService|Attorney|Notary|Library|LodgingBusiness|BedAndBreakfast|Campground|Hostel|Hotel|Motel|Resort|VacationRental|MedicalBusiness|CommunityHealth|Dentist|Dermatology|DietNutrition|Emergency|Geriatric|Gynecologic|MedicalClinic|CovidTestingFacility|Midwifery|Nursing|Obstetric|Oncologic|Optician|Optometric|Otolaryngologic|Pediatric|Pharmacy|Physician|Physiotherapy|PlasticSurgery|Podiatric|PrimaryCare|Psychiatric|PublicHealth|ProfessionalService|RadioStation|RealEstateAgent|RecyclingCenter|SelfStorage|ShoppingCenter|SportsActivityLocation|BowlingAlley|ExerciseGym|GolfCourse|HealthClub|PublicSwimmingPool|SkiResort|SportsClub|StadiumOrArena|TennisComplex|Store|AutoPartsStore|BikeStore|BookStore|ClothingStore|ComputerStore|ConvenienceStore|DepartmentStore|ElectronicsStore|Florist|FurnitureStore|GardenStore|GroceryStore|HardwareStore|HobbyShop|HomeGoodsStore|JewelryStore|LiquorStore|MensClothingStore|MobilePhoneStore|MovieRentalStore|MusicStore|OfficeEquipmentStore|OutletStore|PawnShop|PetStore|ShoeStore|SportingGoodsStore|TireShop|ToyStore|WholesaleStore|TelevisionStation|TouristInformationCenter|TravelAgency|MedicalOrganization|Dentist|DiagnosticLab|Hospital|MedicalClinic|Pharmacy|Physician|VeterinaryCare|NGO|NewsMediaOrganization|OnlineBusiness|OnlineStore|PerformingGroup|DanceGroup|MusicGroup|TheaterGroup|PoliticalParty|Project|FundingAgency|ResearchProject|ResearchOrganization|SearchRescueOrganization|SportsOrganization|SportsTeam|WorkersUnion)$"
     slot_uri: rdf:type
+    implicit_prefix: schema
   departmentMboIds:
     title: "Has Departments (mPIDs)"
     description: A department within the organization.
@@ -899,7 +900,7 @@ slots:
     description: |
       Used in conjunction with `currency`. 
 
-      Actually ends up on a separate anonymous `schema:MonetaryAmount` object.
+      Actually ends up on a separate `schema:MonetaryAmount` object.
     required: false
     multivalued: false
     range: decimal
@@ -911,7 +912,7 @@ slots:
     description: |
       Used in conjunction with `amount`. 
 
-      Actually ends up on a separate anonymous `schema:MonetaryAmount` object.
+      Actually ends up on a separate `schema:MonetaryAmount` object.
     required: false
     multivalued: false
     range: string
@@ -1065,9 +1066,10 @@ slots:
       One of: Audience, BusinessAudience, EducationalAudience, Researcher.
     required: true
     multivalued: false
-    range: string
+    range: uri
     pattern: "^(Audience|BusinessAudience|EducationalAudience|MedicalAudience|Patient|PeopleAudience|MedicalAudience|ParentAudience|Researcher)$"
     slot_uri: rdf:type
+    implicit_prefix: schema
   audienceTypeDescription:
     title: "Description"
     description: |

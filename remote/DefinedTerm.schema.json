@@ -9,7 +9,7 @@
                 ]
             },
             "required": true,
-            "propertyUrl": "https://schema.org/identifier",
+            "suppressOutput": true,
             "datatype": {
                 "base": "string",
                 "format": "^mbo_[_0-9a-z]+$"
@@ -61,10 +61,7 @@
             },
             "required": true,
             "propertyUrl": "https://schema.org/inDefinedTermSet",
-            "valueUrl": "{+inDefinedTermSetId}",
-            "datatype": {
-                "base": "string"
-            }
+            "valueUrl": "{+inDefinedTermSetId}"
         },
         {
             "name": "existingTermId",
@@ -74,10 +71,7 @@
                 ]
             },
             "propertyUrl": "https://schema.org/identifier",
-            "valueUrl": "{+existingTermId}",
-            "datatype": {
-                "base": "string"
-            }
+            "valueUrl": "{+existingTermId}"
         },
         {
             "name": "description",
