@@ -70,8 +70,9 @@ A linkml extension key for adding triples to CSV-Ws as virtual columns.
 """
 
 _TWO_LINES: str = os.linesep + os.linesep
-_TABLE_FORMAT: str = "github"
+_TABLE_FORMAT: str = "pipe"
 _NON_TITLE_CHARS = re.compile("\\W+")
+_NEW_LINES = re.compile("\\n")
 
 
 @dataclass
@@ -870,6 +871,10 @@ def _generate_user_documentation_markdown(
     return markdown
 
 
+def _escape_description_strings_table_cell(description: str) -> str:
+    return _NEW_LINES.sub("<br/>", description)
+
+
 def _generate_prefixes_section_markdown(namespaces: Namespaces) -> str:
     prefixes_markdown = "## Prefixes" + _TWO_LINES
     prefixes_markdown += tabulate(
@@ -955,7 +960,7 @@ def _get_markdown_docs_for_class(
                 "Yes" if slot.required else "No",
                 _get_range_str_for_slot(slot, all_classes, all_literals, namespaces),
                 "Yes" if slot.multivalued else "No",
-                slot.description or "",
+                _escape_description_strings_table_cell(slot.description or ""),
             ]
             for slot in _get_slots_for_class(clazz, all_classes, all_slots)
         ],
