@@ -70,7 +70,7 @@ A linkml extension key for adding triples to CSV-Ws as virtual columns.
 """
 
 _TWO_LINES: str = os.linesep + os.linesep
-_TABLE_FORMAT: str = "pipe"
+_TABLE_FORMAT: str = "github"
 _NON_TITLE_CHARS = re.compile("\\W+")
 
 
