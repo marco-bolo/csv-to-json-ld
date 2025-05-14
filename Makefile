@@ -36,13 +36,8 @@ dockersetup:
 	@docker pull $(MBO_TOOLS_DOCKER)
 	@echo "" ; 
 
-out/bulk: 
-	@mkdir -p out/bulk
-
-out/validation:
+out/validation/person-or-organization.csv: Person.csv Organization.csv 
 	@mkdir -p out/validation
-
-out/validation/person-or-organization.csv: out/validation Person.csv Organization.csv 
 	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv --column-name "MBO Permanent Identifier*" Person.csv Organization.csv
 
 validate: $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
@@ -135,7 +130,8 @@ $(eval CSV2RDF_CSV_DEPENDENCIES_COMMAND_$(1) := cat "$(1)" \
 
 $(eval CSV2RDF_CSV_DEPENDENCIES_$(1) = $(shell $(CSV2RDF_CSV_DEPENDENCIES_COMMAND_$(1)) ))
 
-$(TTL_FILE_$(1)): $(1) $(CSV2RDF_CSV_DEPENDENCIES_$(1)) $(TABLE_SCHEMA_DEPENDENCIES_$(1)) out/bulk out/validation/person-or-organization.csv
+$(TTL_FILE_$(1)): $(1) $(CSV2RDF_CSV_DEPENDENCIES_$(1)) $(TABLE_SCHEMA_DEPENDENCIES_$(1)) out/validation/person-or-organization.csv
+	@mkdir -p out/bulk
 	@echo "=============================== Converting $$< to ttl $$@ ==============================="
 	@# Unfortunately csv2rdf returns a non-zero status code if it produces no triples (even if this is to be expected).
 	@# So for the time being we'll ignore any errors which come from it.
