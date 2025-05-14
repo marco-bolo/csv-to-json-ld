@@ -137,13 +137,13 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
         class_csv_map, class_schema_map, out_dir, map_class_name_to_csv_dependencies
     )
 
-    if any(class_manual_foreign_key_checks):
-        with open(out_dir / "Makefile.part", "w+") as f:
-            f.writelines(
-                _generate_makefile_manual_foreign_key_checks(
-                    class_manual_foreign_key_checks, out_dir
-                )
+    with open(out_dir / "remote" / "foreign-keys.mk", "w+") as f:
+        f.writelines(
+            _generate_makefile_manual_foreign_key_checks(
+                class_manual_foreign_key_checks, out_dir
             )
+        )
+
     with open(out_dir / "class-descriptions.md", "w+") as f:
         f.writelines(
             _generate_user_documentation_markdown(
@@ -248,12 +248,9 @@ def _generate_makefile_manual_foreign_key_checks(
 ) -> str:
     makefile_config = dedent(
         f"""
-        # The following needs to be placed inside the top-level Makefile:
-
-        # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
-        # foreign key validation on.
         MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= {" ".join(sorted([_get_csv_name_for_class(class_name) for class_name in class_manual_foreign_key_checks]))}
-        MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.log)
+        MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.success.log)
+        MANUAL_FOREIGN_KEY_VALIDATION_LOGS_ERRORS	:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.err.log)
 
     """
     )
@@ -263,20 +260,27 @@ def _generate_makefile_manual_foreign_key_checks(
         manual_foreign_key_checks,
     ) in sorted(class_manual_foreign_key_checks.items()):
         csv_file_name = _get_csv_name_for_class(class_name)
-        log_file_name = (
-            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.log"
+        success_log_file_name = (
+            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.success.log"
         )
+        error_log_file_name = (
+            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.err.log"
+        )
+
+        success_log_file_path = f"out/validation/{success_log_file_name}"
+        error_log_file_path = f"out/validation/{error_log_file_name}"
 
         dependent_files = {
             str(manual_fk_check.parent_table_path.relative_to(out_dir))
             for manual_fk_check in manual_foreign_key_checks
         }
 
-        makefile_config += f"out/validation/{log_file_name}: {" ".join(dependent_files)} out/validation"
+        makefile_config += f"{success_log_file_path}: {" ".join(dependent_files)} out/validation\n"
+        makefile_config += indent(f'@rm -f "{error_log_file_path}" "{success_log_file_path}"', "	")
         makefile_config += indent(
             "\n".join(
                 [
-                    _get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir)
+                    _get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir, error_log_file_path)
                     for manual_fk_check in manual_foreign_key_checks
                 ]
             ),
@@ -285,7 +289,15 @@ def _generate_makefile_manual_foreign_key_checks(
         makefile_config += indent(
             dedent(
                 f"""
-                @echo "" > out/validation/{log_file_name} # Let the build know we've done this validation now.
+                @if [ -f "{error_log_file_path}" ]; then \\
+                   echo ""; \\
+                   printf '\033[0;31m'; # Red \\
+                   echo "Foreign Key errors detected:"; \\
+                   cat "{error_log_file_path}"; \\
+                   printf '\033[0m'; # Reset colour \\
+                 else \\
+                   touch "{success_log_file_path}"; \\
+                 fi
                 @echo ""
             """
             ),
@@ -296,17 +308,22 @@ def _generate_makefile_manual_foreign_key_checks(
 
 
 def _get_makefile_config_for_foreign_key_check(
-    manual_foreign_key_check: ManualForeignKeyCheckConfig, out_dir: Path
+    manual_foreign_key_check: ManualForeignKeyCheckConfig, out_dir: Path, err_log_file_path: str
 ) -> str:
     child_table_path = manual_foreign_key_check.child_table_path.relative_to(out_dir)
     parent_table_path = manual_foreign_key_check.parent_table_path.relative_to(out_dir)
 
-    foreign_key_check_command = f'@$(LIST_COLUMN_FOREIGN_KEY_CHECK) "{child_table_path}" "{manual_foreign_key_check.child_table_column}" "{parent_table_path}" "{manual_foreign_key_check.parent_table_column}"'
+    foreign_key_check_command = (
+        f'$(LIST_COLUMN_FOREIGN_KEY_CHECK) "{child_table_path}" "{manual_foreign_key_check.child_table_column}" '
+        f'"{parent_table_path}" "{manual_foreign_key_check.parent_table_column}"'
+    )
 
     if manual_foreign_key_check.separator is not None:
         foreign_key_check_command += (
             f' --separator "{manual_foreign_key_check.separator}"'
         )
+
+    foreign_key_check_command = f'@RES=$$({foreign_key_check_command}) && echo "$$RES" || echo "$$RES" >> "{err_log_file_path}"'
 
     return dedent(
         f"""
