@@ -7,7 +7,7 @@ WORKING_DIR				:= $(shell pwd)
 UID						:= $(shell id -u)
 GID						:= $(shell id -g)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
-MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:pr-34
+MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
 
 
 RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -u "$(UID)":"$(GID)" -w /work $(JENA_CLI_DOCKER) riot
