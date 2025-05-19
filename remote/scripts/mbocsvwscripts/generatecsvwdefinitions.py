@@ -37,8 +37,6 @@ from tabulate import tabulate
 _PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionId"}
 """
 The set of slot names which identify the slot as contributing to the para-metadata document (which ends up stored separately)
-
-TODO: This list isn't currently complete, there will be other columns
 """
 _VIRTUAL_CSV_FILES: Dict[str, str] = {
     "PersonOrOrganization": "person-or-organization.csv"
@@ -74,6 +72,38 @@ _TABLE_FORMAT: str = "pipe"
 _NON_TITLE_CHARS = re.compile("\\W+")
 _NEW_LINES_REGEX = re.compile("\\n")
 _PIPES_REGEX = re.compile("\\|")
+
+_MAP_CSV_NAME_TO_PID_URI: Dict[str, str] = {
+    "Action.csv": f"{_MBO_PREFIX}mbo_0000004",
+    "Audience.csv": f"{_MBO_PREFIX}mbo_0000005",
+    "ContactPoint.csv": f"{_MBO_PREFIX}mbo_0000006",
+    "DataDownload.csv": f"{_MBO_PREFIX}mbo_0000007",
+    "DatasetComment.csv": f"{_MBO_PREFIX}mbo_0000008",
+    "Dataset.csv": f"{_MBO_PREFIX}mbo_0000009",
+    "DefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000010",
+    "EmbargoStatement.csv": f"{_MBO_PREFIX}mbo_0000011",
+    "GeoShape.csv": f"{_MBO_PREFIX}mbo_0000012",
+    "HowTo.csv": f"{_MBO_PREFIX}mbo_0000013",
+    "HowToStep.csv": f"{_MBO_PREFIX}mbo_0000014",
+    "HowToTip.csv": f"{_MBO_PREFIX}mbo_0000015",
+    "License.csv": f"{_MBO_PREFIX}mbo_0000016",
+    "MonetaryGrant.csv": f"{_MBO_PREFIX}mbo_0000017",
+    "Organization.csv": f"{_MBO_PREFIX}mbo_0000018",
+    "Person.csv": f"{_MBO_PREFIX}mbo_0000019",
+    "Place.csv": f"{_MBO_PREFIX}mbo_0000020",
+    "PropertyValue.csv": f"{_MBO_PREFIX}mbo_0000021",
+    "PublishingStatusDefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000022",
+    "Service.csv": f"{_MBO_PREFIX}mbo_0000023",
+    "SoftwareApplication.csv": f"{_MBO_PREFIX}mbo_0000024",
+    "SoftwareSourceCode.csv": f"{_MBO_PREFIX}mbo_0000025",
+    "Taxon.csv": f"{_MBO_PREFIX}mbo_0000026"
+}
+"""
+Mapping each of the model names to their CSV file's PID URI.
+
+If you add a new class/model you need to create the above mapping. The PID needs to be generated and correctly redirected
+in the w3id configuration.
+"""
 
 
 @dataclass
@@ -468,6 +498,7 @@ def _generate_csv_and_schema_for_class(
             }
         )
 
+
     column_definitions += [
         {
             "virtual": True,
@@ -486,17 +517,18 @@ def _generate_csv_and_schema_for_class(
             "aboutUrl": input_metadata_uri,
             "propertyUrl": f"{_SCHEMA_ORG_PREFIX}about",
             "valueUrl": identifier_template_uri_for_row,
-        },
-        {
+        }
+    ]
+
+    if csv_name_for_class in _MAP_CSV_NAME_TO_PID_URI:
+        column_definitions.append({
             "virtual": True,
             "aboutUrl": input_metadata_uri,
             "propertyUrl": f"{_SCHEMA_ORG_PREFIX}contentUrl",
-            # todo: Properly sort these URIs out.
-            # It unfortunate that we can't define a virtual column with a literal value, but that is a limitation
-            # of the CSV-W specification
-            "valueUrl": f"{_MBO_PREFIX}mbo_TODO_{csv_name_for_class}#row={{_row}}",
-        },
-    ]
+            "valueUrl": f"{_MAP_CSV_NAME_TO_PID_URI[csv_name_for_class]}#row={{_row}}",
+        })
+    else:
+        raise Exception(f"Could not find PID for CSV model '{csv_name_for_class}' - is this a new model/class?")
 
     if _LINKML_EXTENSION_VIRTUAL_TRIPLES in clazz.extensions:
         column_definitions += _add_user_defined_virtual_columns_for_triples(
