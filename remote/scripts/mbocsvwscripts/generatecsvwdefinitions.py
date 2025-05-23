@@ -96,7 +96,8 @@ _MAP_CSV_NAME_TO_PID_URI: Dict[str, str] = {
     "Service.csv": f"{_MBO_PREFIX}mbo_0000023",
     "SoftwareApplication.csv": f"{_MBO_PREFIX}mbo_0000024",
     "SoftwareSourceCode.csv": f"{_MBO_PREFIX}mbo_0000025",
-    "Taxon.csv": f"{_MBO_PREFIX}mbo_0000026"
+    "Taxon.csv": f"{_MBO_PREFIX}mbo_0000026",
+    "MyNewModel.csv": f"{_MBO_PREFIX}mbo_0000027"
 }
 """
 Mapping each of the model names to their CSV file's PID URI.

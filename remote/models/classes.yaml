@@ -472,3 +472,13 @@ classes:
       - audienceType
       - name
       - audienceTypeDescription
+
+  MyNewModel:
+    class_uri: schema:Thing
+    description: |
+      Nothing that exciting really
+    slots:
+      - id
+      - metadataPublisherId
+      - metadataDescribedForActionId
+      - description
