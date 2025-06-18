@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "validate-csv-foreign-keys",
+      "type": "shell",
+      "command": "python3 scripts/validate.py",
+      "problemMatcher": []
+    }
+  ]
+}
+
