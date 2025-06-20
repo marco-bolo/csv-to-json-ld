@@ -3,6 +3,7 @@ theme:
   name: readthedocs
 use_directory_urls: false
 nav:
+  - User Guide: user-guide.md
   - Overview: index.md
   - CSV files:
       - Action: Action.md
