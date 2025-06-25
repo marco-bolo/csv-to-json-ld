@@ -277,7 +277,7 @@ slots:
     title: "Contains Variables (PropertyValue mPIDs)"
     description: |
       The MBO Ids of the PropertyValues describing what was measured or calculated in your dataset; these should include EBVs, EOVs, etc.
-    required: false
+    required: true
     multivalued: true
     range: PropertyValue
     slot_uri: schema:variableMeasured

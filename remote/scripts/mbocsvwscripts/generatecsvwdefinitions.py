@@ -37,8 +37,6 @@ from tabulate import tabulate
 _PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionId"}
 """
 The set of slot names which identify the slot as contributing to the para-metadata document (which ends up stored separately)
-
-TODO: This list isn't currently complete, there will be other columns
 """
 _VIRTUAL_CSV_FILES: Dict[str, str] = {
     "PersonOrOrganization": "person-or-organization.csv"
@@ -74,6 +72,38 @@ _TABLE_FORMAT: str = "pipe"
 _NON_TITLE_CHARS = re.compile("\\W+")
 _NEW_LINES_REGEX = re.compile("\\n")
 _PIPES_REGEX = re.compile("\\|")
+
+_MAP_CSV_NAME_TO_PID_URI: Dict[str, str] = {
+    "Action.csv": f"{_MBO_PREFIX}mbo_0000004",
+    "Audience.csv": f"{_MBO_PREFIX}mbo_0000005",
+    "ContactPoint.csv": f"{_MBO_PREFIX}mbo_0000006",
+    "DataDownload.csv": f"{_MBO_PREFIX}mbo_0000007",
+    "DatasetComment.csv": f"{_MBO_PREFIX}mbo_0000008",
+    "Dataset.csv": f"{_MBO_PREFIX}mbo_0000009",
+    "DefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000010",
+    "EmbargoStatement.csv": f"{_MBO_PREFIX}mbo_0000011",
+    "GeoShape.csv": f"{_MBO_PREFIX}mbo_0000012",
+    "HowTo.csv": f"{_MBO_PREFIX}mbo_0000013",
+    "HowToStep.csv": f"{_MBO_PREFIX}mbo_0000014",
+    "HowToTip.csv": f"{_MBO_PREFIX}mbo_0000015",
+    "License.csv": f"{_MBO_PREFIX}mbo_0000016",
+    "MonetaryGrant.csv": f"{_MBO_PREFIX}mbo_0000017",
+    "Organization.csv": f"{_MBO_PREFIX}mbo_0000018",
+    "Person.csv": f"{_MBO_PREFIX}mbo_0000019",
+    "Place.csv": f"{_MBO_PREFIX}mbo_0000020",
+    "PropertyValue.csv": f"{_MBO_PREFIX}mbo_0000021",
+    "PublishingStatusDefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000022",
+    "Service.csv": f"{_MBO_PREFIX}mbo_0000023",
+    "SoftwareApplication.csv": f"{_MBO_PREFIX}mbo_0000024",
+    "SoftwareSourceCode.csv": f"{_MBO_PREFIX}mbo_0000025",
+    "Taxon.csv": f"{_MBO_PREFIX}mbo_0000026"
+}
+"""
+Mapping each of the model names to their CSV file's PID URI.
+
+If you add a new class/model you need to create the above mapping. The PID needs to be generated and correctly redirected
+in the w3id configuration.
+"""
 
 
 @dataclass
@@ -137,13 +167,13 @@ def main(classes_yaml: click.Path, output_dir: click.Path):
         class_csv_map, class_schema_map, out_dir, map_class_name_to_csv_dependencies
     )
 
-    if any(class_manual_foreign_key_checks):
-        with open(out_dir / "Makefile.part", "w+") as f:
-            f.writelines(
-                _generate_makefile_manual_foreign_key_checks(
-                    class_manual_foreign_key_checks, out_dir
-                )
+    with open(out_dir / "remote" / "foreign-keys.mk", "w+") as f:
+        f.writelines(
+            _generate_makefile_manual_foreign_key_checks(
+                class_manual_foreign_key_checks, out_dir
             )
+        )
+
     with open(out_dir / "class-descriptions.md", "w+") as f:
         f.writelines(
             _generate_user_documentation_markdown(
@@ -248,12 +278,9 @@ def _generate_makefile_manual_foreign_key_checks(
 ) -> str:
     makefile_config = dedent(
         f"""
-        # The following needs to be placed inside the top-level Makefile:
-
-        # Keep MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT up to date with the files it's necessary to perform list-column
-        # foreign key validation on.
         MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= {" ".join(sorted([_get_csv_name_for_class(class_name) for class_name in class_manual_foreign_key_checks]))}
-        MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.log)
+        MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.success.log)
+        MANUAL_FOREIGN_KEY_VALIDATION_LOGS_ERRORS	:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.err.log)
 
     """
     )
@@ -263,20 +290,27 @@ def _generate_makefile_manual_foreign_key_checks(
         manual_foreign_key_checks,
     ) in sorted(class_manual_foreign_key_checks.items()):
         csv_file_name = _get_csv_name_for_class(class_name)
-        log_file_name = (
-            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.log"
+        success_log_file_name = (
+            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.success.log"
         )
+        error_log_file_name = (
+            csv_file_name.removesuffix(".csv") + "-csv-list-column-foreign-key.err.log"
+        )
+
+        success_log_file_path = f"out/validation/{success_log_file_name}"
+        error_log_file_path = f"out/validation/{error_log_file_name}"
 
         dependent_files = {
             str(manual_fk_check.parent_table_path.relative_to(out_dir))
             for manual_fk_check in manual_foreign_key_checks
         }
 
-        makefile_config += f"out/validation/{log_file_name}: {" ".join(dependent_files)} out/validation"
+        makefile_config += f"{success_log_file_path}: {" ".join(dependent_files)} out/validation\n"
+        makefile_config += indent(f'@rm -f "{error_log_file_path}" "{success_log_file_path}"', "	")
         makefile_config += indent(
             "\n".join(
                 [
-                    _get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir)
+                    _get_makefile_config_for_foreign_key_check(manual_fk_check, out_dir, error_log_file_path)
                     for manual_fk_check in manual_foreign_key_checks
                 ]
             ),
@@ -285,7 +319,15 @@ def _generate_makefile_manual_foreign_key_checks(
         makefile_config += indent(
             dedent(
                 f"""
-                @echo "" > out/validation/{log_file_name} # Let the build know we've done this validation now.
+                @if [ -f "{error_log_file_path}" ]; then \\
+                   echo ""; \\
+                   printf '\033[0;31m'; # Red \\
+                   echo "Foreign Key errors detected:"; \\
+                   cat "{error_log_file_path}"; \\
+                   printf '\033[0m'; # Reset colour \\
+                 else \\
+                   touch "{success_log_file_path}"; \\
+                 fi
                 @echo ""
             """
             ),
@@ -296,17 +338,22 @@ def _generate_makefile_manual_foreign_key_checks(
 
 
 def _get_makefile_config_for_foreign_key_check(
-    manual_foreign_key_check: ManualForeignKeyCheckConfig, out_dir: Path
+    manual_foreign_key_check: ManualForeignKeyCheckConfig, out_dir: Path, err_log_file_path: str
 ) -> str:
     child_table_path = manual_foreign_key_check.child_table_path.relative_to(out_dir)
     parent_table_path = manual_foreign_key_check.parent_table_path.relative_to(out_dir)
 
-    foreign_key_check_command = f'@$(LIST_COLUMN_FOREIGN_KEY_CHECK) "{child_table_path}" "{manual_foreign_key_check.child_table_column}" "{parent_table_path}" "{manual_foreign_key_check.parent_table_column}"'
+    foreign_key_check_command = (
+        f'$(LIST_COLUMN_FOREIGN_KEY_CHECK) "{child_table_path}" "{manual_foreign_key_check.child_table_column}" '
+        f'"{parent_table_path}" "{manual_foreign_key_check.parent_table_column}"'
+    )
 
     if manual_foreign_key_check.separator is not None:
         foreign_key_check_command += (
             f' --separator "{manual_foreign_key_check.separator}"'
         )
+
+    foreign_key_check_command = f'@RES=$$({foreign_key_check_command}) && echo "$$RES" || echo "$$RES" >> "{err_log_file_path}"'
 
     return dedent(
         f"""
@@ -451,6 +498,7 @@ def _generate_csv_and_schema_for_class(
             }
         )
 
+
     column_definitions += [
         {
             "virtual": True,
@@ -469,17 +517,18 @@ def _generate_csv_and_schema_for_class(
             "aboutUrl": input_metadata_uri,
             "propertyUrl": f"{_SCHEMA_ORG_PREFIX}about",
             "valueUrl": identifier_template_uri_for_row,
-        },
-        {
+        }
+    ]
+
+    if csv_name_for_class in _MAP_CSV_NAME_TO_PID_URI:
+        column_definitions.append({
             "virtual": True,
             "aboutUrl": input_metadata_uri,
             "propertyUrl": f"{_SCHEMA_ORG_PREFIX}contentUrl",
-            # todo: Properly sort these URIs out.
-            # It unfortunate that we can't define a virtual column with a literal value, but that is a limitation
-            # of the CSV-W specification
-            "valueUrl": f"{_MBO_PREFIX}mbo_TODO_{csv_name_for_class}#row={{_row}}",
-        },
-    ]
+            "valueUrl": f"{_MAP_CSV_NAME_TO_PID_URI[csv_name_for_class]}#row={{_row}}",
+        })
+    else:
+        raise Exception(f"Could not find PID for CSV model '{csv_name_for_class}' - is this a new model/class?")
 
     if _LINKML_EXTENSION_VIRTUAL_TRIPLES in clazz.extensions:
         column_definitions += _add_user_defined_virtual_columns_for_triples(

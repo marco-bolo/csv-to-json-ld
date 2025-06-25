@@ -103,9 +103,9 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
+      - containsVariablesMboIds
       - description
       - landingPage
-      - containsVariablesMboIds
       - aboutTaxonMboIds
       - spatialCoveragePlaceMboId
       - temporalCoverage

@@ -53,6 +53,21 @@
             }
         },
         {
+            "name": "containsVariablesMboIds",
+            "titles": {
+                "en": [
+                    "Contains Variables (PropertyValue mPIDs)*"
+                ]
+            },
+            "required": true,
+            "propertyUrl": "https://schema.org/variableMeasured",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
             "name": "description",
             "titles": {
                 "en": [
@@ -75,20 +90,6 @@
             "separator": "|",
             "datatype": {
                 "@id": "https://schema.org/URL",
-                "base": "string"
-            }
-        },
-        {
-            "name": "containsVariablesMboIds",
-            "titles": {
-                "en": [
-                    "Contains Variables (PropertyValue mPIDs)"
-                ]
-            },
-            "propertyUrl": "https://schema.org/variableMeasured",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
                 "base": "string"
             }
         },
@@ -374,7 +375,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Dataset.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000009#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

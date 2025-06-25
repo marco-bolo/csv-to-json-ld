@@ -4,17 +4,20 @@ GIT_HASH			:= $(shell git rev-parse --verify HEAD)
 GIT_HASH_REPO_URL	:= https://github.com/marco-bolo/csv-to-json-ld/tree/$(GIT_HASH)
 
 WORKING_DIR				:= $(shell pwd)
+UID						:= $(shell id -u)
+GID						:= $(shell id -g)
 JENA_CLI_DOCKER			:= gsscogs/gss-jvm-build-tools:latest
 MBO_TOOLS_DOCKER		:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
 
 
-RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER) riot
-SPARQL					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work $(JENA_CLI_DOCKER) sparql
-JQ						:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jq
-JSONLD_CLI				:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" jsonld
-PARTITON_CLI			:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition execute
-PARTITON_LIST_CLI		:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" partition list
-PROCESS_PARA_METADATA	:= docker run -i --rm -v "$(WORKING_DIR)":/work -w /work "$(MBO_TOOLS_DOCKER)" processparametadata
+RIOT					:= docker run --rm -v "$(WORKING_DIR)":/work -u "$(UID)":"$(GID)" -w /work $(JENA_CLI_DOCKER) riot
+SPARQL					:= docker run --rm -v "$(WORKING_DIR)":/work -u "$(UID)":"$(GID)" -w /work $(JENA_CLI_DOCKER) sparql
+MBO_TOOLS_DOCKER_RUN	:= docker run -i --rm -v "$(WORKING_DIR)":/work -u "$(UID)":"$(GID)" -w /work "$(MBO_TOOLS_DOCKER)"
+JQ						:= $(MBO_TOOLS_DOCKER_RUN) jq
+JSONLD_CLI				:= $(MBO_TOOLS_DOCKER_RUN) jsonld
+PARTITON_CLI			:= $(MBO_TOOLS_DOCKER_RUN) partition execute
+PARTITON_LIST_CLI		:= $(MBO_TOOLS_DOCKER_RUN) partition list
+PROCESS_PARA_METADATA	:= $(MBO_TOOLS_DOCKER_RUN) processparametadata
 
 
 SCHEMA_ORG_CONTEXT_URL 	:= https://schema.org/docs/jsonldcontext.json
@@ -47,7 +50,7 @@ out/%.json: out/raw-jsonld/%.json
 	@# 		instead of `"@type": "https://schema.org/Dataset"`
 	@# 4. Then we set the context to make use of the schema.org context, but tell it to use https URIs instead 
 	@# 		of http.
-	
+
 	@cat "$<" \
 		| sed 's/https:\/\/schema.org\//http:\/\/schema.org\//g' \
 		| $(JSONLD_CLI) compact --context "$(SCHEMA_ORG_FILE)" --allow all \

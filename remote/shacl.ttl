@@ -1,0 +1,76 @@
+# Some SHACL constraints to be applied against out/bulk/All.trig
+@base <http://w3id.org/marco-bolo/ShaclConstraints#>.
+@prefix : <http://w3id.org/marco-bolo/ShaclConstraints#>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+:MboIdentifierNotUsedInMultipleGraphs
+	a sh:NodeShape ;
+	sh:targetSubjectsOf rdf:type;
+    sh:severity sh:Violation;
+	sh:sparql [
+		a sh:SPARQLConstraint ; 
+		sh:message "An MBO identifier can only be used as the identifier for a single entity; it may not be used to identify multiple entities in different CSV files." ;
+		sh:select """
+            SELECT $this (CONCAT("MBO Identifier '", STRAFTER(str($this), "https://w3id.org/marco-bolo/"),"' has been used to identify multiple entities in: ", GROUP_CONCAT(?csvFile)) as ?value) 
+            WHERE {
+                {
+                    SELECT DISTINCT $this (CONCAT(STRBEFORE(STRAFTER(str(?g), "file:///work/out/bulk/"), ".ttl"), ".csv") as ?csvFile) 
+                    WHERE {
+                        GRAPH ?g {
+                            $this a [].
+                            FILTER NOT EXISTS {
+                                $this a <https://w3id.org/marco-bolo/InputMetadataDescription>.
+                            }
+                            FILTER (STRSTARTS(STR($this), "https://w3id.org/marco-bolo/")).
+                        }
+                    }
+                }
+            }
+            GROUP BY $this
+            HAVING(COUNT(DISTINCT ?csvFile) > 1)
+        """
+	] .
+
+:EntitiesShouldBeReferenced a sh:NodeShape;
+    sh:targetSubjectsOf rdf:type;
+    sh:severity sh:Warning;
+    sh:sparql [
+        a sh:SPARQLConstraint;
+        sh:message "All entities should be referenced somewhere else; this is a warning, it is not enforced.";
+        sh:select """
+            SELECT DISTINCT $this (
+                CONCAT(
+                    "MBO Identifier '", 
+                    STRAFTER(str($this), "https://w3id.org/marco-bolo/"), 
+                    "' in ", 
+                    STRBEFORE(STRAFTER(str(?g1), "file:///work/out/bulk/"), ".ttl"), 
+                    ".csv doesn't appear to be referenced anywhere else."
+                ) as ?value) 
+            WHERE {
+                GRAPH ?g1 {
+                    $this ?p1 ?o1.
+                    FILTER NOT EXISTS {
+                        $this a ?type.
+                        FILTER (
+                            ?type IN (
+                                <https://w3id.org/marco-bolo/InputMetadataDescription>, # Exclude para-metadata records from the report.
+                                <https://schema.org/Comment> # Exclude comments from this report. 
+                            )
+                        ).
+                    }
+                    FILTER NOT EXISTS {
+                        GRAPH ?g2 {
+                            ?s2 ?p2 $this.
+                            FILTER NOT EXISTS {
+                                ?s2 a <https://w3id.org/marco-bolo/InputMetadataDescription>.
+                            }
+                        }
+                    }
+                }
+            }
+        """
+    ].

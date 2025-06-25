@@ -1,4 +1,4 @@
-name: Build
+name: Build JSON-LD
 on:
   push:
     branches:
@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: out/
-          key: ${{ github.ref }}-6
+          key: ${{ github.ref }}-8
 
       - name: Initialise make
         run: make init
@@ -31,6 +31,9 @@ jobs:
 
       - name: Validate CSV-Ws
         run: make validate
+
+      - name: Validate SHACL Constraints
+        run: make shacl-report
 
       - name: Build JSON-LD
         # Doing a little bit of parallelisation here to speed everything up.
