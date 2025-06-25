@@ -1,4 +1,4 @@
-name: Build
+name: Build JSON-LD
 on:
   push:
     branches:

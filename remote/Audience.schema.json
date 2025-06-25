@@ -102,7 +102,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Audience.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000005#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

@@ -158,7 +158,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_MonetaryGrant.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000017#row={_row}"
         },
         {
             "virtual": true,

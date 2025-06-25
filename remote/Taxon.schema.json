@@ -231,7 +231,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_TODO_Taxon.csv#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000026#row={_row}"
         },
         {
             "virtual": true,

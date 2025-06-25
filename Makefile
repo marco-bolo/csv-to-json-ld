@@ -10,16 +10,19 @@ CSV2RDF_DOCKER		:= europe-west2-docker.pkg.dev/swirrl-devops-infrastructure-1/pu
 JENA_CLI_DOCKER		:= gsscogs/gss-jvm-build-tools:latest
 MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
 
-CSVW_CHECK						:= docker run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSVW_CHECK_DOCKER) -s
-CSV2RDF							:= docker run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSV2RDF_DOCKER) csv2rdf -m minimal -u 
-RIOT							:= docker run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) riot
-SPARQL							:= docker run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) sparql
+JQ								:= jq
+DOCKER							:= docker
+EXPECTED_COMMANDS				:= "$(DOCKER)" "sed" "awk" "xargs" "realpath" "printf" "dirname" "basename" "$(JQ)" "rm" "echo" "id" "pwd"
 
-MBO_TOOLS_DOCKER_RUN			:= docker run -i --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work "$(MBO_TOOLS_DOCKER)"
+CSVW_CHECK						:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSVW_CHECK_DOCKER) -s
+CSV2RDF							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSV2RDF_DOCKER) csv2rdf -m minimal -u 
+RIOT							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) riot
+SPARQL							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) sparql
+
+MBO_TOOLS_DOCKER_RUN			:= $(DOCKER) run -i --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work "$(MBO_TOOLS_DOCKER)"
 CONVERT_LIST_VALUES_TO_NODES	:= $(MBO_TOOLS_DOCKER_RUN) listcolumnsasnodes
 LIST_COLUMN_FOREIGN_KEY_CHECK	:= $(MBO_TOOLS_DOCKER_RUN) listcolumnforeignkeycheck
 UNION_UNIQUE_IDENTIFIERS		:= $(MBO_TOOLS_DOCKER_RUN) unionuniqueidentifiers
-JQ								:= $(MBO_TOOLS_DOCKER_RUN) jq
 JSONLD_CLI						:= $(MBO_TOOLS_DOCKER_RUN) jsonld
 SHACL_CLI						:= $(MBO_TOOLS_DOCKER_RUN) pyshacl 
 
@@ -30,11 +33,20 @@ EXPECTED_BULK_OUT_FILES			:= $(BULK_TTL_FILES)
 
 include remote/foreign-keys.mk
 
+check:
+	@EXIT_CODE=0; \
+     for program in $(EXPECTED_COMMANDS); \
+	 do \
+		command -v "$$program" > /dev/null || EXIT_CODE=1; \
+		command -v "$$program" > /dev/null || echo "\n\nError: '$$program' must be installed\n\n"; \
+     done; \
+     exit "$$EXIT_CODE";
+
 dockersetup:
 	@echo "=============================== Pulling & Building required docker images. ==============================="
 	@docker pull $(CSVW_CHECK_DOCKER)
 	@docker pull $(CSV2RDF_DOCKER)
-	@docker pull $(JENA_CLI_DOCKER)
+	@docker pull $(JENA_CLI_DOCKER) 
 	@docker pull $(MBO_TOOLS_DOCKER)
 	@echo "" ; 
 
@@ -85,11 +97,12 @@ jsonld: $(BULK_TTL_FILES)
 	@$(MAKE) -f remote/split.mk jsonld
 
 init:
+	@$(MAKE) check
 	@$(MAKE) dockersetup 
 	@$(MAKE) -f remote/split.mk init
 
 all:
-	@$(MAKE) init validate jsonld
+	@$(MAKE) init validate shacl-report jsonld
 
 define DELETE_UNEXPECTED_BULK_FILES
 ifeq ($$(filter $$(file),$(EXPECTED_BULK_OUT_FILES)),) 

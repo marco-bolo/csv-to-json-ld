@@ -1,12 +1,13 @@
 # Some SHACL constraints to be applied against out/bulk/All.trig
 @base <http://w3id.org/marco-bolo/ShaclConstraints#>.
+@prefix : <http://w3id.org/marco-bolo/ShaclConstraints#>.
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix sh: <http://www.w3.org/ns/shacl#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<MboIdentifierNotUsedInMultipleGraphs>
+:MboIdentifierNotUsedInMultipleGraphs
 	a sh:NodeShape ;
 	sh:targetSubjectsOf rdf:type;
     sh:severity sh:Violation;
@@ -34,7 +35,7 @@
         """
 	] .
 
-<EntitiesShouldBeReferenced> a sh:NodeShape;
+:EntitiesShouldBeReferenced a sh:NodeShape;
     sh:targetSubjectsOf rdf:type;
     sh:severity sh:Warning;
     sh:sparql [
