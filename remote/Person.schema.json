@@ -108,6 +108,20 @@
             }
         },
         {
+            "name": "oceanExpertId",
+            "titles": {
+                "en": [
+                    "OceanExpert ID"
+                ]
+              },
+            "propertyUrl": "https://schema.org/identifier",
+            "datatype": {
+                "base": "string",
+                "format": "^https://oceanexpert\\.org/expert/[0-9]+$"
+              }
+            },
+
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/Person"
