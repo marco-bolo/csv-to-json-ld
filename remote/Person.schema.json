@@ -116,10 +116,12 @@
               },
             "propertyUrl": "https://schema.org/identifier",
             "datatype": {
-                "base": "string",
-                "format": "^https://oceanexpert\\.org/expert/[0-9]+$"
-              }
+                "base": "string"
             },
+            "description": {
+                "en": "Must be a full OceanExpert URL like https://oceanexpert.org/expert/54167"
+            }
+        },
 
         {
             "virtual": true,
