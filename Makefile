@@ -1,4 +1,3 @@
-
 .PHONY: dockersetup output-directories jsonld clean bulk-ttl bulk-jsonld all init remove-orphaned shacl-report
 
 WORKING_DIR			:= $(shell pwd)
@@ -42,17 +41,17 @@ check:
      done; \
      exit "$$EXIT_CODE";
 
-dockersetup:
-	@echo "=============================== Pulling & Building required docker images. ==============================="
-	@docker pull $(CSVW_CHECK_DOCKER)
-	@docker pull $(CSV2RDF_DOCKER)
-	@docker pull $(JENA_CLI_DOCKER) 
-	@docker pull $(MBO_TOOLS_DOCKER)
-	@echo "" ; 
+# Written to explicitly run in docker and accomodate challenge described in https://github.com/marco-bolo/csv-to-json-ld/issues/36
+out/validation/person-or-organization.csv: Person.csv Organization.csv
+	@echo "===> Running unionuniqueidentifiers in Docker"
+	@docker run --rm -v "$(PWD)":/work -w /work \
+	  ghcr.io/marco-bolo/csv-to-json-ld-tools:latest \
+	  sh -c "mkdir -p out/validation && unionuniqueidentifiers \
+	  --out out/validation/person-or-organization.csv \
+	  --column-name 'MBO Permanent Identifier*' \
+	  Person.csv Organization.csv"
+	@test -f out/validation/person-or-organization.csv || (echo "❌ ERROR: Output file not created!" && exit 1)
 
-out/validation/person-or-organization.csv: Person.csv Organization.csv 
-	@mkdir -p out/validation
-	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv --column-name "MBO Permanent Identifier*" Person.csv Organization.csv
 
 validate: $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
 	@EXIT_CODE=0; \
