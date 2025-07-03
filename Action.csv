@@ -1,6 +1,7 @@
-"MBO Permanent Identifier*","Data Entry Person (mPID - you)*","Data Entered for Action (mPID)*","Name*","Agent (mPID)*","Abstract","Description","How To (mPID)","Participants (mPIDs)","Inputs (URL PIDs)","Resulting Datasets (mPIDs)","Child Actions (mPIDs)"
-mbo_1000000,mbo_todo_person_roblinksdata,mbo_task_1_1,MARCO-BOLO Tasks,mbo_todo_organization_mbo,The combined actions of the entire MARCO-BOLO project.,,,,,,mbo_task_1_1
+MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Agent (mPID)*,Abstract,Description,How To (mPID),Participants (mPIDs),Inputs (URL PIDs),Resulting Datasets (mPIDs),Child Actions (mPIDs)
+mbo_1000000,https://orcid.org/0000-0001-5242-6706,mbo_2000000,L4_timeseries_metaB_L4_18S_V9,mbo_todo_organization_mbo,The combined actions of the entire MARCO-BOLO project.,,,,,,mbo_task_1_1
 mbo_task_1_1,mbo_todo_person_roblinksdata,mbo_task_1_1,MBO Task 1.1,mbo_todo_organization_mbo_wp1,Coordinate and advance standardised and quality-controlled data flows into regional and international long-term archives,,,,,,
 mbo_task_3_3,mbo_0000002,mbo_task_3_3,MBO Task 3.3,mbo_todo_organization_mbo_wp3,some abstract description,,,,,,
 mbo_task_1_2,mbo_54167,mbo_task_1_1,MARCO-BOLO Tasks,mbo_todo_organization_mbo_wp1,,,,,,,
 mbo_task_jwd_test,mbo_todo_person_jwarwickdugdale,mbo_task_jwd_test,Testing With Joanna,mbo_todo_organization_mbo_wp1,Test CSV-to-JSON-LD tool by recording a dataset,,,,,,
+mbo_1000000,https://orcid.org/0000-0001-5242-6706,mbo_2000000,L4_timeseries_metaB_L4_18S_V9,mbo_todo_organization_mbo,Generation of  metabarcoding sequences via 18S-V9 primers ,,Illumina,mbo_2000000,https://doi.org/10.1038/nature06244,mbo_0000001,
