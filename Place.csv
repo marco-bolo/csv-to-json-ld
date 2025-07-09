@@ -1,2 +1,2 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Description,Latitude (WGS 84),Longitude (WGS 84),GeoShape (mPID)
-MBO_000001,https://orcid.org/0000-0001-5242-6706,mbo_2000000,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50° 15.00' N,4° 13.02' W,
+mbo_000001,https://orcid.org/0000-0001-5242-6706,mbo_1000001,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50.250°,"	-4.217 °",
