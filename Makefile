@@ -50,6 +50,10 @@ dockersetup:
 	@docker pull $(MBO_TOOLS_DOCKER)
 	@echo "" ; 
 
+check-csv-format:
+	@echo "Checking CSV files for incomplete lines..."
+	@python3 check_csv_integrity.py
+
 out/validation/person-or-organization.csv: Person.csv Organization.csv 
 	@mkdir -p out/validation
 	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv --column-name "MBO Permanent Identifier*" Person.csv Organization.csv
@@ -98,7 +102,8 @@ jsonld: $(BULK_TTL_FILES)
 
 init:
 	@$(MAKE) check
-	@$(MAKE) dockersetup 
+	@$(MAKE) dockersetup
+	@$(MAKE) check-csv-format 
 	@$(MAKE) -f remote/split.mk init
 
 all:
