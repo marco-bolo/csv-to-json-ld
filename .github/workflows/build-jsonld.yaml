@@ -41,8 +41,18 @@ jobs:
         # This will result in incoherent log outputs which aren't suitable for debugging.
         run: make jsonld -j 2
 
-      - name: Generate JSON-LD artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: schema-org-jsonld-outputs
-          path: out/*.json
+      - name: Commit JSON-LD outputs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p schema-jsonld
+          cp out/*.json schema-jsonld/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add schema-jsonld/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update JSON-LD outputs"
+            git push
+          fi
