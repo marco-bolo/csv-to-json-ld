@@ -17,7 +17,7 @@
             "suppressOutput": true,
             "datatype": {
                 "base": "string",
-                "format": "^mbo_[_0-9a-z]+$"
+                "format": "^mbo_[\\p{L}\\p{N}_]+$"
             }
         },
         {
