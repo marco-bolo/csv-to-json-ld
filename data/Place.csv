@@ -1,2 +1,2 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Description,Latitude (WGS 84),Longitude (WGS 84),GeoShape (mPID)
-mbo_000001,mbo_todo_person_jwarwickdugdale,mbo_task_jwd_test,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50.25,-4.217,
+mbo_000001,mbo_jwarwickdugdale,mbo_task_jwd_test,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50.25,-4.217,
