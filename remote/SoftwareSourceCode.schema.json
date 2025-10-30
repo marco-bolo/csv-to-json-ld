@@ -171,7 +171,11 @@
                 ]
             },
             "propertyUrl": "https://schema.org/author",
-            "valueUrl": "https://w3id.org/marco-bolo/{+authorId}"
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
         },
         {
             "name": "contributorIds",
