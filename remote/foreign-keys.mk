@@ -3,7 +3,7 @@ MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT	:= Action.csv DataDownload.csv Dataset.
 MANUAL_FOREIGN_KEY_VALIDATION_LOGS			:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.success.log)
 MANUAL_FOREIGN_KEY_VALIDATION_LOGS_ERRORS	:= $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS_SHORT:%.csv=out/validation/%-csv-list-column-foreign-key.err.log)
 
-out/validation/Action-csv-list-column-foreign-key.success.log: out/validation/person-or-organization.csv data/Action.csv data/Dataset.csv data/HowTo.csv out/validation
+out/validation/Action-csv-list-column-foreign-key.success.log: data/HowTo.csv out/validation/person-or-organization.csv data/Dataset.csv data/Action.csv out/validation
 	@rm -f "out/validation/Action-csv-list-column-foreign-key.err.log" "out/validation/Action-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/Action.csv['How To (mPID)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/Action.csv" "How To (mPID)" "data/HowTo.csv" "MBO Permanent Identifier*") && echo "$$RES" || echo "$$RES" >> "out/validation/Action-csv-list-column-foreign-key.err.log"
@@ -30,7 +30,7 @@ out/validation/Action-csv-list-column-foreign-key.success.log: out/validation/pe
 	   touch "out/validation/Action-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/DataDownload-csv-list-column-foreign-key.success.log: data/PublishingStatusDefinedTerm.csv out/validation/person-or-organization.csv data/License.csv data/Audience.csv out/validation
+out/validation/DataDownload-csv-list-column-foreign-key.success.log: data/License.csv out/validation/person-or-organization.csv data/PublishingStatusDefinedTerm.csv data/Audience.csv out/validation
 	@rm -f "out/validation/DataDownload-csv-list-column-foreign-key.err.log" "out/validation/DataDownload-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/DataDownload.csv['Publishing Status (mPID)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/DataDownload.csv" "Publishing Status (mPID)" "data/PublishingStatusDefinedTerm.csv" "MBO Permanent Identifier*") && echo "$$RES" || echo "$$RES" >> "out/validation/DataDownload-csv-list-column-foreign-key.err.log"
@@ -73,7 +73,7 @@ out/validation/DataDownload-csv-list-column-foreign-key.success.log: data/Publis
 	   touch "out/validation/DataDownload-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/Dataset-csv-list-column-foreign-key.success.log: data/EmbargoStatement.csv data/Audience.csv data/Taxon.csv out/validation/person-or-organization.csv data/PublishingStatusDefinedTerm.csv data/DataDownload.csv data/License.csv data/Place.csv data/PropertyValue.csv out/validation
+out/validation/Dataset-csv-list-column-foreign-key.success.log: data/PropertyValue.csv data/License.csv data/PublishingStatusDefinedTerm.csv data/Place.csv data/Audience.csv data/EmbargoStatement.csv data/Taxon.csv out/validation/person-or-organization.csv data/DataDownload.csv out/validation
 	@rm -f "out/validation/Dataset-csv-list-column-foreign-key.err.log" "out/validation/Dataset-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/Dataset.csv['Contains Variables (PropertyValue mPIDs)*'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/Dataset.csv" "Contains Variables (PropertyValue mPIDs)*" "data/PropertyValue.csv" "MBO Permanent Identifier*" --separator "|") && echo "$$RES" || echo "$$RES" >> "out/validation/Dataset-csv-list-column-foreign-key.err.log"
@@ -151,7 +151,7 @@ out/validation/DatasetComment-csv-list-column-foreign-key.success.log: out/valid
 	   touch "out/validation/DatasetComment-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/Document-csv-list-column-foreign-key.success.log: data/Audience.csv data/EmbargoStatement.csv data/Taxon.csv out/validation/person-or-organization.csv data/PublishingStatusDefinedTerm.csv data/License.csv data/Place.csv out/validation
+out/validation/Document-csv-list-column-foreign-key.success.log: data/License.csv data/PublishingStatusDefinedTerm.csv data/Place.csv data/Audience.csv data/EmbargoStatement.csv data/Taxon.csv out/validation/person-or-organization.csv out/validation
 	@rm -f "out/validation/Document-csv-list-column-foreign-key.err.log" "out/validation/Document-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/Document.csv['Taxa (mPIDs)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/Document.csv" "Taxa (mPIDs)" "data/Taxon.csv" "MBO Permanent Identifier*" --separator "|") && echo "$$RES" || echo "$$RES" >> "out/validation/Document-csv-list-column-foreign-key.err.log"
@@ -221,7 +221,7 @@ out/validation/HowTo-csv-list-column-foreign-key.success.log: data/Service.csv o
 	   touch "out/validation/HowTo-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/HowToStep-csv-list-column-foreign-key.success.log: data/Audience.csv data/Service.csv out/validation/person-or-organization.csv data/HowToStep.csv data/HowToTip.csv data/SoftwareSourceCode.csv data/SoftwareApplication.csv out/validation
+out/validation/HowToStep-csv-list-column-foreign-key.success.log: data/SoftwareSourceCode.csv data/HowToStep.csv data/HowToTip.csv data/SoftwareApplication.csv data/Audience.csv out/validation/person-or-organization.csv data/Service.csv out/validation
 	@rm -f "out/validation/HowToStep-csv-list-column-foreign-key.err.log" "out/validation/HowToStep-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/HowToStep.csv['Contributors (mPIDs)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/HowToStep.csv" "Contributors (mPIDs)" "out/validation/person-or-organization.csv" "MBO Permanent Identifier*" --separator "|") && echo "$$RES" || echo "$$RES" >> "out/validation/HowToStep-csv-list-column-foreign-key.err.log"
@@ -302,7 +302,7 @@ out/validation/MonetaryGrant-csv-list-column-foreign-key.success.log: data/Organ
 	   touch "out/validation/MonetaryGrant-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/Organization-csv-list-column-foreign-key.success.log: data/Organization.csv data/MonetaryGrant.csv data/ContactPoint.csv out/validation
+out/validation/Organization-csv-list-column-foreign-key.success.log: data/MonetaryGrant.csv data/Organization.csv data/ContactPoint.csv out/validation
 	@rm -f "out/validation/Organization-csv-list-column-foreign-key.err.log" "out/validation/Organization-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/Organization.csv['Contact Points (mPIDs)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/Organization.csv" "Contact Points (mPIDs)" "data/ContactPoint.csv" "MBO Permanent Identifier*" --separator "|") && echo "$$RES" || echo "$$RES" >> "out/validation/Organization-csv-list-column-foreign-key.err.log"
@@ -386,7 +386,7 @@ out/validation/PropertyValue-csv-list-column-foreign-key.success.log: data/Prope
 	   touch "out/validation/PropertyValue-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/Service-csv-list-column-foreign-key.success.log: data/Place.csv data/Audience.csv out/validation
+out/validation/Service-csv-list-column-foreign-key.success.log: data/Audience.csv data/Place.csv out/validation
 	@rm -f "out/validation/Service-csv-list-column-foreign-key.err.log" "out/validation/Service-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/Service.csv['Audiences (mPIDs)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/Service.csv" "Audiences (mPIDs)" "data/Audience.csv" "MBO Permanent Identifier*" --separator "|") && echo "$$RES" || echo "$$RES" >> "out/validation/Service-csv-list-column-foreign-key.err.log"
@@ -405,7 +405,7 @@ out/validation/Service-csv-list-column-foreign-key.success.log: data/Place.csv d
 	   touch "out/validation/Service-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/SoftwareApplication-csv-list-column-foreign-key.success.log: data/PublishingStatusDefinedTerm.csv out/validation/person-or-organization.csv out/validation
+out/validation/SoftwareApplication-csv-list-column-foreign-key.success.log: out/validation/person-or-organization.csv data/PublishingStatusDefinedTerm.csv out/validation
 	@rm -f "out/validation/SoftwareApplication-csv-list-column-foreign-key.err.log" "out/validation/SoftwareApplication-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/SoftwareApplication.csv['Publishing Status (mPID)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/SoftwareApplication.csv" "Publishing Status (mPID)" "data/PublishingStatusDefinedTerm.csv" "MBO Permanent Identifier*") && echo "$$RES" || echo "$$RES" >> "out/validation/SoftwareApplication-csv-list-column-foreign-key.err.log"
@@ -444,7 +444,7 @@ out/validation/SoftwareApplication-csv-list-column-foreign-key.success.log: data
 	   touch "out/validation/SoftwareApplication-csv-list-column-foreign-key.success.log"; \
 	 fi
 	@echo ""
-out/validation/SoftwareSourceCode-csv-list-column-foreign-key.success.log: data/PublishingStatusDefinedTerm.csv out/validation/person-or-organization.csv out/validation
+out/validation/SoftwareSourceCode-csv-list-column-foreign-key.success.log: out/validation/person-or-organization.csv data/PublishingStatusDefinedTerm.csv out/validation
 	@rm -f "out/validation/SoftwareSourceCode-csv-list-column-foreign-key.err.log" "out/validation/SoftwareSourceCode-csv-list-column-foreign-key.success.log"
 	@echo "=============================== Validating values in data/SoftwareSourceCode.csv['Publishing Status (mPID)'] ==============================="
 	@RES=$$($(LIST_COLUMN_FOREIGN_KEY_CHECK) "data/SoftwareSourceCode.csv" "Publishing Status (mPID)" "data/PublishingStatusDefinedTerm.csv" "MBO Permanent Identifier*") && echo "$$RES" || echo "$$RES" >> "out/validation/SoftwareSourceCode-csv-list-column-foreign-key.err.log"
