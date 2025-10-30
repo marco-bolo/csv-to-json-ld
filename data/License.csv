@@ -1,4 +1,4 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,License URL,Description
-mbo_license_cc0,mbo_roblinksdata,mbo_task_1_1,Creative Commons Zero v1.0 Universal,https://spdx.org/licenses/CC0-1.0,Public domain dedication for data/content with no requirements whatsoever.
-mbo_license_ccby40,mbo_54167,mbo_wp1_tool_population,CC-BY-4.0,https://spdx.org/licenses/CC-BY-4.0,Open license for data/content requiring only attribution to the original creator.
-mbo_license_eupl12,mbo_roblinksdata,mbo_task_1_1,European Union Public License 1.2,https://spdx.org/licenses/EUPL-1.2,"European Union Public License version 1.2, the current version of the EU's copyleft software license with improved compatibility and clarity (FSF and OSI approved)."
+mbo_license_cc0,mbo_roblinksdata,mbo_db_task_1_1,Creative Commons Zero v1.0 Universal,https://spdx.org/licenses/CC0-1.0,Public domain dedication for data/content with no requirements whatsoever.
+mbo_license_ccby40,mbo_sformel,mbo_db_tool_population,CC-BY-4.0,https://spdx.org/licenses/CC-BY-4.0,Open license for data/content requiring only attribution to the original creator.
+mbo_license_eupl12,mbo_roblinksdata,mbo_db_task_1_1,European Union Public License 1.2,https://spdx.org/licenses/EUPL-1.2,"European Union Public License version 1.2, the current version of the EU's copyleft software license with improved compatibility and clarity (FSF and OSI approved)."

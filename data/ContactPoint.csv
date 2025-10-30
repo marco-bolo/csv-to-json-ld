@@ -1,8 +1,8 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,ContactPoint Purpose*,Name*,Email,Telephone (+00),Available Languages (en),Description
-mbo_todo_contact_point_mbo_email,mbo_roblinksdata,mbo_task_1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,
-mbo_todo_contact_point_mbo_nick,mbo_roblinksdata,mbo_task_1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC
-mbo_todo_contact_point_mbo_giulia,mbo_roblinksdata,mbo_task_1_1,Project Management,Giulia Vecchi,giulia.vecchi@embrc.eu,,en,EMBRC-ERIC
-mbo_todo_contact_point_mbo_mathilde,mbo_roblinksdata,mbo_task_1_1,Project Communications,Mathilde Vidal,mathilde@erinn.eu,,en,ERINN Innovation
+mbo_todo_contact_point_mbo_email,mbo_roblinksdata,mbo_db_task_1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,
+mbo_todo_contact_point_mbo_nick,mbo_roblinksdata,mbo_db_task_1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC
+mbo_todo_contact_point_mbo_giulia,mbo_roblinksdata,mbo_db_task_1_1,Project Management,Giulia Vecchi,giulia.vecchi@embrc.eu,,en,EMBRC-ERIC
+mbo_todo_contact_point_mbo_mathilde,mbo_roblinksdata,mbo_db_task_1_1,Project Communications,Mathilde Vidal,mathilde@erinn.eu,,en,ERINN Innovation
 mbo_todo_contact_point_mbo_dan,mbo_jwarwickdugdale,mbo_task_jwd_test,Project Management,Dan Lear,dble@mba.ac.uk,,en,Head of data and information
-mbo_contact_sformel,mbo_54167,mbo_wp1_tool_population,CSV-to-JSON-LD management,Stephen Formel,steve@formeldataservices.com,,en|es,Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.
-mbo_contact_kexter,mbo_58464,mbo_wp1_tool_population,FAIR data management,Katrina Exter,katrina.exter@vliz.be,,en|nl,FAIR data manager 
+mbo_contact_sformel,mbo_sformel,mbo_db_tool_population,CSV-to-JSON-LD management,Stephen Formel,steve@formeldataservices.com,,en|es,Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.
+mbo_contact_kexter,mbo_58464,mbo_db_tool_population,FAIR data management,Katrina Exter,katrina.exter@vliz.be,,en|nl,FAIR data manager 

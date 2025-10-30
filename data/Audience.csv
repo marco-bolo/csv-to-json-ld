@@ -1,3 +1,6 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Audience Type*,Name*,Description*
-mbo_audience_mbo,mbo_54167,mbo_wp1_tool_population,Researcher,MARCO-BOLO,All personnel working on the MARCO-BOLO project.
-mbo_audience_edna,mbo_54167,mbo_wp1_tool_population,Researcher,environment DNA (eDNA) Research Community,The global environmental DNA (eDNA) research community.
+mbo_audience_mbo,mbo_sformel,mbo_db_tool_population,Researcher,MARCO-BOLO,All personnel working on the MARCO-BOLO project.
+mbo_audience_edna,mbo_sformel,mbo_db_tool_population,Researcher,environment DNA (eDNA) Research Community,The global environmental DNA (eDNA) research community.
+mbo_audience_marinebiodiv,mbo_sformel,mbo_db_tool_population,Researcher,Marine biodiversity researchers,Researchers working in marine and coastal biodiversity observation and monitoring
+mbo_eu_commission,mbo_sformel,mbo_db_tool_population,Audience,EU Commission,European Commission officials and project officers overseeing Horizon Europe grants
+mbo_general_research_institutions,mbo_sformel,mbo_db_tool_population,EducationalAudience,Research institutions,Research and educational institutions involved in marine science and biodiversity studies
