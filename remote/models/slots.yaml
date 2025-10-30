@@ -166,7 +166,7 @@ slots:
     title: "Author (mPID)"
     description: "The Permanent Identifier of person or organization who created this entity."
     required: false
-    multivalued: false
+    multivalued: true
     range: PersonOrOrganization
     slot_uri: schema:author
     comments: |
