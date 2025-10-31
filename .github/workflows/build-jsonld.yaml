@@ -51,14 +51,25 @@ jobs:
           
           This directory contains the generated JSON-LD output files from the CSV data.
           
-          ## Available Files
+          ## Entity Files
           
           EOF
           
-          # List all JSON files (excluding -input-metadata.json files)
+          # List entity JSON files (excluding -input-metadata.json files)
           cd remote/models/schema-jsonld
           for file in *.json; do
             if [[ ! "$file" =~ -input-metadata\.json$ ]]; then
+              echo "- [$file]($file)" >> index.md
+            fi
+          done
+          
+          echo "" >> index.md
+          echo "## Input Metadata Files" >> index.md
+          echo "" >> index.md
+          
+          # List metadata JSON files
+          for file in *-input-metadata.json; do
+            if [ -f "$file" ]; then
               echo "- [$file]($file)" >> index.md
             fi
           done
