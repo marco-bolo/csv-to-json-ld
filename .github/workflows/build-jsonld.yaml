@@ -44,36 +44,6 @@ jobs:
         # This will result in incoherent log outputs which aren't suitable for debugging.
         run: make jsonld -j 2
 
-      - name: Generate JSON-LD directory index
-        run: |
-          cat > remote/models/schema-jsonld/index.md << 'EOF'
-          # JSON-LD Schema Files
-          
-          This directory contains the generated JSON-LD output files from the CSV data.
-          
-          ## Entity Files
-          
-          EOF
-          
-          # List entity JSON files (excluding -input-metadata.json files)
-          cd remote/models/schema-jsonld
-          for file in *.json; do
-            if [[ ! "$file" =~ -input-metadata\.json$ ]]; then
-              echo "- [$file]($file)" >> index.md
-            fi
-          done
-          
-          echo "" >> index.md
-          echo "## Input Metadata Files" >> index.md
-          echo "" >> index.md
-          
-          # List metadata JSON files
-          for file in *-input-metadata.json; do
-            if [ -f "$file" ]; then
-              echo "- [$file]($file)" >> index.md
-            fi
-          done
-
       - name: Commit JSON-LD outputs for MkDocs
         if: github.ref == 'refs/heads/main'
         run: |
