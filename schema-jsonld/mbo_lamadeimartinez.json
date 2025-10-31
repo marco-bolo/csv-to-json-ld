@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_lamadeimartinez",
+  "@type": "Person",
+  "familyName": "Amadei Martinez",
+  "givenName": "Luz",
+  "identifier": "https://orcid.org/0000-0001-5960-7972",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+  }
+}

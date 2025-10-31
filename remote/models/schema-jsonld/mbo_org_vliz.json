@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_vliz",
+  "@type": "ResearchOrganization",
+  "alternateName": "Flanders Marine Institute",
+  "description": "Flanders Marine Institute",
+  "identifier": "https://ror.org/0496vr396",
+  "keywords": "marine research, Belgium, Flanders",
+  "legalName": "Vlaams Instituut Voor De Zee",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "VLIZ"
+}

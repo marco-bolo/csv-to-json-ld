@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp4_d4_2",
+  "@type": "CreateAction",
+  "abstract": "Extreme events and physical drivers of plankton biodiversity distributions",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+  },
+  "name": "MARCO-BOLO Deliverable 4.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_dtu"
+    }
+  ]
+}

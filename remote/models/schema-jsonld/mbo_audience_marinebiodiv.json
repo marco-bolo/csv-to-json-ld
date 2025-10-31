@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv",
+  "@type": "Researcher",
+  "audienceType": "Researchers working in marine and coastal biodiversity observation and monitoring",
+  "name": "Marine biodiversity researchers"
+}

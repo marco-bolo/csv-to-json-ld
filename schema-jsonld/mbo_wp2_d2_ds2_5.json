@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_5",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
+  },
+  "description": "The wetlab protocols (i.e. library prep) used in support of WP2 Deliverable 2, dataset 2.",
+  "name": "Wetlab protocols for WP2 D2 DS2",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

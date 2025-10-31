@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata",
+  "@reverse": {
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
+    }
+  },
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder",
+    "@type": "CreateAction",
+    "result": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata#csv",
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
+        },
+        "schema:contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=4"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_58464"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata#jsonld",
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
+        },
+        "schema:contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": "2025-10-31",
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  },
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e8b3de4d0c3f45b518305a31fe898328a8d00594",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_58464"
+  },
+  "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata#csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder-input-metadata#jsonld"
+    }
+  ]
+}

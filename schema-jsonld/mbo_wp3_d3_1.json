@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp3_d3_1",
+  "@type": "CreateAction",
+  "abstract": "Report on meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools from different providers",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+  },
+  "name": "MARCO-BOLO Deliverable 3.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+    }
+  ]
+}

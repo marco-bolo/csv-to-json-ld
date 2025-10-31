@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_44123",
+  "@type": "Person",
+  "familyName": "Pade",
+  "givenName": "Nicolas",
+  "identifier": "https://oceanexpert.org/expert/44123",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
+  }
+}

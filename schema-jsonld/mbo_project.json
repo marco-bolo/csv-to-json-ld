@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_project",
+  "@type": "CreateAction",
+  "abstract": "MARine COastal BiOdiversity Long-term Observations",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "description": "MARCO-BOLO is a €7.3 million, 4-year Horizon Europe project (Grant Agreement 101082021) that strengthens European marine, coastal and freshwater biodiversity observation to understand and restore ocean health. The project runs from 2022-12-01 to 2026-11-30 and involves 28 partners from 14 countries.",
+  "name": "MARCO-BOLO Project",
+  "object": {
+    "@id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
+  }
+}

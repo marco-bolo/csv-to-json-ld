@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_license_ccby40",
+  "@type": "CreativeWork",
+  "description": "Open license for data/content requiring only attribution to the original creator.",
+  "name": "CC-BY-4.0",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://spdx.org/licenses/CC-BY-4.0"
+  }
+}

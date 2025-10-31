@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_emobon_umf",
+  "@type": "Place",
+  "description": "The EMOBON genomic observatory at Station B7 in the Bothnian Sea, Sweden, is part of the national monitoring program with data spanning since 2001. This site tracks hydrographic, biological, and chemical parameters, alongside benthic fauna, and experiences seasonal blooms, including spring diatoms and late-summer cyanobacteria, with genomic sampling conducted for advanced studies.",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "63.525"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "19.808167"
+  },
+  "name": "EMO BON Observatory: UMF"
+}

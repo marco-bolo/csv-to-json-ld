@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_zooplankton",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
+  },
+  "name": "WP5 D5.1: European Coastal and Marine Zooplankton Time Series Dataset",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

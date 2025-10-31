@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_gr",
+  "@type": "GeoShape",
+  "box": "33.28103 18.26094 41.09133 30.10359",
+  "description": "Bounding Box of Greek Exclusive Economic Zone (MRGID:5679). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Greek EEZ Bounding Box"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_aps",
+  "@type": "Organization",
+  "description": "Port Authority of Seville",
+  "identifier": "https://ror.org/03a76f909",
+  "keywords": "port authority, Spain, infrastructure",
+  "legalName": "Autoridad Portuaria De Sevilla",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "APS"
+}

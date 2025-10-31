@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil",
+  "@type": "Person",
+  "familyName": "Cano-Barbacil",
+  "givenName": "Carlos",
+  "identifier": "https://orcid.org/0000-0002-6482-5103",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_copepod",
+  "@type": "Dataset",
+  "conditionsOfAccess": "open access",
+  "description": "Time series database, 0 time series met inclusion criteria",
+  "keywords": "zooplankton, marine data",
+  "name": "WP5 D5.1 Query: COPEPOD",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
+  }
+}

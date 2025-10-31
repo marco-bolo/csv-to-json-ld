@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dmp_1",
+  "@type": "DigitalDocument",
+  "alternateName": "MARCO BOLO DMP",
+  "audience": {
+    "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+  },
+  "availableLanguage": "en",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_published"
+  },
+  "schema:dateCreated": "2023-08-02",
+  "schema:dateModified": "2024-07-01",
+  "schema:datePublished": "2023-08-02",
+  "description": "The Data Management Plan is a mandatory component of any Horizon Europe project providing information about: Guiding principles around data management following EC Horizon Europe requirements; How to make MBO data FAIR: Findable, Accessible, Interoperable and Re-usable; Data management cost and allocation of resources; Data security and ethics, and confidentiality.<br>\\nMARCO-BOLO is a project built around data with the objective to make transformative change in the use of biodiversity data in decision making. Therefore MBO aims to deliver a globally relevant freshwater and marine biodiversity Data Management Plan defined with a Community of Practice of stakeholders from different sectors (industry, policy, research, society) and from different ends of the data pathway (data collector to data end-users). MBO co-design Data Management Plans (D1.1 and D1.2) are deliverables due at 24 and 36 month of the project. The present first iteration of the Data Management Plan is only an overview of MBO principles about freshwater and marine biodiversity data that will be refined and detailed in D1.1 and D1.2. The DMP is a live document that will be reviewed and updated periodically.",
+  "identifier": "https://doi.org/10.5281/zenodo.8208410",
+  "keywords": [
+    "United Nations Decade of Ocean Science for Sustainable Development",
+    "data management plan",
+    "biodiversity data",
+    "Global Ocean Observing System",
+    "Horizon Europe",
+    "essential ocean variables"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_license_ccby40",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+  },
+  "name": "Deliverable D7.2 Project Data Management Plan",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_zenodo"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://zenodo.org/records/8208410"
+  },
+  "version": "v1.0.0"
+}

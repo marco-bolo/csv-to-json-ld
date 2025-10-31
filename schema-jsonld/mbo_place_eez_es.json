@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_es",
+  "@type": "Place",
+  "description": "Spanish Exclusive Economic Zone (MRGID:5693). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_es"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "41.72201"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-4.15801"
+  },
+  "name": "Spanish EEZ"
+}

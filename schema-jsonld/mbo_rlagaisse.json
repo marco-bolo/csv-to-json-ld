@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_rlagaisse",
+  "@type": "Person",
+  "familyName": "Lagaisse",
+  "givenName": "Rune",
+  "identifier": "https://orcid.org/0000-0001-9191-9104",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+  }
+}

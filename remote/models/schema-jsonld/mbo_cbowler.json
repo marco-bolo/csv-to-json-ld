@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cbowler",
+  "@type": "Person",
+  "familyName": "Bowler",
+  "givenName": "Chris"
+}

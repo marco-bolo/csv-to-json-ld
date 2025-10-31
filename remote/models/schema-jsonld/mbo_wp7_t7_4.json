@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp7_t7_4",
+  "@type": "CreateAction",
+  "abstract": "Clustering activities with marine biodiversity projects and coordinating activities",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+  },
+  "name": "MARCO BOLO Task 7.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ssbe"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_embrc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_23935"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+    }
+  ]
+}

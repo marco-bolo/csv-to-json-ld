@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_jwarwickdugdale",
+  "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp2"
+  },
+  "familyName": "Warwick-Dugdale",
+  "givenName": "Jo",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
+  }
+}

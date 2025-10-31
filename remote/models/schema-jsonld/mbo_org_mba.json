@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_mba",
+  "@type": "GovernmentOrganization",
+  "alternateName": "DASSH",
+  "description": "Focused on marine biology, our mission is to understand and disseminate the causes and consequences of environmental change in the ocean through research and discovery",
+  "funding": {
+    "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba"
+  },
+  "identifier": "https://ror.org/0431sk359",
+  "keywords": "marine biology, UK, scientific society",
+  "legalName": "Marine Biological Association Of The United Kingdom",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "MBA",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.mba.ac.uk/"
+  }
+}

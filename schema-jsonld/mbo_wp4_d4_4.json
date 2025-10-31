@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp4_d4_4",
+  "@type": "CreateAction",
+  "abstract": "Data protocols proven in combination with traditional biodiversity observations using both fixed and mobile sensor observatories and in collaboration with diverse stakeholders",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+  },
+  "name": "MARCO-BOLO Deliverable 4.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+    }
+  ]
+}

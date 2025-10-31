@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_roblinksdata",
+  "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_awi"
+  },
+  "familyName": "Barry",
+  "givenName": "Rob",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_awi"
+  }
+}

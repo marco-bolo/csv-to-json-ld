@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp1_d1_1",
+  "@type": "CreateAction",
+  "abstract": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+  },
+  "name": "MARCO-BOLO Deliverable 1.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_hr",
+  "@type": "Place",
+  "description": "Croatian Exclusive Economic Zone (MRGID:5673). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_hr"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "43.43699"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "15.64779"
+  },
+  "name": "Croatian EEZ"
+}

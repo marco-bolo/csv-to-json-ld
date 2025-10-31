@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_pl",
+  "@type": "Place",
+  "description": "Polish Exclusive Economic Zone (MRGID:5687). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_pl"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.9123"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "17.26042"
+  },
+  "name": "Polish EEZ"
+}

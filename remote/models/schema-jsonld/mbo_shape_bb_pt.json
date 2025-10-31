@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_pt",
+  "@type": "GeoShape",
+  "box": "34.8776 -13.86535 42.05467 -7.25694",
+  "description": "Bounding Box of Portuguese Exclusive Economic Zone (MRGID:5688). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Portuguese EEZ Bounding Box"
+}

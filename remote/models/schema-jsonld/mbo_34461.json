@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_34461",
+  "@type": "Person",
+  "familyName": "Buttigieg",
+  "givenName": "Pier Luigi",
+  "identifier": "https://oceanexpert.org/expert/34461",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_awi"
+  }
+}

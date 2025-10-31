@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_todo_data_download_1",
+  "@type": "DataDownload",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_28269"
+  },
+  "contentSize": "15MB",
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_11770"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_published"
+  },
+  "schema:dateCreated": "2024-01-01",
+  "schema:dateModified": [
+    "2025-04-04",
+    "2024-01-02"
+  ],
+  "schema:datePublished": "2025-01-01",
+  "description": "Some second title available in ZIP format.",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_todo_dataset_2"
+  },
+  "encodingFormat": "application/zip",
+  "license": "https://w3id.org/marco-bolo/mbo_license_cc0",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_34461"
+  },
+  "name": "Some second title (Zip)",
+  "sha256": "331c8768f99688e617c98593238b8423374ddfd5a04de899f89226be66d36249",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://example.com/some-file.csv"
+  },
+  "version": "1.0.0"
+}

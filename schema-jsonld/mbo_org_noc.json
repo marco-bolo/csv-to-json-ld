@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_noc",
+  "@type": "ResearchOrganization",
+  "description": "National Oceanography Centre",
+  "identifier": "https://ror.org/00874hx02",
+  "keywords": "oceanography, UK",
+  "legalName": "National Oceanography Centre",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "NOC"
+}

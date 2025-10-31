@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_jmortelmans",
+  "@type": "Person",
+  "familyName": "Mortelmans",
+  "givenName": "Jonas",
+  "identifier": "https://orcid.org/0000-0002-8781-7915",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+  }
+}

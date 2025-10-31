@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_ee",
+  "@type": "Place",
+  "description": "Estonian Exclusive Economic Zone (MRGID:5675). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_ee"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "58.77012"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "23.00232"
+  },
+  "name": "Estonian EEZ"
+}

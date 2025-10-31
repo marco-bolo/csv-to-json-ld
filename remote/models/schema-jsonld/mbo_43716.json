@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_43716",
+  "@type": "Person",
+  "familyName": "Portier",
+  "givenName": "Marc",
+  "identifier": "https://oceanexpert.org/expert/43716",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+  }
+}

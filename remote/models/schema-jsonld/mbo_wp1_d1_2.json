@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp1_d1_2",
+  "@type": "CreateAction",
+  "abstract": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+  },
+  "name": "MARCO-BOLO Deliverable 1.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+    }
+  ]
+}

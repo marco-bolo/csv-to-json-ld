@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_ukrsces",
+  "@type": "ResearchOrganization",
+  "description": "Ukrainian Scientific Centre of Ecology of the Sea",
+  "identifier": "https://ror.org/0303yjn29",
+  "keywords": "marine ecology, Ukraine",
+  "legalName": "Ukrainian Scientific Centre Of Ecology Of The Sea",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "UkrSCES"
+}

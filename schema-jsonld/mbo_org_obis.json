@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_obis",
+  "@type": "GovernmentOrganization",
+  "alternateName": "Ocean Biodiversity Information System",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_contact_sformel"
+  },
+  "description": "The Ocean Biodiversity Information System (OBIS) is a global open-access data platform that provides information on the distribution and abundance of marine life. Operating as a program under UNESCO's Intergovernmental Oceanographic Commission (IOC-UNESCO), OBIS integrates biodiversity data from over 30 regional and thematic nodes worldwide, making millions of marine species occurrence records freely available for research, conservation, and sustainable ocean management.",
+  "schema:foundingDate": "2000",
+  "identifier": "https://ror.org/00d21gf72",
+  "keywords": "OBIS, Biodiversity, UNESCO",
+  "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "OBIS",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://obis.org/"
+  }
+}

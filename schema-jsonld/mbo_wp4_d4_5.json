@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp4_d4_5",
+  "@type": "CreateAction",
+  "abstract": "Preliminary report on WP4 progress",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+  },
+  "name": "MARCO-BOLO Deliverable 4.5",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_noc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+    }
+  ]
+}

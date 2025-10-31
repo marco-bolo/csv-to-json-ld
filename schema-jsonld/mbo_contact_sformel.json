@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_sformel",
+  "@type": "ContactPoint",
+  "availableLanguage": [
+    "en",
+    "es"
+  ],
+  "contactType": "CSV-to-JSON-LD management",
+  "description": "Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.",
+  "email": "steve@formeldataservices.com",
+  "name": "Stephen Formel"
+}

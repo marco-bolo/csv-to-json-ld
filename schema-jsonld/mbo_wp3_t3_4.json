@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp3_t3_4",
+  "@type": "CreateAction",
+  "abstract": "Effects on conservation areas",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+  },
+  "name": "MARCO BOLO Task 3.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_hereon"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ub"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_geoecom"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_aps"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
+    }
+  ]
+}

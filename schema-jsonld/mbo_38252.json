@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_38252",
+  "@type": "Person",
+  "familyName": "Cudalbu",
+  "givenName": "Cristian",
+  "identifier": "https://oceanexpert.org/expert/38252"
+}

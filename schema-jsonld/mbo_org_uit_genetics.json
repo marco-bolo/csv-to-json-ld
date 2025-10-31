@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_uit_genetics",
+  "@type": "CollegeOrUniversity",
+  "alternateName": "RGG (Research Group for Genetics)",
+  "description": "UiT strategy: \"Eallju – Developing the High North\". In our research group, we focus specifically on the genetics and molecular ecology of sub-Arctic and Arctic fishes and other vertebrates as the unifying concept governing teaching and research carried out. In later years, this has included implementing eDNA in all its facets.",
+  "schema:foundingDate": "1968",
+  "legalName": "UiT - The Arctic University of Norway",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "UiT Research Group for Genetics",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://uit.no/research/genetics"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_license_eupl12",
+  "@type": "CreativeWork",
+  "description": "European Union Public License version 1.2, the current version of the EU's copyleft software license with improved compatibility and clarity (FSF and OSI approved).",
+  "name": "European Union Public License 1.2",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://spdx.org/licenses/EUPL-1.2"
+  }
+}

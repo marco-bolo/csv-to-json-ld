@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_lv",
+  "@type": "GeoShape",
+  "box": "56.04542 19.09754 58.02407 24.41247",
+  "description": "Bounding Box of Latvian Exclusive Economic Zone (MRGID:5683). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Latvian EEZ Bounding Box"
+}

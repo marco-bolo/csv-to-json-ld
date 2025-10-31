@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dkumazawa_morais",
+  "@type": "Person",
+  "familyName": "Morais",
+  "givenName": "Daniel Kumazawa",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_uit_genetics"
+  }
+}

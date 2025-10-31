@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_pub_status_embargoed",
+  "@type": "DefinedTerm",
+  "description": "The dataset is complete but temporarily restricted from public access until a specified release date, after which it will become publicly available.",
+  "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+  "termCode": "Embargoed"
+}

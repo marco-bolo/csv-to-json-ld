@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_43352",
+  "@type": "Person",
+  "familyName": "Suominen",
+  "givenName": "Saara",
+  "identifier": "https://oceanexpert.org/expert/43352",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_obis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_hydrophone",
+  "@type": "CreateAction",
+  "abstract": "T4.4 seatrial event: hydrophones",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+  },
+  "description": "Collecting the acoustic data from the hydrophones",
+  "name": "Multi-sensor biodiversity observations: sea trial hydrophone",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
+  }
+}

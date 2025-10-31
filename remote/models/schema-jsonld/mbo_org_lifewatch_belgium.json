@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_belgium",
+  "@type": "ResearchProject",
+  "alternateName": "National Distributed Centre for LifeWatch Belgium",
+  "description": "LifeWatch Belgium, also called the National Distributed Centre for LifeWatch Belgium combines the regional and federal LifeWatch contributions from Belgium.",
+  "legalName": "LifeWatch European Research Infrastructure Consortium",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "LifeWatch Belgium",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.lifewatch.be"
+  }
+}

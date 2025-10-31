@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_it",
+  "@type": "GeoShape",
+  "box": "35.06441 5.88972 45.80891 18.99524",
+  "description": "Bounding Box of Italian Exclusive Economic Zone (MRGID:5682). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Italian EEZ Bounding Box"
+}

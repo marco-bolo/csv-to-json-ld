@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp1_d1_3",
+  "@type": "CreateAction",
+  "abstract": "Final report, gap analysis, and demonstrators of digital exchange",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+  },
+  "name": "MARCO-BOLO Deliverable 1.3",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_awi"
+    }
+  ]
+}

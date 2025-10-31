@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_unesco",
+  "@type": "Organization",
+  "description": "United Nations agency for education, science and culture",
+  "identifier": "https://ror.org/04h4z8k05",
+  "keywords": "United Nations, education, science, culture, intergovernmental",
+  "legalName": "United Nations Educational Scientific And Cultural Organization",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "UNESCO"
+}

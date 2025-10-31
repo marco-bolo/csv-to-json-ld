@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp7_d7_2",
+  "@type": "CreateAction",
+  "abstract": "Project Data Management Plan",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+  },
+  "name": "MARCO-BOLO Deliverable 7.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_embrc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+    }
+  ]
+}

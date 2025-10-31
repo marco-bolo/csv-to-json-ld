@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_ibens_cnrs",
+  "@type": "ResearchOrganization",
+  "alternateName": "National Centre for Scientific Research (France)",
+  "identifier": "https://ror.org/03mxktp47",
+  "keywords": "research council, France",
+  "legalName": "Institut de Biologie de l'École Normale Supérieure; Centre National De La Recherche Scientifique Cnrs",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "IBENS-CNRS"
+}

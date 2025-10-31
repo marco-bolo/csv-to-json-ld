@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_23316",
+  "@type": "Person",
+  "familyName": "Lear",
+  "givenName": "Dan",
+  "identifier": "https://oceanexpert.org/expert/23316",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
+  }
+}

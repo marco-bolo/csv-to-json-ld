@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_2",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
+  },
+  "description": "The 12S sequences collected and archived in support of WP2 Deliverable 2, dataset 2.",
+  "name": "12S sequences at a UiT Genomic Observatory (ESC68N)",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

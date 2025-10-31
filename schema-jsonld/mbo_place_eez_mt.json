@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_mt",
+  "@type": "Place",
+  "description": "Maltese Exclusive Economic Zone (MRGID:5685). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_mt"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "35.31355"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "15.11121"
+  },
+  "name": "Maltese EEZ"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_eez_fi",
+  "@type": "Place",
+  "description": "Finnish Exclusive Economic Zone (MRGID:5676). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_fi"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "61.75484"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "21.88919"
+  },
+  "name": "Finnish EEZ"
+}

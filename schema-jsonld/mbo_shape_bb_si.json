@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_si",
+  "@type": "GeoShape",
+  "box": "45.46548 13.38701 45.63 13.74668",
+  "description": "Bounding Box of Slovenian Exclusive Economic Zone (MRGID:5692). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Slovenian EEZ Bounding Box"
+}

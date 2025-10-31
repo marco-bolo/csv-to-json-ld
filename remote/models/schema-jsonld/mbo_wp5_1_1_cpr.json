@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_cpr",
+  "@type": "Dataset",
+  "conditionsOfAccess": "open access",
+  "description": "Continuous Plankton Recorder Survey database containing 52 time series (26 phytoplankton, 26 zooplankton)",
+  "keywords": "phytoplankton, zooplankton, plankton monitoring",
+  "name": "WP5 D5.1 Query: CPR Survey",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
+  }
+}

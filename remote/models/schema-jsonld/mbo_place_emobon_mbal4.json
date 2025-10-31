@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_place_emobon_mbal4",
+  "@type": "Place",
+  "description": "The EMOBON genomic observatory, located at Station L4 in the Western Channel off Plymouth, UK, is part of the Western Channel Observatory (WCO). This long-term ecological site, studied for over a century, focuses on marine biodiversity through plankton sampling, fish surveys, and advanced omics techniques like metabarcoding and metagenomics.",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "50.25"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-4.217"
+  },
+  "name": "EMO BON Observatory: MBAL4"
+}

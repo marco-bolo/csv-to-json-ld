@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_embrc",
+  "@type": "ResearchOrganization",
+  "alternateName": "EMBRC",
+  "description": "European Research Infrastructure Consortium for marine biological resources",
+  "identifier": "https://ror.org/0038zss60",
+  "keywords": "marine biology, research infrastructure, ERIC, marine resources",
+  "legalName": "European Marine Biological Resource Centre European Research Infrastructure Consortium",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "EMBRC-ERIC"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5",
+  "@type": "ResearchProject",
+  "alternateName": "MBO WP5",
+  "description": "Modelling and Mapping Coastal and Marine Biodiversity",
+  "keywords": "MARCO-BOLO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "MARCO-BOLO Work Package 5",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/work-packages/work-package-5-modelling-and-mapping-coastal-and-marine-biodiversity/"
+  }
+}

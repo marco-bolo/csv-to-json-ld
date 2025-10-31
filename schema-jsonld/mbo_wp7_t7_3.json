@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp7_t7_3",
+  "@type": "CreateAction",
+  "abstract": "Citizen Engagement and Public Outreach",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+  },
+  "name": "MARCO BOLO Task 7.3",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58451"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_erinn"
+    }
+  ]
+}

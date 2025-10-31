@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_univie",
+  "@type": "CollegeOrUniversity",
+  "description": "University of Vienna",
+  "identifier": "https://ror.org/03prydq77",
+  "keywords": "university, Austria",
+  "legalName": "Universitat Wien",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "UNIVIE"
+}

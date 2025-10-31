@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_de",
+  "@type": "GeoShape",
+  "box": "52.87112 3.35 55.91928 14.75",
+  "description": "Bounding Box of German Exclusive Economic Zone (MRGID:5669). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "German EEZ Bounding Box"
+}

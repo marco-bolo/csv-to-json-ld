@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_horizon_europe",
+  "@type": "GovernmentOrganization",
+  "description": "Horizon Europe is the EU’s key funding programme for research and innovation. Following the Multiannual Financial Framework Midterm Review (MTR) decision, the indicative funding amount for Horizon Europe for the period 2021-2027 is EUR 93.5 billion.",
+  "schema:dissolutionDate": "2028-12-31",
+  "schema:foundingDate": "2021-01-01",
+  "identifier": "https://ror.org/00k4n6c32",
+  "legalName": "European Commission",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "Horizon Europe",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+  }
+}

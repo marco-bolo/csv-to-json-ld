@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_norce",
+  "@type": "ResearchOrganization",
+  "description": "Norwegian Research Centre",
+  "identifier": "https://ror.org/02gagpf75",
+  "keywords": "research centre, Norway",
+  "legalName": "Norce Norwegian Research Centre As",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo"
+  },
+  "name": "NORCE"
+}

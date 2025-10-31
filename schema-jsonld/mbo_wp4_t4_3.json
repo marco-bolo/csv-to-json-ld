@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp4_t4_3",
+  "@type": "CreateAction",
+  "abstract": "Networks of biodiversity sensors",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+  },
+  "name": "MARCO BOLO Task 4.3",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_noc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_59780"
+    }
+  ]
+}

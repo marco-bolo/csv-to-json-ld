@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_audience_edna",
+  "@type": "Researcher",
+  "audienceType": "The global environmental DNA (eDNA) research community.",
+  "name": "environment DNA (eDNA) Research Community"
+}

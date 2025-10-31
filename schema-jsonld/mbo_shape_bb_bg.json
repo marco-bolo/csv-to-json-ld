@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_bg",
+  "@type": "GeoShape",
+  "box": "41.97819 27.44371 43.73847 31.33082",
+  "description": "Bounding Box of Bulgarian Exclusive Economic Zone (MRGID:5672). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Bulgarian EEZ Bounding Box"
+}
