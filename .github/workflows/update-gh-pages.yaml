@@ -20,6 +20,39 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y mkdocs
 
+      - name: Generate JSON-LD directory index
+        working-directory: remote/models
+        run: |
+          if [ -d schema-jsonld ]; then
+            cat > schema-jsonld/index.md << 'EOF'
+          # JSON-LD Schema Files
+          
+          This directory contains the generated JSON-LD output files from the CSV data.
+          
+          ## Entity Files
+          
+          EOF
+            
+            # List entity JSON files (excluding -input-metadata.json files)
+            cd schema-jsonld
+            for file in *.json; do
+              if [[ ! "$file" =~ -input-metadata\.json$ ]]; then
+                echo "- [$file]($file)" >> index.md
+              fi
+            done
+            
+            echo "" >> index.md
+            echo "## Input Metadata Files" >> index.md
+            echo "" >> index.md
+            
+            # List metadata JSON files
+            for file in *-input-metadata.json; do
+              if [ -f "$file" ]; then
+                echo "- [$file]($file)" >> index.md
+              fi
+            done
+          fi
+
       - name: Build docs
         working-directory: remote/models
         run: |
