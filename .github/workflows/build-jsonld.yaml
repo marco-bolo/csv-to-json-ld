@@ -44,6 +44,25 @@ jobs:
         # This will result in incoherent log outputs which aren't suitable for debugging.
         run: make jsonld -j 2
 
+      - name: Generate JSON-LD directory index
+        run: |
+          cat > remote/models/schema-jsonld/index.md << 'EOF'
+          # JSON-LD Schema Files
+          
+          This directory contains the generated JSON-LD output files from the CSV data.
+          
+          ## Available Files
+          
+          EOF
+          
+          # List all JSON files (excluding -input-metadata.json files)
+          cd remote/models/schema-jsonld
+          for file in *.json; do
+            if [[ ! "$file" =~ -input-metadata\.json$ ]]; then
+              echo "- [$file]($file)" >> index.md
+            fi
+          done
+
       - name: Commit JSON-LD outputs for MkDocs
         if: github.ref == 'refs/heads/main'
         run: |
@@ -52,14 +71,10 @@ jobs:
           
           # Copy JSON-LD files to MkDocs source directory
           cp out/*.json remote/models/schema-jsonld/
-          
-          # Also maintain the root level directory for backwards compatibility
-          mkdir -p schema-jsonld
-          cp out/*.json schema-jsonld/
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add remote/models/schema-jsonld/ schema-jsonld/
+          git add remote/models/schema-jsonld/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
