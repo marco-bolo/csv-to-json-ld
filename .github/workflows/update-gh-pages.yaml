@@ -60,6 +60,14 @@ jobs:
           make docs -j 2
           sudo chmod -R a+rX site
 
+      - name: Set up Python for sitemap
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate sitemap
+        run: python scripts/generate_sitemap.py
+
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
