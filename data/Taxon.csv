@@ -2,4 +2,4 @@ MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Actio
 mbo_taxon_animalia,mbo_sformel,mbo_db_tool_population,Animals,Animalia,Animalia,,,,,,accepted,kingdom,2,urn:lsid:marinespecies.org:taxname:2
 mbo_taxon_plants,mbo_sformel,mbo_db_tool_population,Plants,Plantae,Plantae,,,,,,accepted,kingdom,3,urn:lsid:marinespecies.org:taxname:3
 mbo_taxon_vertebrata,mbo_sformel,mbo_db_tool_population,Vertebrates,Vertebrata,Animalia,,,,,,accepted,subphylum,146419,urn:lsid:marinespecies.org:taxname:146419
-mbo_taxon_eukaryota,mbo_sformel,mbo_db_tool_population,Eukaryota,Eukaryota,,,,,,,accepted,domain,col:CS5HF,
+mbo_taxon_eukaryota,mbo_sformel,mbo_db_tool_population,Eukaryota,Eukaryota,Undefined,,,,,,accepted,domain,col:CS5HF,
