@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_protocol2",
+  "@type": "DigitalDocument",
+  "alternateName": "EMO BON Handbook Condensation, Protocol for Metadata and WaSOP 1 (Basic) sampling",
+  "audience": {
+    "@id": "https://w3id.org/marco-bolo/mbo_audience_edna"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_39344"
+  },
+  "availableLanguage": "en",
+  "conditionsOfAccess": "Private - In revision",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
+  },
+  "schema:dateCreated": "2021-08-30",
+  "description": "Field protocol for the European Marine Omics Biodiversity Observation Network (EMO BON) sampling operations. Covers materials needed, CTD deployment for metadata collection, Niskin bottle water sampling, and filtration procedures for metabarcoding analysis using both Sterivex and polycarbonate membrane filters.",
+  "identifier": "10.5281/zenodo.17590006",
+  "keywords": "EMO BON; field sampling; metabarcoding; CTD; Niskin bottle; water sampling; marine biodiversity; filtration; DNA/RNA Shield",
+  "name": "EMO BON Field Protocol (ESC68N), incl. sampling for metabarcoding",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17590006"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17590006"
+    }
+  ],
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}
