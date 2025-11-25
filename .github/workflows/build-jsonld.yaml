@@ -47,15 +47,21 @@ jobs:
       - name: Commit JSON-LD outputs for MkDocs
         if: github.ref == 'refs/heads/main'
         run: |
-          # Create directory alongside MkDocs source files
+          # Remove existing directory to clear any vestigial files
+          rm -rf remote/models/schema-jsonld
+          
+          # Create fresh directory
           mkdir -p remote/models/schema-jsonld
           
           # Copy JSON-LD files to MkDocs source directory
           cp out/*.json remote/models/schema-jsonld/
-
+          
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add remote/models/schema-jsonld/
+          
+          # Stage all changes including deletions
+          git add -A remote/models/schema-jsonld/
+          
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
