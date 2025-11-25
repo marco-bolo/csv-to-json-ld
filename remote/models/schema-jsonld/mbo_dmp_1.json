@@ -20,11 +20,11 @@
   "identifier": "https://doi.org/10.5281/zenodo.8208410",
   "keywords": [
     "United Nations Decade of Ocean Science for Sustainable Development",
-    "data management plan",
+    "essential ocean variables",
     "biodiversity data",
-    "Global Ocean Observing System",
     "Horizon Europe",
-    "essential ocean variables"
+    "data management plan",
+    "Global Ocean Observing System"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_license_ccby40",
   "maintainer": {

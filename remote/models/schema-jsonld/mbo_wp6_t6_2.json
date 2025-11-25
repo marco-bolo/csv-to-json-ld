@@ -12,10 +12,7 @@
   "name": "MARCO BOLO Task 6.2",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ssbe"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_11770"
@@ -24,10 +21,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_49824"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp6"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ssbe"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp6"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_unesco"

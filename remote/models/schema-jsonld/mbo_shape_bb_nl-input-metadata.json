@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_nl"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e8b3de4d0c3f45b518305a31fe898328a8d00594",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b7a9ffc95358c63d334ab5a48c0718e0c713007f",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_sformel"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2025-10-31",
+      "dateModified": "2025-11-25",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_shape_bb_nl-input-metadata"
       },

@@ -9,7 +9,6 @@
     "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
   },
   "description": "Results from generalized least squares models evaluating time series-level temporal trends in richness, diversity and abundance, with year as continuous fixed effect and accounting for temporal autocorrelation",
-  "keywords": "temporal trends, biodiversity change, GLS models, richness trends, diversity trends, abundance trends, regional analysis",
   "name": "WP5 D5.1: GLS Model Outputs - Temporal Trends",
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"

@@ -13,6 +13,7 @@
     "@id": "https://w3id.org/marco-bolo/mbo_madsrj"
   },
   "name": "EMO BON UiT Genomic observatory 12S MiFish + COI Leray-XT",
+  "temporalCoverage": "2021-08-17/2024-08-29",
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

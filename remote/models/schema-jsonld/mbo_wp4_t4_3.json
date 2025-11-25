@@ -12,19 +12,19 @@
   "name": "MARCO BOLO Task 4.3",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_noc"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_noc"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_use"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_59780"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
     }
   ]
 }

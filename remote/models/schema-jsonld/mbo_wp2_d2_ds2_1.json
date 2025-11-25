@@ -5,13 +5,71 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_1",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota"
+    }
+  ],
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_edna"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58808"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_madsrj"
+    }
+  ],
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_madsrj"
+  },
   "creativeWorkStatus": {
     "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
   },
-  "description": "The CO1 sequences collected and archived in support of WP2 Deliverable 2, dataset 2.",
-  "name": "CO1 sequences at a UiT Genomic Observatory (ESC68N)",
+  "description": "The 12S and CO1 sequences collected and archived in support of WP2 Deliverable 2, dataset 2.",
+  "distribution": {
+    "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_download1"
+  },
+  "keywords": [
+    "EMO BON",
+    "eDNA",
+    "marine biodiversity",
+    "eukaryotes",
+    "vertebrates",
+    "metabarcoding",
+    "Norway"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_license_ccby40",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_39344"
+  },
+  "name": "12 and CO1 sequences at a UiT Genomic Observatory (ESC68N)",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_ena"
+  },
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_place_emobon_esc68n"
+  },
+  "temporalCoverage": "2021-08-17/2024-08-29",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.ebi.ac.uk/ena/browser/view/PRJEB98105"
+  },
+  "usageInfo": "https://w3id.org/marco-bolo/mbo_emb_d2_ds2_1",
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   },
-  "https://w3id.org/marco-bolo/inProgressDate": "2025-11"
+  "https://w3id.org/marco-bolo/inProgressDate": "2026-11-30"
 }

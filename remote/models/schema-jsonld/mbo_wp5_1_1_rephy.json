@@ -7,7 +7,6 @@
   "@type": "Dataset",
   "conditionsOfAccess": "open access",
   "description": "Phytoplankton monitoring database containing 89 time series",
-  "keywords": "phytoplankton, coastal monitoring",
   "name": "WP5 D5.1 Query: REPHY",
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"

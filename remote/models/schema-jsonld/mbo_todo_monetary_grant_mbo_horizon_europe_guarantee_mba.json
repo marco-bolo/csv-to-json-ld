@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba",
       "@type": "MonetaryGrant",
       "amount": {
@@ -18,15 +27,6 @@
       "schema:url": {
         "@type": "URL",
         "@value": "https://gtr.ukri.org/projects?ref=10063994"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba#MonetaryAmount",
-      "@type": "MonetaryAmount",
-      "currency": "GBP",
-      "value": {
-        "@type": "xsd:decimal",
-        "@value": "471379.0"
       }
     }
   ]

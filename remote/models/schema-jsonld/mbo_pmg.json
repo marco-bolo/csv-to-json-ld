@@ -9,9 +9,6 @@
   "alternateName": "PMG",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_general_research_institutions"
     },
     {
@@ -19,12 +16,12 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
     }
   ],
   "author": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_claguionie"
     },
@@ -33,16 +30,19 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_39481"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
     }
   ],
   "availableLanguage": "en",
   "conditionsOfAccess": "Public",
   "contributor": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58451"
+      "@id": "https://w3id.org/marco-bolo/mbo_44123"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_44123"
+      "@id": "https://w3id.org/marco-bolo/mbo_58451"
     }
   ],
   "copyrightHolder": {

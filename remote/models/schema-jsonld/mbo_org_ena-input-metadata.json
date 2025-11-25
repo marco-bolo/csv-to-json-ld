@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_org_ena-input-metadata",
+  "@reverse": {
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_db_tool_population"
+    }
+  },
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_ena"
+  },
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b7a9ffc95358c63d334ab5a48c0718e0c713007f",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_sformel"
+  },
+  "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ena-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_db_tool_population"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_org_ena"
+      },
+      "schema:contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_0000018#row=44"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_sformel"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_org_ena-input-metadata"
+      },
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ena-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_db_tool_population"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_org_ena"
+      },
+      "schema:contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_org_ena"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2025-11-25",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_org_ena-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  ]
+}
