@@ -1526,3 +1526,182 @@ slots:
       `Environmental consultants, fisheries managers, and marine technology 
       companies requiring scientific data for impact assessments, 
       resource management decisions, or product development`.
+
+  # ----- Instrument-specific slots -----
+  
+  instrumentTypeId:
+    title: "Instrument Type (URL PID)"
+    description: |
+      A URL persistent identifier for the instrument type, preferably from the 
+      NERC SeaVoX Device Catalogue (L22).
+    required: false
+    multivalued: false
+    range: uri
+    slot_uri: schema:additionalType
+    comments: |
+      Should be a URI from a controlled vocabulary.
+      
+      Primary source: NERC L22 SeaVoX Device Catalogue
+      https://vocab.nerc.ac.uk/collection/L22/current/
+      
+      Example: `http://vocab.nerc.ac.uk/collection/L22/current/TOOL0058/` 
+      (Sea-Bird SBE 911plus CTD)
+      
+      You can search for instruments at:
+      https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/L22/
+
+  instrumentTypeName:
+    title: "Instrument Type Name"
+    description: |
+      A human-readable name for the instrument type.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:category
+    comments: |
+      For example: `CTD`, `fluorometer`, `acoustic Doppler current profiler`
+      
+      This provides a searchable text field complementing the vocabulary URI.
+
+  instrumentManufacturer:
+    title: "Manufacturer"
+    description: |
+      The name of the instrument manufacturer.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:manufacturer
+    comments: |
+      For example: `Sea-Bird Scientific`, `Teledyne RD Instruments`, `WET Labs`
+
+  instrumentModel:
+    title: "Model"
+    description: |
+      The model designation of the instrument.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:model
+    comments: |
+      For example: `SBE 911plus`, `Workhorse Sentinel ADCP`, `ECO-FLNTU`
+
+  instrumentSerialNumber:
+    title: "Serial Number"
+    description: |
+      The serial number of the specific instrument unit.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:serialNumber
+    comments: |
+      The manufacturer-assigned serial number for this specific unit.
+
+  mountedOnPlatformMboId:
+    title: "Mounted On Platform (mPID)"
+    description: |
+      The MBO identifier of the platform on which this instrument is mounted.
+    required: false
+    multivalued: false
+    range: Platform
+    slot_uri: schema:isPartOf
+    comments: |
+      An mPID from the first column of Platform.csv
+      
+      For example, if the instrument is mounted on a research vessel,
+      reference the vessel's Platform record here.
+
+  # ----- Platform-specific slots -----
+
+  platformTypeId:
+    title: "Platform Type (URL PID)"
+    description: |
+      A URL persistent identifier for the platform type, preferably from the 
+      NERC SeaDataNet Platform Categories (L06).
+    required: false
+    multivalued: false
+    range: uri
+    slot_uri: schema:additionalType
+    comments: |
+      Should be a URI from a controlled vocabulary.
+      
+      Primary source: NERC L06 SeaDataNet Platform Categories
+      https://vocab.nerc.ac.uk/collection/L06/current/
+      
+      Examples:
+      - `http://vocab.nerc.ac.uk/collection/L06/current/31/` (research vessel)
+      - `http://vocab.nerc.ac.uk/collection/L06/current/48/` (mooring)
+      - `http://vocab.nerc.ac.uk/collection/L06/current/27/` (sub-surface glider)
+
+  platformTypeName:
+    title: "Platform Type Name"
+    description: |
+      A human-readable name for the platform type.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:category
+    comments: |
+      For example: `research vessel`, `mooring`, `autonomous underwater vehicle`,
+      `surface buoy`, `fixed coastal station`
+
+  platformIdentifierType:
+    title: "Primary Identifier Type"
+    description: |
+      The type of the primary identifier used for this platform.
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:additionalProperty
+    comments: |
+      For vessels, common identifier types include:
+      - `IMO` (International Maritime Organization number)
+      - `MMSI` (Maritime Mobile Service Identity)
+      - `ICES` (ICES Ship Code)
+      - `Call Sign`
+      - `NODC` (NODC Code)
+      
+      For other platforms, use appropriate identifier schemes.
+
+  operatorOrganizationMboId:
+    title: "Operator Organization (mPID)"
+    description: |
+      The MBO identifier of the organization that operates this platform.
+    required: false
+    multivalued: false
+    range: Organization
+    slot_uri: schema:operator
+    comments: |
+      An mPID from the first column of Organization.csv
+
+  # ----- Shared slots for external metadata linking -----
+
+  subjectOfDocumentMboIds:
+    title: "Described By Documents (mPIDs)"
+    description: |
+      Documents containing detailed metadata about this entity, such as 
+      manufacturer specifications, SensorML files, or calibration records.
+    required: false
+    multivalued: true
+    range: Document
+    slot_uri: schema:subjectOf
+    comments: |
+      mPID(s) from the first column of Document.csv
+      Pipe-delimited when there are multiple values
+      
+      Use this to link to detailed metadata documents that go beyond 
+      what the core fields can express.
+
+  instrumentMboIds:
+    title: "Instruments Used (mPIDs)"
+    description: |
+      The MBO identifiers for instruments (sensors) used in this HowToStep.
+    required: false
+    multivalued: true
+    range: Instrument
+    slot_uri: schema:instrument
+    comments: |
+      mPID(s) from the first column of Instrument.csv
+      Pipe-delimited when there are multiple values
+      
+      Note: In schema.org, `instrument` is defined as "the object that helped 
+      the agent perform the action" - this aligns with scientific instrument usage.

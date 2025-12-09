@@ -81,6 +81,7 @@ classes:
       - childStepMboIds
       - howToImplementTipMboIds
       - audienceMboIds
+      - instrumentMboIds
       - url
 
   HowToTip:
@@ -515,3 +516,63 @@ classes:
       - url
       - version
       - landingPage
+      
+  Instrument:
+    description: |
+      A scientific instrument or sensor used in data collection.
+      
+      Note: Some scientists prefer the term "sensor" - use `alternateName` to 
+      advertise this synonym. The instrument type should be linked to the 
+      NERC SeaVoX Device Catalogue (L22) vocabulary.
+      
+      See: https://vocab.nerc.ac.uk/collection/L22/current/
+    class_uri: schema:Thing
+    slots:
+      - id
+      - metadataPublisherId
+      - metadataDescribedForActionId
+      - name
+      - alternateName                    # Use for "sensor" synonym
+      - description
+      - identifiers                      # Local instrument IDs
+      - instrumentTypeId                 # NERC L22 vocabulary URI
+      - instrumentTypeName               # Human-readable type name
+      - instrumentManufacturer           # Manufacturer name
+      - instrumentModel                  # Model designation
+      - instrumentSerialNumber           # Serial number if known
+      - mountedOnPlatformMboId           # Reference to Platform
+      - ownerId
+      - maintainerId
+      - url
+      - subjectOfDocumentMboIds           # Link to detailed metadata documents
+      - keywords
+
+  Platform:
+    description: |
+      A platform on which instruments are mounted, such as a research vessel,
+      mooring, buoy, autonomous vehicle, or fixed station.
+      
+      Following ODIS patterns, this uses schema:Vehicle which covers devices
+      designed to transport people or cargo over land, water, air, or space.
+      The platform type should be linked to the NERC Platform Categories (L06) vocabulary.
+      
+      See: 
+        - https://vocab.nerc.ac.uk/collection/L06/current/
+        - https://vocab.nerc.ac.uk/collection/C17/current/ (for vessel instances)
+    class_uri: schema:Vehicle
+    slots:
+      - id
+      - metadataPublisherId
+      - metadataDescribedForActionId
+      - name
+      - alternateName
+      - description
+      - identifiers                      # IMO, ICES Shipcode, MMSI, Call Sign, etc.
+      - platformTypeId                   # NERC L06 vocabulary URI
+      - platformTypeName                 # Human-readable type name
+      - platformIdentifierType           # Type of the primary identifier (IMO, MMSI, etc.)
+      - operatorOrganizationMboId        # Who operates this platform
+      - ownerId
+      - url
+      - subjectOfDocumentMboIds           # Link to detailed metadata documents
+      - keywords
