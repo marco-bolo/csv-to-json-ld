@@ -5,12 +5,17 @@ on:
   #  branches:
   #    - main
   #pull_request:
+  workflow_run:
+    workflows: ["Sync Google Sheet to CSV"]  # Must match the `name:` field of your first workflow
+    types:
+      - completed
 
 permissions:
   contents: write
   
 jobs:
   validate-csvws-build-jsonld:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
