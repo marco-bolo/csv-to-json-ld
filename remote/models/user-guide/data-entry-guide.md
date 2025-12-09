@@ -312,8 +312,8 @@ Once core records exist:
 
 ## After Data Entry
 
-Your data is automatically synchronized with the processing system nightly. The WP1 team monitors data validation and will contact you if any issues need resolution.
+Your data is automatically synchronized with the processing system nightly, via [this workflow](https://github.com/marco-bolo/csv-to-json-ld/blob/main/.github/workflows/sync_google_sheets.yaml). Another workflow ([link](https://github.com/marco-bolo/csv-to-json-ld/blob/main/.github/workflows/build-jsonld.yaml)) validates and transforms the synced CSVs to schema.org-specific JSON-LD according to the LinkML model. You can view the resulting JSON files at: https://lab.marcobolo-project.eu/csv-to-json-ld/schema-jsonld/. Logs from the process are attached to the GitHub Actions in the repo (for [example](https://github.com/marco-bolo/csv-to-json-ld/actions/runs/19683057969/job/56381636330)).
 
-Validated data becomes part of the MARCO-BOLO metadata catalog and is made discoverable through international research platforms, beginning with ODIS.
+The WP1 team monitors data validation and will contact you if any issues need resolution. Validated data becomes part of the MARCO-BOLO metadata catalog and is made discoverable through international research platforms, beginning with ODIS.
 
 ---
