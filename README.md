@@ -3,8 +3,10 @@
 ## To add your metadata to the CSVs via a browser
 * Go to the [editing dashboard](https://docs.google.com/spreadsheets/d/1PBFK3LW3DAdvXdbk2v8bSdtTf87mBhabeeegwRjOBRg/edit?usp=drive_link)
 * Edit the files
-* Send an email to WP1 to ask them to run a validation on your additions
-* They will then pass on to you any validation errors
+* Your data is automatically synchronized with the processing system nightly
+* You can view the resulting JSON files at: https://lab.marcobolo-project.eu/csv-to-json-ld/schema-jsonld/.
+* Logs from the process are attached to the GitHub Actions, WP1  monitors data validation and will contact you if any issues need resolution.
+* Validated data becomes part of the MARCO-BOLO metadata catalog andw will be made discoverable through international research platforms, beginning with ODIS.
 
 ## To add your metadata and validate via the command line
 That is, to pull the CSVs, edit them via your favourite CSV app, push them back, and then run validation, all from the command line. 
