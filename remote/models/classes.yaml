@@ -81,7 +81,8 @@ classes:
       - childStepMboIds
       - howToImplementTipMboIds
       - audienceMboIds
-      - instrumentMboIds
+      - usePlatformMboIds
+      - useInstrumentMboIds
       - url
 
   HowToTip:
