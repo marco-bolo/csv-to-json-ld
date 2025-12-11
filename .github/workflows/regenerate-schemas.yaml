@@ -2,11 +2,12 @@ name: Regenerate CSVW Schemas
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'remote/models/classes.yaml'
       - 'remote/models/slots.yaml'
       - 'remote/models/literals.yaml'
-
 permissions:
   contents: write
 
