@@ -1691,19 +1691,36 @@ slots:
       Use this to link to detailed metadata documents that go beyond 
       what the core fields can express.
 
-  instrumentMboIds:
+  # For use in HowToStep
+
+  useInstrumentMboIds:
     title: "Instruments Used (mPIDs)"
     description: |
-      The MBO identifiers for instruments (sensors) used in this HowToStep.
+      The MBO identifiers for instruments (sensors) used in this methodology step.
     required: false
     multivalued: true
     range: Instrument
-    slot_uri: schema:instrument
+    inlined: false
+    slot_uri: schema:mentions
     comments: |
       mPID(s) from the first column of Instrument.csv
       Pipe-delimited when there are multiple values
       
-      Note: In schema.org, `instrument` is defined as "the object that helped 
-      the agent perform the action" - this aligns with scientific instrument usage.
+      Links this methodology step to the specific instruments used.
+      For example, a water sampling step might reference a CTD and Niskin bottles.
 
-  
+  usePlatformMboIds:
+    title: "Platforms Used (mPIDs)"
+    description: |
+      The MBO identifiers for platforms used in this methodology step.
+    required: false
+    multivalued: true
+    range: Platform
+    inlined: false
+    slot_uri: schema:mentions
+    comments: |
+      mPID(s) from the first column of Platform.csv
+      Pipe-delimited when there are multiple values
+      
+      Links this methodology step to the platforms involved.
+      For example, a transect survey step might reference a research vessel or AUV.
