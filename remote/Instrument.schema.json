@@ -73,31 +73,18 @@
             }
         },
         {
-            "name": "positionInParent",
+            "name": "alternateName",
             "titles": {
                 "en": [
-                    "Position in Parent*"
-                ]
-            },
-            "required": true,
-            "propertyUrl": "https://schema.org/position",
-            "datatype": {
-                "base": "int"
-            }
-        },
-        {
-            "name": "abstract",
-            "titles": {
-                "en": [
-                    "Abstract"
+                    "Alternate Name"
                 ]
             },
             "dc:description": {
                 "en": [
-                    "A brief summary that captures the essence of this entity in ~ 1-5 sentences. \nThink of this as what would appear in search results or catalog listings,\nit should quickly convey the main purpose or key points without technical details."
+                    "A less commonly used name for the same entity. \nFor example: \n`DASSH` for MBA\n`ICES Survey Protocol` for Manual for the International Bottom Trawl Surveys"
                 ]
             },
-            "propertyUrl": "https://schema.org/abstract",
+            "propertyUrl": "https://schema.org/alternateName",
             "datatype": {
                 "base": "string"
             }
@@ -120,29 +107,126 @@
             }
         },
         {
-            "name": "contributorIds",
+            "name": "identifiers",
             "titles": {
                 "en": [
-                    "Contributors (mPIDs)"
+                    "Identifiers"
                 ]
             },
             "dc:description": {
                 "en": [
-                    "Should be an mPID from the first column of either Person.csv or Organization.csv\nPipe-delimited when there are multiple values."
+                    "Can include any kind on non-MBO identifiers like ROR, ORCID, DOI, ISBNs, IGSN, UUIDs, etc."
                 ]
             },
-            "propertyUrl": "https://schema.org/contributor",
+            "propertyUrl": "https://schema.org/identifier",
             "separator": "|",
             "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
                 "base": "string"
             }
         },
         {
-            "name": "providerId",
+            "name": "instrumentTypeId",
             "titles": {
                 "en": [
-                    "Provider (mPID)"
+                    "Instrument Type (URL PID)"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "Should be a URI from a controlled vocabulary.\n\nPrimary source: NERC L22 SeaVoX Device Catalogue\nhttps://vocab.nerc.ac.uk/collection/L22/current/\n\nExample: `http://vocab.nerc.ac.uk/collection/L22/current/TOOL0058/` \n(Sea-Bird SBE 911plus CTD)\n\nYou can search for instruments at:\nhttps://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/L22/"
+                ]
+            },
+            "propertyUrl": "https://schema.org/additionalType",
+            "valueUrl": "{+instrumentTypeId}"
+        },
+        {
+            "name": "instrumentTypeName",
+            "titles": {
+                "en": [
+                    "Instrument Type Name"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "For example: `CTD`, `fluorometer`, `acoustic Doppler current profiler`\n\nThis provides a searchable text field complementing the vocabulary URI."
+                ]
+            },
+            "propertyUrl": "https://schema.org/category",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "instrumentManufacturer",
+            "titles": {
+                "en": [
+                    "Manufacturer"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "For example: `Sea-Bird Scientific`, `Teledyne RD Instruments`, `WET Labs`"
+                ]
+            },
+            "propertyUrl": "https://schema.org/manufacturer",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "instrumentModel",
+            "titles": {
+                "en": [
+                    "Model"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "For example: `SBE 911plus`, `Workhorse Sentinel ADCP`, `ECO-FLNTU`"
+                ]
+            },
+            "propertyUrl": "https://schema.org/model",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "instrumentSerialNumber",
+            "titles": {
+                "en": [
+                    "Serial Number"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "The manufacturer-assigned serial number for this specific unit."
+                ]
+            },
+            "propertyUrl": "https://schema.org/serialNumber",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "mountedOnPlatformMboId",
+            "titles": {
+                "en": [
+                    "Mounted On Platform (mPID)"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "An mPID from the first column of Platform.csv\n\nFor example, if the instrument is mounted on a research vessel,\nreference the vessel's Platform record here."
+                ]
+            },
+            "propertyUrl": "https://schema.org/isPartOf",
+            "valueUrl": "https://w3id.org/marco-bolo/{+mountedOnPlatformMboId}"
+        },
+        {
+            "name": "ownerId",
+            "titles": {
+                "en": [
+                    "Owner (mPID)"
                 ]
             },
             "dc:description": {
@@ -150,169 +234,23 @@
                     "Should be an mPID from the first column of either Person.csv or Organization.csv"
                 ]
             },
-            "propertyUrl": "https://schema.org/provider",
-            "valueUrl": "https://w3id.org/marco-bolo/{+providerId}"
+            "propertyUrl": "https://schema.org/copyrightHolder",
+            "valueUrl": "https://w3id.org/marco-bolo/{+ownerId}"
         },
         {
-            "name": "citeSourceCodeMboIds",
+            "name": "maintainerId",
             "titles": {
                 "en": [
-                    "Source Code Citations (mPIDs)"
-                ]
-            },
-            "propertyUrl": "https://schema.org/citation",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "citeSoftwareApplicationMboIds",
-            "titles": {
-                "en": [
-                    "Software Application Citations (mPIDs)"
+                    "Maintainer (mPID)"
                 ]
             },
             "dc:description": {
                 "en": [
-                    "mPID(s) from the first column of SoftwareApplication.csv\nPipe-delimited when there are multiple values"
+                    "Should be an mPID from the first column of either Person.csv or Organization.csv"
                 ]
             },
-            "propertyUrl": "https://schema.org/citation",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "citeServiceMboIds",
-            "titles": {
-                "en": [
-                    "Service Citations (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "mPID(s) from the first column of Service.csv\nPipe-delimited when there are multiple values"
-                ]
-            },
-            "propertyUrl": "https://schema.org/citation",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "citeDocumentMboIds",
-            "titles": {
-                "en": [
-                    "Document Citations (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "mPID(s) from the first column of Document.csv\nPipe-delimited when there are multiple values"
-                ]
-            },
-            "propertyUrl": "https://schema.org/citation",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "childStepMboIds",
-            "titles": {
-                "en": [
-                    "Child Steps (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "mPID(s) from the first column of HowToStep.csv\nPipe-delimited when there are multiple values"
-                ]
-            },
-            "propertyUrl": "https://schema.org/itemListElement",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "howToImplementTipMboIds",
-            "titles": {
-                "en": [
-                    "Implementation Tips (mPIDs)"
-                ]
-            },
-            "propertyUrl": "https://schema.org/usageInfo",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "audienceMboIds",
-            "titles": {
-                "en": [
-                    "Audiences (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "Should be an mPID from the first column of Audience.csv"
-                ]
-            },
-            "propertyUrl": "https://schema.org/audience",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "usePlatformMboIds",
-            "titles": {
-                "en": [
-                    "Platforms Used (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "mPID(s) from the first column of Platform.csv\nPipe-delimited when there are multiple values\n\nLinks this methodology step to the platforms involved.\nFor example, a transect survey step might reference a research vessel or AUV."
-                ]
-            },
-            "propertyUrl": "https://schema.org/mentions",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
-        },
-        {
-            "name": "useInstrumentMboIds",
-            "titles": {
-                "en": [
-                    "Instruments Used (mPIDs)"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "mPID(s) from the first column of Instrument.csv\nPipe-delimited when there are multiple values\n\nLinks this methodology step to the specific instruments used.\nFor example, a water sampling step might reference a CTD and Niskin bottles."
-                ]
-            },
-            "propertyUrl": "https://schema.org/mentions",
-            "separator": "|",
-            "datatype": {
-                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
-                "base": "string"
-            }
+            "propertyUrl": "https://schema.org/maintainer",
+            "valueUrl": "https://w3id.org/marco-bolo/{+maintainerId}"
         },
         {
             "name": "url",
@@ -333,9 +271,46 @@
             }
         },
         {
+            "name": "subjectOfDocumentMboIds",
+            "titles": {
+                "en": [
+                    "Described By Documents (mPIDs)"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "mPID(s) from the first column of Document.csv\nPipe-delimited when there are multiple values\n\nUse this to link to detailed metadata documents that go beyond \nwhat the core fields can express."
+                ]
+            },
+            "propertyUrl": "https://schema.org/subjectOf",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
+            "name": "keywords",
+            "titles": {
+                "en": [
+                    "Keywords"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "Separate multiple keyword with a '|'.\ne.g. Whales|Population Genetics"
+                ]
+            },
+            "propertyUrl": "https://schema.org/keywords",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
-            "valueUrl": "https://schema.org/HowToStep"
+            "valueUrl": "https://schema.org/Thing"
         },
         {
             "virtual": true,
@@ -359,7 +334,7 @@
             "virtual": true,
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000014#row={_row}"
+            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000028#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

@@ -59,7 +59,7 @@
         {
             "url": "../data/SoftwareApplication.csv",
             "tableSchema": "SoftwareApplication.schema.json",
-            "suppressOutput": false
+            "suppressOutput": true
         },
         {
             "url": "../data/Service.csv",
@@ -114,7 +114,7 @@
         {
             "url": "../data/Platform.csv",
             "tableSchema": "Platform.schema.json",
-            "suppressOutput": true
+            "suppressOutput": false
         },
         {
             "url": "../out/validation/person-or-organization.csv",

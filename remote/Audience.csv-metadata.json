@@ -102,6 +102,21 @@
             "suppressOutput": false
         },
         {
+            "url": "../data/Document.csv",
+            "tableSchema": "Document.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Instrument.csv",
+            "tableSchema": "Instrument.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Platform.csv",
+            "tableSchema": "Platform.schema.json",
+            "suppressOutput": true
+        },
+        {
             "url": "../out/validation/person-or-organization.csv",
             "tableSchema": "unioned-identifiers.schema.json",
             "suppressOutput": true
