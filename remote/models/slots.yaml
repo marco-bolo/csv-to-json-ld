@@ -1351,7 +1351,7 @@ slots:
     title: "Identifier"
     subproperty_of: identifier
     description: |
-      An identifier for this specific taxon.
+      An identifier for this specific taxon. Preferably as a CURIE (e.g. `worms:146419`, `col:CS5HF`) or URI (`https://www.checklistbank.org/dataset/3LR/taxon/CS5HF`)
     required: false
     multivalued: false
     range: string
@@ -1705,3 +1705,5 @@ slots:
       
       Note: In schema.org, `instrument` is defined as "the object that helped 
       the agent perform the action" - this aligns with scientific instrument usage.
+
+  
