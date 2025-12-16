@@ -8,6 +8,10 @@
 * Logs from the process are attached to the GitHub Actions, WP1  monitors data validation and will contact you if any issues need resolution.
 * Validated data becomes part of the MARCO-BOLO metadata catalog andw will be made discoverable through international research platforms, beginning with ODIS.
 
+# Stand-alone Use
+
+This tool was originally designed to be used by independent users to generate JSON-LD that could then be published where they deemed appropriate. MARCO-BOLO is not following that workflow; the instructions below remain for future users who might want to take a different approach.
+
 ## To add your metadata and validate via the command line
 That is, to pull the CSVs, edit them via your favourite CSV app, push them back, and then run validation, all from the command line. 
 
