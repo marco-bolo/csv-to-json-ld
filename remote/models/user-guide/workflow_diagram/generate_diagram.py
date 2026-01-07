@@ -17,7 +17,9 @@ from dataclasses import dataclass
 class EntityInfo:
     name: str
     slots: List[str]
+    slot_titles: Dict[str, str]  # Map of slot name to title
     color: str
+    group_number: int = None  # Group number for fill-out order
     in_subgraph: str = None
 
 @dataclass
@@ -32,15 +34,82 @@ def load_yaml(filepath: Path) -> dict:
     with open(filepath, 'r') as f:
         return yaml.safe_load(f)
 
+def load_slot_titles(schema_path: Path) -> Dict[str, str]:
+    """Load slot definitions and extract titles."""
+    # Try to find slots.yaml in the same directory as the schema
+    slots_path = schema_path.parent / 'slots.yaml'
+    
+    if not slots_path.exists():
+        # Return empty dict if slots file not found
+        return {}
+    
+    slots_data = load_yaml(slots_path)
+    slots = slots_data.get('slots', {})
+    
+    # Map slot names to titles
+    slot_titles = {}
+    for slot_name, slot_def in slots.items():
+        title = slot_def.get('title', slot_name)
+        slot_titles[slot_name] = title
+    
+    return slot_titles
+
+def resolve_inherited_slots(class_name: str, classes: dict, visited: Set[str] = None) -> List[str]:
+    """Recursively resolve slots including inherited ones from parent classes."""
+    if visited is None:
+        visited = set()
+    
+    # Prevent infinite recursion
+    if class_name in visited:
+        return []
+    visited.add(class_name)
+    
+    if class_name not in classes:
+        return []
+    
+    class_def = classes[class_name]
+    
+    # Start with directly defined slots
+    slots = list(class_def.get('slots', []))
+    
+    # Add inherited slots from parent class (is_a)
+    parent = class_def.get('is_a')
+    if parent:
+        parent_slots = resolve_inherited_slots(parent, classes, visited)
+        # Add parent slots that aren't already in the list (preserve order)
+        for slot in parent_slots:
+            if slot not in slots:
+                slots.append(slot)
+    
+    # Add inherited slots from mixins
+    mixins = class_def.get('mixins', [])
+    for mixin in mixins:
+        mixin_slots = resolve_inherited_slots(mixin, classes, visited)
+        for slot in mixin_slots:
+            if slot not in slots:
+                slots.append(slot)
+    
+    return slots
+
 def parse_linkml_schema(schema_path: Path, config: dict) -> Tuple[Dict[str, EntityInfo], List[Relationship]]:
     """Parse LinkML schema and extract entities and relationships."""
     schema = load_yaml(schema_path)
     classes = schema.get('classes', {})
     
+    # Load slot titles
+    slot_titles = load_slot_titles(schema_path)
+    
     # Get entity type classifications from config
     mandatory = set(config['entity_types']['mandatory'])
     optional = set(config['entity_types']['optional'])
     conditional = set(config['entity_types']['conditional'])
+    
+    # Get entity group numbers from config
+    entity_group_map = {}
+    if 'entity_groups' in config:
+        for group_num, entity_list in config['entity_groups'].items():
+            for entity_name in entity_list:
+                entity_group_map[entity_name] = int(group_num)
     
     # Get subgraph memberships
     subgraph_map = {}
@@ -64,8 +133,8 @@ def parse_linkml_schema(schema_path: Path, config: dict) -> Tuple[Dict[str, Enti
         else:
             color = config['colors']['conditional']
         
-        # Get slots
-        slots = class_def.get('slots', [])
+        # Get slots including inherited ones
+        slots = resolve_inherited_slots(class_name, classes)
         
         # Filter out excluded fields if configured
         if config['field_display']['show_all_fields']:
@@ -75,7 +144,9 @@ def parse_linkml_schema(schema_path: Path, config: dict) -> Tuple[Dict[str, Enti
         entities[class_name] = EntityInfo(
             name=class_name,
             slots=slots,
+            slot_titles=slot_titles,
             color=color,
+            group_number=entity_group_map.get(class_name),
             in_subgraph=subgraph_map.get(class_name)
         )
     
@@ -279,18 +350,25 @@ def generate_svg_entity(entity: EntityInfo, x: int, y: int, config: dict) -> str
     fields = entity.slots[:max_fields] if max_fields > 0 else entity.slots
     height = header_height + 10 + len(fields) * field_height + 10
     
+    # Add group number to entity name if available
+    entity_display_name = entity.name
+    if entity.group_number is not None:
+        entity_display_name = f"{entity.group_number}. {entity.name}"
+    
     svg = f'''
     <g class="entity" transform="translate({x}, {y})">
         <rect width="{width}" height="{height}" fill="{entity.color}" 
               stroke="#333" stroke-width="2" rx="3"/>
-        <text class="entity-header" x="10" y="20">{entity.name}</text>
+        <text class="entity-header" x="10" y="20">{entity_display_name}</text>
         <line x1="0" y1="{header_height}" x2="{width}" y2="{header_height}" 
               stroke="#333" stroke-width="1"/>
     '''
     
     for i, field in enumerate(fields):
         y_pos = header_height + 15 + i * field_height
-        svg += f'    <text class="entity-field" x="10" y="{y_pos}">{field}</text>\n'
+        # Use title if available, otherwise use the slot name
+        field_display = entity.slot_titles.get(field, field)
+        svg += f'    <text class="entity-field" x="10" y="{y_pos}">{field_display}</text>\n'
     
     svg += '    </g>\n'
     return svg

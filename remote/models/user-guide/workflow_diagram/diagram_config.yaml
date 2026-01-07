@@ -1,5 +1,39 @@
 # diagram_config.yaml - Configuration for MBO metadata structure diagram generation
 
+# Entity group numbers (for user guidance on fill-out order)
+entity_groups:
+  1:
+    - Action
+    - HowTo
+    - HowToTip
+    - HowToStep
+    - Service
+    - SoftwareSourceCode
+    - SoftwareApplication
+    - PublishingStatusDefinedTerm
+    - DefinedTerm
+    - Instrument
+    - Platform
+  2:
+    - Organization
+    - Person
+    - MonetaryGrant
+    - ContactPoint
+  3:
+    - Place
+    - GeoShape
+  4:
+    - License
+  5:
+    - Dataset
+    - DataDownload
+    - PropertyValue
+    - EmbargoStatement
+    - Audience
+    - Taxon
+    - DatasetComment
+    - Document
+
 # Color scheme for entity types
 colors:
   mandatory: "#fff9c4"      # Light yellow
@@ -37,11 +71,15 @@ entity_types:
     - Taxon
     - EmbargoStatement
     - Document
+    - Instrument
+    - Platform
 
 # Hierarchical levels for layout (top to bottom flow)
 entity_levels:
   1:
     - HowToTip
+    - Instrument
+    - Platform
     - Service
   2:
     - Action  
@@ -124,6 +162,18 @@ relationships:
       label: ""
     - source: HowToTip
       target: HowToStep
+      label: ""
+    - source: Instrument
+      target: HowToStep
+      label: ""
+    - source: Platform
+      target: HowToStep
+      label: ""
+    - source: Instrument
+      target: Platform
+      label: ""
+    - source: Platform
+      target: "@People & Organizations Group"
       label: ""
     - source: HowToStep
       target: HowTo
@@ -253,7 +303,7 @@ layout_zones:
 
 # Visual preferences
 styling:
-  entity_width: 220
+  entity_width: 260
   entity_header_height: 25
   field_height: 15
   stroke_width: 2
