@@ -76,7 +76,7 @@
             "name": "taxonScientificName",
             "titles": {
                 "en": [
-                    "Scientific Name*"
+                    "Scientific Name"
                 ]
             },
             "dc:description": {
@@ -84,7 +84,6 @@
                     "When forming part of a dwc:Identification, \nthis should be the name in lowest level taxonomic rank that can be determined. This term should not contain \nidentification qualifications (e.g. 'cf.'), which should instead be supplied in the dwc:identificationQualifier term."
                 ]
             },
-            "required": true,
             "propertyUrl": "https://schema.org/value",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#ScientificName",
             "datatype": {
@@ -95,10 +94,9 @@
             "name": "taxonKingdom",
             "titles": {
                 "en": [
-                    "Kingdom*"
+                    "Kingdom"
                 ]
             },
-            "required": true,
             "propertyUrl": "https://schema.org/value",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Kingdom",
             "datatype": {
@@ -174,10 +172,9 @@
             "name": "taxonomicStatus",
             "titles": {
                 "en": [
-                    "Status*"
+                    "Status"
                 ]
             },
-            "required": true,
             "propertyUrl": "https://schema.org/value",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#Status",
             "datatype": {
@@ -188,10 +185,9 @@
             "name": "taxonVerbatimTaxonRank",
             "titles": {
                 "en": [
-                    "Verbatim Taxon Rank*"
+                    "Verbatim Taxon Rank"
                 ]
             },
-            "required": true,
             "propertyUrl": "https://schema.org/value",
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#VerbatimTaxonRank",
             "datatype": {
