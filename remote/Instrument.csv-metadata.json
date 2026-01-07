@@ -59,7 +59,7 @@
         {
             "url": "../data/SoftwareApplication.csv",
             "tableSchema": "SoftwareApplication.schema.json",
-            "suppressOutput": false
+            "suppressOutput": true
         },
         {
             "url": "../data/Service.csv",
@@ -109,7 +109,7 @@
         {
             "url": "../data/Instrument.csv",
             "tableSchema": "Instrument.schema.json",
-            "suppressOutput": true
+            "suppressOutput": false
         },
         {
             "url": "../data/Platform.csv",

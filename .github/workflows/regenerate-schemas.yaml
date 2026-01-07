@@ -2,11 +2,12 @@ name: Regenerate CSVW Schemas
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'remote/models/classes.yaml'
       - 'remote/models/slots.yaml'
       - 'remote/models/literals.yaml'
-
 permissions:
   contents: write
 
@@ -16,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
         
       - name: Generate CSVW schemas using Docker
         run: |

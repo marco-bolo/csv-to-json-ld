@@ -24,11 +24,13 @@ nav:
       - HowTo: HowTo.md
       - HowToStep: HowToStep.md
       - HowToTip: HowToTip.md
+      - Instrument: Instrument.md
       - License: License.md
       - MonetaryGrant: MonetaryGrant.md
       - Organization: Organization.md
       - Person: Person.md
       - Place: Place.md
+      - Platform: Platform.md
       - PropertyValue: PropertyValue.md
       - PublishingStatusDefinedTerm: PublishingStatusDefinedTerm.md
       - Service: Service.md
