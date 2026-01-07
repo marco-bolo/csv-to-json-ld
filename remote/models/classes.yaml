@@ -464,6 +464,22 @@ classes:
                           schema:propertyID dwc:taxonomicStatus.
         <#VerbatimTaxonRank> a schema:PropertyValue;
                           schema:propertyID dwc:verbatimTaxonRank.
+    rules:
+      - preconditions:
+          slot_conditions:
+            taxonScientificName:
+              required: true
+        postconditions:
+          slot_conditions:
+            taxonIdentifier:
+              required: true
+            taxonomicStatus:
+              required: true
+            taxonVerbatimTaxonRank:
+              required: true
+            taxonKingdom:
+              required: true
+        description: "If scientific name is provided, identifier, status, and rank are required"
   Audience:
     class_uri: schema:Audience
     description: |
