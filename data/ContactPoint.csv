@@ -1,8 +1,83 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,ContactPoint Purpose*,Name*,Email,Telephone (+00),Available Languages (en),Description
-mbo_todo_contact_point_mbo_email,mbo_roblinksdata,mbo_db_task_1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,
-mbo_todo_contact_point_mbo_nick,mbo_roblinksdata,mbo_db_task_1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC
-mbo_todo_contact_point_mbo_giulia,mbo_roblinksdata,mbo_db_task_1_1,Project Management,Giulia Vecchi,giulia.vecchi@embrc.eu,,en,EMBRC-ERIC
-mbo_todo_contact_point_mbo_mathilde,mbo_roblinksdata,mbo_db_task_1_1,Project Communications,Mathilde Vidal,mathilde@erinn.eu,,en,ERINN Innovation
-mbo_todo_contact_point_mbo_dan,mbo_jwarwickdugdale,mbo_task_jwd_test,Project Management,Dan Lear,dble@mba.ac.uk,,en,Head of data and information
-mbo_contact_sformel,mbo_sformel,mbo_db_tool_population,CSV-to-JSON-LD management,Stephen Formel,steve@formeldataservices.com,,en|es,Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.
+mbo_contact_email,mbo_roblinksdata,mbo_wp1_t1_1,General enquiries,Contact MARCO-BOLO,info@marcobolo-project.eu,,en,General contact for MARCO-BOLO
+mbo_contact_nick,mbo_roblinksdata,mbo_wp1_t1_1,Project Coordination,Nicholas Pade,nicolas.pade@embrc.eu,,en,EMBRC-ERIC
+mbo_contact_giulia,mbo_roblinksdata,mbo_wp1_t1_1,Project Management,Giulia Vecchi,giulia.vecchi@embrc.eu,,en,EMBRC-ERIC
+mbo_contact_mathilde,mbo_roblinksdata,mbo_wp1_t1_1,Project Communications,Mathilde Vidal,mathilde@erinn.eu,,en,ERINN Innovation
+mbo_contact_dan,mbo_jwarwickdugdale,mbo_task_jwd_test,Project Management,Dan Lear,dble@mba.ac.uk,,en,Head of data and information
+mbo_contact_sformel,mbo_sformel,mbo_db_tool_population,CSV-to-JSON-LD tool management,Stephen Formel,steve@thedatapatch.com,,en|es,Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.
 mbo_contact_kexter,mbo_58464,mbo_db_tool_population,FAIR data management,Katrina Exter,katrina.exter@vliz.be,,en|nl,FAIR data manager 
+mbo_contact_wp1_d1_1,mbo_sformel,mbo_wp1_d1_1,Deliverable 1.1 Contact,Dan Lear,dble@mba.ac.uk,,en,"Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)"
+mbo_contact_wp1_d1_2,mbo_sformel,mbo_wp1_d1_2,Deliverable 1.2 Contact,Dan Lear,dble@mba.ac.uk,,en,"Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange"
+mbo_contact_wp1_d1_3,mbo_sformel,mbo_wp1_d1_3,Deliverable 1.3 Contact,Dan Lear,dble@mba.ac.uk,,en,"Final report, gap analysis, and demonstrators of digital exchange"
+mbo_contact_wp1_t1_1,mbo_sformel,mbo_wp1_t1_1,Task 1.1 Contact,Dan Lear,dble@mba.ac.uk,,en,Coordinate and advance standardised and quality-controlled data flows into regional and international long-term archives
+mbo_contact_wp1_t1_2,mbo_sformel,mbo_wp1_t1_2,Task 1.2 Contact,Dan Lear,dble@mba.ac.uk,,en,Establish endorsed Essential Variable Data delivery
+mbo_contact_wp1_t1_3,mbo_sformel,mbo_wp1_t1_3,Task 1.3 Contact,Dan Lear,dble@mba.ac.uk,,en,Establish robust data flows into European biodiversity monitoring systems
+mbo_contact_wp1_t1_4,mbo_sformel,mbo_wp1_t1_4,Task 1.4 Contact,Dan Lear,dble@mba.ac.uk,,en,"Digital synthesis, gap analysis, and sustainability"
+mbo_contact_wp2_d2_1,mbo_sformel,mbo_wp2_d2_1,Deliverable 2.1 Contact,Iveta Matejusova,iveta.matejusova@gov.scot,,,Contact for D2.1 - Report on meta-analysis of the performance of eDNA-based approaches
+mbo_contact_wp2_d2_2,mbo_sformel,mbo_wp2_d2_2,Deliverable 2.2 Contact,Mads Reinholdt Jensen,mads.jensen@uit.no,,,Contact for D2.2 - Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring
+mbo_contact_wp2_d2_3,mbo_sformel,mbo_wp2_d2_3,Deliverable 2.3 Contact,Michael Cunliffe,micnli@mba.ac.uk,,,Contact for D2.3 - Report on the congruence between traditional and eDNA-based biodiversity observations
+mbo_contact_wp2_d2_4,mbo_sformel,mbo_wp2_d2_4,Deliverable 2.4 Contact,Cris Bowler,cbowler@biologie.ens.fr,,,Contact for D2.4 - Report on the definition of eDNA-based EBVs
+mbo_contact_wp2_d2_5,mbo_sformel,mbo_wp2_d2_5,Deliverable 2.5 Contact,Fabrice Not,not@sb-roscoff.fr,,,Contact for D2.5 - Report on a framework of guidelines and protocols for eDNA-based biodiversity observations
+mbo_contact_wp2_t2_1,mbo_sformel,mbo_wp2_t2_1,Task 2.1 Contact,,,,,Meta-analysis of technical and practical aspects of current eDNA approaches
+mbo_contact_wp2_t2_2,mbo_sformel,mbo_wp2_t2_2,Task 2.2 Contact,,,,,"Tuning and integration of current resources and technologies for eDNA, PCR-based monitoring"
+mbo_contact_wp2_t2_3,mbo_sformel,mbo_wp2_t2_3,Task 2.3 Contact,,,,,Comparison of spatial and temporal eDNA-based vs. traditional observations
+mbo_contact_wp2_t2_4,mbo_sformel,mbo_wp2_t2_4,Task 2.4 Contact,,,,,"Defining eDNA-based variables for the EV, MSFD and WFD frameworks"
+mbo_contact_wp2_t2_5,mbo_sformel,mbo_wp2_t2_5,Task 2.5 Contact,,,,,Developing a framework of guidelines/protocols for eDNA-based biodiversity observations
+mbo_contact_wp3_d3_1,mbo_sformel,mbo_wp3_d3_1,Deliverable 3.1 Contact,Caterina Bergami,caterina.bergami@cnr.it,,,"Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools"
+mbo_contact_wp3_d3_2,mbo_sformel,mbo_wp3_d3_2,Deliverable 3.2 Contact,,,,,"Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools"
+mbo_contact_wp3_d3_3_1,mbo_sformel,mbo_wp3_d3_3,Deliverable 3.3 Contact,Lili Hufnagel,lili.hufnagel@ufz.de,,,Contact for D3.3 - Chains of effects and connectivity points and how these effects are reflected by biodiversity assessment results along the Land-River-Sea continuum
+mbo_contact_wp3_d3_3_2,mbo_sformel,mbo_wp3_d3_3,Deliverable 3.3 Contact,Norbert Kamjunke,norbert.kamjunke@ufz.de,,,Contact for D3.3 - Chains of effects and connectivity points and how these effects are reflected by biodiversity assessment results along the Land-River-Sea continuum
+mbo_contact_wp3_d3_3_3,mbo_sformel,mbo_wp3_d3_3,Deliverable 3.3 Contact,Markus Weitere,markus.weitere@ufz.de,,,Contact for D3.3 - Chains of effects and connectivity points and how these effects are reflected by biodiversity assessment results along the Land-River-Sea continuum
+mbo_contact_wp3_d3_4_1,mbo_sformel,mbo_wp3_d3_4,Deliverable 3.4 Contact,Mihai Adamescu,mihaicristian.adamescu@g.unibuc.ro,,,Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity
+mbo_contact_wp3_d3_4_2,mbo_sformel,mbo_wp3_d3_4,Deliverable 3.4 Contact,Mihai Adamescu,adacri@gmail.com,,,Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity
+mbo_contact_wp3_d3_4_3,mbo_sformel,mbo_wp3_d3_4,Deliverable 3.4 Contact,Georgia Arhire,georgia.lavinia@gmail.com,,,Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity
+mbo_contact_wp3_t3_1,mbo_sformel,mbo_wp3_t3_1,Task 3.1 Contact,,,,,"Meta-analysis of land and sea observation variables, protocols and tools"
+mbo_contact_wp3_t3_2,mbo_sformel,mbo_wp3_t3_2,Task 3.2 Contact,,,,,Testing biodiversity and environmental variables workflows using case studies
+mbo_contact_wp3_t3_3,mbo_sformel,mbo_wp3_t3_3,Task 3.3 Contact,,,,,Causal chain analysis in coupled land-river-sea systems
+mbo_contact_wp3_t3_4,mbo_sformel,mbo_wp3_t3_4,Task 3.4 Contact,,,,,Effects on conservation areas
+mbo_contact_wp3_t3_5,mbo_sformel,mbo_wp3_t3_5,Task 3.5 Contact,,,,,Roadmap for harmonising biodiversity observation
+mbo_contact_wp4_d4_1_1,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Julie Robidart,j.robidart@noc.ac.uk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
+mbo_contact_wp4_d4_1_2,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Sari Giering,s.giering@noc.ac.uk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
+mbo_contact_wp4_d4_1_3,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Fletcher Thompson,fletho@aqua.dtu.dk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
+mbo_contact_wp4_d4_1,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Carlota Muniz,carlota.muniz@vliz.be,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
+mbo_contact_wp4_d4_2,mbo_sformel,mbo_wp4_d4_2,Deliverable 4.2 Contact,Patrizio Mariani,pat@aqua.dtu.dk,,,Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions
+mbo_contact_wp4_d4_3,mbo_sformel,mbo_wp4_d4_3,Deliverable 4.3 Contact,Antonio Torralba Silgado,torralba@us.es,,,Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes
+mbo_contact_wp4_d4_4,mbo_sformel,mbo_wp4_d4_4,Deliverable 4.4 Contact,Carlota Muniz,carlota.muniz@vliz.be,,,"Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations"
+mbo_contact_wp4_d4_5,mbo_sformel,mbo_wp4_d4_5,Deliverable 4.5 Contact,,,,,Preliminary report on WP4 progress
+mbo_contact_wp4_t4_1,mbo_sformel,mbo_wp4_t4_1,Task 4.1 Contact,,,,,Autonomy for mapping biodiversity characteristics
+mbo_contact_wp4_t4_2,mbo_sformel,mbo_wp4_t4_2,Task 4.2 Contact,,,,,Pressures and biodiversity variables from remote sensing
+mbo_contact_wp4_t4_3,mbo_sformel,mbo_wp4_t4_3,Task 4.3 Contact,,,,,Networks of biodiversity sensors
+mbo_contact_wp4_t4_4,mbo_sformel,mbo_wp4_t4_4,Task 4.4 Contact,,,,,Multi-sensor biodiversity observations
+mbo_contact_wp5_d5_1,mbo_sformel,mbo_wp5_d5_1,Deliverable 5.1 Contact,Carlos Cano-Barbacil,Carlos.cano-barbacil@senckenberg.de,,,"Contact for D5.1 - Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling"
+mbo_contact_wp5_d5_2,mbo_sformel,mbo_wp5_d5_2,Deliverable 5.2 Contact,Hanneloor Heynderickx,hanneloor.heynderickx@vliz.be,,,Contact for D5.2 - Scientific document demonstrating the value of novel observation approaches for established biological indicators
+mbo_contact_wp5_d5_3,mbo_sformel,mbo_wp5_d5_3,Deliverable 5.3 Contact,Natalya Gallo,ngal@norceresearch.no,,,Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems
+mbo_contact_wp5_d5_4_1,mbo_sformel,mbo_wp5_d5_4,Deliverable 5.4 Contact,Richard Sanders,rsan@norceresearch.no,,,Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems
+mbo_contact_wp5_d5_4_2,mbo_sformel,mbo_wp5_d5_4,Deliverable 5.4 Contact,Matthias Obst,matthias.obst@marine.gu.se,,,Contact for D5.4 - Scientific document summarising the results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats
+mbo_contact_wp5_d5_5_1,mbo_sformel,mbo_wp5_d5_5,Deliverable 5.5 Contact,Cristina Huertas,cristina.huertas@lifewatch.eu,,,Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases
+mbo_contact_wp5_d5_5_2,mbo_sformel,mbo_wp5_d5_5,Deliverable 5.5 Contact,Christos Arvanitidis,ceo@lifewatch.eu,,,Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases
+mbo_contact_wp5_d5_6,mbo_sformel,mbo_wp5_d5_6,Deliverable 5.6 Contact,,,,,Online reproducible workflows and associated user manual for key analytical processes in the WP5 use cases
+mbo_contact_wp5_t5_1,mbo_sformel,mbo_wp5_t5_1,Task 5.1 Contact,,,,,Detection and analyses of biodiversity trends
+mbo_contact_wp5_t5_2,mbo_sformel,mbo_wp5_t5_2,Task 5.2 Contact,,,,,Application of integrative approaches on established biological indicators
+mbo_contact_wp5_t5_3,mbo_sformel,mbo_wp5_t5_3,Task 5.3 Contact,,,,,Spatial mapping of Blue Carbon benefits
+mbo_contact_wp5_t5_4,mbo_sformel,mbo_wp5_t5_4,Task 5.4 Contact,,,,,"Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches"
+mbo_contact_wp5_t5_5,mbo_sformel,mbo_wp5_t5_5,Task 5.5 Contact,,,,,Creation of reproducible analytical workflows and VRE deployment
+mbo_contact_wp6_d6_1,mbo_sformel,mbo_wp6_d6_1,Deliverable 6.1 Contact,,,,,Internal advisory document with stakeholder profiling information for the CoP
+mbo_contact_wp6_d6_2,mbo_sformel,mbo_wp6_d6_2,Deliverable 6.2 Contact,,,,,"Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan"
+mbo_contact_wp6_d6_3,mbo_sformel,mbo_wp6_d6_3,Deliverable 6.3 Contact,,,,,"Knowledge Transfer resources tailored for the policy, industry, civil society and data/research stakeholder communities"
+mbo_contact_wp6_d6_4,mbo_sformel,mbo_wp6_d6_4,Deliverable 6.4 Contact,,,,,"Report summarising Knowledge Transfer Activities (transfer plans per key result/knowledge output, resources developed, transfer activity, measurement of uptake and outcomes achieved)"
+mbo_contact_wp6_t6_1,mbo_sformel,mbo_wp6_t6_1,Task 6.1 Contact,,,,,Develop and Operationalise a CoP
+mbo_contact_wp6_t6_2,mbo_sformel,mbo_wp6_t6_2,Task 6.2 Contact,,,,,"Co-Design, Co-Creation and Stakeholder Consultation"
+mbo_contact_wp6_t6_3,mbo_sformel,mbo_wp6_t6_3,Task 6.3 Contact,,,,,"Knowledge transfer, capacity building and exploitation of MBO results"
+mbo_contact_wp7_d7_1,mbo_sformel,mbo_wp7_d7_1,Deliverable 7.1 Contact,,,,,Project Management Guide
+mbo_contact_wp7_d7_2,mbo_sformel,mbo_wp7_d7_2,Deliverable 7.2 Contact,,,,,Project Data Management Plan
+mbo_contact_wp7_d7_3,mbo_sformel,mbo_wp7_d7_3,Deliverable 7.3 Contact,,,,,The MBO Best Practices for Biodiversity Observation
+mbo_contact_wp7_d7_4,mbo_sformel,mbo_wp7_d7_4,Deliverable 7.4 Contact,,,,,"Plan for Dissemination, Exploitation and Communication Activities"
+mbo_contact_wp7_d7_5,mbo_sformel,mbo_wp7_d7_5,Deliverable 7.5 Contact,,,,,Portfolio of tools and activities to promote MBO
+mbo_contact_wp7_d7_6,mbo_sformel,mbo_wp7_d7_6,Deliverable 7.6 Contact,,,,,"Joint action report – Report on the joint actions, communication & exploitation products and activities, targeting end-users of common interest, and update of D7.4"
+mbo_contact_wp7_d7_7,mbo_sformel,mbo_wp7_d7_7,Deliverable 7.7 Contact,,,,,Project Data Management Plan Update 1
+mbo_contact_wp7_d7_8,mbo_sformel,mbo_wp7_d7_8,Deliverable 7.8 Contact,,,,,Project Data Management Plan update 2
+mbo_contact_wp7_d7_9,mbo_sformel,mbo_wp7_d7_9,Deliverable 7.9 Contact,,,,,Ethics report on environmental issues
+mbo_contact_wp7_t7_1,mbo_sformel,mbo_wp7_t7_1,Task 7.1 Contact,,,,,Project Management
+mbo_contact_wp7_t7_2,mbo_sformel,mbo_wp7_t7_2,Task 7.2 Contact,,,,,Communication & Dissemination
+mbo_contact_wp7_t7_3,mbo_sformel,mbo_wp7_t7_3,Task 7.3 Contact,,,,,Citizen Engagement and Public Outreach
+mbo_contact_wp7_t7_4,mbo_sformel,mbo_wp7_t7_4,Task 7.4 Contact,,,,,Clustering activities with marine biodiversity projects and coordinating activities
