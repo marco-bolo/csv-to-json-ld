@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp6_d6_4",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 6.4 Contact",
+  "description": "Report summarising Knowledge Transfer Activities (transfer plans per key result/knowledge output, resources developed, transfer activity, measurement of uptake and outcomes achieved)",
+  "name": "TBD"
+}

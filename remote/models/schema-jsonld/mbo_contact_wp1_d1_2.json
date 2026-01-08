@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp1_d1_2",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Deliverable 1.2 Contact",
+  "description": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

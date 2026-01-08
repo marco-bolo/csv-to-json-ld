@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp2_d2_4",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 2.4 Contact",
+  "description": "Contact for D2.4 - Report on the definition of eDNA-based EBVs",
+  "email": "cbowler@biologie.ens.fr",
+  "name": "Cris Bowler"
+}

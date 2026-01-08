@@ -5,9 +5,36 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_emodnet",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "conditionsOfAccess": "open access",
   "description": "Marine observation database containing 2,012 time series (291 birds, 413 fish, 1,154 invertebrates, 14 macroalgae, 116 phytoplankton, 24 zooplankton)",
   "name": "WP5 D5.1 Query: European Marine Observation and Data Network (EMODnet)",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://emodnet.ec.europa.eu/en"
+  },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

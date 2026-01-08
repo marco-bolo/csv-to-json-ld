@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata",
+  "@reverse": {
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders"
+    }
+  },
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders",
+    "@type": "CreateAction",
+    "result": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata#csv",
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders"
+        },
+        "schema:contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=10"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_lilihufnagel"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata#jsonld",
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders"
+        },
+        "schema:contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": "2026-01-08",
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  },
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d1a9060e674b030581f5b8ab526376ec4b040646",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_lilihufnagel"
+  },
+  "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata#csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders-input-metadata#jsonld"
+    }
+  ]
+}

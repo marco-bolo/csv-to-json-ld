@@ -12,6 +12,15 @@
   "name": "MARCO BOLO Task 5.5",
   "participant": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_eric"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_24333"
     },
     {
@@ -19,15 +28,6 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_ugot"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_eric"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
     }
   ]
 }

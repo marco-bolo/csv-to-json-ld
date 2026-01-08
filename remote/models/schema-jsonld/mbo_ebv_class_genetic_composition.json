@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ebv_class_genetic_composition",
+  "@type": "PropertyValue",
+  "description": "Essential Biodiversity Variable class covering genetic diversity and differentiation within and among populations.",
+  "name": "Genetic Composition"
+}

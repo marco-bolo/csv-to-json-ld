@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_email",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "General enquiries",
+  "description": "General contact for MARCO-BOLO",
+  "email": "info@marcobolo-project.eu",
+  "name": "Contact MARCO-BOLO"
+}

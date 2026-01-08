@@ -11,7 +11,11 @@
   "funding": {
     "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe"
   },
-  "identifier": "https://ror.org/00k4n6c32, https://www.wikidata.org/wiki/Q8880, https://isni.org/isni/0000000404559054",
+  "identifier": [
+    "https://ror.org/00k4n6c32",
+    "https://isni.org/isni/0000000404559054",
+    "https://www.wikidata.org/wiki/Q8880"
+  ],
   "keywords": "European Union, EU institutions, research funding, Horizon Europe, policy making, innovation, public administration",
   "legalName": "European Commission",
   "name": "European Commission",

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp3_d3_2",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 3.2 Contact",
+  "description": "Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+  "name": "TBD"
+}

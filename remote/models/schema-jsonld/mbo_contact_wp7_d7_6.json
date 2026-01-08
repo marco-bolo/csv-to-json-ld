@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp7_d7_6",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.6 Contact",
+  "description": "Joint action report – Report on the joint actions, communication & exploitation products and activities, targeting end-users of common interest, and update of D7.4",
+  "name": "TBD"
+}

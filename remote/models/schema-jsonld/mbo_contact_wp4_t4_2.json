@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp4_t4_2",
+  "@type": "ContactPoint",
+  "contactType": "Task 4.2 Contact",
+  "description": "Pressures and biodiversity variables from remote sensing",
+  "name": "TBD"
+}

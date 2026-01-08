@@ -5,9 +5,24 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_copepod",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "conditionsOfAccess": "open access",
   "description": "Time series database, 0 time series met inclusion criteria",
   "name": "WP5 D5.1 Query: COPEPOD",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.st.nmfs.noaa.gov/copepod/"
+  },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

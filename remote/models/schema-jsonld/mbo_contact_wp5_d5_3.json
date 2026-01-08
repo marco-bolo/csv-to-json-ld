@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp5_d5_3",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.3 Contact",
+  "description": "Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
+  "email": "ngal@norceresearch.no",
+  "name": "Natalya Gallo"
+}

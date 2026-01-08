@@ -5,9 +5,27 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_cpr",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "conditionsOfAccess": "open access",
   "description": "Continuous Plankton Recorder Survey database containing 52 time series (26 phytoplankton, 26 zooplankton)",
   "name": "WP5 D5.1 Query: CPR Survey",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.cprsurvey.org/"
+  },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

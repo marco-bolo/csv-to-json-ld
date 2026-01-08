@@ -5,9 +5,27 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_pilotto",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "conditionsOfAccess": "open access",
   "description": "Study analyzing multidecadal biodiversity trends, containing 12 time series (2 birds, 1 fish, 8 invertebrates, 1 macroalgae)",
   "name": "WP5 D5.1 Query: Pilotto et al. 2020",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.1038/s41467-020-17171-y"
+  },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

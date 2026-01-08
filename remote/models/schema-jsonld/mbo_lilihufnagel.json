@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_lilihufnagel",
+  "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_ufz"
+  },
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_contact_wp3_t3_3"
+  },
+  "familyName": "Hufnagel",
+  "givenName": "Lili",
+  "identifier": "https://orcid.org/0009-0008-7905-3100",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_org_ufz"
+  }
+}

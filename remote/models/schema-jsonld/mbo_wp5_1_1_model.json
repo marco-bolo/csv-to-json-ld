@@ -5,6 +5,29 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_model",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_aperedoarce"
+  },
   "creativeWorkStatus": {
     "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
   },

@@ -12,27 +12,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_general_research_institutions"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_39481"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_gduspara"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_claguionie"
+      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
+      "@id": "https://w3id.org/marco-bolo/mbo_39481"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_claguionie"
     }
   ],
   "availableLanguage": "en",
@@ -61,11 +61,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/, https://cordis.europa.eu/project/id/101082021/fr"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2023/06/MARCO-BOLO__D7.1_PMG_v1.0_31.05.23.pdf"
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2023/06/MARCO-BOLO__D7.1_PMG_v1.0_31.05.23.pdf"
+      "@value": "https://marcobolo-project.eu/, https://cordis.europa.eu/project/id/101082021/fr"
     }
   ],
   "version": "1"

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp5_d5_1",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.1 Contact",
+  "description": "Contact for D5.1 - Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling",
+  "email": "Carlos.cano-barbacil@senckenberg.de",
+  "name": "Carlos Cano-Barbacil"
+}

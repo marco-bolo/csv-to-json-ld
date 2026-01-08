@@ -5,6 +5,34 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_biotic",
   "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_aperedoarce"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+    }
+  ],
   "creativeWorkStatus": {
     "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
   },

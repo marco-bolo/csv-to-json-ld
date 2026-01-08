@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_t3_3_dataproviders",
+  "@type": "CreateAction",
+  "abstract": "Filliing in the organisation information for all data providers of task 3.3",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_lilihufnagel"
+  },
+  "name": "MARCO-BOLO Deliverable 3.3"
+}

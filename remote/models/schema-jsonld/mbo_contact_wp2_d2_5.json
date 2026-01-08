@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp2_d2_5",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 2.5 Contact",
+  "description": "Contact for D2.5 - Report on a framework of guidelines and protocols for eDNA-based biodiversity observations",
+  "email": "not@sb-roscoff.fr",
+  "name": "Fabrice Not"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp4_d4_4",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.4 Contact",
+  "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
+  "email": "carlota.muniz@vliz.be",
+  "name": "Carlota Muniz"
+}

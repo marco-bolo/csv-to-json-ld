@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ebv_class_ecosystem_functioning",
+  "@type": "PropertyValue",
+  "description": "Essential Biodiversity Variable class covering primary productivity, phenology and disturbance regimes of ecosystems.",
+  "name": "Ecosystem Functioning"
+}

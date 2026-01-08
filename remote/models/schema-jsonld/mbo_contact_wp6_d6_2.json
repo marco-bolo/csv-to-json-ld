@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp6_d6_2",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 6.2 Contact",
+  "description": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+  "name": "TBD"
+}

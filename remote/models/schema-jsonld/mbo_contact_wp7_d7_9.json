@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp7_d7_9",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.9 Contact",
+  "description": "Ethics report on environmental issues",
+  "name": "TBD"
+}

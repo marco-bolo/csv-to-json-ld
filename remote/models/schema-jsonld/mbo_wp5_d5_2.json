@@ -12,10 +12,10 @@
   "name": "MARCO-BOLO Deliverable 5.2",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
     }
   ]
 }

@@ -5,9 +5,19 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_fishglob",
   "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "conditionsOfAccess": "open access",
   "description": "Fish database containing 5 time series",
   "name": "WP5 D5.1 Query: FishGlob",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://fishglob.sites.ucsc.edu/"
+  },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"
   }

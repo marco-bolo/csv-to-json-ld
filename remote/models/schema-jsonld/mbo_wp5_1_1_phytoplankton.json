@@ -5,9 +5,16 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_phytoplankton",
   "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
+  },
   "creativeWorkStatus": {
     "@id": "https://w3id.org/marco-bolo/mbo_pub_status_incomplete"
   },
+  "description": "Data from: mbo_wp5_1_1_biotime mbo_wp5_1_1_copepod mbo_wp5_1_1_emodnet mbo_wp5_1_1_rephy mbo_wp5_1_1_cpr",
   "name": "WP5 D5.1: European Coastal and Marine Phytoplankton Time Series Dataset",
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_propval_placeholder"

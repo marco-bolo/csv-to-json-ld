@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp5_d5_5_1",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.5 Contact",
+  "description": "Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases",
+  "email": "cristina.huertas@lifewatch.eu",
+  "name": "Cristina Huertas"
+}

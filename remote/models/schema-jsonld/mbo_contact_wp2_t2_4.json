@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp2_t2_4",
+  "@type": "ContactPoint",
+  "contactType": "Task 2.4 Contact",
+  "description": "Defining eDNA-based variables for the EV, MSFD and WFD frameworks",
+  "name": "TBD"
+}

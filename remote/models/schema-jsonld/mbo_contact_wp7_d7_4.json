@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp7_d7_4",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.4 Contact",
+  "description": "Plan for Dissemination, Exploitation and Communication Activities",
+  "name": "TBD"
+}

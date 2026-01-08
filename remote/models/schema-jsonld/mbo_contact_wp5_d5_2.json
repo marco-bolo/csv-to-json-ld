@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_contact_wp5_d5_2",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.2 Contact",
+  "description": "Contact for D5.2 - Scientific document demonstrating the value of novel observation approaches for established biological indicators",
+  "email": "hanneloor.heynderickx@vliz.be",
+  "name": "Hanneloor Heynderickx"
+}
