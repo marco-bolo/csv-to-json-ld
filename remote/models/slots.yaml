@@ -278,33 +278,6 @@ slots:
       More specific technical description
       Often includes instrument settings, protocols, or analytical steps
       Examples: "CTD rosette deployment to 1000m depth with 2-minute sampling intervals"
-
-  value:
-    title: "Value"
-    required: false
-    multivalued: false
-    description: |
-      The single value observed.
-    range: decimal
-    slot_uri: schema:value
-
-  minValue:
-    title: "Min Value"
-    required: false
-    multivalued: false
-    description: |
-      The minimum value observed.
-    range: decimal
-    slot_uri: schema:minValue
- 
-  maxValue:
-    title: "Max Value"
-    required: false
-    multivalued: false
-    description: |
-      The maximum value observed.
-    range: decimal
-    slot_uri: schema:maxValue
  
   unitId:
     title: "Units (URL PIDs)"
