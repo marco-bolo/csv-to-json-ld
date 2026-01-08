@@ -139,42 +139,6 @@
             }
         },
         {
-            "name": "value",
-            "titles": {
-                "en": [
-                    "Value"
-                ]
-            },
-            "propertyUrl": "https://schema.org/value",
-            "datatype": {
-                "base": "decimal"
-            }
-        },
-        {
-            "name": "minValue",
-            "titles": {
-                "en": [
-                    "Min Value"
-                ]
-            },
-            "propertyUrl": "https://schema.org/minValue",
-            "datatype": {
-                "base": "decimal"
-            }
-        },
-        {
-            "name": "maxValue",
-            "titles": {
-                "en": [
-                    "Max Value"
-                ]
-            },
-            "propertyUrl": "https://schema.org/maxValue",
-            "datatype": {
-                "base": "decimal"
-            }
-        },
-        {
             "name": "unitId",
             "titles": {
                 "en": [
