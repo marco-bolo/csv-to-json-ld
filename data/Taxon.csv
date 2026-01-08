@@ -1,4 +1,4 @@
-MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Scientific Name*,Kingdom*,Phylum,Order,Family,Genus,Specific Epithet,Status*,Verbatim Taxon Rank*,Identifier,Life Science Identifier (PID)
+MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Scientific Name,Kingdom,Phylum,Order,Family,Genus,Specific Epithet,Status,Verbatim Taxon Rank,Identifier,Life Science Identifier (PID)
 mbo_taxon_animalia,mbo_sformel,mbo_db_tool_population,Animals,Animalia,Animalia,,,,,,accepted,kingdom,worms:2,urn:lsid:marinespecies.org:taxname:2
 mbo_taxon_plants,mbo_sformel,mbo_db_tool_population,Plants,Plantae,Plantae,,,,,,accepted,kingdom,worms:3,urn:lsid:marinespecies.org:taxname:3
 mbo_taxon_vertebrata,mbo_sformel,mbo_db_tool_population,Vertebrates,Vertebrata,Animalia,,,,,,accepted,subphylum,worms:146419,urn:lsid:marinespecies.org:taxname:146419
