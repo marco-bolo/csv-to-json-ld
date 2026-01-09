@@ -6,8 +6,8 @@
   "@id": "https://w3id.org/marco-bolo/mbo_contact_kexter",
   "@type": "ContactPoint",
   "availableLanguage": [
-    "en",
-    "nl"
+    "nl",
+    "en"
   ],
   "contactType": "FAIR data management",
   "description": "FAIR data manager",

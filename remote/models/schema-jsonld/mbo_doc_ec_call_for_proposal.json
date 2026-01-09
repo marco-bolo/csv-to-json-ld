@@ -15,10 +15,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
+      "@id": "https://w3id.org/marco-bolo/mbo_general_research_institutions"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_general_research_institutions"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
     }
   ],
   "author": {
@@ -51,11 +51,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01, https://cordis.europa.eu/programme/id/HORIZON_HORIZON-CL6-2022-BIODIV-01-01"
+      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
     },
     {
       "@type": "URL",
-      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
+      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01, https://cordis.europa.eu/programme/id/HORIZON_HORIZON-CL6-2022-BIODIV-01-01"
     }
   ],
   "version": "2021-2022"

@@ -12,28 +12,28 @@
   "name": "MARCO BOLO Task 5.1",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58615"
+      "@id": "https://w3id.org/marco-bolo/mbo_szn"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_ccanobarbacil"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_org_dtu"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_szn"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58615"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
     }
   ]
 }

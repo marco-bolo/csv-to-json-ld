@@ -18,13 +18,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_cbowler"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_pciarlini_junger"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_org_dtu"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_ibens_cnrs"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_pciarlini_junger"
     }
   ]
 }

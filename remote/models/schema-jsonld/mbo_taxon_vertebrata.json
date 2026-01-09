@@ -5,50 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      },
-      "value": "subphylum"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Vertebrata"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Status",
       "@type": "PropertyValue",
       "propertyID": {
@@ -65,6 +21,20 @@
       "value": "Animalia"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
@@ -72,35 +42,65 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Vertebrata"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "subphylum"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata",
       "@type": "Taxon",
       "additionalProperty": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Kingdom"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Family"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#VerbatimTaxonRank"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Order"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Phylum"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#SpecificEpithet"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Family"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata#Kingdom"
         }
       ],
       "identifier": [

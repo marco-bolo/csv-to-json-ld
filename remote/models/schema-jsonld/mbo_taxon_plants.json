@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
@@ -13,64 +20,35 @@
       "value": "kingdom"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Plantae"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants",
       "@type": "Taxon",
       "additionalProperty": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#ScientificName"
-        },
-        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#VerbatimTaxonRank"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Order"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Genus"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Status"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#SpecificEpithet"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#ScientificName"
         }
       ],
       "identifier": [
@@ -82,6 +60,13 @@
       "name": "Plants"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Order",
       "@type": "PropertyValue",
       "propertyID": {
@@ -89,10 +74,26 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      },
+      "value": "accepted"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Plantae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       },
       "value": "Plantae"
     },
@@ -104,12 +105,11 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_plants#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
     }
   ]
 }

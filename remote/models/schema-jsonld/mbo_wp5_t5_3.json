@@ -12,13 +12,13 @@
   "name": "MARCO BOLO Task 5.3",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_norce"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_norce"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_23935"

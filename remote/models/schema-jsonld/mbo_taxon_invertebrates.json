@@ -12,10 +12,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     },
     {
@@ -26,25 +26,25 @@
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Phylum"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Kingdom"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#VerbatimTaxonRank"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order"
@@ -53,31 +53,17 @@
       "name": "Invertebrates"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
@@ -88,10 +74,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -99,6 +85,20 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     }
   ]

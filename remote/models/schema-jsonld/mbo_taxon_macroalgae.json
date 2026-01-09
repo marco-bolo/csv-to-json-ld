@@ -5,10 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -26,6 +26,13 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae",
       "@type": "Taxon",
       "additionalProperty": [
@@ -33,16 +40,10 @@
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Family"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#SpecificEpithet"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#VerbatimTaxonRank"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#VerbatimTaxonRank"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Order"
@@ -54,23 +55,22 @@
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#ScientificName"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Kingdom"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#SpecificEpithet"
         }
       ],
       "name": "Macroalgae"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -81,17 +81,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -99,6 +92,13 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_macroalgae#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     }
   ]
