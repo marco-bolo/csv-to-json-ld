@@ -12,16 +12,16 @@
   "name": "MARCO BOLO Task 5.4",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_eric"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ugot"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_mobst"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ugot"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_mobst"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_eric"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"

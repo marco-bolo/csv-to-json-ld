@@ -12,19 +12,19 @@
   "name": "MARCO BOLO Task 7.4",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ssbe"
+      "@id": "https://w3id.org/marco-bolo/mbo_23935"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_23935"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ciimar"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_embrc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ssbe"
     }
   ]
 }

@@ -5,10 +5,44 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order"
+        }
+      ],
+      "name": "Invertebrates"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -19,44 +53,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order"
-        }
-      ],
-      "name": "Invertebrates"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -67,17 +67,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     },
     {
@@ -88,10 +88,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_invertebrates#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {

@@ -12,10 +12,10 @@
   "name": "WP5 T5.1.1 Data Collection",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
+      "@id": "https://w3id.org/marco-bolo/mbo_24333"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
+      "@id": "https://w3id.org/marco-bolo/mbo_15571"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_geoecom"
@@ -24,22 +24,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_lifewatch_eric"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_15571"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ugot"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_vliz"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_szn"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_24333"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ugot"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_unesco"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
     }
   ]
 }

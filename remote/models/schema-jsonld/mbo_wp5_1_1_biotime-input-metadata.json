@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_biotime"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/02a7aae649ceb5f511b58904aaba4765b8d07748",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9c7e43f71f822bf0b9c765a2b813275179cc4274",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_sformel"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-01-09",
+      "dateModified": "2026-01-10",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_wp5_1_1_biotime-input-metadata"
       },

@@ -12,10 +12,10 @@
   "name": "MARCO BOLO Task 4.4",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
+      "@id": "https://w3id.org/marco-bolo/mbo_58452"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_noc"
@@ -24,7 +24,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_dtu"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58452"
+      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"

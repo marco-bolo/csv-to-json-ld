@@ -10,10 +10,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton"
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton"
     }
   ],
   "author": {
