@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_org_norce"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9c7e43f71f822bf0b9c765a2b813275179cc4274",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8a150518435403fa2d0cf0f1d106bcaf6e552e46",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_sformel"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-01-10",
+      "dateModified": "2026-01-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_org_norce-input-metadata"
       },

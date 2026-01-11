@@ -9,6 +9,9 @@
   "alternateName": "PMG",
   "audience": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
     },
     {
@@ -16,23 +19,20 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_general_research_institutions"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_39481"
+      "@id": "https://w3id.org/marco-bolo/mbo_claguionie"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
+      "@id": "https://w3id.org/marco-bolo/mbo_39481"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_gduspara"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_claguionie"
+      "@id": "https://w3id.org/marco-bolo/mbo_avasic"
     }
   ],
   "availableLanguage": "en",

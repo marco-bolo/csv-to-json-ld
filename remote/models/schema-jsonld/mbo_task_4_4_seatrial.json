@@ -13,21 +13,21 @@
   "name": "Multi-sensor biodiversity observations: sea trial",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58452"
+      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
+      "@id": "https://w3id.org/marco-bolo/mbo_58452"
     }
   ],
   "result": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_fpod"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_hydrophone"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_fpod"
     }
   ]
 }

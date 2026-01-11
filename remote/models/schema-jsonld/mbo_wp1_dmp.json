@@ -13,25 +13,25 @@
   "name": "WP1 D1.1 - Creation",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp2"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp6"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp2"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
     }
   ]
 }

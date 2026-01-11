@@ -15,10 +15,16 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_58615"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_org_hereon"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ufz"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ub"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
@@ -27,13 +33,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_geoecom"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ub"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_58615"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ufz"
     }
   ]
 }

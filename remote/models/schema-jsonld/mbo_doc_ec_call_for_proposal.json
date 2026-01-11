@@ -9,10 +9,10 @@
   "alternateName": "HORIZON-CL6-2022-BIODIV-01-01",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+      "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_eu_commission"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
