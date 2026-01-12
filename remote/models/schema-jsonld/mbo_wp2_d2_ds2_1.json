@@ -7,18 +7,18 @@
   "@type": "Dataset",
   "about": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota"
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_vertebrata"
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota"
     }
   ],
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_edna"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_edna"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
@@ -43,13 +43,13 @@
     "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_download1"
   },
   "keywords": [
-    "marine biodiversity",
-    "vertebrates",
     "Norway",
+    "eukaryotes",
+    "EMO BON",
     "metabarcoding",
     "eDNA",
-    "eukaryotes",
-    "EMO BON"
+    "vertebrates",
+    "marine biodiversity"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_license_ccby40",
   "maintainer": {

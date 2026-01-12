@@ -5,23 +5,30 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish",
       "@type": "Taxon",
       "additionalProperty": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Phylum"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Kingdom"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#SpecificEpithet"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Phylum"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Order"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#VerbatimTaxonRank"
@@ -33,7 +40,7 @@
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Genus"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Status"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Order"
         }
       ],
       "name": "Fish"
@@ -46,45 +53,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -95,10 +67,38 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#Genus",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_fish#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     }
   ]

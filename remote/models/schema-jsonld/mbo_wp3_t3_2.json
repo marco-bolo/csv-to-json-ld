@@ -12,19 +12,10 @@
   "name": "MARCO BOLO Task 3.2",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_aps"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_org_cnr"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_ub"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_hereon"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
@@ -33,10 +24,19 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_ukrsces"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_aps"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_hereon"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_geoecom"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_use"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_sgn"
     }
   ]
 }

@@ -21,10 +21,10 @@
   ],
   "result": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_hydrophone"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_hydrophone"
+      "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_echosounder"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_task_4_4_seatrial_fpod"

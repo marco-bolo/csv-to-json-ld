@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "725503750.0"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe",
       "@type": "MonetaryGrant",
       "amount": {
@@ -18,15 +27,6 @@
       "schema:url": {
         "@type": "URL",
         "@value": "https://doi.org/10.3030/101082021"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe#MonetaryAmount",
-      "@type": "MonetaryAmount",
-      "currency": "EUR",
-      "value": {
-        "@type": "xsd:decimal",
-        "@value": "725503750.0"
       }
     }
   ]

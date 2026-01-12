@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_license_eupl12"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8a150518435403fa2d0cf0f1d106bcaf6e552e46",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/0b8e140b7f00b9770b03e7df3f03b6f4a11168f1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_roblinksdata"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-01-11",
+      "dateModified": "2026-01-12",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_license_eupl12-input-metadata"
       },

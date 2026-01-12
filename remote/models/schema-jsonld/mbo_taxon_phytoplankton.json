@@ -12,54 +12,6 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#SpecificEpithet"
-        }
-      ],
-      "name": "Phytoplankton"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
@@ -67,10 +19,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     },
     {
@@ -81,10 +40,51 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Family"
+        }
+      ],
+      "name": "Phytoplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -95,10 +95,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_phytoplankton#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     }
   ]

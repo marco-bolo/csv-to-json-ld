@@ -14,18 +14,15 @@
       "@id": "https://w3id.org/marco-bolo/mbo_contact_nick"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_contact_mathilde"
+      "@id": "https://w3id.org/marco-bolo/mbo_contact_email"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_contact_email"
+      "@id": "https://w3id.org/marco-bolo/mbo_contact_mathilde"
     }
   ],
   "department": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp6"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp5"
@@ -34,13 +31,16 @@
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp2"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp1"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp7"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp3"
     }
   ],
   "description": "The future of ocean health restoration may require increased biodiversity observation capabilities to support EU biodiversity directives and global initiatives. In this context, the EU-funded MARCO-BOLO project will reinforce European coastal and marine biodiversity observation capabilities. It will connect them to global efforts to understand and restore ocean health. The project will explore end user needs to optimise marine data flows and knowledge adoption and improve biodiversity observation-based governance. MARCO-BOLO will develop and demonstrate new autonomous technology for biodiversity mapping and monitoring, and data streams from remote sensing, eDNA, robotics, and optical and acoustic observations. It will then incorporate the sequence of processes into operational Essential Ocean Variables and Essential Biodiversity Variables, including them in online reusable workflows.",
@@ -48,16 +48,16 @@
   "schema:foundingDate": "2022-12-01",
   "funding": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe"
+      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_noc"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mss"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_noc"
+      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba"
+      "@id": "https://w3id.org/marco-bolo/mbo_todo_monetary_grant_mbo_horizon_europe"
     }
   ],
   "keywords": "MARCO-BOLO",
