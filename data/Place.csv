@@ -33,4 +33,3 @@ mbo_place_task_4_4_fpod,mbo_58464,mbo_task_4_4_seatrial_fpod,Belgium EEZ Task 4.
 mbo_place_task_4_4_echosounder,mbo_58464,mbo_task_4_4_seatrial_echosounder,Belgium EEZ Task 4.4 echo-sounder,The location of the echo-sounder used in the Task 4.4 sea trial,51.40645,2.8185,mbo_point_task_4_4_echosounder
 mbo_place_task_4_4_hydrophone1,mbo_58464,mbo_task_4_4_seatrial_hydrophone,Belgium EEZ Task 4.4 hydrophone,The location of the hydrophone used in the Task 4.4 sea trial,51.40666667,2.819,mbo_shape_task_4_4_hydrophone
 mbo_place_task_4_4_hydrophone2,mbo_58464,mbo_task_4_4_seatrial_hydrophone,Belgium EEZ Task 4.4 hydrophone,The location of the hydrophone used in the Task 4.4 sea trial,51.40645,2.8185,mbo_shape_task_4_4_hydrophone
-,,, ,,,,
