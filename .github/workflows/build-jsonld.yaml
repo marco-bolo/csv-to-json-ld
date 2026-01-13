@@ -6,49 +6,97 @@ on:
   #    - main
   #pull_request:
   workflow_run:
-    workflows: ["Sync Google Sheet to CSV"]  # Must match the `name:` field of your first workflow
+    workflows: ["Sync Google Sheet to CSV"]
     types:
       - completed
 
 permissions:
   contents: write
-  
+  issues: write  # Added for creating issues
+
 jobs:
   validate-csvws-build-jsonld:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      # Fix timestamps - this is necessary for the differential build to know what's changed since last time.
+      
+      # Fix timestamps - necessary for differential build
       - name: restore timestamps
         uses: chetan/git-restore-mtime-action@v2
-
-      - name: Load previous outputs from cache for differential build.
+      
+      - name: Load previous outputs from cache for differential build
         uses: actions/cache@v4
         with:
           path: out/
           key: ${{ github.ref }}-8
-
+      
       - name: Initialise make
         run: make init
-        # It turns out that caching docker images doesn't save any real time.
-
+      
+      # NEW: Sync UUID Registry BEFORE validation and build
+      - name: Sync UUID Registry
+        id: sync_uuids
+        run: |
+          python3 scripts/sync_uuids.py --csv-pattern "data/*.csv" --registry-path "config/uuid_mapping.json"
+        continue-on-error: true  # Don't fail if missing IDs detected
+      
+      # NEW: Generate missing IDs report
+      - name: Generate Missing IDs Report
+        if: steps.sync_uuids.outputs.has_missing == 'true'
+        run: |
+          python3 scripts/generate_missing_ids_report.py
+          echo "TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
+          
+          # Read the report into environment variable for issue
+          REPORT_CONTENT=$(cat missing_ids_report.md)
+          echo "MISSING_IDS_REPORT<<EOF" >> $GITHUB_ENV
+          echo "$REPORT_CONTENT" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      
+      # NEW: Create or update GitHub issue for missing IDs
+      - name: Create/Update Missing IDs Issue
+        if: steps.sync_uuids.outputs.has_missing == 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "⚠️ Missing Identifiers Detected - ${{ github.run_id }}"
+          content-filepath: .github/ISSUE_TEMPLATE/missing-ids-template.md
+          labels: |
+            uuid-sync
+            needs-review
+          assignees: ${{ github.actor }}
+      
+      # NEW: Commit registry updates (new UUIDs only)
+      - name: Commit UUID Registry Updates
+        if: steps.sync_uuids.outputs.has_new == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add config/uuid_mapping.json
+          git add id_sync_report.json
+          
+          git commit -m "Add UUIDs for ${{ steps.sync_uuids.outputs.new_count }} new identifier(s)"
+          git push
+      
+      # Replace semantic IDs with UUIDs in CSVs
+      - name: Replace IDs with UUIDs in CSVs
+        run: python3 scripts/replace_ids_with_uuids.py --csv-dir data
+        
+      # Continue with existing validation and build steps
       - name: Validate CSV-Ws
         run: make validate
-
+      
       - name: Validate SHACL Constraints
         run: make shacl-report
-
+      
       - name: Build JSON-LD
-        # Doing a little bit of parallelisation here to speed everything up.
-        # This will result in incoherent log outputs which aren't suitable for debugging.
+        # The JSON-LD build now uses UUIDs from the registry
         run: make jsonld -j 2
-
+      
       - name: Commit JSON-LD outputs for MkDocs
         if: github.ref == 'refs/heads/main'
         run: |
