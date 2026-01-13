@@ -1,1 +1,4 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,How To Step (mPID)*,Description,Document Citations (mPIDs),URL
+mbo_t44_fpod_howto,mbo_58464,mbo_task_4_4_seatrial_fpod,T4.4 FPOD data capture,mbo_t44_fpod_howtostep,Data from FPOD turned into useful measurements,,
+mbo_t44_hydrophone_howto,mbo_58464,mbo_task_4_4_seatrial_hydrophone,T4.4 hydrophone data capture,mbo_t44_hydrophone_howtostep,Data from hydrophones turned into useful measurements,,
+mbo_t44_echosounder_howto,mbo_58464,mbo_task_4_4_seatrial_echosounder,T4.4 ecosounder data capture,mbo_t44_echosounder_howtostep,Data from echosounders turned into useful measurements,,
