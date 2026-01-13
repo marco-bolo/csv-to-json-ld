@@ -4,22 +4,18 @@ on:
   #push:
   #  branches:
   #    - main
-
 jobs:
   build-docs:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Install mkdocs
         run: | 
           sudo apt-get update
           sudo apt-get install -y mkdocs
-
       - name: Generate JSON-LD directory index
         working-directory: remote/models
         run: |
@@ -52,42 +48,43 @@ jobs:
               fi
             done
           fi
-
       - name: Build docs
         working-directory: remote/models
         run: |
           make clean init docker-pull
           make docs -j 2
           sudo chmod -R a+rX site
-
+      - name: Copy JSON-LD files as static assets
+        working-directory: remote/models
+        run: |
+          if [ -d schema-jsonld ]; then
+            echo "Copying JSON-LD files to site directory..."
+            mkdir -p site/schema-jsonld
+            cp schema-jsonld/*.json site/schema-jsonld/ 2>/dev/null || true
+            echo "JSON-LD files copied: $(ls -1 site/schema-jsonld/*.json 2>/dev/null | wc -l)"
+          fi
       - name: Set up Python for sitemap
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Generate sitemap
         run: python scripts/generate_sitemap.py
-
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
           path: remote/models/site/
-
   deploy-docs:
     needs: build-docs
-
     permissions:
       pages: write
       id-token: write
       contents: read
-
     # Deploy to the github-pages environment
     environment:
       # environment created automatically by GitHub
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
