@@ -728,10 +728,10 @@ slots:
 
   citeDocumentMboIds:
     title: "Document Citations (mPIDs)"
-    description: "The MBO identifiers for services used in this HowToStep."
+    description: "The MBO identifiers for documents used in this HowToStep."
     required: false
     multivalued: true
-    range: Service
+    range: Document
     slot_uri: schema:citation
     comments: |
       mPID(s) from the first column of Document.csv
