@@ -84,7 +84,7 @@ jobs:
       
       # Replace semantic IDs with UUIDs in CSVs
       - name: Replace IDs with UUIDs in CSVs
-        run: python3 scripts/replace_ids_with_uuids.py --csv-dir data
+        run: python3 scripts/replace_ids_with_uuids.py --csv-dir data --id-column "MBO Permanent Identifier*"
         
       # Continue with existing validation and build steps
       - name: Validate CSV-Ws
