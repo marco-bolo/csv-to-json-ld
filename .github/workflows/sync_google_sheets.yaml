@@ -64,8 +64,13 @@ jobs:
                 # Create DataFrame from raw strings  
                 df = pd.DataFrame(all_values[1:], columns=all_values[0])
                 
-                # Remove completely empty rows
-                df = df.replace('', pd.NA).dropna(how='all').fillna('')
+                # Remove rows where ALL cells are empty strings or whitespace
+                df = df[df.apply(lambda row: any(str(cell).strip() for cell in row), axis=1)]
+                
+                # Skip if no data rows remain after filtering
+                if df.empty:
+                    print(f"Skipping sheet '{name}' - no data rows after removing empty rows")
+                    continue
                 
                 path = f"${{ env.CSV_DIR }}/{name}.csv"
                 df.to_csv(path, index=False)
