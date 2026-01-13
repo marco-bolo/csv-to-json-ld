@@ -44,8 +44,8 @@ def save_registry(registry, path='config/uuid_mapping.json'):
 
 
 def generate_uuid():
-    """Generate a new UUID v4."""
-    return str(uuid.uuid4())
+    """Generate a new UUID v4 with mbo_ prefix."""
+    return f"mbo_{uuid.uuid4()}"
 
 
 def find_similar(target, candidates, threshold=0.75):
