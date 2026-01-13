@@ -180,10 +180,12 @@
     "d1bdfe83-cb7c-460c-a3a6-39486127d11e": "mbo_wp2_d2_ds2_download1"
   },
   "Dataset": {
+    "07f7df00-a111-4d72-9323-56ede23b7506": "mbo_t44_data_fpodraw",
     "0ff839bb-aeca-4ea2-ab60-b0c7a3967bb7": "mbo_wp5_1_1_fish",
     "1035b3b1-90d6-4db4-9b65-2bc01295434f": "mbo_wp2_d2_ds2_3",
     "144dda27-7b4a-4e4d-815c-287808ccc0d9": "mbo_wp5_1_1_pilotto",
     "1e755c27-d126-4286-a4b6-703902f42ef7": "mbo_wp2_d2_ds2_4",
+    "1fbbdf4f-15ad-40b9-b612-5c944d6759d1": "mbo_t44_data_hydrophoneraw",
     "202001b7-68fb-4c4b-9c64-1e087a96ae68": "mbo_wp2_d2_ds2_6",
     "25550ee3-b109-4258-999f-cc375ec7bed6": "mbo_wp2_d2_ds2_5",
     "2ac2fbe0-4fc1-487c-a1b7-158c4b6dadb0": "mbo_wp5_1_1_macroalgae",
@@ -196,6 +198,7 @@
     "7a32d217-6eb7-4db5-9f69-723985cef0d7": "mbo_wp5_1_1_emodnet",
     "80ca6ee4-4f49-4a00-9558-9de9792efe0b": "mbo_wp5_1_1_birds",
     "82651d35-66cc-43d3-a9d5-cd33a11a6eaa": "mbo_wp5_1_1_model",
+    "8d8912c8-d70a-4a52-b67a-8ea7a07612a4": "mbo_t44_data_echosounderraw",
     "8f24f837-2fe9-4f8c-9204-1a587dd1e406": "mbo_wp5_1_1_rephy",
     "90a8336d-06fa-4f4a-a499-98fb225ad28d": "mbo_wp5_1_1_phytoplankton",
     "9eba72f3-7cdc-4f5a-94ee-5af7d05f12cc": "mbo_marineregions",
@@ -253,10 +256,23 @@
     "fa8dc0a5-cd8e-4019-a60d-88f10de23c94": "mbo_shape_bb_pl",
     "feee9200-9cc2-4ece-b1fb-12264f543a45": "mbo_shape_bb_bg"
   },
-  "HowTo": {},
-  "HowToStep": {},
+  "HowTo": {
+    "0bcc0c6f-53fa-44c2-9f2d-af7aedfa9b0c": "mbo_t44_fpod_howto",
+    "12977592-a582-45d1-8335-44aeaab913bc": "mbo_t44_hydrophone_howto",
+    "239e07d1-0d8e-4612-8b55-a7bd3c1e36e8": "mbo_t44_echosounder_howto"
+  },
+  "HowToStep": {
+    "1bf29b48-b7a9-45e6-9ff6-4795464b5857": "mbo_t44_hydrophone_howtostep",
+    "81a8a94b-1c16-4d1d-8830-66be91e5fa60": "mbo_t44_echosounder_howtostep",
+    "833a7cf3-92fc-445e-b780-1bb8e238df93": "mbo_t44_fpod_howtostep"
+  },
   "HowToTip": {},
-  "Instrument": {},
+  "Instrument": {
+    "41fa02be-fd50-4454-ad47-bf4456c77e7c": "mbo_fpod_instrument",
+    "765e0e7c-7ff0-4982-8fba-516e4e2e1958": "mbo_echosounder_instrument",
+    "8ab4ff8f-3cbd-43be-b9f9-15ca268ae528": "mbo_hydrophone_instrument1",
+    "99a817ee-62c3-4ed5-9bcf-aae2b8185cc7": "mbo_hydrophone_instrument2"
+  },
   "License": {
     "668aae09-9ef7-43d1-a7dc-077457adf7c1": "mbo_license_eupl12",
     "8276898f-7432-40f9-9806-b484d089c937": "mbo_license_ccby40",
@@ -400,7 +416,9 @@
     "1c18959d-27d8-4607-b745-6ce4784b0181": "mbo_place_eez_mt",
     "1d2511c4-cc3b-4d3d-96c1-4c578325334f": "mbo_place_eez_dk",
     "24afe369-18ca-4425-97c8-b9b87df8df53": "mbo_place_emobon_bergen",
+    "25885afb-ecb3-49e4-aeee-f766f74b3b1f": "mbo_place_task_4_4_hydrophone2",
     "2a7ed982-671c-4361-8a55-a28a2d4c3317": "mbo_place_eez_lv",
+    "2c5efbc5-3a0e-4c7f-9879-e1b8f87df768": "mbo_place_task_4_4_hydrophone1",
     "3561678c-d2f4-483c-86a7-c33dda05b579": "mbo_place_eez_ro",
     "38861e4e-e8fe-4de3-ac0b-67d35614c685": "mbo_place_task_4_4_hydrophone",
     "3f339e98-191c-4e71-8032-a0a722b37129": "mbo_place_emobon_umf",
@@ -429,7 +447,9 @@
     "ef40b883-51a8-47ee-8736-c88904ea859c": "mbo_place_eez_de",
     "f8ac3337-5a6c-4df7-b627-203528836086": "mbo_place_eez_ee"
   },
-  "Platform": {},
+  "Platform": {
+    "cab2fad3-dc46-408b-8ad9-16a1368234f4": "mbo_seabedmooring"
+  },
   "PropertyValue": {
     "05e5a83f-0a3f-44ba-a421-848f7c79ab7e": "mbo_propval_eov_14",
     "0c3436b1-20f5-4172-b80d-a794b088b774": "mbo_propval_eov_5",
@@ -465,6 +485,7 @@
     "e04391f2-194f-4caf-834e-b3d6dfe9dafd": "mbo_propval_eov_21",
     "ef004ea4-beac-41ab-aca2-f5d731571b54": "mbo_propval_eov_22",
     "f1de3732-8354-4f60-8453-07bcc2c59ee0": "mbo_propval_eov_8",
+    "f887e167-d66d-4705-97cd-d88c4027aee8": "mbo_propval_biological_absentpresent",
     "fe51ec97-f88b-4fb8-bacf-7627eb0ee3c8": "mbo_propval_eov_26"
   },
   "PublishingStatusDefinedTerm": {
@@ -473,7 +494,10 @@
     "fe1ddd06-d1f4-4ef9-9394-444a9881c7e2": "mbo_pub_status_published"
   },
   "Service": {},
-  "SoftwareApplication": {},
+  "SoftwareApplication": {
+    "6118fe87-9c30-4f63-b4a1-deef0570f3f5": "mbo_t44_fpod_software",
+    "6af866a6-f1b1-4c9d-980a-0af3decbd409": "mbo_t44_echoview"
+  },
   "SoftwareSourceCode": {},
   "Taxon": {
     "05859f53-f5f2-4bc5-b8c6-139e54590ae9": "mbo_taxon_vertebrata",
