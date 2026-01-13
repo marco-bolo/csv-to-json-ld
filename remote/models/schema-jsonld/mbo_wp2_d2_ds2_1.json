@@ -15,21 +15,21 @@
   ],
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_audience_edna"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_audience_marinebiodiv"
+      "@id": "https://w3id.org/marco-bolo/mbo_audience_mbo"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58808"
+      "@id": "https://w3id.org/marco-bolo/mbo_madsrj"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_madsrj"
+      "@id": "https://w3id.org/marco-bolo/mbo_58808"
     }
   ],
   "copyrightHolder": {
@@ -43,13 +43,13 @@
     "@id": "https://w3id.org/marco-bolo/mbo_wp2_d2_ds2_download1"
   },
   "keywords": [
+    "marine biodiversity",
     "Norway",
-    "eukaryotes",
     "EMO BON",
-    "metabarcoding",
     "eDNA",
+    "eukaryotes",
     "vertebrates",
-    "marine biodiversity"
+    "metabarcoding"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_license_ccby40",
   "maintainer": {

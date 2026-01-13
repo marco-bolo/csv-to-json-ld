@@ -5,72 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#VerbatimTaxonRank"
-        }
-      ],
-      "name": "Zooplankton"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -81,10 +19,65 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Phylum"
+        }
+      ],
+      "name": "Zooplankton"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -95,10 +88,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_zooplankton#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     }
   ]

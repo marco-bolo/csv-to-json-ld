@@ -12,22 +12,22 @@
   "name": "MARCO BOLO Task 2.1",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ibens_cnrs"
+      "@id": "https://w3id.org/marco-bolo/mbo_org_uit"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_imatejusova"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_ms"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_org_uit"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mba"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_org_mbo_wp2"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ibens_cnrs"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_org_ms"
     }
   ]
 }

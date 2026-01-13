@@ -5,58 +5,51 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds",
       "@type": "Taxon",
       "additionalProperty": [
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#SpecificEpithet"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#ScientificName"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Genus"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Family"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Phylum"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Order"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Status"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Kingdom"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#SpecificEpithet"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Order"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Status"
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#ScientificName"
         }
       ],
       "name": "Birds"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
@@ -67,6 +60,27 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
@@ -74,17 +88,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -92,13 +99,6 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_birds#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     }
   ]

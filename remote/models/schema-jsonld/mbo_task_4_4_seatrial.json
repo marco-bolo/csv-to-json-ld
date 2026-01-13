@@ -13,10 +13,10 @@
   "name": "Multi-sensor biodiversity observations: sea trial",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
+      "@id": "https://w3id.org/marco-bolo/mbo_58452"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58452"
+      "@id": "https://w3id.org/marco-bolo/mbo_edebusschere"
     }
   ],
   "result": [

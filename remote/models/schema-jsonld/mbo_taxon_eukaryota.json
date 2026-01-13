@@ -12,12 +12,11 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Eukaryota"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#VerbatimTaxonRank",
@@ -28,46 +27,12 @@
       "value": "domain"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Order"
-        }
-      ],
-      "identifier": "col:CS5HF",
-      "name": "Eukaryota"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Eukaryota"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Genus",
@@ -90,6 +55,41 @@
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       },
       "value": "Undefined"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#Order"
+        }
+      ],
+      "identifier": "col:CS5HF",
+      "name": "Eukaryota"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_taxon_eukaryota#SpecificEpithet",

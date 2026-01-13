@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_pmariani"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/0b8e140b7f00b9770b03e7df3f03b6f4a11168f1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ab4a20eae0c4096c11da9326dd47724d2b511f8f",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_sformel"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-01-12",
+      "dateModified": "2026-01-13",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_pmariani-input-metadata"
       },
