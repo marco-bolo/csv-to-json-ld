@@ -1,0 +1,2231 @@
+{
+  "timestamp": "2026-01-13T18:43:17.234262",
+  "new_ids": [
+    {
+      "class": "GeoShape",
+      "uuid": "4a04a457-ec6a-4b36-beb0-d6bd485d3e77",
+      "semantic_id": "mbo_shape_bb_be"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "feee9200-9cc2-4ece-b1fb-12264f543a45",
+      "semantic_id": "mbo_shape_bb_bg"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "644a64c1-8b7b-4dd4-8d65-2b017ce43c72",
+      "semantic_id": "mbo_shape_bb_hr"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "7de52ec4-8fb4-4791-ad83-d03567f6366c",
+      "semantic_id": "mbo_shape_bb_cy"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "49fffef8-5eb7-4b6f-95a4-a69eb5cda79c",
+      "semantic_id": "mbo_shape_bb_dk"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "5b8647dc-03e7-4563-a490-fcc5a92ad736",
+      "semantic_id": "mbo_shape_bb_nl"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "3c3662d5-3e60-41b4-889e-f6fe4c442270",
+      "semantic_id": "mbo_shape_bb_ee"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "421d7ae2-904e-4afb-9e6b-0b1ea9dd380d",
+      "semantic_id": "mbo_shape_bb_fi"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "5503edd2-8cb8-4f7c-8ed6-556de33db80b",
+      "semantic_id": "mbo_shape_bb_fr"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "df4a3f48-3283-491f-80e9-b0f5ecf5b844",
+      "semantic_id": "mbo_shape_bb_de"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "0223e5a8-0520-4173-92b9-ed3843b77051",
+      "semantic_id": "mbo_shape_bb_gr"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "e2496b24-4264-4ebd-b3b5-fbca3aab77e8",
+      "semantic_id": "mbo_shape_bb_ie"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "f767ee2a-e486-450d-8905-7e4a95d4bcb7",
+      "semantic_id": "mbo_shape_bb_it"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "2cfae64d-beeb-4b9b-9349-cd92681756c9",
+      "semantic_id": "mbo_shape_bb_lv"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "7f3c4367-c515-4ee5-a90d-399c7b1ebefb",
+      "semantic_id": "mbo_shape_bb_lt"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "2f8e9a0e-033f-4ca8-875b-faa6fe0e1147",
+      "semantic_id": "mbo_shape_bb_mt"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "fa8dc0a5-cd8e-4019-a60d-88f10de23c94",
+      "semantic_id": "mbo_shape_bb_pl"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "62201753-f230-47ec-9c0e-5098287b39cf",
+      "semantic_id": "mbo_shape_bb_pt"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "580d9010-e735-4f5f-9b55-d4f0df9b7ad5",
+      "semantic_id": "mbo_shape_bb_ro"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "d91dadb7-637c-44c5-bac1-8721cd8caf3f",
+      "semantic_id": "mbo_shape_bb_si"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "48884644-d069-485f-9e05-3a768833b55d",
+      "semantic_id": "mbo_shape_bb_es"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "c4ea10b7-a72e-40cf-8cc2-bf35b749e812",
+      "semantic_id": "mbo_shape_bb_se"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "07a04620-49d1-426a-abd9-fe20bbacdb32",
+      "semantic_id": "mbo_shape_global"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "3796a0d2-8c2a-4adb-8680-5b9feb49ab0a",
+      "semantic_id": "mbo_shape_bb_no"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "63c60aa0-d7f7-46e0-a160-2afa58959d61",
+      "semantic_id": "mbo_point_task_4_4_fpod"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "19aa2dbe-efef-4c87-83fb-da4516a91eab",
+      "semantic_id": "mbo_point_task_4_4_echosounder"
+    },
+    {
+      "class": "GeoShape",
+      "uuid": "0ba43201-671b-4d23-b191-8b5acc410712",
+      "semantic_id": "mbo_shape_task_4_4_hydrophone"
+    },
+    {
+      "class": "Organization",
+      "uuid": "0b5acae2-5f7a-4843-abb9-7c3aae2af3cf",
+      "semantic_id": "mbo_org_aps"
+    },
+    {
+      "class": "Organization",
+      "uuid": "df4b79c3-e377-483f-8f0e-e14aae0a4ef5",
+      "semantic_id": "mbo_org_awi"
+    },
+    {
+      "class": "Organization",
+      "uuid": "d5273f5e-a23c-4c97-84d5-a1632429e86d",
+      "semantic_id": "mbo_org_ciimar"
+    },
+    {
+      "class": "Organization",
+      "uuid": "e10daa21-7769-4bbc-8517-f705e3d2dd3c",
+      "semantic_id": "mbo_org_cnr"
+    },
+    {
+      "class": "Organization",
+      "uuid": "ddf18946-611c-47f8-ae91-5016c8ac3369",
+      "semantic_id": "mbo_org_dtu"
+    },
+    {
+      "class": "Organization",
+      "uuid": "0f153cef-ef2c-45c5-8230-e4ff86ad1705",
+      "semantic_id": "mbo_org_embrc"
+    },
+    {
+      "class": "Organization",
+      "uuid": "3c603179-41fd-4ae0-bfac-03600a8cd824",
+      "semantic_id": "mbo_org_erinn"
+    },
+    {
+      "class": "Organization",
+      "uuid": "6fc39da6-0786-4c26-a3e4-2b367c0a4c47",
+      "semantic_id": "mbo_org_geoecom"
+    },
+    {
+      "class": "Organization",
+      "uuid": "e3198963-783b-4ba2-96fc-50c12623e6ce",
+      "semantic_id": "mbo_org_hereon"
+    },
+    {
+      "class": "Organization",
+      "uuid": "f4344ba0-737d-4db6-82ae-d136a3ea33ba",
+      "semantic_id": "mbo_org_horizon_europe"
+    },
+    {
+      "class": "Organization",
+      "uuid": "2423a1bf-3b2a-42a4-baeb-910d1be3fd6e",
+      "semantic_id": "mbo_org_ibens_cnrs"
+    },
+    {
+      "class": "Organization",
+      "uuid": "3387b311-0559-4777-9a18-cbe359017d89",
+      "semantic_id": "mbo_org_lifewatch_belgium"
+    },
+    {
+      "class": "Organization",
+      "uuid": "00ecfc45-8cae-4404-ba03-fe4ed81cf1fa",
+      "semantic_id": "mbo_org_lifewatch_eric"
+    },
+    {
+      "class": "Organization",
+      "uuid": "ce5a06d9-ffd0-4f80-85a8-7ecc9d1dea9e",
+      "semantic_id": "mbo_org_mbo"
+    },
+    {
+      "class": "Organization",
+      "uuid": "4d8de614-dcde-4995-af21-950f1ac966de",
+      "semantic_id": "mbo_org_mbo_wp1"
+    },
+    {
+      "class": "Organization",
+      "uuid": "a413b96d-df04-4ad3-89cb-6cbfa33b81d1",
+      "semantic_id": "mbo_org_mbo_wp2"
+    },
+    {
+      "class": "Organization",
+      "uuid": "56266b72-7d78-42ad-8616-8ae8a96c2df4",
+      "semantic_id": "mbo_org_mbo_wp3"
+    },
+    {
+      "class": "Organization",
+      "uuid": "83658c18-1d30-4202-9951-156e4e1eecae",
+      "semantic_id": "mbo_org_mbo_wp4"
+    },
+    {
+      "class": "Organization",
+      "uuid": "3bb507fe-7abe-4e1b-bb57-46b9b846443d",
+      "semantic_id": "mbo_org_mbo_wp5"
+    },
+    {
+      "class": "Organization",
+      "uuid": "8f626eb9-fcb3-4186-93b7-777dfafcaadc",
+      "semantic_id": "mbo_org_mbo_wp6"
+    },
+    {
+      "class": "Organization",
+      "uuid": "c91a9442-2f03-478b-b64d-4d9b90ce239d",
+      "semantic_id": "mbo_org_mbo_wp7"
+    },
+    {
+      "class": "Organization",
+      "uuid": "0ac57796-6134-4a49-bb62-64421e041f30",
+      "semantic_id": "mbo_org_mba"
+    },
+    {
+      "class": "Organization",
+      "uuid": "49f1b79d-4a84-404f-844d-328678947bb5",
+      "semantic_id": "mbo_org_ms"
+    },
+    {
+      "class": "Organization",
+      "uuid": "b5d37966-f8d2-4a50-867b-9645bba5085e",
+      "semantic_id": "mbo_org_noc"
+    },
+    {
+      "class": "Organization",
+      "uuid": "8197f9b1-585b-4f05-9a88-7bb0c5ef8913",
+      "semantic_id": "mbo_org_norce"
+    },
+    {
+      "class": "Organization",
+      "uuid": "92dc6df3-8313-481f-89cb-3bc71b6607ce",
+      "semantic_id": "mbo_org_obis"
+    },
+    {
+      "class": "Organization",
+      "uuid": "f2cdf861-e7cf-4465-bc28-b56a52939d39",
+      "semantic_id": "mbo_org_sgn"
+    },
+    {
+      "class": "Organization",
+      "uuid": "ca6df3ce-8937-439f-9f6f-1ca2e0567934",
+      "semantic_id": "mbo_org_ssbe"
+    },
+    {
+      "class": "Organization",
+      "uuid": "d4765bd3-0405-4791-a5fa-275b785a0ea0",
+      "semantic_id": "mbo_org_su"
+    },
+    {
+      "class": "Organization",
+      "uuid": "9d71ec8b-b999-412e-a3de-a7f08c65f294",
+      "semantic_id": "mbo_szn"
+    },
+    {
+      "class": "Organization",
+      "uuid": "f3e1d685-1734-4f6e-929d-c86ddc3a2ac5",
+      "semantic_id": "mbo_org_ub"
+    },
+    {
+      "class": "Organization",
+      "uuid": "366c5432-61c0-4da3-be95-3b95f21b5460",
+      "semantic_id": "mbo_org_ufz"
+    },
+    {
+      "class": "Organization",
+      "uuid": "e461f30e-919c-466d-be82-dc73c74b244a",
+      "semantic_id": "mbo_org_ugot"
+    },
+    {
+      "class": "Organization",
+      "uuid": "e8b0a494-4f9b-48b3-8535-a0a16e263290",
+      "semantic_id": "mbo_org_uit"
+    },
+    {
+      "class": "Organization",
+      "uuid": "928dcdfb-d49b-4ce0-b15c-70017a7e8a63",
+      "semantic_id": "mbo_org_uit_genetics"
+    },
+    {
+      "class": "Organization",
+      "uuid": "b6b9a98c-48ff-4970-8450-250266e38a96",
+      "semantic_id": "mbo_org_ukri"
+    },
+    {
+      "class": "Organization",
+      "uuid": "70ee4450-fc96-458a-9e58-b3afb11e7ced",
+      "semantic_id": "mbo_org_ukrsces"
+    },
+    {
+      "class": "Organization",
+      "uuid": "0ad7e438-fe37-40a6-ae00-939a87f2cf68",
+      "semantic_id": "mbo_org_unesco"
+    },
+    {
+      "class": "Organization",
+      "uuid": "17662a10-0393-42ec-a0e0-8bcd9be8d58a",
+      "semantic_id": "mbo_org_univie"
+    },
+    {
+      "class": "Organization",
+      "uuid": "7f224b53-83e6-4e90-957b-36d7233916bd",
+      "semantic_id": "mbo_org_use"
+    },
+    {
+      "class": "Organization",
+      "uuid": "db7004f0-ceda-4070-9225-c51aa76746e1",
+      "semantic_id": "mbo_org_vliz"
+    },
+    {
+      "class": "Organization",
+      "uuid": "2fdc5873-24cb-4960-87c8-2bb9f4adcf91",
+      "semantic_id": "mbo_zenodo"
+    },
+    {
+      "class": "Organization",
+      "uuid": "c9dbcb8f-6985-4e1c-b7bb-b266fd4da29e",
+      "semantic_id": "mbo_european_commission"
+    },
+    {
+      "class": "Organization",
+      "uuid": "60da56ae-d538-48d1-ae6c-9100a62113cd",
+      "semantic_id": "mbo_org_ena"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "31546c1f-8bc9-4f01-8dc6-06485050b300",
+      "semantic_id": "mbo_taxon_animalia"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "1f03f314-eb55-4b96-95a0-16a0491247d6",
+      "semantic_id": "mbo_taxon_plants"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "05859f53-f5f2-4bc5-b8c6-139e54590ae9",
+      "semantic_id": "mbo_taxon_vertebrata"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "f6e17800-741b-47aa-b858-7a86e44caa23",
+      "semantic_id": "mbo_taxon_eukaryota"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "a6fb2c74-8695-471c-b7d7-c3b733995e41",
+      "semantic_id": "mbo_taxon_birds"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "660ac00c-c137-4d08-a9aa-8f4b7ac4806a",
+      "semantic_id": "mbo_taxon_fish"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "8a41a1fa-a4e0-4009-86be-9ac1072c8e5a",
+      "semantic_id": "mbo_taxon_invertebrates"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "c2809e5c-29d4-4ced-8caf-c714e34067ba",
+      "semantic_id": "mbo_taxon_macroalgae"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "e0a11660-fa30-49e8-a5ec-d825bc122eb8",
+      "semantic_id": "mbo_taxon_phytoplankton"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "5b3f3724-67f6-443d-be5a-393e8fc2b0e6",
+      "semantic_id": "mbo_taxon_zooplankton"
+    },
+    {
+      "class": "License",
+      "uuid": "b88b30c7-8076-4a9f-b3b7-04d390fd563a",
+      "semantic_id": "mbo_license_cc0"
+    },
+    {
+      "class": "License",
+      "uuid": "8276898f-7432-40f9-9806-b484d089c937",
+      "semantic_id": "mbo_license_ccby40"
+    },
+    {
+      "class": "License",
+      "uuid": "668aae09-9ef7-43d1-a7dc-077457adf7c1",
+      "semantic_id": "mbo_license_eupl12"
+    },
+    {
+      "class": "DataDownload",
+      "uuid": "59dce5d9-2420-4708-9b3d-e3d0754a7b5f",
+      "semantic_id": "mbo_todo_data_download_1"
+    },
+    {
+      "class": "DataDownload",
+      "uuid": "d1bdfe83-cb7c-460c-a3a6-39486127d11e",
+      "semantic_id": "mbo_wp2_d2_ds2_download1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "aa93abfa-a967-4046-8976-cb33b154a540",
+      "semantic_id": "mbo_contact_email"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "c9311e1b-1c96-47c7-8d95-b877b51ec478",
+      "semantic_id": "mbo_contact_nick"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "5be0a315-f201-4229-bfa2-60c9500f2e90",
+      "semantic_id": "mbo_contact_giulia"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "4760ab44-8a42-4692-8002-1039b66c8da3",
+      "semantic_id": "mbo_contact_mathilde"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "2e7278db-5770-49d9-998c-88c3007bb273",
+      "semantic_id": "mbo_contact_dan"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "b01458af-15df-40a1-873b-5d9de0c803eb",
+      "semantic_id": "mbo_contact_sformel"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "10019f35-b3df-4aa4-be4e-4a8b65c2678b",
+      "semantic_id": "mbo_contact_kexter"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "e600ecf8-25b8-4662-a204-cb8a02c2c45f",
+      "semantic_id": "mbo_contact_wp1_d1_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "4b06700c-4ba6-4f94-bffb-34ab8a7cb787",
+      "semantic_id": "mbo_contact_wp1_d1_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "a5685076-8747-44f2-a9fb-dfc0a387dc03",
+      "semantic_id": "mbo_contact_wp1_d1_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "ff66e440-b501-410d-bf8a-82a54959c920",
+      "semantic_id": "mbo_contact_wp1_t1_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "3bdc93a2-437c-4608-935b-4396f0c1a999",
+      "semantic_id": "mbo_contact_wp1_t1_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "6a1d29ff-8c24-40c9-b4e3-ae6a2e4c854b",
+      "semantic_id": "mbo_contact_wp1_t1_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "68b0c9b3-9ce2-4e41-9c94-9f2ec4d2aaf3",
+      "semantic_id": "mbo_contact_wp1_t1_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f1e97a91-8cda-4fb6-a025-b76e4fea49bd",
+      "semantic_id": "mbo_contact_wp2_d2_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f1c5926d-0729-4419-a61f-197aecdb6b92",
+      "semantic_id": "mbo_contact_wp2_d2_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "617fbe7e-d391-4ec4-bcd5-828063776a85",
+      "semantic_id": "mbo_contact_wp2_d2_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "acbe2537-a61a-41ab-9488-94314b04f816",
+      "semantic_id": "mbo_contact_wp2_d2_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "35166404-0931-4958-9d54-83972ae1c0cb",
+      "semantic_id": "mbo_contact_wp2_d2_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "efa8ed1a-4bd2-42f0-a8f6-fc2d9d2746ce",
+      "semantic_id": "mbo_contact_wp2_t2_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "7ae1b128-ed5b-45e5-aefa-05e231e3c736",
+      "semantic_id": "mbo_contact_wp2_t2_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "6979ec60-bf5d-46cc-b124-652abf725f57",
+      "semantic_id": "mbo_contact_wp2_t2_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "b242ca9c-1916-45a9-8989-33b5706a65b2",
+      "semantic_id": "mbo_contact_wp2_t2_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "a8c22d28-2971-4919-a4e3-7b3d81edcd93",
+      "semantic_id": "mbo_contact_wp2_t2_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "0da7d3f0-f26f-4fad-b04a-48d37214c997",
+      "semantic_id": "mbo_contact_wp3_d3_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f3792509-6d48-4bc5-98bd-dcef091d9b69",
+      "semantic_id": "mbo_contact_wp3_d3_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "60b1287b-32eb-4ea1-85e6-900f5f6ef6d4",
+      "semantic_id": "mbo_contact_wp3_d3_3_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "bea33415-28e7-4a34-8f9c-c9b005afa503",
+      "semantic_id": "mbo_contact_wp3_d3_3_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "27854ac6-3caf-456f-af16-387872fea5e3",
+      "semantic_id": "mbo_contact_wp3_d3_3_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "9b8f98ff-edc8-4d4e-8956-f29a557ef00d",
+      "semantic_id": "mbo_contact_wp3_d3_4_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "827c1e4e-adb8-4626-af0d-ba9838ddbed9",
+      "semantic_id": "mbo_contact_wp3_d3_4_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "e68e86d9-afe1-42d3-9d83-c2ccf14d04d5",
+      "semantic_id": "mbo_contact_wp3_d3_4_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "749b6ae1-8008-496e-a72a-06657b5c0e1a",
+      "semantic_id": "mbo_contact_wp3_t3_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "765a98e5-bfe8-4471-b273-e11067ed9fec",
+      "semantic_id": "mbo_contact_wp3_t3_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "7104461b-6bbb-4f11-83c8-b5f06aaeb1a1",
+      "semantic_id": "mbo_contact_wp3_t3_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "b78389b4-8ff2-4b45-9fdb-ed452c43d2ae",
+      "semantic_id": "mbo_contact_wp3_t3_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "6bcc49e1-c608-40ec-a95d-0c943da2f1b9",
+      "semantic_id": "mbo_contact_wp3_t3_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "15dd4817-e6ff-4ef0-bcc7-63c7bb8c31ff",
+      "semantic_id": "mbo_contact_wp4_d4_1_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "42de882a-9285-4953-b97a-6a69abd82985",
+      "semantic_id": "mbo_contact_wp4_d4_1_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f21a57aa-8cc2-47b3-a656-da7a04eb2fac",
+      "semantic_id": "mbo_contact_wp4_d4_1_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "75f8f758-64b0-4d72-a38b-f01f3f811ff8",
+      "semantic_id": "mbo_contact_wp4_d4_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "88b05719-8a2b-4b21-8c3c-aeea25c31e52",
+      "semantic_id": "mbo_contact_wp4_d4_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "5f478a8b-b546-454d-971f-9c60924825a4",
+      "semantic_id": "mbo_contact_wp4_d4_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "667d954c-f00a-4fad-b034-a2686c629d58",
+      "semantic_id": "mbo_contact_wp4_d4_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "e9ed7bed-3727-4273-a72c-e1cbb600f27e",
+      "semantic_id": "mbo_contact_wp4_d4_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "26159360-73d0-41a1-af4f-73d49577eb16",
+      "semantic_id": "mbo_contact_wp4_t4_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "e9f0f7b0-9fea-4e31-ac64-e22517c286e1",
+      "semantic_id": "mbo_contact_wp4_t4_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "b4d5c580-84d0-464b-92e7-f4d62f18996d",
+      "semantic_id": "mbo_contact_wp4_t4_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "2e836a89-36ef-418e-97d8-10dd1b9aa3e1",
+      "semantic_id": "mbo_contact_wp4_t4_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "ed222663-d970-45cc-adc3-844979cef570",
+      "semantic_id": "mbo_contact_wp5_d5_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "b715d84b-fd04-401b-a89a-7a76be502d89",
+      "semantic_id": "mbo_contact_wp5_d5_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "4576be24-d014-41af-81d4-f9dae6d325cb",
+      "semantic_id": "mbo_contact_wp5_d5_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "7a8db546-9e53-417a-8f0a-b29d250aea27",
+      "semantic_id": "mbo_contact_wp5_d5_4_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "a769c2da-30e5-45bf-a5be-f75851b2e753",
+      "semantic_id": "mbo_contact_wp5_d5_4_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "aca80f46-1d3f-487f-b956-15c0f4daeb40",
+      "semantic_id": "mbo_contact_wp5_d5_5_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "969fe21a-714e-4b5c-baa8-02ebae3c74cc",
+      "semantic_id": "mbo_contact_wp5_d5_5_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "3088454f-d8b2-465a-8a17-107786cc6021",
+      "semantic_id": "mbo_contact_wp5_d5_6"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "3d6ffcd7-96b2-4005-aa41-acee5091f65a",
+      "semantic_id": "mbo_contact_wp5_t5_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "ba8012d8-def8-44d5-bb63-41740031030c",
+      "semantic_id": "mbo_contact_wp5_t5_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "9ed44be3-e2fd-4058-ad5b-f784c685283a",
+      "semantic_id": "mbo_contact_wp5_t5_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "4418a8cf-7f2c-41f3-94a3-5dc2a32801db",
+      "semantic_id": "mbo_contact_wp5_t5_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "9a5c19aa-d2c7-4904-86d2-ee7c225eca29",
+      "semantic_id": "mbo_contact_wp5_t5_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "1a8d5a24-e25f-47cf-bb2d-ad4c80743095",
+      "semantic_id": "mbo_contact_wp6_d6_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "7aaf35f8-1dd0-46dd-84bb-5ab77134d3c7",
+      "semantic_id": "mbo_contact_wp6_d6_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "29f85633-c0ac-4d46-86f2-9d6c02405f41",
+      "semantic_id": "mbo_contact_wp6_d6_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "738cbf05-8df8-467b-8784-47aa5b7e0239",
+      "semantic_id": "mbo_contact_wp6_d6_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f84e1aef-b4c3-44bd-b2bf-a3a90a7ebfa8",
+      "semantic_id": "mbo_contact_wp6_t6_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "cdee384c-96aa-4543-9e0b-b5e6610f99b7",
+      "semantic_id": "mbo_contact_wp6_t6_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "fb8f76db-6405-4f3b-af2f-72d175664645",
+      "semantic_id": "mbo_contact_wp6_t6_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "3a2c4750-6ab5-47a9-b0ca-f2760b7015e0",
+      "semantic_id": "mbo_contact_wp7_d7_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "aadcf3f5-fefc-4265-9dc0-0c98e7a6ce27",
+      "semantic_id": "mbo_contact_wp7_d7_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "313bbe57-d4b2-45ac-aced-cdbc33969b62",
+      "semantic_id": "mbo_contact_wp7_d7_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "243f8f26-a706-4de8-a71d-36ddd971fdd4",
+      "semantic_id": "mbo_contact_wp7_d7_4"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "f3083c23-02bd-4482-a4b0-266a1128f0de",
+      "semantic_id": "mbo_contact_wp7_d7_5"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "276e9a9c-50a0-4bf3-9342-9f52cb1d3f0d",
+      "semantic_id": "mbo_contact_wp7_d7_6"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "360d074c-f6f6-4e4b-a4cf-5d6db6bde38f",
+      "semantic_id": "mbo_contact_wp7_d7_7"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "a72e2a67-3331-4307-a7e2-6855f3302136",
+      "semantic_id": "mbo_contact_wp7_d7_8"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "fe380544-71fd-4af7-8c29-6a4e3e939c7a",
+      "semantic_id": "mbo_contact_wp7_d7_9"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "0169d0d8-754c-44bd-b79b-20b8b45fc2d4",
+      "semantic_id": "mbo_contact_wp7_t7_1"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "8f94a203-0ede-4f77-a234-07814d4585cf",
+      "semantic_id": "mbo_contact_wp7_t7_2"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "53944228-e1cf-4d8a-8f9b-feea7ad2529f",
+      "semantic_id": "mbo_contact_wp7_t7_3"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "00c68d8e-1c68-45fb-bde3-cf730e34c8cf",
+      "semantic_id": "mbo_contact_wp7_t7_4"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "49340ed6-5438-4256-86ba-cf0ba96775a3",
+      "semantic_id": "mbo_propval_eov_1"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "28b7e5be-6473-480d-bed0-0e7e846d365b",
+      "semantic_id": "mbo_propval_eov_2"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "b9b3b2b4-6872-42e4-b713-a904a9741771",
+      "semantic_id": "mbo_propval_eov_3"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "38500d24-ad47-43f1-8173-3452b1103501",
+      "semantic_id": "mbo_propval_eov_4"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "0c3436b1-20f5-4172-b80d-a794b088b774",
+      "semantic_id": "mbo_propval_eov_5"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "201a2711-b665-4475-8197-6312a737fb6c",
+      "semantic_id": "mbo_propval_eov_6"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "94a1370d-e3c3-4b11-9977-8eb2ae431d58",
+      "semantic_id": "mbo_propval_eov_7"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "f1de3732-8354-4f60-8453-07bcc2c59ee0",
+      "semantic_id": "mbo_propval_eov_8"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "9c73da35-5174-40ba-8d8d-f5661e6e5038",
+      "semantic_id": "mbo_propval_eov_9"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "6e68b067-030a-4501-8258-5931df4336a8",
+      "semantic_id": "mbo_propval_eov_10"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "a3289373-bc29-4dff-90b4-8d2a922276c0",
+      "semantic_id": "mbo_propval_eov_11"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "4c8bac9e-5666-4c7e-a341-fd10a83943ef",
+      "semantic_id": "mbo_propval_eov_12"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "a977a539-abde-4708-a9c3-85942b7d7603",
+      "semantic_id": "mbo_propval_eov_13"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "05e5a83f-0a3f-44ba-a421-848f7c79ab7e",
+      "semantic_id": "mbo_propval_eov_14"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "4fd88e3d-94f0-46c0-a28d-12c71fe4b195",
+      "semantic_id": "mbo_propval_eov_15"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "c37f7841-4c9b-4032-bd98-3cb994084979",
+      "semantic_id": "mbo_propval_eov_16"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "3e19d852-7859-4458-8f99-390f8e77d676",
+      "semantic_id": "mbo_propval_eov_17"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "9f78e5e8-aab0-42b8-a14f-6871dc7645f7",
+      "semantic_id": "mbo_propval_eov_18"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "71ed44c3-f446-4ada-92ad-e731c1c2fddc",
+      "semantic_id": "mbo_propval_eov_19"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "69cb67db-66c6-490c-8d35-e1d453ba9e6f",
+      "semantic_id": "mbo_propval_eov_20"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "e04391f2-194f-4caf-834e-b3d6dfe9dafd",
+      "semantic_id": "mbo_propval_eov_21"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "ef004ea4-beac-41ab-aca2-f5d731571b54",
+      "semantic_id": "mbo_propval_eov_22"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "d8d49555-7888-498a-93f8-ddde14c0f723",
+      "semantic_id": "mbo_propval_eov_23"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "8b5b2a70-2097-432e-a6ed-a1ae6d09db80",
+      "semantic_id": "mbo_propval_eov_24"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "a8daff55-1a42-405c-890b-bb8b334d30cc",
+      "semantic_id": "mbo_propval_eov_25"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "fe51ec97-f88b-4fb8-bacf-7627eb0ee3c8",
+      "semantic_id": "mbo_propval_eov_26"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "df359bd6-f04b-413b-af89-79d69779dd44",
+      "semantic_id": "mbo_propval_eov_27"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "94529cbe-aedc-448a-b875-addd8371c381",
+      "semantic_id": "mbo_propval_eov_28"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "d0eecac3-37e7-4e5e-9267-3932ff7129ad",
+      "semantic_id": "mbo_propval_placeholder"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "a2fa192f-2746-403b-9335-899bf6065231",
+      "semantic_id": "mbo_ebv_class_genetic_composition"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "16e786ff-8dbf-46ae-8a3e-49b1c5507bbd",
+      "semantic_id": "mbo_ebv_class_species_populations"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "c0a59867-47e9-4434-8665-f35869e381db",
+      "semantic_id": "mbo_ebv_class_species_traits"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "428f5e57-b7c8-49f7-bbbc-9a4a2b6b0435",
+      "semantic_id": "mbo_ebv_class_community_composition"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "b1412a9c-1dff-44e7-9a36-e707b94959b8",
+      "semantic_id": "mbo_ebv_class_ecosystem_functioning"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "bbaa124f-4742-4f50-8d33-a5c077f129a0",
+      "semantic_id": "mbo_ebv_class_ecosystem_structure"
+    },
+    {
+      "class": "MonetaryGrant",
+      "uuid": "fa707202-31ab-4299-84ea-d02f2d13ccd6",
+      "semantic_id": "mbo_todo_monetary_grant_mbo_horizon_europe"
+    },
+    {
+      "class": "MonetaryGrant",
+      "uuid": "9862679b-abce-46f5-890a-3777051cf4ee",
+      "semantic_id": "mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_noc"
+    },
+    {
+      "class": "MonetaryGrant",
+      "uuid": "101672d8-a508-4a2e-a8cf-b7b0ae4ef80a",
+      "semantic_id": "mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mba"
+    },
+    {
+      "class": "MonetaryGrant",
+      "uuid": "129360a0-95e1-42d6-b107-1ec8bebad537",
+      "semantic_id": "mbo_todo_monetary_grant_mbo_horizon_europe_guarantee_mss"
+    },
+    {
+      "class": "EmbargoStatement",
+      "uuid": "fbb090bb-3bbf-4f75-b4ef-c895219b94d3",
+      "semantic_id": "mbo_emb_d2_ds2_1"
+    },
+    {
+      "class": "DatasetComment",
+      "uuid": "27dabf55-d7e9-4848-9a6c-315c8864e50b",
+      "semantic_id": "mbo_todo_comment_1"
+    },
+    {
+      "class": "Person",
+      "uuid": "6e4a52b8-ff03-4781-8c7f-a8b166508d0b",
+      "semantic_id": "mbo_balric"
+    },
+    {
+      "class": "Person",
+      "uuid": "b63dbe85-d725-4a8e-8886-71a44c29636d",
+      "semantic_id": "mbo_lamadeimartinez"
+    },
+    {
+      "class": "Person",
+      "uuid": "32eaf48d-0af8-41c6-954c-041db2239af2",
+      "semantic_id": "mbo_11770"
+    },
+    {
+      "class": "Person",
+      "uuid": "026be32f-93c3-42d3-8e96-938126889d47",
+      "semantic_id": "mbo_24333"
+    },
+    {
+      "class": "Person",
+      "uuid": "ccdf97e3-21be-4f4d-bf13-491c0c168119",
+      "semantic_id": "mbo_roblinksdata"
+    },
+    {
+      "class": "Person",
+      "uuid": "72fcc52b-1124-4559-aab8-8d7d754116ef",
+      "semantic_id": "mbo_jbeatty"
+    },
+    {
+      "class": "Person",
+      "uuid": "434de91a-720f-49f7-829e-cc6470d36453",
+      "semantic_id": "mbo_28269"
+    },
+    {
+      "class": "Person",
+      "uuid": "b98cd565-2f5b-48c2-89bb-f7a792f7496b",
+      "semantic_id": "mbo_49824"
+    },
+    {
+      "class": "Person",
+      "uuid": "c9ecd12a-294a-476a-b683-4f8b16af7e7e",
+      "semantic_id": "mbo_58369"
+    },
+    {
+      "class": "Person",
+      "uuid": "0cca3467-8a94-47bc-8b03-9d0887c144a4",
+      "semantic_id": "mbo_eboulanger"
+    },
+    {
+      "class": "Person",
+      "uuid": "53e498c3-b2fe-4931-96e9-a669b0e323b1",
+      "semantic_id": "mbo_cbowler"
+    },
+    {
+      "class": "Person",
+      "uuid": "1c491ee8-ca76-40e6-a7fe-b2ff3f1f3d1e",
+      "semantic_id": "mbo_34461"
+    },
+    {
+      "class": "Person",
+      "uuid": "c788eaf8-d753-4299-bb33-81c59eea0dd0",
+      "semantic_id": "mbo_ccanobarbacil"
+    },
+    {
+      "class": "Person",
+      "uuid": "6bd383a6-b66e-47e4-b941-19a71acc4255",
+      "semantic_id": "mbo_59077"
+    },
+    {
+      "class": "Person",
+      "uuid": "49e991f4-f10f-4bd7-af21-152978509c81",
+      "semantic_id": "mbo_38252"
+    },
+    {
+      "class": "Person",
+      "uuid": "f345bcd9-cb4c-4a6a-9e4b-856fb46c8c3c",
+      "semantic_id": "mbo_todo_person_michaelcunliffe"
+    },
+    {
+      "class": "Person",
+      "uuid": "a939f35a-7003-466c-80e5-9e226d684b23",
+      "semantic_id": "mbo_dalelio"
+    },
+    {
+      "class": "Person",
+      "uuid": "a756d072-ac41-4998-ada3-3ee00dce8253",
+      "semantic_id": "mbo_edebusschere"
+    },
+    {
+      "class": "Person",
+      "uuid": "08456d4e-be38-47c3-b44a-021904f82060",
+      "semantic_id": "mbo_15571"
+    },
+    {
+      "class": "Person",
+      "uuid": "5f3c9773-5c8f-42d3-b650-9a8d9851fa2e",
+      "semantic_id": "mbo_39481"
+    },
+    {
+      "class": "Person",
+      "uuid": "f870e3de-024f-4f97-bf0f-1588acd14a10",
+      "semantic_id": "mbo_58464"
+    },
+    {
+      "class": "Person",
+      "uuid": "2de6d19a-490c-4d67-a7a7-eb0cea9bdb19",
+      "semantic_id": "mbo_66048"
+    },
+    {
+      "class": "Person",
+      "uuid": "2b70ce16-151c-4b83-8345-4f60ef17596e",
+      "semantic_id": "mbo_28159"
+    },
+    {
+      "class": "Person",
+      "uuid": "833fadbb-052a-4bf2-9ecc-cf58a673c73b",
+      "semantic_id": "mbo_56774"
+    },
+    {
+      "class": "Person",
+      "uuid": "845d9c7f-60aa-4f4d-b60b-4a03216389c9",
+      "semantic_id": "mbo_sformel"
+    },
+    {
+      "class": "Person",
+      "uuid": "b5e8ac4a-c1e3-436e-88c8-e5c7ac4ddef2",
+      "semantic_id": "mbo_ngallo"
+    },
+    {
+      "class": "Person",
+      "uuid": "c02dccbe-c3d3-4d6f-83bf-575882dc8b95",
+      "semantic_id": "mbo_55091"
+    },
+    {
+      "class": "Person",
+      "uuid": "1a6b339a-3940-49d7-87cf-a65910cf071e",
+      "semantic_id": "mbo_58245"
+    },
+    {
+      "class": "Person",
+      "uuid": "f394deb4-0e8e-416d-8d31-c39091c9eaf9",
+      "semantic_id": "mbo_43953"
+    },
+    {
+      "class": "Person",
+      "uuid": "e5a0fbff-29b3-4714-8b81-6d144e8c273b",
+      "semantic_id": "mbo_58615"
+    },
+    {
+      "class": "Person",
+      "uuid": "f64426cd-c1b2-4514-a261-4e5fb90548dd",
+      "semantic_id": "mbo_58451"
+    },
+    {
+      "class": "Person",
+      "uuid": "db79ad33-2574-476c-b988-01382673fae4",
+      "semantic_id": "mbo_henderickx"
+    },
+    {
+      "class": "Person",
+      "uuid": "2c90052d-e1e3-4632-87f1-04dea53615e1",
+      "semantic_id": "mbo_16535"
+    },
+    {
+      "class": "Person",
+      "uuid": "14ca0dc4-16c8-4bf5-bf4f-e858c92ab4e2",
+      "semantic_id": "mbo_madsrj"
+    },
+    {
+      "class": "Person",
+      "uuid": "d14fb242-6e54-493e-a8e3-f4912b8342b7",
+      "semantic_id": "mbo_pciarlini_junger"
+    },
+    {
+      "class": "Person",
+      "uuid": "aff74f0e-d237-4b8a-8030-2f93d54675f0",
+      "semantic_id": "mbo_58808"
+    },
+    {
+      "class": "Person",
+      "uuid": "0ba2af7f-52a8-404e-88c7-27b5d520d5b7",
+      "semantic_id": "mbo_rlagaisse"
+    },
+    {
+      "class": "Person",
+      "uuid": "eab3f9fd-bc28-457d-a7d1-016dcd4f60f7",
+      "semantic_id": "mbo_claguionie"
+    },
+    {
+      "class": "Person",
+      "uuid": "7204231e-64c4-4c96-ba3f-7fe8f680a9f7",
+      "semantic_id": "mbo_25892"
+    },
+    {
+      "class": "Person",
+      "uuid": "c4e1c6f0-e5e6-4710-b648-272379e8acfd",
+      "semantic_id": "mbo_13339"
+    },
+    {
+      "class": "Person",
+      "uuid": "cfa34381-2033-48b1-9ce1-71e74c0faed9",
+      "semantic_id": "mbo_23316"
+    },
+    {
+      "class": "Person",
+      "uuid": "c27b7933-9bfb-4b28-98b0-e14c0c402bde",
+      "semantic_id": "mbo_7925"
+    },
+    {
+      "class": "Person",
+      "uuid": "edc24fcf-e96f-478b-8fd5-e335da1682b2",
+      "semantic_id": "mbo_dludicone"
+    },
+    {
+      "class": "Person",
+      "uuid": "c1aa749a-14f3-4213-a7fb-7a5893d198b9",
+      "semantic_id": "mbo_59780"
+    },
+    {
+      "class": "Person",
+      "uuid": "1fce0cfd-9f6b-499b-b604-e2f056b811f4",
+      "semantic_id": "mbo_59174"
+    },
+    {
+      "class": "Person",
+      "uuid": "2941189b-772f-448c-861c-ec686b0c4c84",
+      "semantic_id": "mbo_imatejusova"
+    },
+    {
+      "class": "Person",
+      "uuid": "d7647f81-6fb3-4eed-858b-16ec7bfdcebf",
+      "semantic_id": "mbo_62379"
+    },
+    {
+      "class": "Person",
+      "uuid": "e4925987-8ba0-480f-bc1c-ef63840b08e1",
+      "semantic_id": "mbo_dkumazawa_morais"
+    },
+    {
+      "class": "Person",
+      "uuid": "54247161-ca75-40ce-ae7d-825811e77822",
+      "semantic_id": "mbo_jmortelmans"
+    },
+    {
+      "class": "Person",
+      "uuid": "9743be3e-0274-467e-b248-904875fddad4",
+      "semantic_id": "mbo_55557"
+    },
+    {
+      "class": "Person",
+      "uuid": "0cbd506e-1182-4a27-966a-02d8bb6d3de3",
+      "semantic_id": "mbo_1486"
+    },
+    {
+      "class": "Person",
+      "uuid": "30e47b2d-8284-4288-854c-c9dbf27038a2",
+      "semantic_id": "mbo_58452"
+    },
+    {
+      "class": "Person",
+      "uuid": "c0cc110e-577b-4b62-b73b-f4b4abae8b2d",
+      "semantic_id": "mbo_jmuyle"
+    },
+    {
+      "class": "Person",
+      "uuid": "d0022e03-e392-4fbe-a715-33da59843d61",
+      "semantic_id": "mbo_fnot"
+    },
+    {
+      "class": "Person",
+      "uuid": "b73e3f23-7611-4541-ae02-972ba3f33316",
+      "semantic_id": "mbo_jnowe"
+    },
+    {
+      "class": "Person",
+      "uuid": "df241558-3e74-421f-a130-63ce74ae996a",
+      "semantic_id": "mbo_mobst"
+    },
+    {
+      "class": "Person",
+      "uuid": "6f4d5e63-c9bc-462b-b588-976d9a59aaf5",
+      "semantic_id": "mbo_27395"
+    },
+    {
+      "class": "Person",
+      "uuid": "74fe7cfa-d1cd-47d2-ae63-748c8f259baf",
+      "semantic_id": "mbo_aounoufriou"
+    },
+    {
+      "class": "Person",
+      "uuid": "6920bd48-5489-40d1-a830-06a25a396f86",
+      "semantic_id": "mbo_44123"
+    },
+    {
+      "class": "Person",
+      "uuid": "82256ab8-2964-4a8f-be0e-d3dee4625d4f",
+      "semantic_id": "mbo_43716"
+    },
+    {
+      "class": "Person",
+      "uuid": "5c297c25-b1a8-4b6f-9442-be086e71b443",
+      "semantic_id": "mbo_39344"
+    },
+    {
+      "class": "Person",
+      "uuid": "99d05b0f-91d0-4968-9ba4-34014b64cb45",
+      "semantic_id": "mbo_26192"
+    },
+    {
+      "class": "Person",
+      "uuid": "9bb31fd8-266a-48a6-9b9c-1f3ec5fff53e",
+      "semantic_id": "mbo_35458"
+    },
+    {
+      "class": "Person",
+      "uuid": "0b844c12-5ea2-4db5-a237-7e8ea5127fcd",
+      "semantic_id": "mbo_35553"
+    },
+    {
+      "class": "Person",
+      "uuid": "20043ae9-c2c9-4371-a3ea-cf37bf5afbb6",
+      "semantic_id": "mbo_62286"
+    },
+    {
+      "class": "Person",
+      "uuid": "c050dd44-da19-4882-8ff7-b53aa2c88301",
+      "semantic_id": "mbo_57469"
+    },
+    {
+      "class": "Person",
+      "uuid": "9ae175f8-62ea-43c2-a367-59b42ef2c38c",
+      "semantic_id": "mbo_23935"
+    },
+    {
+      "class": "Person",
+      "uuid": "d709e320-98bc-4aa4-8cf5-ce7b08b7efa8",
+      "semantic_id": "mbo_43352"
+    },
+    {
+      "class": "Person",
+      "uuid": "77395156-c091-4bad-85f3-384d70ccd10e",
+      "semantic_id": "mbo_27401"
+    },
+    {
+      "class": "Person",
+      "uuid": "f7d8236c-e340-4b91-925a-392fa53a0e71",
+      "semantic_id": "mbo_60462"
+    },
+    {
+      "class": "Person",
+      "uuid": "22d6f5e0-c08e-4d59-b190-edf60dfa36b4",
+      "semantic_id": "mbo_60642"
+    },
+    {
+      "class": "Person",
+      "uuid": "5adb5e1a-ecf1-4228-bb4c-490207f8be27",
+      "semantic_id": "mbo_jwarwickdugdale"
+    },
+    {
+      "class": "Person",
+      "uuid": "25323dba-59af-4126-88b4-7b1322ed222d",
+      "semantic_id": "mbo_avasic"
+    },
+    {
+      "class": "Person",
+      "uuid": "99ba6e54-30e9-4137-a50f-1a0cf43de2f2",
+      "semantic_id": "mbo_gduspara"
+    },
+    {
+      "class": "Person",
+      "uuid": "b97b5277-a5bb-4cf9-9ecb-3facdc071b2f",
+      "semantic_id": "mbo_pmariani"
+    },
+    {
+      "class": "Person",
+      "uuid": "3986a418-8ce8-421f-bdc9-02bf0906cb0e",
+      "semantic_id": "mbo_lzinger"
+    },
+    {
+      "class": "Person",
+      "uuid": "33c957bd-2748-4555-a6a6-e4a7bc8fe447",
+      "semantic_id": "mbo_aperedoarce"
+    },
+    {
+      "class": "Person",
+      "uuid": "8d245ed6-8220-4607-865e-0a65c87ab673",
+      "semantic_id": "mbo_lilihufnagel"
+    },
+    {
+      "class": "Place",
+      "uuid": "47823b57-f1fb-4894-bde5-71ebe3cac02d",
+      "semantic_id": "mbo_000001"
+    },
+    {
+      "class": "Place",
+      "uuid": "866272d7-3175-47ce-ac67-e964f3aa7d08",
+      "semantic_id": "mbo_place_eez_be"
+    },
+    {
+      "class": "Place",
+      "uuid": "6835b391-2f3a-4ae3-b759-a2f1088fcbf2",
+      "semantic_id": "mbo_place_eez_bg"
+    },
+    {
+      "class": "Place",
+      "uuid": "e32f9da3-16a8-4eb6-8346-4df581096717",
+      "semantic_id": "mbo_place_eez_hr"
+    },
+    {
+      "class": "Place",
+      "uuid": "e87070dd-8c13-4be3-a6f3-536d89d31f32",
+      "semantic_id": "mbo_place_eez_cy"
+    },
+    {
+      "class": "Place",
+      "uuid": "1d2511c4-cc3b-4d3d-96c1-4c578325334f",
+      "semantic_id": "mbo_place_eez_dk"
+    },
+    {
+      "class": "Place",
+      "uuid": "04365347-dd16-4395-a3ae-0a4113349e5f",
+      "semantic_id": "mbo_place_eez_nl"
+    },
+    {
+      "class": "Place",
+      "uuid": "f8ac3337-5a6c-4df7-b627-203528836086",
+      "semantic_id": "mbo_place_eez_ee"
+    },
+    {
+      "class": "Place",
+      "uuid": "d7421b22-1ece-43e7-b383-50a99c464b32",
+      "semantic_id": "mbo_place_eez_fi"
+    },
+    {
+      "class": "Place",
+      "uuid": "cda58657-3e52-4173-bb09-344b5fc3c088",
+      "semantic_id": "mbo_place_eez_fr"
+    },
+    {
+      "class": "Place",
+      "uuid": "ef40b883-51a8-47ee-8736-c88904ea859c",
+      "semantic_id": "mbo_place_eez_de"
+    },
+    {
+      "class": "Place",
+      "uuid": "5f0a3602-b782-4ea1-905a-2c6da033e5e8",
+      "semantic_id": "mbo_place_eez_gr"
+    },
+    {
+      "class": "Place",
+      "uuid": "b85e1b9a-bdea-4567-b775-8784c335a055",
+      "semantic_id": "mbo_place_eez_ie"
+    },
+    {
+      "class": "Place",
+      "uuid": "67746822-0a8b-44db-b554-f508e78fced7",
+      "semantic_id": "mbo_place_eez_it"
+    },
+    {
+      "class": "Place",
+      "uuid": "2a7ed982-671c-4361-8a55-a28a2d4c3317",
+      "semantic_id": "mbo_place_eez_lv"
+    },
+    {
+      "class": "Place",
+      "uuid": "7f6984a2-076b-440f-8a4c-3cf042591809",
+      "semantic_id": "mbo_place_eez_lt"
+    },
+    {
+      "class": "Place",
+      "uuid": "1c18959d-27d8-4607-b745-6ce4784b0181",
+      "semantic_id": "mbo_place_eez_mt"
+    },
+    {
+      "class": "Place",
+      "uuid": "4eb316f7-0ea0-4c95-8765-6d06c5cc2286",
+      "semantic_id": "mbo_place_eez_pl"
+    },
+    {
+      "class": "Place",
+      "uuid": "c09910ba-91a1-45a8-affa-600a011b5a0a",
+      "semantic_id": "mbo_place_eez_pt"
+    },
+    {
+      "class": "Place",
+      "uuid": "3561678c-d2f4-483c-86a7-c33dda05b579",
+      "semantic_id": "mbo_place_eez_ro"
+    },
+    {
+      "class": "Place",
+      "uuid": "4d266cc4-5a0c-4731-a96f-36801418c4df",
+      "semantic_id": "mbo_place_eez_si"
+    },
+    {
+      "class": "Place",
+      "uuid": "0e538287-d6a8-4fea-928e-0da32ec30840",
+      "semantic_id": "mbo_place_eez_es"
+    },
+    {
+      "class": "Place",
+      "uuid": "cf6f02a7-1cda-41eb-88cd-39c1af8cb752",
+      "semantic_id": "mbo_place_eez_se"
+    },
+    {
+      "class": "Place",
+      "uuid": "d9f2a388-09ac-45c6-90a2-fa0d583ca07b",
+      "semantic_id": "mbo_place_global_oceans"
+    },
+    {
+      "class": "Place",
+      "uuid": "9a16d5a5-14c3-4d1a-b803-d221db09b28e",
+      "semantic_id": "mbo_place_eez_no"
+    },
+    {
+      "class": "Place",
+      "uuid": "a253e9c4-ff51-4ddd-a93b-ad9e78196427",
+      "semantic_id": "mbo_place_emobon_bpns"
+    },
+    {
+      "class": "Place",
+      "uuid": "72f44934-e590-436a-9a35-325b50288fd3",
+      "semantic_id": "mbo_place_emobon_esc68n"
+    },
+    {
+      "class": "Place",
+      "uuid": "5776e905-1aa5-4066-a9ee-20f145f40b75",
+      "semantic_id": "mbo_place_emobon_mbal4"
+    },
+    {
+      "class": "Place",
+      "uuid": "24afe369-18ca-4425-97c8-b9b87df8df53",
+      "semantic_id": "mbo_place_emobon_bergen"
+    },
+    {
+      "class": "Place",
+      "uuid": "3f339e98-191c-4e71-8032-a0a722b37129",
+      "semantic_id": "mbo_place_emobon_umf"
+    },
+    {
+      "class": "Place",
+      "uuid": "7e6e8b22-86d4-4fae-9dc6-47ed66452330",
+      "semantic_id": "mbo_place_task_4_4_fpod"
+    },
+    {
+      "class": "Place",
+      "uuid": "db344eb9-42c8-4879-8bf7-e27dddb03f6b",
+      "semantic_id": "mbo_place_task_4_4_echosounder"
+    },
+    {
+      "class": "Place",
+      "uuid": "38861e4e-e8fe-4de3-ac0b-67d35614c685",
+      "semantic_id": "mbo_place_task_4_4_hydrophone"
+    },
+    {
+      "class": "Document",
+      "uuid": "27618e32-43c9-4633-856c-c56076817542",
+      "semantic_id": "mbo_dmp_1"
+    },
+    {
+      "class": "Document",
+      "uuid": "cbd4a4a4-c7cd-4bb0-b3f8-735e6455c4a5",
+      "semantic_id": "mbo_wp2_d2_ds1_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "17846e02-e8da-4234-b6ab-d974a83f56f8",
+      "semantic_id": "mbo_pmg"
+    },
+    {
+      "class": "Document",
+      "uuid": "ffe72d74-7687-467f-ae17-1060d7012856",
+      "semantic_id": "mbo_doc_ec_call_for_proposal"
+    },
+    {
+      "class": "Document",
+      "uuid": "dd0cc833-9ffd-40c7-b7a1-d7996a78a18c",
+      "semantic_id": "mbo_wp2_d2_ds2_protocol1"
+    },
+    {
+      "class": "Document",
+      "uuid": "153e5e95-d3a6-45e1-8392-531cf583f78b",
+      "semantic_id": "mbo_wp2_d2_ds2_protocol2"
+    },
+    {
+      "class": "Document",
+      "uuid": "4ab94081-4a16-4ce4-820c-adb48843fe77",
+      "semantic_id": "mbo_wp2_d2_ds2_protocol3"
+    },
+    {
+      "class": "Document",
+      "uuid": "3c0173e4-655e-498b-ba7a-6f021beb366c",
+      "semantic_id": "mbo_wp2_d2_ds2_protocol4"
+    },
+    {
+      "class": "Document",
+      "uuid": "b47e01c5-4172-4090-a4ed-7f13b13b200e",
+      "semantic_id": "mbo_wp2_d2_ds2_protocol5"
+    },
+    {
+      "class": "PublishingStatusDefinedTerm",
+      "uuid": "fe1ddd06-d1f4-4ef9-9394-444a9881c7e2",
+      "semantic_id": "mbo_pub_status_published"
+    },
+    {
+      "class": "PublishingStatusDefinedTerm",
+      "uuid": "4cffa9b1-8f95-43af-a88e-d85f82fd33b2",
+      "semantic_id": "mbo_pub_status_incomplete"
+    },
+    {
+      "class": "PublishingStatusDefinedTerm",
+      "uuid": "2b4e54e0-2bbe-420c-9327-b27063b5c1e4",
+      "semantic_id": "mbo_pub_status_embargoed"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "54875136-4a11-4af2-a13d-3eff0b346a59",
+      "semantic_id": "mbo_todo_dataset_2"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "b0d2ceb4-66d6-4556-bf35-1db6b1d25a1b",
+      "semantic_id": "mbo_jwd_dataset_01"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "9eba72f3-7cdc-4f5a-94ee-5af7d05f12cc",
+      "semantic_id": "mbo_marineregions"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "66deb749-78b7-46df-bc4b-ee7d309401ed",
+      "semantic_id": "mbo_wp2_d2_ds2"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "e40b0ba6-e999-41c0-b92b-b1dad129507e",
+      "semantic_id": "mbo_wp2_d2_ds2_1"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "1035b3b1-90d6-4db4-9b65-2bc01295434f",
+      "semantic_id": "mbo_wp2_d2_ds2_3"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "1e755c27-d126-4286-a4b6-703902f42ef7",
+      "semantic_id": "mbo_wp2_d2_ds2_4"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "25550ee3-b109-4258-999f-cc375ec7bed6",
+      "semantic_id": "mbo_wp2_d2_ds2_5"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "202001b7-68fb-4c4b-9c64-1e087a96ae68",
+      "semantic_id": "mbo_wp2_d2_ds2_6"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "ff03105a-99f8-44a6-b54b-3d6cec9c9cb6",
+      "semantic_id": "mbo_wp2_d2_ds2_7"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "2de707cf-f6a1-470d-ab7a-88a9421124f7",
+      "semantic_id": "mbo_wp5_1_1_biotime"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "f0c909e9-da77-45cc-8b94-ffb3cbc51c1a",
+      "semantic_id": "mbo_wp5_1_1_copepod"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "7a32d217-6eb7-4db5-9f69-723985cef0d7",
+      "semantic_id": "mbo_wp5_1_1_emodnet"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "8f24f837-2fe9-4f8c-9204-1a587dd1e406",
+      "semantic_id": "mbo_wp5_1_1_rephy"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "367b613f-e18d-436d-9a6e-b7691ac2553a",
+      "semantic_id": "mbo_wp5_1_1_fishglob"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "5e1ac7a3-38b5-4105-803e-f6ba9bf116cd",
+      "semantic_id": "mbo_wp5_1_1_cpr"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "144dda27-7b4a-4e4d-815c-287808ccc0d9",
+      "semantic_id": "mbo_wp5_1_1_pilotto"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "80ca6ee4-4f49-4a00-9558-9de9792efe0b",
+      "semantic_id": "mbo_wp5_1_1_birds"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "0ff839bb-aeca-4ea2-ab60-b0c7a3967bb7",
+      "semantic_id": "mbo_wp5_1_1_fish"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "c3f75019-0244-4a0c-b329-cb966a932831",
+      "semantic_id": "mbo_wp5_1_1_inverts"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "2ac2fbe0-4fc1-487c-a1b7-158c4b6dadb0",
+      "semantic_id": "mbo_wp5_1_1_macroalgae"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "90a8336d-06fa-4f4a-a499-98fb225ad28d",
+      "semantic_id": "mbo_wp5_1_1_phytoplankton"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "2fe0261e-eb91-4363-bbe3-23e43fceb8a8",
+      "semantic_id": "mbo_wp5_1_1_zooplankton"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "e14443b5-8c89-4011-a549-3eab353076a8",
+      "semantic_id": "mbo_wp5_1_1_biotic"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "82651d35-66cc-43d3-a9d5-cd33a11a6eaa",
+      "semantic_id": "mbo_wp5_1_1_model"
+    },
+    {
+      "class": "Action",
+      "uuid": "ef9ce960-5c07-41cd-ade6-127f3b52f6db",
+      "semantic_id": "mbo_db_task_1_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "b8378f42-6b7e-4ad8-87e1-56423471fd75",
+      "semantic_id": "mbo_project"
+    },
+    {
+      "class": "Action",
+      "uuid": "31db3016-1b45-4061-9d6d-f33b8ddc3886",
+      "semantic_id": "mbo_task_4_4_seatrial"
+    },
+    {
+      "class": "Action",
+      "uuid": "3621c8a8-9fc0-47c4-b739-06b0631559c8",
+      "semantic_id": "mbo_task_4_4_seatrial_echosounder"
+    },
+    {
+      "class": "Action",
+      "uuid": "62a9b233-17a8-4d67-8d8d-af751faa0aa4",
+      "semantic_id": "mbo_task_4_4_seatrial_fpod"
+    },
+    {
+      "class": "Action",
+      "uuid": "30a34677-72b1-4f44-9923-460f6bd13851",
+      "semantic_id": "mbo_task_4_4_seatrial_hydrophone"
+    },
+    {
+      "class": "Action",
+      "uuid": "5e9b410f-8023-4a8b-a17a-3589ee1b565a",
+      "semantic_id": "mbo_task_jwd_test"
+    },
+    {
+      "class": "Action",
+      "uuid": "e915c842-50f1-4cdf-8089-dbdeb89dc7b5",
+      "semantic_id": "mbo_db_tool_population"
+    },
+    {
+      "class": "Action",
+      "uuid": "8be22080-f478-483c-8ff7-495e42d12e50",
+      "semantic_id": "mbo_t3_3_agents"
+    },
+    {
+      "class": "Action",
+      "uuid": "15cae50c-8b9a-4659-8b09-f9732b89a495",
+      "semantic_id": "mbo_t3_3_dataproviders"
+    },
+    {
+      "class": "Action",
+      "uuid": "7289e104-d184-430d-b122-1aa81590ce9e",
+      "semantic_id": "mbo_t3_3_places"
+    },
+    {
+      "class": "Action",
+      "uuid": "ba1bc4b5-cb16-4ac6-af4e-be31777a7ff8",
+      "semantic_id": "mbo_wp1_d1_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "43ab3515-b448-4283-8596-32efc8ee0514",
+      "semantic_id": "mbo_wp1_d1_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "8a2d4f19-d034-4310-a840-059393031124",
+      "semantic_id": "mbo_wp1_d1_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "49eb56e6-6c79-4d1b-b9d6-c8dda2b711bc",
+      "semantic_id": "mbo_wp1_dmp"
+    },
+    {
+      "class": "Action",
+      "uuid": "181edc0b-f285-417a-b554-6e7e592dcb53",
+      "semantic_id": "mbo_wp1_t1_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "c057e635-76d9-44cf-8425-b8431f27096c",
+      "semantic_id": "mbo_wp1_t1_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "6af83dea-16b7-45c0-9990-43e09a10d561",
+      "semantic_id": "mbo_wp1_t1_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "0525fd49-a032-4551-9857-50fa1c6b3180",
+      "semantic_id": "mbo_wp1_t1_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "11b90df2-83d5-4194-8d1b-567a11b454c6",
+      "semantic_id": "mbo_wp2_d2"
+    },
+    {
+      "class": "Action",
+      "uuid": "b6420d08-ecfe-4844-9ba3-673c7ddc5267",
+      "semantic_id": "mbo_wp2_d2_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "9c69373a-52b9-487b-8a9c-5af56310ed6d",
+      "semantic_id": "mbo_wp2_d2_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "6acaaaa2-d3ff-4337-8231-93d1001ac105",
+      "semantic_id": "mbo_wp2_d2_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "3e859f34-53c9-48e7-80f6-b9b57c877324",
+      "semantic_id": "mbo_wp2_d2_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "fe34e56a-5c11-427d-87e5-8492c388f68a",
+      "semantic_id": "mbo_wp2_d2_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "dc6b543f-8b50-4a34-8730-b43681b3c967",
+      "semantic_id": "mbo_wp2_t2_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "636bcc18-a7a8-4aa1-be16-ac5e98edcb59",
+      "semantic_id": "mbo_wp2_t2_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "00f2e7bf-40d9-4ad3-9fe3-07fdf423c997",
+      "semantic_id": "mbo_wp2_t2_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "03876a70-b19f-4229-81de-c3a7545cd852",
+      "semantic_id": "mbo_wp2_t2_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "6e71b559-2647-4329-bf0e-0d3e087a647f",
+      "semantic_id": "mbo_wp2_t2_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "7b386ea9-5da2-44a1-9a2d-1fba507f7216",
+      "semantic_id": "mbo_wp3_d3_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "134bcbc8-df1f-44cf-aa85-8b284f3b17c7",
+      "semantic_id": "mbo_wp3_d3_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "00bb8a0b-5496-48b4-ba18-122da6a34fd6",
+      "semantic_id": "mbo_wp3_d3_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "10819c7f-43f0-4502-9107-4bcdbee80cb9",
+      "semantic_id": "mbo_wp3_d3_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "0f8bf7d4-6c39-41dd-8ea0-378da0964a58",
+      "semantic_id": "mbo_wp3_t3_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "ba51b173-acd3-4825-80ae-540e24f9e591",
+      "semantic_id": "mbo_wp3_t3_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "6cc6d930-3b6d-468b-8cdd-f8638a9b6bce",
+      "semantic_id": "mbo_wp3_t3_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "d8e0cf1c-18ee-46f0-8afa-7f1838e72985",
+      "semantic_id": "mbo_wp3_t3_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "fbbecdc3-0144-4f87-91c4-bafb73d41559",
+      "semantic_id": "mbo_wp3_t3_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "4bf20491-58ee-42b7-a14f-d1637f9fba44",
+      "semantic_id": "mbo_wp4_d4_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "9d916b71-39d0-4085-aad3-0c96f3bbafc9",
+      "semantic_id": "mbo_wp4_d4_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "2328c7bf-9696-4862-8757-913582c76270",
+      "semantic_id": "mbo_wp4_d4_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "1b3dfb47-82fd-4215-96a5-de2b7f0ecaf2",
+      "semantic_id": "mbo_wp4_d4_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "9628a738-0949-4ec6-9049-a070e9bcb824",
+      "semantic_id": "mbo_wp4_d4_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "41c3e784-de9d-47ba-8228-ccc631d5a18a",
+      "semantic_id": "mbo_wp4_t4_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "cc8cef91-9a58-4a9f-a963-ba0508951c41",
+      "semantic_id": "mbo_wp4_t4_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "6309c560-b881-4b0b-a4bd-2b3b6c72bc41",
+      "semantic_id": "mbo_wp4_t4_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "3692536b-c5f8-4fc9-8e41-22dc0e7d6138",
+      "semantic_id": "mbo_wp4_t4_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "d1722c49-8cc9-4b9f-a759-e89dafc170f7",
+      "semantic_id": "mbo_wp5_d5_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "7d704f88-5cab-419e-bb64-38f69bde1d8b",
+      "semantic_id": "mbo_wp5_d5_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "62dba3ff-b2df-4d48-b8c1-ea56d24f6d66",
+      "semantic_id": "mbo_wp5_d5_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "8c7b7c2f-4816-4477-a21a-f55008a79315",
+      "semantic_id": "mbo_wp5_d5_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "7d879fe0-4189-424e-b3e7-f0247162b4d7",
+      "semantic_id": "mbo_wp5_d5_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "71839880-3331-4379-bdc1-15637f86bc32",
+      "semantic_id": "mbo_wp5_d5_6"
+    },
+    {
+      "class": "Action",
+      "uuid": "a4ba0958-0e8d-4226-8c73-65beaaa0c8d0",
+      "semantic_id": "mbo_wp5_t5_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "54e39572-99b1-43ca-95ba-053587ccfb5a",
+      "semantic_id": "mbo_wp5_t5_1_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "dccc1723-68ac-4d27-8164-7b0a24b2ebf9",
+      "semantic_id": "mbo_wp5_t5_1_1_clean"
+    },
+    {
+      "class": "Action",
+      "uuid": "77f741b9-0fd6-4b54-b660-2a48be8205a2",
+      "semantic_id": "mbo_wp5_t5_1_1_collect"
+    },
+    {
+      "class": "Action",
+      "uuid": "b49d3f5b-3190-44ea-812c-6b387c88eb06",
+      "semantic_id": "mbo_wp5_t5_1_1_model"
+    },
+    {
+      "class": "Action",
+      "uuid": "fb9f6e52-618a-4565-8a1b-ecbcf6d66d58",
+      "semantic_id": "mbo_wp5_t5_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "e9c3129a-60fa-4a45-9f3e-cebf64d5f8de",
+      "semantic_id": "mbo_wp5_t5_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "628ccd6b-41e4-4659-adc5-fa310c5866c4",
+      "semantic_id": "mbo_wp5_t5_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "3a09c6af-bd55-4658-9be3-836454939d3d",
+      "semantic_id": "mbo_wp5_t5_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "a682199a-8696-42b6-a26b-1819656f817b",
+      "semantic_id": "mbo_wp6_d6_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "c1a22e79-516b-4282-b603-ee11ae7fa74d",
+      "semantic_id": "mbo_wp6_d6_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "4f0cfcf9-2e94-4017-b39d-32a2ab698117",
+      "semantic_id": "mbo_wp6_d6_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "e4495f3b-f04a-43a9-869b-d8e63b14bbfb",
+      "semantic_id": "mbo_wp6_d6_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "3697faa7-3758-4721-898c-ddc4e14c7435",
+      "semantic_id": "mbo_wp6_t6_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "1dafeb94-e4f4-478c-aacf-2b30522aad3b",
+      "semantic_id": "mbo_wp6_t6_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "3cebed47-4976-49f5-a9be-fe2d58003ff1",
+      "semantic_id": "mbo_wp6_t6_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "42ca53a5-9609-42ff-aa98-ee0ed5532620",
+      "semantic_id": "mbo_wp7_d7_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "f641a938-710b-4cc2-9264-d2c865c19f6a",
+      "semantic_id": "mbo_wp7_d7_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "ee6bfa88-9ce4-4733-8e90-945d14180519",
+      "semantic_id": "mbo_wp7_d7_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "c4421532-9939-4588-b42b-3e4fd67ded75",
+      "semantic_id": "mbo_wp7_d7_4"
+    },
+    {
+      "class": "Action",
+      "uuid": "57de8382-3340-4f18-9af4-01215e203696",
+      "semantic_id": "mbo_wp7_d7_5"
+    },
+    {
+      "class": "Action",
+      "uuid": "f6d48db4-ef6f-434a-895f-f5e33dee3f6f",
+      "semantic_id": "mbo_wp7_d7_6"
+    },
+    {
+      "class": "Action",
+      "uuid": "fae9ea90-5166-41f0-a636-04b54ccec020",
+      "semantic_id": "mbo_wp7_d7_7"
+    },
+    {
+      "class": "Action",
+      "uuid": "00e6fa0c-eb67-4146-8b45-14889dcf2c5a",
+      "semantic_id": "mbo_wp7_d7_8"
+    },
+    {
+      "class": "Action",
+      "uuid": "efc41eab-581c-4aa4-9a8a-4ca3dc069362",
+      "semantic_id": "mbo_wp7_d7_9"
+    },
+    {
+      "class": "Action",
+      "uuid": "afd21043-8fc0-474f-b1c4-845c43dc0247",
+      "semantic_id": "mbo_wp7_t7_1"
+    },
+    {
+      "class": "Action",
+      "uuid": "27f42126-1a7b-4eda-a54e-c32f0bf00016",
+      "semantic_id": "mbo_wp7_t7_2"
+    },
+    {
+      "class": "Action",
+      "uuid": "8d79214c-0c66-4aae-a7e6-88a955795567",
+      "semantic_id": "mbo_wp7_t7_3"
+    },
+    {
+      "class": "Action",
+      "uuid": "69c81386-1ee5-4296-a6e9-cd0414afb8ea",
+      "semantic_id": "mbo_wp7_t7_4"
+    },
+    {
+      "class": "Audience",
+      "uuid": "a0dc5294-f1f5-425b-aba3-691458759b14",
+      "semantic_id": "mbo_audience_mbo"
+    },
+    {
+      "class": "Audience",
+      "uuid": "7b905bd6-867b-4839-b96a-5ee24528aa8c",
+      "semantic_id": "mbo_audience_edna"
+    },
+    {
+      "class": "Audience",
+      "uuid": "bc281582-446c-453c-941b-0803ee8b83c9",
+      "semantic_id": "mbo_audience_marinebiodiv"
+    },
+    {
+      "class": "Audience",
+      "uuid": "0418dae7-a8d2-4b3f-a11c-4bf0293fb960",
+      "semantic_id": "mbo_eu_commission"
+    },
+    {
+      "class": "Audience",
+      "uuid": "2dc51e4b-5c19-4d62-b517-971e44874434",
+      "semantic_id": "mbo_general_research_institutions"
+    }
+  ],
+  "missing_ids": []
+}
