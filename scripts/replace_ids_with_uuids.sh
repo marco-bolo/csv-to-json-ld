@@ -61,11 +61,12 @@ SED_SCRIPT=$(mktemp)
 # Extract all semantic_id -> uuid mappings and generate sed commands
 # The registry format is: {"ClassName": {"uuid": "semantic_id"}}
 # We need to reverse this to get semantic_id -> uuid mappings
+# Use word boundaries (\b) to prevent partial matches
 jq -r '
   to_entries[] |
   .value |
   to_entries[] |
-  "s/\(.value)/\(.key)/g"
+  "s/\\b\(.value)\\b/\(.key)/g"
 ' "$REGISTRY_PATH" > "$SED_SCRIPT"
 
 # Count replacements
