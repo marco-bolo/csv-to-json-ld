@@ -20,7 +20,7 @@ slots:
     description: |
       An identifier chosen from the range given to your work package by WP1.
     range: string
-    pattern: "^mbo_[_0-9a-z]+$"
+    pattern: "pattern: "^mbo_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
     comments: |
       Note that when inputting into CSV files this should not be the full URI, 
       but just the last part, e.g. `mbo_0000001`.
