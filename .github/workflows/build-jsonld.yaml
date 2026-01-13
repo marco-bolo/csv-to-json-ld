@@ -41,7 +41,7 @@ jobs:
       - name: Sync UUID Registry
         id: sync_uuids
         run: |
-          python3 scripts/sync_uuids.py --csv-pattern "data/*.csv" --registry-path "config/uuid_mapping.json"
+          python3 scripts/sync_uuids.py --csv-pattern "data/*.csv" --registry-path "config/uuid_mapping.json" --id-column "MBO Permanent Identifier*"
         continue-on-error: true  # Don't fail if missing IDs detected
       
       # NEW: Generate missing IDs report
