@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1a647d09-d104-4897-adfa-458dfcd67567",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "Data from: mbo_46297fcb-c86c-42cc-9b54-05f128dcf5a1 mbo_f5f58d71-069c-4dfe-bd15-532157660b95",
+  "name": "WP5 D5.1: European Coastal and Marine Macroalgae Time Series Dataset",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

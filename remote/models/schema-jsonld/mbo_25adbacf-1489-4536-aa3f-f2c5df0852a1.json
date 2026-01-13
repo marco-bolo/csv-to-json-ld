@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1",
+  "@type": "GeoShape",
+  "box": "51.406617 2.9963330000 51.406617 2.9963330000",
+  "description": "Point of the FPOD sea trial for Task 4.4 sea trial",
+  "name": "Belgium EEZ Task 4.4 FPOD"
+}

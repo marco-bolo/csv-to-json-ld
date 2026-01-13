@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b",
+  "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b"
+  },
+  "familyName": "Formel",
+  "givenName": "Stephen",
+  "identifier": "https://oceanexpert.org/expert/54167",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+  }
+}

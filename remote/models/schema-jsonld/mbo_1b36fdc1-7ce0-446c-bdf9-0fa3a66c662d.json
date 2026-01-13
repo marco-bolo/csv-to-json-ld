@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1b36fdc1-7ce0-446c-bdf9-0fa3a66c662d",
+  "@type": "HowTo",
+  "description": "Data from FPOD turned into useful measurements",
+  "name": "T4.4 FPOD data capture",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a"
+  }
+}

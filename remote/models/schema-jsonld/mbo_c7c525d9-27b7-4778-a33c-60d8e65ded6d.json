@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Project Communications",
+  "description": "ERINN Innovation",
+  "email": "mathilde@erinn.eu",
+  "name": "Mathilde Vidal"
+}

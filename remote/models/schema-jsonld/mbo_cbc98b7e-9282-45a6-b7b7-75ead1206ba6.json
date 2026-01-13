@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cbc98b7e-9282-45a6-b7b7-75ead1206ba6",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Task 1.2 Contact",
+  "description": "Establish endorsed Essential Variable Data delivery",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

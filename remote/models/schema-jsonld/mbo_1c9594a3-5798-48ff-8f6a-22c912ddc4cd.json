@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1c9594a3-5798-48ff-8f6a-22c912ddc4cd",
+  "@type": "Place",
+  "description": "Lithuanian Exclusive Economic Zone (MRGID:5684). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_44f6f882-ef9b-4df3-b3e6-d689e4d4a45f"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "55.75616"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "20.36307"
+  },
+  "name": "Lithuanian EEZ"
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ace14210-a9a6-4ba5-a3de-4004587de4f5",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 6.3 Contact",
+  "description": "Knowledge Transfer resources tailored for the policy, industry, civil society and data/research stakeholder communities",
+  "name": "TBD"
+}

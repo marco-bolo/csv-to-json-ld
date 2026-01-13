@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 2.2 Contact",
+  "description": "Contact for D2.2 - Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring",
+  "email": "mads.jensen@uit.no",
+  "name": "Mads Reinholdt Jensen"
+}

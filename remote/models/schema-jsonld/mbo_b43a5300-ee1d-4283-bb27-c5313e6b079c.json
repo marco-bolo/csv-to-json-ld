@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b43a5300-ee1d-4283-bb27-c5313e6b079c",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Sea surface height, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Sea surface height",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17465"
+  }
+}

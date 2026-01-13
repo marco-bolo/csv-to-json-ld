@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_65599d55-81a8-470a-9e90-0f32a6298dc1",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Deliverable 1.3 Contact",
+  "description": "Final report, gap analysis, and demonstrators of digital exchange",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

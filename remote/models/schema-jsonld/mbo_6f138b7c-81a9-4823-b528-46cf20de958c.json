@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6f138b7c-81a9-4823-b528-46cf20de958c",
+  "@type": "Place",
+  "description": "Cypriot Exclusive Economic Zone (MRGID:8376). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_123aed77-9684-4e1c-b33f-43498f188ce2"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "34.48929"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "32.63526"
+  },
+  "name": "Cypriote EEZ"
+}

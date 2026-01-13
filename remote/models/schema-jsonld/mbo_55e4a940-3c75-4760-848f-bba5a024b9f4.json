@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4",
+  "@type": "CreateAction",
+  "abstract": "Report on effects of existing and future terrestrial and freshwater conservation areas on coastal and marine biodiversity",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+  },
+  "name": "MARCO-BOLO Deliverable 3.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+    }
+  ]
+}

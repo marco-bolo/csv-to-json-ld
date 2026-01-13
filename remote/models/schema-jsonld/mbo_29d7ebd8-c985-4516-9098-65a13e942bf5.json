@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_29d7ebd8-c985-4516-9098-65a13e942bf5",
+  "@type": "Person",
+  "familyName": "Exter",
+  "givenName": "Katrina",
+  "identifier": "https://oceanexpert.org/expert/58464",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

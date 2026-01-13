@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_46f530d1-0d2b-4d18-8b56-326af6e8a86f",
+  "@type": "Person",
+  "familyName": "Muller-Karger",
+  "givenName": "Frank",
+  "identifier": "https://oceanexpert.org/expert/1486"
+}

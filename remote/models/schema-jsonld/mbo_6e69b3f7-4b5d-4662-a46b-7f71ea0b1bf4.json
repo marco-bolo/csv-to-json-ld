@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6e69b3f7-4b5d-4662-a46b-7f71ea0b1bf4",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Sea ice, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Sea ice",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17464"
+  }
+}

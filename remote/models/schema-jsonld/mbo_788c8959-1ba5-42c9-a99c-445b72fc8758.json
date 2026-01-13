@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_788c8959-1ba5-42c9-a99c-445b72fc8758",
+  "@type": "DigitalDocument",
+  "alternateName": "Extraction Protocol for Sterivex Filters - eDNA Extraction Based on Qiagen DNeasy Blood & Tissue Kit",
+  "audience": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
+  },
+  "availableLanguage": "en",
+  "conditionsOfAccess": "Private - In revision",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2019-11",
+  "description": "Protocol for extracting environmental DNA (eDNA) from water samples collected on Sterivex filters, using the Qiagen DNeasy Blood & Tissue Kit. Includes detailed procedures for clean lab entry, filter processing, lysis, and DNA purification over a 2-day workflow.",
+  "identifier": "10.5281/zenodo.17552850",
+  "keywords": "eDNA; DNA extraction; Sterivex filters; Qiagen DNeasy; environmental DNA; water samples; marine genomics",
+  "name": "RGG DNA extraction protocol for water samples (eDNA)",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17552850"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17552850"
+    }
+  ],
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

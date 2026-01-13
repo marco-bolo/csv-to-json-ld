@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6d93fd0c-1e50-4c81-b138-b73996e49e5b",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "The wetlab protocols (i.e. library prep) used in support of WP2 Deliverable 2, dataset 2.",
+  "name": "Wetlab protocols for WP2 D2 DS2 [word doc to upload to Zenodo]",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

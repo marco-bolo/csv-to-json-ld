@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42",
+  "@type": "HowTo",
+  "description": "Data from echosounders turned into useful measurements",
+  "name": "T4.4 ecosounder data capture",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5f87eab9-8188-4db3-b5a6-c39055b51e30"
+  }
+}

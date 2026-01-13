@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3eb68bc9-72dc-4e97-a69a-172bfe2e86a1",
+  "@type": "Person",
+  "familyName": "Figueroa Ashforth",
+  "givenName": "Chloe",
+  "identifier": "https://oceanexpert.org/expert/56774",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c",
+  "@type": "CreateAction",
+  "abstract": "Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring in terms of study design, data analysis and sharing",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
+  "name": "MARCO-BOLO Deliverable 2.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a5633b6f-b657-446a-898d-47113d3b50b8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a",
+  "@type": "CreateAction",
+  "abstract": "T4.4 seatrial event: echo-sounder",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "description": "Colecting the acoustic data from the echo-sounders",
+  "name": "Multi-sensor biodiversity observations: sea trial ecosounder",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+  },
+  "result": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396"
+  }
+}

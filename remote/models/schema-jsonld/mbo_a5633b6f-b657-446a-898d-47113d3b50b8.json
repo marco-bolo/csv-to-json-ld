@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a5633b6f-b657-446a-898d-47113d3b50b8",
+  "@type": "CollegeOrUniversity",
+  "description": "The Arctic University of Norway",
+  "identifier": "https://ror.org/00wge5k78",
+  "keywords": "Arctic research, university, Norway",
+  "legalName": "Universitetet I Tromsoe - Norges Arktiske Universitet",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "UiT"
+}

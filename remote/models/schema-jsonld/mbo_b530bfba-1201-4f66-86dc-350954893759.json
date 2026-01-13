@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b530bfba-1201-4f66-86dc-350954893759",
+  "@type": "Place",
+  "description": "Portuguese Exclusive Economic Zone (MRGID:5688). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_50feab29-9e9d-4f17-a2ad-7ca72bf7edbe"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "38.31921"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-10.92284"
+  },
+  "name": "Portuguese EEZ"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 2.1 Contact",
+  "description": "Contact for D2.1 - Report on meta-analysis of the performance of eDNA-based approaches",
+  "email": "iveta.matejusova@gov.scot",
+  "name": "Iveta Matejusova"
+}

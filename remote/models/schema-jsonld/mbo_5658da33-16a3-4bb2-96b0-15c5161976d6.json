@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6",
+  "@type": "GovernmentOrganization",
+  "alternateName": "EC, Commission of the European Union, Commission européenne",
+  "description": "The European Commission is the executive branch of the European Union, responsible for proposing legislation, implementing decisions, upholding the EU treaties and managing the day-to-day business of the EU. The Commission operates as a cabinet government, with 27 members of the Commission (one from each member state) led by a President. It manages EU research and innovation funding programs including Horizon Europe.",
+  "schema:foundingDate": "1958-01-01",
+  "funding": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2"
+  },
+  "identifier": [
+    "https://www.wikidata.org/wiki/Q8880",
+    "https://isni.org/isni/0000000404559054",
+    "https://ror.org/00k4n6c32"
+  ],
+  "keywords": "European Union, EU institutions, research funding, Horizon Europe, policy making, innovation, public administration",
+  "legalName": "European Commission",
+  "name": "European Commission",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://ec.europa.eu"
+  }
+}

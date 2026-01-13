@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9d7f1b94-1a3e-4c49-b363-b4aec6dde2d8",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Sea surface temperature, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Sea surface temperature",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17466"
+  }
+}

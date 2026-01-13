@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_68e431e3-41e3-4d0d-87fc-2cffe7ef2acc",
+  "@type": "Place",
+  "description": "Latvian Exclusive Economic Zone (MRGID:5683). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_416b6ee2-16cb-4710-be29-161718c2ce53"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "57.10508"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "21.35288"
+  },
+  "name": "Latvian EEZ"
+}

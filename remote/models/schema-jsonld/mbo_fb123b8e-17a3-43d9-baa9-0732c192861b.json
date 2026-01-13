@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_fb123b8e-17a3-43d9-baa9-0732c192861b",
+  "@type": "ContactPoint",
+  "contactType": "Task 7.4 Contact",
+  "description": "Clustering activities with marine biodiversity projects and coordinating activities",
+  "name": "TBD"
+}

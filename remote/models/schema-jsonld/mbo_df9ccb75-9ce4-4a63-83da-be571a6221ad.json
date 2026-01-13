@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad",
+  "@type": "DataDownload",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
+  },
+  "name": "ESC68N EMO BON 12S/COI Metabarcoding",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.ebi.ac.uk/ena/browser/view/PRJEB98105"
+  }
+}

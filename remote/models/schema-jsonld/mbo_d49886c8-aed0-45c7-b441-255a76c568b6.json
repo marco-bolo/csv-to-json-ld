@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.2 Contact",
+  "description": "Application of integrative approaches on established biological indicators",
+  "name": "TBD"
+}

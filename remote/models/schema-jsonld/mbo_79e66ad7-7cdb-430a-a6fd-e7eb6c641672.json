@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672",
+  "@type": "ResearchProject",
+  "alternateName": "MBO WP3",
+  "description": "Linking Land and Sea Biodiversity Observation",
+  "keywords": "MARCO-BOLO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "MARCO-BOLO Work Package 3",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/work-packages/work-package-3-linking-land-and-sea-biodiversity-observation/"
+  }
+}

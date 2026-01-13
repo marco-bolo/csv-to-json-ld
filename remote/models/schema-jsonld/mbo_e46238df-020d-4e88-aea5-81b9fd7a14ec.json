@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e46238df-020d-4e88-aea5-81b9fd7a14ec",
+  "@type": "DigitalDocument",
+  "abstract": "This document serves as a reference for all the project members by: summarizing the goals and objectives of the project; detailing the project management and governance (organisational structure), roles and responsibilities of the participants; describing the main communication channels; highlighting the procedures and management tools implemented to ensure the successful completion of the project (schedule, reporting, financial guide, quality control, risk management). The guide is based on the terms and conditions agreed under the Grant and Consortium Agreements to help all partners comply with the agreements.",
+  "alternateName": "PMG",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_96cfdae4-68b2-4f0b-8bf5-462ce2ba91b9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_835c1cdb-aaaa-49f5-90c2-382a20476e5a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6d8e2152-3966-46b2-b7ef-4d147a581f2f"
+    }
+  ],
+  "availableLanguage": "en",
+  "conditionsOfAccess": "Public",
+  "contributor": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2c0b2598-5c3f-4024-8890-7d74f1f8d56f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c66b4684-7ce6-4830-902d-2656d0cc5c7c"
+    }
+  ],
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2023-05-31",
+  "schema:datePublished": "2023-05-31",
+  "description": "This deliverable outlines how major aspects of the MARCO-BOLO project are managed, monitored and controlled, including reporting, deliverables, finance, risks, and communication. It serves as a reference for all project members.",
+  "identifier": "Deliverable D7.1",
+  "keywords": "project management, marine biodiversity, coastal biodiversity, long-term observations, Horizon Europe, governance, consortium management, MARCO-BOLO, MBO",
+  "name": "MARCO-BOLO Project Management Guide",
+  "temporalCoverage": "2022-12-01/2026-11-30",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2023/06/MARCO-BOLO__D7.1_PMG_v1.0_31.05.23.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/, https://cordis.europa.eu/project/id/101082021/fr"
+    }
+  ],
+  "version": "1"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300",
+  "@type": "Organization",
+  "description": "United Nations agency for education, science and culture",
+  "identifier": "https://ror.org/04h4z8k05",
+  "keywords": "United Nations, education, science, culture, intergovernmental",
+  "legalName": "United Nations Educational Scientific And Cultural Organization",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "UNESCO"
+}

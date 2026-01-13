@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f",
+  "@type": "SoftwareApplication",
+  "schema:downloadUrl": {
+    "@type": "URL",
+    "@value": "https://echoview.com/products-and-services/echoview/"
+  },
+  "name": "Echoview software"
+}

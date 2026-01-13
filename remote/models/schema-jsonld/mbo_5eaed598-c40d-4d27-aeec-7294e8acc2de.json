@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de",
+  "@type": "Person",
+  "familyName": "Vidal",
+  "givenName": "Mathilde",
+  "identifier": "https://oceanexpert.org/expert/60642"
+}

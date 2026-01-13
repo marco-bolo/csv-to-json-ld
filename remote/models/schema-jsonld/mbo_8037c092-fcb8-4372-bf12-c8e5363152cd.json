@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd",
+  "@type": "ContactPoint",
+  "contactType": "Task 6.2 Contact",
+  "description": "Co-Design, Co-Creation and Stakeholder Consultation",
+  "name": "TBD"
+}

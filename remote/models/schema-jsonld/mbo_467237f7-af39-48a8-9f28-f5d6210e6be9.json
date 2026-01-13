@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_467237f7-af39-48a8-9f28-f5d6210e6be9",
+  "@type": "Place",
+  "description": "Bulgarian Exclusive Economic Zone (MRGID:5672). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f10a9565-331b-4443-9faf-047d074a6b96"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "42.93396"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "29.20165"
+  },
+  "name": "Bulgarian EEZ"
+}

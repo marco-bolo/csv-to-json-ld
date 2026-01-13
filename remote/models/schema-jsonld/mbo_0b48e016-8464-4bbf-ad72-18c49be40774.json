@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0b48e016-8464-4bbf-ad72-18c49be40774",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Project Coordination",
+  "description": "EMBRC-ERIC",
+  "email": "nicolas.pade@embrc.eu",
+  "name": "Nicholas Pade"
+}

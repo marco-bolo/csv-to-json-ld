@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f345740a-964d-44b2-b8df-7f0062c16df1",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "Study analyzing multidecadal biodiversity trends, containing 12 time series (2 birds, 1 fish, 8 invertebrates, 1 macroalgae)",
+  "name": "WP5 D5.1 Query: Pilotto et al. 2020",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.1038/s41467-020-17171-y"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

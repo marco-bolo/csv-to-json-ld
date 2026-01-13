@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e",
+  "@type": "ResearchOrganization",
+  "alternateName": "National Centre for Scientific Research (France)",
+  "identifier": "https://ror.org/03mxktp47",
+  "keywords": "research council, France",
+  "legalName": "Institut de Biologie de l'École Normale Supérieure; Centre National De La Recherche Scientifique Cnrs",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "IBENS-CNRS"
+}

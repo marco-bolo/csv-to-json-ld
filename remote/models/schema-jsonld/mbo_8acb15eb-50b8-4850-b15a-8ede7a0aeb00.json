@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8acb15eb-50b8-4850-b15a-8ede7a0aeb00",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Seagrass cover and composition, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Seagrass cover and composition",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17513"
+  }
+}

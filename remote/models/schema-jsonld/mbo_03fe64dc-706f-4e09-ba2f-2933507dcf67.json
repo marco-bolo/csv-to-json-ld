@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_03fe64dc-706f-4e09-ba2f-2933507dcf67",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.4 Contact",
+  "description": "Contact for D5.4 - Scientific document summarising the results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats",
+  "email": "matthias.obst@marine.gu.se",
+  "name": "Matthias Obst"
+}

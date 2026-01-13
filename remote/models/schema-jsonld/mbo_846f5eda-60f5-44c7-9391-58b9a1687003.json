@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_846f5eda-60f5-44c7-9391-58b9a1687003",
+  "@type": "Person",
+  "familyName": "Holdsworth",
+  "givenName": "Neil",
+  "identifier": "https://oceanexpert.org/expert/16535"
+}

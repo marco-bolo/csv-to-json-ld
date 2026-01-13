@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_242eda7c-bad2-42fb-b097-801f7497061d",
+  "@type": "GeoShape",
+  "box": "43.4398 28.52782 45.21284 31.40972",
+  "description": "Bounding Box of Romanian Exclusive Economic Zone (MRGID:5689). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Romanian EEZ Bounding Box"
+}

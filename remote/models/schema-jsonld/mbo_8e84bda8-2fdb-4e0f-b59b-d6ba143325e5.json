@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5",
+  "@type": "Person",
+  "familyName": "Cunliffe",
+  "givenName": "Michael",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+  }
+}

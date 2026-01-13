@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_be3919f4-9445-4fd5-8548-09e38200566f",
+  "@type": "CreateAction",
+  "abstract": "Report on a framework of guidelines and protocols for eDNA-based biodiversity observations",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
+  "name": "MARCO-BOLO Deliverable 2.5",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6ee05b75-ccfb-4faf-84ad-8bc656ffcf7c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+  "@type": "Vehicle",
+  "additionalType": {
+    "@id": "https://vocab.nerc.ac.uk/collection/L06/current/48/"
+  },
+  "alternateName": "mooring",
+  "category": "mooring",
+  "name": "multipurpose seabed lander"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2",
+  "@type": "DigitalDocument",
+  "alternateName": "DNA Amplification for Metabarcoding - CO1, 16s and 18s primers",
+  "audience": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
+  },
+  "availableLanguage": "en",
+  "conditionsOfAccess": "Private - In revision",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2020-01",
+  "description": "PCR setup protocol for DNA amplification targeting COI, 16S and 18S markers for metabarcoding. Designed for sequencing on MiSeq platform using AmpliTag Gold MasterMix. Includes detailed mastermix preparation, primer handling, and clean lab procedures.",
+  "identifier": "10.5281/zenodo.17590354",
+  "keywords": "metabarcoding; PCR; COI; 16S; 18S; MiSeq; AmpliTag Gold; DNA amplification; clean PCR lab",
+  "name": "RGG metabarcoding protocol for COI, 16S and 18S markers",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17590354"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17590354"
+    }
+  ],
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

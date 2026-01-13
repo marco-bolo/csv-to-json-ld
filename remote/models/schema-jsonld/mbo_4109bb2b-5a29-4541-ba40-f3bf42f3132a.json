@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4109bb2b-5a29-4541-ba40-f3bf42f3132a",
+  "@type": "ContactPoint",
+  "contactType": "Task 7.2 Contact",
+  "description": "Communication & Dissemination",
+  "name": "TBD"
+}

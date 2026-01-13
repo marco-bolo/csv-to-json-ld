@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c00d3466-a1b6-4c52-b5f2-de406c4a9ef9",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Project Management",
+  "description": "Head of data and information",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

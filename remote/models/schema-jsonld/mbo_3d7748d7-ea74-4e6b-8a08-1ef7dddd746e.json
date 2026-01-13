@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3d7748d7-ea74-4e6b-8a08-1ef7dddd746e",
+  "@type": "SoftwareApplication",
+  "schema:downloadUrl": {
+    "@type": "URL",
+    "@value": "https://www.chelonia.co.uk/f-pod/existing-user-resources/"
+  },
+  "name": "F-POD software"
+}

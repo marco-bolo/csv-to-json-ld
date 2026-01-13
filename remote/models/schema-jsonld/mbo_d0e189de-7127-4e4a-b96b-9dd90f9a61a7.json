@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d0e189de-7127-4e4a-b96b-9dd90f9a61a7",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "Fish database containing 5 time series",
+  "name": "WP5 D5.1 Query: FishGlob",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://fishglob.sites.ucsc.edu/"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

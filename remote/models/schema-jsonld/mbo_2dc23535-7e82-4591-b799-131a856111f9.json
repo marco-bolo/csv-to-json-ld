@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2dc23535-7e82-4591-b799-131a856111f9",
+  "@type": "GeoShape",
+  "box": "41.6297 13.00278 45.56495 18.54925",
+  "description": "Bounding Box of Croatian Exclusive Economic Zone (MRGID:5673). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Croatian EEZ Bounding Box"
+}

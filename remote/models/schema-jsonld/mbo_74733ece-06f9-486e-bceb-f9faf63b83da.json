@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_74733ece-06f9-486e-bceb-f9faf63b83da",
+  "@type": "CreateAction",
+  "abstract": "Project Management Guide",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "name": "MARCO-BOLO Deliverable 7.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+    }
+  ]
+}

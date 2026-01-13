@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a",
+  "@type": "ContactPoint",
+  "availableLanguage": [
+    "nl",
+    "en"
+  ],
+  "contactType": "FAIR data management",
+  "description": "FAIR data manager",
+  "email": "katrina.exter@vliz.be",
+  "name": "Katrina Exter"
+}

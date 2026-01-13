@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c",
+  "@type": "Person",
+  "familyName": "Mariani",
+  "givenName": "Patrizio"
+}

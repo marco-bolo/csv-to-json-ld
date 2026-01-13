@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a2e2e722-caf0-4013-8aac-a90e31f66835",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.7 Contact",
+  "description": "Project Data Management Plan Update 1",
+  "name": "TBD"
+}

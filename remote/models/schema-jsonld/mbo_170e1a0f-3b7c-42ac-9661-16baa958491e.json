@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_170e1a0f-3b7c-42ac-9661-16baa958491e",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 6.1 Contact",
+  "description": "Internal advisory document with stakeholder profiling information for the CoP",
+  "name": "TBD"
+}

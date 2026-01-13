@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d8693fbb-5fdd-4276-9038-dd95b9a36cd1",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "The sampling metadata collected and archived in support of WP2 Deliverable 2, dataset 2.",
+  "name": "Sampling metadata at a UiT Genomic Observatory (ESC68N)",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

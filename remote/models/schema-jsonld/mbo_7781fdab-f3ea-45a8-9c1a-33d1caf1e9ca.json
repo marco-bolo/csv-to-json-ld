@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7781fdab-f3ea-45a8-9c1a-33d1caf1e9ca",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Phytoplankton biomass and diversity, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Phytoplankton biomass and diversity",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17507"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e418799e-cb75-4d08-aaa1-8d76d005daae",
+  "@type": "DataDownload",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
+  },
+  "contentSize": "15MB",
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f1bdfd04-6da7-4d01-9d4c-77243b98d52d"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2024-01-01",
+  "schema:dateModified": [
+    "2025-04-04",
+    "2024-01-02"
+  ],
+  "schema:datePublished": "2025-01-01",
+  "description": "Some second title available in ZIP format.",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dfff77af-92db-4156-9d9b-9ef964878b36"
+  },
+  "encodingFormat": "application/zip",
+  "license": "https://w3id.org/marco-bolo/mbo_bd561eee-8b5a-4dd9-9046-a7bd18f99910",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+  },
+  "name": "Some second title (Zip)",
+  "sha256": "331c8768f99688e617c98593238b8423374ddfd5a04de899f89226be66d36249",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://example.com/some-file.csv"
+  },
+  "version": "1.0.0"
+}

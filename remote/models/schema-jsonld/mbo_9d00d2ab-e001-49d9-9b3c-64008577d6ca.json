@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca",
+  "@type": "HowTo",
+  "description": "Data from hydrophones turned into useful measurements",
+  "name": "T4.4 hydrophone data capture",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c"
+  }
+}

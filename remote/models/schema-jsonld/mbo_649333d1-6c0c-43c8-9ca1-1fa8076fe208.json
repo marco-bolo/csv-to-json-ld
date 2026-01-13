@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_649333d1-6c0c-43c8-9ca1-1fa8076fe208",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Macroalgal canopy cover and composition, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Macroalgal canopy cover and composition",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17515"
+  }
+}

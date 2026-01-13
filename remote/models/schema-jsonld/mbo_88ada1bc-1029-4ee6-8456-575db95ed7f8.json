@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_88ada1bc-1029-4ee6-8456-575db95ed7f8",
+  "@type": "Person",
+  "familyName": "D′Alelio",
+  "givenName": "Domenico"
+}

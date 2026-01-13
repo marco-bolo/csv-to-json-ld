@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_41d40a19-0f84-4592-aa33-9233455eedb4",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "Phytoplankton monitoring database containing 89 time series",
+  "name": "WP5 D5.1 Query: REPHY",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.seanoe.org/data/00361/47248/"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

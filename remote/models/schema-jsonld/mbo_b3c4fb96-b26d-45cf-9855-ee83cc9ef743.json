@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743",
+  "@type": "ResearchOrganization",
+  "description": "National Research Council of Italy",
+  "identifier": "https://ror.org/04zaypm56",
+  "keywords": "research council, Italy",
+  "legalName": "Consiglio Nazionale Delle Ricerche",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "CNR"
+}

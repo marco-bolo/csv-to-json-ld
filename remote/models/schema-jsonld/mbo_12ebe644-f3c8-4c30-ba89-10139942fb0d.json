@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d",
+  "@type": "CreateAction",
+  "abstract": "Project Data Management Plan Update 1",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "name": "MARCO-BOLO Deliverable 7.7",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    }
+  ]
+}

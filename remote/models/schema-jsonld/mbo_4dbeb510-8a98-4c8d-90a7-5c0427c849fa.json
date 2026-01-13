@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4dbeb510-8a98-4c8d-90a7-5c0427c849fa",
+  "@type": "GeoShape",
+  "box": "34.21329 13.41697 36.5124 17.49726",
+  "description": "Bounding Box of Maltese Exclusive Economic Zone (MRGID:5685). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "Maltese EEZ Bounding Box"
+}

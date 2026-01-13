@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970",
+  "@type": "ResearchOrganization",
+  "description": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research",
+  "schema:foundingDate": "1980-07-15",
+  "identifier": "https://ror.org/032e6b942",
+  "keywords": "polar research, marine research, Helmholtz, Germany",
+  "legalName": "Alfred-Wegener-Institut Helmholtz-Zentrum Fur Polar- Und Meeresforschung",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "AWI"
+}

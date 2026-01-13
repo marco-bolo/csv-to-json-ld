@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53",
+  "@type": "CreateAction",
+  "abstract": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "name": "MARCO-BOLO Deliverable 6.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    }
+  ]
+}

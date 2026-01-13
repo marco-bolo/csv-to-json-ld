@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 3.4 Contact",
+  "description": "Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity",
+  "email": "adacri@gmail.com",
+  "name": "Mihai Adamescu"
+}

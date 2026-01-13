@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d17824a5-40bf-478f-9a89-c33c5d733870",
+  "@type": "DigitalDocument",
+  "abstract": "Work package 2 (WP2) of the MARCO-BOLO project focused on validating and enabling environmental DNA (eDNA)-based approaches for biodiversity monitoring in aquatic and terrestrial systems. In task 2.2, these objectives were met by exploration and comparison of databases, software and bioinformatic pipelines, aiming to facilitate the implementation of eDNA-based monitoring. Under this task, we reviewed the literature and here provide a comprehensive overview of widely used primer sets for eDNA metabarcoding, pipelines run for different marker genes, and reference databases used to assign taxonomy. Next, we conducted a comparison of bioinformatic pipelines for two types of metabarcoding data (18S and 12S), inviting people around the world to contribute results from running their respective pipelines on the same dataset(s).",
+  "alternateName": "WP2 D2",
+  "audience": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+  },
+  "availableLanguage": "en",
+  "description": "Final report on set of databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring in terms of study design, data analysis and sharing",
+  "identifier": "Deliverable D2",
+  "license": "https://w3id.org/marco-bolo/mbo_bd561eee-8b5a-4dd9-9046-a7bd18f99910",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+  },
+  "name": "Deliverable 2.2  Final report on set of databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring in terms of study design, data analysis and sharing",
+  "https://w3id.org/marco-bolo/inProgressDate": "2025-11-31"
+}

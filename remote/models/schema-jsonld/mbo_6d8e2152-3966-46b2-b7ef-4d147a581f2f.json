@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6d8e2152-3966-46b2-b7ef-4d147a581f2f",
+  "@type": "Person",
+  "familyName": "Vasic",
+  "givenName": "Alexandra",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+  }
+}

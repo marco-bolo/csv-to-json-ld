@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e",
+  "@type": "Person",
+  "familyName": "Provoost",
+  "givenName": "Pieter",
+  "identifier": "https://oceanexpert.org/expert/26192"
+}

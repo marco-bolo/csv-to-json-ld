@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_91b774cf-c5a4-4eab-aeb0-8814b291938f",
+  "@type": "ContactPoint",
+  "contactType": "Task 4.4 Contact",
+  "description": "Multi-sensor biodiversity observations",
+  "name": "TBD"
+}

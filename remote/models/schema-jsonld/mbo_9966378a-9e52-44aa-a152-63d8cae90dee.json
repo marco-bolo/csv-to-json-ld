@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9966378a-9e52-44aa-a152-63d8cae90dee",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "This is the parent dataset to be used when creating primary publications for WP2 Deliverable 2, dataset 2.",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+  },
+  "name": "EMO BON UiT Genomic observatory 12S MiFish + COI Leray-XT",
+  "temporalCoverage": "2021-08-17/2024-08-29",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_94a6e541-bf92-44b5-8bba-09336811a089",
+  "@type": "CreateAction",
+  "abstract": "The sea trials carried out for Task 4.4",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "description": "Carry out the sea trial part of for Task 4.4: collecting the data from the different sensors during a sea trial event. These data will contribute to the blueprint for the integration of multiple environmental and biodiversity sensors on fixed and mobile observatories to understand biodiversity change over time and space. The fixed platform will combine acoustic (hydrophones, echo-sounders, telemetry), imaging (in-situ microscopy) and eDNA sampling tools on a single frame to detect micro to macro-organisms.",
+  "name": "Multi-sensor biodiversity observations: sea trial",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+    }
+  ],
+  "result": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557",
+  "@type": "Person",
+  "familyName": "Præbel",
+  "givenName": "Kim",
+  "identifier": "https://oceanexpert.org/expert/39344",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7f3896d1-5d7b-4019-96af-22a7dc519670"
+  }
+}

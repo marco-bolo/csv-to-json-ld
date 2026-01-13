@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b9f599f8-c228-42cb-a057-fdb029ff274e",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 3.3 Contact",
+  "description": "Contact for D3.3 - Chains of effects and connectivity points and how these effects are reflected by biodiversity assessment results along the Land-River-Sea continuum",
+  "email": "lili.hufnagel@ufz.de",
+  "name": "Lili Hufnagel"
+}

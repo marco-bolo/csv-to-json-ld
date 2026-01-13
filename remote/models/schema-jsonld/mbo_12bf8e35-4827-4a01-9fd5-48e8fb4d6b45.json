@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_12bf8e35-4827-4a01-9fd5-48e8fb4d6b45",
+  "@type": "PropertyValue",
+  "description": "Essential Biodiversity Variable class covering spatial distribution, cover and vertical structure of ecosystems.",
+  "name": "Ecosystem Structure"
+}

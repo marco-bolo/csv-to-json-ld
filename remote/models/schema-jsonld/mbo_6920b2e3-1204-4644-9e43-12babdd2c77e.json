@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6920b2e3-1204-4644-9e43-12babdd2c77e",
+  "@type": "Person",
+  "familyName": "Muyle",
+  "givenName": "Julie",
+  "identifier": "https://orcid.org/0000-0002-7481-0626",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

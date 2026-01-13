@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_68622e77-47f7-484b-a5f9-aae5401f48cd",
+  "@type": "Dataset",
+  "conditionsOfAccess": "Open",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "description": "Marine Regions is a standard list of marine georeferenced place names and areas maintained by the Flanders Marine Institute (VLIZ). It integrates the VLIMAR Gazetteer with the Maritime Boundaries Geodatabase, providing comprehensive information on marine geographic locations including seas, ocean basins, sandbanks, ridges, and maritime boundaries such as Exclusive Economic Zones (EEZs). Each geographic feature is assigned a unique and persistent identifier (MRGID) for consistent reference across marine research and data management systems.",
+  "name": "Marine Regions",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b9ae39f4-0890-4303-bdd7-6828beea2411"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marineregions.org/"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

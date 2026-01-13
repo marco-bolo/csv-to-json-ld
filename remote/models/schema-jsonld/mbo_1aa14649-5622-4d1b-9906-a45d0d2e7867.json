@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867",
+  "@type": "Person",
+  "familyName": "Matejusová",
+  "givenName": "Iveta"
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_08eaa52d-7cef-4def-bb32-8c84e3e59aec",
+  "@type": "Person",
+  "familyName": "Mtwana Nordlund",
+  "givenName": "Lina",
+  "identifier": "https://oceanexpert.org/expert/55557"
+}

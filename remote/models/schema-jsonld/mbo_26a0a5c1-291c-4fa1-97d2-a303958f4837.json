@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_26a0a5c1-291c-4fa1-97d2-a303958f4837",
+  "@type": "ContactPoint",
+  "contactType": "Task 2.1 Contact",
+  "description": "Meta-analysis of technical and practical aspects of current eDNA approaches",
+  "name": "TBD"
+}

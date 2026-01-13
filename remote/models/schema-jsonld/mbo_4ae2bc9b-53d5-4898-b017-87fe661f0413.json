@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4ae2bc9b-53d5-4898-b017-87fe661f0413",
+  "@type": "ArchiveOrganization",
+  "name": "European Nucleotide Archive"
+}

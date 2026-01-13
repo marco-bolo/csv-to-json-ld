@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0",
+  "@type": "CreateAction",
+  "abstract": "Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling.",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
+  "name": "MARCO-BOLO Deliverable 5.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    }
+  ]
+}

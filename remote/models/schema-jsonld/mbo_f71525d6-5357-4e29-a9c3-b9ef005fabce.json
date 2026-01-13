@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f71525d6-5357-4e29-a9c3-b9ef005fabce",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Nitrous oxide, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Nitrous oxide",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17478"
+  }
+}

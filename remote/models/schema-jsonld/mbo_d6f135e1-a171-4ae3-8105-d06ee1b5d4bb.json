@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d6f135e1-a171-4ae3-8105-d06ee1b5d4bb",
+  "@type": "Dataset",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+  },
+  "conditionsOfAccess": "Open",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2021-02",
+  "description": "Raw eDNA metabarcoding data targeting 18S-V9 (eukaryotes) from Western Channel Observatory site L4; 20-year timeseries: 2001-2021",
+  "keywords": [
+    " eDNA",
+    "plankton "
+  ],
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
+  },
+  "name": "L4_timeseries_18S_V9",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_df43590b-3ef7-4e9a-8e22-9ef242a55cd8"
+  },
+  "temporalCoverage": "2001-02/2021-02",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0bad93de-0498-49d8-90ca-3079174513f2",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Task 1.1 Contact",
+  "description": "Coordinate and advance standardised and quality-controlled data flows into regional and international long-term archives",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

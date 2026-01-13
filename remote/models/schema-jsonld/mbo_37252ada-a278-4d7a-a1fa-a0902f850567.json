@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567",
+  "@type": "ResearchOrganization",
+  "description": "National Institute for Marine Geology and Geoecology",
+  "identifier": "https://ror.org/02qs41y18",
+  "keywords": "marine geology, geoecology, Romania",
+  "legalName": "Ar Institutul National De Cercetare-Dezvoltare Pentru Geologie Si Geoecologie Marina Geoecomar",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "GEOECOM"
+}

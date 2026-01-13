@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a1345a2d-b4f8-4b5e-b273-c132263b5205",
+  "@type": "ContactPoint",
+  "contactType": "Task 2.2 Contact",
+  "description": "Tuning and integration of current resources and technologies for eDNA, PCR-based monitoring",
+  "name": "TBD"
+}

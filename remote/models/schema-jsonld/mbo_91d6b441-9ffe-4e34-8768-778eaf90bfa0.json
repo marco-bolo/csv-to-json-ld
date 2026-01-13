@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_91d6b441-9ffe-4e34-8768-778eaf90bfa0",
+  "@type": "Person",
+  "familyName": "McQuatters-Gollop",
+  "givenName": "Abigail",
+  "identifier": "https://oceanexpert.org/expert/62379"
+}

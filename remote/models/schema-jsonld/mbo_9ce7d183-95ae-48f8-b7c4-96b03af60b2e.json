@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Project Management",
+  "description": "EMBRC-ERIC",
+  "email": "giulia.vecchi@embrc.eu",
+  "name": "Giulia Vecchi"
+}

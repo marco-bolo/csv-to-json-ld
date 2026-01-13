@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae",
+  "@type": "CollegeOrUniversity",
+  "description": "Technical University of Denmark",
+  "identifier": "https://ror.org/04qtj9h94",
+  "keywords": "technical university, Denmark",
+  "legalName": "Danmarks Tekniske Universitet",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "DTU"
+}

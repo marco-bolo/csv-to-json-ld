@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2c020eb8-6861-4454-b8e1-18114044f18c",
+  "@type": "Person",
+  "familyName": "Oggioni",
+  "givenName": "Alessandro",
+  "identifier": "https://oceanexpert.org/expert/27395"
+}

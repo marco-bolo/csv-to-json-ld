@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2e224b07-ddd2-4e4b-89ce-8a42f39a4e89",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Task 1.3 Contact",
+  "description": "Establish robust data flows into European biodiversity monitoring systems",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

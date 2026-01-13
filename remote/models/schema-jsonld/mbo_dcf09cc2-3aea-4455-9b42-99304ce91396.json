@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396",
+  "@type": "Dataset",
+  "description": "Task 4.4 echosounder processed data: RAW files to NASC files being echograms",
+  "name": "T4.4 Echosounder raw data",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

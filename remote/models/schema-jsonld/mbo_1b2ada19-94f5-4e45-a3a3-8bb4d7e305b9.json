@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1b2ada19-94f5-4e45-a3a3-8bb4d7e305b9",
+  "@type": "Person",
+  "familyName": "Alric",
+  "givenName": "Benjamin"
+}

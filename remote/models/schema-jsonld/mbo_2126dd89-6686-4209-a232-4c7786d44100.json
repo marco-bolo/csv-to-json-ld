@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2126dd89-6686-4209-a232-4c7786d44100",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 3.3 Contact",
+  "description": "Contact for D3.3 - Chains of effects and connectivity points and how these effects are reflected by biodiversity assessment results along the Land-River-Sea continuum",
+  "email": "markus.weitere@ufz.de",
+  "name": "Markus Weitere"
+}

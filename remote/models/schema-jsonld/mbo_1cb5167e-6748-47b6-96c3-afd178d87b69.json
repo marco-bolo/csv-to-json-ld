@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1cb5167e-6748-47b6-96c3-afd178d87b69",
+  "@type": "CreateAction",
+  "abstract": "Action for general testing of database components.",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
+  "name": "General Testing"
+}

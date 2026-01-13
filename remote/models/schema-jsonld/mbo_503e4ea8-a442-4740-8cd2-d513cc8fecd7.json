@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7",
+  "@type": "PropertyValue",
+  "description": "Statement of whether a biological entity (identified elsewhere in the data or metadata) is present (1) or absent (0)",
+  "name": "Biological entity presence or absence",
+  "propertyID": {
+    "@id": "https://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/"
+  }
+}

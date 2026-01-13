@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6b8b55f3-2bb6-46b2-b7ad-dd2355226ac0",
+  "@type": "Person",
+  "familyName": "Heynderickx",
+  "givenName": "Hanneloor",
+  "identifier": "https://oceanexpert.org/expert/61691",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

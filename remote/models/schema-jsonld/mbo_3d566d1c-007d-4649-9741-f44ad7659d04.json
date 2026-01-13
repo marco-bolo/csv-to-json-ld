@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3d566d1c-007d-4649-9741-f44ad7659d04",
+  "@type": "GeoShape",
+  "box": "56.08599 -0.4907 74.50483 36.47626",
+  "description": "Bounding Box of Norwegian Exclusive Economic Zone (MRGID:5686). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "name": "NorwegianEEZ Bounding Box"
+}

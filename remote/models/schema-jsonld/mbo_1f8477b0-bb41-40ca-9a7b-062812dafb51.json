@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1f8477b0-bb41-40ca-9a7b-062812dafb51",
+  "@type": "ResearchOrganization",
+  "description": "Anton Dohrn Zoological Station",
+  "identifier": "https://ror.org/03v5jj203",
+  "keywords": "zoological station, marine biology, Italy",
+  "legalName": "Stazione Zoologica Anton Dohrn",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "SZN"
+}

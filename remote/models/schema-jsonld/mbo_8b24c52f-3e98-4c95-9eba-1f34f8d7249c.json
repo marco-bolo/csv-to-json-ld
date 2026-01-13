@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8b24c52f-3e98-4c95-9eba-1f34f8d7249c",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Subsurface temperature, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Subsurface temperature",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17467"
+  }
+}

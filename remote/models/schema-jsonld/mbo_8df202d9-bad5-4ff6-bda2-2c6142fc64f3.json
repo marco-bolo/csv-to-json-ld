@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3",
+  "@type": "Person",
+  "familyName": "Di Cioccio",
+  "givenName": "Davide",
+  "identifier": "https://oceanexpert.org/expert/39481"
+}

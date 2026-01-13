@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1235bc4e-e431-4418-aced-926778b8a552",
+  "@type": "CreateAction",
+  "abstract": "Multi-sensor biodiversity observations",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "name": "MARCO BOLO Task 4.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"
+    }
+  ]
+}

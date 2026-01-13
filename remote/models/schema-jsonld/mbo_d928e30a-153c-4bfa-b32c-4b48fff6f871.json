@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d928e30a-153c-4bfa-b32c-4b48fff6f871",
+  "@type": "GeoShape",
+  "box": "51.406450 2.818500 51.406667 2.819000",
+  "description": "Point of the hydrophone sea trial for Task 4.4 sea trial",
+  "name": "Belgium EEZ Task 4.4 hydrophone"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609",
+  "@type": "ResearchProject",
+  "alternateName": "MBO WP7",
+  "description": "Project Management, Linkages and Communication",
+  "keywords": "MARCO-BOLO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "MARCO-BOLO Work Package 7",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/work-packages/work-package-7-project-management-linkages-and-communication/"
+  }
+}

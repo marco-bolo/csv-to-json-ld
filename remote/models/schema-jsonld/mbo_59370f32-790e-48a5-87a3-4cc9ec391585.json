@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.3 Contact",
+  "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
+  "email": "torralba@us.es",
+  "name": "Antonio Torralba Silgado"
+}

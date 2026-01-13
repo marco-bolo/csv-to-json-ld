@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_47ef59f6-2db1-40a7-b96d-f0770f5e03e0",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Fish abundance and distribution, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Fish abundance and distribution",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17510"
+  }
+}

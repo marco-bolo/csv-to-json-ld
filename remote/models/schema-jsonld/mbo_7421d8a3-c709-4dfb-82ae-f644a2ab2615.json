@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7421d8a3-c709-4dfb-82ae-f644a2ab2615",
+  "@type": "Person",
+  "familyName": "Constantinescu",
+  "givenName": "Adriana",
+  "identifier": "https://oceanexpert.org/expert/59077"
+}

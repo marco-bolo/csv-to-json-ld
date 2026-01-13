@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dc055a2d-ed2c-4d4a-9f37-0a5116840ed3",
+  "@type": "Person",
+  "familyName": "Lips",
+  "givenName": "Inga",
+  "identifier": "https://oceanexpert.org/expert/7925"
+}

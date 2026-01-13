@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_770fc6bf-8b6b-4b34-a346-adaa25e785f7",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.6 Contact",
+  "description": "Online reproducible workflows and associated user manual for key analytical processes in the WP5 use cases",
+  "name": "TBD"
+}

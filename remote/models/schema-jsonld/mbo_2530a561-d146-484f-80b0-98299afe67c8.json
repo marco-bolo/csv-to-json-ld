@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8",
+  "@type": "Person",
+  "familyName": "Sousa Pinto",
+  "givenName": "Isabel",
+  "identifier": "https://oceanexpert.org/expert/23935"
+}

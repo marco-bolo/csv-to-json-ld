@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db",
+  "@type": "Researcher",
+  "audienceType": "All personnel working on the MARCO-BOLO project.",
+  "name": "MARCO-BOLO"
+}

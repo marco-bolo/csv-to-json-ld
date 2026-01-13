@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_040619d9-32e0-434f-9387-92a236a1a794",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "Data from: mbo_46297fcb-c86c-42cc-9b54-05f128dcf5a1 mbo_2138a351-8473-4824-a6cc-1e463149002d mbo_f5f58d71-069c-4dfe-bd15-532157660b95 mbo_41d40a19-0f84-4592-aa33-9233455eedb4 mbo_c6942103-8dde-4a9c-a47e-cf265fefb165",
+  "name": "WP5 D5.1: European Coastal and Marine Phytoplankton Time Series Dataset",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

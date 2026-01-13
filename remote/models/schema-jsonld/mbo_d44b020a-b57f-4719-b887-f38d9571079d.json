@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d44b020a-b57f-4719-b887-f38d9571079d",
+  "@type": "CreateAction",
+  "abstract": "Report summarising Knowledge Transfer Activities (transfer plans per key result/knowledge output, resources developed, transfer activity, measurement of uptake and outcomes achieved)",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "name": "MARCO-BOLO Deliverable 6.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+    }
+  ]
+}

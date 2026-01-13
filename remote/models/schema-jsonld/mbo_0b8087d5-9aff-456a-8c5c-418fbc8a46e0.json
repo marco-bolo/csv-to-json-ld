@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0b8087d5-9aff-456a-8c5c-418fbc8a46e0",
+  "@type": "Place",
+  "description": "French Exclusive Economic Zone (MRGID:5677). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4190d3b7-3f61-4566-b8bd-500f5a7f679f"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "46.07075"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-1.9613"
+  },
+  "name": "French EEZ"
+}

@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Eukaryota"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "domain"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Family"
+        }
+      ],
+      "identifier": "col:CS5HF",
+      "name": "Eukaryota"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Undefined"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      },
+      "value": "accepted"
+    }
+  ]
+}

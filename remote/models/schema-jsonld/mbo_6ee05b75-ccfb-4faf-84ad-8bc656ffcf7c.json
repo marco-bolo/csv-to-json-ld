@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6ee05b75-ccfb-4faf-84ad-8bc656ffcf7c",
+  "@type": "CollegeOrUniversity",
+  "description": "Sorbonne University",
+  "identifier": "https://ror.org/02en5vm52",
+  "keywords": "university, France",
+  "legalName": "Sorbonne Universite",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "SU"
+}

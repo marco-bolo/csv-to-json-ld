@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b",
+      "@type": "MonetaryGrant",
+      "amount": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b#MonetaryAmount"
+      },
+      "description": "UK funding for Marine Biological Association (MBA) participation in MARCO-BOLO project under UKRI's Horizon Europe Guarantee scheme.",
+      "funder": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
+      },
+      "name": "UKRI Horizon Europe Guarantee Grant No. 10063994",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://gtr.ukri.org/projects?ref=10068180"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_19cd9c6d-5654-4cce-91b9-acb102faf15d",
+  "@type": "CreateAction",
+  "abstract": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+  },
+  "name": "MARCO-BOLO Deliverable 3.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+    }
+  ]
+}

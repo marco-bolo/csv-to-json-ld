@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2a878be6-accc-4e20-853f-d577cb11533b",
+  "@type": "ContactPoint",
+  "contactType": "Task 4.1 Contact",
+  "description": "Autonomy for mapping biodiversity characteristics",
+  "name": "TBD"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c97a379a-ecbd-4570-8bab-f2b34c09238e",
+  "@type": "Place",
+  "description": "German Exclusive Economic Zone (MRGID:5669). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_49d73e04-f33f-4188-99e3-77257d89f9ea"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.55382"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.39609"
+  },
+  "name": "German EEZ"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5",
+  "@type": "ProfessionalService",
+  "description": "Innovation and consultancy services",
+  "keywords": "innovation, consultancy, Ireland",
+  "legalName": "Erinn Innovation Limited",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "ERINN"
+}

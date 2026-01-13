@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_92645ff8-d30e-4088-9bee-6f135eb6cc9a",
+  "@type": "Place",
+  "description": "Dutch Exclusive Economic Zone (MRGID:5668). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_72cfa85b-be45-428f-a8ec-ce5539415045"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.61335"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "4.18649"
+  },
+  "name": "Dutch EEZ"
+}

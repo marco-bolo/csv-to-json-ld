@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e",
+  "@type": "ResearchOrganization",
+  "description": "University of Gothenburg",
+  "identifier": "https://ror.org/01tm6cn81",
+  "keywords": "university, Sweden",
+  "legalName": "Goeteborgs Universitet",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "UGOT",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.gu.se/en/biological-environmental-sciences"
+  }
+}

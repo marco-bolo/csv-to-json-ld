@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.2 Contact",
+  "description": "Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions",
+  "email": "pat@aqua.dtu.dk",
+  "name": "Patrizio Mariani"
+}

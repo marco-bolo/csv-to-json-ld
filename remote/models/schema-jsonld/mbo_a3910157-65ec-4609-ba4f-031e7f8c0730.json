@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730",
+  "@type": "CreateAction",
+  "abstract": "Filling in the geography of the data collected for task 3.3",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
+  },
+  "name": "MARCO-BOLO Deliverable 3.3"
+}

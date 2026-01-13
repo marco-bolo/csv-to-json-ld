@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c1898930-b643-4212-93ce-49b4a08c05b2",
+  "@type": "Place",
+  "description": "Norwegian Exclusive Economic Zone (MRGID:5686). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_3d566d1c-007d-4649-9741-f44ad7659d04"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "68.17846"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "14.0013"
+  },
+  "name": "Norway EEZ"
+}

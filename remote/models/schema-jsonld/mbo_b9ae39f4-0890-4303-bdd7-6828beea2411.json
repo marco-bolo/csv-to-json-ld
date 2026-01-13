@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b9ae39f4-0890-4303-bdd7-6828beea2411",
+  "@type": "Place",
+  "description": "All marine regions on earth.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4c7dac0f-e981-4f42-930f-d3d77040cae6"
+  },
+  "name": "Global Oceans"
+}

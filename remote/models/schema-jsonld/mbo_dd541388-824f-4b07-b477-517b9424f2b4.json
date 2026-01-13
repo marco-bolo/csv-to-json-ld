@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.1 Contact",
+  "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+  "email": "s.giering@noc.ac.uk",
+  "name": "Sari Giering"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ec8d7e28-d77c-49c5-90bb-7c76b0f165d0",
+  "@type": "CreateAction",
+  "abstract": "Digital synthesis, gap analysis, and sustainability",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
+  "name": "MARCO BOLO Task 1.4",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837",
+  "@type": "CreateAction",
+  "abstract": "Filling in the people and organisations for task 3.3",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
+  },
+  "name": "MARCO-BOLO Deliverable 3.3"
+}

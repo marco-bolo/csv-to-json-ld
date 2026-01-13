@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9",
+  "@type": "CreateAction",
+  "abstract": "T4.4 seatrial event: hydrophones",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "description": "Collecting the acoustic data from the hydrophones",
+  "name": "Multi-sensor biodiversity observations: sea trial hydrophone",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+  },
+  "result": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7639e3de-0ac6-429b-8f50-55b5942c4a45"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.5 Contact",
+  "description": "Portfolio of tools and activities to promote MBO",
+  "name": "TBD"
+}

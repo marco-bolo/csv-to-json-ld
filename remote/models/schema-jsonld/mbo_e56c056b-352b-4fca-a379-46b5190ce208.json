@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.3 Contact",
+  "description": "Spatial mapping of Blue Carbon benefits",
+  "name": "TBD"
+}

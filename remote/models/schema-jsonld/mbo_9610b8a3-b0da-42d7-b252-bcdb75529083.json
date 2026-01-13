@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083",
+  "@type": "Person",
+  "familyName": "Nowé",
+  "givenName": "Jo-Hannes",
+  "identifier": "https://orcid.org/0009-0000-1555-5867",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

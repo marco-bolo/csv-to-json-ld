@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4668c1fc-e9d4-44ee-842a-d2a15187111f",
+  "@type": "Place",
+  "description": "Irish Exclusive Economic Zone (MRGID:5681). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1de88868-6067-4d6b-bffb-6cde0f63d704"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "52.65304"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-11.75544"
+  },
+  "name": "Irish EEZ"
+}

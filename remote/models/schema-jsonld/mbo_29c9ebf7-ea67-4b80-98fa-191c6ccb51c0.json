@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0",
+  "@type": "DigitalDocument",
+  "abstract": "Observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems",
+  "alternateName": "HORIZON-CL6-2022-BIODIV-01-01",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
+  },
+  "availableLanguage": "en",
+  "conditionsOfAccess": "Public",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
+  },
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2021",
+  "schema:datePublished": "2021",
+  "description": "Call for proposals topic focusing on observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems. This topic funded the MARCO-BOLO project (Grant Agreement 101082021) among other projects. The call aimed to structure and strengthen European coastal and marine biodiversity observation capabilities, linking them to global efforts to understand and restore ocean health.",
+  "identifier": "HORIZON-CL6-2022-BIODIV-01-01",
+  "keywords": "biodiversity observation, marine ecosystems, coastal ecosystems, biodiversity mapping, Horizon Europe, research funding, call for proposals",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
+  },
+  "name": "Horizon Europe Work Programme 2021-2027 - Cluster 6: Food, Bioeconomy Natural Resources, Agriculture and Environment - Topic HORIZON-CL6-2022-BIODIV-01-01",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
+  },
+  "temporalCoverage": "2021/2027",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01, https://cordis.europa.eu/programme/id/HORIZON_HORIZON-CL6-2022-BIODIV-01-01"
+    }
+  ],
+  "version": "2021-2022"
+}

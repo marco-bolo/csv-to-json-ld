@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2138a351-8473-4824-a6cc-1e463149002d",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "Time series database, 0 time series met inclusion criteria",
+  "name": "WP5 D5.1 Query: COPEPOD",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.st.nmfs.noaa.gov/copepod/"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

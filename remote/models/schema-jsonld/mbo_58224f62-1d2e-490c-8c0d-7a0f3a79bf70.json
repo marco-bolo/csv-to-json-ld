@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70",
+  "@type": "Person",
+  "familyName": "Beja",
+  "givenName": "Joana",
+  "identifier": "https://oceanexpert.org/expert/28269"
+}

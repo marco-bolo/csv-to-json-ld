@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bc9c2431-72f4-474b-8d72-69a646a0d43f",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.1 Contact",
+  "description": "Detection and analyses of biodiversity trends",
+  "name": "TBD"
+}

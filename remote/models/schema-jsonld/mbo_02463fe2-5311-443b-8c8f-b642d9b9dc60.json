@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60",
+  "@type": "CreateAction",
+  "abstract": "Joint action report – Report on the joint actions, communication & exploitation products and activities, targeting end-users of common interest, and update of D7.4",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "name": "MARCO-BOLO Deliverable 7.6",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+    }
+  ]
+}

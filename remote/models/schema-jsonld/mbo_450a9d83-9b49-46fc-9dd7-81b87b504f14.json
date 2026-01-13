@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 7.3 Contact",
+  "description": "The MBO Best Practices for Biodiversity Observation",
+  "name": "TBD"
+}

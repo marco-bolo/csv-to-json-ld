@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4",
+  "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
+  },
+  "familyName": "Barry",
+  "givenName": "Rob",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_eeb7ee83-d64f-4dbc-adde-f0f20cba1259",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "The bioinformatics pipeline used to QA/QC, denoise, assign taxonomy, etc. in support of WP2 Deliverable 2, dataset 2.",
+  "name": "[MetaBARFLOW: https://github.com/evaegelyng/MetaBarFlow/tree/master;https://doi.org/10.5281/zenodo.7023055] Bioinformatics for WP2 D2 DS2",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://github.com/evaegelyng/MetaBarFlow/tree/master"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

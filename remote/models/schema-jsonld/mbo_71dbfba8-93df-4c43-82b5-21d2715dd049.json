@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049",
+  "@type": "CollegeOrUniversity",
+  "description": "University of Seville",
+  "identifier": "https://ror.org/03yxnpp24",
+  "keywords": "university, Spain",
+  "legalName": "Universidad De Sevilla",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "USE"
+}

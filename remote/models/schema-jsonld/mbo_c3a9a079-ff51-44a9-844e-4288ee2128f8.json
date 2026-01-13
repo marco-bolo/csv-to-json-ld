@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+    }
+  ],
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "Compiled dataset of 2,359 time series containing 552,475 observations of 4,718 coastal and marine taxa across 2,246 sites, organized by six biotic groups (birds, fish, invertebrates, macroalgae, phytoplankton, zooplankton)",
+  "name": "WP5 D5.1: European Coastal and Marine Biotic Groups Time Series Dataset",
+  "temporalCoverage": "1956/2022",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

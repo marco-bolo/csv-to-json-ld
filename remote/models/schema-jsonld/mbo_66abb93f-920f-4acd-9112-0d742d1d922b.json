@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_66abb93f-920f-4acd-9112-0d742d1d922b",
+  "@type": "CreateAction",
+  "abstract": "Autonomy for mapping biodiversity characteristics",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "name": "MARCO BOLO Task 4.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"
+    }
+  ]
+}

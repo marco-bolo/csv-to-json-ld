@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd",
+  "@type": "ResearchOrganization",
+  "description": "Helmholtz Centre for Environmental Research",
+  "identifier": "https://ror.org/000h6jb29",
+  "keywords": "environmental research, Helmholtz, Germany",
+  "legalName": "Helmholtz-Zentrum Fur Umweltforschung Gmbh - Ufz",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "UFZ"
+}

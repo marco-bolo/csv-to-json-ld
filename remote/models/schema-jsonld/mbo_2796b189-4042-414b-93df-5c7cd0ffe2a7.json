@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7",
+  "@type": "Thing",
+  "category": "hydrophone",
+  "description": "Long-term underwater sound recorder",
+  "identifier": "SOUNDTRAP ST600 HF-8343",
+  "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+  "name": "hydrophone"
+}

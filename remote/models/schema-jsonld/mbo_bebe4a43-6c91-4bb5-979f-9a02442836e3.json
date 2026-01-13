@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bebe4a43-6c91-4bb5-979f-9a02442836e3",
+  "@type": "Place",
+  "description": "Greek Exclusive Economic Zone (MRGID:5679). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8e162b4e-089a-4ecf-a2a2-68729ab3904e"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "36.5072"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "23.93215"
+  },
+  "name": "Greek EEZ"
+}

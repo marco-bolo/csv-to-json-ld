@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_57a4d358-90ab-461e-ad58-bdb00d2bc6fc",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Inorganic carbon, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Inorganic carbon",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17475"
+  }
+}

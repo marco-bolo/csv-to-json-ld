@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23",
+  "@type": "ResearchOrganization",
+  "description": "Interdisciplinary Centre of Marine and Environmental Research",
+  "identifier": "https://ror.org/05p7z7s64",
+  "keywords": "marine research, environmental research, Portugal",
+  "legalName": "Centro Interdisciplinar De Investigacao Marinha E Ambiental",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "CIIMAR"
+}

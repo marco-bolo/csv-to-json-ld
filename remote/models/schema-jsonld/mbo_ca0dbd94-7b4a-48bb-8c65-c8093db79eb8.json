@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ca0dbd94-7b4a-48bb-8c65-c8093db79eb8",
+  "@type": "Place",
+  "description": "Danish Exclusive Economic Zone (MRGID:5674). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b254bc08-047e-4a84-8223-bfd9c195c928"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "56.15007"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.20529"
+  },
+  "name": "Danish EEZ"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5f87eab9-8188-4db3-b5a6-c39055b51e30",
+  "@type": "HowToStep",
+  "abstract": "T4.4 echosounder data capture and raw data processing",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f"
+  },
+  "mentions": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca"
+    }
+  ],
+  "name": "T4.4 ecosounder data capture",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

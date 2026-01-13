@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f8225168-81e0-4f4d-9377-7fb42225ee75",
+  "@type": "Person",
+  "familyName": "Deneudt",
+  "givenName": "Klaas",
+  "identifier": "https://oceanexpert.org/expert/15571",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f5f58d71-069c-4dfe-bd15-532157660b95",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "Marine observation database containing 2,012 time series (291 birds, 413 fish, 1,154 invertebrates, 14 macroalgae, 116 phytoplankton, 24 zooplankton)",
+  "name": "WP5 D5.1 Query: European Marine Observation and Data Network (EMODnet)",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://emodnet.ec.europa.eu/en"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d75e0891-b39f-4830-8f22-f524267abf8b",
+  "@type": "PropertyValue",
+  "description": "Essential Ocean Variable (EOV), Subsurface salinity, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+  "name": "Subsurface salinity",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17471"
+  }
+}

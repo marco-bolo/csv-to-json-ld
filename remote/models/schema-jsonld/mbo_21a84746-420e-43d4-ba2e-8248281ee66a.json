@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a",
+  "@type": "ContactPoint",
+  "availableLanguage": "en",
+  "contactType": "Task 1.4 Contact",
+  "description": "Digital synthesis, gap analysis, and sustainability",
+  "email": "dble@mba.ac.uk",
+  "name": "Dan Lear"
+}

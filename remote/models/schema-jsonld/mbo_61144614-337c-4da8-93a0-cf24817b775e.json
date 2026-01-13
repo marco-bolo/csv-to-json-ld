@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_61144614-337c-4da8-93a0-cf24817b775e",
+  "@type": "Place",
+  "description": "Swedish Exclusive Economic Zone (MRGID:5694). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_aa337ca4-52cb-4388-bc59-c80439079fcf"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "59.4846"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "18.11402"
+  },
+  "name": "Swedish EEZ"
+}

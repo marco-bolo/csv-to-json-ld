@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e31cd243-29d1-4854-9efc-e7df6c34951c",
+  "@type": "PropertyValue",
+  "description": "Essential Biodiversity Variable class covering phenological, morphological, physiological, reproductive and behavioral traits of species.",
+  "name": "Species Traits"
+}

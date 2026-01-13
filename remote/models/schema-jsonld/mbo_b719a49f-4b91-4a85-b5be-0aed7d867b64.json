@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64",
+  "@type": "Place",
+  "description": "Belgian Exclusive Economic Zone (MRGID:3293). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4cb8a21b-297a-4d11-9c49-b405701d8e2a"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.46321"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.72132"
+  },
+  "name": "Belgian EEZ"
+}

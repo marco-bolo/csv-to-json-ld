@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d",
+  "@type": "Person",
+  "familyName": "Jensen",
+  "givenName": "Mads Reinholdt",
+  "identifier": "https://orcid.org/0000-0001-8240-1083",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7f3896d1-5d7b-4019-96af-22a7dc519670"
+  }
+}

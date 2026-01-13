@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9eb43660-5563-43bb-a694-e35513253ff7",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 5.5 Contact",
+  "description": "Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases",
+  "email": "ceo@lifewatch.eu",
+  "name": "Christos Arvanitidis"
+}

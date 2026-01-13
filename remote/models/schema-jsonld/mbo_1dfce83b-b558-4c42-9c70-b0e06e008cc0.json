@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1dfce83b-b558-4c42-9c70-b0e06e008cc0",
+  "@type": "ContactPoint",
+  "contactType": "Task 3.3 Contact",
+  "description": "Causal chain analysis in coupled land-river-sea systems",
+  "email": "lili.hufnagel@ufz.de",
+  "name": "Lili Hufnagel"
+}

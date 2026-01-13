@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9",
+  "@type": "Person",
+  "familyName": "Obst",
+  "givenName": "Matthias",
+  "identifier": "https://orcid.org/0000-0003-0264-9631",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+  }
+}

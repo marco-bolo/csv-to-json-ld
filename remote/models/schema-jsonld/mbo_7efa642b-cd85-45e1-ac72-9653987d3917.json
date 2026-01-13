@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917",
+  "@type": "CreateAction",
+  "abstract": "Ethics report on environmental issues",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "name": "MARCO-BOLO Deliverable 7.9",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    }
+  ]
+}

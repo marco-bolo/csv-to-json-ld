@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a7cd4818-8579-4bd6-baf1-222144477633",
+  "@type": "CreateAction",
+  "abstract": "Internal advisory document with stakeholder profiling information for the CoP",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "name": "MARCO-BOLO Deliverable 6.1",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d92d70f8-80f8-4812-b274-4c328e378e7e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    }
+  ]
+}

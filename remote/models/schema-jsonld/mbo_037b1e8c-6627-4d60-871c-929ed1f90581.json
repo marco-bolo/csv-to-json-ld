@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.4 Contact",
+  "description": "Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches",
+  "name": "TBD"
+}

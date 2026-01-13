@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_99b183f4-59da-4da7-886e-28d649045e28",
+  "@type": "Place",
+  "description": "Romanian Exclusive Economic Zone (MRGID:5689). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_242eda7c-bad2-42fb-b097-801f7497061d"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.24109"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "30.0785"
+  },
+  "name": "Romanian EEZ"
+}

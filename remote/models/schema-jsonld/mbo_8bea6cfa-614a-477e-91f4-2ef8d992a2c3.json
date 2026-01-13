@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3",
+  "@type": "DefinedTerm",
+  "description": "The dataset is currently under development or data collection is ongoing; it may be partially available but is not yet finalized.",
+  "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+  "termCode": "Incomplete"
+}

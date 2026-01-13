@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6",
+  "@type": "Person",
+  "familyName": "Peredo Arce",
+  "givenName": "Andrés",
+  "identifier": "https://oceanexpert.org/expert/84963",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_619074dc-7439-4e10-a69e-d4c0101745a2",
+  "@type": "ContactPoint",
+  "contactType": "Task 3.4 Contact",
+  "description": "Effects on conservation areas",
+  "name": "TBD"
+}

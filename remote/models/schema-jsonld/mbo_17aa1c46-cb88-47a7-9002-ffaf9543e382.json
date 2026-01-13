@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382",
+  "@type": "ResearchOrganization",
+  "alternateName": "Senckenberg",
+  "description": "Senckenberg Society for Nature Research",
+  "identifier": "https://ror.org/01wz97s39",
+  "keywords": "natural history, biodiversity research, Germany",
+  "legalName": "Senckenberg Gesellschaft Fur Naturforschung",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "SGN",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.senckenberg.de/en/"
+  }
+}

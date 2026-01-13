@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6",
+  "@type": "ResearchProject",
+  "alternateName": "MBO WP6",
+  "description": "Stakeholder Engagement and Community Integration",
+  "keywords": "MARCO-BOLO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "MARCO-BOLO Work Package 6",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/work-packages/work-package-6-stakeholder-engagement-and-community-integration/"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f1bdfd04-6da7-4d01-9d4c-77243b98d52d",
+  "@type": "Person",
+  "familyName": "Appeltans",
+  "givenName": "Ward",
+  "identifier": "https://oceanexpert.org/expert/11770",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+  }
+}

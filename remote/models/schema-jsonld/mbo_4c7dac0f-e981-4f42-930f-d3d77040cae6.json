@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4c7dac0f-e981-4f42-930f-d3d77040cae6",
+  "@type": "GeoShape",
+  "box": "-90 -180 90 180",
+  "description": "Bounding box for entire earth",
+  "name": "Global boundaries"
+}

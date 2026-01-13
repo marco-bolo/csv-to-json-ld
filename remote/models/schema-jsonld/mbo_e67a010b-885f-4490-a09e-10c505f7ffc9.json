@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9",
+  "@type": "Place",
+  "description": "The location of the FPOD used in the Task 4.4 sea trial",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.406617"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.996333"
+  },
+  "name": "Belgium EEZ Task 4.4 FPOD"
+}

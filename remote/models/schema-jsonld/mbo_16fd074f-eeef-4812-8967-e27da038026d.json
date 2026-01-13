@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_16fd074f-eeef-4812-8967-e27da038026d",
+  "@type": "Thing",
+  "category": "accoustic logger",
+  "description": "An accoustic logger used to passively monitor moving organisms via their click sounds",
+  "identifier": "FPOD_7105",
+  "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+  "name": "FPOD"
+}

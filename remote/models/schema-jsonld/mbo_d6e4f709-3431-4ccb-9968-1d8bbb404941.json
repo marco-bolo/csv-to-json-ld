@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941",
+  "@type": "Person",
+  "familyName": "Debusschere",
+  "givenName": "Elisabeth",
+  "identifier": "https://orcid.org/0000-0002-5595-0295",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
+}

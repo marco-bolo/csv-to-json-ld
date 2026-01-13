@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5dd2fd8d-4392-4b5c-9539-4e530dc6f832",
+  "@type": "CreateAction",
+  "abstract": "The MBO Best Practices for Biodiversity Observation",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "name": "MARCO-BOLO Deliverable 7.3",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    }
+  ]
+}

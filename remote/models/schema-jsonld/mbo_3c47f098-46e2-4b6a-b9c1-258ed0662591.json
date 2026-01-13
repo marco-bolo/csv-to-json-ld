@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591",
+  "@type": "Place",
+  "description": "The location of the echo-sounder used in the Task 4.4 sea trial",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.40645"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.8185"
+  },
+  "name": "Belgium EEZ Task 4.4 echo-sounder"
+}

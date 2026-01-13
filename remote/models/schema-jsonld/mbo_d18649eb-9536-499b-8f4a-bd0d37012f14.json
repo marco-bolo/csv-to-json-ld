@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
+      "@type": "MonetaryGrant",
+      "amount": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount"
+      },
+      "description": "UK funding for National Oceanography Centre (NOC) participation in MARCO-BOLO project under UKRI's Horizon Europe Guarantee scheme.",
+      "funder": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
+      },
+      "name": "UKRI Horizon Europe Guarantee Grant No. 10048178",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://gtr.ukri.org/projects?ref=10063994"
+      }
+    }
+  ]
+}

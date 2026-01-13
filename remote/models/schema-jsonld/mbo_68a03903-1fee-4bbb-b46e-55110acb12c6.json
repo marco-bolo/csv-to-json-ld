@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6",
+  "@type": "CreateAction",
+  "abstract": "Scientific document demonstrating the value of novel observation approaches for established biological indicators",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
+  "name": "MARCO-BOLO Deliverable 5.2",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
+  "@type": "Person",
+  "familyName": "Ludicone",
+  "givenName": "Daniele",
+  "identifier": "https://oceanexpert.org/expert/59161"
+}

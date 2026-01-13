@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30",
+  "@type": "Person",
+  "familyName": "Beatty",
+  "givenName": "Jennifer"
+}

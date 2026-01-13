@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ad5a7949-609c-4791-9c59-26bdecbb9ab5",
+  "@type": "ContactPoint",
+  "contactType": "Task 3.1 Contact",
+  "description": "Meta-analysis of land and sea observation variables, protocols and tools",
+  "name": "TBD"
+}

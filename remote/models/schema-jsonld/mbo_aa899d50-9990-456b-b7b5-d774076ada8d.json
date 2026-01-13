@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_aa899d50-9990-456b-b7b5-d774076ada8d",
+  "@type": "Dataset",
+  "description": "Task 4.4 FPOD raw data processing: data.che files processed into FP1 and FP3 files",
+  "name": "T4.4 FPOD raw data",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"
+  }
+}

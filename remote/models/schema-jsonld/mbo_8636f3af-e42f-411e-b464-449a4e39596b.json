@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b",
+  "@type": "GeoShape",
+  "box": "51.40645 2.8185 51.40645 2.8185",
+  "description": "Point of the echo-sounder sea trial for Task 4.4 sea trial",
+  "name": "Belgium EEZ Task 4.4 echo-sounder"
+}

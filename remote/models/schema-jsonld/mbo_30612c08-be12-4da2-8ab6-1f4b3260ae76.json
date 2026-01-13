@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.1 Contact",
+  "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+  "email": "fletho@aqua.dtu.dk",
+  "name": "Fletcher Thompson"
+}

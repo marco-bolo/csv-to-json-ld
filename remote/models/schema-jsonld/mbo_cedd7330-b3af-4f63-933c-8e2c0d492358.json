@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cedd7330-b3af-4f63-933c-8e2c0d492358",
+  "@type": "Person",
+  "familyName": "Zinger",
+  "givenName": "Lucie"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9",
+  "@type": "CreateAction",
+  "abstract": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
+  "name": "MARCO-BOLO Deliverable 5.5",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+    }
+  ]
+}

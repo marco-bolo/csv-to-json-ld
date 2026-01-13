@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e",
+  "@type": "ResearchProject",
+  "alternateName": "MBO WP1",
+  "description": "Delivering Essential Biodiversity Variables: Local to Global Biodiversity (meta)Data for Coastal and Marine Systems",
+  "keywords": "MARCO-BOLO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "MARCO-BOLO Work Package 1",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/work-packages/work-package-1-delivering-essential-biodiversity-variables-local-to-global-biodiversity-metadata-for-coastal-and-marine-systems/"
+  }
+}

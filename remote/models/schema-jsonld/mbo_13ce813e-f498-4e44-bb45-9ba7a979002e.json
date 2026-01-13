@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e",
+  "@type": "ResearchOrganization",
+  "description": "Helmholtz Centre for Materials and Coastal Research",
+  "identifier": "https://ror.org/03qjp1d79",
+  "keywords": "coastal research, materials science, Helmholtz, Germany",
+  "legalName": "Helmholtz-Zentrum Hereon Gmbh",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "HEREON"
+}
