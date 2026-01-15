@@ -8,10 +8,10 @@
   "abstract": "T4.4 hydrophone data capture and raw data processing",
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7"
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+      "@id": "https://w3id.org/marco-bolo/mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7"
