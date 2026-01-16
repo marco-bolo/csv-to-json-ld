@@ -1,6 +1,10 @@
 name: Build GH Pages
 on:
   workflow_dispatch:  # allows manual triggering
+  workflow_run:
+    workflows: ["Build JSON-LD"]
+    types:
+      - completed
   #push:
   #  branches:
   #    - main
