@@ -63,7 +63,11 @@ jobs:
                 
                 # Create DataFrame from raw strings  
                 df = pd.DataFrame(all_values[1:], columns=all_values[0])
-                
+
+                # Strip whitespace from all cells and replace empty strings with actual empty values
+                df = df.map(lambda x: x.strip() if isinstance(x, str) and x.strip() else '')
+
+
                 # Remove rows where ALL cells are empty strings or whitespace
                 df = df[df.apply(lambda row: any(str(cell).strip() for cell in row), axis=1)]
                 
