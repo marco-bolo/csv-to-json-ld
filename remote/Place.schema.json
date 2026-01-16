@@ -10,14 +10,14 @@
             },
             "dc:description": {
                 "en": [
-                    "Note that when inputting into CSV files this should not be the full URI, \nbut just the last part, e.g. `mbo_0000001`.\nThis is the identifier (mPID) for this row of the spreadsheet \nand for whatever information is being described in this row. \nIt should be unique in this column."
+                    "This is the identifier (mPID) for this row of the spreadsheet \nand for whatever information is being described in this row. \nIt must start with `mbo_`, only use printable ASCII characters\nand should be unique in this column."
                 ]
             },
             "required": true,
             "suppressOutput": true,
             "datatype": {
                 "base": "string",
-                "format": "^mbo_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+                "format": "^mbo_[a-zA-Z0-9_-]+$"
             }
         },
         {
