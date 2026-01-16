@@ -20,13 +20,12 @@ slots:
     description: |
       An identifier chosen from the range given to your work package by WP1.
     range: string
-    pattern: "^mbo_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    pattern: "^mbo_[a-zA-Z0-9_-]+$"
     comments: |
-      Note that when inputting into CSV files this should not be the full URI, 
-      but just the last part, e.g. `mbo_0000001`.
       This is the identifier (mPID) for this row of the spreadsheet 
       and for whatever information is being described in this row. 
-      It should be unique in this column. 
+      It must start with `mbo_`, only use printable ASCII characters
+      and should be unique in this column. 
 
   identifiers:
     title: "Identifiers"
