@@ -5,6 +5,10 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b8ebfafc-9105-43e1-a4a4-6daef2e7510a#MonetaryAmount",
+      "@type": "MonetaryAmount"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b8ebfafc-9105-43e1-a4a4-6daef2e7510a",
       "@type": "MonetaryGrant",
       "amount": {
@@ -15,10 +19,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
       },
       "name": "UKRI Horizon Europe Guarantee 2022 National Oceanography Centre"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b8ebfafc-9105-43e1-a4a4-6daef2e7510a#MonetaryAmount",
-      "@type": "MonetaryAmount"
     }
   ]
 }

@@ -13,7 +13,7 @@
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/797eef2226492d75c7b67e78a6665323b3f53a6e",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/3695852cc67116b2d411e113bf330a7eb7887819",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_29d7ebd8-c985-4516-9098-65a13e942bf5"
   },
@@ -59,7 +59,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-01-16",
+      "dateModified": "2026-01-17",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca-input-metadata"
       },
