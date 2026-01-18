@@ -43,13 +43,13 @@
     "@id": "https://w3id.org/marco-bolo/mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad"
   },
   "keywords": [
-    "EMO BON",
-    "metabarcoding",
-    "eukaryotes",
     "vertebrates",
     "Norway",
+    "eukaryotes",
     "eDNA",
-    "marine biodiversity"
+    "marine biodiversity",
+    "metabarcoding",
+    "EMO BON"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {

@@ -12,16 +12,16 @@
   "name": "MARCO BOLO Task 5.3",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c6c9ba29-cd01-43bf-90dc-9025f7078d52"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c6c9ba29-cd01-43bf-90dc-9025f7078d52"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
     }
   ]
 }

@@ -12,22 +12,22 @@
   "name": "MARCO BOLO Task 2.1",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e"
+      "@id": "https://w3id.org/marco-bolo/mbo_198c8492-e622-43d8-81f6-79631004d651"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a5633b6f-b657-446a-898d-47113d3b50b8"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_198c8492-e622-43d8-81f6-79631004d651"
     }
   ]
 }
