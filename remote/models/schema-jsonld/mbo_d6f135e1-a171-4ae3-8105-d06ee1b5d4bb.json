@@ -18,8 +18,8 @@
   "schema:dateCreated": "2021-02",
   "description": "Raw eDNA metabarcoding data targeting 18S-V9 (eukaryotes) from Western Channel Observatory site L4; 20-year timeseries: 2001-2021",
   "keywords": [
-    " eDNA",
-    "plankton "
+    "plankton ",
+    " eDNA"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
