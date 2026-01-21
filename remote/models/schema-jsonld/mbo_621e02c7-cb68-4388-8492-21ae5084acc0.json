@@ -12,31 +12,31 @@
   "name": "MARCO BOLO Task 3.2",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a"
+      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
+      "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a"
     }
   ]
 }

@@ -19,12 +19,12 @@
   "description": "The Data Management Plan is a mandatory component of any Horizon Europe project providing information about: Guiding principles around data management following EC Horizon Europe requirements; How to make MBO data FAIR: Findable, Accessible, Interoperable and Re-usable; Data management cost and allocation of resources; Data security and ethics, and confidentiality.<br>\\nMARCO-BOLO is a project built around data with the objective to make transformative change in the use of biodiversity data in decision making. Therefore MBO aims to deliver a globally relevant freshwater and marine biodiversity Data Management Plan defined with a Community of Practice of stakeholders from different sectors (industry, policy, research, society) and from different ends of the data pathway (data collector to data end-users). MBO co-design Data Management Plans (D1.1 and D1.2) are deliverables due at 24 and 36 month of the project. The present first iteration of the Data Management Plan is only an overview of MBO principles about freshwater and marine biodiversity data that will be refined and detailed in D1.1 and D1.2. The DMP is a live document that will be reviewed and updated periodically.",
   "identifier": "https://doi.org/10.5281/zenodo.8208410",
   "keywords": [
-    "data management plan",
-    "essential ocean variables",
-    "biodiversity data",
-    "United Nations Decade of Ocean Science for Sustainable Development",
+    "Global Ocean Observing System",
     "Horizon Europe",
-    "Global Ocean Observing System"
+    "essential ocean variables",
+    "United Nations Decade of Ocean Science for Sustainable Development",
+    "data management plan",
+    "biodiversity data"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {
