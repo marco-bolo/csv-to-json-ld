@@ -61,13 +61,13 @@ mbo_contact_wp5_t5_2,mbo_sformel,mbo_wp5_t5_2,Task 5.2 Contact,TBD,,,,Applicatio
 mbo_contact_wp5_t5_3,mbo_sformel,mbo_wp5_t5_3,Task 5.3 Contact,TBD,,,,Spatial mapping of Blue Carbon benefits
 mbo_contact_wp5_t5_4,mbo_sformel,mbo_wp5_t5_4,Task 5.4 Contact,TBD,,,,"Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches"
 mbo_contact_wp5_t5_5,mbo_sformel,mbo_wp5_t5_5,Task 5.5 Contact,TBD,,,,Creation of reproducible analytical workflows and VRE deployment
-mbo_contact_wp6_d6_1,mbo_sformel,mbo_wp6_d6_1,Deliverable 6.1 Contact,TBD,,,,Internal advisory document with stakeholder profiling information for the CoP
-mbo_contact_wp6_d6_2,mbo_sformel,mbo_wp6_d6_2,Deliverable 6.2 Contact,TBD,,,,"Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan"
-mbo_contact_wp6_d6_3,mbo_sformel,mbo_wp6_d6_3,Deliverable 6.3 Contact,TBD,,,,"Knowledge Transfer resources tailored for the policy, industry, civil society and data/research stakeholder communities"
-mbo_contact_wp6_d6_4,mbo_sformel,mbo_wp6_d6_4,Deliverable 6.4 Contact,TBD,,,,"Report summarising Knowledge Transfer Activities (transfer plans per key result/knowledge output, resources developed, transfer activity, measurement of uptake and outcomes achieved)"
-mbo_contact_wp6_t6_1,mbo_sformel,mbo_wp6_t6_1,Task 6.1 Contact,TBD,,,,Develop and Operationalise a CoP
-mbo_contact_wp6_t6_2,mbo_sformel,mbo_wp6_t6_2,Task 6.2 Contact,TBD,,,,"Co-Design, Co-Creation and Stakeholder Consultation"
-mbo_contact_wp6_t6_3,mbo_sformel,mbo_wp6_t6_3,Task 6.3 Contact,TBD,,,,"Knowledge transfer, capacity building and exploitation of MBO results"
+mbo_contact_wp6_d6_1,mbo_sformel,mbo_wp6_d6_1,Deliverable 6.1 Contact,Alice Vadrot,alice.vadrot@univie.ac.at,,,Internal advisory document with stakeholder profiling information for the CoP
+mbo_contact_wp6_d6_2,mbo_sformel,mbo_wp6_d6_2,Deliverable 6.2 Contact,Lisa Benedetti,l.benedetti@unesco.org,,,"Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan"
+mbo_contact_wp6_d6_3,mbo_sformel,mbo_wp6_d6_3,Deliverable 6.3 Contact,Kate Larkin,kate.larkin@seascapebelgium.be,,,"Knowledge Transfer resources tailored for the policy, industry, civil society and data/research stakeholder communities"
+mbo_contact_wp6_d6_4,mbo_sformel,mbo_wp6_d6_4,Deliverable 6.4 Contact,Kate Larkin,kate.larkin@seascapebelgium.be,,,"Report summarising Knowledge Transfer Activities (transfer plans per key result/knowledge output, resources developed, transfer activity, measurement of uptake and outcomes achieved)"
+mbo_contact_wp6_t6_1,mbo_sformel,mbo_wp6_t6_1,Task 6.1 Contact,Lisa Benedetti,l.benedetti@unesco.org,,,Develop and Operationalise a CoP
+mbo_contact_wp6_t6_2,mbo_sformel,mbo_wp6_t6_2,Task 6.2 Contact,Lisa Benedetti,l.benedetti@unesco.org,,,"Co-Design, Co-Creation and Stakeholder Consultation"
+mbo_contact_wp6_t6_3,mbo_sformel,mbo_wp6_t6_3,Task 6.3 Contact,Kate Larkin,kate.larkin@seascapebelgium.be,,,"Knowledge transfer, capacity building and exploitation of MBO results"
 mbo_contact_wp7_d7_1,mbo_sformel,mbo_wp7_d7_1,Deliverable 7.1 Contact,TBD,,,,Project Management Guide
 mbo_contact_wp7_d7_2,mbo_sformel,mbo_wp7_d7_2,Deliverable 7.2 Contact,TBD,,,,Project Data Management Plan
 mbo_contact_wp7_d7_3,mbo_sformel,mbo_wp7_d7_3,Deliverable 7.3 Contact,TBD,,,,The MBO Best Practices for Biodiversity Observation
