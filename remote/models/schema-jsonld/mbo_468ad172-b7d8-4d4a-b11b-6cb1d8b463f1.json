@@ -11,36 +11,36 @@
       "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7825333b-d9ae-4e27-889c-1fdd20f985f0"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_0b48e016-8464-4bbf-ad72-18c49be40774"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7825333b-d9ae-4e27-889c-1fdd20f985f0"
     }
   ],
   "department": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
     }
   ],
   "description": "The future of ocean health restoration may require increased biodiversity observation capabilities to support EU biodiversity directives and global initiatives. In this context, the EU-funded MARCO-BOLO project will reinforce European coastal and marine biodiversity observation capabilities. It will connect them to global efforts to understand and restore ocean health. The project will explore end user needs to optimise marine data flows and knowledge adoption and improve biodiversity observation-based governance. MARCO-BOLO will develop and demonstrate new autonomous technology for biodiversity mapping and monitoring, and data streams from remote sensing, eDNA, robotics, and optical and acoustic observations. It will then incorporate the sequence of processes into operational Essential Ocean Variables and Essential Biodiversity Variables, including them in online reusable workflows.",

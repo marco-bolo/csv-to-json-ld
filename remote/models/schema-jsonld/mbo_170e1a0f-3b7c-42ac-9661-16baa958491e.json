@@ -7,5 +7,6 @@
   "@type": "ContactPoint",
   "contactType": "Deliverable 6.1 Contact",
   "description": "Internal advisory document with stakeholder profiling information for the CoP",
-  "name": "TBD"
+  "email": "alice.vadrot@univie.ac.at",
+  "name": "Alice Vadrot"
 }
