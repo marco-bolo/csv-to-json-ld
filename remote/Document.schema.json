@@ -204,7 +204,11 @@
                 ]
             },
             "propertyUrl": "https://schema.org/spatialCoverage",
-            "valueUrl": "https://w3id.org/marco-bolo/{+spatialCoveragePlaceMboId}"
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
         },
         {
             "name": "temporalCoverage",
