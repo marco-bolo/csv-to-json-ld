@@ -382,7 +382,7 @@ slots:
     title: "Spatial Coverage (Place - mPID)"
     description: "A place defining the spatial coverage of the dataset."
     required: false
-    multivalued: false
+    multivalued: true
     range: Place
     slot_uri: schema:spatialCoverage
   temporalCoverage:
