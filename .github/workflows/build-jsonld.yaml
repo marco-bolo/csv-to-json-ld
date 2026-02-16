@@ -47,23 +47,38 @@ jobs:
       # NEW: Generate missing IDs report
       - name: Generate Missing IDs Report
         if: steps.sync_uuids.outputs.has_missing == 'true'
+        run: python3 scripts/generate_missing_ids_report.py
+
+      # NEW: Build issue body from boilerplate + dynamic report
+      - name: Build Issue Body
+        if: steps.sync_uuids.outputs.has_missing == 'true'
         run: |
-          python3 scripts/generate_missing_ids_report.py
-          echo "TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
-          
-          # Read the report into environment variable for issue
-          REPORT_CONTENT=$(cat missing_ids_report.md)
-          echo "MISSING_IDS_REPORT<<EOF" >> $GITHUB_ENV
-          echo "$REPORT_CONTENT" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-      
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          cat <<EOF > issue_body.md
+          ## Missing Identifier Report
+          **Generated:** ${TIMESTAMP}
+          **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          The following identifiers exist in the UUID registry but were **not found** in the current CSV files. See the [UUID Registry](/${{ github.repository }}/blob/main/config/uuid_mapping.json) for reference.
+
+          ### Action Required
+          - **Typo fix**: Update the registry value to the corrected identifier
+          - **Renamed**: Update the registry value to the new identifier
+          - **Deleted**: Remove the entry from the registry
+          - **Temporary**: No action needed, but document why
+
+          ---
+
+          EOF
+          cat missing_ids_report.md >> issue_body.md
+
       # NEW: Create or update GitHub issue for missing IDs
       - name: Create/Update Missing IDs Issue
         if: steps.sync_uuids.outputs.has_missing == 'true'
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: "⚠️ Missing Identifiers Detected - ${{ github.run_id }}"
-          content-filepath: .github/ISSUE_TEMPLATE/missing-ids-template.md
+          content-filepath: issue_body.md
           labels: |
             uuid-sync
             needs-review
