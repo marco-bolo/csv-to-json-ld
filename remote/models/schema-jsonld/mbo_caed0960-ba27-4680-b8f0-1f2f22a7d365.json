@@ -3,7 +3,7 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_5a3ef6d9-e16a-4e94-9be8-6919f1b24e03",
+  "@id": "https://w3id.org/marco-bolo/mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
   "@type": "Person",
   "affiliation": {
     "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
