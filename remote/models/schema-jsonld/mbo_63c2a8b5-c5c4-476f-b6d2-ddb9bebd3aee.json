@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
+  "@type": "DataDownload",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+    }
+  ],
+  "contentSize": "11KB",
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2025-11-21",
+  "schema:dateModified": "2026-01-15",
+  "description": "Excel file containing quantitative measurements of E. encrasicolus mitochondrial DNA in seawater samples analyzed via ddPCR.",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
+  },
+  "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "Data and Metadata_ddPCR_MBO_Stazione Zoologica A.Dohrn (xlsx)",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fccd8788-7c81-4099-96f0-8a1a4085912d"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://zenodo.org/records/17670287"
+  }
+}

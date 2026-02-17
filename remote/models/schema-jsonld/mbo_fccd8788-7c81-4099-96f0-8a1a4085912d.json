@@ -3,7 +3,7 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_3e683c40-1b54-4771-850c-0ba0dc4cabc3",
+  "@id": "https://w3id.org/marco-bolo/mbo_fccd8788-7c81-4099-96f0-8a1a4085912d",
   "@type": "ArchiveOrganization",
   "alternateName": "CERN",
   "description": "Zenodo is a free, open-access repository hosted by CERN that allows researchers to share and preserve research outputs of all types, including publications, datasets, software, and multimedia. It provides DOIs for permanent citation, ensures long-term preservation, and accepts uploads from all research fields without restrictions. The platform is built on the principle that all research outputs should be openly accessible and citable.",

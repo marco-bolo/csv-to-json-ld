@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_810f1702-f7cf-49b1-96ac-2d3becff58f4",
+  "@type": "ContactPoint",
+  "contactType": "SZN ddPCR Data Contact",
+  "description": "Contact person for the MARCO-BOLO ddPCR eDNA dataset (D2.2)",
+  "email": "raffaella.casotti@szn.it",
+  "name": "Raffaella Casotti"
+}

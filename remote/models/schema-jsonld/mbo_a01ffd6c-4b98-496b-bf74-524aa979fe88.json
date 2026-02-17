@@ -3,7 +3,7 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1f8477b0-bb41-40ca-9a7b-062812dafb51",
+  "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88",
   "@type": "ResearchOrganization",
   "description": "Anton Dohrn Zoological Station",
   "identifier": "https://ror.org/03v5jj203",

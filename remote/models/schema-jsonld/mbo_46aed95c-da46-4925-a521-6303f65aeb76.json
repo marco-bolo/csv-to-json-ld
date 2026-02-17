@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5a3ef6d9-e16a-4e94-9be8-6919f1b24e03"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+    }
+  ],
+  "conditionsOfAccess": "Files restricted until embargo lifts 2026-06-30",
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2025-11-21",
+  "schema:dateModified": "2026-01-15",
+  "description": "Analysis of the V4-V5 regions of 16S rDNA in the environmental DNA from seawater through amplicon sequencing. Samples were collected monthly between September 2021 and December 2023, across different sampling sites within the context of the NEREA observatory in the Gulf of Naples (Italy). Seawater was collected at discrete depths, filtered through 0.45 micron filters, and the environmental DNA was extracted and amplified by PCR. Plankton metabarcoding raw reads were registered in the European Nucleotide Archive (ENA), under the umbrella project permanent identifier PRJEB74649. The raw prokaryotic metabarcoding sequencing data files - 16S (FastQ format) are available on BioProject ID PRJEB100988.",
+  "isBasedOn": [
+    "https://identifiers.org/ena.embl:PRJEB100988",
+    "https://identifiers.org/ena.embl:PRJEB74649"
+  ],
+  "keywords": [
+    "16S",
+    "eDNA",
+    "prokaryotic",
+    "metabarcoding",
+    "amplicon sequencing",
+    "NEREA",
+    "16S rDNA",
+    "environmental DNA"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_07f1b807-c0dd-42e8-8735-5dae01a61146"
+  },
+  "temporalCoverage": "2021-09/2023-12",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://zenodo.org/records/17670063"
+  },
+  "usageInfo": "https://w3id.org/marco-bolo/mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026-02"
+}

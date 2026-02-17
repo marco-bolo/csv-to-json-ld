@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d",
+  "@type": "Person",
+  "familyName": "Tramontin",
+  "givenName": "Eugenia",
+  "identifier": "https://orcid.org/0009-0000-9228-7886",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_07f1b807-c0dd-42e8-8735-5dae01a61146",
+  "@type": "Place",
+  "description": "Gulf of Naples, Tyrrhenian Sea, Italy. Location of the LTER-MareChiara and NEREA Observatory sampling sites.",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "40.75"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "14.25"
+  },
+  "name": "Gulf of Naples"
+}

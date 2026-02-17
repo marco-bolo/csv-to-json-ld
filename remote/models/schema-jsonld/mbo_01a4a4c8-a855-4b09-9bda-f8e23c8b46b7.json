@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7",
+  "@type": "Statement",
+  "schema:expires": "2026-06-30",
+  "mainEntity": {
+    "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+  },
+  "text": "Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-06-30. Part of MARCO-BOLO WP2 D2.2 deliverables."
+}

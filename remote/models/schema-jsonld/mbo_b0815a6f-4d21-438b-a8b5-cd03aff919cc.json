@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc",
+  "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+  },
+  "familyName": "Annona",
+  "givenName": "Giovanni",
+  "identifier": "https://orcid.org/0000-0001-7806-6761"
+}

@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_adabdb9b-1a6b-4d19-bfff-115b2932b269",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8"
+  },
+  "conditionsOfAccess": "open access",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "In September 2024, MARCO-BOLO launched the Data Analysis Challenge to survey the global environmental DNA (eDNA) community about their use and development of bioinformatics pipelines to process eDNA samples, as well as invite them to contribute their time and methodology towards an extensive comparison of these pipelines. Registered participants were invited to download any of the four metabarcoding datasets provided, analyse these with their pipeline, and provide back the output ASV/OTU and taxonomy tables for comparison. In total, 13 participants submitted a total of 15 output datasets for the 18S protist observatory dataset, and 25 participants submitted a total of 101 output dataset for the 12S, 16S and COI fish aquarium datasets. The resulting tables were harmonised to be analysed conjointly, and bioinformatics parameters were extracted from the different results files we received. The current data submission consists of the harmonised tables of participant outputs, the extracted bioinformatics metadata, and some supplementary files, all detailed below.",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Data Analysis Challenge",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_0b8087d5-9aff-456a-8c5c-418fbc8a46e0"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.5281/zenodo.17739996"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026-02"
+}
