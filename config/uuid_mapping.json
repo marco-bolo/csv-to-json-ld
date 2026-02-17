@@ -235,7 +235,6 @@
     "mbo_006a40b1-0c4f-47cd-a474-ea235418b59e": "mbo_emb_wp2_d2_ds2_ddPCR",
     "mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7": "mbo_emb_wp2_d2_ds_16s",
     "mbo_3b14ff5f-a5f5-4c28-b9c6-2331eb34ff05": "mbo_emb_d2_ds2_1",
-    "mbo_6f90016a-da67-46ee-afab-f2bcde47a797": "mbo_emb_d2_ds2_ddPCR",
     "mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e": "mbo_emb_wp2_d2_ds_v9_18s"
   },
   "GeoShape": {
@@ -303,9 +302,7 @@
     "mbo_198c8492-e622-43d8-81f6-79631004d651": "mbo_org_ms",
     "mbo_1b3436a6-b742-48d4-b814-c20392d93812": "mbo_org_obis",
     "mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae": "mbo_org_dtu",
-    "mbo_1f8477b0-bb41-40ca-9a7b-062812dafb51": "mbo_szn",
     "mbo_37252ada-a278-4d7a-a1fa-a0902f850567": "mbo_org_geoecom",
-    "mbo_3e683c40-1b54-4771-850c-0ba0dc4cabc3": "mbo_zenodo",
     "mbo_464b964d-e28a-4193-9925-e4ba083fdec8": "mbo_org_vliz",
     "mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1": "mbo_org_mbo",
     "mbo_48bc8c1e-fa48-484d-b106-cf725851f349": "mbo_org_ukrsces",
@@ -375,7 +372,6 @@
     "mbo_56592f30-00f0-4165-b0fa-bf89b718604d": "mbo_34461",
     "mbo_568459bd-0125-4af1-8ab7-344dfec4000c": "mbo_24333",
     "mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70": "mbo_28269",
-    "mbo_5a3ef6d9-e16a-4e94-9be8-6919f1b24e03": "mbo_diudicone",
     "mbo_5beb28f2-efc1-484b-b9fe-3629ceefdc70": "mbo_43716",
     "mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8": "mbo_eboulanger",
     "mbo_5e428aa7-b3a2-463d-8b18-c77fca2bb3cf": "mbo_58808",
@@ -394,7 +390,6 @@
     "mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175": "mbo_cbowler",
     "mbo_835c1cdb-aaaa-49f5-90c2-382a20476e5a": "mbo_claguionie",
     "mbo_846f5eda-60f5-44c7-9391-58b9a1687003": "mbo_16535",
-    "mbo_88ada1bc-1029-4ee6-8456-575db95ed7f8": "mbo_dalelio",
     "mbo_8a36cc61-b968-4423-8860-3d028c4c3234": "mbo_57469",
     "mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3": "mbo_39481",
     "mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5": "mbo_todo_person_michaelcunliffe",
