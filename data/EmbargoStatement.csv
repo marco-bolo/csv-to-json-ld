@@ -1,2 +1,6 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Embargo Dataset (mPID)*,Embargo Expires*,Explanation/Description*
 mbo_emb_d2_ds2_1,mbo_sformel,mbo_wp2_d2,mbo_wp2_d2_ds2_1,2026-11-30,Standard request to hold off sharing of sequences to avoid being scooped.
+mbo_emb_d2_ds2_ddPCR,mbo_sformel,,mbo_wp2_d2_ds2_ddPCR,2026-11-30,Dataset embargoed until project end date. Files are restricted; metadata is public.
+mbo_emb_wp2_d2_ds2_ddPCR,mbo_sformel,mbo_wp2_d2_2,mbo_wp2_d2_ds2_ddPCR_protocol1,2026-11-30,Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-11-30. Part of MARCO-BOLO WP2 D2.2 deliverables.
+mbo_emb_wp2_d2_ds_v9_18s,mbo_sformel,mbo_wp2_d2_2,mbo_wp2_d2_ds_v9_18s,2026-06-30,Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-06-30. Part of MARCO-BOLO WP2 D2.2 deliverables.
+mbo_emb_wp2_d2_ds_16s,mbo_sformel,mbo_wp2_d2_2,mbo_wp2_d2_ds_16s,2026-06-30,Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-06-30. Part of MARCO-BOLO WP2 D2.2 deliverables.

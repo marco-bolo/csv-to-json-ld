@@ -9,3 +9,6 @@ mbo_taxon_invertebrates,mbo_aperedoarce,mbo_wp5_t5_1_1,Invertebrates,,,,,,,,,,,
 mbo_taxon_macroalgae,mbo_aperedoarce,mbo_wp5_t5_1_1,Macroalgae,,,,,,,,,,,
 mbo_taxon_phytoplankton,mbo_aperedoarce,mbo_wp5_t5_1_1,Phytoplankton,,,,,,,,,,,
 mbo_taxon_zooplankton,mbo_aperedoarce,mbo_wp5_t5_1_1,Zooplankton,,,,,,,,,,,
+mbo_taxon_engraulis_encrasicolus,mbo_sformel,mbo_wp2_d2_2,European anchovy,Engraulis encrasicolus,Animalia,Chordata,Clupeiformes,Engraulidae,Engraulis,encrasicolus,accepted,species,worms:126426,urn:lsid:marinespecies.org:taxname:126426
+mbo_taxon_bacteria,mbo_sformel,mbo_wp2_d2_2,Bacteria,Bacteria,,,,,,,accepted,kingdom,worms:6,urn:lsid:marinespecies.org:taxname:6
+mbo_taxon_archaea,mbo_sformel,mbo_wp2_d2_2,Archaea,Archaea,,,,,,,accepted,kingdom,worms:8,urn:lsid:marinespecies.org:taxname:8
