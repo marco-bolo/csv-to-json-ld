@@ -16,8 +16,9 @@ EXPECTED_COMMANDS				:= "$(DOCKER)" "sed" "awk" "xargs" "realpath" "printf" "dir
 
 CSVW_CHECK						:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSVW_CHECK_DOCKER) -s
 CSV2RDF							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(CSV2RDF_DOCKER) csv2rdf -m minimal -u 
-RIOT							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) riot
-SPARQL							:= $(DOCKER) run --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work $(JENA_CLI_DOCKER) sparql
+JENA_DOCKER_OPTS                := --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work -e JAVA_TOOL_OPTIONS="-XX:-UseContainerSupport"
+RIOT                            := $(DOCKER) run $(JENA_DOCKER_OPTS) $(JENA_CLI_DOCKER) riot
+SPARQL                          := $(DOCKER) run $(JENA_DOCKER_OPTS) $(JENA_CLI_DOCKER) sparql
 
 MBO_TOOLS_DOCKER_RUN			:= $(DOCKER) run -i --rm -v "$(WORKING_DIR)":/work -u $(UID):$(GID) -w /work "$(MBO_TOOLS_DOCKER)"
 CONVERT_LIST_VALUES_TO_NODES	:= $(MBO_TOOLS_DOCKER_RUN) listcolumnsasnodes
