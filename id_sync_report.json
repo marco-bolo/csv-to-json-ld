@@ -1,10 +1,135 @@
 {
-  "timestamp": "2026-01-24T02:52:30.276409",
+  "timestamp": "2026-02-17T01:54:01.103104",
   "new_ids": [
     {
       "class": "Dataset",
-      "uuid": "mbo_adabdb9b-1a6b-4d19-bfff-115b2932b269",
-      "semantic_id": "mbo_wp2_d2_ds2_8"
+      "uuid": "mbo_9a97f72a-1b18-462a-a333-bc40a0416032",
+      "semantic_id": "mbo_wp2_d2_ds2_ddPCR"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_07381993-f06b-4121-903f-b1be3676c936",
+      "semantic_id": "mbo_wp2_d2_ds_v9_18s"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+      "semantic_id": "mbo_wp2_d2_ds_16s"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_71285c6c-afc9-470f-89a1-75d10ab324bf",
+      "semantic_id": "mbo_taxon_engraulis_encrasicolus"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_539c9784-e069-41f7-a39c-29ff0974f495",
+      "semantic_id": "mbo_taxon_bacteria"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_cc511f0e-2597-47cc-90db-1538908f709f",
+      "semantic_id": "mbo_taxon_archaea"
+    },
+    {
+      "class": "ContactPoint",
+      "uuid": "mbo_810f1702-f7cf-49b1-96ac-2d3becff58f4",
+      "semantic_id": "mbo_cp_rcasotti_ddPCR"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc",
+      "semantic_id": "mbo_gannona"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824",
+      "semantic_id": "mbo_dbellardini"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_9b263e75-c86f-4abc-812e-a3252defcb1f",
+      "semantic_id": "mbo_rcasotti"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16",
+      "semantic_id": "mbo_ddalelio"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd",
+      "semantic_id": "mbo_pdeluca"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a",
+      "semantic_id": "mbo_vdituccio"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d",
+      "semantic_id": "mbo_meliso"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_5a3ef6d9-e16a-4e94-9be8-6919f1b24e03",
+      "semantic_id": "mbo_diudicone"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f",
+      "semantic_id": "mbo_lrusso"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_43683843-9d03-42bb-b3c0-181ca9a78395",
+      "semantic_id": "mbo_gzampicinini"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d",
+      "semantic_id": "mbo_etramontin"
+    },
+    {
+      "class": "DataDownload",
+      "uuid": "mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
+      "semantic_id": "mbo_wp2_d2_ds2_ddPCR_download1"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88",
+      "semantic_id": "mbo_org_szn"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_171a70cc-173a-4650-8510-f52c9d0b6305",
+      "semantic_id": "mbo_wp2_d2_ds2_ddPCR_protocol1"
+    },
+    {
+      "class": "EmbargoStatement",
+      "uuid": "mbo_6f90016a-da67-46ee-afab-f2bcde47a797",
+      "semantic_id": "mbo_emb_d2_ds2_ddPCR"
+    },
+    {
+      "class": "EmbargoStatement",
+      "uuid": "mbo_006a40b1-0c4f-47cd-a474-ea235418b59e",
+      "semantic_id": "mbo_emb_wp2_d2_ds2_ddPCR"
+    },
+    {
+      "class": "EmbargoStatement",
+      "uuid": "mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e",
+      "semantic_id": "mbo_emb_wp2_d2_ds_v9_18s"
+    },
+    {
+      "class": "EmbargoStatement",
+      "uuid": "mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7",
+      "semantic_id": "mbo_emb_wp2_d2_ds_16s"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_07f1b807-c0dd-42e8-8735-5dae01a61146",
+      "semantic_id": "mbo_place_gulf_of_naples"
     }
   ],
   "missing_ids": [
@@ -24,6 +149,47 @@
         [
           "mbo_wp1_t1_2",
           0.9166666666666666
+        ]
+      ]
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_1f8477b0-bb41-40ca-9a7b-062812dafb51",
+      "semantic_id": "mbo_szn",
+      "similar": [
+        [
+          "mbo_org_szn",
+          0.7777777777777778
+        ]
+      ]
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_88ada1bc-1029-4ee6-8456-575db95ed7f8",
+      "semantic_id": "mbo_dalelio",
+      "similar": [
+        [
+          "mbo_ddalelio",
+          0.9565217391304348
+        ],
+        [
+          "mbo_meliso",
+          0.7619047619047619
+        ],
+        [
+          "mbo_ngallo",
+          0.7619047619047619
+        ]
+      ]
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
+      "semantic_id": "mbo_dludicone",
+      "similar": [
+        [
+          "mbo_diudicone",
+          0.9230769230769231
         ]
       ]
     }
