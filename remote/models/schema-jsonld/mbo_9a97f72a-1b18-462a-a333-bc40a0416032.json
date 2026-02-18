@@ -10,10 +10,10 @@
   },
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
@@ -21,25 +21,25 @@
   ],
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_43683843-9d03-42bb-b3c0-181ca9a78395"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_43683843-9d03-42bb-b3c0-181ca9a78395"
+      "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
     }
   ],
   "conditionsOfAccess": "Embargoed until 2026-11-30",
@@ -66,14 +66,14 @@
   },
   "isBasedOn": "https://doi.org/10.5281/zenodo.17670154",
   "keywords": [
-    "anchovy",
-    "NEREA",
     "Gulf of Naples",
-    "LTER-MareChiara",
     "ddPCR",
     "marine biodiversity",
     "eDNA",
-    "Engraulis encrasicolus"
+    "NEREA",
+    "Engraulis encrasicolus",
+    "LTER-MareChiara",
+    "anchovy"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {

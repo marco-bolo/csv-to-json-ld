@@ -10,10 +10,7 @@
   },
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+      "@id": "https://w3id.org/marco-bolo/mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
@@ -25,7 +22,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365"
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
@@ -46,14 +46,14 @@
     "https://identifiers.org/ena.embl:PRJEB98195"
   ],
   "keywords": [
-    "V9-18S",
     "eDNA",
-    "amplicon sequencing",
-    "18S rDNA",
     "NEREA",
+    "18S rDNA",
     "eukaryotic",
-    "metabarcoding",
-    "environmental DNA"
+    "environmental DNA",
+    "V9-18S",
+    "amplicon sequencing",
+    "metabarcoding"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO - Metadata V9-18S rDNA amplicon sequencing of NEREA environmental DNA samples",

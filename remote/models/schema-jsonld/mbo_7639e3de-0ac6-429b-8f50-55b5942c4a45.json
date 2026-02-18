@@ -9,10 +9,10 @@
   "name": "T4.4 Hydrophone raw data",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_151edf97-62ef-4899-b42d-8b66f4103b5a"
+      "@id": "https://w3id.org/marco-bolo/mbo_58b8b812-ea7b-44b2-8726-7f9da70cbaea"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58b8b812-ea7b-44b2-8726-7f9da70cbaea"
+      "@id": "https://w3id.org/marco-bolo/mbo_151edf97-62ef-4899-b42d-8b66f4103b5a"
     }
   ],
   "variableMeasured": {
