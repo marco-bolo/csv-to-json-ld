@@ -5,6 +5,54 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Vertebrata"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family"
+        }
+      ],
+      "identifier": [
+        {
+          "@id": "urn:lsid:marinespecies.org:taxname:146419"
+        },
+        "worms:146419"
+      ],
+      "name": "Vertebrates"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status",
       "@type": "PropertyValue",
       "propertyID": {
@@ -13,19 +61,19 @@
       "value": "accepted"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       },
       "value": "subphylum"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family",
@@ -49,67 +97,19 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       },
       "value": "Animalia"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Vertebrata"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Genus"
-        }
-      ],
-      "identifier": [
-        {
-          "@id": "urn:lsid:marinespecies.org:taxname:146419"
-        },
-        "worms:146419"
-      ],
-      "name": "Vertebrates"
     }
   ]
 }
