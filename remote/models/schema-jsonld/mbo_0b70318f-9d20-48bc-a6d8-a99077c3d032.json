@@ -12,6 +12,9 @@
   "name": "MARCO BOLO Task 7.4",
   "participant": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
     },
     {
@@ -22,9 +25,6 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
     }
   ]
 }
