@@ -218,7 +218,10 @@
   "DatasetComment": {
     "mbo_cffb8ad5-ed44-426b-9704-f9801721dd99": "mbo_todo_comment_1"
   },
-  "DefinedTerm": {},
+  "DefinedTerm": {
+    "mbo_6d89e8df-cde2-41f7-a859-cb2d91b86a04": "mbo_definedterm_d1c2",
+    "mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3": "mbo_definedterm_d1c1"
+  },
   "Document": {
     "mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2": "mbo_wp2_d2_ds2_protocol3",
     "mbo_171a70cc-173a-4650-8510-f52c9d0b6305": "mbo_wp2_d2_ds2_ddPCR_protocol1",

@@ -1,79 +1,16 @@
 {
-  "timestamp": "2026-02-17T05:20:00.844712",
+  "timestamp": "2026-02-21T03:19:55.358545",
   "new_ids": [
     {
-      "class": "Organization",
-      "uuid": "mbo_fccd8788-7c81-4099-96f0-8a1a4085912d",
-      "semantic_id": "mbo_org_zenodo"
+      "class": "DefinedTerm",
+      "uuid": "mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3",
+      "semantic_id": "mbo_definedterm_d1c1"
+    },
+    {
+      "class": "DefinedTerm",
+      "uuid": "mbo_6d89e8df-cde2-41f7-a859-cb2d91b86a04",
+      "semantic_id": "mbo_definedterm_d1c2"
     }
   ],
-  "missing_ids": [
-    {
-      "class": "EmbargoStatement",
-      "uuid": "mbo_6f90016a-da67-46ee-afab-f2bcde47a797",
-      "semantic_id": "mbo_emb_d2_ds2_ddPCR",
-      "similar": [
-        [
-          "mbo_emb_wp2_d2_ds2_ddPCR",
-          0.9090909090909091
-        ],
-        [
-          "mbo_emb_d2_ds2_1",
-          0.8333333333333334
-        ]
-      ]
-    },
-    {
-      "class": "Organization",
-      "uuid": "mbo_1f8477b0-bb41-40ca-9a7b-062812dafb51",
-      "semantic_id": "mbo_szn",
-      "similar": [
-        [
-          "mbo_org_szn",
-          0.7777777777777778
-        ]
-      ]
-    },
-    {
-      "class": "Organization",
-      "uuid": "mbo_3e683c40-1b54-4771-850c-0ba0dc4cabc3",
-      "semantic_id": "mbo_zenodo",
-      "similar": [
-        [
-          "mbo_org_zenodo",
-          0.8333333333333334
-        ]
-      ]
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_88ada1bc-1029-4ee6-8456-575db95ed7f8",
-      "semantic_id": "mbo_dalelio",
-      "similar": [
-        [
-          "mbo_ddalelio",
-          0.9565217391304348
-        ],
-        [
-          "mbo_meliso",
-          0.7619047619047619
-        ],
-        [
-          "mbo_ngallo",
-          0.7619047619047619
-        ]
-      ]
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
-      "semantic_id": "mbo_dludicone",
-      "similar": [
-        [
-          "mbo_diudicone",
-          0.9230769230769231
-        ]
-      ]
-    }
-  ]
+  "missing_ids": []
 }
