@@ -1,1 +1,5 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Term Code*,In Term-Set (URL PID)*,Existing Term (URL PID),Description
+mbo_definedterm_d1c1,mbo_27401,mbo_wp1_t1_3,D1C1,,,"The mortality rate per species from incidental by-catch is below levels which threaten the species, such that its longterm viability is ensured. Member States shall establish the threshold values for the mortality rate from incidental by-catch per species, through regional or subregional cooperation."
+mbo_definedterm_d1c2,mbo_27401,mbo_wp1_t1_3,D1C2,,,"The population abundance of the species is not adversely affected due to anthropogenic pressures, such that its long-term viability is ensured. 
+Member States shall establish threshold values for each species through regional or subregional cooperation, taking account of natural variation in population size and the mortality rates derived from D1C1, D8C4 and D10C4 and other relevant pressures. For species covered by Directive 92/43/EEC, these values shall be
+consistent with the Favourable Reference Population values established by the relevant Member States under Directive 92/43/EEC."
