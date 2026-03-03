@@ -193,116 +193,114 @@ Once core records exist:
 
 Your data is automatically synchronized with the processing system nightly, via [this workflow](https://github.com/marco-bolo/csv-to-json-ld/blob/main/.github/workflows/sync_google_sheets.yaml). Another workflow ([link](https://github.com/marco-bolo/csv-to-json-ld/blob/main/.github/workflows/build-jsonld.yaml)) validates and transforms the synced CSVs to schema.org-specific JSON-LD according to the LinkML model. You can view the resulting JSON files at: https://lab.marcobolo-project.eu/csv-to-json-ld/schema-jsonld/. Logs from the process are attached to the GitHub Actions in the repo (for [example](https://github.com/marco-bolo/csv-to-json-ld/actions/runs/19683057969/job/56381636330)).
 
-# Examples of Actions
+The WP1 team monitors data validation and will contact you if any issues need resolution. Validated data becomes part of the MARCO-BOLO metadata catalog and is made discoverable through international research platforms, beginning with ODIS.
 
-## Example 1: Coastal Water Quality Monitoring
+## Examples of Actions
+
+### Example 1: Coastal Water Quality Monitoring
 
 **Parent Action:** "Coastal Water Quality Assessment - Adriatic Sea 2024"
 
-### Child Action 1: "Water Sample Collection"
+#### Child Action 1: "Water Sample Collection"
 - People and Organizations: Field sampling team
 - HowTo & Document: Sampling protocols
 - Dataset: Raw water samples with metadata
 
-### Child Action 2: "Laboratory Chemical Analysis"
+#### Child Action 2: "Laboratory Chemical Analysis"
 - People and Organizations: Lab tech(s)
 - HowTo & Document: Analytical protocols
 - Dataset: Nutrient concentration data, pH measurements
 
-### Child Action 3: "Data Quality Control and Processing"
+#### Child Action 3: "Data Quality Control and Processing"
 - People and Organizations: Data analyst(s)
 - HowTo & Document: QC protocols
 - Dataset: Validated dataset ready for publication
 
-### Child Action 4: "Data Publication"
+#### Child Action 4: "Data Publication"
 - People and Organizations: Data Manager(s)
 - HowTo & Document: Data Management Plan & Protocols
 - Dataset & Document: Archived dataset, primary publication
 
-## Example 2: Marine Biodiversity Survey (eDNA)
+### Example 2: Marine Biodiversity Survey (eDNA)
 
 **Parent Action:** "Marine Biodiversity Assessment via Environmental DNA"
 
-### Child Action 1: "eDNA Sample Collection"
+#### Child Action 1: "eDNA Sample Collection"
 - People and Organizations: Marine biologist
 - HowTo & Document: Sampling protocols
 - Dataset: Filtered water samples preserved for analysis with metadata
 
-### Child Action 2: "DNA Extraction and Library Preparation"
+#### Child Action 2: "DNA Extraction and Library Preparation"
 - People and Organizations: Molecular lab specialist
 - HowTo & Document: Extraction and library prep protocols
 - Datasets: DNA extracts and libraries ready for sequencing
 
-### Child Action 3: "High-Throughput Sequencing"
+#### Child Action 3: "High-Throughput Sequencing"
 - People and Organizations: Sequencing facility
 - HowTo and Document: Sequencing protocols
 - Dataset: Raw sequence data files
 
-### Child Action 4: "Bioinformatics Analysis and Species Identification"
+#### Child Action 4: "Bioinformatics Analysis and Species Identification"
 - People and Organizations: Bioinformatician
 - HowTo & Document: Protocols, software, services, reference databases
 - Dataset: Representative reads, species occurrence dataset with taxonomic assignments
 
-### Child Action 5: "Data Publication"
+#### Child Action 5: "Data Publication"
 - People and Organizations: Data Manager(s)
 - HowTo & Document: Data Management Plan & Protocols
 - Dataset & Document: Archived dataset, primary publication
 
-## Example 3: Ocean Current Modeling Study
+### Example 3: Ocean Current Modeling Study
 
 **Parent Action:** "Mediterranean Current Pattern Analysis Using Satellite Data"
 
-### Child Action 1: "Satellite Data Acquisition and Preprocessing"
+#### Child Action 1: "Satellite Data Acquisition and Preprocessing"
 - People and Organizations: Remote sensing specialist
 - HowTo & Document & Dataset: Satellite imagery, processing algorithms, software
 - Dataset: Calibrated sea surface height and temperature datasets
 
-### Child Action 2: "Oceanographic Model Configuration"
+#### Child Action 2: "Oceanographic Model Configuration"
 - People and Organizations: Physical oceanographer
 - HowTo & Document: Boundary conditions, model parameters
 - Dataset: Configured numerical ocean model
 
-### Child Action 3: "Model Simulation and Validation"
+#### Child Action 3: "Model Simulation and Validation"
 - People and Organizations: Computational scientist
 - HowTo & Document: Configured model, observational data for validation, software, service
 - Dataset: Validated current velocity and transport datasets
 
-### Child Action 4: "Data Publication"
+#### Child Action 4: "Data Publication"
 - People and Organizations: Data Manager(s)
 - HowTo & Document: Data Management Plan & Protocols
 - Dataset & Document: Archived dataset, primary publication
 
-##Example 4: Meta-Analysis of Conservation Interventions
+### Example 4: Meta-Analysis of Conservation Interventions
 
 **Parent Action:** "Meta-Analysis of Marine Protected Area Effectiveness on Fish Biodiversity"
 
-### Child Action 1: "Literature Search and Screening"
+#### Child Action 1: "Literature Search and Screening"
 - People and Organizations: Research team, librarian
 - HowTo & Document: Search protocol, inclusion/exclusion criteria, PRISMA guidelines
 - Dataset: Bibliography of candidate studies, screening decisions database
 
-### Child Action 2: "Data Extraction from Publications"
+#### Child Action 2: "Data Extraction from Publications"
 - People and Organizations: Research assistants, domain experts
 - HowTo & Document: Data extraction protocol, coding scheme
 - Dataset: Extracted effect sizes, study characteristics, intervention details
 
-### Child Action 3: "Data Quality Assessment and Harmonization"
+#### Child Action 3: "Data Quality Assessment and Harmonization"
 - People and Organizations: Lead researcher, statistician
 - HowTo & Document: Quality assessment criteria, data standardization protocols
 - Dataset: Quality-coded dataset, harmonized effect size measurements
 
-### Child Action 4: "Statistical Analysis and Synthesis"
+#### Child Action 4: "Statistical Analysis and Synthesis"
 - People and Organizations: Statistician, meta-analysis specialist
 - HowTo & Document: Statistical analysis plan, software scripts, meta-analysis methods
 - Dataset: Pooled effect estimates, heterogeneity statistics, subgroup analyses
 
-### Child Action 5: "Results Publication and Data Archiving"
+#### Child Action 5: "Results Publication and Data Archiving"
 - People and Organizations: Research team, data manager
 - HowTo & Document: Data Management Plan & Protocols
 - Dataset & Document: Published meta-analysis paper, archived analysis dataset with documentation
-
----
-
-The WP1 team monitors data validation and will contact you if any issues need resolution. Validated data becomes part of the MARCO-BOLO metadata catalog and is made discoverable through international research platforms, beginning with ODIS.
 
 ---
