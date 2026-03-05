@@ -1,16 +1,167 @@
 {
-  "timestamp": "2026-02-21T03:19:55.358545",
+  "timestamp": "2026-03-05T03:27:03.437295",
   "new_ids": [
     {
-      "class": "DefinedTerm",
-      "uuid": "mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3",
-      "semantic_id": "mbo_definedterm_d1c1"
+      "class": "Instrument",
+      "uuid": "mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb",
+      "semantic_id": "mbo_hydrophone_soundtrap"
     },
     {
-      "class": "DefinedTerm",
-      "uuid": "mbo_6d89e8df-cde2-41f7-a859-cb2d91b86a04",
-      "semantic_id": "mbo_definedterm_d1c2"
+      "class": "Instrument",
+      "uuid": "mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1",
+      "semantic_id": "mbo_hdvideo"
+    },
+    {
+      "class": "Instrument",
+      "uuid": "mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
+      "semantic_id": "mbo_multicamera"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_856275ce-3eb6-44e0-8704-8f81a9375b4f",
+      "semantic_id": "mbo_seatrial_rovdata_lowlight"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_dd2d14f4-873e-4984-b37a-26357e03fd13",
+      "semantic_id": "mbo_seatrial_rovdata_multicam"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3",
+      "semantic_id": "mbo_taxon_harbourporpose"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d",
+      "semantic_id": "mbo_javieralonso"
+    },
+    {
+      "class": "Platform",
+      "uuid": "mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+      "semantic_id": "mbo_bluerov2"
+    },
+    {
+      "class": "SoftwareApplication",
+      "uuid": "mbo_7412990f-3f9c-4f29-9211-3010563a9b8b",
+      "semantic_id": "mbo_t44_fmpegcode"
+    },
+    {
+      "class": "SoftwareApplication",
+      "uuid": "mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5",
+      "semantic_id": "mbo_t44_3Dreconstructcode"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
+      "semantic_id": "mbo_t44_rov_howto"
+    },
+    {
+      "class": "Action",
+      "uuid": "mbo_5c579086-4026-4c79-a6d3-7da55092798d",
+      "semantic_id": "mbo_task_4_4_seatrial_rov"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a",
+      "semantic_id": "mbo_place_task_4_4_hydrophone"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_dafc4d81-67a4-4fae-8132-fe073b236555",
+      "semantic_id": "mbo_place_seatrial_rov1"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_31061cfe-c611-4fd2-964a-b3e350ae521c",
+      "semantic_id": "mbo_place_seatrial_rov2a"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_a32ba611-efbb-4e48-acdf-8973f6f5daa9",
+      "semantic_id": "mbo_place_seatrial_rov2b"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d",
+      "semantic_id": "mbo_place_seatrial_rov2c"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_9586537b-ed16-4eee-b27c-d5459a9075f3",
+      "semantic_id": "mbo_place_seatrial_rov2d"
+    },
+    {
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
+      "semantic_id": "mbo_t44_multicamcode"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_39334243-747c-41f5-b211-79a3c5325fb8",
+      "semantic_id": "mbo_t44_rov_howtostep_raw2mp4"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_6b90341a-9060-48f2-9f1f-d2327873204a",
+      "semantic_id": "mbo_t44_rov_howtostep_preprocessing"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b",
+      "semantic_id": "mbo_t44_rov_howtostep_3dreconstruct"
     }
   ],
-  "missing_ids": []
+  "missing_ids": [
+    {
+      "class": "Instrument",
+      "uuid": "mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7",
+      "semantic_id": "mbo_hydrophone_instrument1",
+      "similar": []
+    },
+    {
+      "class": "Instrument",
+      "uuid": "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7",
+      "semantic_id": "mbo_hydrophone_instrument2",
+      "similar": []
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_151edf97-62ef-4899-b42d-8b66f4103b5a",
+      "semantic_id": "mbo_place_task_4_4_hydrophone2",
+      "similar": [
+        [
+          "mbo_place_task_4_4_hydrophone",
+          0.9830508474576272
+        ],
+        [
+          "mbo_place_task_4_4_echosounder",
+          0.7666666666666667
+        ],
+        [
+          "mbo_place_task_4_4_fpod",
+          0.7547169811320755
+        ]
+      ]
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_58b8b812-ea7b-44b2-8726-7f9da70cbaea",
+      "semantic_id": "mbo_place_task_4_4_hydrophone1",
+      "similar": [
+        [
+          "mbo_place_task_4_4_hydrophone",
+          0.9830508474576272
+        ],
+        [
+          "mbo_place_task_4_4_echosounder",
+          0.7666666666666667
+        ],
+        [
+          "mbo_place_task_4_4_fpod",
+          0.7547169811320755
+        ]
+      ]
+    }
+  ]
 }

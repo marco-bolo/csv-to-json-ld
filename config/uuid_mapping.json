@@ -24,6 +24,7 @@
     "mbo_4f00e86a-58d5-47dc-8a34-e6eaf3b099c8": "mbo_wp4_d4_5",
     "mbo_55e4a940-3c75-4760-848f-bba5a024b9f4": "mbo_wp3_d3_4",
     "mbo_5c059d18-5964-4ca4-8553-a8efc4e29db5": "mbo_wp6_t6_1",
+    "mbo_5c579086-4026-4c79-a6d3-7da55092798d": "mbo_task_4_4_seatrial_rov",
     "mbo_5dd2fd8d-4392-4b5c-9539-4e530dc6f832": "mbo_wp7_d7_3",
     "mbo_621e02c7-cb68-4388-8492-21ae5084acc0": "mbo_wp3_t3_2",
     "mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0": "mbo_wp3_t3_4",
@@ -197,6 +198,7 @@
     "mbo_68622e77-47f7-484b-a5f9-aae5401f48cd": "mbo_marineregions",
     "mbo_6d93fd0c-1e50-4c81-b138-b73996e49e5b": "mbo_wp2_d2_ds2_5",
     "mbo_7639e3de-0ac6-429b-8f50-55b5942c4a45": "mbo_t44_data_hydrophoneraw",
+    "mbo_856275ce-3eb6-44e0-8704-8f81a9375b4f": "mbo_seatrial_rovdata_lowlight",
     "mbo_9966378a-9e52-44aa-a152-63d8cae90dee": "mbo_wp2_d2_ds2",
     "mbo_9a97f72a-1b18-462a-a333-bc40a0416032": "mbo_wp2_d2_ds2_ddPCR",
     "mbo_a90ef954-59cd-4db8-9475-f49633968c6c": "mbo_wp5_1_1_fish",
@@ -210,6 +212,7 @@
     "mbo_d6f135e1-a171-4ae3-8105-d06ee1b5d4bb": "mbo_jwd_dataset_01",
     "mbo_d8693fbb-5fdd-4276-9038-dd95b9a36cd1": "mbo_wp2_d2_ds2_3",
     "mbo_dcf09cc2-3aea-4455-9b42-99304ce91396": "mbo_t44_data_echosounderraw",
+    "mbo_dd2d14f4-873e-4984-b37a-26357e03fd13": "mbo_seatrial_rovdata_multicam",
     "mbo_dfff77af-92db-4156-9d9b-9ef964878b36": "mbo_todo_dataset_2",
     "mbo_eeb7ee83-d64f-4dbc-adde-f0f20cba1259": "mbo_wp2_d2_ds2_6",
     "mbo_f345740a-964d-44b2-b8df-7f0062c16df1": "mbo_wp5_1_1_pilotto",
@@ -270,12 +273,16 @@
     "mbo_fcc6d39a-935e-4253-af37-be52fb2d0e29": "mbo_shape_bb_es"
   },
   "HowTo": {
+    "mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2": "mbo_t44_rov_howto",
     "mbo_1b36fdc1-7ce0-446c-bdf9-0fa3a66c662d": "mbo_t44_fpod_howto",
     "mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca": "mbo_t44_hydrophone_howto",
     "mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42": "mbo_t44_echosounder_howto"
   },
   "HowToStep": {
+    "mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b": "mbo_t44_rov_howtostep_3dreconstruct",
+    "mbo_39334243-747c-41f5-b211-79a3c5325fb8": "mbo_t44_rov_howtostep_raw2mp4",
     "mbo_5f87eab9-8188-4db3-b5a6-c39055b51e30": "mbo_t44_echosounder_howtostep",
+    "mbo_6b90341a-9060-48f2-9f1f-d2327873204a": "mbo_t44_rov_howtostep_preprocessing",
     "mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c": "mbo_t44_hydrophone_howtostep",
     "mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a": "mbo_t44_fpod_howtostep"
   },
@@ -284,7 +291,10 @@
     "mbo_16fd074f-eeef-4812-8967-e27da038026d": "mbo_fpod_instrument",
     "mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7": "mbo_hydrophone_instrument1",
     "mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca": "mbo_echosounder_instrument",
-    "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7": "mbo_hydrophone_instrument2"
+    "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7": "mbo_hydrophone_instrument2",
+    "mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556": "mbo_multicamera",
+    "mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1": "mbo_hdvideo",
+    "mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb": "mbo_hydrophone_soundtrap"
   },
   "License": {
     "mbo_500ee36e-324d-4f2f-9b0b-a4408f638201": "mbo_license_ccby40",
@@ -372,6 +382,7 @@
     "mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd": "mbo_ccanobarbacil",
     "mbo_4bdea6e0-af73-4a27-940e-19e94e86add9": "mbo_mobst",
     "mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9": "mbo_fnot",
+    "mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d": "mbo_javieralonso",
     "mbo_56592f30-00f0-4165-b0fa-bf89b718604d": "mbo_34461",
     "mbo_568459bd-0125-4af1-8ab7-344dfec4000c": "mbo_24333",
     "mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70": "mbo_28269",
@@ -440,6 +451,7 @@
     "mbo_151edf97-62ef-4899-b42d-8b66f4103b5a": "mbo_place_task_4_4_hydrophone2",
     "mbo_1c9594a3-5798-48ff-8f6a-22c912ddc4cd": "mbo_place_eez_lt",
     "mbo_27107a21-e327-40b9-84a9-12df8d690b86": "mbo_place_eez_mt",
+    "mbo_31061cfe-c611-4fd2-964a-b3e350ae521c": "mbo_place_seatrial_rov2a",
     "mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591": "mbo_place_task_4_4_echosounder",
     "mbo_3d579a7a-ce50-4b2d-bbfb-4d6d25badb28": "mbo_place_eez_fi",
     "mbo_4438bc08-bdac-406b-aeb1-a87aa0e8c74b": "mbo_place_emobon_esc68n",
@@ -452,10 +464,13 @@
     "mbo_5b725a07-11f9-4dfe-93e7-726aafecfd42": "mbo_place_eez_hr",
     "mbo_61144614-337c-4da8-93a0-cf24817b775e": "mbo_place_eez_se",
     "mbo_68e431e3-41e3-4d0d-87fc-2cffe7ef2acc": "mbo_place_eez_lv",
+    "mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d": "mbo_place_seatrial_rov2c",
     "mbo_6f138b7c-81a9-4823-b528-46cf20de958c": "mbo_place_eez_cy",
     "mbo_85299a58-c230-4152-97fa-e126197b622c": "mbo_place_emobon_umf",
     "mbo_92645ff8-d30e-4088-9bee-6f135eb6cc9a": "mbo_place_eez_nl",
+    "mbo_9586537b-ed16-4eee-b27c-d5459a9075f3": "mbo_place_seatrial_rov2d",
     "mbo_99b183f4-59da-4da7-886e-28d649045e28": "mbo_place_eez_ro",
+    "mbo_a32ba611-efbb-4e48-acdf-8973f6f5daa9": "mbo_place_seatrial_rov2b",
     "mbo_b530bfba-1201-4f66-86dc-350954893759": "mbo_place_eez_pt",
     "mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64": "mbo_place_eez_be",
     "mbo_b9ae39f4-0890-4303-bdd7-6828beea2411": "mbo_place_global_oceans",
@@ -463,13 +478,16 @@
     "mbo_c1898930-b643-4212-93ce-49b4a08c05b2": "mbo_place_eez_no",
     "mbo_c97a379a-ecbd-4570-8bab-f2b34c09238e": "mbo_place_eez_de",
     "mbo_ca0dbd94-7b4a-48bb-8c65-c8093db79eb8": "mbo_place_eez_dk",
+    "mbo_dafc4d81-67a4-4fae-8132-fe073b236555": "mbo_place_seatrial_rov1",
     "mbo_db7de453-4535-4c99-bc4c-db5401220025": "mbo_place_eez_it",
     "mbo_df43590b-3ef7-4e9a-8e22-9ef242a55cd8": "mbo_000001",
     "mbo_e67a010b-885f-4490-a09e-10c505f7ffc9": "mbo_place_task_4_4_fpod",
     "mbo_e8604bc2-7139-49f7-8be5-ddeed9e257a3": "mbo_place_eez_si",
-    "mbo_ea94dcd6-3aa4-471f-a775-8c5987b21408": "mbo_place_emobon_mbal4"
+    "mbo_ea94dcd6-3aa4-471f-a775-8c5987b21408": "mbo_place_emobon_mbal4",
+    "mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a": "mbo_place_task_4_4_hydrophone"
   },
   "Platform": {
+    "mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7": "mbo_bluerov2",
     "mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4": "mbo_seabedmooring"
   },
   "PropertyValue": {
@@ -518,9 +536,13 @@
   "Service": {},
   "SoftwareApplication": {
     "mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f": "mbo_t44_echoview",
-    "mbo_3d7748d7-ea74-4e6b-8a08-1ef7dddd746e": "mbo_t44_fpod_software"
+    "mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5": "mbo_t44_3Dreconstructcode",
+    "mbo_3d7748d7-ea74-4e6b-8a08-1ef7dddd746e": "mbo_t44_fpod_software",
+    "mbo_7412990f-3f9c-4f29-9211-3010563a9b8b": "mbo_t44_fmpegcode"
   },
-  "SoftwareSourceCode": {},
+  "SoftwareSourceCode": {
+    "mbo_99fcf646-b410-4ced-878b-cc9e71ba1699": "mbo_t44_multicamcode"
+  },
   "Taxon": {
     "mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c": "mbo_taxon_fish",
     "mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6": "mbo_taxon_eukaryota",
@@ -532,6 +554,7 @@
     "mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1": "mbo_taxon_plants",
     "mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308": "mbo_taxon_birds",
     "mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919": "mbo_taxon_invertebrates",
+    "mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3": "mbo_taxon_harbourporpose",
     "mbo_cc511f0e-2597-47cc-90db-1538908f709f": "mbo_taxon_archaea",
     "mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b": "mbo_taxon_phytoplankton",
     "mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1": "mbo_taxon_animalia"
