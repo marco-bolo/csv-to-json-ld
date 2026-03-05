@@ -25,4 +25,4 @@ mbo_shape_global,mbo_sformel,mbo_db_tool_population,Global boundaries,Bounding b
 mbo_shape_bb_no,mbo_sformel,mbo_db_tool_population,NorwegianEEZ Bounding Box,Bounding Box of Norwegian Exclusive Economic Zone (MRGID:5686). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.,56.08599 -0.4907 74.50483 36.47626,,,,
 mbo_point_task_4_4_fpod,mbo_58464,mbo_task_4_4_seatrial_fpod,Belgium EEZ Task 4.4 FPOD,Point of the FPOD sea trial for Task 4.4 sea trial,51.406617 2.9963330000 51.406617 2.9963330000,,,,
 mbo_point_task_4_4_echosounder,mbo_58464,mbo_task_4_4_seatrial_echosounder,Belgium EEZ Task 4.4 echo-sounder,Point of the echo-sounder sea trial for Task 4.4 sea trial,51.40645 2.8185 51.40645 2.8185,,,,
-mbo_shape_task_4_4_hydrophone,mbo_58464,mbo_task_4_4_seatrial_hydrophone,Belgium EEZ Task 4.4 hydrophone,Point of the hydrophone sea trial for Task 4.4 sea trial,51.406450 2.818500 51.406667 2.819000,,,,
+mbo_shape_task_4_4_hydrophone,mbo_58464,mbo_task_4_4_seatrial_hydrophone,Belgium EEZ Task 4.4 hydrophone,Point of the hydrophone sea trial for Task 4.4 sea trial,51.40645 2.8185 51.40645 2.8185,,,,
