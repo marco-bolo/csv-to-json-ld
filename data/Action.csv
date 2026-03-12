@@ -82,4 +82,5 @@ mbo_wp7_t7_1,mbo_sformel,mbo_db_tool_population,MARCO BOLO Task 7.1,mbo_org_mbo_
 mbo_wp7_t7_2,mbo_sformel,mbo_db_tool_population,MARCO BOLO Task 7.2,mbo_org_mbo_wp7,Communication & Dissemination,,,mbo_org_mbo_wp7|mbo_58451|mbo_org_erinn,,,
 mbo_wp7_t7_3,mbo_sformel,mbo_db_tool_population,MARCO BOLO Task 7.3,mbo_org_mbo_wp7,Citizen Engagement and Public Outreach,,,mbo_org_mbo_wp7|mbo_58451|mbo_org_erinn,,,
 mbo_wp7_t7_4,mbo_sformel,mbo_db_tool_population,MARCO BOLO Task 7.4,mbo_org_mbo_wp7,Clustering activities with marine biodiversity projects and coordinating activities,,,mbo_org_mbo_wp7|mbo_23935|mbo_org_ciimar|mbo_org_embrc|mbo_org_ssbe,,,
-mbo_task_4_4_seatrial_rov,mbo_58464,mbo_task4_4_seatrial_rov,Multi-sensor biodiversity observations: sea trial ROV,mbo_org_mbo_wp4,,,,mbo_javieralonso,,mbo_seatrial_rovdata,
+mbo_task_4_4_seatrial_rov,mbo_58464,mbo_task_4_4_seatrial_rov,Multi-sensor biodiversity observations: sea trial ROV,mbo_org_mbo_wp4,,,mbo_t44_rov_howto,mbo_javieralonso,,mbo_seatrial_rovdata_lowlight | mbo_seatrial_rovdata_multicam,
+mbo_task_4_4_seatrial_rov_modelling,mbo_58464,mbo_task_4_4_seatrial_rov_modelling,Multi-sensor biodiversity observations: 3D modelling,mbo_org_mbo_wp4,,,mbo_t44_fpod_howto,mbo_javieralonso,mbo_seatrial_rovdata_multicam,mbo_seatrial_rovdata_3dmodels,
