@@ -81,6 +81,7 @@
     "mbo_eee5776d-a4c8-47b4-b8ff-541acbbc6145": "mbo_wp3_d3_1",
     "mbo_f228c8da-cf90-4605-b0ac-89fc6b6c653e": "mbo_wp2_d2_1",
     "mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14": "mbo_wp5_t5_1_1_clean",
+    "mbo_f8b67c55-ec0d-4f01-a102-37debde2318a": "mbo_task_4_4_seatrial_rov_modelling",
     "mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0": "mbo_wp5_d5_1",
     "mbo_fb7e0fc8-6cfd-4ad5-9655-739fe659bfa9": "mbo_wp4_t4_3",
     "mbo_ff5c2829-d4b6-4651-aa1c-2a19688c9f98": "mbo_wp7_d7_5"
@@ -178,7 +179,9 @@
     "mbo_ffcfc14d-53ae-4119-84da-370299b1e5d9": "mbo_contact_wp3_d3_4_3"
   },
   "DataDownload": {
+    "mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62": "mbo_task_4_4_seatrial_rov_multicam",
     "mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee": "mbo_wp2_d2_ds2_ddPCR_download1",
+    "mbo_63c42568-49a8-434f-bae9-1cea02c84c69": "mbo_task_4_4_seatrial_rov_nosecam",
     "mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad": "mbo_wp2_d2_ds2_download1",
     "mbo_e418799e-cb75-4d08-aaa1-8d76d005daae": "mbo_todo_data_download_1"
   },
@@ -213,6 +216,7 @@
     "mbo_d8693fbb-5fdd-4276-9038-dd95b9a36cd1": "mbo_wp2_d2_ds2_3",
     "mbo_dcf09cc2-3aea-4455-9b42-99304ce91396": "mbo_t44_data_echosounderraw",
     "mbo_dd2d14f4-873e-4984-b37a-26357e03fd13": "mbo_seatrial_rovdata_multicam",
+    "mbo_dfb477bb-5783-49d0-9362-3bc6ded079f9": "mbo_seatrial_rovdata_3dmodels",
     "mbo_dfff77af-92db-4156-9d9b-9ef964878b36": "mbo_todo_dataset_2",
     "mbo_eeb7ee83-d64f-4dbc-adde-f0f20cba1259": "mbo_wp2_d2_ds2_6",
     "mbo_f345740a-964d-44b2-b8df-7f0062c16df1": "mbo_wp5_1_1_pilotto",
@@ -275,6 +279,7 @@
   "HowTo": {
     "mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2": "mbo_t44_rov_howto",
     "mbo_1b36fdc1-7ce0-446c-bdf9-0fa3a66c662d": "mbo_t44_fpod_howto",
+    "mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d": "mbo_t44_rov_howto_models",
     "mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca": "mbo_t44_hydrophone_howto",
     "mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42": "mbo_t44_echosounder_howto"
   },
@@ -497,6 +502,7 @@
     "mbo_14816a65-6ff0-4592-b2db-34500dceab87": "mbo_propval_eov_16",
     "mbo_274abdf2-001e-4efd-a6bc-3a8f61f2e94b": "mbo_ebv_class_genetic_composition",
     "mbo_29444a61-2ed3-41d7-93c3-b1c4421042d4": "mbo_propval_eov_10",
+    "mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4": "mbo_task_4_4_seatrial_rov_3dmodelproperty",
     "mbo_4745ffb5-2b4b-44ee-9a28-22cc930b2d14": "mbo_ebv_class_species_populations",
     "mbo_47ef59f6-2db1-40a7-b96d-f0770f5e03e0": "mbo_propval_eov_3",
     "mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7": "mbo_propval_biological_absentpresent",
