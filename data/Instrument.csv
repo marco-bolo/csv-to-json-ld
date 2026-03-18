@@ -4,3 +4,4 @@ mbo_hydrophone_soundtrap,mbo_58464,mbo_task_4_4_seatrial_fpod,hydrophone,,Long-t
 mbo_echosounder_instrument,mbo_58464,mbo_task_4_4_seatrial_echosounder,echosounder,,Muliti-beam echosounder,WBAT-SPLITBEAM-ES70-18CD-SN280-ES200-7CD-SN205-284143,https://vocab.nerc.ac.uk/collection/L05/current/157/,echosounder,,,,mbo_seabedmooring,,,,,
 mbo_hdvideo,mbo_58464,mbo_task_4_4_seatrial_echosounder,HD Video camera,,Low-Light HD USB Nose Camera,,https://vocab.nerc.ac.uk/collection/L22/current/TOOL1544/,,,,,mbo_bluerov2,,,,,
 mbo_multicamera,mbo_58464,mbo_task_4_4_seatrial_echosounder,Multi-camera system,,NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support,,,,,,,mbo_seabedmooring,,,https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp,,
+mbo_rosci,mbo_58464,mbo_task_4_4_seatrial_edna,RoCSI,,RoCSI eDNA sampler,RoCSI Serial Number 5,,,,,,,,,,,

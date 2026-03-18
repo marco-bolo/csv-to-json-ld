@@ -4,3 +4,5 @@ mbo_t44_hydrophone_howto,mbo_58464,mbo_task_4_4_seatrial_hydrophone,T4.4 hydroph
 mbo_t44_echosounder_howto,mbo_58464,mbo_task_4_4_seatrial_echosounder,T4.4 ecosounder data capture,mbo_t44_echosounder_howtostep,Data from echosounders turned into useful measurements,,
 mbo_t44_rov_howto,mbo_58464,mbo_task_4_4_seatrial_rov,T4.4 ROV camera work: raw to mp4,,Raw to subset and reformatted videos,,
 mbo_t44_rov_howto_models,mbo_58464,mbo_task_4_4_seatrial_rov_modelling,T4.4 Multi-camera work: 3D modelling,mbo_t44_rov_howtostep_3dreconstruct,Photogrammetry,,
+mbo_t44_edna1_howto,mbo_58464,mbo_task_4_4_seatrial_edna1,T4.4 eDNA work: from seabed,mbo_t44_edna_howtostep_fromseabed,,,
+mbo_t44_edna2_howto,mbo_58464,mbo_task_4_4_seatrial_edna2,T4.4 eDNA work: from RV,mbo_t44_edna_howtostep_fromRV,,,

@@ -38,3 +38,5 @@ mbo_place_seatrial_rov2a,mbo_58464,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.4
 mbo_place_seatrial_rov2b,mbo_58464,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.4 ROV multi-camera b,The location of the ROV multi-camera work during the Task 4.4 sea trial,55.76318,12.6027617,
 mbo_place_seatrial_rov2c,mbo_58464,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.4 ROV multi-camera c,The location of the ROV multi-camera work during the Task 4.4 sea trial,51.407058,2.818065,
 mbo_place_seatrial_rov2d,mbo_58464,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.4 ROV multi-camera d,The location of the ROV multi-camera work during the Task 4.4 sea trial,55.721743,12.680951,
+mbo_place_edna1,mbo_58464,mbo_task_4_4_seatrial_edna1,Task 4.4 eDNA benthic mooring,,51.406617,2.996333,
+mbo_place_edna2,mbo_58464,mbo_task_4_4_seatrial_edna2,Task 4.4 eDNA from ship,,,,
