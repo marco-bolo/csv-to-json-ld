@@ -1,35 +1,155 @@
 {
-  "timestamp": "2026-03-12T03:30:09.269690",
+  "timestamp": "2026-03-18T03:37:23.810248",
   "new_ids": [
     {
+      "class": "Instrument",
+      "uuid": "mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
+      "semantic_id": "mbo_rosci"
+    },
+    {
       "class": "Dataset",
-      "uuid": "mbo_dfb477bb-5783-49d0-9362-3bc6ded079f9",
-      "semantic_id": "mbo_seatrial_rovdata_3dmodels"
+      "uuid": "mbo_02882c89-e296-481d-bc06-a0b550a3240b",
+      "semantic_id": "mbo_seatria_edna1_rawdata"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_d2f11734-7f4a-4550-982a-f00250443452",
+      "semantic_id": "mbo_seatria_edna2_rawdata"
     },
     {
       "class": "PropertyValue",
-      "uuid": "mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4",
-      "semantic_id": "mbo_task_4_4_seatrial_rov_3dmodelproperty"
+      "uuid": "mbo_9ac7c010-05e7-49f8-a6df-9996740554b6",
+      "semantic_id": "mbo_property_date"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937",
+      "semantic_id": "mbo_property_duration"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_5b97854f-828b-466b-87d2-9c980927ff68",
+      "semantic_id": "mbo_property_treatment"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327",
+      "semantic_id": "mbo_property_stopreason"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_31382fc4-a7fc-4d3d-b230-ee42c04919dc",
+      "semantic_id": "mbo_property_pumpedvolume"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_8c1ac6ca-d55e-42ea-a2bd-588a800552cd",
+      "semantic_id": "mbo_property_pressure"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_12a013c1-5f98-4cc7-9aa2-14fe6d34cb75",
+      "semantic_id": "mbo_property_time"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8",
+      "semantic_id": "mbo_property_16S"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_3753bdc6-5284-412d-bda1-a91521f21ecf",
+      "semantic_id": "mbo_property_18S"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_89f2683b-ca08-4a93-8638-ab25b194929b",
+      "semantic_id": "mbo_property_COI"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_3e3f7e23-f80b-45da-9138-b21ee6eb08f7",
+      "semantic_id": "mbo_property_12S_fish"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd",
+      "semantic_id": "mbo_property_12S_marinevertebrates"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269",
+      "semantic_id": "mbo_prokaryota"
+    },
+    {
+      "class": "Taxon",
+      "uuid": "mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee",
+      "semantic_id": "mbo_metazoa"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea",
+      "semantic_id": "mbo_heynderickx"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5",
+      "semantic_id": "mbo_julierobidart"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_9c92b4e1-4080-442a-8bee-576cae4361a7",
+      "semantic_id": "mbo_danieledecorte"
+    },
+    {
+      "class": "Platform",
+      "uuid": "mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
+      "semantic_id": "mbo_simonstevin"
+    },
+    {
+      "class": "Platform",
+      "uuid": "mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf",
+      "semantic_id": "mbo_seabedlander"
     },
     {
       "class": "HowTo",
-      "uuid": "mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
-      "semantic_id": "mbo_t44_rov_howto_models"
+      "uuid": "mbo_d89804a0-16d9-49e9-bc75-86aa7ecb77b8",
+      "semantic_id": "mbo_t44_edna1_howto"
     },
     {
-      "class": "DataDownload",
-      "uuid": "mbo_63c42568-49a8-434f-bae9-1cea02c84c69",
-      "semantic_id": "mbo_task_4_4_seatrial_rov_nosecam"
-    },
-    {
-      "class": "DataDownload",
-      "uuid": "mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62",
-      "semantic_id": "mbo_task_4_4_seatrial_rov_multicam"
+      "class": "HowTo",
+      "uuid": "mbo_c8c75776-2884-45b9-b0b9-38087f638d5d",
+      "semantic_id": "mbo_t44_edna2_howto"
     },
     {
       "class": "Action",
-      "uuid": "mbo_f8b67c55-ec0d-4f01-a102-37debde2318a",
-      "semantic_id": "mbo_task_4_4_seatrial_rov_modelling"
+      "uuid": "mbo_872ece16-e42a-4b96-840a-920a096e760b",
+      "semantic_id": "mbo_task_4_4_seatrial_edna1"
+    },
+    {
+      "class": "Action",
+      "uuid": "mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d",
+      "semantic_id": "mbo_task_4_4_seatrial_edna2"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_02656303-5068-4297-bdfe-17630a06c38e",
+      "semantic_id": "mbo_place_edna1"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8",
+      "semantic_id": "mbo_place_edna2"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_7f838694-701b-44f6-8efa-4c2119f04875",
+      "semantic_id": "mbo_t44_edna_howtostep_fromseabed"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac",
+      "semantic_id": "mbo_t44_edna_howtostep_fromRV"
     }
   ],
   "missing_ids": [
@@ -44,6 +164,17 @@
       "uuid": "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7",
       "semantic_id": "mbo_hydrophone_instrument2",
       "similar": []
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_6b8b55f3-2bb6-46b2-b7ad-dd2355226ac0",
+      "semantic_id": "mbo_henderickx",
+      "similar": [
+        [
+          "mbo_heynderickx",
+          0.9655172413793104
+        ]
+      ]
     },
     {
       "class": "Place",
