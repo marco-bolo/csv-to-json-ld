@@ -1,158 +1,183 @@
 {
-  "timestamp": "2026-03-18T03:37:23.810248",
+  "timestamp": "2026-03-24T03:32:32.151037",
   "new_ids": [
     {
-      "class": "Instrument",
-      "uuid": "mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
-      "semantic_id": "mbo_rosci"
+      "class": "Dataset",
+      "uuid": "mbo_42e8b64b-653f-479e-acf0-90d70482c194",
+      "semantic_id": "mbo_wp2_t2_3_ds_01"
     },
     {
       "class": "Dataset",
-      "uuid": "mbo_02882c89-e296-481d-bc06-a0b550a3240b",
-      "semantic_id": "mbo_seatria_edna1_rawdata"
+      "uuid": "mbo_a7828658-47fc-428a-964e-ed438215ae29",
+      "semantic_id": "mbo_wp2_t2_3_ds_02"
     },
     {
       "class": "Dataset",
-      "uuid": "mbo_d2f11734-7f4a-4550-982a-f00250443452",
-      "semantic_id": "mbo_seatria_edna2_rawdata"
+      "uuid": "mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+      "semantic_id": "mbo_wp5_t5_2_ds_01"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_9ac7c010-05e7-49f8-a6df-9996740554b6",
-      "semantic_id": "mbo_property_date"
+      "class": "Dataset",
+      "uuid": "mbo_77391e42-ec77-41fd-a695-ea763f846aa7",
+      "semantic_id": "mbo_wp5_t5_2_ds_02"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937",
-      "semantic_id": "mbo_property_duration"
+      "class": "Dataset",
+      "uuid": "mbo_10f87325-44b1-4e3c-b944-b908b014d58a",
+      "semantic_id": "mbo_wp5_t5_2_ds_03"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_5b97854f-828b-466b-87d2-9c980927ff68",
-      "semantic_id": "mbo_property_treatment"
+      "class": "Dataset",
+      "uuid": "mbo_d36eb952-cede-42b6-b1e8-2121da521037",
+      "semantic_id": "mbo_wp5_t5_2_ds_04"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327",
-      "semantic_id": "mbo_property_stopreason"
+      "class": "Dataset",
+      "uuid": "mbo_be28508a-0017-4c2b-811a-ea8da4f24e25",
+      "semantic_id": "mbo_wp5_t5_2_ds_05"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_31382fc4-a7fc-4d3d-b230-ee42c04919dc",
-      "semantic_id": "mbo_property_pumpedvolume"
+      "class": "Dataset",
+      "uuid": "mbo_35fb3019-a938-4974-a555-2c8bfae1e610",
+      "semantic_id": "mbo_wp5_t5_2_ds_06"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_8c1ac6ca-d55e-42ea-a2bd-588a800552cd",
-      "semantic_id": "mbo_property_pressure"
+      "class": "Dataset",
+      "uuid": "mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282",
+      "semantic_id": "mbo_wp2_t2_3_ds_03"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_12a013c1-5f98-4cc7-9aa2-14fe6d34cb75",
-      "semantic_id": "mbo_property_time"
+      "class": "Dataset",
+      "uuid": "mbo_4ae49b7a-9a76-47a4-9751-13e01911e718",
+      "semantic_id": "mbo_wp2_t2_3_ds_04"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8",
-      "semantic_id": "mbo_property_16S"
+      "class": "Dataset",
+      "uuid": "mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f",
+      "semantic_id": "mbo_wp2_t2_1_ds_01"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_3753bdc6-5284-412d-bda1-a91521f21ecf",
-      "semantic_id": "mbo_property_18S"
+      "class": "Dataset",
+      "uuid": "mbo_1858bb31-91ec-40fb-a5c2-9b50c42f9f7c",
+      "semantic_id": "mbo_wp2_t2_1_ds_02"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_89f2683b-ca08-4a93-8638-ab25b194929b",
-      "semantic_id": "mbo_property_COI"
+      "class": "Service",
+      "uuid": "mbo_02865f10-787b-44ed-914a-f44855ef5bf3",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_3e3f7e23-f80b-45da-9138-b21ee6eb08f7",
-      "semantic_id": "mbo_property_12S_fish"
+      "class": "ContactPoint",
+      "uuid": "mbo_85f7b74f-4743-45a0-ac88-901340f57e5d",
+      "semantic_id": "mbo_contact_wp5_t5_1_1"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd",
-      "semantic_id": "mbo_property_12S_marinevertebrates"
+      "class": "ContactPoint",
+      "uuid": "mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
+      "semantic_id": "mbo_contact_wp5_t5_1_2"
     },
     {
-      "class": "Taxon",
-      "uuid": "mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269",
-      "semantic_id": "mbo_prokaryota"
+      "class": "ContactPoint",
+      "uuid": "mbo_b17501aa-5df4-41ac-9599-d72f51182472",
+      "semantic_id": "mbo_contact_wp5_t5_1_3"
     },
     {
-      "class": "Taxon",
-      "uuid": "mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee",
-      "semantic_id": "mbo_metazoa"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea",
-      "semantic_id": "mbo_heynderickx"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5",
-      "semantic_id": "mbo_julierobidart"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_9c92b4e1-4080-442a-8bee-576cae4361a7",
-      "semantic_id": "mbo_danieledecorte"
-    },
-    {
-      "class": "Platform",
-      "uuid": "mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
-      "semantic_id": "mbo_simonstevin"
-    },
-    {
-      "class": "Platform",
-      "uuid": "mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf",
-      "semantic_id": "mbo_seabedlander"
+      "class": "SoftwareApplication",
+      "uuid": "mbo_bce4f897-4e96-4fcc-9fee-ae18875e80b0",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre"
     },
     {
       "class": "HowTo",
-      "uuid": "mbo_d89804a0-16d9-49e9-bc75-86aa7ecb77b8",
-      "semantic_id": "mbo_t44_edna1_howto"
+      "uuid": "mbo_33e6c6a3-ef3f-454a-83b4-e50055111492",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_model_howto"
     },
     {
       "class": "HowTo",
-      "uuid": "mbo_c8c75776-2884-45b9-b0b9-38087f638d5d",
-      "semantic_id": "mbo_t44_edna2_howto"
+      "uuid": "mbo_63d62702-e1a6-43b4-9d2b-901ee0f9e8bb",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelrunning_howto"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674",
+      "semantic_id": "mbo_t5_2_genetic_indicators_howto"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad",
+      "semantic_id": "mbo_org_wco"
     },
     {
       "class": "Action",
-      "uuid": "mbo_872ece16-e42a-4b96-840a-920a096e760b",
-      "semantic_id": "mbo_task_4_4_seatrial_edna1"
+      "uuid": "mbo_b22fea99-0291-416a-817b-49ed56d78dd8",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_createmodel"
     },
     {
       "class": "Action",
-      "uuid": "mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d",
-      "semantic_id": "mbo_task_4_4_seatrial_edna2"
+      "uuid": "mbo_0db90fd0-c4f9-4a85-ad36-0b22c7b8fbfb",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_runmodel"
     },
     {
       "class": "Place",
-      "uuid": "mbo_02656303-5068-4297-bdfe-17630a06c38e",
-      "semantic_id": "mbo_place_edna1"
+      "uuid": "mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
+      "semantic_id": "mbo_place_WCOL4"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8",
-      "semantic_id": "mbo_place_edna2"
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_67c7d076-76bb-4464-99f8-83307cc66ae8",
+      "semantic_id": "mbo_t5_1_2_johannescode"
+    },
+    {
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34",
+      "semantic_id": "mbo_t5_2_genetic_indicators_code"
     },
     {
       "class": "HowToStep",
-      "uuid": "mbo_7f838694-701b-44f6-8efa-4c2119f04875",
-      "semantic_id": "mbo_t44_edna_howtostep_fromseabed"
+      "uuid": "mbo_91b7cb16-9063-409f-974a-208dac4adc71",
+      "semantic_id": "mbo_t_5_1_2_habitatsuit_model_howtostep"
     },
     {
       "class": "HowToStep",
-      "uuid": "mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac",
-      "semantic_id": "mbo_t44_edna_howtostep_fromRV"
+      "uuid": "mbo_5ab5cf22-beb7-4870-93dd-ef2ee8615f45",
+      "semantic_id": "mbo_t_5_1_2_habitatsuit_runmodel_howtostep"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69",
+      "semantic_id": "mbo_t5_2_genetic_indicators_howtostep"
     }
   ],
   "missing_ids": [
+    {
+      "class": "ContactPoint",
+      "uuid": "mbo_bc9c2431-72f4-474b-8d72-69a646a0d43f",
+      "semantic_id": "mbo_contact_wp5_t5_1",
+      "similar": [
+        [
+          "mbo_contact_wp5_t5_1_1",
+          0.9523809523809523
+        ],
+        [
+          "mbo_contact_wp5_t5_1_2",
+          0.9523809523809523
+        ],
+        [
+          "mbo_contact_wp5_t5_1_3",
+          0.9523809523809523
+        ]
+      ]
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_d6f135e1-a171-4ae3-8105-d06ee1b5d4bb",
+      "semantic_id": "mbo_jwd_dataset_01",
+      "similar": [
+        [
+          "mbo_todo_dataset_2",
+          0.7777777777777778
+        ]
+      ]
+    },
     {
       "class": "Instrument",
       "uuid": "mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7",
@@ -163,6 +188,18 @@
       "class": "Instrument",
       "uuid": "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7",
       "semantic_id": "mbo_hydrophone_instrument2",
+      "similar": []
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_47daebfe-f817-49c1-b0dc-3374815176f8",
+      "semantic_id": "mbo_jmortelmans",
+      "similar": []
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_6920b2e3-1204-4644-9e43-12babdd2c77e",
+      "semantic_id": "mbo_jmuyle",
       "similar": []
     },
     {
@@ -213,6 +250,12 @@
           0.7547169811320755
         ]
       ]
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_df43590b-3ef7-4e9a-8e22-9ef242a55cd8",
+      "semantic_id": "mbo_000001",
+      "similar": []
     }
   ]
 }
