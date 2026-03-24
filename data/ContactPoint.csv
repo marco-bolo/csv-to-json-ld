@@ -20,7 +20,7 @@ mbo_contact_wp2_d2_4,mbo_sformel,mbo_wp2_d2_4,Deliverable 2.4 Contact,Cris Bowle
 mbo_contact_wp2_d2_5,mbo_sformel,mbo_wp2_d2_5,Deliverable 2.5 Contact,Fabrice Not,not@sb-roscoff.fr,,,Contact for D2.5 - Report on a framework of guidelines and protocols for eDNA-based biodiversity observations
 mbo_contact_wp2_t2_1,mbo_sformel,mbo_wp2_t2_1,Task 2.1 Contact,TBD,,,,Meta-analysis of technical and practical aspects of current eDNA approaches
 mbo_contact_wp2_t2_2,mbo_sformel,mbo_wp2_t2_2,Task 2.2 Contact,TBD,,,,"Tuning and integration of current resources and technologies for eDNA, PCR-based monitoring"
-mbo_contact_wp2_t2_3,mbo_sformel,mbo_wp2_t2_3,Task 2.3 Contact,TBD,,,,Comparison of spatial and temporal eDNA-based vs. traditional observations
+mbo_contact_wp2_t2_3,mbo_sformel,mbo_wp2_t2_3,Task 2.3 Contact,Joanna Warwick-Dugdale,joadug@mba.ac.uk,,en,Comparison of spatial and temporal eDNA-based vs. traditional observations
 mbo_contact_wp2_t2_4,mbo_sformel,mbo_wp2_t2_4,Task 2.4 Contact,TBD,,,,"Defining eDNA-based variables for the EV, MSFD and WFD frameworks"
 mbo_contact_wp2_t2_5,mbo_sformel,mbo_wp2_t2_5,Task 2.5 Contact,TBD,,,,Developing a framework of guidelines/protocols for eDNA-based biodiversity observations
 mbo_contact_wp3_d3_1,mbo_sformel,mbo_wp3_d3_1,Deliverable 3.1 Contact,Caterina Bergami,caterina.bergami@cnr.it,,,"Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools"
@@ -39,27 +39,29 @@ mbo_contact_wp3_t3_5,mbo_sformel,mbo_wp3_t3_5,Task 3.5 Contact,TBD,,,,Roadmap fo
 mbo_contact_wp4_d4_1_1,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Julie Robidart,j.robidart@noc.ac.uk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
 mbo_contact_wp4_d4_1_2,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Sari Giering,s.giering@noc.ac.uk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
 mbo_contact_wp4_d4_1_3,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Fletcher Thompson,fletho@aqua.dtu.dk,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
-mbo_contact_wp4_d4_1,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Carlota Muniz,carlota.muniz@vliz.be,,,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
+mbo_contact_wp4_d4_1,mbo_sformel,mbo_wp4_d4_1,Deliverable 4.1 Contact,Carlota Muniz,carlota.muniz@vliz.be,,en,"Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms"
 mbo_contact_wp4_d4_2,mbo_sformel,mbo_wp4_d4_2,Deliverable 4.2 Contact,Patrizio Mariani,pat@aqua.dtu.dk,,,Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions
 mbo_contact_wp4_d4_3,mbo_sformel,mbo_wp4_d4_3,Deliverable 4.3 Contact,Antonio Torralba Silgado,torralba@us.es,,,Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes
-mbo_contact_wp4_d4_4,mbo_sformel,mbo_wp4_d4_4,Deliverable 4.4 Contact,Carlota Muniz,carlota.muniz@vliz.be,,,"Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations"
+mbo_contact_wp4_d4_4,mbo_sformel,mbo_wp4_d4_4,Deliverable 4.4 Contact,Carlota Muniz,carlota.muniz@vliz.be,,en,"Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations"
 mbo_contact_wp4_d4_5,mbo_sformel,mbo_wp4_d4_5,Deliverable 4.5 Contact,TBD,,,,Preliminary report on WP4 progress
 mbo_contact_wp4_t4_1,mbo_sformel,mbo_wp4_t4_1,Task 4.1 Contact,TBD,,,,Autonomy for mapping biodiversity characteristics
 mbo_contact_wp4_t4_2,mbo_sformel,mbo_wp4_t4_2,Task 4.2 Contact,TBD,,,,Pressures and biodiversity variables from remote sensing
 mbo_contact_wp4_t4_3,mbo_sformel,mbo_wp4_t4_3,Task 4.3 Contact,TBD,,,,Networks of biodiversity sensors
 mbo_contact_wp4_t4_4,mbo_sformel,mbo_wp4_t4_4,Task 4.4 Contact,TBD,,,,Multi-sensor biodiversity observations
 mbo_contact_wp5_d5_1,mbo_sformel,mbo_wp5_d5_1,Deliverable 5.1 Contact,Carlos Cano-Barbacil,Carlos.cano-barbacil@senckenberg.de,,,"Contact for D5.1 - Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling"
-mbo_contact_wp5_d5_2,mbo_sformel,mbo_wp5_d5_2,Deliverable 5.2 Contact,Hanneloor Heynderickx,hanneloor.heynderickx@vliz.be,,,Contact for D5.2 - Scientific document demonstrating the value of novel observation approaches for established biological indicators
+mbo_contact_wp5_d5_2,mbo_sformel,mbo_wp5_d5_2,Deliverable 5.2 Contact,Hanneloor Heynderickx,hanneloor.heynderickx@vliz.be,,nl|en,Contact for D5.2 - Scientific document demonstrating the value of novel observation approaches for established biological indicators
 mbo_contact_wp5_d5_3,mbo_sformel,mbo_wp5_d5_3,Deliverable 5.3 Contact,Natalya Gallo,ngal@norceresearch.no,,,Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems
 mbo_contact_wp5_d5_4_1,mbo_sformel,mbo_wp5_d5_4,Deliverable 5.4 Contact,Richard Sanders,rsan@norceresearch.no,,,Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems
 mbo_contact_wp5_d5_4_2,mbo_sformel,mbo_wp5_d5_4,Deliverable 5.4 Contact,Matthias Obst,matthias.obst@marine.gu.se,,,Contact for D5.4 - Scientific document summarising the results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats
 mbo_contact_wp5_d5_5_1,mbo_sformel,mbo_wp5_d5_5,Deliverable 5.5 Contact,Cristina Huertas,cristina.huertas@lifewatch.eu,,,Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases
 mbo_contact_wp5_d5_5_2,mbo_sformel,mbo_wp5_d5_5,Deliverable 5.5 Contact,Christos Arvanitidis,ceo@lifewatch.eu,,,Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases
 mbo_contact_wp5_d5_6,mbo_sformel,mbo_wp5_d5_6,Deliverable 5.6 Contact,TBD,,,,Online reproducible workflows and associated user manual for key analytical processes in the WP5 use cases
-mbo_contact_wp5_t5_1,mbo_sformel,mbo_wp5_t5_1,Task 5.1 Contact,TBD,,,,Detection and analyses of biodiversity trends
-mbo_contact_wp5_t5_2,mbo_sformel,mbo_wp5_t5_2,Task 5.2 Contact,TBD,,,,Application of integrative approaches on established biological indicators
-mbo_contact_wp5_t5_3,mbo_sformel,mbo_wp5_t5_3,Task 5.3 Contact,TBD,,,,Spatial mapping of Blue Carbon benefits
-mbo_contact_wp5_t5_4,mbo_sformel,mbo_wp5_t5_4,Task 5.4 Contact,TBD,,,,"Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches"
+mbo_contact_wp5_t5_1_1,mbo_sformel,mbo_wp5_t5_1,Task 5.1.1 Contact,Andres Peredo Arce,,,,Detection and analyses of biodiversity trends
+mbo_contact_wp5_t5_1_2,mbo_sformel,mbo_wp5_t5_1,Task 5.1.2 Contact,Jo-Hannes Nowé,,,,Detection and analyses of biodiversity trends
+mbo_contact_wp5_t5_1_3,mbo_sformel,mbo_wp5_t5_1,Task 5.1.3 Contact,Daniele |Patrizio Mariani,,,,Detection and analyses of biodiversity trends
+mbo_contact_wp5_t5_2,mbo_sformel,mbo_wp5_t5_2,Task 5.2 Contact,Hanneloor Heynderickx,hanneloor.heynderickx@vliz.be,,nl|en,Application of integrative approaches on established biological indicators
+mbo_contact_wp5_t5_3,mbo_sformel,mbo_wp5_t5_3,Task 5.3 Contact,Natalya Gallo,,,,Spatial mapping of Blue Carbon benefits
+mbo_contact_wp5_t5_4,mbo_sformel,mbo_wp5_t5_4,Task 5.4 Contact,Matthias Obst,,,,"Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches"
 mbo_contact_wp5_t5_5,mbo_sformel,mbo_wp5_t5_5,Task 5.5 Contact,TBD,,,,Creation of reproducible analytical workflows and VRE deployment
 mbo_contact_wp6_d6_1,mbo_sformel,mbo_wp6_d6_1,Deliverable 6.1 Contact,Alice Vadrot,alice.vadrot@univie.ac.at,,,Internal advisory document with stakeholder profiling information for the CoP
 mbo_contact_wp6_d6_2,mbo_sformel,mbo_wp6_d6_2,Deliverable 6.2 Contact,Lisa Benedetti,l.benedetti@unesco.org,,,"Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan"

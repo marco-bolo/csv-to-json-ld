@@ -6,3 +6,6 @@ mbo_t44_rov_howto,mbo_58464,mbo_task_4_4_seatrial_rov,T4.4 ROV camera work: raw 
 mbo_t44_rov_howto_models,mbo_58464,mbo_task_4_4_seatrial_rov_modelling,T4.4 Multi-camera work: 3D modelling,mbo_t44_rov_howtostep_3dreconstruct,Photogrammetry,,
 mbo_t44_edna1_howto,mbo_58464,mbo_task_4_4_seatrial_edna1,T4.4 eDNA work: from seabed,mbo_t44_edna_howtostep_fromseabed,,,
 mbo_t44_edna2_howto,mbo_58464,mbo_task_4_4_seatrial_edna2,T4.4 eDNA work: from RV,mbo_t44_edna_howtostep_fromRV,,,
+mbo_t5_1_2_habitatsuit_model_howto,mbo_58464,mbo_t5_1_2_habitatsuit_createmodel,T5.1.2 Model for habitat suitabilty,mbo_t_5_1_2_habitatsuit_model_howtostep,,,
+mbo_t5_1_2_habitatsuit_modelrunning_howto,mbo_58464,mbo_t5_1_2_habitatsuit_runmodel,blabla,mbo_t_5_1_2_habitatsuit_runmodel_howtostep,,,
+mbo_t5_2_genetic_indicators_howto,mbo_heynderickx,mbo_wp5_t5_2,T5.2 Script to calculate pelagic habitat indicators based on genetic data,mbo_t5_2_genetic_indicators_howtostep,,,

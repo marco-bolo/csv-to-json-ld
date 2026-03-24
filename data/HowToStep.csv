@@ -7,3 +7,6 @@ mbo_t44_rov_howtostep_preprocessing,mbo_58464,mbo_task_4_4_seatrial_rov,T4.4 pre
 mbo_t44_rov_howtostep_3dreconstruct,mbo_58464,mbo_task_4_4_seatrial_rov,T4.4 3D reconstruction,3,For 3D reconstruction (photograpmmetry),,,,,mbo_t44_3Dreconstructcode,,,,,,,,
 mbo_t44_edna_howtostep_fromseabed,mbo_58464,mbo_task_4_4_seatrial_edna1,T4.4 eDNA collect and process: from seabed,1,Collecting and processing samples destined for eDNA,,,,,,,,,,,mbo_seabedlander,mbo_rosci,
 mbo_t44_edna_howtostep_fromRV,mbo_58464,mbo_task_4_4_seatrial_edna2,T4.4 eDNA collect and process: from RV,1,Collecting and processing samples destined for eDNA,,,,,,,,,,,mbo_simonstevin,mbo_rosci,
+mbo_t_5_1_2_habitatsuit_model_howtostep,mbo_58464,mbo_t5_1_2_habitatsuit_createmodel,T5.1.2 creating the model for habitat suitabilty,1,blabla,,,,mbo_t5_1_2_johannescode,,,,,,,,,
+mbo_t_5_1_2_habitatsuit_runmodel_howtostep,mbo_58464,mbo_t5_1_2_habitatsuit_runmodel,blabla,1,,,,,mbo_t5_1_2_johannescode,,,,,,,,,
+mbo_t5_2_genetic_indicators_howtostep,mbo_heynderickx,mbo_wp5_t5_2,T5.2 Gentic Pelagic Habitat Indicator PH1,1,Calculating pelagic habitat indicator PH1 lifeform ratios,Calculating pelagic habitat indicator PH1 lifeform ratios,mbo_heynderickx|mbo_jwarwickdugdale,,mbo_t5_2_genetic_indicators_code,,,,,,,,,

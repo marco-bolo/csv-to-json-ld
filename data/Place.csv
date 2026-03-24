@@ -1,5 +1,5 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Description,Latitude (WGS 84),Longitude (WGS 84),GeoShape (mPID)
-mbo_000001,mbo_jwarwickdugdale,mbo_task_jwd_test,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50.25,-4.217,
+mbo_place_WCOL4,mbo_jwarwickdugdale,mbo_wp2_t2_3,Western Channel Observatory Coastal Site L4,"Coastal sampling site, 50 km off Plymouth, sampled since 1800's",50.25,-4.217,
 mbo_place_eez_be,mbo_sformel,mbo_db_tool_population,Belgian EEZ,Belgian Exclusive Economic Zone (MRGID:3293). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.,51.46321,2.72132,mbo_shape_bb_be
 mbo_place_eez_bg,mbo_sformel,mbo_db_tool_population,Bulgarian EEZ,Bulgarian Exclusive Economic Zone (MRGID:5672). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.,42.93396,29.20165,mbo_shape_bb_bg
 mbo_place_eez_hr,mbo_sformel,mbo_db_tool_population,Croatian EEZ,Croatian Exclusive Economic Zone (MRGID:5673). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.,43.43699,15.64779,mbo_shape_bb_hr

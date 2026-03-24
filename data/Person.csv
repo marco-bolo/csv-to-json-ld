@@ -17,7 +17,7 @@ mbo_ccanobarbacil,mbo_sformel,mbo_db_tool_population,Carlos,Cano-Barbacil,mbo_or
 mbo_rcasotti,mbo_sformel,mbo_wp2_d2_2,Raffaella,Casotti,,mbo_org_szn,mbo_cp_rcasotti_ddPCR,https://orcid.org/0000-0002-9876-4601
 mbo_59077,mbo_sformel,mbo_db_tool_population,Adriana,Constantinescu,,,,https://oceanexpert.org/expert/59077
 mbo_38252,mbo_sformel,mbo_db_tool_population,Cristian,Cudalbu,,,,https://oceanexpert.org/expert/38252
-mbo_todo_person_michaelcunliffe,mbo_jwarwickdugdale,mbo_task_jwd_test,Michael,Cunliffe,mbo_org_mba,,,
+mbo_todo_person_michaelcunliffe,mbo_jwarwickdugdale,mbo_wp2_t2_3,Michael,Cunliffe,mbo_org_mba,,,
 mbo_ddalelio,mbo_sformel,mbo_wp2_d2_2,Domenico,D'Alelio,,mbo_org_szn,,https://orcid.org/0000-0002-2189-503X
 mbo_pdeluca,mbo_sformel,mbo_wp2_d2_2,Pasquale,De Luca,,mbo_org_szn,,https://orcid.org/0000-0003-4289-6784
 mbo_edebusschere,mbo_58464,mbo_task_4_4_seatrial,Elisabeth,Debusschere,mbo_org_vliz,,,https://orcid.org/0000-0002-5595-0295
@@ -37,7 +37,7 @@ mbo_58245,mbo_sformel,mbo_db_tool_population,Charlie,Gough,,,,https://oceanexper
 mbo_43953,mbo_sformel,mbo_db_tool_population,Maria,Grigoratou,,,,https://oceanexpert.org/expert/43953
 mbo_58615,mbo_sformel,mbo_db_tool_population,Peter,Haase,,,,https://oceanexpert.org/expert/58615
 mbo_58451,mbo_sformel,mbo_db_tool_population,Avril,Hanbidge,,,,https://oceanexpert.org/expert/58451
-mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,,,https://oceanexpert.org/expert/61691
+mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,mbo_org_vliz,,https://oceanexpert.org/expert/61691
 mbo_16535,mbo_sformel,mbo_db_tool_population,Neil,Holdsworth,,,,https://oceanexpert.org/expert/16535
 mbo_lilihufnagel,mbo_58464,mbo_t3_3_agents,Lili,Hufnagel,mbo_org_ufz,mbo_org_ufz,mbo_contact_wp3_t3_3,https://orcid.org/0009-0008-7905-3100
 mbo_madsrj,mbo_sformel,mbo_db_tool_population,Mads Reinholdt,Jensen,mbo_org_uit_genetics,,,https://orcid.org/0000-0001-8240-1083
@@ -56,11 +56,9 @@ mbo_59174,mbo_sformel,mbo_db_tool_population,Mojtaba,Masoudi,,,,https://oceanexp
 mbo_imatejusova,mbo_madsrj,mbo_wp2_d2,Iveta,Matejusová,,,,
 mbo_62379,mbo_sformel,mbo_db_tool_population,Abigail,McQuatters-Gollop,,,,https://oceanexpert.org/expert/62379
 mbo_dkumazawa_morais,mbo_madsrj,mbo_wp2_d2,Daniel Kumazawa,Morais,mbo_org_uit_genetics,,,
-mbo_jmortelmans,mbo_sformel,mbo_db_tool_population,Jonas,Mortelmans,mbo_org_vliz,,,https://orcid.org/0000-0002-8781-7915
 mbo_55557,mbo_sformel,mbo_db_tool_population,Lina,Mtwana Nordlund,,,,https://oceanexpert.org/expert/55557
 mbo_1486,mbo_sformel,mbo_db_tool_population,Frank,Muller-Karger,,,,https://oceanexpert.org/expert/1486
 mbo_58452,mbo_sformel,mbo_db_tool_population,Carlota,Muñiz,mbo_org_vliz,,,https://oceanexpert.org/expert/58452
-mbo_jmuyle,mbo_sformel,mbo_db_tool_population,Julie,Muyle,mbo_org_vliz,,,https://orcid.org/0000-0002-7481-0626
 mbo_fnot,mbo_madsrj,mbo_wp2_d2,Fabrice,Not,,,,https://oceanexpert.org/expert/58571
 mbo_jnowe,mbo_sformel,mbo_db_tool_population,Jo-Hannes,Nowé,mbo_org_vliz,,,https://orcid.org/0009-0000-1555-5867
 mbo_mobst,mbo_sformel,mbo_db_tool_population,Matthias,Obst,mbo_org_ugot,,,https://orcid.org/0000-0003-0264-9631
@@ -82,7 +80,7 @@ mbo_27401,mbo_sformel,mbo_db_tool_population,Paolo,Tagliolato,mbo_org_cnr,,,http
 mbo_60462,mbo_sformel,mbo_db_tool_population,Megan,Tijssens,,,,https://oceanexpert.org/expert/60462
 mbo_avasic,mbo_sformel,mbo_db_tool_population,Alexandra,Vasic,mbo_org_embrc,,,
 mbo_60642,mbo_sformel,mbo_db_tool_population,Mathilde,Vidal,,,,https://oceanexpert.org/expert/60642
-mbo_jwarwickdugdale,mbo_jwarwickdugdale,mbo_task_jwd_test,Jo,Warwick-Dugdale,mbo_org_mba,mbo_org_mbo_wp2,,
+mbo_jwarwickdugdale,mbo_jwarwickdugdale,mbo_wp2_t2_3,Jo,Warwick-Dugdale,mbo_org_mba,,mbo_contact_wp2_d2_3,https://oceanexpert.org/expert/88666 | https://orcid.org/0000-0001-5242-6706
 mbo_gzampicinini,mbo_sformel,mbo_wp2_d2_2,Gianpaolo,Zampicinini,,mbo_org_szn,,https://orcid.org/0000-0003-3028-5812
 mbo_lzinger,mbo_sformel,mbo_db_tool_population,Lucie,Zinger,,,,
 mbo_etramontin,mbo_sformel,mbo_wp2_d2_2,Eugenia,Tramontin,mbo_org_szn,,,https://orcid.org/0009-0000-9228-7886
