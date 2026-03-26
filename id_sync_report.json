@@ -1,150 +1,25 @@
 {
-  "timestamp": "2026-03-24T03:32:32.151037",
+  "timestamp": "2026-03-26T03:45:26.745985",
   "new_ids": [
     {
-      "class": "Dataset",
-      "uuid": "mbo_42e8b64b-653f-479e-acf0-90d70482c194",
-      "semantic_id": "mbo_wp2_t2_3_ds_01"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_a7828658-47fc-428a-964e-ed438215ae29",
-      "semantic_id": "mbo_wp2_t2_3_ds_02"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
-      "semantic_id": "mbo_wp5_t5_2_ds_01"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_77391e42-ec77-41fd-a695-ea763f846aa7",
-      "semantic_id": "mbo_wp5_t5_2_ds_02"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_10f87325-44b1-4e3c-b944-b908b014d58a",
-      "semantic_id": "mbo_wp5_t5_2_ds_03"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_d36eb952-cede-42b6-b1e8-2121da521037",
-      "semantic_id": "mbo_wp5_t5_2_ds_04"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_be28508a-0017-4c2b-811a-ea8da4f24e25",
-      "semantic_id": "mbo_wp5_t5_2_ds_05"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_35fb3019-a938-4974-a555-2c8bfae1e610",
-      "semantic_id": "mbo_wp5_t5_2_ds_06"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282",
-      "semantic_id": "mbo_wp2_t2_3_ds_03"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_4ae49b7a-9a76-47a4-9751-13e01911e718",
-      "semantic_id": "mbo_wp2_t2_3_ds_04"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f",
-      "semantic_id": "mbo_wp2_t2_1_ds_01"
-    },
-    {
-      "class": "Dataset",
-      "uuid": "mbo_1858bb31-91ec-40fb-a5c2-9b50c42f9f7c",
-      "semantic_id": "mbo_wp2_t2_1_ds_02"
-    },
-    {
       "class": "Service",
-      "uuid": "mbo_02865f10-787b-44ed-914a-f44855ef5bf3",
-      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre"
-    },
-    {
-      "class": "ContactPoint",
-      "uuid": "mbo_85f7b74f-4743-45a0-ac88-901340f57e5d",
-      "semantic_id": "mbo_contact_wp5_t5_1_1"
-    },
-    {
-      "class": "ContactPoint",
-      "uuid": "mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
-      "semantic_id": "mbo_contact_wp5_t5_1_2"
-    },
-    {
-      "class": "ContactPoint",
-      "uuid": "mbo_b17501aa-5df4-41ac-9599-d72f51182472",
-      "semantic_id": "mbo_contact_wp5_t5_1_3"
-    },
-    {
-      "class": "SoftwareApplication",
-      "uuid": "mbo_bce4f897-4e96-4fcc-9fee-ae18875e80b0",
-      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre"
+      "uuid": "mbo_9365f600-21e7-4590-afc6-0957051083c1",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvreservice"
     },
     {
       "class": "HowTo",
-      "uuid": "mbo_33e6c6a3-ef3f-454a-83b4-e50055111492",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_model_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_63d62702-e1a6-43b4-9d2b-901ee0f9e8bb",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelrunning_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674",
-      "semantic_id": "mbo_t5_2_genetic_indicators_howto"
-    },
-    {
-      "class": "Organization",
-      "uuid": "mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad",
-      "semantic_id": "mbo_org_wco"
+      "uuid": "mbo_8f76807e-b112-4c8d-ad86-ee202756e6d6",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_model2vre_howto"
     },
     {
       "class": "Action",
-      "uuid": "mbo_b22fea99-0291-416a-817b-49ed56d78dd8",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_createmodel"
-    },
-    {
-      "class": "Action",
-      "uuid": "mbo_0db90fd0-c4f9-4a85-ad36-0b22c7b8fbfb",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_runmodel"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
-      "semantic_id": "mbo_place_WCOL4"
-    },
-    {
-      "class": "SoftwareSourceCode",
-      "uuid": "mbo_67c7d076-76bb-4464-99f8-83307cc66ae8",
-      "semantic_id": "mbo_t5_1_2_johannescode"
-    },
-    {
-      "class": "SoftwareSourceCode",
-      "uuid": "mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34",
-      "semantic_id": "mbo_t5_2_genetic_indicators_code"
+      "uuid": "mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_model2lwvre"
     },
     {
       "class": "HowToStep",
-      "uuid": "mbo_91b7cb16-9063-409f-974a-208dac4adc71",
-      "semantic_id": "mbo_t_5_1_2_habitatsuit_model_howtostep"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_5ab5cf22-beb7-4870-93dd-ef2ee8615f45",
-      "semantic_id": "mbo_t_5_1_2_habitatsuit_runmodel_howtostep"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69",
-      "semantic_id": "mbo_t5_2_genetic_indicators_howtostep"
+      "uuid": "mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7",
+      "semantic_id": "mbo_t_5_1_2_habitatsuit_model2vre_howtostep"
     }
   ],
   "missing_ids": [
@@ -175,6 +50,36 @@
         [
           "mbo_todo_dataset_2",
           0.7777777777777778
+        ]
+      ]
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_63d62702-e1a6-43b4-9d2b-901ee0f9e8bb",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelrunning_howto",
+      "similar": [
+        [
+          "mbo_t5_1_2_habitatsuit_model_howto",
+          0.9066666666666666
+        ],
+        [
+          "mbo_t5_1_2_habitatsuit_model2vre_howto",
+          0.8860759493670886
+        ]
+      ]
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_5ab5cf22-beb7-4870-93dd-ef2ee8615f45",
+      "semantic_id": "mbo_t_5_1_2_habitatsuit_runmodel_howtostep",
+      "similar": [
+        [
+          "mbo_t_5_1_2_habitatsuit_model_howtostep",
+          0.9629629629629629
+        ],
+        [
+          "mbo_t_5_1_2_habitatsuit_model2vre_howtostep",
+          0.9176470588235294
         ]
       ]
     },
@@ -256,6 +161,17 @@
       "uuid": "mbo_df43590b-3ef7-4e9a-8e22-9ef242a55cd8",
       "semantic_id": "mbo_000001",
       "similar": []
+    },
+    {
+      "class": "Service",
+      "uuid": "mbo_02865f10-787b-44ed-914a-f44855ef5bf3",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre",
+      "similar": [
+        [
+          "mbo_t_1_2_habitatsuit_lwvreservice",
+          0.8852459016393442
+        ]
+      ]
     }
   ]
 }
