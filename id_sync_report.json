@@ -1,20 +1,45 @@
 {
-  "timestamp": "2026-03-31T03:47:42.742390",
+  "timestamp": "2026-04-04T03:30:14.151363",
   "new_ids": [
     {
+      "class": "Person",
+      "uuid": "mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556",
+      "semantic_id": "mbo_kexter"
+    },
+    {
+      "class": "Service",
+      "uuid": "mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_lwvreservice"
+    },
+    {
       "class": "Action",
-      "uuid": "mbo_ac836baa-5934-41e0-9b1c-8fa8a3664f76",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun"
+      "uuid": "mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_bd"
     },
     {
-      "class": "HowToStep",
-      "uuid": "mbo_7bad7555-4775-4ce6-8114-a08d64129429",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep"
+      "class": "Action",
+      "uuid": "mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hp"
     },
     {
-      "class": "HowTo",
-      "uuid": "mbo_fbec8976-1105-4da7-8526-7d18826b4394",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howto"
+      "class": "Action",
+      "uuid": "mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hs"
+    },
+    {
+      "class": "Action",
+      "uuid": "mbo_a55ce02b-9cc7-4920-9326-a05a821423e8",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_cd"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_2d7daa15-c9cf-4156-b727-2e31ef964b6f",
+      "semantic_id": "mbo_wp5_t5_1_2_bd_eurobis_datasets"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_584d79f1-fc22-4722-aac9-3053d7339059",
+      "semantic_id": "mbo_biooracle"
     }
   ],
   "missing_ids": [
@@ -32,8 +57,27 @@
           0.8615384615384616
         ],
         [
-          "mbo_t5_1_2_habitatsuit_modelvrerun",
-          0.8615384615384616
+          "mbo_t5_1_2_habitatsuit_modelvrerun_bd",
+          0.8235294117647058
+        ]
+      ]
+    },
+    {
+      "class": "Action",
+      "uuid": "mbo_ac836baa-5934-41e0-9b1c-8fa8a3664f76",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun",
+      "similar": [
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_bd",
+          0.9577464788732394
+        ],
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_hp",
+          0.9577464788732394
+        ],
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_hs",
+          0.9577464788732394
         ]
       ]
     },
@@ -119,6 +163,25 @@
     },
     {
       "class": "Person",
+      "uuid": "mbo_29d7ebd8-c985-4516-9098-65a13e942bf5",
+      "semantic_id": "mbo_58464",
+      "similar": [
+        [
+          "mbo_58369",
+          0.7777777777777778
+        ],
+        [
+          "mbo_58245",
+          0.7777777777777778
+        ],
+        [
+          "mbo_58615",
+          0.7777777777777778
+        ]
+      ]
+    },
+    {
+      "class": "Person",
       "uuid": "mbo_47daebfe-f817-49c1-b0dc-3374815176f8",
       "semantic_id": "mbo_jmortelmans",
       "similar": []
@@ -190,10 +253,27 @@
       "semantic_id": "mbo_t_1_2_habitatsuit_lwvre",
       "similar": [
         [
-          "mbo_t_1_2_habitatsuit_lwvreservice",
-          0.8852459016393442
+          "mbo_t5_1_2_habitatsuit_lwvreservice",
+          0.8709677419354839
         ]
       ]
+    },
+    {
+      "class": "Service",
+      "uuid": "mbo_9365f600-21e7-4590-afc6-0957051083c1",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvreservice",
+      "similar": [
+        [
+          "mbo_t5_1_2_habitatsuit_lwvreservice",
+          0.9855072463768116
+        ]
+      ]
+    },
+    {
+      "class": "SoftwareApplication",
+      "uuid": "mbo_bce4f897-4e96-4fcc-9fee-ae18875e80b0",
+      "semantic_id": "mbo_t_1_2_habitatsuit_lwvre",
+      "similar": []
     }
   ]
 }
