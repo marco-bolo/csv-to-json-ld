@@ -12,6 +12,6 @@ mbo_taxon_zooplankton,mbo_aperedoarce,mbo_wp5_t5_1_1,Zooplankton,,,,,,,,,,,
 mbo_taxon_engraulis_encrasicolus,mbo_sformel,mbo_wp2_d2_2,European anchovy,Engraulis encrasicolus,Animalia,Chordata,Clupeiformes,Engraulidae,Engraulis,encrasicolus,accepted,species,worms:126426,urn:lsid:marinespecies.org:taxname:126426
 mbo_taxon_bacteria,mbo_sformel,mbo_wp2_d2_2,Bacteria,Bacteria,,,,,,,accepted,kingdom,worms:6,urn:lsid:marinespecies.org:taxname:6
 mbo_taxon_archaea,mbo_sformel,mbo_wp2_d2_2,Archaea,Archaea,,,,,,,accepted,kingdom,worms:8,urn:lsid:marinespecies.org:taxname:8
-mbo_taxon_harbourporpose,mbo_58464,mbo_db_tool_population,harbour porpoise,Phocoena phocoena,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137117
-mbo_prokaryota,mbo_58464,mbo_db_tool_population,Prokaryotes,,,,,,,,,,,
-mbo_metazoa,mbo_58464,mbo_db_tool_population,Metazoans,,,,,,,,,,,
+mbo_taxon_harbourporpose,mbo_kexter,mbo_db_tool_population,harbour porpoise,Phocoena phocoena,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137117
+mbo_prokaryota,mbo_kexter,mbo_db_tool_population,Prokaryotes,,,,,,,,,,,
+mbo_metazoa,mbo_kexter,mbo_db_tool_population,Metazoans,,,,,,,,,,,

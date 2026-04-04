@@ -1,5 +1,5 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Alternate Name,Description,Identifiers,Platform Type (URL PID),Platform Type Name,Primary Identifier Type,Operator Organization (mPID),Owner (mPID),URL,Described By Documents (mPIDs),Keywords
-mbo_seabedmooring,mbo_58464,mbo_task_4_4_seatrial_fpod,multipurpose seabed lander,mooring,,,https://vocab.nerc.ac.uk/collection/L06/current/48/,mooring,,,,,,
-mbo_bluerov2,mbo_58464,mbo_task_4_4_seatrial_fpod,BlueROV2,Blue4,Blue Robotics BlueROV2 remotely operated vehicle,,http://vocab.nerc.ac.uk/collection/B76/current/B7600023/,,,,,,,
-mbo_simonstevin,mbo_58464,mbo_task_4_4_seatrial_edna,Simon Stevin RV,,,,http://vocab.nerc.ac.uk/collection/L06/current/31,research vessel,IMO 9622681,,,,,
-mbo_seabedlander,mbo_58464,mbo_task_4_4_seatrial_edna,multipurpose seabed lander,,multipurpose seabed lander,,https://vocab.nerc.ac.uk/collection/B76/current/B7600007/,,,,,,,
+mbo_seabedmooring,mbo_kexter,mbo_task_4_4_seatrial_fpod,multipurpose seabed lander,mooring,,,https://vocab.nerc.ac.uk/collection/L06/current/48/,mooring,,,,,,
+mbo_bluerov2,mbo_kexter,mbo_task_4_4_seatrial_fpod,BlueROV2,Blue4,Blue Robotics BlueROV2 remotely operated vehicle,,http://vocab.nerc.ac.uk/collection/B76/current/B7600023/,,,,,,,
+mbo_simonstevin,mbo_kexter,mbo_task_4_4_seatrial_edna,Simon Stevin RV,,,,http://vocab.nerc.ac.uk/collection/L06/current/31,research vessel,IMO 9622681,,,,,
+mbo_seabedlander,mbo_kexter,mbo_task_4_4_seatrial_edna,multipurpose seabed lander,,multipurpose seabed lander,,https://vocab.nerc.ac.uk/collection/B76/current/B7600007/,,,,,,,

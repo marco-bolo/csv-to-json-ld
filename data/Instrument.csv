@@ -1,7 +1,7 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Alternate Name,Description,Identifiers,Instrument Type (URL PID),Instrument Type Name,Manufacturer,Model,Serial Number,Mounted On Platform (mPID),Owner (mPID),Maintainer (mPID),URL,Described By Documents (mPIDs),Keywords
-mbo_fpod_instrument,mbo_58464,mbo_task_4_4_seatrial_hydrophone,FPOD,,An accoustic logger used to passively monitor moving organisms via their click sounds,FPOD_7105,,accoustic logger,,,,mbo_seabedmooring,,,,,
-mbo_hydrophone_soundtrap,mbo_58464,mbo_task_4_4_seatrial_fpod,hydrophone,,Long-term underwater sound recorder,SOUNDTRAP ST600 HF-7560,,hydrophone,,,,mbo_seabedmooring,,,,,
-mbo_echosounder_instrument,mbo_58464,mbo_task_4_4_seatrial_echosounder,echosounder,,Muliti-beam echosounder,WBAT-SPLITBEAM-ES70-18CD-SN280-ES200-7CD-SN205-284143,https://vocab.nerc.ac.uk/collection/L05/current/157/,echosounder,,,,mbo_seabedmooring,,,,,
-mbo_hdvideo,mbo_58464,mbo_task_4_4_seatrial_echosounder,HD Video camera,,Low-Light HD USB Nose Camera,,https://vocab.nerc.ac.uk/collection/L22/current/TOOL1544/,,,,,mbo_bluerov2,,,,,
-mbo_multicamera,mbo_58464,mbo_task_4_4_seatrial_echosounder,Multi-camera system,,NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support,,,,,,,mbo_seabedmooring,,,https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp,,
-mbo_rosci,mbo_58464,mbo_task_4_4_seatrial_edna,RoCSI,,RoCSI eDNA sampler,RoCSI Serial Number 5,,,,,,,,,,,
+mbo_fpod_instrument,mbo_kexter,mbo_task_4_4_seatrial_hydrophone,FPOD,,An accoustic logger used to passively monitor moving organisms via their click sounds,FPOD_7105,,accoustic logger,,,,mbo_seabedmooring,,,,,
+mbo_hydrophone_soundtrap,mbo_kexter,mbo_task_4_4_seatrial_fpod,hydrophone,,Long-term underwater sound recorder,SOUNDTRAP ST600 HF-7560,,hydrophone,,,,mbo_seabedmooring,,,,,
+mbo_echosounder_instrument,mbo_kexter,mbo_task_4_4_seatrial_echosounder,echosounder,,Muliti-beam echosounder,WBAT-SPLITBEAM-ES70-18CD-SN280-ES200-7CD-SN205-284143,https://vocab.nerc.ac.uk/collection/L05/current/157/,echosounder,,,,mbo_seabedmooring,,,,,
+mbo_hdvideo,mbo_kexter,mbo_task_4_4_seatrial_echosounder,HD Video camera,,Low-Light HD USB Nose Camera,,https://vocab.nerc.ac.uk/collection/L22/current/TOOL1544/,,,,,mbo_bluerov2,,,,,
+mbo_multicamera,mbo_kexter,mbo_task_4_4_seatrial_echosounder,Multi-camera system,,NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support,,,,,,,mbo_seabedmooring,,,https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp,,
+mbo_rosci,mbo_kexter,mbo_task_4_4_seatrial_edna,RoCSI,,RoCSI eDNA sampler,RoCSI Serial Number 5,,,,,,,,,,,
