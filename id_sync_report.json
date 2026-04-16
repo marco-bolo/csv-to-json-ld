@@ -1,10 +1,20 @@
 {
-  "timestamp": "2026-04-11T03:34:35.950842",
+  "timestamp": "2026-04-16T04:12:37.826003",
   "new_ids": [
     {
-      "class": "DatasetComment",
-      "uuid": "mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9",
-      "semantic_id": "mbo_seatrial_rovdata_lowlight_comment"
+      "class": "Place",
+      "uuid": "mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88",
+      "semantic_id": "mbo_place_seatrial_rov2e"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_ca6c08bb-9e1c-41c9-a1e5-0c55786029dc",
+      "semantic_id": "mbo_place_seatrial_rov2f"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_ea3d4640-bea4-49a5-bfca-909b7182733e",
+      "semantic_id": "mbo_property_soundpressure"
     }
   ],
   "missing_ids": [
