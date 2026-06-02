@@ -95,6 +95,3 @@ jobs:
           git commit -m "Sync Google Sheet tabs as CSV — $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git fetch origin main && git rebase origin/main || git rebase --abort
           git push origin HEAD:main
-          fi
-            git push origin HEAD
-          fi
