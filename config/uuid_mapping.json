@@ -6,7 +6,6 @@
     "mbo_0b70318f-9d20-48bc-a6d8-a99077c3d032": "mbo_wp7_t7_4",
     "mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7": "mbo_wp2_t2_3",
     "mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9": "mbo_wp5_d5_5",
-    "mbo_0db90fd0-c4f9-4a85-ad36-0b22c7b8fbfb": "mbo_t5_1_2_habitatsuit_runmodel",
     "mbo_1235bc4e-e431-4418-aced-926778b8a552": "mbo_wp4_t4_4",
     "mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d": "mbo_wp7_d7_7",
     "mbo_17baa516-75c2-43a3-a40c-c469c8fafffc": "mbo_wp5_t5_4",
@@ -146,7 +145,6 @@
     "mbo_8037c092-fcb8-4372-bf12-c8e5363152cd": "mbo_contact_wp6_t6_2",
     "mbo_810f1702-f7cf-49b1-96ac-2d3becff58f4": "mbo_cp_rcasotti_ddPCR",
     "mbo_84e336f6-1af6-4b34-b0b4-1c9b46a83a80": "mbo_contact_wp7_t7_1",
-    "mbo_85f7b74f-4743-45a0-ac88-901340f57e5d": "mbo_contact_wp5_t5_1_1",
     "mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506": "mbo_contact_wp7_d7_5",
     "mbo_91b774cf-c5a4-4eab-aeb0-8814b291938f": "mbo_contact_wp4_t4_4",
     "mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e": "mbo_contact_giulia",
@@ -212,7 +210,6 @@
     "mbo_1e19833b-f6e3-4e17-b83d-220b5918fc47": "mbo_ds_aquarium_12s16scoi",
     "mbo_2138a351-8473-4824-a6cc-1e463149002d": "mbo_wp5_1_1_copepod",
     "mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9": "mbo_wp5_t5_2_ds_01",
-    "mbo_2d7daa15-c9cf-4156-b727-2e31ef964b6f": "mbo_wp5_t5_1_2_bd_eurobis_datasets",
     "mbo_35fb3019-a938-4974-a555-2c8bfae1e610": "mbo_wp5_t5_2_ds_06",
     "mbo_3cffbafa-834a-4c78-a37e-a473acc86959": "mbo_ds_astan_microscopy",
     "mbo_41d40a19-0f84-4592-aa33-9233455eedb4": "mbo_wp5_1_1_rephy",
@@ -222,7 +219,6 @@
     "mbo_46aed95c-da46-4925-a521-6303f65aeb76": "mbo_wp2_d2_ds_16s",
     "mbo_4ae49b7a-9a76-47a4-9751-13e01911e718": "mbo_wp2_t2_3_ds_04",
     "mbo_56970015-10a2-44a0-8092-f09deb1196f3": "mbo_wp5_1_1_model",
-    "mbo_584d79f1-fc22-4722-aac9-3053d7339059": "mbo_biooracle",
     "mbo_5d2db07d-03dc-443a-b998-46ad9f5e9335": "mbo_wp2_d2_ds2_4",
     "mbo_68622e77-47f7-484b-a5f9-aae5401f48cd": "mbo_marineregions",
     "mbo_6d93fd0c-1e50-4c81-b138-b73996e49e5b": "mbo_wp2_d2_ds2_5",
@@ -315,7 +311,6 @@
     "mbo_33e6c6a3-ef3f-454a-83b4-e50055111492": "mbo_t5_1_2_habitatsuit_model_howto",
     "mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674": "mbo_t5_2_genetic_indicators_howto",
     "mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d": "mbo_t44_rov_howto_models",
-    "mbo_63d62702-e1a6-43b4-9d2b-901ee0f9e8bb": "mbo_t5_1_2_habitatsuit_modelrunning_howto",
     "mbo_8f76807e-b112-4c8d-ad86-ee202756e6d6": "mbo_t5_1_2_habitatsuit_model2vre_howto",
     "mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca": "mbo_t44_hydrophone_howto",
     "mbo_c8c75776-2884-45b9-b0b9-38087f638d5d": "mbo_t44_edna2_howto",
@@ -456,7 +451,6 @@
     "mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70": "mbo_28269",
     "mbo_5beb28f2-efc1-484b-b9fe-3629ceefdc70": "mbo_43716",
     "mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8": "mbo_eboulanger",
-    "mbo_5e428aa7-b3a2-463d-8b18-c77fca2bb3cf": "mbo_58808",
     "mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de": "mbo_60642",
     "mbo_61327558-6e49-424a-8c9f-b6d820bc0183": "mbo_odogan",
     "mbo_62598d85-48ca-49ad-a34b-f28021f677eb": "mbo_nlezzoche",
@@ -544,7 +538,6 @@
     "mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88": "mbo_place_seatrial_rov2e",
     "mbo_07f1b807-c0dd-42e8-8735-5dae01a61146": "mbo_place_gulf_of_naples",
     "mbo_0b8087d5-9aff-456a-8c5c-418fbc8a46e0": "mbo_place_eez_fr",
-    "mbo_151edf97-62ef-4899-b42d-8b66f4103b5a": "mbo_place_task_4_4_hydrophone2",
     "mbo_1c9594a3-5798-48ff-8f6a-22c912ddc4cd": "mbo_place_eez_lt",
     "mbo_27107a21-e327-40b9-84a9-12df8d690b86": "mbo_place_eez_mt",
     "mbo_31061cfe-c611-4fd2-964a-b3e350ae521c": "mbo_place_seatrial_rov2a",
@@ -557,7 +550,6 @@
     "mbo_467237f7-af39-48a8-9f28-f5d6210e6be9": "mbo_place_eez_bg",
     "mbo_4e776e28-2e3b-4a0c-996a-1237e5d9df4d": "mbo_place_emobon_bpns",
     "mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c": "mbo_place_eez_es",
-    "mbo_58b8b812-ea7b-44b2-8726-7f9da70cbaea": "mbo_place_task_4_4_hydrophone1",
     "mbo_5b725a07-11f9-4dfe-93e7-726aafecfd42": "mbo_place_eez_hr",
     "mbo_61144614-337c-4da8-93a0-cf24817b775e": "mbo_place_eez_se",
     "mbo_68e431e3-41e3-4d0d-87fc-2cffe7ef2acc": "mbo_place_eez_lv",
@@ -650,7 +642,6 @@
     "mbo_c2fb3abb-2a8e-420b-8059-271b57a95840": "mbo_pub_status_published"
   },
   "Service": {
-    "mbo_02865f10-787b-44ed-914a-f44855ef5bf3": "mbo_t_1_2_habitatsuit_lwvre",
     "mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897": "mbo_t5_1_2_habitatsuit_lwvreservice"
   },
   "SoftwareApplication": {
@@ -658,7 +649,6 @@
     "mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5": "mbo_t44_3Dreconstructcode",
     "mbo_3d7748d7-ea74-4e6b-8a08-1ef7dddd746e": "mbo_t44_fpod_software",
     "mbo_7412990f-3f9c-4f29-9211-3010563a9b8b": "mbo_t44_fmpegcode",
-    "mbo_bce4f897-4e96-4fcc-9fee-ae18875e80b0": "mbo_t_1_2_habitatsuit_lwvre"
   },
   "SoftwareSourceCode": {
     "mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34": "mbo_t5_2_genetic_indicators_code",
