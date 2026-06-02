@@ -11,6 +11,9 @@ env:
   CSV_DIR: data
   GOOGLE_PROJECT_ID: mbo-wp1-csv-to-json-ld
   GOOGLE_SERVICE_ACCOUNT: github-sheets-reader@mbo-wp1-csv-to-json-ld.iam.gserviceaccount.com
+concurrency:
+  group: sheet-sync
+  cancel-in-progress: false
 jobs:
   export-sheet-tabs:
     runs-on: ubuntu-latest
@@ -87,11 +90,30 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add $CSV_DIR/*.csv
+          git add "$CSV_DIR"/*.csv
           if git diff --cached --quiet; then
             echo "🟢 No changes to commit."
-          else
-            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-            git commit -m "Sync Google Sheet tabs as CSV — $TIMESTAMP"
+            exit 0
+          fi
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          git commit -m "Sync Google Sheet tabs as CSV — $TIMESTAMP"
+          pushed=false
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                pushed=true
+                break
+              fi
+            else
+              git rebase --abort || true
+            fi
+            echo "Push attempt $i failed (remote moved); retrying in 5s…"
+            sleep 5
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Failed to push after 5 attempts"
+            exit 1
+          fi
             git push origin HEAD
           fi
