@@ -241,7 +241,6 @@
     "mbo_d0e189de-7127-4e4a-b96b-9dd90f9a61a7": "mbo_wp5_1_1_fishglob",
     "mbo_d2f11734-7f4a-4550-982a-f00250443452": "mbo_seatria_edna2_rawdata",
     "mbo_d36eb952-cede-42b6-b1e8-2121da521037": "mbo_wp5_t5_2_ds_04",
-    "mbo_d6f135e1-a171-4ae3-8105-d06ee1b5d4bb": "mbo_jwd_dataset_01",
     "mbo_d8693fbb-5fdd-4276-9038-dd95b9a36cd1": "mbo_wp2_d2_ds2_3",
     "mbo_dcf09cc2-3aea-4455-9b42-99304ce91396": "mbo_t44_data_echosounderraw",
     "mbo_dd2d14f4-873e-4984-b37a-26357e03fd13": "mbo_seatrial_rovdata_multicam",
@@ -323,7 +322,6 @@
   "HowToStep": {
     "mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b": "mbo_t44_rov_howtostep_3dreconstruct",
     "mbo_39334243-747c-41f5-b211-79a3c5325fb8": "mbo_t44_rov_howtostep_raw2mp4",
-    "mbo_5ab5cf22-beb7-4870-93dd-ef2ee8615f45": "mbo_t_5_1_2_habitatsuit_runmodel_howtostep",
     "mbo_5f87eab9-8188-4db3-b5a6-c39055b51e30": "mbo_t44_echosounder_howtostep",
     "mbo_6b90341a-9060-48f2-9f1f-d2327873204a": "mbo_t44_rov_howtostep_preprocessing",
     "mbo_7bad7555-4775-4ce6-8114-a08d64129429": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep",
@@ -338,10 +336,8 @@
   "HowToTip": {},
   "Instrument": {
     "mbo_16fd074f-eeef-4812-8967-e27da038026d": "mbo_fpod_instrument",
-    "mbo_2796b189-4042-414b-93df-5c7cd0ffe2a7": "mbo_hydrophone_instrument1",
     "mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea": "mbo_rosci",
     "mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca": "mbo_echosounder_instrument",
-    "mbo_8b69a147-963c-414a-92aa-e4e3ef3694b7": "mbo_hydrophone_instrument2",
     "mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556": "mbo_multicamera",
     "mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1": "mbo_hdvideo",
     "mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb": "mbo_hydrophone_soundtrap"
@@ -415,7 +411,6 @@
     "mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e": "mbo_26192",
     "mbo_2530a561-d146-484f-80b0-98299afe67c8": "mbo_23935",
     "mbo_2631491b-1091-48d7-a985-1960183bcee1": "mbo_rlagaisse",
-    "mbo_29d7ebd8-c985-4516-9098-65a13e942bf5": "mbo_58464",
     "mbo_2c020eb8-6861-4454-b8e1-18114044f18c": "mbo_27395",
     "mbo_2c0b2598-5c3f-4024-8890-7d74f1f8d56f": "mbo_44123",
     "mbo_3d2d544c-b298-44b2-b85c-cf74c65ae9ba": "mbo_66048",
@@ -428,7 +423,6 @@
     "mbo_449e98ff-817f-416d-9947-dcb533150557": "mbo_39344",
     "mbo_44e2d3cc-aa41-45dd-b61e-04e70fed7e65": "mbo_13339",
     "mbo_46f530d1-0d2b-4d18-8b56-326af6e8a86f": "mbo_1486",
-    "mbo_47daebfe-f817-49c1-b0dc-3374815176f8": "mbo_jmortelmans",
     "mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a": "mbo_vdituccio",
     "mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd": "mbo_ccanobarbacil",
     "mbo_4bdea6e0-af73-4a27-940e-19e94e86add9": "mbo_mobst",
@@ -445,8 +439,6 @@
     "mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd": "mbo_pdeluca",
     "mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6": "mbo_aperedoarce",
     "mbo_65f00c6b-f485-405d-a168-a285fb8005ac": "mbo_58369",
-    "mbo_6920b2e3-1204-4644-9e43-12babdd2c77e": "mbo_jmuyle",
-    "mbo_6b8b55f3-2bb6-46b2-b7ad-dd2355226ac0": "mbo_henderickx",
     "mbo_6c6a182c-469a-4828-a335-39359af3eb61": "mbo_59174",
     "mbo_6d8e2152-3966-46b2-b7ef-4d147a581f2f": "mbo_avasic",
     "mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5": "mbo_ngallo",
@@ -540,7 +532,6 @@
     "mbo_ca6c08bb-9e1c-41c9-a1e5-0c55786029dc": "mbo_place_seatrial_rov2f",
     "mbo_dafc4d81-67a4-4fae-8132-fe073b236555": "mbo_place_seatrial_rov1",
     "mbo_db7de453-4535-4c99-bc4c-db5401220025": "mbo_place_eez_it",
-    "mbo_df43590b-3ef7-4e9a-8e22-9ef242a55cd8": "mbo_000001",
     "mbo_e67a010b-885f-4490-a09e-10c505f7ffc9": "mbo_place_task_4_4_fpod",
     "mbo_e8604bc2-7139-49f7-8be5-ddeed9e257a3": "mbo_place_eez_si",
     "mbo_ea94dcd6-3aa4-471f-a775-8c5987b21408": "mbo_place_emobon_mbal4",
@@ -612,7 +603,6 @@
   "Service": {
     "mbo_02865f10-787b-44ed-914a-f44855ef5bf3": "mbo_t_1_2_habitatsuit_lwvre",
     "mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897": "mbo_t5_1_2_habitatsuit_lwvreservice",
-    "mbo_9365f600-21e7-4590-afc6-0957051083c1": "mbo_t_1_2_habitatsuit_lwvreservice"
   },
   "SoftwareApplication": {
     "mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f": "mbo_t44_echoview",
