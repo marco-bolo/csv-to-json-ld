@@ -38,6 +38,23 @@
             "valueUrl": "https://w3id.org/marco-bolo/{+metadataPublisherId}"
         },
         {
+            "name": "metadataDescribedForActionId",
+            "titles": {
+                "en": [
+                    "Data Entered for Action (mPID)*"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "The mPID from the first column of the Action.csv. \nNote that you can reference the same mPID in multiple rows.\n\nUses the <https://w3id.org/marco-bolo/isResultOf> predicate but ultimately ends up being \nrepresented as a triple in the form `<action> schema:result <this-entity>`."
+                ]
+            },
+            "required": true,
+            "propertyUrl": "https://w3id.org/marco-bolo/isResultOf",
+            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
+            "valueUrl": "https://w3id.org/marco-bolo/{+metadataDescribedForActionId}"
+        },
+        {
             "name": "serviceType",
             "titles": {
                 "en": [
@@ -201,6 +218,13 @@
             "columnReference": "metadataPublisherId",
             "reference": {
                 "resource": "../out/validation/person-or-organization.csv",
+                "columnReference": "id"
+            }
+        },
+        {
+            "columnReference": "metadataDescribedForActionId",
+            "reference": {
+                "resource": "../data/Action.csv",
                 "columnReference": "id"
             }
         },
