@@ -321,6 +321,7 @@ classes:
     slots:
       - id
       - metadataPublisherId
+      - metadataDescribedForActionId
       - serviceType
       - name
       - serviceProviderOrganizationMboId
