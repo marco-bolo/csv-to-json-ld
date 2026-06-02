@@ -42,3 +42,5 @@ mbo_place_seatrial_rov2e,mbo_kexter,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.
 mbo_place_seatrial_rov2f,mbo_kexter,mbo_task_4_4_seatrial_rov,Danish EEZ Task 4.4 ROV multi-camera f,The location of the ROV multi-camera work during the Task 4.4 sea trial,55.685925,12.597734,
 mbo_place_edna1,mbo_kexter,mbo_task_4_4_seatrial_edna1,Task 4.4 eDNA benthic mooring,,51.406617,2.996333,
 mbo_place_edna2,mbo_kexter,mbo_task_4_4_seatrial_edna2,Task 4.4 eDNA from ship,,,,
+mbo_place_somlit_astan,mbo_sformel,mbo_wp2_d2_2,SOMLIT-Astan,"SOMLIT-Astan sampling station, Western English Channel, France; 60 m depth. MarineRegions MRGID 5372 (http://marineregions.org/mrgid/5372). 18S protist metabarcoding site.",48.771667,-3.968333,
+mbo_place_lisbon_aquarium,mbo_sformel,mbo_wp2_d2_2,Lisbon Aquarium,"Oceanário de Lisboa, Portugal. Source of the 12S/16S/COI fish, shark and ray aquarium samples.",38.76352,-9.093716,
