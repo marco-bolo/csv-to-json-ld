@@ -5,22 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      },
-      "value": "Chordata"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Genus",
       "@type": "PropertyValue",
       "propertyID": {
@@ -29,20 +13,12 @@
       "value": "Engraulis"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       },
-      "value": "Clupeiformes"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      },
-      "value": "Engraulidae"
+      "value": "Chordata"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#SpecificEpithet",
@@ -53,12 +29,12 @@
       "value": "encrasicolus"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       },
-      "value": "Engraulis encrasicolus"
+      "value": "Animalia"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#VerbatimTaxonRank",
@@ -69,35 +45,25 @@
       "value": "species"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       },
-      "value": "Animalia"
+      "value": "accepted"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      },
+      "value": "Clupeiformes"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf",
       "@type": "Taxon",
       "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Status"
-        },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#VerbatimTaxonRank"
         },
@@ -105,7 +71,25 @@
           "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#SpecificEpithet"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom"
         }
       ],
       "identifier": [
@@ -115,6 +99,22 @@
         "worms:126426"
       ],
       "name": "European anchovy"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      },
+      "value": "Engraulidae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Engraulis encrasicolus"
     }
   ]
 }
