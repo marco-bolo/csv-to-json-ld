@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_edd825c3-bed7-48f4-9292-5f6499d137b6",
+  "@type": "PropertyValue",
+  "description": "For the purpose of this EOV, corals encompass both warm-water species generally found in tropical regions and accessible by SCUBA (0–30 m), and cold-water species inhabiting mesophotic to deep-sea waters (>30 m) in tropical, temperate, and polar settings—where advanced monitoring methods (e.g., technical diving, ROVs, AUVs, towed camera systems, benthic landers, and crewed submersibles) become necessary (>200m). Corals are further subdivided into hard corals (Scleractinia, Stylasteridae) and soft corals (Octocorallia), accommodating their distinct morphologies and ecological functions. Source: GOOS Essential Ocean Variable specification sheet, v2.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Coral cover and composition",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17512"
+  }
+}

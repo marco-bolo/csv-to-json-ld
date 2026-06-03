@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d85ed9fa-5fc9-4fc3-8002-914041328167",
+  "@type": "PropertyValue",
+  "description": "Abundance refers to the number of individuals within a population, while distribution refers to the geographic or spatial extent of habitats used by individuals from the population. Both are evaluated on a species level for GOOS Source: GOOS Essential Ocean Variable specification sheet, v2.0, March 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Seabirds abundance and distribution",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/36267"
+  }
+}

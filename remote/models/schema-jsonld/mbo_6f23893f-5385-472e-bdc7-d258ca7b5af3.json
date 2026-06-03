@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6f23893f-5385-472e-bdc7-d258ca7b5af3",
+  "@type": "PropertyValue",
+  "description": "Observed population structure and spatial distribution of different fish taxa (including jawless, cartilaginous and bony fishes) within a defined sampling unit Source: GOOS Essential Ocean Variable specification sheet, v2.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Fish abundance and distribution",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17510"
+  }
+}

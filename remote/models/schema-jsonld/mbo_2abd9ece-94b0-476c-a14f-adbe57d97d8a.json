@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2abd9ece-94b0-476c-a14f-adbe57d97d8a",
+  "@type": "PropertyValue",
+  "description": "The quantity and spatial distribution of non-vertebrate animals living near (bentho-pelagic or hyperbenthic), on (epifauna), or beneath (infauna), the seafloor. Source: GOOS Essential Ocean Variable specification sheet, v1.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Benthic invertebrate abundance and distribution",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/36269"
+  }
+}

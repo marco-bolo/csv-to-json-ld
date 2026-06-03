@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_eaec868c-a605-47e2-a88d-4c9d56ce2e69",
+  "@type": "PropertyValue",
+  "description": "The areal extent, cover, and species composition of the submerged plants that form the foundation of seagrass habitats and ecosystems Source: GOOS Essential Ocean Variable specification sheet, v2.1, March 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Seagrass cover and composition",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17513"
+  }
+}

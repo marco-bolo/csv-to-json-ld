@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1677e033-3f9b-47ec-9ea5-10f9d3410c72",
+  "@type": "PropertyValue",
+  "description": "Abundance refers to the number of individuals present in the monitored nesting and foraging sites per unit of time and is used to describe how populations change over time and across regions. Distribution refers to the occupancy range of critical habitats by their populations. Source: GOOS Essential Ocean Variable specification sheet, v2.0, March 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Sea turtles abundance and distribution",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/36268"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_24b8f95b-c651-47bf-b45a-4923958b1261",
+  "@type": "PropertyValue",
+  "description": "The operational definition of microbes for the purpose of this specification sheet includes Bacteria, Archaea and Eukaryotic microbes, but exclude viruses. As phytoplankton, cyanobacteria are more thoroughly addressed in the Phytoplankton specification sheet, though genetic methodologies can be applied. Microbial biomass refers to: weight (mass as the concentration per unit area/volume), abundance or quantity of organisms (number of individuals per unit area or volume, or per mass of sediment). Microbial diversity refers to: variability of microbes from all sources; including diversity within and between species (genetic diversity, functional diversity, etc.) Source: GOOS Essential Ocean Variable specification sheet, v1.0, March 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Microbe biomass and diversity",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/36264"
+  }
+}

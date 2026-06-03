@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8bc24c2a-c679-4a93-abac-937c96c115b2",
+  "@type": "PropertyValue",
+  "description": "A measure of cover, abundance, and diversity of algae that provides habitat and shelter for understory species. Source: GOOS Essential Ocean Variable specification sheet, v2.0, March 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "name": "Macroalgal canopy cover and composition",
+  "propertyID": {
+    "@id": "https://goosocean.org/document/17515"
+  }
+}
