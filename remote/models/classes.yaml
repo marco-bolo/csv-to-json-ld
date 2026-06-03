@@ -271,7 +271,6 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
-      - identifiers
       - codeRepositoryUrl
       - description
       - publishingStatusMboId
@@ -286,6 +285,7 @@ classes:
       - dateModified
       - datePublished
       - keywords
+      - identifiers
 
   SoftwareApplication:
     description: |
