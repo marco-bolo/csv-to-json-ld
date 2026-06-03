@@ -5,7 +5,7 @@ WORKING_DIR			:= $(shell pwd)
 UID					:= $(shell id -u)
 GID					:= $(shell id -g)
 
-CSVW_CHECK_DOCKER	:= roblinksdata/csvw-check:latest
+CSVW_CHECK_DOCKER	:= ghcr.io/marco-bolo/csvw-check@sha256:b52d959a136f37f1f23e76b9b92cf1fb5ac2c64b7352e3b651211beba3cd0632
 CSV2RDF_DOCKER		:= europe-west2-docker.pkg.dev/swirrl-devops-infrastructure-1/public/csv2rdf:v0.7.1
 JENA_CLI_DOCKER		:= gsscogs/gss-jvm-build-tools:latest
 MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
