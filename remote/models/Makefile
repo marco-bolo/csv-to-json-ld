@@ -2,7 +2,7 @@
 WORKING_DIR			:= $(shell pwd)
 CURRENT_UID			:= $(shell id -u)
 CLASSES				:= "Dataset" "PersonOrOrganization" "License" "VariableMeasured" "DataDownload" "DatasetComment"
-LINKML_DOCKER			:= linkml/linkml:latest
+LINKML_DOCKER := linkml/linkml@sha256:a685725c98709190f2b43b2e9be9e5e878266c06f370081ca3beadcbec7cc858
 MERMAID_CLI_DOCKER		:= minlag/mermaid-cli:latest
 LINKML					:= docker run --rm -v "$(WORKING_DIR)":/work -w /work -u $(CURRENT_UID) $(LINKML_DOCKER) linkml
 MERMAID_CLI				:= docker run --rm -v "$(WORKING_DIR)":/work -w /work -u $(CURRENT_UID) $(MERMAID_CLI_DOCKER)
