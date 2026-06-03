@@ -1696,3 +1696,34 @@ slots:
       
       Links this methodology step to the platforms involved.
       For example, a transect survey step might reference a research vessel or AUV.
+
+  # Action Dates
+  startTime:
+    title: "Start Time"
+    description: "When the action started; for actions that span a period of time."
+    required: false
+    multivalued: false
+    range: string
+    pattern: '^(\d{4}(-\d{2}(-\d{2})?)?)$'
+    slot_uri: schema:startTime
+    comments: |
+      The point in time when the act of creation began.
+      A date in ISO8601, YYYY, YYYY-MM, or YYYY-MM-DD format
+      For example: `2024`
+      `2024-01`
+      `2024-01-15`
+
+  endTime:
+    title: "End Time"
+    description: "When the action ended; for actions that span a period of time."
+    required: false
+    multivalued: false
+    range: string
+    pattern: '^(\d{4}(-\d{2}(-\d{2})?)?)$'
+    slot_uri: schema:endTime
+    comments: |
+      The point in time when the act of creation finished.
+      A date in ISO8601, YYYY, YYYY-MM, or YYYY-MM-DD format
+      For example: `2025`
+      `2025-03`
+      `2025-03-31`  

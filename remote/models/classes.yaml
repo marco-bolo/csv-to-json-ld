@@ -37,6 +37,8 @@ classes:
       - actionInputPids
       - resultingDatasetMboIds
       - childActionMboIds
+      - startTime
+      - endTime
 
   HowTo:
     description: |
