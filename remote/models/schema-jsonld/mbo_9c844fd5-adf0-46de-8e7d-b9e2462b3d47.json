@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9c844fd5-adf0-46de-8e7d-b9e2462b3d47",
+  "@type": "Person",
+  "familyName": "Strand",
+  "givenName": "Emma"
+}

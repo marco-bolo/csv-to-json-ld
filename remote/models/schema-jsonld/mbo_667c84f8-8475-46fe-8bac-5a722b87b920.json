@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_667c84f8-8475-46fe-8bac-5a722b87b920",
+  "@type": "Person",
+  "familyName": "Silva",
+  "givenName": "Vitor"
+}

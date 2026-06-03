@@ -7,5 +7,8 @@
   "@type": "Person",
   "familyName": "Tagliolato",
   "givenName": "Paolo",
-  "identifier": "https://oceanexpert.org/expert/27401"
+  "identifier": "https://oceanexpert.org/expert/27401",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  }
 }

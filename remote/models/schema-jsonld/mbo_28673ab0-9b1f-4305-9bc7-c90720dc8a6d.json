@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d",
+  "@type": "ResearchOrganization",
+  "legalName": "Institut National de Recherche pour l'Agriculture l'Alimentation et l'Environnement Centre Occitanie-Toulouse",
+  "name": "INRAE Occitanie-Toulouse"
+}

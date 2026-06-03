@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_63c42568-49a8-434f-bae9-1cea02c84c69",
+  "@type": "DataDownload",
+  "schema:datePublished": "2026-04-01",
+  "description": "The folder containing the subset of the data from the nose camera of the ROV",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_856275ce-3eb6-44e0-8704-8f81a9375b4f"
+  },
+  "name": "Underwater Visual and Visual-Inertial Datasets UVVID (NoseCam)",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://data.dtu.dk/ndownloader/articles/27694068/versions/3?folder_path=Nose+cam"
+  }
+}

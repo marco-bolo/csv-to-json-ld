@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6d89e8df-cde2-41f7-a859-cb2d91b86a04",
+  "@type": "DefinedTerm",
+  "description": "The population abundance of the species is not adversely affected due to anthropogenic pressures, such that its long-term viability is ensured. \nMember States shall establish threshold values for each species through regional or subregional cooperation, taking account of natural variation in population size and the mortality rates derived from D1C1, D8C4 and D10C4 and other relevant pressures. For species covered by Directive 92/43/EEC, these values shall be\nconsistent with the Favourable Reference Population values established by the relevant Member States under Directive 92/43/EEC.",
+  "inDefinedTermSet": "https://example.com/TODO-msfd-d1c2",
+  "termCode": "D1C2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5",
+  "@type": "SoftwareApplication",
+  "description": "To reconstruct 3D models from videos (photogrammetry)",
+  "schema:downloadUrl": {
+    "@type": "URL",
+    "@value": "https://www.3dflow.net/3df-zephyr-photogrammetry-software/"
+  },
+  "name": "3DF ZEPHYR"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf",
+  "@type": "Vehicle",
+  "additionalType": {
+    "@id": "https://vocab.nerc.ac.uk/collection/B76/current/B7600007/"
+  },
+  "description": "multipurpose seabed lander",
+  "name": "multipurpose seabed lander"
+}

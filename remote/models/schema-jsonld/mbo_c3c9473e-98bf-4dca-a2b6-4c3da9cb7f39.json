@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c3c9473e-98bf-4dca-a2b6-4c3da9cb7f39",
+  "@type": "Person",
+  "familyName": "Jungbluth",
+  "givenName": "Sean"
+}

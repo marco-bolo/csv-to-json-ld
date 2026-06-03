@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_74e99343-6f49-429a-8607-9b221032b709",
+  "@type": "Person",
+  "familyName": "Morien",
+  "givenName": "Evan"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85",
+  "@type": "Person",
+  "familyName": "Pascal",
+  "givenName": "Geraldine",
+  "identifier": "https://orcid.org/0000-0002-5250-6594",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d"
+  }
+}

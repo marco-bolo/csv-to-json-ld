@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7bad7555-4775-4ce6-8114-a08d64129429",
+  "@type": "HowToStep",
+  "abstract": "Joh write",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
+  },
+  "name": "JoH write",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

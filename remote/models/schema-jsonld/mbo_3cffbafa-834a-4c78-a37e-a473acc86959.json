@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3cffbafa-834a-4c78-a37e-a473acc86959",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "description": "Microscopy phytoplankton counts for the SOMLIT-Astan time-series, published by Rigaut-Jalabert et al. (2021) on Zenodo. Restructured to fit the challenge dataset format and provided in the challenge as microscopy_harmonised.csv. Used as input to the MARCO-BOLO Data Analysis Challenge.",
+  "name": "Morphological phytoplankton counts for the SOMLIT-Astan time-series (2007-2017)",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb"
+  },
+  "temporalCoverage": "2007/2017",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.5281/zenodo.5033180"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

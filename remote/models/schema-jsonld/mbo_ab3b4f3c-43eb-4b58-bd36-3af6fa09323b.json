@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ab3b4f3c-43eb-4b58-bd36-3af6fa09323b",
+  "@type": "ResearchOrganization",
+  "legalName": "National Institute of Oceanography and Applied Geophysics",
+  "name": "OGS",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://ror.org/04y4t7k95"
+  }
+}

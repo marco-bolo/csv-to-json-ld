@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d50d16f6-4346-4720-a241-bbf924b9c514",
+  "@type": "Person",
+  "familyName": "Thompson",
+  "givenName": "Luke",
+  "identifier": "https://orcid.org/0000-0002-3911-1280",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_2903e828-6301-4a1e-8e96-b599c6dfefa9"
+  }
+}

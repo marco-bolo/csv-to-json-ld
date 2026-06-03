@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d",
+  "@type": "Person",
+  "familyName": "Alonso Fernandez",
+  "givenName": "Javier",
+  "identifier": "https://orcid.org/0009-0007-8561-6793",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
+  }
+}

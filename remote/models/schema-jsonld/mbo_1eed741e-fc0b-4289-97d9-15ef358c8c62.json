@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62",
+  "@type": "DataDownload",
+  "schema:datePublished": "2026-04-02",
+  "description": "The folder containing the subset of the data from the multi-camera",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+  },
+  "name": "Underwater Visual and Visual-Inertial Datasets UVVID (MultiCam)",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://data.dtu.dk/ndownloader/articles/27694068/versions/3?folder_path=Multicam+Datasets+Videos"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ea3d4640-bea4-49a5-bfca-909b7182733e",
+  "@type": "PropertyValue",
+  "description": "The pressure caused by background acoustic signals expressed on the decibel scale.",
+  "name": "Sound pressure level of ambient noise in the water body",
+  "propertyID": {
+    "@id": "https://vocab.nerc.ac.uk/collection/P01/current/AMBNSPL1/"
+  }
+}

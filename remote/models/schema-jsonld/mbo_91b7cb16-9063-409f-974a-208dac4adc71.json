@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_91b7cb16-9063-409f-974a-208dac4adc71",
+  "@type": "HowToStep",
+  "abstract": "Johanne will write something",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+  },
+  "name": "T5.1.2 creating the model for habitat suitabilty",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

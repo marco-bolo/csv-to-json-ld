@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bc534b37-0191-4203-9fbc-1c93402330f9",
+  "@type": "Person",
+  "familyName": "Banchi",
+  "givenName": "Elisa",
+  "identifier": "https://orcid.org/0000-0002-6598-0447",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ab3b4f3c-43eb-4b58-bd36-3af6fa09323b"
+  }
+}

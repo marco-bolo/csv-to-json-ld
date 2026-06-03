@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ca47fab8-cdd3-4aa9-92b3-49bc5495666c",
+  "@type": "ResearchOrganization",
+  "legalName": "Minderoo Foundation",
+  "name": "Minderoo Foundation",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://ror.org/0289t9g81"
+  }
+}

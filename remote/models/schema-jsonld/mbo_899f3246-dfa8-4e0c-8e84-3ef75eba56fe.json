@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_899f3246-dfa8-4e0c-8e84-3ef75eba56fe",
+  "@type": "Person",
+  "familyName": "Henry",
+  "givenName": "Nicolas"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_349f0f4d-7eae-4f1c-acec-5a02e878386b",
+  "@type": "Person",
+  "familyName": "Pylro",
+  "givenName": "Victor"
+}

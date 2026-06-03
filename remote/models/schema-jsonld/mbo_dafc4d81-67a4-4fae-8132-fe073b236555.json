@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555",
+  "@type": "Place",
+  "description": "The location of the ROV low-light camera work during the Task 4.4 sea trial",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.407058"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.818065"
+  },
+  "name": "Belgian EEZ Task 4.4 ROV low light camera"
+}

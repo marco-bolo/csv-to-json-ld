@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3e3f7e23-f80b-45da-9138-b21ee6eb08f7",
+  "@type": "PropertyValue",
+  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (fish (12S rRNA))",
+  "name": "Sequences: fish (12S rRNA)"
+}

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492",
+  "@type": "HowTo",
+  "name": "T5.1.2 Model for habitat suitabilty",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_91b7cb16-9063-409f-974a-208dac4adc71"
+  }
+}

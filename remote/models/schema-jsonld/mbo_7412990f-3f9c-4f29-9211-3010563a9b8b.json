@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b",
+  "@type": "SoftwareApplication",
+  "description": "To crop and convert the videos to mp4",
+  "schema:downloadUrl": {
+    "@type": "URL",
+    "@value": "https://ffmpeg.org/"
+  },
+  "name": "FMPEG software"
+}

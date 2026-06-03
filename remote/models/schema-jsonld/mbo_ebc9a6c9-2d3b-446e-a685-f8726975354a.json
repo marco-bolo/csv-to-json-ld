@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a",
+  "@type": "Place",
+  "description": "The location of the hydrophone used in the Task 4.4 sea trial",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d928e30a-153c-4bfa-b32c-4b48fff6f871"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.40645"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.8185"
+  },
+  "name": "Belgium EEZ Task 4.4 hydrophone"
+}

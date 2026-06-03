@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+  },
+  "description": "AI processed imaging time series data from the ZooScan for the Belgian Part of the North Sea",
+  "name": "WP5 T5.2 Query: BPNS Marine Zooplankton Time Series Imaging Dataset",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.14284/775"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

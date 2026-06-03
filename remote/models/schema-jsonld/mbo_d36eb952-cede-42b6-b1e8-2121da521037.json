@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d36eb952-cede-42b6-b1e8-2121da521037",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+  },
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "description": "Analysis of metabarcoding sequences taretting V4-V5 region of 18S rRNA (phytoplankton) from marine water samples in the BPNS: ~6years time series",
+  "name": "WP5 T5.2: BPNS Marine Phytoplankton Time Series Metabarcoding Occurence Dataset",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+  },
+  "temporalCoverage": "2017-01-01/2022-12-31",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

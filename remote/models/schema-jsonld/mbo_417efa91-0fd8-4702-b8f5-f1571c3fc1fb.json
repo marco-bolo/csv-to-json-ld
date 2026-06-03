@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_417efa91-0fd8-4702-b8f5-f1571c3fc1fb",
+  "@type": "Person",
+  "familyName": "Abdala",
+  "givenName": "Alejandro"
+}

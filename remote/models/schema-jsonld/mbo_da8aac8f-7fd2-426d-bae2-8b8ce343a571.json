@@ -5,7 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_da8aac8f-7fd2-426d-bae2-8b8ce343a571",
   "@type": "ContactPoint",
+  "availableLanguage": "en",
   "contactType": "Task 2.3 Contact",
   "description": "Comparison of spatial and temporal eDNA-based vs. traditional observations",
-  "name": "TBD"
+  "email": "joadug@mba.ac.uk",
+  "name": "Joanna Warwick-Dugdale"
 }

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8cc74c6c-91f3-4fb7-a749-f2f05f9a7d95",
+  "@type": "Person",
+  "familyName": "Héritier-Tellier",
+  "givenName": "Cassandre"
+}

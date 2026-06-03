@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4701af6f-42e8-4996-a472-ff855ec3eac0",
+  "@type": "Person",
+  "familyName": "Panitz",
+  "givenName": "Frank"
+}

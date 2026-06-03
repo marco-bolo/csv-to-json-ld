@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8",
+  "@type": "Place",
+  "name": "Task 4.4 eDNA from ship"
+}

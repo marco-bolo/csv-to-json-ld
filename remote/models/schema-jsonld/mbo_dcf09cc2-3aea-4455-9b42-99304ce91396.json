@@ -6,9 +6,15 @@
   "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396",
   "@type": "Dataset",
   "description": "Task 4.4 echosounder processed data: RAW files to NASC files being echograms",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "T4.4 Echosounder raw data",
   "spatialCoverage": {
     "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+  },
+  "temporalCoverage": "2025-05-16/2025-08-12",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marineinfo.org/doc/dataset/9027"
   },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"

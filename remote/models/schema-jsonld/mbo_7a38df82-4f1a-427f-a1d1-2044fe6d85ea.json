@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
+  "@type": "Thing",
+  "description": "RoCSI eDNA sampler",
+  "identifier": "RoCSI Serial Number 5",
+  "name": "RoCSI"
+}

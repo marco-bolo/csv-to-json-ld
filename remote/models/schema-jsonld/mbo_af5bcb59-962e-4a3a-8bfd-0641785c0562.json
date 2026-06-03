@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_af5bcb59-962e-4a3a-8bfd-0641785c0562",
+  "@type": "Person",
+  "familyName": "Chuo Beng",
+  "givenName": "Kingsly"
+}

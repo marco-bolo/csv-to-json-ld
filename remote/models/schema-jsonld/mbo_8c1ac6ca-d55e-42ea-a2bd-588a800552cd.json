@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8c1ac6ca-d55e-42ea-a2bd-588a800552cd",
+  "@type": "PropertyValue",
+  "description": "Data collected during RoCSI sampling",
+  "name": "RoSCI output",
+  "propertyID": {
+    "@id": "http://vocab.nerc.ac.uk/collection/S06/current/S0600274/"
+  }
+}

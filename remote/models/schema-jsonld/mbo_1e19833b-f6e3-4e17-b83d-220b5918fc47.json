@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1e19833b-f6e3-4e17-b83d-220b5918fc47",
+  "@type": "Dataset",
+  "conditionsOfAccess": "Restricted. Raw reads not publicly available; communicated directly to participants. Owned by the A-Fish-DNA-Scan and ME-BARCODE group, University of Minho.",
+  "description": "Raw 12S, 16S and COI fish metabarcoding reads from Lisbon Aquarium samples. Currently unpublished; communicated directly to challenge participants. Owned by the A-Fish-DNA-Scan and ME-BARCODE group at the University of Minho. Used as input to the MARCO-BOLO Data Analysis Challenge.",
+  "name": "12S, 16S and COI fish metabarcoding from Lisbon aquarium samples (raw reads)",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

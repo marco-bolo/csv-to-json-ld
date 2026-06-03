@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_02656303-5068-4297-bdfe-17630a06c38e",
+  "@type": "Place",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.406617"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.996333"
+  },
+  "name": "Task 4.4 eDNA benthic mooring"
+}

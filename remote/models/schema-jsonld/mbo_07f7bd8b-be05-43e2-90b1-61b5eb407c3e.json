@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
+  "@type": "Vehicle",
+  "additionalProperty": "IMO 9622681",
+  "additionalType": {
+    "@id": "http://vocab.nerc.ac.uk/collection/L06/current/31"
+  },
+  "category": "research vessel",
+  "name": "Simon Stevin RV"
+}

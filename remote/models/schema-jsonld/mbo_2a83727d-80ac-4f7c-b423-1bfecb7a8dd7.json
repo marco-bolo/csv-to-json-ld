@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2a83727d-80ac-4f7c-b423-1bfecb7a8dd7",
+  "@type": "Person",
+  "familyName": "Lescot",
+  "givenName": "Magali"
+}

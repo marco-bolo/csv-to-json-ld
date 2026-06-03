@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1",
+  "@type": "Thing",
+  "additionalType": {
+    "@id": "https://vocab.nerc.ac.uk/collection/L22/current/TOOL1544/"
+  },
+  "description": "Low-Light HD USB Nose Camera",
+  "isPartOf": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+  "name": "HD Video camera"
+}

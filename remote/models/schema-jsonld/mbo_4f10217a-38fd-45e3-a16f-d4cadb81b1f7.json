@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+  "@type": "Vehicle",
+  "additionalType": {
+    "@id": "http://vocab.nerc.ac.uk/collection/B76/current/B7600023/"
+  },
+  "alternateName": "Blue4",
+  "description": "Blue Robotics BlueROV2 remotely operated vehicle",
+  "name": "BlueROV2"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
+  "@type": "SoftwareSourceCode",
+  "schema:codeRepository": {
+    "@type": "URL",
+    "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
+  },
+  "name": "Blue ROV multi cam reconstruct"
+}

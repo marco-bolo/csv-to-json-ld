@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d",
+  "@type": "ResearchOrganization",
+  "legalName": "Mediterranean Institute of Oceanography",
+  "name": "M.I.O"
+}

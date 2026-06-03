@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
+  "@type": "HowTo",
+  "description": "Photogrammetry",
+  "name": "T4.4 Multi-camera work: 3D modelling",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b"
+  }
+}

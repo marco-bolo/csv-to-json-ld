@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_fa671ce0-db14-43fe-80fe-5d1ebc9cf844",
+  "@type": "Person",
+  "familyName": "Geslain",
+  "givenName": "Enora",
+  "identifier": "https://orcid.org/0000-0002-4300-1308",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7"
+  }
+}

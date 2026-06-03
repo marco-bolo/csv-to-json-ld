@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183",
+  "@type": "Person",
+  "familyName": "Doğan",
+  "givenName": "Onur",
+  "identifier": "https://orcid.org/0000-0002-5576-2331",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fee626c8-133d-460c-ad6f-365fadad90ba"
+  }
+}

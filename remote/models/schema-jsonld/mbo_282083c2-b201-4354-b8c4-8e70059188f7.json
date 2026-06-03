@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7",
+  "@type": "CollegeOrUniversity",
+  "legalName": "KU Leuven",
+  "name": "KU Leuven",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://ror.org/05f950310"
+  }
+}

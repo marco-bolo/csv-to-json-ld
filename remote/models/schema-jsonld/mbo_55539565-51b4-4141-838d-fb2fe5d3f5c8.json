@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8",
+  "@type": "PropertyValue",
+  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (Prokaryotes (16S rRNA))",
+  "name": "Sequences: Prokaryotes (16S rRNA)",
+  "propertyID": {
+    "@id": "http://www.sequenceontology.org/browser/current_release/term/SO:0001000"
+  }
+}

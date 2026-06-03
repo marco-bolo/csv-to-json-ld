@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.1.1 Contact",
+  "description": "Detection and analyses of biodiversity trends",
+  "name": "Andres Peredo Arce"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e301d0ff-3ba0-4367-a3b7-5666e14203c6",
+  "@type": "Person",
+  "familyName": "Lenaroto",
+  "givenName": "Luka"
+}

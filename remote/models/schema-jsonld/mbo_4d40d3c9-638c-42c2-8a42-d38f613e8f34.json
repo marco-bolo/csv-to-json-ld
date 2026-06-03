@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34",
+  "@type": "SoftwareSourceCode",
+  "schema:codeRepository": {
+    "@type": "URL",
+    "@value": "https://github.com"
+  },
+  "description": "Unfinished description of record with dummy URL",
+  "name": "Pelagic Habitat Indicator script for genetic data"
+}

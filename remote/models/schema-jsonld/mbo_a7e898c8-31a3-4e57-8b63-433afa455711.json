@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a7e898c8-31a3-4e57-8b63-433afa455711",
+  "@type": "DataDownload",
+  "contentSize": "304.6MB",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "description": "ZIP archive of all files in the Zenodo record: harmonised participant output tables (18S and 12S/16S/COI), pipeline and sample metadata, the microscopy occurrence table, aquarium species lists, and the dataset_description.json datapackage.",
+  "encodesCreativeWork": {
+    "@id": "https://w3id.org/marco-bolo/mbo_adabdb9b-1a6b-4d19-bfff-115b2932b269"
+  },
+  "encodingFormat": "application/zip",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Data Analysis Challenge — complete file archive",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fccd8788-7c81-4099-96f0-8a1a4085912d"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://zenodo.org/records/17739996/files-archive"
+  }
+}

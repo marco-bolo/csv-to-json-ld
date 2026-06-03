@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8",
+  "@type": "CreateAction",
+  "abstract": "Something that JoH will write",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
+  "name": "T5.1.2 Modelling for habitat suitability",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    }
+  ],
+  "result": {
+    "@id": "https://w3id.org/marco-bolo/mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc"
+  }
+}

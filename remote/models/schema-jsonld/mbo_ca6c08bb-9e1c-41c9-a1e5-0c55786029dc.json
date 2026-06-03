@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ca6c08bb-9e1c-41c9-a1e5-0c55786029dc",
+  "@type": "Place",
+  "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "55.685925"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.597734"
+  },
+  "name": "Danish EEZ Task 4.4 ROV multi-camera f"
+}

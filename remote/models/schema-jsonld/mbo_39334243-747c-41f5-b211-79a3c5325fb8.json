@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8",
+  "@type": "HowToStep",
+  "abstract": "To crop and convert the videos to mp4",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b"
+  },
+  "description": "For preprocessing and extracting frames",
+  "name": "T4.4 raw to mp4",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8f76807e-b112-4c8d-ad86-ee202756e6d6",
+  "@type": "HowTo",
+  "name": "T5.1.2 Model uptake by LW VRE",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7"
+  }
+}

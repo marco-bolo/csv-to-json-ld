@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
+  "@type": "HowTo",
+  "description": "Raw to subset and reformatted videos",
+  "name": "T4.4 ROV camera work: raw to mp4",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "Preprocessing GUI · Wiki · Javier Alonso Fernández / 3D Reconstruction BlueROV Multi-cam · GitLab"
+  }
+}

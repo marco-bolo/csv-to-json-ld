@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_52daa6b1-c444-42b2-8bee-d8e890d8eb5c",
+  "@type": "Person",
+  "familyName": "Eisele",
+  "givenName": "Marius"
+}

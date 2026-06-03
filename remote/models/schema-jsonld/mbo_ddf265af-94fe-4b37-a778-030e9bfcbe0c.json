@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ddf265af-94fe-4b37-a778-030e9bfcbe0c",
+  "@type": "Person",
+  "familyName": "Bennett",
+  "givenName": "Adam John",
+  "identifier": "https://orcid.org/0009-0000-7038-2890",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ca47fab8-cdd3-4aa9-92b3-49bc5495666c"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0b3f2ef2-5dd9-4ea7-adb8-c02c20a36cdf",
+  "@type": "Person",
+  "familyName": "Rué",
+  "givenName": "Olivier",
+  "identifier": "https://orcid.org/0000-0001-7517-4724",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_917918ba-e5fc-4674-b784-03c13ee868a5"
+  }
+}

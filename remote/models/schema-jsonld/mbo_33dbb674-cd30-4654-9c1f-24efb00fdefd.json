@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd",
+  "@type": "PropertyValue",
+  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (marine vertebrates (12S rRNA))",
+  "name": "Sequences: marine vertebrates (12S rRNA)"
+}

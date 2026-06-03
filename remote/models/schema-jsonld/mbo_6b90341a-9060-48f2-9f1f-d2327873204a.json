@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a",
+  "@type": "HowToStep",
+  "abstract": "For preprocessing and extracting frames once in mp4 format",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
+  },
+  "name": "T4.4 preprocess and extract",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "2"
+  }
+}

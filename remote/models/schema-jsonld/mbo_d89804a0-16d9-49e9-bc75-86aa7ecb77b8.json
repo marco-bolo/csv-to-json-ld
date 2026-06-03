@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d89804a0-16d9-49e9-bc75-86aa7ecb77b8",
+  "@type": "HowTo",
+  "name": "T4.4 eDNA work: from seabed",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875"
+  }
+}

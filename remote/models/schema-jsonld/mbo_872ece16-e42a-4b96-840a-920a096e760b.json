@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b",
+  "@type": "CreateAction",
+  "abstract": "T4.4 seatrial event: eDNA from seabedlander",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d89804a0-16d9-49e9-bc75-86aa7ecb77b8"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "name": "Multi-sensor biodiversity observations: eDNA from seabed",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
+    }
+  ]
+}

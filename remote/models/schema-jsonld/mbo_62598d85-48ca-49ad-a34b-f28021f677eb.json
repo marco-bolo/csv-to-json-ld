@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_62598d85-48ca-49ad-a34b-f28021f677eb",
+  "@type": "Person",
+  "familyName": "Lezzoche",
+  "givenName": "Nolan",
+  "identifier": "https://orcid.org/0009-0004-2631-9930",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d"
+  }
+}

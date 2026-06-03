@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7ad20441-0bb8-4beb-b092-9eab11499ced",
+  "@type": "Person",
+  "familyName": "Atallah",
+  "givenName": "Christian"
+}

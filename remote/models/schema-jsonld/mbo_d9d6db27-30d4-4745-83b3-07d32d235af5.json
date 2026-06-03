@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5",
+  "@type": "Dataset",
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "description": "Raw 18S rRNA metabarcoding reads from the ASTAN observatory (SOMLIT-Astan station, Western English Channel), published by Caracciolo et al. (2022, Molecular Ecology, doi:10.1111/mec.16539). Used as input to the MARCO-BOLO Data Analysis Challenge.",
+  "name": "18S protist metabarcoding from the ASTAN observatory (raw reads)",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.ebi.ac.uk/ena/browser/view/PRJEB48571"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

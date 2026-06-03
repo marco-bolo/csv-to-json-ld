@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_93e5c6df-8587-4dfd-bb7b-77d24eaacec2",
+  "@type": "Person",
+  "familyName": "Lanzén",
+  "givenName": "Anders"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+  },
+  "conditionsOfAccess": "open access",
+  "description": "AI processed imaging time series data from the FlowCam for the Belgian Part of the North Sea",
+  "name": "WP5 T5.2 Query: BPNS Marine Phytoplankton Time Series Imaging Dataset",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+  },
+  "temporalCoverage": "2017-05-01/2024-01-01",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.14284/680"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

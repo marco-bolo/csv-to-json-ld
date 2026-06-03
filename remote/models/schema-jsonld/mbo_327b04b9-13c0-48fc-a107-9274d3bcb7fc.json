@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc",
+  "@type": "CreateAction",
+  "abstract": "The T5.1.2 habitat suitabilty model was adapted to be run within the LifeWatch VRE",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8f76807e-b112-4c8d-ad86-ee202756e6d6"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
+  "name": "T5.1.2 Habitat suiteabilty model 2 LW VRE",
+  "object": {
+    "@id": "file:///work/out/bulk/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+  },
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+    }
+  ],
+  "result": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
+    }
+  ]
+}

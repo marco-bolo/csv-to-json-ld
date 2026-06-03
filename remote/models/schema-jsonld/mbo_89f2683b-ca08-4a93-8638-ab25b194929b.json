@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_89f2683b-ca08-4a93-8638-ab25b194929b",
+  "@type": "PropertyValue",
+  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (metazoans (cytochrome oxidase I))",
+  "name": "Sequences: metazoans (COI)"
+}

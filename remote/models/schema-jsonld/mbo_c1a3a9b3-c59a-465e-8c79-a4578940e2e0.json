@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c1a3a9b3-c59a-465e-8c79-a4578940e2e0",
+  "@type": "Person",
+  "familyName": "Straub",
+  "givenName": "Daniel"
+}

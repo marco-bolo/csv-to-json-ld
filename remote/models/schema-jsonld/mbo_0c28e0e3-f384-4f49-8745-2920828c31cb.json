@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb",
+  "@type": "Person",
+  "familyName": "Canals",
+  "givenName": "Oriol"
+}

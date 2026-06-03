@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_20b32e76-d581-41f3-8065-5a08cc226f2b",
+  "@type": "Person",
+  "familyName": "Hildebrand",
+  "givenName": "Falk"
+}

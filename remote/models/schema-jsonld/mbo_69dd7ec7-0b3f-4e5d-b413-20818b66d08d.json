@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d",
+  "@type": "Place",
+  "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.407058"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "2.818065"
+  },
+  "name": "Belgian EEZ Task 4.4 ROV multi-camera c"
+}

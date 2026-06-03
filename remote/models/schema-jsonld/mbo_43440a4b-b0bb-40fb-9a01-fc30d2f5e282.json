@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+  },
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+    }
+  ],
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+  },
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "schema:dateCreated": "2026-03-20",
+  "description": "Raw eDNA metabarcoding sequences targeting 12S (fish from Western Channel Observatory site L4; ~20-year timeseries from February 2001 to February 2023 (excluding July 2018 to January 2021).",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+  },
+  "name": "12S time series sequences at Western Channel Observatory (WCO) Coastal Station 'L4'",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_4ae2bc9b-53d5-4898-b017-87fe661f0413"
+  },
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
+  },
+  "temporalCoverage": "2001-02/2023-02",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  },
+  "https://w3id.org/marco-bolo/inProgressDate": "2026"
+}

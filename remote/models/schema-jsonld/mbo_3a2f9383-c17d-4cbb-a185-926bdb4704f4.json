@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4",
+  "@type": "Place",
+  "description": "Oceanário de Lisboa, Portugal. Source of the 12S/16S/COI fish, shark and ray aquarium samples.",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "38.76352"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-9.093716"
+  },
+  "name": "Lisbon Aquarium"
+}

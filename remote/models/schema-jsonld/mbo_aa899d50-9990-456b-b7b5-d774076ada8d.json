@@ -5,10 +5,19 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_aa899d50-9990-456b-b7b5-d774076ada8d",
   "@type": "Dataset",
-  "description": "Task 4.4 FPOD raw data processing: data.che files processed into FP1 and FP3 files",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3"
+  },
+  "description": "Task 4.4 FPOD raw data processing: data.che files processed into FP1 and FP3 files using the company open software FPOD.exe, then exported to txt files and uploaded to lifewatch.be/etn portal under the 'UnderwaterAcoustic' component. The output files contain acoustic presence/absence per minute and are openly available on https://rshiny.vsc.lifewatch.be/cpod-data/. Download of data is possible after registration.",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "T4.4 FPOD raw data",
   "spatialCoverage": {
     "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9"
+  },
+  "temporalCoverage": "2025-05-16/2025-05-11",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marineinfo.org/doc/dataset/9027"
   },
   "variableMeasured": {
     "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"

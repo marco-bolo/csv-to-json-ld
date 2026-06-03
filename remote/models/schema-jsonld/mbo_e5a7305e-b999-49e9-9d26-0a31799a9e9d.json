@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d",
+  "@type": "CreateAction",
+  "abstract": "T4.4 seatrial event: eDNA from RV",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+  },
+  "name": "Multi-sensor biodiversity observations: eDNA from RV",
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7"
+    }
+  ]
+}

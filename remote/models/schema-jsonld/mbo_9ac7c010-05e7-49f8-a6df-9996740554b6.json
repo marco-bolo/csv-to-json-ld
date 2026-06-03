@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9ac7c010-05e7-49f8-a6df-9996740554b6",
+  "@type": "PropertyValue",
+  "description": "Data collected during RoCSI sampling",
+  "name": "RoSCI output",
+  "propertyID": {
+    "@id": "https://genomicsstandardsconsortium.github.io/mixs/0000011/"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad",
+  "@type": "Organization",
+  "description": "The Western Channel Observatory (WCO) is an oceanographic time-series and marine biodiversity reference site in the Western English Channel.",
+  "name": "Western Channel Observatory",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.westernchannelobservatory.org.uk/about.php"
+  }
+}

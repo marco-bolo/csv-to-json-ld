@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
+  "@type": "Thing",
+  "description": "NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support",
+  "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+  "name": "Multi-camera system",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp"
+  }
+}

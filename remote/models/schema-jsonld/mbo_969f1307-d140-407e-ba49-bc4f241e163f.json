@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_969f1307-d140-407e-ba49-bc4f241e163f",
+  "@type": "Person",
+  "familyName": "Nguyen",
+  "givenName": "Ngoc-Loi"
+}

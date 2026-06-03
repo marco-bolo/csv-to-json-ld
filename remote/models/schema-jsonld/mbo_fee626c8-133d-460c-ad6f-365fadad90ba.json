@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_fee626c8-133d-460c-ad6f-365fadad90ba",
+  "@type": "CollegeOrUniversity",
+  "legalName": "Boğaziçi University, Institute of Environmental Science",
+  "name": "Boğaziçi University"
+}

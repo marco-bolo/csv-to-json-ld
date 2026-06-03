@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8d18ea10-a44e-41f2-8fe7-ec7cbc1325a1",
+  "@type": "Person",
+  "familyName": "Miller",
+  "givenName": "Jeffrey"
+}

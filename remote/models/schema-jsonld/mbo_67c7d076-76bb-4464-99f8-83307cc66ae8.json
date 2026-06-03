@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8",
+  "@type": "SoftwareSourceCode",
+  "schema:codeRepository": {
+    "@type": "URL",
+    "@value": "https://github.com/lifewatch/habitat_suitability_model/tree/main"
+  },
+  "description": "R johannes's code which then fed the LW VRE code",
+  "name": "Habitat suitability model"
+}

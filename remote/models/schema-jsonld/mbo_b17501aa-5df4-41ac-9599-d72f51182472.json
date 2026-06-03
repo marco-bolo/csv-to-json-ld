@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b17501aa-5df4-41ac-9599-d72f51182472",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.1.3 Contact",
+  "description": "Detection and analyses of biodiversity trends",
+  "name": "Daniele|Patrizio Mariani"
+}

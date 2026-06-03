@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_856275ce-3eb6-44e0-8704-8f81a9375b4f",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
+    }
+  ],
+  "schema:datePublished": "2026-04-01",
+  "description": "Task 4.4 videos from ROV low-light camera (.mkv files processed into mp4)",
+  "name": "MBO Task 4.4 ROV video data from low light camera",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+  },
+  "temporalCoverage": "2025-05-19/2025-05-19",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.11583/DTU.27694068"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3",
+  "@type": "DefinedTerm",
+  "description": "The mortality rate per species from incidental by-catch is below levels which threaten the species, such that its longterm viability is ensured. Member States shall establish the threshold values for the mortality rate from incidental by-catch per species, through regional or subregional cooperation.",
+  "inDefinedTermSet": "https://example.com/TODO-msfd-d1c1",
+  "termCode": "D1C1"
+}

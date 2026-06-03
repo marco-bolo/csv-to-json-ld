@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7",
+  "@type": "Person",
+  "familyName": "de Corte",
+  "givenName": "Daniele de Corte",
+  "identifier": "https://orcid.org/0000-0002-9782-9821",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d92d70f8-80f8-4812-b274-4c328e378e7e"
+  }
+}

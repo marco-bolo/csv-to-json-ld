@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2dbbb09c-8ccb-46f6-9477-44f54ad959f6",
+  "@type": "Person",
+  "familyName": "Větrovský",
+  "givenName": "Tomáš"
+}

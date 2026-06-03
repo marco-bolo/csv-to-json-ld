@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d",
+  "@type": "HowTo",
+  "name": "T4.4 eDNA work: from RV",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
+  }
+}
