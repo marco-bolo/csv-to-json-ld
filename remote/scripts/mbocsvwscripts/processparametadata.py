@@ -93,7 +93,7 @@ def _build_para_metadata_graph(
     git_repo_commit_file_url: str,
 ):
     result_of_action = _get_object_from_single_triple_with_predicate(
-        input_metadata_triples, IS_RESULT_OF_PREDICATE, required=False
+        input_metadata_triples, IS_RESULT_OF_PREDICATE
     )
     csv_content_url = _get_object_from_single_triple_with_predicate(
         input_metadata_triples, SCHEMA.contentUrl
@@ -168,32 +168,24 @@ def _build_para_metadata_graph(
     para_metadata_graph += dataset_triples
     para_metadata_graph += csv_data_download_triples
     para_metadata_graph += json_data_download_triples
-    if result_of_action is not None:
-        para_metadata_graph.add((result_of_action, SCHEMA.result, dataset_uri))
-        para_metadata_graph.add((result_of_action, SCHEMA.result, csv_data_download_uri))
-        para_metadata_graph.add((result_of_action, SCHEMA.result, jsonld_data_download_uri))
-        para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
+    para_metadata_graph.add((result_of_action, SCHEMA.result, dataset_uri))
+    para_metadata_graph.add((result_of_action, SCHEMA.result, csv_data_download_uri))
+    para_metadata_graph.add((result_of_action, SCHEMA.result, jsonld_data_download_uri))
+    para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
     return para_metadata_graph
 
 
 def _get_object_from_single_triple_with_predicate(
     input_metadata_triples: List[Tuple[Node, Node, Node]],
     matching_predicate: Node,
-    required: bool = True,
 ):
     triples_using_predicate = [
         o for (_, p, o) in input_metadata_triples if p == matching_predicate
     ]
-    if len(triples_using_predicate) > 1:
+    if len(triples_using_predicate) != 1:
         raise Exception(
-            f"Expected at most 1 triple using {matching_predicate}, but found {len(triples_using_predicate)}"
+            f"Expected 1 triples using {matching_predicate}, but found {len(triples_using_predicate)}"
         )
-    if len(triples_using_predicate) == 0:
-        if required:
-            raise Exception(
-                f"Expected 1 triple using {matching_predicate}, but found 0"
-            )
-        return None
     return triples_using_predicate[0]
 
 
