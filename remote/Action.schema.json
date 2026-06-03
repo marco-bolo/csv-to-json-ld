@@ -214,6 +214,42 @@
             }
         },
         {
+            "name": "startTime",
+            "titles": {
+                "en": [
+                    "Start Time"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "The point in time when the act of creation began.\nA date in ISO8601, YYYY, YYYY-MM, or YYYY-MM-DD format\nFor example: `2024`\n`2024-01`\n`2024-01-15`"
+                ]
+            },
+            "propertyUrl": "https://schema.org/startTime",
+            "datatype": {
+                "base": "string",
+                "format": "^(\\d{4}(-\\d{2}(-\\d{2})?)?)$"
+            }
+        },
+        {
+            "name": "endTime",
+            "titles": {
+                "en": [
+                    "End Time"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "The point in time when the act of creation finished.\nA date in ISO8601, YYYY, YYYY-MM, or YYYY-MM-DD format\nFor example: `2025`\n`2025-03`\n`2025-03-31`"
+                ]
+            },
+            "propertyUrl": "https://schema.org/endTime",
+            "datatype": {
+                "base": "string",
+                "format": "^(\\d{4}(-\\d{2}(-\\d{2})?)?)$"
+            }
+        },
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/CreateAction"
