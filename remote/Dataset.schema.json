@@ -487,6 +487,24 @@
             }
         },
         {
+            "name": "identifiers",
+            "titles": {
+                "en": [
+                    "Identifiers"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "Can include any kind on non-MBO identifiers like ROR, ORCID, DOI, ISBNs, IGSN, UUIDs, etc."
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
             "virtual": true,
             "propertyUrl": "rdf:type",
             "valueUrl": "https://schema.org/Dataset"
