@@ -117,8 +117,7 @@ jobs:
         run: make shacl-report
       
       - name: Build JSON-LD
-        # The JSON-LD build now uses UUIDs from the registry
-        run: make jsonld -j 2
+        run: make jsonld -j $(nproc)
       
       - name: Commit JSON-LD outputs for MkDocs
         if: github.ref == 'refs/heads/main'
