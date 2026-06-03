@@ -13,7 +13,10 @@
   "temporalCoverage": "2025-05-16/2025-06-11",
   "variableMeasured": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8c1ac6ca-d55e-42ea-a2bd-588a800552cd"
+      "@id": "https://w3id.org/marco-bolo/mbo_9ac7c010-05e7-49f8-a6df-9996740554b6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_12a013c1-5f98-4cc7-9aa2-14fe6d34cb75"
@@ -22,16 +25,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9ac7c010-05e7-49f8-a6df-9996740554b6"
+      "@id": "https://w3id.org/marco-bolo/mbo_8c1ac6ca-d55e-42ea-a2bd-588a800552cd"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_5b97854f-828b-466b-87d2-9c980927ff68"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_31382fc4-a7fc-4d3d-b230-ee42c04919dc"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937"
     }
   ]
 }
