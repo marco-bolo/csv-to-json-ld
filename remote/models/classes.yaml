@@ -271,6 +271,7 @@ classes:
       - metadataPublisherId
       - metadataDescribedForActionId
       - name
+      - identifiers
       - codeRepositoryUrl
       - description
       - publishingStatusMboId
