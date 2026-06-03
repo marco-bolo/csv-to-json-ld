@@ -136,6 +136,7 @@ classes:
       - conditionsOfAccess
       - keywords
       - audienceMboIds
+      - identifiers
 
   PersonOrOrganization:
     abstract: true
