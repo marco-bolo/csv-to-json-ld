@@ -1,50 +1,66 @@
 {
-  "timestamp": "2026-06-02T18:59:58.696069",
+  "timestamp": "2026-06-03T19:09:14.565292",
   "new_ids": [
     {
-      "class": "ContactPoint",
-      "uuid": "mbo_8cee63ff-646c-4848-83eb-aad62cfeae98",
-      "semantic_id": "mbo_contact_wp5_t5_1_1"
-    }
-  ],
-  "missing_ids": [
-    {
-      "class": "Action",
-      "uuid": "mbo_ac836baa-5934-41e0-9b1c-8fa8a3664f76",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun",
-      "similar": [
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_bd",
-          0.9577464788732394
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_hp",
-          0.9577464788732394
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_hs",
-          0.9577464788732394
-        ]
-      ]
+      "class": "PropertyValue",
+      "uuid": "mbo_6f23893f-5385-472e-bdc7-d258ca7b5af3",
+      "semantic_id": "mbo_eov_fish"
     },
     {
-      "class": "ContactPoint",
-      "uuid": "mbo_bc9c2431-72f4-474b-8d72-69a646a0d43f",
-      "semantic_id": "mbo_contact_wp5_t5_1",
-      "similar": [
-        [
-          "mbo_contact_wp5_t5_1_1",
-          0.9523809523809523
-        ],
-        [
-          "mbo_contact_wp5_t5_1_2",
-          0.9523809523809523
-        ],
-        [
-          "mbo_contact_wp5_t5_1_3",
-          0.9523809523809523
-        ]
-      ]
+      "class": "PropertyValue",
+      "uuid": "mbo_10e94276-1aa1-4763-8209-3cf236abcad2",
+      "semantic_id": "mbo_eov_phytoplankton"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_87ceaa39-1731-4dae-8337-6636aa779f58",
+      "semantic_id": "mbo_eov_zooplankton"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_24b8f95b-c651-47bf-b45a-4923958b1261",
+      "semantic_id": "mbo_eov_microbe"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_2abd9ece-94b0-476c-a14f-adbe57d97d8a",
+      "semantic_id": "mbo_eov_benthic_invertebrates"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_7ab62b74-d828-4b5e-96cc-c51d6c656aae",
+      "semantic_id": "mbo_eov_marine_mammals"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_d85ed9fa-5fc9-4fc3-8002-914041328167",
+      "semantic_id": "mbo_eov_seabirds"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_1677e033-3f9b-47ec-9ea5-10f9d3410c72",
+      "semantic_id": "mbo_eov_sea_turtles"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_edd825c3-bed7-48f4-9292-5f6499d137b6",
+      "semantic_id": "mbo_eov_coral"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_eaec868c-a605-47e2-a88d-4c9d56ce2e69",
+      "semantic_id": "mbo_eov_seagrass"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_8bc24c2a-c679-4a93-abac-937c96c115b2",
+      "semantic_id": "mbo_eov_macroalgae"
+    },
+    {
+      "class": "PropertyValue",
+      "uuid": "mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
+      "semantic_id": "mbo_eov_mangrove"
     }
-  ]
+  ],
+  "missing_ids": []
 }
