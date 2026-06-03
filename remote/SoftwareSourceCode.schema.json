@@ -73,24 +73,6 @@
             }
         },
         {
-            "name": "identifiers",
-            "titles": {
-                "en": [
-                    "Identifiers"
-                ]
-            },
-            "dc:description": {
-                "en": [
-                    "Can include any kind on non-MBO identifiers like ROR, ORCID, DOI, ISBNs, IGSN, UUIDs, etc."
-                ]
-            },
-            "propertyUrl": "https://schema.org/identifier",
-            "separator": "|",
-            "datatype": {
-                "base": "string"
-            }
-        },
-        {
             "name": "codeRepositoryUrl",
             "titles": {
                 "en": [
@@ -327,6 +309,24 @@
                 ]
             },
             "propertyUrl": "https://schema.org/keywords",
+            "separator": "|",
+            "datatype": {
+                "base": "string"
+            }
+        },
+        {
+            "name": "identifiers",
+            "titles": {
+                "en": [
+                    "Identifiers"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "Can include any kind on non-MBO identifiers like ROR, ORCID, DOI, ISBNs, IGSN, UUIDs, etc."
+                ]
+            },
+            "propertyUrl": "https://schema.org/identifier",
             "separator": "|",
             "datatype": {
                 "base": "string"
