@@ -7,10 +7,10 @@
   "@type": "Dataset",
   "about": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99"
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6"
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99"
     }
   ],
   "audience": [
@@ -26,10 +26,10 @@
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
     }
   ],
   "copyrightHolder": {
@@ -45,11 +45,11 @@
   "keywords": [
     "vertebrates",
     "EMO BON",
-    "marine biodiversity",
-    "Norway",
-    "eukaryotes",
     "metabarcoding",
-    "eDNA"
+    "eukaryotes",
+    "Norway",
+    "eDNA",
+    "marine biodiversity"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {
