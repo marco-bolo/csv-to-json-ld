@@ -1727,3 +1727,17 @@ slots:
       For example: `2025`
       `2025-03`
       `2025-03-31`  
+
+  #DefinedTerm
+  disambiguatingDescription:
+    title: "Disambiguating Description"
+    description: "A sub-description used to disambiguate this term from other, similar items."
+    required: false
+    multivalued: false
+    range: string
+    slot_uri: schema:disambiguatingDescription
+    comments: |
+      A clarifying note distinguishing this term from similar ones.
+      For MSFD criteria DefinedTerms, used for an MBO-authored note explaining that
+      an associated MBO entity is relevant to the named criterion (rather than asserting
+      it formally assesses or satisfies it).

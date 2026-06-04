@@ -357,6 +357,8 @@ classes:
       - inDefinedTermSetId
       - existingTermId
       - description
+      - alternateName
+      - disambiguatingDescription
 
   PublishingStatusDefinedTerm:
     class_uri: schema:DefinedTerm
