@@ -17,14 +17,17 @@
   "conditionsOfAccess": "For queries and access to the dataset please contact Claire Widdicombe (clst@pml.ac.uk).",
   "description": "Phytoplankton time-series contains taxa-specific and total functional group abundance (cells mL-1) and biomass (mgC m-3) data.",
   "keywords": [
-    "phytoplankton",
     "microscopy",
-    "Utermohl"
+    "Utermohl",
+    "phytoplankton"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad"
   },
   "name": "Phytoplankton microscopy counts of tme series samples from Western Channel Observatory (WCO) Coastal Station 'L4'",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
+  },
   "temporalCoverage": "1992-10-05/2021-11-29",
   "schema:url": {
     "@type": "URL",
