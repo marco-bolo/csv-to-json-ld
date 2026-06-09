@@ -21,10 +21,10 @@
   "keywords": [
     "Horizon Europe",
     "essential ocean variables",
-    "Global Ocean Observing System",
-    "biodiversity data",
     "data management plan",
-    "United Nations Decade of Ocean Science for Sustainable Development"
+    "biodiversity data",
+    "United Nations Decade of Ocean Science for Sustainable Development",
+    "Global Ocean Observing System"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {
