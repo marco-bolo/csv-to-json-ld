@@ -12,52 +12,11 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Phylum"
-        }
-      ],
-      "name": "Macroalgae"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Phylum",
@@ -67,11 +26,52 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank"
+        }
+      ],
+      "name": "Macroalgae"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Status",
@@ -88,17 +88,17 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     }
   ]
