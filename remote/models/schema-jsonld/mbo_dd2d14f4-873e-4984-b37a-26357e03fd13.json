@@ -18,16 +18,16 @@
   "name": "MBO Task 4.4 ROV video data from mutti-camera",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_31061cfe-c611-4fd2-964a-b3e350ae521c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a32ba611-efbb-4e48-acdf-8973f6f5daa9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_31061cfe-c611-4fd2-964a-b3e350ae521c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
     }
   ],
   "temporalCoverage": "2024-10-14/2025-06-20",

@@ -10,13 +10,13 @@
   },
   "audience": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     }
   ],
   "author": {
@@ -36,8 +36,8 @@
   "schema:dateModified": "2026-03-19",
   "description": "Raw eDNA metabarcoding sequences targeting 18S-V9 (eukaryotes) from Western Channel Observatory site L4; ~20-year timeseries from February 2001 to February 2023 (excluding July 2018 to January 2021).",
   "keywords": [
-    "eDNA",
-    "plankton"
+    "plankton",
+    "eDNA"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
