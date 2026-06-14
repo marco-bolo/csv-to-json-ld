@@ -12,13 +12,13 @@
   "name": "MARCO-BOLO Deliverable 2.2",
   "object": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_1e19833b-f6e3-4e17-b83d-220b5918fc47"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3cffbafa-834a-4c78-a37e-a473acc86959"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
     }
   ],
   "participant": [
