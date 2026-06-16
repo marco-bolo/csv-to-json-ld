@@ -1,66 +1,96 @@
 {
-  "timestamp": "2026-06-03T19:09:14.565292",
+  "timestamp": "2026-06-16T06:28:13.073587",
   "new_ids": [
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_6f23893f-5385-472e-bdc7-d258ca7b5af3",
-      "semantic_id": "mbo_eov_fish"
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92",
+      "semantic_id": "mbo_t44_underwatersound"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_df5ed114-d071-478e-bdfa-18b84bf20b82",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howto"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_3ab86640-4c30-4521-bb60-482214c9d308",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howto"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_81e18c5e-05db-4873-90c0-b9340994f5d7",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howto"
+    },
+    {
+      "class": "HowTo",
+      "uuid": "mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howto"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_208303f2-5e4e-4f6b-8b99-246b8a718728",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howtostep"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_9716ac99-fa73-4e33-870e-4849c479463f",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howtostep"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_02f2e8b1-4dc6-495a-acca-9b56631dcea9",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howtostep"
+    },
+    {
+      "class": "HowToStep",
+      "uuid": "mbo_5b29801c-3271-4727-beb2-38dc969d4326",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howtostep"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
+      "semantic_id": "mbo_costle"
     },
     {
       "class": "PropertyValue",
-      "uuid": "mbo_10e94276-1aa1-4763-8209-3cf236abcad2",
-      "semantic_id": "mbo_eov_phytoplankton"
+      "uuid": "mbo_e249772a-5525-47b2-a200-f911d9980345",
+      "semantic_id": "mbo_propval_speciesdistrib"
     },
     {
       "class": "PropertyValue",
-      "uuid": "mbo_87ceaa39-1731-4dae-8337-6636aa779f58",
-      "semantic_id": "mbo_eov_zooplankton"
+      "uuid": "mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea",
+      "semantic_id": "mbo_propval_speciescount"
     },
     {
       "class": "PropertyValue",
-      "uuid": "mbo_24b8f95b-c651-47bf-b45a-4923958b1261",
-      "semantic_id": "mbo_eov_microbe"
+      "uuid": "mbo_18e25da1-dd4a-4824-acf6-9148a3b33955",
+      "semantic_id": "mbo_propval_ecosystemverticalprofile"
     },
     {
       "class": "PropertyValue",
-      "uuid": "mbo_2abd9ece-94b0-476c-a14f-adbe57d97d8a",
-      "semantic_id": "mbo_eov_benthic_invertebrates"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_7ab62b74-d828-4b5e-96cc-c51d6c656aae",
-      "semantic_id": "mbo_eov_marine_mammals"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_d85ed9fa-5fc9-4fc3-8002-914041328167",
-      "semantic_id": "mbo_eov_seabirds"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_1677e033-3f9b-47ec-9ea5-10f9d3410c72",
-      "semantic_id": "mbo_eov_sea_turtles"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_edd825c3-bed7-48f4-9292-5f6499d137b6",
-      "semantic_id": "mbo_eov_coral"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_eaec868c-a605-47e2-a88d-4c9d56ce2e69",
-      "semantic_id": "mbo_eov_seagrass"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_8bc24c2a-c679-4a93-abac-937c96c115b2",
-      "semantic_id": "mbo_eov_macroalgae"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
-      "semantic_id": "mbo_eov_mangrove"
+      "uuid": "mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
+      "semantic_id": "mbo_propval_ecosystemvolumeestimate"
     }
   ],
-  "missing_ids": []
+  "missing_ids": [
+    {
+      "class": "HowTo",
+      "uuid": "mbo_fbec8976-1105-4da7-8526-7d18826b4394",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howto",
+      "similar": [
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howto",
+          0.963855421686747
+        ],
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howto",
+          0.963855421686747
+        ],
+        [
+          "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howto",
+          0.963855421686747
+        ]
+      ]
+    }
+  ]
 }
