@@ -1,6 +1,6 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Name*,Position in Parent*,Abstract,Description,Contributors (mPIDs),Provider (mPID),Source Code Citations (mPIDs),Software Application Citations (mPIDs),Service Citations (mPIDs),Document Citations (mPIDs),Child Steps (mPIDs),Implementation Tips (mPIDs),Audiences (mPIDs),Platforms Used (mPIDs),Instruments Used (mPIDs),URL
 mbo_t44_fpod_howtostep,mbo_kexter,mbo_task_4_4_seatrial_fpod,T4.4 FPOD data capture,1,T4.4 hydrophonedata capture and raw data processing,,,,,mbo_t44_fpod_software,,,,,,mbo_seabedmooring,mbo_fpod_instrument,
-mbo_t44_hydrophone_howtostep,mbo_kexter,mbo_task_4_4_seatrial_hydrophone,T4.4 hydrophone data capture,1,T4.4 hydrophone data capture and raw data processing,,,,,,,,,,,mbo_seabedmooring,mbo_hydrophone_soundtrap,
+mbo_t44_hydrophone_howtostep,mbo_kexter,mbo_task_4_4_seatrial_hydrophone,T4.4 hydrophone data capture,1,T4.4 hydrophone data capture and raw data processing,,,,mbo_t44_underwatersound,,,,,,,mbo_seabedmooring,mbo_hydrophone_soundtrap,
 mbo_t44_echosounder_howtostep,mbo_kexter,mbo_task_4_4_seatrial_echosounder,T4.4 ecosounder data capture,1,T4.4 echosounder data capture and raw data processing,,,,,mbo_t44_echoview,,,,,,mbo_seabedmooring,mbo_echosounder_instrument,
 mbo_t44_rov_howtostep_raw2mp4,mbo_kexter,mbo_task_4_4_seatrial_rov,T4.4 raw to mp4,1,To crop and convert the videos to mp4,For preprocessing and extracting frames,,,,mbo_t44_fmpegcode,,,,,,,,
 mbo_t44_rov_howtostep_preprocessing,mbo_kexter,mbo_task_4_4_seatrial_rov_modelling,T4.4 preprocess and extract,2,For preprocessing and extracting frames once in mp4 format,,,,mbo_t44_multicamcode,,,,,,,,,
@@ -11,3 +11,7 @@ mbo_t_5_1_2_habitatsuit_model_howtostep,mbo_kexter,mbo_t5_1_2_habitatsuit_create
 mbo_t_5_1_2_habitatsuit_model2vre_howtostep,mbo_kexter,mbo_t5_1_2_habitatsuit_model2lwvre,T5.1.2 Model uptake by LW VRE,1,The T5.1.2 habitat suitabilty model was copied to the LW GitLab and adapted to be run within the LifeWatch VRE,,,,mbo_t5_1_2_johannescode,,mbo_t5_1_2_habitatsuit_lwvreservice,,,,,,,
 mbo_t5_2_genetic_indicators_howtostep,mbo_heynderickx,mbo_wp5_t5_2,T5.2 Gentic Pelagic Habitat Indicator PH1,1,Calculating pelagic habitat indicator PH1 lifeform ratios,Calculating pelagic habitat indicator PH1 lifeform ratios,mbo_heynderickx|mbo_jwarwickdugdale,,mbo_t5_2_genetic_indicators_code,,,,,,,,,
 mbo_t5_1_2_habitatsuit_modelvrerun_howtostep,mbo_kexter,mbo_t5_1_2_habitatsuit_modelvrerun_bd,JoH write,1,Joh write,,,,,,mbo_t5_1_2_habitatsuit_lwvreservice,,,,,,,
+mbo_t5_1_2_habitatsuit_modelvrerun_bd_howtostep,,,,,,,,,,,,,,,,,,
+mbo_t5_1_2_habitatsuit_modelvrerun_cd_howtostep,,,,,,,,,,,,,,,,,,
+mbo_t5_1_2_habitatsuit_modelvrerun_hp_howtostep,,,,,,,,,,,,,,,,,,
+mbo_t5_1_2_habitatsuit_modelvrerun_hs_howtostep,,,,,,,,,,,,,,,,,,

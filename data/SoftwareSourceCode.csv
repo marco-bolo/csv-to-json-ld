@@ -2,3 +2,4 @@ MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Actio
 mbo_t44_multicamcode,mbo_kexter,mbo_task_4_4_seatrial_rov,Blue ROV multi cam reconstruct,https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam,,,,,,,,,,,,,,
 mbo_t5_1_2_johannescode,mbo_kexter,mbo_t5_1_2_habitatsuit_createmodel,Habitat suitability model,https://github.com/lifewatch/habitat_suitability_model/tree/main,R johannes's code which then fed the LW VRE code,,,,,,,,,,,,,
 mbo_t5_2_genetic_indicators_code,mbo_heynderickx,mbo_wp5_t5_2,Pelagic Habitat Indicator script for genetic data,https://github.com,Unfinished description of record with dummy URL,,,,,,,,,,,,,
+mbo_t44_underwatersound,mbo_kexter,mbo_task_4_4_seatrial_hydrophone,Pypam: processing of underwater sound,https://github.com/lifewatch/pypam,pypam is a python package to analyze underwater sound. It is made to make easier the processing of underwater data stored in audio files in chunks.,,,,,,,,,,,,,
