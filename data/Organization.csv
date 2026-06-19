@@ -52,3 +52,5 @@ mbo_org_kuleuven,mbo_sformel,mbo_wp2_d2_2,CollegeOrUniversity,KU Leuven,KU Leuve
 mbo_org_aoml,mbo_sformel,mbo_wp2_d2_2,GovernmentOrganization,NOAA AOML,NOAA Atlantic Oceanographic and Meteorological Laboratories,,,https://ror.org/042r9xb17,,,,,,,,,
 mbo_org_mio,mbo_sformel,mbo_wp2_d2_2,ResearchOrganization,M.I.O,Mediterranean Institute of Oceanography,,,,,,,,,,,,
 mbo_org_bogazici,mbo_sformel,mbo_wp2_d2_2,CollegeOrUniversity,Boğaziçi University,"Boğaziçi University, Institute of Environmental Science",,,,,,,,,,,,
+mbo_org_irea_cnr,mbo_sformel,mbo_wp1_d1_1,ResearchOrganization,IREA-CNR,"Istituto per il Rilevamento Elettromagnetico dell'Ambiente, Sezione di Milano",,,,,,,,,,,,
+mbo_org_frs,mbo_sformel,mbo_wp2_d2_1,GovernmentOrganization,FRS,Fisheries Research Services,,,,,,,,,,,,
