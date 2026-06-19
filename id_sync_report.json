@@ -1,11 +1,84 @@
 {
-  "timestamp": "2026-06-19T14:03:28.094865",
+  "timestamp": "2026-06-19T21:29:13.679549",
   "new_ids": [
     {
-      "class": "HowToStep",
-      "uuid": "mbo_946125e0-0293-4cdd-8d8c-020d4144d7c3",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep"
+      "class": "Person",
+      "uuid": "mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8",
+      "semantic_id": "mbo_mcunliffe"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_da6c57f3-efdf-4c5a-aae5-19bd1d0511d8",
+      "semantic_id": "mbo_dIudicone"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_45754589-3cf8-4db1-9e6f-888c9af2e05c",
+      "semantic_id": "mbo_hjee"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717",
+      "semantic_id": "mbo_lafonso"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4",
+      "semantic_id": "mbo_org_irea_cnr"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29",
+      "semantic_id": "mbo_org_frs"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
+      "semantic_id": "mbo_wp1_d1_1_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_1c2e71ac-99fe-42bc-b8c2-3a143904eca3",
+      "semantic_id": "mbo_wp1_d1_2_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_cc670830-7a18-4155-8cbb-50d866025572",
+      "semantic_id": "mbo_wp2_d2_1_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_78b2bb0d-8f5d-4b70-8182-eda1a4286c3c",
+      "semantic_id": "mbo_wp2_d2_2_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_ddc4e764-7fff-42e3-8f4b-18849671d0e2",
+      "semantic_id": "mbo_wp2_d2_3_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_674ce85c-d680-4ff8-9337-86b135832a44",
+      "semantic_id": "mbo_wp2_d2_4_doc"
     }
   ],
-  "missing_ids": []
+  "missing_ids": [
+    {
+      "class": "Person",
+      "uuid": "mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5",
+      "semantic_id": "mbo_todo_person_michaelcunliffe",
+      "similar": []
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
+      "semantic_id": "mbo_dludicone",
+      "similar": [
+        [
+          "mbo_dIudicone",
+          0.9230769230769231
+        ]
+      ]
+    }
+  ]
 }
