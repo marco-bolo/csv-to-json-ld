@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5b29801c-3271-4727-beb2-38dc969d4326",
+  "@type": "HowToStep",
+  "abstract": "Inside the LW-VRE workflow studio, the marine habitat suitability predictions (monthly and decadal) was selected. The Aphiaid selection was 'Phoca vitulina', startdate 1 January 2000, end date 31 december 2019, also copernicus marine username and password provided.",
+  "name": "T5.1.2 Run model on LW-VRE for harbor seal",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

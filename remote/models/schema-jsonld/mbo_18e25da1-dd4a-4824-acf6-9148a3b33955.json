@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_18e25da1-dd4a-4824-acf6-9148a3b33955",
+  "@type": "PropertyValue",
+  "description": "Ecosystem vertical profile by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+  "name": "Ecosystem vertical profile"
+}

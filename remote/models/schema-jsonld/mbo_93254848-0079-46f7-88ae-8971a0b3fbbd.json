@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
+  "@type": "Person",
+  "familyName": "Ostle",
+  "givenName": "Clare",
+  "identifier": "https://orcid.org/0000-0001-6923-5535",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+  }
+}

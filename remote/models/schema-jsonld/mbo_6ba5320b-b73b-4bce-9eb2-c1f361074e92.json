@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92",
+  "@type": "SoftwareSourceCode",
+  "schema:codeRepository": {
+    "@type": "URL",
+    "@value": "https://github.com/lifewatch/pypam"
+  },
+  "description": "pypam is a python package to analyze underwater sound. It is made to make easier the processing of underwater data stored in audio files in chunks.",
+  "name": "Pypam: processing of underwater sound"
+}

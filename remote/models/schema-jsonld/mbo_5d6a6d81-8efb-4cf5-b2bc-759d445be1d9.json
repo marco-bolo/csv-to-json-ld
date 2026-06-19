@@ -5,9 +5,16 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9",
   "@type": "CreateAction",
-  "abstract": "Something that JoH will write",
+  "abstract": "The habitat suitability model was run in the LW-VRE for the harbor porpoise.",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308"
+  },
   "agent": {
     "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
   },
-  "name": "T5.1.2 running habitat model - harbor porpoise"
+  "description": "The model was run in the LW-VRE with 'Phocoena phocoena' as input for the Aphiaid parameter.",
+  "name": "T5.1.2 running habitat model - harbor porpoise",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+  }
 }

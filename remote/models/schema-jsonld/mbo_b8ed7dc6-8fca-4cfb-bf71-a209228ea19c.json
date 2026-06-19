@@ -6,12 +6,15 @@
   "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c",
   "@type": "HowToStep",
   "abstract": "T4.4 hydrophone data capture and raw data processing",
+  "citation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92"
+  },
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
     }
   ],
   "name": "T4.4 hydrophone data capture",

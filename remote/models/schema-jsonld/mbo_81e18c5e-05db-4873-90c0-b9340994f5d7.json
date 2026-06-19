@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_81e18c5e-05db-4873-90c0-b9340994f5d7",
+  "@type": "HowTo",
+  "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+  "name": "T5.1.2 Run model on LW-VRE for common dolphin",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9716ac99-fa73-4e33-870e-4849c479463f"
+  }
+}

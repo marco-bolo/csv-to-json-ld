@@ -5,13 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9",
   "@type": "CreateAction",
-  "abstract": "Something that JoH will write",
+  "abstract": "The habitat suitability model was run in the LW-VRE for the bottlenose dolphin.",
   "actionProcess": {
-    "@id": "https://w3id.org/marco-bolo/mbo_fbec8976-1105-4da7-8526-7d18826b4394"
+    "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82"
   },
   "agent": {
     "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
   },
+  "description": "The model was run in the LW-VRE with 'Tursiops truncatus' as input for the Aphiaid parameter.",
   "name": "T5.1.2 running habitat model - bottlenose dolphin",
   "participant": {
     "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"

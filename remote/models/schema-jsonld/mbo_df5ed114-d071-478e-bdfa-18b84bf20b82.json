@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82",
+  "@type": "HowTo",
+  "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+  "name": "T5.1.2 Run model on LW-VRE for bottlenose dolphin",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_208303f2-5e4e-4f6b-8b99-246b8a718728"
+  }
+}

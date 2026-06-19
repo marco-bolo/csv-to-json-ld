@@ -9,6 +9,7 @@
   "citation": {
     "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5"
   },
+  "description": "From these reconstructions it is possible to inspect the environment. For example, we have demonstrated that species distribution, species count and measurement, ecosystem vertical profile and volume estimations can be made.",
   "name": "T4.4 3D reconstruction",
   "position": {
     "@type": "xsd:int",

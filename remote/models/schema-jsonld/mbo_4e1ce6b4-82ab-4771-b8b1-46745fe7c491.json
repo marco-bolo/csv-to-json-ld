@@ -5,9 +5,16 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491",
   "@type": "CreateAction",
-  "abstract": "Something that JoH will write",
+  "abstract": "The habitat suitability model was run in the LW-VRE for the harbor seal.",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8"
+  },
   "agent": {
     "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
   },
-  "name": "T5.1.2 running habitat model - harbor seal"
+  "description": "The model was run in the LW-VRE with 'Phoca vitulina' as input for the Aphiaid parameter.",
+  "name": "T5.1.2 running habitat model - harbor seal",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+  }
 }

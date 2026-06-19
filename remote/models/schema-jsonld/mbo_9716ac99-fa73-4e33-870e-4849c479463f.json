@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9716ac99-fa73-4e33-870e-4849c479463f",
+  "@type": "HowToStep",
+  "abstract": "Inside the LW-VRE workflow studio, the marine habitat suitability predictions (monthly and decadal) was selected. The Aphiaid selection was 'Delphinus delphis', startdate 1 January 2000, end date 31 december 2019, also copernicus marine username and password provided.",
+  "name": "T5.1.2 Run model on LW-VRE for common dolphin",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

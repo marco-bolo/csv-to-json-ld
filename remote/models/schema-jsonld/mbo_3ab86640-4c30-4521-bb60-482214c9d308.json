@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308",
+  "@type": "HowTo",
+  "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+  "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_02f2e8b1-4dc6-495a-acca-9b56631dcea9"
+  }
+}

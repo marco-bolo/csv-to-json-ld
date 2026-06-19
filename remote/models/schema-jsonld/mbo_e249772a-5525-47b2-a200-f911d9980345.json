@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e249772a-5525-47b2-a200-f911d9980345",
+  "@type": "PropertyValue",
+  "description": "Distribution of species by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+  "name": "Species distribution"
+}

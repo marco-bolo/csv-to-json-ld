@@ -5,7 +5,7 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_10e94276-1aa1-4763-8209-3cf236abcad2",
   "@type": "PropertyValue",
-  "description": "Phytoplankton biomass typically refers to either: weight (mass as the concentration per unit area/volume) and/or abundance or quantity of organisms (number of individuals per volume). Phytoplankton diversity or composition refers to the variability among phytoplankton from all sources including, inter alia, marine and other aquatic ecosystems; this includes diversity within species and between species (e.g., genetic diversity, taxonomic diversity, size, etc.) (https://www.cbd.int/convention/articles?a=cbd-02) Cyanobacteria are primarily addressed here as key members of the phytoplankton, but also addressed in the microbes EOV as members of the Bacteria. Source: GOOS Essential Ocean Variable specification sheet, v2.0, Feb 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+  "description": "mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea",
   "name": "Phytoplankton biomass and diversity",
   "propertyID": {
     "@id": "https://goosocean.org/document/17507"

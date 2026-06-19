@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_02f2e8b1-4dc6-495a-acca-9b56631dcea9",
+  "@type": "HowToStep",
+  "abstract": "Inside the LW-VRE workflow studio, the marine habitat suitability predictions (monthly and decadal) was selected. The Aphiaid selection was 'Phocoena phocoena', startdate 1 January 2000, end date 31 december 2019, also copernicus marine username and password provided.",
+  "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

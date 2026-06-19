@@ -5,20 +5,21 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8",
   "@type": "CreateAction",
-  "abstract": "Something that JoH will write",
+  "abstract": "Creating a habitat suitability workflow for 4 species protected under the habitat and bird directives.",
   "actionProcess": {
     "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492"
   },
   "agent": {
     "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
   },
+  "description": "Creation of a full habitat suitability workflow: downloading occurrences, creating background data, downloading and coupling these to environmental parameters, making a predictive ensemble model and using this to make predictions for the entire study area.",
   "name": "T5.1.2 Modelling for habitat suitability",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
     }
   ],
   "result": {

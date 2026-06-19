@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
+  "@type": "PropertyValue",
+  "description": "Ecosystem volume estimation by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+  "name": "Ecosystem volume"
+}
