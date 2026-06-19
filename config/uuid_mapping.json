@@ -317,8 +317,7 @@
     "mbo_d89804a0-16d9-49e9-bc75-86aa7ecb77b8": "mbo_t44_edna1_howto",
     "mbo_df5ed114-d071-478e-bdfa-18b84bf20b82": "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howto",
     "mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howto",
-    "mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42": "mbo_t44_echosounder_howto",
-    "mbo_fbec8976-1105-4da7-8526-7d18826b4394": "mbo_t5_1_2_habitatsuit_modelvrerun_howto"
+    "mbo_f43eb75a-cbcd-4fd8-b3b5-3d811e4dee42": "mbo_t44_echosounder_howto"
   },
   "HowToStep": {
     "mbo_02f2e8b1-4dc6-495a-acca-9b56631dcea9": "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howtostep",
@@ -328,7 +327,6 @@
     "mbo_5b29801c-3271-4727-beb2-38dc969d4326": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howtostep",
     "mbo_5f87eab9-8188-4db3-b5a6-c39055b51e30": "mbo_t44_echosounder_howtostep",
     "mbo_6b90341a-9060-48f2-9f1f-d2327873204a": "mbo_t44_rov_howtostep_preprocessing",
-    "mbo_7bad7555-4775-4ce6-8114-a08d64129429": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep",
     "mbo_7f838694-701b-44f6-8efa-4c2119f04875": "mbo_t44_edna_howtostep_fromseabed",
     "mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac": "mbo_t44_edna_howtostep_fromRV",
     "mbo_91b7cb16-9063-409f-974a-208dac4adc71": "mbo_t_5_1_2_habitatsuit_model_howtostep",
