@@ -1,96 +1,11 @@
 {
-  "timestamp": "2026-06-16T06:28:13.073587",
+  "timestamp": "2026-06-19T14:03:28.094865",
   "new_ids": [
     {
-      "class": "SoftwareSourceCode",
-      "uuid": "mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92",
-      "semantic_id": "mbo_t44_underwatersound"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_df5ed114-d071-478e-bdfa-18b84bf20b82",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_3ab86640-4c30-4521-bb60-482214c9d308",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_81e18c5e-05db-4873-90c0-b9340994f5d7",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howto"
-    },
-    {
       "class": "HowToStep",
-      "uuid": "mbo_208303f2-5e4e-4f6b-8b99-246b8a718728",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howtostep"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_9716ac99-fa73-4e33-870e-4849c479463f",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howtostep"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_02f2e8b1-4dc6-495a-acca-9b56631dcea9",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howtostep"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_5b29801c-3271-4727-beb2-38dc969d4326",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_hs_howtostep"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
-      "semantic_id": "mbo_costle"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_e249772a-5525-47b2-a200-f911d9980345",
-      "semantic_id": "mbo_propval_speciesdistrib"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea",
-      "semantic_id": "mbo_propval_speciescount"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_18e25da1-dd4a-4824-acf6-9148a3b33955",
-      "semantic_id": "mbo_propval_ecosystemverticalprofile"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
-      "semantic_id": "mbo_propval_ecosystemvolumeestimate"
+      "uuid": "mbo_946125e0-0293-4cdd-8d8c-020d4144d7c3",
+      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep"
     }
   ],
-  "missing_ids": [
-    {
-      "class": "HowTo",
-      "uuid": "mbo_fbec8976-1105-4da7-8526-7d18826b4394",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howto",
-      "similar": [
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howto",
-          0.963855421686747
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howto",
-          0.963855421686747
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howto",
-          0.963855421686747
-        ]
-      ]
-    }
-  ]
+  "missing_ids": []
 }
