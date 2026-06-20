@@ -10,13 +10,13 @@
   },
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     }
   ],
   "author": {
@@ -24,7 +24,7 @@
   },
   "conditionsOfAccess": "Open",
   "contributor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
+    "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8"
   },
   "copyrightHolder": {
     "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
@@ -40,7 +40,7 @@
     "plankton"
   ],
   "maintainer": {
-    "@id": "https://w3id.org/marco-bolo/mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5"
+    "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8"
   },
   "name": "18S-V9 time series sequences at Western Channel Observatory (WCO) Coastal Station 'L4'",
   "publisher": {

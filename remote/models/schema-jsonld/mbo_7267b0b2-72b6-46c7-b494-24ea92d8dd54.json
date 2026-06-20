@@ -7,7 +7,10 @@
   "@type": "Person",
   "familyName": "Suominen",
   "givenName": "Saara",
-  "identifier": "https://oceanexpert.org/expert/43352",
+  "identifier": [
+    "https://orcid.org/0000-0001-9401-8460",
+    "https://oceanexpert.org/expert/43352"
+  ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
   }

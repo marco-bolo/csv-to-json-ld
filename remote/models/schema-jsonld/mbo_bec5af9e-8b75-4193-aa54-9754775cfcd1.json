@@ -6,5 +6,6 @@
   "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1",
   "@type": "Person",
   "familyName": "Onoufriou",
-  "givenName": "Aubrie"
+  "givenName": "Aubrie",
+  "identifier": "https://orcid.org/0000-0002-4605-1896"
 }

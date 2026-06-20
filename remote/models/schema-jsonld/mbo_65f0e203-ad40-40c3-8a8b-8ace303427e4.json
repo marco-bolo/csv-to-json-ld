@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4",
+  "@type": "ResearchOrganization",
+  "legalName": "Istituto per il Rilevamento Elettromagnetico dell'Ambiente, Sezione di Milano",
+  "name": "IREA-CNR"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_45754589-3cf8-4db1-9e6f-888c9af2e05c",
+  "@type": "Person",
+  "familyName": "Jee",
+  "givenName": "Haesung",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e"
+  }
+}

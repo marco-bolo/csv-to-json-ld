@@ -7,7 +7,10 @@
   "@type": "Person",
   "familyName": "Jensen",
   "givenName": "Mads Reinholdt",
-  "identifier": "https://orcid.org/0000-0001-8240-1083",
+  "identifier": [
+    "https://oceanexpert.org/expert/54167",
+    "https://orcid.org/0000-0001-7418-1244"
+  ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_7f3896d1-5d7b-4019-96af-22a7dc519670"
   }

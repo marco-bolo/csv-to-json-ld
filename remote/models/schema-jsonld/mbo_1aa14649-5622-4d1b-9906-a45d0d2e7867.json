@@ -6,5 +6,9 @@
   "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867",
   "@type": "Person",
   "familyName": "Matejusová",
-  "givenName": "Iveta"
+  "givenName": "Iveta",
+  "identifier": "https://orcid.org/0000-0002-3241-043X",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29"
+  }
 }

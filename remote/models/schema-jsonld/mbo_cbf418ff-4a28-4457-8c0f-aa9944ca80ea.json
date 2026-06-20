@@ -10,7 +10,10 @@
   },
   "familyName": "Heynderickx",
   "givenName": "Hanneloor",
-  "identifier": "https://oceanexpert.org/expert/61691",
+  "identifier": [
+    "https://oceanexpert.org/expert/61691",
+    "https://orcid.org/0000-0002-5611-837X"
+  ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
   }

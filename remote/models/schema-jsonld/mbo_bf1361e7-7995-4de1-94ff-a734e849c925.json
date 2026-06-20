@@ -3,12 +3,12 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
+  "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925",
   "@type": "Person",
   "affiliation": {
     "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
   },
-  "familyName": "Ludicone",
+  "familyName": "Iudicone",
   "givenName": "Daniele",
   "identifier": "https://oceanexpert.org/expert/59161"
 }

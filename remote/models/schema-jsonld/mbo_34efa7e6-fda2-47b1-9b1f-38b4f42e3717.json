@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717",
+  "@type": "Person",
+  "familyName": "Afonso",
+  "givenName": "Luís",
+  "identifier": "https://orcid.org/0000-0003-3978-1388",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+  }
+}

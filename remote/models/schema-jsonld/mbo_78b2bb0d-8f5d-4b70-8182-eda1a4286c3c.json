@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_78b2bb0d-8f5d-4b70-8182-eda1a4286c3c",
+  "@type": "DigitalDocument",
+  "abstract": "Work package 2 (WP2) of the MARCO-BOLO project focused on validating and enabling environmental DNA (eDNA)-based approaches for biodiversity monitoring in aquatic and terrestrial systems. In task 2.2, these objectives were addressed through the exploration and comparison of datasets, databases, software, and bioinformatic pipelines to facilitate the implementation of eDNA-based monitoring. While this task was initially envisioned to build on existing infrastructure (specific pipelines, datasets, and customized databases), the departure of the creator of these preexisting tools, who was involved in the initial application, led to a shift in focus. This deliverable was likely originally intended to result in a single, standardized approach to working with eDNA-derived biomonitoring data. However, we collectively concluded that no single database, software, or pipeline can address the diverse practical use cases within eDNA. Therefore, this report provides a broader context on existing approaches, databases, and pipelines, their applications, and how they compare. The main body of work carried out under this task was a comparison of bioinformatic pipelines for two types of metabarcoding data (eukaryote 18S and 12S, 16S and COI for fishes), where we invited people around the world to contribute results from running their respective pipelines on the same datasets (Dataset 1). We also generated eDNA metabarcoding data for time series samples collected by institutions involved in this task. The statuses of Datasets 2-7, where new data was generated, are presented here, each accompanied by a \"readme\" in varying formats. These data products will contribute to deliverables D2.3 and D2.4 but are presented here alongside their metadata. As this is a data deliverable rather than a narrative report, we focused on implementing WP1's data model for reporting on data and metadata. While this model is not yet finalized, we here use Dataset 2 to demonstrate its potential, transforming information from Google Sheets into JSON format and generating standardized readme files using a large language model (LLM). Currently, each dataset has its own readme format, but will be standardized under WP1's model during the project's final year. Dataset 8-9 are based on data generated prior to MARCO-BOLO and here primarily serve to indicate the locations of all utilized data products, as results from these are presented under D2.3 and D2.4. Under this task, we also engaged with the existing literature and here provide a comprehensive overview of what we consider to be widely used primer sets for eDNA metabarcoding, pipelines run for different marker genes, and reference databases used to assign taxonomy (Dataset 10). This work complements the data analysis challenge, where we aimed to include as many pipelines as possible, and is here presented as a standalone data product. Finally, we showcase two custom-built reference databases tailored for Nordic eDNA metabarcoding applications (Dataset 11), targeting the \"Leray\" fragment (COI) and the \"MiFish\" fragment (12S rRNA). These databases integrate and harmonize data from multiple repositories while incorporating rigorous curation steps to ensure high-quality references for eDNA research. They remain a work in progress, with ongoing efforts to refine and expand their scope to support diverse research applications.",
+  "alternateName": "D2.2",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:datePublished": "2026-01-15",
+  "description": "Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring in terms of study design, data analysis and sharing",
+  "identifier": [
+    "doi:10.5281/zenodo.20766608",
+    "Deliverable D2.2"
+  ],
+  "keywords": [
+    "reference databases",
+    "bioinformatic pipelines",
+    "environmental DNA",
+    "MBO WP2",
+    "eDNA",
+    "18S rRNA",
+    "ddPCR",
+    "COI Leray-XT",
+    "12S MiFish",
+    "metabarcoding",
+    "biodiversity monitoring"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D2.2 - Datasets, databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D2.2_Jan-2026.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20766608"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20766608"
+    }
+  ]
+}

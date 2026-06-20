@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cc670830-7a18-4155-8cbb-50d866025572",
+  "@type": "DigitalDocument",
+  "abstract": "Work Package 2 aims \"to enable eDNA-based approaches (i.e. single-species detection, DNA metabarcoding and metagenomics) for biodiversity monitoring across trophic and functional groups (i.e. from microbes to vertebrates) and in marine, terrestrial and freshwater systems.\" This interim report specifically addresses the progress of Task 2.1, \"Meta-analysis of technical and practical aspects of current eDNA approaches.\" This task consists of three components. In the first, meta-analyses will assess the performance of eDNA approaches compared to traditional methods. Specifically, eDNA-based methods to estimate species abundance will be evaluated using quantitative PCR (qPCR and ddPCR) in meta-analysis 1 and metabarcoding in meta-analyses 2, and species composition will be evaluated using metabarcoding in meta-analysis 3. In the second component, we will review the suitability of eDNA to calculate Essential Biodiversity Variables (EBVs) and Essential Ocean Variables (EOVs). In the final component, we will review the diversity metrics and statistical tools that comply with eDNA data.",
+  "alternateName": "D2.1",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:datePublished": "2024-06-19",
+  "description": "Report on meta-analysis of the performance of eDNA-based approaches and associated optimal diversity indices for biodiversity observations",
+  "identifier": [
+    "doi:10.5281/zenodo.17517691",
+    "Deliverable D2.1"
+  ],
+  "keywords": [
+    "Essential Biodiversity Variables (EBV)",
+    "MBO WP2",
+    "eDNA",
+    "Essential Ocean Variables (EOV)"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D2.1 - Interim report on the performance of eDNA-based approaches and associated optimal diversity indices for biodiversity observations",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17517691"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D2.1_Jun-2024.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17517691"
+    }
+  ]
+}

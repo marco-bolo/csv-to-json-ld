@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29",
+  "@type": "GovernmentOrganization",
+  "legalName": "Fisheries Research Services",
+  "name": "FRS"
+}
