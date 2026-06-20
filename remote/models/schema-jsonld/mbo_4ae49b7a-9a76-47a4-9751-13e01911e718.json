@@ -18,8 +18,8 @@
   "description": "Phytoplankton time-series contains taxa-specific and total functional group abundance (cells mL-1) and biomass (mgC m-3) data.",
   "keywords": [
     "phytoplankton",
-    "microscopy",
-    "Utermohl"
+    "Utermohl",
+    "microscopy"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad"
