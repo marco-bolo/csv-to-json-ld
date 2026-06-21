@@ -7,5 +7,11 @@
   "@type": "Person",
   "familyName": "Vidal",
   "givenName": "Mathilde",
-  "identifier": "https://oceanexpert.org/expert/60642"
+  "identifier": [
+    "https://oceanexpert.org/expert/60642",
+    "https://orcid.org/0000-0003-2178-7052"
+  ],
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"
+  }
 }

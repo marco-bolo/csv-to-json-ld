@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38",
+  "@type": "CollegeOrUniversity",
+  "name": "University of Cambridge",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.cam.ac.uk/"
+  }
+}

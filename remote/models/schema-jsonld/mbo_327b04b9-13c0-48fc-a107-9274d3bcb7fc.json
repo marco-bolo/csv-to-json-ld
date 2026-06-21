@@ -29,13 +29,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
     }
   ]
 }

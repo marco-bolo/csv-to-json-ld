@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
+  "@type": "DigitalDocument",
+  "abstract": "Slide decks from the first mobilisation of MARCO-BOLO's Community of Practice (CoP), representing both generators and users of marine biodiversity data, products, and services in the EU and beyond. The event brought together over 70 experts and stakeholders to begin the co-design process by introducing the project and providing a platform for policymakers to present their needs and perspectives. The event encouraged the broader biodiversity community to test, use and adopt the MARCO-BOLO Data Management Plan, project outputs, Essential Ocean Variables (EOVs) and Essential Biodiversity Variables (EBVs) for reporting to MSFD and other EU and international legal frameworks. Seagrass coverage and composition were presented as a tangible use case to showcase the complete data pipeline from observations to reporting. The event targeted policymakers at national, regional and EU levels, including the European Commission, Regional Sea Conventions, national representatives responsible for marine-directive reporting, the GOOS BioEco Panel, and the wider biodiversity monitoring, observation and scientific community.",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2024-05",
+  "schema:datePublished": "2024-05",
+  "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
+  "identifier": "doi:10.5281/zenodo.17236790",
+  "keywords": [
+    "Community of Practice",
+    "co-design workshop",
+    "presentation slides",
+    "stakeholder engagement",
+    "MBO WP6"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17236790"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17236790"
+    }
+  ]
+}

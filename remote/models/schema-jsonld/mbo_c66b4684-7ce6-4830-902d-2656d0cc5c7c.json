@@ -7,5 +7,8 @@
   "@type": "Person",
   "familyName": "Hanbidge",
   "givenName": "Avril",
-  "identifier": "https://oceanexpert.org/expert/58451"
+  "identifier": "https://oceanexpert.org/expert/58451",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"
+  }
 }

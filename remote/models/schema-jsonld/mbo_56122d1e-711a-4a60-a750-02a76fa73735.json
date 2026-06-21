@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_56122d1e-711a-4a60-a750-02a76fa73735",
+  "@type": "Person",
+  "familyName": "Reuver",
+  "givenName": "Marieke",
+  "identifier": "https://orcid.org/0000-0002-7863-2687",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"
+  }
+}

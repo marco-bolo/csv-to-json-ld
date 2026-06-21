@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33",
+  "@type": "Person",
+  "familyName": "Timmerman",
+  "givenName": "Orlando",
+  "identifier": "https://orcid.org/0009-0008-6204-4689",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38"
+  }
+}

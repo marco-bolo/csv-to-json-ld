@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c",
+  "@type": "Person",
+  "familyName": "Vadrot",
+  "givenName": "Alice BM",
+  "identifier": "https://orcid.org/0000-0002-6043-9846",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d92d70f8-80f8-4812-b274-4c328e378e7e"
+  }
+}

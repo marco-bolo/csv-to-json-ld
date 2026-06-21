@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f",
+  "@type": "DigitalDocument",
+  "abstract": "This report summarizes the 2nd Co-design/Co-creation Workshop of MARCO-BOLO, held on 6 November 2024 in Sitges (Spain) within the framework of the European Commission and Joint Research Centre (JRC) initiative \"The Future of Marine Biodiversity Monitoring in Europe\". The workshop, titled \"Solutions for Improving Marine Biodiversity Monitoring\", brought together approximately fifty participants in person, including representatives from JRC, DG MARE, DG ENV, national institutions responsible for biodiversity monitoring across EU Member States, and organisations including OSPAR, HELCOM, OBIS, Biodiversa+, EMODnet Biology, and the GOOS BioEco Panel, alongside researchers from European universities and research centres. Presentations focused on MARCO-BOLO products and tools under development; OBAMA-NEXT and GES4SEAS sister projects also presented innovative tools for biodiversity monitoring and stakeholder-engagement strategies. Topics discussed included the role of artificial intelligence in data management, technical solutions for simultaneous eDNA sampling and seabed mapping, and current eDNA use across countries. This report, in combination with the 1st and 3rd workshop reports, forms the basis of MARCO-BOLO Deliverable 6.2.",
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2024-12",
+  "schema:datePublished": "2024-12",
+  "description": "Report on the 2nd Co-design/Co-creation Workshop (Sitges, November 2024)",
+  "identifier": "doi:10.5281/zenodo.17244778",
+  "keywords": [
+    "MBO WP6",
+    "marine biodiversity monitoring",
+    "JRC",
+    "Community of Practice",
+    "co-design workshop",
+    "stakeholder engagement"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO 2nd Co-design/Co-creation Workshop Report",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17244778"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17244778"
+    }
+  ]
+}

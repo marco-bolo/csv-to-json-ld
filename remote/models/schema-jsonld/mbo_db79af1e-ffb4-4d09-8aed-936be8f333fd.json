@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd",
+  "@type": "Person",
+  "familyName": "Vecchi",
+  "givenName": "Giulia",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+  }
+}

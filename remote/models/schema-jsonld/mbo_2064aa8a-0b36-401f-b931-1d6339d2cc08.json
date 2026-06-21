@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08",
+  "@type": "DigitalDocument",
+  "abstract": "Slide decks from the second mobilisation of MARCO-BOLO's Community of Practice (CoP). The 2nd CoP Workshop sought to advance stakeholder consultation on the creation of MARCO-BOLO products as key solutions to challenges currently facing marine biodiversity, ensuring that end-user needs and requirements are met. The project's Data Management Plan and new technology based on tools such as environmental DNA (eDNA), artificial intelligence and 3D image analysis were addressed in detail, with discussions including stakeholder input to guide further development. The meeting drew on collaboration with the OBAMA-NEXT sister project. The workshop formed part of the event \"The Future of Marine Biodiversity Monitoring in Europe\" organised by the ACTeon research consultancy for the Joint Research Centre (JRC).",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2024-11",
+  "schema:datePublished": "2024-11",
+  "description": "Slide decks from the 2nd Co-Design Workshop (November 2024, Sitges)",
+  "identifier": "doi:10.5281/zenodo.17236878",
+  "keywords": [
+    "eDNA",
+    "stakeholder engagement",
+    "MBO WP6",
+    "AI",
+    "Community of Practice",
+    "co-design workshop",
+    "presentation slides"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO 2nd Co-Design Workshop - presentations",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17236878"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17236878"
+    }
+  ]
+}

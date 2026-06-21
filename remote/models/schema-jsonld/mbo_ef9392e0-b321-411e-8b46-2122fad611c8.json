@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8",
+  "@type": "DigitalDocument",
+  "abstract": "Slide decks from the third mobilisation of MARCO-BOLO's Community of Practice (CoP). Building on outcomes from the 1st and 2nd Co-Design/Co-Creation Workshops, three targeted online sessions were held between MARCO-BOLO technical colleagues and selected stakeholders for the following products: T2.3 (comparison of spatial and temporal eDNA-based vs traditional observations); T5.2 (application of integrative approaches to established biological indicators); D2.4 (definition of eDNA-based EBVs and associated datasets); and T5.3 (spatial mapping of Blue Carbon benefits). Each session presented current progress and engaged targeted experts as potential users in discussions. The workshops brought together almost fifty external biodiversity and marine data experts and stakeholders, including representatives from DG ENV, DG RTD, CINEA, Regional Sea Conventions, the GOOS BioEco Panel, sister EU Horizon projects (Biodiversa+, EuropaBON, OBAMA-NEXT, BioEcoOcean), national institutions, academia, research, and the private sector.",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2025-06",
+  "schema:datePublished": "2025-06",
+  "description": "Slide decks from the 3rd Co-Design Workshop (online sessions, June 2025)",
+  "identifier": "doi:10.5281/zenodo.17236969",
+  "keywords": [
+    "Community of Practice",
+    "co-design workshop",
+    "Blue Carbon",
+    "presentation slides",
+    "eDNA",
+    "stakeholder engagement",
+    "MBO WP6"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO 3rd Co-Design Workshop - presentations",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17236969"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17236969"
+    }
+  ]
+}

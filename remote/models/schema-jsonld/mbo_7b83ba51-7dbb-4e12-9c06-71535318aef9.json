@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
+  "@type": "DigitalDocument",
+  "abstract": "Deliverable D7.7 provides the first update of the MARCO-BOLO Project Data Management Plan, originally delivered as D7.2. This update does not introduce structural changes to the project data management strategy, but documents how the approach defined at project level remains valid and is being operationalised through the technical developments carried out under WP1. In particular, D7.7 acknowledges the availability of updated and extended guidance provided through Deliverables D1.1 and D1.2, which specify concrete tools, workflows and examples to support Work Packages in the description, publication and interoperability of MARCO-BOLO data and knowledge outputs. This deliverable therefore serves as a light-touch update, ensuring consistency between the project-level Data Management Plan and the evolving implementation practices, while avoiding duplication of content already documented in detail in WP1 deliverables.",
+  "alternateName": "D7.7",
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2026-01",
+  "schema:datePublished": "2026-01-30",
+  "description": "Project Data Management Plan Update 1",
+  "identifier": "Deliverable D7.7",
+  "isBasedOn": [
+    "https://doi.org/10.5281/zenodo.8208410",
+    "https://doi.org/10.5281/zenodo.20765873",
+    "https://doi.org/10.5281/zenodo.17537386"
+  ],
+  "keywords": [
+    "FAIR",
+    "interoperability",
+    "MBO WP7",
+    "ODIS",
+    "data management plan"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D7.7 - Project Data Management Plan Update 1",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D7.7_formatted.pdf"
+  },
+  "version": "1"
+}

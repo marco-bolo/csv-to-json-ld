@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e25f6218-3684-4a5c-9033-bc6894f18b2f",
+  "@type": "Person",
+  "familyName": "Pan",
+  "givenName": "Quan",
+  "identifier": "https://orcid.org/0000-0001-9660-3241",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+  }
+}

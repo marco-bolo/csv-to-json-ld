@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3",
+  "@type": "DigitalDocument",
+  "abstract": "The MARCO-BOLO Plan for the Dissemination, Exploitation and Communication Activities (PDEC) outlines the EC's rights and the consortium's contractual obligations for the dissemination, exploitation and communication of project results. It adopts EC best practice guidelines and defines the objectives of MARCO-BOLO's DEC, identifies target stakeholders, specifies the communication tools and channels, and outlines responsibilities and resources to carry out effective knowledge management and to measure the impact. MARCO-BOLO has tasks within work package 7 (T7.2 and T7.3 led by ERINN Innovation) specifically designed to support project communication activities to a wide audience and targeted dissemination and exploitation of results to specific stakeholders. The PDEC has been developed by ERINN Innovation, who will also oversee its continuous implementation. This is the first version of the PDEC and as it is a dynamic document, it will be evaluated throughout the project and updated at EC reporting stages.",
+  "alternateName": "D7.4",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c66b4684-7ce6-4830-902d-2656d0cc5c7c"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2023-05",
+  "schema:datePublished": "2023-05-31",
+  "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
+  "identifier": [
+    "Deliverable D7.4",
+    "doi:10.5281/zenodo.17527033"
+  ],
+  "keywords": [
+    "dissemination",
+    "communication",
+    "MBO WP7",
+    "exploitation",
+    "stakeholder engagement"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D7.4 - Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17527033"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17527033"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
+    }
+  ],
+  "version": "1"
+}

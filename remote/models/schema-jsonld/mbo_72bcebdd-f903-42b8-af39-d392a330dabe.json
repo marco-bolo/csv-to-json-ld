@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe",
+  "@type": "Person",
+  "familyName": "Wurm",
+  "givenName": "Felix",
+  "identifier": "https://orcid.org/0009-0001-4405-7370",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d92d70f8-80f8-4812-b274-4c328e378e7e"
+  }
+}
