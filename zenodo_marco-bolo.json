@@ -1,11 +1,2665 @@
 {
   "meta": {
     "community": "marco-bolo",
-    "fetched_records": 24,
-    "reported_total": 24
+    "fetched_records": 37,
+    "reported_total": 37
   },
   "hits": {
     "hits": [
+      {
+        "created": "2026-06-21T19:26:54.281708+00:00",
+        "modified": "2026-06-21T19:26:54.699490+00:00",
+        "id": 20787739,
+        "conceptrecid": "20787738",
+        "doi": "10.5281/zenodo.20787739",
+        "conceptdoi": "10.5281/zenodo.20787738",
+        "doi_url": "https://doi.org/10.5281/zenodo.20787739",
+        "metadata": {
+          "title": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+          "doi": "10.5281/zenodo.20787739",
+          "publication_date": "2025-12-03",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D6.2<br>Work Package Number: WP6<br>Deliverable Title: Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan<br>Due Date: 31.07.2025<br>Date of delivery (cover): 03.11.2025<br>Submission (Ares ref): 03.12.2025</p><p>The MARCO-BOLO project aims to structure and strengthen European coastal and marine biodiversity observation capabilities, linking these to global efforts to understand and restore ocean health, hence ensuring that outputs respond to explicit stakeholder needs from policy, planning and industry. To this end, MARCO-BOLO has established and is engaging regularly with a Community of Practice (CoP) made up of (Marine and Coastal) Biodiversity Data Generators and Data users from marine observatories, data infrastructures, and other relevant stakeholders across the EU and internationally.</p><p>The project has 7 Work Packages (WPs), with WP6 responsible for facilitating stakeholder engagement amongst the technical WPs 1&ndash;5 through the CoP, as well as developing Knowledge Transfer material from WP Deliverables and wider outputs. To enable stakeholder engagement and consultation, two major CoP events and three Co-design/Co-creation Workshops were planned. In the first two years of MARCO-BOLO, WP6 convened the first CoP and three Co-design/Co-creation Workshops, all held mainly online, with the exception of the second workshop. The aim was to bring together relevant partners and end-users through a phased approach to set up necessary feedback loops for the development of products that consider end-user needs and requirements.</p><p>This report is Deliverable 6.2 of the project, which provides a summary of the three co-design/co-creation/stakeholder consultation workshops and weblinks to the full workshop reports, with main conclusions and recommendations/decisions for the project workplan that have and are being considered by the MARCO-BOLO Coordination team and Project Implementation Committee (PIC) composed of WP (co)leaders.</p><p>The three workshops covered:</p><ol><li><strong>1st CoP Event &amp; 1st Co-design/Co-creation Workshop</strong> (23 May 2024, online): <em>Making Marine and Coastal Biodiversity Observations Policy Relevant</em> &mdash; over 70 experts, focused on policymaker engagement and DMP/EOV/EBV uptake. Full report: <a href=\"https://doi.org/10.5281/zenodo.17244601\">10.5281/zenodo.17244601</a>.</li><li><strong>2nd Co-design/Co-creation Workshop</strong> (6 November, Sitges, Spain): <em>Solutions for Improving Marine Biodiversity Monitoring</em> &mdash; approximately 50 in-person stakeholders, held jointly with OBAMA-NEXT and GES4SEAS as part of the JRC's <em>Future of Marine Biodiversity Monitoring in Europe</em> initiative. Covered DMP, eDNA, AI/3D imaging tools. Full report: <a href=\"https://doi.org/10.5281/zenodo.17244778\">10.5281/zenodo.17244778</a>.</li><li><strong>3rd Co-design/Co-creation Workshops</strong> (last week of June 2025, online targeted sessions): three sessions targeting D2.4 (eDNA-based EBVs), T2.3 + T5.2 (eDNA &amp; AI imaging), and T5.3 (Blue Carbon spatial mapping). Full report: <a href=\"https://doi.org/10.5281/zenodo.17244832\">10.5281/zenodo.17244832</a>.</li></ol><p>Cumulatively the three workshops brought almost fifty external biodiversity and marine data experts and other stakeholders including representatives from DG ENV, DG RTD, DG MARE, CINEA, Regional Sea Conventions, GOOS BioEco Panel, sister EU Horizon projects (Biodiversa+, EuropaBON, OBAMA-NEXT, BioEcoOcean), national institutions, academia and research, private sector, and other organizations responsible for marine biodiversity monitoring across the EU, UK and internationally.</p><p>Lessons learned include: (1) the connection across natural and social sciences via the CoP has been a strength, attracting high-level policy maker engagement; (2) outputs from the stakeholder profiling exercise (D6.1) became available late in year one, limiting their use for early CoP design but are now being taken up by Task 6.3 Knowledge Transfer; (3) technical-WP products needed a certain level of maturity before useful co-design discussions could happen, so the third (later) workshop achieved a truer co-design interaction; (4) leveraging key EU events as engagement opportunities was effective; (5) ongoing engagement with Biodiversa+ and EuropaBON as core CoP members has been particularly fruitful. Further stakeholder engagement &mdash; including a Spring 2026 industry-focused event and the Final CoP Stakeholder event tentatively scheduled for September 2026 &mdash; will inform development of knowledge transfer plans and custom materials for target audiences (industry, policy makers, researchers).</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Benedetti, Lisa",
+              "affiliation": "UNESCO",
+              "orcid": "0009-0001-3827-7318"
+            },
+            {
+              "name": "Larkin, Kate",
+              "affiliation": "Seascape Belgium (SSBE)",
+              "orcid": "0000-0002-5713-6465"
+            },
+            {
+              "name": "McKee, Kara",
+              "affiliation": "Seascape Belgium (SSBE)"
+            },
+            {
+              "name": "Sousa Pinto, Isabel",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research",
+              "orcid": "0000-0002-9231-0553"
+            },
+            {
+              "name": "Salas Leitón, Emilio A.",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research",
+              "orcid": "0000-0003-2133-1581"
+            },
+            {
+              "name": "Lear, Dan",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0002-5806-0837"
+            },
+            {
+              "name": "Figueroa Ashforth, Chloe",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0009-0007-9889-5090"
+            }
+          ],
+          "keywords": [
+            "MBO WP6",
+            "stakeholder engagement",
+            "Community of Practice",
+            "co-design workshops",
+            "marine biodiversity policy"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.17244601",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.17244778",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.17244832",
+              "relation": "references",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "created",
+              "description": "Date on cover"
+            },
+            {
+              "type": "submitted",
+              "description": "Submission date (Ares ref)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20787738"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+        "links": {
+          "self": "https://zenodo.org/api/records/20787739",
+          "self_html": "https://zenodo.org/records/20787739",
+          "preview_html": "https://zenodo.org/records/20787739?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20787739",
+          "self_doi": "https://doi.org/10.5281/zenodo.20787739",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787739",
+          "reserve_doi": "https://zenodo.org/api/records/20787739/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20787738",
+          "parent_html": "https://zenodo.org/records/20787738",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20787738",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787738",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20787739/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20787739/sequence/default",
+          "files": "https://zenodo.org/api/records/20787739/files",
+          "media_files": "https://zenodo.org/api/records/20787739/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20787739:MBO_D6.2_Dec-2025.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20787739/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20787739/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20787739/versions/latest",
+          "latest_html": "https://zenodo.org/records/20787739/latest",
+          "versions": "https://zenodo.org/api/records/20787739/versions",
+          "draft": "https://zenodo.org/api/records/20787739/draft",
+          "access_links": "https://zenodo.org/api/records/20787739/access/links",
+          "access_grants": "https://zenodo.org/api/records/20787739/access/grants",
+          "access_users": "https://zenodo.org/api/records/20787739/access/users",
+          "access_request": "https://zenodo.org/api/records/20787739/access/request",
+          "access": "https://zenodo.org/api/records/20787739/access",
+          "communities": "https://zenodo.org/api/records/20787739/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20787739/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20787739/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20787739/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20787739/quota-increase",
+          "requests": "https://zenodo.org/api/records/20787739/requests"
+        },
+        "updated": "2026-06-21T19:26:54.699490+00:00",
+        "recid": "20787739",
+        "revision": 5,
+        "files": [
+          {
+            "id": "bc8591f2-c417-452d-99f5-809a678a5d0f",
+            "key": "MBO_D6.2_Dec-2025.pdf",
+            "size": 878628,
+            "checksum": "md5:ec33a5895dc4c62dc978055edb4c9cbe",
+            "links": {
+              "self": "https://zenodo.org/api/records/20787739/files/MBO_D6.2_Dec-2025.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-21T18:31:43.181480+00:00",
+        "modified": "2026-06-21T18:31:43.758047+00:00",
+        "id": 20787365,
+        "conceptrecid": "20787364",
+        "doi": "10.5281/zenodo.20787365",
+        "conceptdoi": "10.5281/zenodo.20787364",
+        "doi_url": "https://doi.org/10.5281/zenodo.20787365",
+        "metadata": {
+          "title": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
+          "doi": "10.5281/zenodo.20787365",
+          "publication_date": "2025-09-05",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D5.5<br>Work Package Number: WP5<br>Deliverable Title: Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats<br>Due Date: 30.05.2025<br>Date of delivery (cover): 30.06.2025<br>Submission (Ares ref): 05.09.2025</p><p>This deliverable summarizes the scientific outputs generated by <strong>Task T5.4</strong> &mdash; &ldquo;Mapping the impacts of Non-Indigenous species (NIS) on European coastal and marine habitats, based on multi-disciplinary approaches&rdquo;. In this task we modelled 82 species identified by marine genetic monitoring programs in 2020&ndash;2024 as occurring outside their native range. Models produced predictions of suitable habitat in current and future climate scenarios for these non-indigenous species (NIS) and can be used to identify regions with elevated risk for establishment and spread of alien species.</p><p>The modelling builds on the Species Distribution Model (SDM) workflow developed for invasive alien species hotspot mapping by the University of Gothenburg, applied here to species detected by the ARMS-MBON and Swedish national port monitoring programmes. The models are based on a Random Forest machine learning algorithm using environmental data layers from Bio-Oracle (Aqua-MODIS and SeaWiFS satellite products, plus World Ocean Database in situ measurements) for current and future climate scenarios (SSP119). The model's source code, inputs and results are available on GitHub at https://github.com/biomobst/IAS_hotspot_model/tree/master/Modelling_trial_2025.</p><p>The genetic monitoring programs that donated the alien species lists for this experiment do not yet provide enough species occurrence data to influence the outcome of the model predictions, which means that GBIF and OBIS still provide most of the occurrence data for the modelling. However, the genetic monitoring programs do provide the list of species detected to be &ldquo;on the move&rdquo;. For these species, the models provide valuable knowledge on potential alien species impact as they are able to align the presently known distribution with the potential distribution of these species in the future. The SDM analysis tool will be added to the EDITO platform (Digital Twin of the Ocean) during 2026.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Obst, Matthias",
+              "affiliation": "University of Gothenburg",
+              "orcid": "0000-0003-0264-9631"
+            },
+            {
+              "name": "Muñiz, Carlota",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0001-9584-3833"
+            }
+          ],
+          "keywords": [
+            "MBO WP5",
+            "alien species",
+            "non-indigenous species",
+            "species distribution modelling",
+            "climate projections"
+          ],
+          "dates": [
+            {
+              "type": "created",
+              "description": "Date on cover"
+            },
+            {
+              "type": "submitted",
+              "description": "Submission date (Ares ref)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20787364"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
+        "links": {
+          "self": "https://zenodo.org/api/records/20787365",
+          "self_html": "https://zenodo.org/records/20787365",
+          "preview_html": "https://zenodo.org/records/20787365?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20787365",
+          "self_doi": "https://doi.org/10.5281/zenodo.20787365",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787365",
+          "reserve_doi": "https://zenodo.org/api/records/20787365/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20787364",
+          "parent_html": "https://zenodo.org/records/20787364",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20787364",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787364",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20787365/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20787365/sequence/default",
+          "files": "https://zenodo.org/api/records/20787365/files",
+          "media_files": "https://zenodo.org/api/records/20787365/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20787365:MARCO-BOLO_D5.5_30.06.2025.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20787365/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20787365/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20787365/versions/latest",
+          "latest_html": "https://zenodo.org/records/20787365/latest",
+          "versions": "https://zenodo.org/api/records/20787365/versions",
+          "draft": "https://zenodo.org/api/records/20787365/draft",
+          "access_links": "https://zenodo.org/api/records/20787365/access/links",
+          "access_grants": "https://zenodo.org/api/records/20787365/access/grants",
+          "access_users": "https://zenodo.org/api/records/20787365/access/users",
+          "access_request": "https://zenodo.org/api/records/20787365/access/request",
+          "access": "https://zenodo.org/api/records/20787365/access",
+          "communities": "https://zenodo.org/api/records/20787365/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20787365/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20787365/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20787365/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20787365/quota-increase",
+          "requests": "https://zenodo.org/api/records/20787365/requests"
+        },
+        "updated": "2026-06-21T18:31:43.758047+00:00",
+        "recid": "20787365",
+        "revision": 5,
+        "files": [
+          {
+            "id": "ed1f7015-6710-4aed-bb2c-a45c09e00c35",
+            "key": "MARCO-BOLO_D5.5_30.06.2025.pdf",
+            "size": 794933,
+            "checksum": "md5:2dffc51fa3653d7a486cda47285b2047",
+            "links": {
+              "self": "https://zenodo.org/api/records/20787365/files/MARCO-BOLO_D5.5_30.06.2025.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-21T18:31:10.815270+00:00",
+        "modified": "2026-06-21T18:31:11.176077+00:00",
+        "id": 20787360,
+        "conceptrecid": "20787359",
+        "doi": "10.5281/zenodo.20787360",
+        "conceptdoi": "10.5281/zenodo.20787359",
+        "doi_url": "https://doi.org/10.5281/zenodo.20787360",
+        "metadata": {
+          "title": "Summary of results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats",
+          "doi": "10.5281/zenodo.20787360",
+          "publication_date": "2024-06-25",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D5.4<br>Work Package Number: WP5<br>Deliverable Title: Summary of results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats<br>Due Date: 30.05.2024<br>Date of delivery (cover): 30.05.2024<br>Submission (Ares ref): 25.06.2024</p><p>This deliverable summarizes the scientific outputs generated by <strong>Task T5.4</strong> &mdash; &ldquo;Mapping the impacts of Non-Indigenous species (NIS) on European coastal and marine habitats, based on multi-disciplinary approaches&rdquo;. In this task we integrated species occurrence data with environmental information to produce invasive heat maps and alien forecasts for the European coastline. These were then verified by alien species observations from the genetic observatory network EMO BON.</p><p>Overall, we used a selection of 35 known marine alien species to predict suitable habitat for individual species as well as to identify potential invasive hotspots. Most of the individual models detected areas with suitable habitat where the species have not yet been reported from. The hotspot models identified regions with elevated risk for establishment and spread of alien species. These were located in the Southern North Sea, the northern Bay of Biscay, the Northern Adriatic Sea, the Northern Skagerrak, the Bay of Gdansk, and the eastern Black Sea.</p><p>We could match observations of 32 alien species detected by the genetic observatories network ARMS-MBON against the predicted hotspots and found a reasonable overlap between the model predictions and the observations of alien species made by the genetic observatories. We conclude that ARMS-MBON and EMO BON may be used in the future to forecast, detect, and monitor the spread of alien species on a continental scale.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Obst, Matthias",
+              "affiliation": "University of Gothenburg",
+              "orcid": "0000-0003-0264-9631"
+            },
+            {
+              "name": "Daraghmeh, Nauras",
+              "affiliation": "University of Gothenburg",
+              "orcid": "0000-0001-8261-824X"
+            },
+            {
+              "name": "Pagnier, Justine",
+              "affiliation": "University of Gothenburg; Lifewatch ERIC"
+            },
+            {
+              "name": "Exter, Katrina",
+              "affiliation": "Flanders Marine Institute (VLIZ)",
+              "orcid": "0000-0002-5911-1536"
+            }
+          ],
+          "keywords": [
+            "MBO WP5",
+            "alien species",
+            "species distribution modelling",
+            "non-indigenous species",
+            "ARMS-MBON"
+          ],
+          "dates": [
+            {
+              "type": "created",
+              "description": "Date on cover"
+            },
+            {
+              "type": "submitted",
+              "description": "Submission date (Ares ref)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20787359"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Summary of results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats",
+        "links": {
+          "self": "https://zenodo.org/api/records/20787360",
+          "self_html": "https://zenodo.org/records/20787360",
+          "preview_html": "https://zenodo.org/records/20787360?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20787360",
+          "self_doi": "https://doi.org/10.5281/zenodo.20787360",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787360",
+          "reserve_doi": "https://zenodo.org/api/records/20787360/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20787359",
+          "parent_html": "https://zenodo.org/records/20787359",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20787359",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787359",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20787360/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20787360/sequence/default",
+          "files": "https://zenodo.org/api/records/20787360/files",
+          "media_files": "https://zenodo.org/api/records/20787360/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20787360:MBO_D5.4_Jun-2024.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20787360/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20787360/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20787360/versions/latest",
+          "latest_html": "https://zenodo.org/records/20787360/latest",
+          "versions": "https://zenodo.org/api/records/20787360/versions",
+          "draft": "https://zenodo.org/api/records/20787360/draft",
+          "access_links": "https://zenodo.org/api/records/20787360/access/links",
+          "access_grants": "https://zenodo.org/api/records/20787360/access/grants",
+          "access_users": "https://zenodo.org/api/records/20787360/access/users",
+          "access_request": "https://zenodo.org/api/records/20787360/access/request",
+          "access": "https://zenodo.org/api/records/20787360/access",
+          "communities": "https://zenodo.org/api/records/20787360/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20787360/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20787360/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20787360/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20787360/quota-increase",
+          "requests": "https://zenodo.org/api/records/20787360/requests"
+        },
+        "updated": "2026-06-21T18:31:11.176077+00:00",
+        "recid": "20787360",
+        "revision": 5,
+        "files": [
+          {
+            "id": "ab3aa89f-ec1d-4d3b-a3e7-c18038e5966e",
+            "key": "MBO_D5.4_Jun-2024.pdf",
+            "size": 5911371,
+            "checksum": "md5:a96750198735f7719d5f8c95294db7e2",
+            "links": {
+              "self": "https://zenodo.org/api/records/20787360/files/MBO_D5.4_Jun-2024.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-21T18:30:31.422275+00:00",
+        "modified": "2026-06-21T18:30:31.927219+00:00",
+        "id": 20787356,
+        "conceptrecid": "20787355",
+        "doi": "10.5281/zenodo.20787356",
+        "conceptdoi": "10.5281/zenodo.20787355",
+        "doi_url": "https://doi.org/10.5281/zenodo.20787356",
+        "metadata": {
+          "title": "Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
+          "doi": "10.5281/zenodo.20787356",
+          "publication_date": "2025-10-17",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D5.3<br>Work Package Number: WP5<br>Deliverable Title: Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems<br>Due Date: 31.05.2025<br>Submission Date: 17.10.2025<br>Ares ref: Ref. Ares(2025)8980017 dated 21/10/2025</p><p>MARCO-BOLO <strong>Task 5.3</strong> &ldquo;Spatial mapping of blue carbon benefits&rdquo; evaluates how satellite remote sensing can advance the mapping of blue carbon stocks across Europe, with a particular focus on seagrass meadows due to their importance for the European region. This work responds to the urgent need for robust, scalable approaches to quantify and monitor carbon stocks in European coastal habitats, supporting emerging policy and reporting requirements.</p><p>Our approach integrated five core activities:</p><ol><li>Synthesising the scientific literature on remote sensing applications for seagrass carbon mapping.</li><li>Collaborating with MPA-EUROPE to compile and publish the EURO-CARBON database, the most comprehensive collection of organic carbon measurements for coastal habitats in Europe.</li><li>Pairing large-scale environmental datasets from NASA and Copernicus with in situ sediment carbon measurements, enabling spatially explicit modelling.</li><li>Engaging stakeholders through co-design sessions to ensure scientific outputs align with policy and management needs.</li><li>Developing and testing predictive models for seagrass carbon stocks using environmental variables.</li></ol><p>Our models demonstrated high explanatory power (R&sup2; &gt; 0.8), identifying bottom temperature, sea surface wave height, phosphate concentration, near-surface pH, and remote sensing reflectance at 443 nm as key predictors. Notably, using organic carbon density as the response variable improved model performance and policy relevance.</p><p>We conclude that satellite remote sensing and global oceanographic data products already provide substantial opportunities for evaluating and monitoring blue carbon services in seagrass beds. Anticipated advances &mdash; including new satellite missions and enhanced computational capabilities &mdash; will further increase these opportunities. Currently, no countries in Europe have included seagrass beds in their emission inventories and climate plans, despite the prevalence of seagrasses along many coastlines. From 2026, reporting of wetlands under LULUCF may become mandatory for EU member states, but whether this will apply to seagrass beds depends on if member states consider them as &ldquo;managed&rdquo; marine ecosystems. Either way, policy needs for reporting carbon stocks are growing, and we show that remote sensing and global oceanographic data products can contribute substantially to mapping blue carbon benefits in Europe.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Gallo, Natalya D.",
+              "affiliation": "Norwegian Research Centre (NORCE)",
+              "orcid": "0000-0001-5168-4244"
+            },
+            {
+              "name": "Chemello, Silvia",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research",
+              "orcid": "0000-0001-6151-891X"
+            },
+            {
+              "name": "Sanders, Richard",
+              "affiliation": "Norwegian Research Centre (NORCE)",
+              "orcid": "0000-0002-6884-7131"
+            },
+            {
+              "name": "Sousa Pinto, Isabel",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research",
+              "orcid": "0000-0002-9231-0553"
+            },
+            {
+              "name": "Blix, Katalin",
+              "affiliation": "Norwegian Research Centre (NORCE)",
+              "orcid": "0009-0001-3994-1559"
+            },
+            {
+              "name": "Haarpaintner, Jörg",
+              "affiliation": "Norwegian Research Centre (NORCE)",
+              "orcid": "0000-0002-9681-9269"
+            }
+          ],
+          "keywords": [
+            "MBO WP5",
+            "blue carbon",
+            "seagrass",
+            "remote sensing",
+            "coastal ecosystems"
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20787355"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
+        "links": {
+          "self": "https://zenodo.org/api/records/20787356",
+          "self_html": "https://zenodo.org/records/20787356",
+          "preview_html": "https://zenodo.org/records/20787356?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20787356",
+          "self_doi": "https://doi.org/10.5281/zenodo.20787356",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787356",
+          "reserve_doi": "https://zenodo.org/api/records/20787356/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20787355",
+          "parent_html": "https://zenodo.org/records/20787355",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20787355",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787355",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20787356/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20787356/sequence/default",
+          "files": "https://zenodo.org/api/records/20787356/files",
+          "media_files": "https://zenodo.org/api/records/20787356/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20787356:MBO_D5.3_Oct-2025.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20787356/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20787356/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20787356/versions/latest",
+          "latest_html": "https://zenodo.org/records/20787356/latest",
+          "versions": "https://zenodo.org/api/records/20787356/versions",
+          "draft": "https://zenodo.org/api/records/20787356/draft",
+          "access_links": "https://zenodo.org/api/records/20787356/access/links",
+          "access_grants": "https://zenodo.org/api/records/20787356/access/grants",
+          "access_users": "https://zenodo.org/api/records/20787356/access/users",
+          "access_request": "https://zenodo.org/api/records/20787356/access/request",
+          "access": "https://zenodo.org/api/records/20787356/access",
+          "communities": "https://zenodo.org/api/records/20787356/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20787356/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20787356/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20787356/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20787356/quota-increase",
+          "requests": "https://zenodo.org/api/records/20787356/requests"
+        },
+        "updated": "2026-06-21T18:30:31.927219+00:00",
+        "recid": "20787356",
+        "revision": 5,
+        "files": [
+          {
+            "id": "c13a56a0-f7a3-42e0-92d5-54d13ee5abdf",
+            "key": "MBO_D5.3_Oct-2025.pdf",
+            "size": 10603838,
+            "checksum": "md5:b6a5e6f455d5f50ec9fa5b6c0a8e2489",
+            "links": {
+              "self": "https://zenodo.org/api/records/20787356/files/MBO_D5.3_Oct-2025.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-21T18:29:54.094067+00:00",
+        "modified": "2026-06-21T18:29:54.761502+00:00",
+        "id": 20787354,
+        "conceptrecid": "20787353",
+        "doi": "10.5281/zenodo.20787354",
+        "conceptdoi": "10.5281/zenodo.20787353",
+        "doi_url": "https://doi.org/10.5281/zenodo.20787354",
+        "metadata": {
+          "title": "Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling",
+          "doi": "10.5281/zenodo.20787354",
+          "publication_date": "2025-11-17",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D5.1<br>Work Package Number: WP5<br>Deliverable Title: Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling<br>Due Date: 30.11.2025<br>Submission Date: 17.11.2025</p><p>The main goal of this report is to assess biodiversity trends and their drivers in marine and coastal European ecosystems. To this end, we analysed community-level biodiversity trends and species-level habitat use during the last decades using data from open sources. Biodiversity trends are paired with environmental parameters and projected into the future using Habitat Suitability Models and Random Forest Regressions. Three complementary studies are presented.</p><p><strong>Study 1 &mdash; Time series analysis:</strong> European time series for six biotic groups (birds, fish, invertebrates, macroalgae, phytoplankton, zooplankton) were analysed to estimate temporal trends (1956&ndash;2022) in richness, diversity, and abundance across regions. A total of 2,359 time series comprising 552,475 observations of 4,718 coastal and marine taxa in 2,246 different sites were assembled from open-access databases (BioTIME, EMODnet, REPHY, FishGlob, Continuous Plankton Recorder Survey). Most communities showed no significant change, suggesting no further widespread biodiversity loss during the observation period. Positive trends were found for birds and invertebrates in the Baltic, and negative ones for fish in the Atlantic. However, uneven data coverage limits this generalization, highlighting the lack of sufficient rigorous monitoring of biodiversity and of accessibility to existing data.</p><p><strong>Study 2 &mdash; Habitat suitability modelling:</strong> Habitat suitability was predicted for coastal and marine species protected under the Habitats and Birds Directives, under current and future Shared Socioeconomic Pathways (SSP) climate scenarios. Projections were made for four marine mammal species (harbour porpoise, harbour seal, common dolphin, bottlenose dolphin) in OSPAR regions II&ndash;IV using EurOBIS data (2000&ndash;2019) and environmental predictors. Results revealed clear spatial and seasonal patterns in projected suitable habitats: a southward shift for porpoises in winter, seals remaining coastal, and dolphins concentrating in the Iberian region. Future projections suggest an overall reduction in suitable habitats for all four species. While limited by sampling biases and data inconsistencies, the study demonstrates the value of open-access biodiversity data for large-scale ecological modelling.</p><p><strong>Study 3 &mdash; Causal relationships in coastal ecosystems:</strong> Climate change impacts on coastal ecosystems were examined at the Gulf of Naples (LTER Mare Chiara site). Combining long-term data, reanalysis, and machine learning, the study found salinity to be a key driver of chlorophyll (phytoplankton) variability, linking land-based freshwater inputs and ocean dynamics. Using Representative Concentration Pathways to 2070 (RCP4.5, RCP8.5), the model predicts increasing salinity and declining chlorophyll, largely driven by reduced rainfall and runoff. The findings stress the importance of long-term monitoring and indicate that land-driven changes may affect coastal productivity more than ocean warming alone.</p><p>This report highlights the usefulness of publicly available data but also its limitations. As biodiversity open-source data increases in quantity and quality, the potential of future analyses will grow with it.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Peredo Arce, Andrés",
+              "affiliation": "Senckenberg Gesellschaft für Naturforschung",
+              "orcid": "0000-0002-6353-9121"
+            },
+            {
+              "name": "Nowe, Johannes",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0009-0000-1555-5867"
+            },
+            {
+              "name": "Muñiz, Carlota",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0001-9584-3833"
+            },
+            {
+              "name": "Deneudt, Klaas",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-8559-3508"
+            },
+            {
+              "name": "Debusschere, Elisabeth",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-5595-0295"
+            },
+            {
+              "name": "Iudicone, Daniele",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-7473-394X"
+            },
+            {
+              "name": "Mariani, Patrizio",
+              "affiliation": "Danmarks Tekniske Universitet",
+              "orcid": "0000-0002-8015-1583"
+            },
+            {
+              "name": "Haase, Peter",
+              "affiliation": "Senckenberg Gesellschaft für Naturforschung",
+              "orcid": "0000-0002-9340-0438"
+            },
+            {
+              "name": "Cano-Barbacil, Carlos",
+              "affiliation": "Senckenberg Gesellschaft für Naturforschung",
+              "orcid": "0000-0002-6482-5103"
+            },
+            {
+              "name": "Kokoszka, Florian",
+              "affiliation": "Consiglio Nazionale delle Ricerche; Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0001-5346-3058"
+            },
+            {
+              "name": "Asdar, Sarah",
+              "affiliation": "Consiglio Nazionale delle Ricerche",
+              "orcid": "0009-0002-6251-4456"
+            },
+            {
+              "name": "Lefebvre, Camil",
+              "affiliation": "École centrale de Nantes"
+            },
+            {
+              "name": "Buongiorno Nardelli, Bruno",
+              "affiliation": "Consiglio Nazionale delle Ricerche",
+              "orcid": "0000-0002-3416-7189"
+            },
+            {
+              "name": "Mercogliano, Paola",
+              "affiliation": "Centro Euro-Mediterraneo sui Cambiamenti Climatici",
+              "orcid": "0000-0001-7236-010X"
+            },
+            {
+              "name": "Ribera d'Alcalá, Maurizio",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-5492-9961"
+            },
+            {
+              "name": "Margiotta, Francesca",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0003-0757-5934"
+            }
+          ],
+          "keywords": [
+            "MBO WP5",
+            "biodiversity trends",
+            "habitat suitability modelling",
+            "climate projections",
+            "time series analysis"
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20787353"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling",
+        "links": {
+          "self": "https://zenodo.org/api/records/20787354",
+          "self_html": "https://zenodo.org/records/20787354",
+          "preview_html": "https://zenodo.org/records/20787354?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20787354",
+          "self_doi": "https://doi.org/10.5281/zenodo.20787354",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787354",
+          "reserve_doi": "https://zenodo.org/api/records/20787354/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20787353",
+          "parent_html": "https://zenodo.org/records/20787353",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20787353",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20787353",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20787354/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20787354/sequence/default",
+          "files": "https://zenodo.org/api/records/20787354/files",
+          "media_files": "https://zenodo.org/api/records/20787354/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20787354:MBO_D5.1_Nov-2025.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20787354/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20787354/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20787354/versions/latest",
+          "latest_html": "https://zenodo.org/records/20787354/latest",
+          "versions": "https://zenodo.org/api/records/20787354/versions",
+          "draft": "https://zenodo.org/api/records/20787354/draft",
+          "access_links": "https://zenodo.org/api/records/20787354/access/links",
+          "access_grants": "https://zenodo.org/api/records/20787354/access/grants",
+          "access_users": "https://zenodo.org/api/records/20787354/access/users",
+          "access_request": "https://zenodo.org/api/records/20787354/access/request",
+          "access": "https://zenodo.org/api/records/20787354/access",
+          "communities": "https://zenodo.org/api/records/20787354/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20787354/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20787354/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20787354/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20787354/quota-increase",
+          "requests": "https://zenodo.org/api/records/20787354/requests"
+        },
+        "updated": "2026-06-21T18:29:54.761502+00:00",
+        "recid": "20787354",
+        "revision": 5,
+        "files": [
+          {
+            "id": "668a4a1e-1822-48f1-9492-b1267dcab15b",
+            "key": "MBO_D5.1_Nov-2025.pdf",
+            "size": 5448357,
+            "checksum": "md5:6e569d16326deecd09336af277978cc1",
+            "links": {
+              "self": "https://zenodo.org/api/records/20787354/files/MBO_D5.1_Nov-2025.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-21T01:51:31.680413+00:00",
+        "modified": "2026-06-21T01:51:32.257052+00:00",
+        "id": 20779638,
+        "conceptrecid": "20779637",
+        "doi": "10.5281/zenodo.20779638",
+        "conceptdoi": "10.5281/zenodo.20779637",
+        "doi_url": "https://doi.org/10.5281/zenodo.20779638",
+        "metadata": {
+          "title": "Preliminary report on progress for advanced data processing, geolocation and export format",
+          "doi": "10.5281/zenodo.20779638",
+          "publication_date": "2024-06-25",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D4.1<br>Work Package Number: WP4<br>Deliverable Title: Preliminary report on progress for advanced data processing, geolocation and export format<br>Due Date: 01.07.2024<br>Date of creation (cover): 31.03.2024<br>Submission Date (Ares ref): 25.06.2024</p><p>Sustainable monitoring of organisms and their habitats is imperative during the biodiversity crisis, and is especially important in marine waters where fisheries alone feed approximately 3 billion people globally while multiple threats change ecosystem dynamics. MARCO BOLO&rsquo;s WP4 aims to create a direct pipeline from non-invasive, in situ monitoring of marine life, to ocean users and managers. WP4 aims to achieve this through adoption of workflows developed in WP1, FAIR data reporting, automated classification of high-volume datasets, and geolocation of sensed data in near-real-time.</p><p>The first 18 months of MARCO BOLO resulted in the development of several new deployable technologies to measure biodiversity, enabling geolocation in the field, simplicity in interacting with the software and datasets, automated classification and data processing, and enabling data flows from high-volume datasets to public repositories. While not yet field-tested, the developments described here already enable the reporting of biodiversity datasets for mapping and response, detecting ecosystems and their prey, and counting and communicating species data from the field. One publication describing these new biodiversity systems is open-access and another has been submitted. The WP4 team aims to demonstrate these developments in June 2025 in the Belgian North Sea.</p><p>This report describes the progress made in the first 18 months of MARCO BOLO WP4, <strong>Task 4.1</strong>, to <em>&ldquo;develop autonomous systems to deliver georeferenced maps of biodiversity attributes including genomic, taxonomic and habitat characteristics.&rdquo;</em> Deliverable 4.1 is achieved through seven complementary technologies targeting diverse biodiversity variables, organized across four sub-objectives:</p><ul><li><strong>Genomics:</strong> upgrading the Robotic Cartridge Sampling Instrument (RoCSI) sampler and the LAMPTRON eDNA sensor to facilitate geolocation, data delivery, and usability.</li><li><strong>Particulate and plankton imaging:</strong> integrating the UVP6 into autonomous vehicles with on-board image processing using a miniaturized AI system for real-time image classification.</li><li><strong>Fish and benthos:</strong> integrating Ultra Short Base Line (USBL) acoustics for positioning of an open-source BlueROV2 ROV with a new high-definition multi-camera system; outputs include processed large-scale seafloor images and annotations of identified animals.</li><li><strong>Bioacoustics:</strong> developing a stand-alone mooring accommodating an acoustic fish receiver, a broadband hydrophone, and a C-POD/F-POD device for long-term recording at sea, with a data pipeline for detection and classification of harbour porpoise (Phocoena phocoena) echolocation click trains and export to EMODnet Biology and EurOBIS following FAIR principles.</li></ul>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robidart, Julie",
+              "affiliation": "National Oceanography Centre",
+              "orcid": "0000-0001-9805-3570"
+            },
+            {
+              "name": "Thompson, Fletcher",
+              "affiliation": "DTU Aqua",
+              "orcid": "0000-0002-0639-9871"
+            },
+            {
+              "name": "Mariani, Patrizio",
+              "affiliation": "DTU Aqua",
+              "orcid": "0000-0002-8015-1583"
+            },
+            {
+              "name": "Giering, Sarah",
+              "affiliation": "National Oceanography Centre",
+              "orcid": "0000-0002-3090-1876"
+            },
+            {
+              "name": "Masoudi, Mojtaba",
+              "affiliation": "National Oceanography Centre",
+              "orcid": "0000-0002-0007-0362"
+            },
+            {
+              "name": "Muñiz, Carlota",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0001-9584-3833"
+            },
+            {
+              "name": "Debusschere, Elisabeth",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-5595-0295"
+            }
+          ],
+          "keywords": [
+            "MBO WP4",
+            "biodiversity monitoring",
+            "autonomous sensors",
+            "geolocation",
+            "marine instrumentation"
+          ],
+          "dates": [
+            {
+              "type": "created",
+              "description": "Date on cover"
+            },
+            {
+              "type": "submitted",
+              "description": "Submission date (Ares ref)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20779637"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Preliminary report on progress for advanced data processing, geolocation and export format",
+        "links": {
+          "self": "https://zenodo.org/api/records/20779638",
+          "self_html": "https://zenodo.org/records/20779638",
+          "preview_html": "https://zenodo.org/records/20779638?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20779638",
+          "self_doi": "https://doi.org/10.5281/zenodo.20779638",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20779638",
+          "reserve_doi": "https://zenodo.org/api/records/20779638/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20779637",
+          "parent_html": "https://zenodo.org/records/20779637",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20779637",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20779637",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20779638/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20779638/sequence/default",
+          "files": "https://zenodo.org/api/records/20779638/files",
+          "media_files": "https://zenodo.org/api/records/20779638/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20779638:MBO_D4.1_Jun-2024.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20779638/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20779638/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20779638/versions/latest",
+          "latest_html": "https://zenodo.org/records/20779638/latest",
+          "versions": "https://zenodo.org/api/records/20779638/versions",
+          "draft": "https://zenodo.org/api/records/20779638/draft",
+          "access_links": "https://zenodo.org/api/records/20779638/access/links",
+          "access_grants": "https://zenodo.org/api/records/20779638/access/grants",
+          "access_users": "https://zenodo.org/api/records/20779638/access/users",
+          "access_request": "https://zenodo.org/api/records/20779638/access/request",
+          "access": "https://zenodo.org/api/records/20779638/access",
+          "communities": "https://zenodo.org/api/records/20779638/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20779638/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20779638/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20779638/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20779638/quota-increase",
+          "requests": "https://zenodo.org/api/records/20779638/requests"
+        },
+        "updated": "2026-06-21T01:51:32.257052+00:00",
+        "recid": "20779638",
+        "revision": 5,
+        "files": [
+          {
+            "id": "7fd14382-bd3c-4d29-afaa-70e7842777bb",
+            "key": "MBO_D4.1_Jun-2024.pdf",
+            "size": 6694244,
+            "checksum": "md5:fb493e1b1bbcc3f4fc4ebd446d50f322",
+            "links": {
+              "self": "https://zenodo.org/api/records/20779638/files/MBO_D4.1_Jun-2024.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-20T16:18:05.071795+00:00",
+        "modified": "2026-06-20T16:18:05.602182+00:00",
+        "id": 20776355,
+        "conceptrecid": "20776354",
+        "doi": "10.5281/zenodo.20776355",
+        "conceptdoi": "10.5281/zenodo.20776354",
+        "doi_url": "https://doi.org/10.5281/zenodo.20776355",
+        "metadata": {
+          "title": "Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
+          "doi": "10.5281/zenodo.20776355",
+          "publication_date": "2025-11-26",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D3.4<br>Work Package Number: WP3<br>Deliverable Title: Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services<br>Due Date: 30.11.2025<br>Submission Date: 26.11.2025 (V1.1, authors); updated 30.01.2026 (V1.2, reviewer)</p><p>This deliverable assesses how terrestrial and freshwater conservation areas across four major European land&ndash;river&ndash;sea systems &mdash; the Danube&ndash;Black Sea, Po&ndash;Adriatic Sea, Elbe&ndash;North Sea, and Guadalquivir&ndash;Atlantic Ocean &mdash; influence downstream coastal and marine biodiversity and ecosystem services. Using the source-to-sea paradigm and a conceptual model linking upstream ecosystem service supply, mediating flows, and downstream ecological conditions, we analyse spatially distributed protected-area coverage, ecological quality (WFD EQR-based EQC), chlorophyll-a and nutrient concentrations. Complementary storylines co-developed with case-study teams summarise the narrative pathways through which upstream protection affects coastal outcomes (see <a href=\"https://arcg.is/1OmDji3\">Storyline &ndash; Terrestrial protected areas effects on marine ecosystems</a>).</p><p>Across all basins, the extent of protected areas has increased substantially since 1990, often in parallel with EU environmental policies. Statistical analyses reveal highly significant associations between upstream protected-area coverage, lower nitrogen and phosphorus concentrations, and improved ecological status &mdash; supporting the hypothesis that conservation enhances nutrient retention, hydrological buffering and habitat quality, with measurable positive signals along the freshwater&ndash;marine continuum.</p><p>However, a key challenge remains the lack of integrated data systems across freshwater and marine monitoring frameworks. Discontinuities in temporal resolution, indicator definitions, and ecosystem typologies limit the ability to fully capture cumulative effects along the land-to-sea continuum. Each basin presents unique hydrological, ecological, and governance contexts that require system-specific approaches &mdash; but within a harmonised, interoperable monitoring infrastructure. Addressing this integration gap is essential for building robust cross-domain evidence bases, aligning Water Framework Directive (WFD) and Marine Strategy Framework Directive (MSFD) assessments, and advancing the EU Biodiversity Strategy for 2030.</p><p>Strengthened basin-to-coast planning, integration of terrestrial/freshwater and marine policies, improved monitoring, and systematic inclusion of protected-area scenarios in modelling frameworks are essential for enhancing coastal biodiversity and ecosystem services. This deliverable supports MARCO-BOLO&rsquo;s broader objective of building an integrated evidence base to inform cross-domain management and the design of coherent conservation strategies across Europe&rsquo;s land-to-sea continuum.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Adamescu, Mihai",
+              "affiliation": "University of Bucharest",
+              "orcid": "0000-0002-3056-8444"
+            },
+            {
+              "name": "Arhire, Georgia",
+              "affiliation": "University of Bucharest"
+            },
+            {
+              "name": "Bergami, Caterina",
+              "affiliation": "CNR",
+              "orcid": "0000-0002-5284-1317"
+            },
+            {
+              "name": "Keuter, Sabine",
+              "affiliation": "HEREON",
+              "orcid": "0000-0001-8902-4882"
+            },
+            {
+              "name": "Hufnagel, Lili",
+              "affiliation": "UFZ"
+            },
+            {
+              "name": "Madon, Bénédicte",
+              "affiliation": "Universidad de Sevilla",
+              "orcid": "0000-0001-8608-3895"
+            },
+            {
+              "name": "Muresan, Mihaela",
+              "affiliation": "GeoEcoMar",
+              "orcid": "0000-0002-8446-1263"
+            },
+            {
+              "name": "Peredo, Andres",
+              "affiliation": "Senckenberg Gesellschaft für Naturforschung",
+              "orcid": "0000-0002-6353-9121"
+            },
+            {
+              "name": "Igescu, Denisa",
+              "affiliation": "University of Bucharest",
+              "orcid": "0009-0001-8189-5074"
+            },
+            {
+              "name": "Haase, Peter",
+              "affiliation": "Senckenberg Gesellschaft für Naturforschung",
+              "orcid": "0000-0002-9340-0438"
+            }
+          ],
+          "keywords": [
+            "MBO WP3",
+            "protected areas",
+            "land-sea continuum",
+            "ecosystem services",
+            "nutrient dynamics"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.20776269",
+              "relation": "references",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "V1.1 submission (Adamescu, Arhire)"
+            },
+            {
+              "type": "updated",
+              "description": "V1.2 reviewer edits (Nicholas Pade)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.2",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20776354"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
+        "links": {
+          "self": "https://zenodo.org/api/records/20776355",
+          "self_html": "https://zenodo.org/records/20776355",
+          "preview_html": "https://zenodo.org/records/20776355?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20776355",
+          "self_doi": "https://doi.org/10.5281/zenodo.20776355",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776355",
+          "reserve_doi": "https://zenodo.org/api/records/20776355/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20776354",
+          "parent_html": "https://zenodo.org/records/20776354",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20776354",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776354",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20776355/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20776355/sequence/default",
+          "files": "https://zenodo.org/api/records/20776355/files",
+          "media_files": "https://zenodo.org/api/records/20776355/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20776355:MBO_D3.4_Jan-2026.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20776355/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20776355/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20776355/versions/latest",
+          "latest_html": "https://zenodo.org/records/20776355/latest",
+          "versions": "https://zenodo.org/api/records/20776355/versions",
+          "draft": "https://zenodo.org/api/records/20776355/draft",
+          "access_links": "https://zenodo.org/api/records/20776355/access/links",
+          "access_grants": "https://zenodo.org/api/records/20776355/access/grants",
+          "access_users": "https://zenodo.org/api/records/20776355/access/users",
+          "access_request": "https://zenodo.org/api/records/20776355/access/request",
+          "access": "https://zenodo.org/api/records/20776355/access",
+          "communities": "https://zenodo.org/api/records/20776355/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20776355/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20776355/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20776355/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20776355/quota-increase",
+          "requests": "https://zenodo.org/api/records/20776355/requests"
+        },
+        "updated": "2026-06-20T16:18:05.602182+00:00",
+        "recid": "20776355",
+        "revision": 5,
+        "files": [
+          {
+            "id": "1ead094b-14bb-446c-aa90-bf0880b97a8b",
+            "key": "MBO_D3.4_Jan-2026.pdf",
+            "size": 5360653,
+            "checksum": "md5:6cffa6314093a34111bbb8127055c8bb",
+            "links": {
+              "self": "https://zenodo.org/api/records/20776355/files/MBO_D3.4_Jan-2026.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-20T16:16:52.973215+00:00",
+        "modified": "2026-06-20T16:16:54.049257+00:00",
+        "id": 20776313,
+        "conceptrecid": "20776312",
+        "doi": "10.5281/zenodo.20776313",
+        "conceptdoi": "10.5281/zenodo.20776312",
+        "doi_url": "https://doi.org/10.5281/zenodo.20776313",
+        "metadata": {
+          "title": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
+          "doi": "10.5281/zenodo.20776313",
+          "publication_date": "2025-11-11",
+          "description": "<p><strong>This is a draft version (&ldquo;draft 2&rdquo;).</strong> A finalized version with the complete WP3 author list (CNR, HEREON, SGN, UB, USE, APS contributors) is expected to be released; this record will be superseded by a new version at that time.</p><p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D3.2<br>Work Package Number: WP3<br>Deliverable Title: Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MSFD, and EV systems<br>Due Date: 30.11.2025 (month 48)<br>Date of delivery: 11.11.2025</p><p>This study evaluates the capacity of a number of existing monitoring programs in four European river&ndash;estuary&ndash;coastal systems (Elbe&ndash;North Sea, Danube&ndash;Black Sea, Po&ndash;Adriatic Sea, and Guadalquivir&ndash;Atlantic Ocean) to support Essential Biodiversity Variables (EBVs) and, where available, Essential Ocean Variables (EOVs). We analyzed more than 100 monitoring datasets across freshwater, transitional, and marine domains, assessing their readiness to generate EBVs based on spatial and temporal representativeness, taxonomic coverage, data accessibility, and methodological approach.</p><p>Across all case studies, monitoring systems already provide strong foundations for EBVs related to species abundance, community composition, and ecosystem functioning. These EBVs are supported by long-term marine programs (ICES, CMEMS, LTER) and established WFD/MSFD policy. However, other EBVs &mdash; particularly trait diversity, ecosystem structure, and river-sea connectivity &mdash; are poorly represented or fragmented, especially in estuaries and wetlands.</p><p>Marine data are generally more standardized, interoperable, and openly accessible, enabling easier integration into regional and global data infrastructures (EMODnet, ICES, CMEMS, BONs). Freshwater and estuarine data, although abundant, are often stored in restricted databases, limiting reuse and slowing EBV/EOV translation. The dominant barrier is data accessibility, not lack of data.</p><p>All sites show high policy alignment (WFD, MSFD, Natura 2000), ensuring long-term monitoring continuity. To become EBV/EOV-ready, the systems need improved FAIR access to biological datasets, harmonized metadata and taxonomy, and better integration across freshwater&ndash;estuary&ndash;sea continuum.</p><p>Overall, the monitoring capacity exists, but stronger interoperability is needed so that national monitoring smoothly flows into regional and global biodiversity observation systems.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Muresan, Mihaela",
+              "affiliation": "NIRD GeoEcoMar",
+              "orcid": "0000-0002-8446-1263"
+            }
+          ],
+          "keywords": [
+            "MBO WP3",
+            "biodiversity monitoring",
+            "Essential Biodiversity Variables (EBV)",
+            "Essential Ocean Variables (EOV)",
+            "river-coastal continuum"
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Date of delivery (draft 2)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "draft 2",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20776312"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
+        "links": {
+          "self": "https://zenodo.org/api/records/20776313",
+          "self_html": "https://zenodo.org/records/20776313",
+          "preview_html": "https://zenodo.org/records/20776313?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20776313",
+          "self_doi": "https://doi.org/10.5281/zenodo.20776313",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776313",
+          "reserve_doi": "https://zenodo.org/api/records/20776313/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20776312",
+          "parent_html": "https://zenodo.org/records/20776312",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20776312",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776312",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20776313/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20776313/sequence/default",
+          "files": "https://zenodo.org/api/records/20776313/files",
+          "media_files": "https://zenodo.org/api/records/20776313/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20776313:MBO_D3.2_Jan-2026.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20776313/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20776313/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20776313/versions/latest",
+          "latest_html": "https://zenodo.org/records/20776313/latest",
+          "versions": "https://zenodo.org/api/records/20776313/versions",
+          "draft": "https://zenodo.org/api/records/20776313/draft",
+          "access_links": "https://zenodo.org/api/records/20776313/access/links",
+          "access_grants": "https://zenodo.org/api/records/20776313/access/grants",
+          "access_users": "https://zenodo.org/api/records/20776313/access/users",
+          "access_request": "https://zenodo.org/api/records/20776313/access/request",
+          "access": "https://zenodo.org/api/records/20776313/access",
+          "communities": "https://zenodo.org/api/records/20776313/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20776313/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20776313/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20776313/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20776313/quota-increase",
+          "requests": "https://zenodo.org/api/records/20776313/requests"
+        },
+        "updated": "2026-06-20T16:16:54.049257+00:00",
+        "recid": "20776313",
+        "revision": 5,
+        "files": [
+          {
+            "id": "61b157be-ae98-425a-9281-353e48d96b05",
+            "key": "MBO_D3.2_Jan-2026.pdf",
+            "size": 3724848,
+            "checksum": "md5:1e65f52ed191d456199d4d723c4cb1d7",
+            "links": {
+              "self": "https://zenodo.org/api/records/20776313/files/MBO_D3.2_Jan-2026.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-20T16:15:45.323529+00:00",
+        "modified": "2026-06-20T16:15:45.767993+00:00",
+        "id": 20776269,
+        "conceptrecid": "20776268",
+        "doi": "10.5281/zenodo.20776269",
+        "conceptdoi": "10.5281/zenodo.20776268",
+        "doi_url": "https://doi.org/10.5281/zenodo.20776269",
+        "metadata": {
+          "title": "Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+          "doi": "10.5281/zenodo.20776269",
+          "publication_date": "2025-04-01",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D3.1<br>Work Package Number: WP3<br>Deliverable Title: Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools<br>Due Date: 31.05.2024<br>Submission Date: 19.06.2024 (V1.0); revised 02.12.2024 (V2.0); current 01.04.2025 (V3.0)</p><p>The primary aim of this deliverable is to gather comprehensive information on the key methodologies and protocols used for biodiversity monitoring across Europe. The key steps of the deliverable are: (1) outline the process for systematically gathering and analyzing information from various resources to ensure comprehensive information retrieval; (2) provide an overview of the collected information, including biodiversity monitoring variables, methods, protocols, and tools across different countries and ecosystems; and (3) identify commonalities and gaps and use this analysis to recommend actions for aligning and harmonizing land&ndash;sea biodiversity monitoring efforts.</p><p>By leveraging the collective expertise of all partners, a comprehensive set of resources was selected, including European legislations (Habitats and Birds Directives, Water Framework Directive, Marine Strategy Framework Directive) as well as ESFRI Research Infrastructures and other global and international initiatives.</p><p>The study identifies macro-regions and countries that are the most frequently monitored. Abundance, species composition, and biomass are commonly observed variables. Monitoring methods are better shared within marine ecosystems under the MSFD. The diversity in method descriptions across countries and ecosystems poses challenges for direct comparisons, highlighting the need for standardised protocols. Biodiversity tools are dispersed across various sources, with genetic data analysis tools prevalent but image analysis and sampling support tools underrepresented. Non-EU countries struggle to align with EU frameworks, resulting in incomplete information. Citizen science initiatives, while valuable for expanding monitoring coverage, often lack detailed methodological integration, reducing reliability.</p><p>This study offers a valid approach to assess the status of biodiversity monitoring methods across the land&ndash;sea continuum in Europe. Recommendations for improving biodiversity monitoring in Europe are structured around three pillars:</p><ul><li><strong>Information Systems and Access</strong> &mdash; Information convergence (WISE-Marine serves as a model for MSFD monitoring; similar portals for other domains could be beneficial; a centralised portal for biodiversity-analysis tools would be a valuable resource) and improved accessibility for researchers, policymakers, and the public.</li><li><strong>Standardization and Harmonization</strong> &mdash; Semantic harmonisation via standardized semantic labels (controlled vocabularies and thesauri) and methods harmonisation (e.g., the Ocean Best Practices System for the marine realm), with standardized metadata describing protocols.</li><li><strong>Collaboration and Sharing</strong> &mdash; promoting collaboration among monitoring networks, research institutions, and governmental bodies to share best practices, methodologies, and resources.</li></ul>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Caruso, Valerio",
+              "affiliation": "CNR",
+              "orcid": "0009-0000-8394-0142"
+            },
+            {
+              "name": "Bergami, Caterina",
+              "affiliation": "CNR",
+              "orcid": "0000-0002-5284-1317"
+            },
+            {
+              "name": "Pugnetti, Alessandra",
+              "affiliation": "CNR",
+              "orcid": "0000-0002-7346-6675"
+            }
+          ],
+          "keywords": [
+            "MBO WP3",
+            "biodiversity monitoring",
+            "monitoring protocols",
+            "land-sea continuum",
+            "WFD/MSFD"
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Original submission (V1.0)"
+            },
+            {
+              "type": "updated",
+              "description": "Revision to V2.0"
+            },
+            {
+              "type": "updated",
+              "description": "Revision to V3.0 (current)"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "3.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20776268"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+        "links": {
+          "self": "https://zenodo.org/api/records/20776269",
+          "self_html": "https://zenodo.org/records/20776269",
+          "preview_html": "https://zenodo.org/records/20776269?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20776269",
+          "self_doi": "https://doi.org/10.5281/zenodo.20776269",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776269",
+          "reserve_doi": "https://zenodo.org/api/records/20776269/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20776268",
+          "parent_html": "https://zenodo.org/records/20776268",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20776268",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20776268",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20776269/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20776269/sequence/default",
+          "files": "https://zenodo.org/api/records/20776269/files",
+          "media_files": "https://zenodo.org/api/records/20776269/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20776269:MBO_Deliverable3.1_V3.0.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20776269/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20776269/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20776269/versions/latest",
+          "latest_html": "https://zenodo.org/records/20776269/latest",
+          "versions": "https://zenodo.org/api/records/20776269/versions",
+          "draft": "https://zenodo.org/api/records/20776269/draft",
+          "access_links": "https://zenodo.org/api/records/20776269/access/links",
+          "access_grants": "https://zenodo.org/api/records/20776269/access/grants",
+          "access_users": "https://zenodo.org/api/records/20776269/access/users",
+          "access_request": "https://zenodo.org/api/records/20776269/access/request",
+          "access": "https://zenodo.org/api/records/20776269/access",
+          "communities": "https://zenodo.org/api/records/20776269/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20776269/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20776269/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20776269/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20776269/quota-increase",
+          "requests": "https://zenodo.org/api/records/20776269/requests"
+        },
+        "updated": "2026-06-20T16:15:45.767993+00:00",
+        "recid": "20776269",
+        "revision": 6,
+        "files": [
+          {
+            "id": "871eb2d5-53f9-41bf-9aa8-2324007a0702",
+            "key": "MBO_Deliverable3.1_V3.0.pdf",
+            "size": 1735281,
+            "checksum": "md5:e18c3b6549140d704de601ec8911270d",
+            "links": {
+              "self": "https://zenodo.org/api/records/20776269/files/MBO_Deliverable3.1_V3.0.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-19T20:48:59.684167+00:00",
+        "modified": "2026-06-19T20:49:00.114291+00:00",
+        "id": 20767092,
+        "conceptrecid": "20767091",
+        "doi": "10.5281/zenodo.20767092",
+        "conceptdoi": "10.5281/zenodo.20767091",
+        "doi_url": "https://doi.org/10.5281/zenodo.20767092",
+        "metadata": {
+          "title": "Final report on the definition of eDNA-based EBVs with associated eDNA-based EBV datasets and efficiency of eDNA for detecting/quantifying taxa/species of interest",
+          "doi": "10.5281/zenodo.20767092",
+          "publication_date": "2025-11-29",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D2.4<br>Work Package Number: WP2<br>Deliverable Title: Report on the definition of eDNA-based EBVs with associated eDNA-based EBV datasets and efficiency of eDNA for detecting/quantifying taxa/species of interest<br>Due Date: 30.11.2025<br>Submission Date: 29.11.2025</p><p>Work Package 2 (WP2) aims to enable environmental DNA (eDNA)-based methods for standardized biodiversity monitoring. This report (D2.4) presents the outcomes of Task 2.4, which focused on defining eDNA-based Essential Variables &mdash; namely <strong>Essential Ocean Variables (EOVs)</strong> and <strong>Essential Biodiversity Variables (EBVs)</strong> &mdash; and evaluating their utility for European policy frameworks, including the Marine Strategy Framework Directive (MSFD), the Water Framework Directive (WFD), and the Habitats Directive.</p><p>Building on other WP2 deliverables (<a href=\"https://doi.org/10.5281/zenodo.17517691\">D2.1</a>, <a href=\"https://doi.org/10.5281/zenodo.20766608\">D2.2</a>, and D2.3), we identified and generated a suite of eDNA-based EOVs from multiple case-study datasets, including a global survey (Tara Oceans), three coastal time-series (SOMLIT-Astan, LTER-MC/NEREA, the EMO BON UiT genomic observatory), and a dedicated cetacean dataset from the Portuguese coast (CIIMAR). This report demonstrates that EOVs are currently the most operational product directly derivable from eDNA data. The candidate eDNA-based EOVs presented here were formatted to Darwin Core standards and will be deposited in public repositories, providing the foundation for fully functional eDNA-based EOVs. These EOVs serve as standardized building blocks and EBV candidates that can, with expanded sampling and modelling, be transformed into full EBVs. These essential variables (EOVs/EBVs) can work as biological indicators aligned with European frameworks, such as the WFD and the MSFD, and regional conventions, such as OSPAR (Northeast Atlantic), or UNEP-MAP (Mediterranean Sea).</p><p>Across the case studies, we demonstrate the usefulness of eDNA for generating EOVs and detecting policy-relevant taxa and species:</p><ul><li><strong>Phytoplankton &amp; Harmful algal bloom (HABs) events:</strong> eDNA metabarcoding from time-series data successfully captured seasonal phytoplankton dynamics and HABs events. Generated EOVs are relevant for assessing eutrophication and ecosystem function in marine environments.</li><li><strong>Fish communities:</strong> eDNA metabarcoding revealed seasonal patterns in fish diversity and community composition, while targeted species-specific digital droplet PCR (ddPCR) assays provided quantitative information for sentinel species such as the European anchovy, directly supporting regional indicator frameworks.</li><li><strong>Marine mammals:</strong> eDNA detected multiple cetacean species, including those protected under the EU Habitats Directive, with seasonal occurrences of species validated against visual surveys.</li><li><strong>Invasive Alien Species (IAS):</strong> eDNA expanded the known distribution of several OSPAR-listed invasive species, demonstrating strong potential for early detection in data-deficient areas.</li><li><strong>Species of conservation concern:</strong> eDNA detected several fish species listed as threatened, near-threatened, or vulnerable on the IUCN Red List, highlighting its value for monitoring vulnerable species.</li></ul><p>Since dedicated performance-evaluation experiments were not available, the efficiency (or usefulness) of eDNA-derived variables was evaluated by comparing them with expected biodiversity signals from conventional observations, and global biodiversity databases (GBIF, OBIS, iNaturalist). These comparisons showed that eDNA patterns were largely congruent with standard methods, while also providing additional insight into taxonomic diversity and species distributions.</p><p>In conclusion, this deliverable provides a practical scheme and a set of validated case studies showing that eDNA-based EOVs offer a powerful and scalable tool for producing policy-relevant biodiversity indicators. These eDNA-based EOVs are a stepwise improvement from simple raw eDNA observations of individual species and fit the information needs of European and regional environmental directives, paving the way for more comprehensive, standardized, and efficient biodiversity monitoring.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Ciarlini Junger, Pedro",
+              "affiliation": "CNRS",
+              "orcid": "0000-0001-8774-0738"
+            },
+            {
+              "name": "Zinger, Lucie",
+              "affiliation": "CNRS",
+              "orcid": "0000-0002-3400-5825"
+            },
+            {
+              "name": "Kumazawa Morais, Daniel",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0003-3328-7848"
+            },
+            {
+              "name": "Jensen, Mads Reinholdt",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0001-8240-1083"
+            },
+            {
+              "name": "Warwick-Dugdale, Joanna",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0001-5242-6706"
+            },
+            {
+              "name": "Cunliffe, Michael",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0002-6716-3555"
+            },
+            {
+              "name": "Heynderickx, Hanneloor",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-5611-837X"
+            },
+            {
+              "name": "Beatty, Jennifer",
+              "affiliation": "Sorbonne Université"
+            },
+            {
+              "name": "Not, Fabrice",
+              "affiliation": "Sorbonne Université",
+              "orcid": "0000-0002-9342-195X"
+            },
+            {
+              "name": "Afonso, Luís",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research",
+              "orcid": "0000-0003-3978-1388"
+            },
+            {
+              "name": "Sousa Pinto, Isabel",
+              "affiliation": "CIIMAR – Interdisciplinary Centre of Marine and Environmental Research"
+            },
+            {
+              "name": "Onoufriou, Aubrie",
+              "affiliation": "Marine Scotland",
+              "orcid": "0000-0002-4605-1896"
+            },
+            {
+              "name": "Matejusová, Iveta",
+              "affiliation": "Marine Scotland",
+              "orcid": "0000-0002-3241-043X"
+            },
+            {
+              "name": "D'Alelio, Domenico",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-2189-503X"
+            },
+            {
+              "name": "Iudicone, Daniele",
+              "affiliation": "Stazione Zoologica Anton Dohrn"
+            },
+            {
+              "name": "Suominen, Saara",
+              "affiliation": "UNESCO",
+              "orcid": "0000-0001-9401-8460"
+            },
+            {
+              "name": "Boulanger, Emilie",
+              "affiliation": "UNESCO",
+              "orcid": "0000-0002-6446-7342"
+            },
+            {
+              "name": "Præbel, Kim",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0002-0681-1854"
+            },
+            {
+              "name": "Bowler, Chris",
+              "affiliation": "CNRS",
+              "orcid": "0000-0003-3835-6187"
+            }
+          ],
+          "keywords": [
+            "MBO WP2",
+            "eDNA",
+            "Essential Ocean Variables (EOV)",
+            "Essential Biodiversity Variables (EBV)",
+            "biodiversity monitoring"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.17517691",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.20766608",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.XXXXXXX",
+              "relation": "references",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20767091"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Final report on the definition of eDNA-based EBVs with associated eDNA-based EBV datasets and efficiency of eDNA for detecting/quantifying taxa/species of interest",
+        "links": {
+          "self": "https://zenodo.org/api/records/20767092",
+          "self_html": "https://zenodo.org/records/20767092",
+          "preview_html": "https://zenodo.org/records/20767092?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20767092",
+          "self_doi": "https://doi.org/10.5281/zenodo.20767092",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20767092",
+          "reserve_doi": "https://zenodo.org/api/records/20767092/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20767091",
+          "parent_html": "https://zenodo.org/records/20767091",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20767091",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20767091",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20767092/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20767092/sequence/default",
+          "files": "https://zenodo.org/api/records/20767092/files",
+          "media_files": "https://zenodo.org/api/records/20767092/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20767092:MBO_D2.4_Jan-2026.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20767092/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20767092/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20767092/versions/latest",
+          "latest_html": "https://zenodo.org/records/20767092/latest",
+          "versions": "https://zenodo.org/api/records/20767092/versions",
+          "draft": "https://zenodo.org/api/records/20767092/draft",
+          "access_links": "https://zenodo.org/api/records/20767092/access/links",
+          "access_grants": "https://zenodo.org/api/records/20767092/access/grants",
+          "access_users": "https://zenodo.org/api/records/20767092/access/users",
+          "access_request": "https://zenodo.org/api/records/20767092/access/request",
+          "access": "https://zenodo.org/api/records/20767092/access",
+          "communities": "https://zenodo.org/api/records/20767092/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20767092/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20767092/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20767092/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20767092/quota-increase",
+          "requests": "https://zenodo.org/api/records/20767092/requests"
+        },
+        "updated": "2026-06-19T20:49:00.114291+00:00",
+        "recid": "20767092",
+        "revision": 5,
+        "files": [
+          {
+            "id": "49bd08c1-c5c7-4c63-8922-b2eae2d0478d",
+            "key": "MBO_D2.4_Jan-2026.pdf",
+            "size": 6620466,
+            "checksum": "md5:55e84bfb4fef27ee45b161acd26c36f4",
+            "links": {
+              "self": "https://zenodo.org/api/records/20767092/files/MBO_D2.4_Jan-2026.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 1,
+          "unique_downloads": 1,
+          "views": 0,
+          "unique_views": 0,
+          "version_downloads": 1,
+          "version_unique_downloads": 1,
+          "version_unique_views": 0,
+          "version_views": 0
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-19T20:46:17.905141+00:00",
+        "modified": "2026-06-19T20:46:18.363702+00:00",
+        "id": 20767070,
+        "conceptrecid": "20767069",
+        "doi": "10.5281/zenodo.20767070",
+        "conceptdoi": "10.5281/zenodo.20767069",
+        "doi_url": "https://doi.org/10.5281/zenodo.20767070",
+        "metadata": {
+          "title": "Final report on the congruence between traditional and eDNA-based biodiversity observations, and their robustness across bioinformatics issues and diversity metrics",
+          "doi": "10.5281/zenodo.20767070",
+          "publication_date": "2025-11-28",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D2.3<br>Work Package Number: WP2<br>Deliverable Title: Report on the congruence between traditional and eDNA-based biodiversity observations, and their robustness across bioinformatics issues and diversity metrics<br>Due Date: 30.11.2025<br>Submission Date: 28.11.2025</p><p>Here, we present the outcomes of Task 2.3: <em>&ldquo;Comparison of spatial and temporal eDNA-based vs traditional observations&rdquo;</em>. The report summarises the level of agreement between traditional and eDNA-based biodiversity observations and evaluates how stable these comparisons remain when different analytical decisions are applied. <strong>Performance</strong> (or <strong>congruence</strong>) refers to the extent to which eDNA observations reproduce the ecological patterns detected by traditional methods, including seasonal cycles, interannual trends and diversity gradients. <strong>Robustness</strong> refers to the consistency of these eDNA-derived patterns when analytical choices vary, for example the choice of bioinformatic workflow or the use of different diversity metrics.</p><p>The work was conducted in conjunction with Tasks 2.1 and 2.2, building on the <a href=\"https://doi.org/10.5281/zenodo.17517691\">meta-analysis of eDNA-based approaches (D2.1)</a> and the long-term time-series datasets curated under <a href=\"https://doi.org/10.5281/zenodo.20766608\">D2.2</a>. Three main analyses were performed: (A) comparison of complementary plankton datasets spanning 20 years (2001&ndash;2021) at coastal station &lsquo;L4&rsquo; (Western English Channel) between eDNA (18S-V9 metabarcoding) and microscopy counts; (B) assessment of phytoplankton diversity values from different metabarcoding methods and microscopy in the global Tara Oceans dataset; and (C) a &lsquo;Data Analysis Challenge&rsquo; inviting the global eDNA community to run their preferred pipelines on a shared SOMLIT-Astan dataset, allowing assessment of pipeline-driven variation in diversity outputs.</p><p>Across the three analyses, the degree of congruence between eDNA (metabarcoding) and traditional (microscopy) datasets was most dependent on the diversity metric applied; both the methods employed in data production and processing, and the nature of the community being observed, further impacted similarity. Long-term seasonal diversity patterns were more congruent between data types than interannual changes. Estimators that accounted for relative abundance (e.g. Shannon; Hill numbers q = 1.5) produced more congruent patterns than richness-only metrics. Designation of taxa into major plankton/phytoplankton groups revealed group-dependent differences in diversity patterns between data types. Pipeline choice was more important than season or year to the community structure of eDNA samples in the Data Analysis Challenge results.</p><p>These findings indicate that, despite innate differences between data types, there is partial congruence in seasonal diversity patterns and total diversity values obtained from eDNA and traditional microscopy data &mdash; supporting integration of eDNA-based approaches into established marine plankton monitoring frameworks, particularly when using evenness-aware diversity metrics.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Warwick-Dugdale, Joanna",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0001-5242-6706"
+            },
+            {
+              "name": "Boulanger, Emilie",
+              "affiliation": "UNESCO-OBIS",
+              "orcid": "0000-0002-6446-7342"
+            },
+            {
+              "name": "Suominen, Saara",
+              "affiliation": "UNESCO-OBIS",
+              "orcid": "0000-0001-9401-8460"
+            },
+            {
+              "name": "Heynderickx, Hanneloor",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-5611-837X"
+            },
+            {
+              "name": "Jensen, Mads Reinholdt",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0001-8240-1083"
+            },
+            {
+              "name": "Ciarlini Junger, Pedro",
+              "affiliation": "CNRS-IBENS",
+              "orcid": "0000-0001-8774-0738"
+            },
+            {
+              "name": "Bowler, Chris",
+              "affiliation": "CNRS-IBENS",
+              "orcid": "0000-0003-3835-6187"
+            },
+            {
+              "name": "Jee, Haesung",
+              "affiliation": "CNRS-IBENS"
+            },
+            {
+              "name": "Not, Fabrice",
+              "affiliation": "Sorbonne Université",
+              "orcid": "0000-0002-9342-195X"
+            },
+            {
+              "name": "Beatty, Jennifer",
+              "affiliation": "Sorbonne Université"
+            },
+            {
+              "name": "Onoufriou, Aubrie",
+              "affiliation": "Marine Directorate, Scottish Government",
+              "orcid": "0000-0002-4605-1896"
+            },
+            {
+              "name": "Matejusová, Iveta",
+              "affiliation": "Marine Directorate, Scottish Government",
+              "orcid": "0000-0002-3241-043X"
+            },
+            {
+              "name": "D'Alelio, Domenico",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-2189-503X"
+            },
+            {
+              "name": "Kumazawa Morais, Daniel",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0003-3328-7848"
+            },
+            {
+              "name": "Cunliffe, Michael",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0002-6716-3555"
+            }
+          ],
+          "keywords": [
+            "MBO WP2",
+            "eDNA",
+            "metabarcoding",
+            "biodiversity comparison",
+            "diversity metrics"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.17517691",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.20766608",
+              "relation": "references",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20767069"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Final report on the congruence between traditional and eDNA-based biodiversity observations, and their robustness across bioinformatics issues and diversity metrics",
+        "links": {
+          "self": "https://zenodo.org/api/records/20767070",
+          "self_html": "https://zenodo.org/records/20767070",
+          "preview_html": "https://zenodo.org/records/20767070?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20767070",
+          "self_doi": "https://doi.org/10.5281/zenodo.20767070",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20767070",
+          "reserve_doi": "https://zenodo.org/api/records/20767070/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20767069",
+          "parent_html": "https://zenodo.org/records/20767069",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20767069",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20767069",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20767070/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20767070/sequence/default",
+          "files": "https://zenodo.org/api/records/20767070/files",
+          "media_files": "https://zenodo.org/api/records/20767070/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20767070:MBO_D2.3_Jan-2026.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20767070/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20767070/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20767070/versions/latest",
+          "latest_html": "https://zenodo.org/records/20767070/latest",
+          "versions": "https://zenodo.org/api/records/20767070/versions",
+          "draft": "https://zenodo.org/api/records/20767070/draft",
+          "access_links": "https://zenodo.org/api/records/20767070/access/links",
+          "access_grants": "https://zenodo.org/api/records/20767070/access/grants",
+          "access_users": "https://zenodo.org/api/records/20767070/access/users",
+          "access_request": "https://zenodo.org/api/records/20767070/access/request",
+          "access": "https://zenodo.org/api/records/20767070/access",
+          "communities": "https://zenodo.org/api/records/20767070/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20767070/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20767070/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20767070/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20767070/quota-increase",
+          "requests": "https://zenodo.org/api/records/20767070/requests"
+        },
+        "updated": "2026-06-19T20:46:18.363702+00:00",
+        "recid": "20767070",
+        "revision": 5,
+        "files": [
+          {
+            "id": "51f503de-1c35-458f-9752-0c569bdbc4ef",
+            "key": "MBO_D2.3_Jan-2026.pdf",
+            "size": 17315239,
+            "checksum": "md5:0f22f0347111835c0e15d5709c1bd9b3",
+            "links": {
+              "self": "https://zenodo.org/api/records/20767070/files/MBO_D2.3_Jan-2026.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 1,
+          "unique_views": 1,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 1,
+          "version_views": 1
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-19T19:47:24.939239+00:00",
+        "modified": "2026-06-19T19:47:25.318791+00:00",
+        "id": 20766608,
+        "conceptrecid": "20766607",
+        "doi": "10.5281/zenodo.20766608",
+        "conceptdoi": "10.5281/zenodo.20766607",
+        "doi_url": "https://doi.org/10.5281/zenodo.20766608",
+        "metadata": {
+          "title": "Datasets, databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring",
+          "doi": "10.5281/zenodo.20766608",
+          "publication_date": "2026-01-15",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D2.2<br>Work Package Number: WP2<br>Deliverable Title: Datasets, databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring<br>Due Date: 30.11.2025<br>Submission Date: 15.01.2026</p><p>Work package 2 (WP2) of the MARCO-BOLO project focused on validating and enabling environmental DNA (eDNA)-based approaches for biodiversity monitoring in aquatic and terrestrial systems. In task 2.2, these objectives were addressed through the exploration and comparison of datasets, databases, software, and bioinformatic pipelines to facilitate the implementation of eDNA-based monitoring.</p><p>While this task was initially envisioned to build on existing infrastructure (specific pipelines, datasets, and customized databases), the departure of the creator of these preexisting tools, who was involved in the initial application, led to a shift in focus. This deliverable was likely originally intended to result in a single, standardized approach to working with eDNA-derived biomonitoring data. However, we collectively concluded that no single database, software, or pipeline can address the diverse practical use cases within eDNA. Therefore, this report provides a broader context on existing approaches, databases, and pipelines, their applications, and how they compare.</p><p>The main body of work carried out under this task was a comparison of bioinformatic pipelines for two types of metabarcoding data (eukaryote 18S and 12S, 16S and COI for fishes), where we invited people around the world to contribute results from running their respective pipelines on the same datasets (Dataset 1). We also generated eDNA metabarcoding data for time series samples collected by institutions involved in this task. The statuses of Datasets 2-7, where new data was generated, are presented here, each accompanied by a &ldquo;readme&rdquo; in varying formats. These data products will contribute to deliverables D2.3 and D2.4 but are presented here alongside their metadata.</p><p>As this is a data deliverable rather than a narrative report, we focused on implementing WP1&rsquo;s data model for reporting on data and metadata. While this model is not yet finalized, we here use Dataset 2 to demonstrate its potential, transforming information from Google Sheets into JSON format and generating standardized readme files using a large language model (LLM). Currently, each dataset has its own readme format, but will be standardized under WP1&rsquo;s model during the project&rsquo;s final year.</p><p>Dataset 8-9 are based on data generated prior to MARCO-BOLO and here primarily serve to indicate the locations of all utilized data products, as results from these are presented under D2.3 and D2.4. Under this task, we also engaged with the existing literature and here provide a comprehensive overview of what we consider to be widely used primer sets for eDNA metabarcoding, pipelines run for different marker genes, and reference databases used to assign taxonomy (Dataset 10). This work complements the data analysis challenge, where we aimed to include as many pipelines as possible, and is here presented as a standalone data product.</p><p>Finally, we showcase two custom-built reference databases tailored for Nordic eDNA metabarcoding applications (Dataset 11), targeting the &ldquo;Leray&rdquo; fragment (COI) and the &ldquo;MiFish&rdquo; fragment (12S rRNA). These databases integrate and harmonize data from multiple repositories while incorporating rigorous curation steps to ensure high-quality references for eDNA research. They remain a work in progress, with ongoing efforts to refine and expand their scope to support diverse research applications.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Jensen, Mads Reinholdt",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0001-8240-1083"
+            },
+            {
+              "name": "Præbel, Kim",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0002-0681-1854"
+            },
+            {
+              "name": "Ciarlini Junger, Pedro",
+              "affiliation": "CNRS-IBENS",
+              "orcid": "0000-0001-8774-0738"
+            },
+            {
+              "name": "Bowler, Chris",
+              "affiliation": "CNRS-IBENS",
+              "orcid": "0000-0003-3835-6187"
+            },
+            {
+              "name": "Warwick-Dugdale, Joanna",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0001-5242-6706"
+            },
+            {
+              "name": "Cunliffe, Michael",
+              "affiliation": "Marine Biological Association",
+              "orcid": "0000-0002-6716-3555"
+            },
+            {
+              "name": "Beatty, Jennifer",
+              "affiliation": "Sorbonne Université"
+            },
+            {
+              "name": "Not, Fabrice",
+              "affiliation": "Sorbonne Université",
+              "orcid": "0000-0002-9342-195X"
+            },
+            {
+              "name": "Onoufriou, Aubrie",
+              "affiliation": "Marine Directorate, Scottish Government",
+              "orcid": "0000-0002-4605-1896"
+            },
+            {
+              "name": "Matejusová, Iveta",
+              "affiliation": "Marine Directorate, Scottish Government",
+              "orcid": "0000-0002-3241-043X"
+            },
+            {
+              "name": "Bellardini, Daniele",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-3319-7036"
+            },
+            {
+              "name": "D'Alelio, Domenico",
+              "affiliation": "Stazione Zoologica Anton Dohrn",
+              "orcid": "0000-0002-2189-503X"
+            },
+            {
+              "name": "Formel, Stephen",
+              "affiliation": "UNESCO-OBIS",
+              "orcid": "0000-0001-7418-1244"
+            },
+            {
+              "name": "Suominen, Saara",
+              "affiliation": "UNESCO-OBIS",
+              "orcid": "0000-0001-9401-8460"
+            },
+            {
+              "name": "Boulanger, Emilie",
+              "affiliation": "UNESCO-OBIS",
+              "orcid": "0000-0002-6446-7342"
+            },
+            {
+              "name": "Heynderickx, Hanneloor",
+              "affiliation": "Flanders Marine Institute",
+              "orcid": "0000-0002-5611-837X"
+            },
+            {
+              "name": "Kumazawa Morais, Daniel",
+              "affiliation": "UiT – The Arctic University of Norway",
+              "orcid": "0000-0003-3328-7848"
+            }
+          ],
+          "keywords": [
+            "MBO WP2",
+            "eDNA",
+            "environmental DNA",
+            "metabarcoding",
+            "biodiversity monitoring",
+            "bioinformatic pipelines",
+            "reference databases",
+            "18S rRNA",
+            "12S MiFish",
+            "COI Leray-XT",
+            "ddPCR"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.17739996",
+              "relation": "references",
+              "scheme": "doi"
+            },
+            {
+              "identifier": "10.5281/zenodo.8208410",
+              "relation": "references",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20766607"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Datasets, databases and softwares/pipelines facilitating the implementation of eDNA-based monitoring",
+        "links": {
+          "self": "https://zenodo.org/api/records/20766608",
+          "self_html": "https://zenodo.org/records/20766608",
+          "preview_html": "https://zenodo.org/records/20766608?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20766608",
+          "self_doi": "https://doi.org/10.5281/zenodo.20766608",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20766608",
+          "reserve_doi": "https://zenodo.org/api/records/20766608/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20766607",
+          "parent_html": "https://zenodo.org/records/20766607",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20766607",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20766607",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20766608/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20766608/sequence/default",
+          "files": "https://zenodo.org/api/records/20766608/files",
+          "media_files": "https://zenodo.org/api/records/20766608/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20766608:MBO_D2.2_Jan-2026.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20766608/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20766608/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20766608/versions/latest",
+          "latest_html": "https://zenodo.org/records/20766608/latest",
+          "versions": "https://zenodo.org/api/records/20766608/versions",
+          "draft": "https://zenodo.org/api/records/20766608/draft",
+          "access_links": "https://zenodo.org/api/records/20766608/access/links",
+          "access_grants": "https://zenodo.org/api/records/20766608/access/grants",
+          "access_users": "https://zenodo.org/api/records/20766608/access/users",
+          "access_request": "https://zenodo.org/api/records/20766608/access/request",
+          "access": "https://zenodo.org/api/records/20766608/access",
+          "communities": "https://zenodo.org/api/records/20766608/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20766608/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20766608/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20766608/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20766608/quota-increase",
+          "requests": "https://zenodo.org/api/records/20766608/requests"
+        },
+        "updated": "2026-06-19T19:47:25.318791+00:00",
+        "recid": "20766608",
+        "revision": 5,
+        "files": [
+          {
+            "id": "bcdd44d9-9e8f-4bb7-b72a-02095188b813",
+            "key": "MBO_D2.2_Jan-2026.pdf",
+            "size": 789062,
+            "checksum": "md5:ce15e9334d45da5fa6781f1406458855",
+            "links": {
+              "self": "https://zenodo.org/api/records/20766608/files/MBO_D2.2_Jan-2026.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 2,
+          "unique_views": 2,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 2,
+          "version_views": 2
+        },
+        "state": "done",
+        "submitted": true
+      },
+      {
+        "created": "2026-06-19T18:13:04.652526+00:00",
+        "modified": "2026-06-19T18:13:05.189469+00:00",
+        "id": 20765873,
+        "conceptrecid": "20765872",
+        "doi": "10.5281/zenodo.20765873",
+        "conceptdoi": "10.5281/zenodo.20765872",
+        "doi_url": "https://doi.org/10.5281/zenodo.20765873",
+        "metadata": {
+          "title": "Revised Project Data Management Plan, Associated Specification and Supporting Tools for Data Generation and Exchange (WP1)",
+          "doi": "10.5281/zenodo.20765873",
+          "publication_date": "2025-12-30",
+          "description": "<p>Grant Agreement: 101082021<br>Project Acronym: MARCO-BOLO<br>Project Title: MARine COastal BiOdiversity Long-term Observations<br>Deliverable Number: D1.2<br>Work Package Number: WP1<br>Deliverable Title: Revised Project Data Management Plan, Associated Specification and Supporting Tools for Data Generation and Exchange (WP1)<br>Due Date: 30.12.2025<br>Submission Date: 30.12.2025</p><p>D1.2 updates and augments <a href=\"https://doi.org/10.5281/zenodo.17537386\">D1.1 (Lear et al., 2025)</a> by reporting concrete progress, decisions, and remaining actions to operationalise MARCO-BOLO&rsquo;s data and information management processes and provide support to Work Packages 2&ndash;5 in the description and publication of their knowledge outputs.</p><p>The approach remains aligned to the UN Ocean Decade and the program components of IOC-UNESCO including <strong>ODIS</strong> and <strong>OBIS</strong>, in addition to <strong>EMODnet</strong> as the European data gateway, through the use of <em>schema.org</em>-based JSON-LD. We now provide an operational authoring pathway via <em>Google Sheets &rarr; CSV &rarr; JSON-LD</em> with validations and examples, plus clearer guidance on repository pathways and protocol DOIs.</p>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Lear, Dan",
+              "affiliation": "Marine Biological Association of the United Kingdom",
+              "orcid": "0000-0002-5806-0837"
+            },
+            {
+              "name": "Formel, Stephen",
+              "affiliation": "IOC-UNESCO",
+              "orcid": "0000-0001-7418-1244"
+            },
+            {
+              "name": "Exter, Katrina",
+              "affiliation": "VLIZ",
+              "orcid": "0000-0002-5911-1536"
+            },
+            {
+              "name": "Tagliolato Acquaviva D'Aragona, Paolo",
+              "affiliation": "CNR",
+              "orcid": "0000-0002-0261-313X"
+            },
+            {
+              "name": "Figueroa Ashforth, Chloe",
+              "affiliation": "Marine Biological Association of the United Kingdom",
+              "orcid": "0009-0007-9889-5090"
+            },
+            {
+              "name": "Buttigieg, Pier Luigi",
+              "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research",
+              "orcid": "0000-0002-4366-3088"
+            }
+          ],
+          "keywords": [
+            "MBO WP1",
+            "data management",
+            "FAIR",
+            "marine biodiversity",
+            "linked open data",
+            "JSON-LD",
+            "schema.org",
+            "ODIS",
+            "persistent identifiers",
+            "W3ID"
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "10.5281/zenodo.17537386",
+              "relation": "continues",
+              "scheme": "doi"
+            }
+          ],
+          "dates": [
+            {
+              "type": "submitted",
+              "description": "Submission date"
+            },
+            {
+              "type": "other",
+              "description": "Due date"
+            }
+          ],
+          "version": "1.0",
+          "language": "eng",
+          "resource_type": {
+            "title": "Project deliverable",
+            "type": "publication",
+            "subtype": "deliverable"
+          },
+          "license": {
+            "id": "cc-by-4.0"
+          },
+          "grants": [
+            {
+              "code": "101082021",
+              "internal_id": "10.13039/501100000780::101082021",
+              "funder": {
+                "name": "European Commission",
+                "doi": "10.13039/501100000780",
+                "acronym": "EC"
+              },
+              "title": "MARine COastal BiOdiversity Long-term Observations",
+              "acronym": "MARCO-BOLO",
+              "program": "HORIZON.2.6",
+              "url": "https://cordis.europa.eu/projects/101082021"
+            }
+          ],
+          "communities": [
+            {
+              "id": "marco-bolo"
+            }
+          ],
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "20765872"
+                }
+              }
+            ]
+          }
+        },
+        "title": "Revised Project Data Management Plan, Associated Specification and Supporting Tools for Data Generation and Exchange (WP1)",
+        "links": {
+          "self": "https://zenodo.org/api/records/20765873",
+          "self_html": "https://zenodo.org/records/20765873",
+          "preview_html": "https://zenodo.org/records/20765873?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.20765873",
+          "self_doi": "https://doi.org/10.5281/zenodo.20765873",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20765873",
+          "reserve_doi": "https://zenodo.org/api/records/20765873/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/20765872",
+          "parent_html": "https://zenodo.org/records/20765872",
+          "parent_doi": "https://doi.org/10.5281/zenodo.20765872",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20765872",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20765873/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20765873/sequence/default",
+          "files": "https://zenodo.org/api/records/20765873/files",
+          "media_files": "https://zenodo.org/api/records/20765873/media-files",
+          "thumbnails": {
+            "10": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E10,/0/default.jpg",
+            "50": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E50,/0/default.jpg",
+            "100": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E100,/0/default.jpg",
+            "250": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E250,/0/default.jpg",
+            "750": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E750,/0/default.jpg",
+            "1200": "https://zenodo.org/api/iiif/record:20765873:MBO_D1.2_Dec-2025.pdf/full/%5E1200,/0/default.jpg"
+          },
+          "archive": "https://zenodo.org/api/records/20765873/files-archive",
+          "archive_media": "https://zenodo.org/api/records/20765873/media-files-archive",
+          "latest": "https://zenodo.org/api/records/20765873/versions/latest",
+          "latest_html": "https://zenodo.org/records/20765873/latest",
+          "versions": "https://zenodo.org/api/records/20765873/versions",
+          "draft": "https://zenodo.org/api/records/20765873/draft",
+          "access_links": "https://zenodo.org/api/records/20765873/access/links",
+          "access_grants": "https://zenodo.org/api/records/20765873/access/grants",
+          "access_users": "https://zenodo.org/api/records/20765873/access/users",
+          "access_request": "https://zenodo.org/api/records/20765873/access/request",
+          "access": "https://zenodo.org/api/records/20765873/access",
+          "communities": "https://zenodo.org/api/records/20765873/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/20765873/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/20765873/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/20765873/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/20765873/quota-increase",
+          "requests": "https://zenodo.org/api/records/20765873/requests"
+        },
+        "updated": "2026-06-19T18:13:05.189469+00:00",
+        "recid": "20765873",
+        "revision": 5,
+        "files": [
+          {
+            "id": "d81eb0cb-611f-4015-8f56-a39365ae6349",
+            "key": "MBO_D1.2_Dec-2025.pdf",
+            "size": 1173260,
+            "checksum": "md5:c5b8660098d486198576ee87114a40c7",
+            "links": {
+              "self": "https://zenodo.org/api/records/20765873/files/MBO_D1.2_Dec-2025.pdf/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "1402148"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 0,
+          "unique_downloads": 0,
+          "views": 2,
+          "unique_views": 2,
+          "version_downloads": 0,
+          "version_unique_downloads": 0,
+          "version_unique_views": 2,
+          "version_views": 2
+        },
+        "state": "done",
+        "submitted": true
+      },
       {
         "created": "2026-06-15T18:51:19.233024+00:00",
         "modified": "2026-06-15T18:51:19.428412+00:00",
@@ -255,10 +2909,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -456,10 +3110,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -623,10 +3277,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -790,10 +3444,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -946,10 +3600,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1030,12 +3684,12 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 28,
-          "unique_downloads": 27,
+          "downloads": 29,
+          "unique_downloads": 28,
           "views": 30,
           "unique_views": 30,
-          "version_downloads": 28,
-          "version_unique_downloads": 27,
+          "version_downloads": 29,
+          "version_unique_downloads": 28,
           "version_unique_views": 30,
           "version_views": 30
         },
@@ -1098,10 +3752,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1261,10 +3915,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1347,12 +4001,12 @@
         "stats": {
           "downloads": 23,
           "unique_downloads": 20,
-          "views": 29,
-          "unique_views": 28,
+          "views": 30,
+          "unique_views": 29,
           "version_downloads": 23,
           "version_unique_downloads": 20,
-          "version_unique_views": 28,
-          "version_views": 29
+          "version_unique_views": 29,
+          "version_views": 30
         },
         "state": "done",
         "submitted": true
@@ -1571,10 +4225,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1712,10 +4366,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1883,10 +4537,10 @@
           ],
           "communities": [
             {
-              "id": "marco-bolo"
+              "id": "eu"
             },
             {
-              "id": "eu"
+              "id": "marco-bolo"
             }
           ],
           "relations": {
@@ -1969,12 +4623,12 @@
         "stats": {
           "downloads": 33,
           "unique_downloads": 28,
-          "views": 32,
-          "unique_views": 31,
+          "views": 33,
+          "unique_views": 32,
           "version_downloads": 33,
           "version_unique_downloads": 28,
-          "version_unique_views": 31,
-          "version_views": 32
+          "version_unique_views": 32,
+          "version_views": 33
         },
         "state": "done",
         "submitted": true
@@ -3246,12 +5900,12 @@
         "stats": {
           "downloads": 17,
           "unique_downloads": 16,
-          "views": 131,
-          "unique_views": 128,
+          "views": 132,
+          "unique_views": 129,
           "version_downloads": 17,
           "version_unique_downloads": 16,
-          "version_unique_views": 128,
-          "version_views": 131
+          "version_unique_views": 129,
+          "version_views": 132
         },
         "state": "done",
         "submitted": true
@@ -3567,19 +6221,19 @@
           ],
           "communities": [
             {
-              "id": "isidore"
+              "id": "marco-bolo"
             },
             {
-              "id": "icsu_wds"
+              "id": "eosc-life"
             },
             {
               "id": "bycovid"
             },
             {
-              "id": "ifb"
+              "id": "icsu_wds"
             },
             {
-              "id": "erinha"
+              "id": "elixir-no"
             },
             {
               "id": "eu"
@@ -3588,25 +6242,25 @@
               "id": "elixir-be"
             },
             {
-              "id": "idw2023"
+              "id": "elixir-uk"
             },
             {
-              "id": "eosc-life"
+              "id": "erinha"
             },
             {
               "id": "codata"
             },
             {
-              "id": "elixir-no"
-            },
-            {
-              "id": "marco-bolo"
-            },
-            {
-              "id": "elixir-uk"
+              "id": "ifb"
             },
             {
               "id": "rda-related"
+            },
+            {
+              "id": "isidore"
+            },
+            {
+              "id": "idw2023"
             }
           ],
           "relations": {
@@ -3687,14 +6341,14 @@
         ],
         "status": "published",
         "stats": {
-          "downloads": 335,
-          "unique_downloads": 276,
-          "views": 383,
-          "unique_views": 352,
-          "version_downloads": 335,
-          "version_unique_downloads": 276,
-          "version_unique_views": 352,
-          "version_views": 383
+          "downloads": 336,
+          "unique_downloads": 277,
+          "views": 386,
+          "unique_views": 355,
+          "version_downloads": 336,
+          "version_unique_downloads": 277,
+          "version_unique_views": 355,
+          "version_views": 386
         },
         "state": "done",
         "submitted": true
@@ -4293,6 +6947,6 @@
         "submitted": true
       }
     ],
-    "total": 24
+    "total": 37
   }
 }
