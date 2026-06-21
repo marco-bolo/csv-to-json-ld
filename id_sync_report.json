@@ -1,18 +1,114 @@
 {
-  "timestamp": "2026-06-21T05:56:32.607527",
+  "timestamp": "2026-06-21T18:57:02.477602",
   "new_ids": [
     {
       "class": "Person",
-      "uuid": "mbo_74d8ae60-3d99-4c28-8f62-192e484fa5d9",
-      "semantic_id": "mbo_fthompson"
+      "uuid": "mbo_3fc59608-9c22-42de-a9e4-b92d677f7f3c",
+      "semantic_id": "mbo_fkokoszka"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_42b4e971-36c9-4ed6-86c6-e97795d0e4cf",
+      "semantic_id": "mbo_sasdar"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_099057bc-96fc-40b1-b159-6886e34a8906",
+      "semantic_id": "mbo_clefebvre"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_49757bc2-ae42-433b-a179-143f29e6df0e",
+      "semantic_id": "mbo_bnardelli"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_c96d7e63-0c64-444c-b788-13a811b4df10",
+      "semantic_id": "mbo_pmercogliano"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_d2498828-ca79-403f-b3b3-899002c19d12",
+      "semantic_id": "mbo_mriberadalcala"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_0b2ecf15-dbeb-4195-814b-8d0a7167fd34",
+      "semantic_id": "mbo_fmargiotta"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74",
+      "semantic_id": "mbo_schemello"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f",
+      "semantic_id": "mbo_rsanders"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c",
+      "semantic_id": "mbo_kblix"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b",
+      "semantic_id": "mbo_jhaarpaintner"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_5733dedf-8277-412d-9c63-9b792037b59a",
+      "semantic_id": "mbo_ndaraghmeh"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_fedd28d7-b52b-48ef-bb6e-07e20336d1b9",
+      "semantic_id": "mbo_jpagnier"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_a8a50618-3349-4077-8c12-2af66817ca9a",
+      "semantic_id": "mbo_org_cmcc"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_1674ce8d-08aa-4e90-960b-858a4e3fcbcc",
+      "semantic_id": "mbo_org_ecnantes"
     },
     {
       "class": "Document",
-      "uuid": "mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23",
-      "semantic_id": "mbo_wp4_d4_1_doc"
+      "uuid": "mbo_7871c7f3-1215-49a5-afbf-bb6fa444b584",
+      "semantic_id": "mbo_wp5_d5_1_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
+      "semantic_id": "mbo_wp5_d5_3_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_857e4cba-22d0-4107-92ad-b8e0ff800006",
+      "semantic_id": "mbo_wp5_d5_4_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904",
+      "semantic_id": "mbo_wp5_d5_5_doc"
     }
   ],
   "missing_ids": [
+    {
+      "class": "Person",
+      "uuid": "mbo_47bbc637-52d5-4003-98bf-8cec7c3b8a12",
+      "semantic_id": "mbo_aperedo",
+      "similar": [
+        [
+          "mbo_aperedoarce",
+          0.8461538461538461
+        ]
+      ]
+    },
     {
       "class": "Person",
       "uuid": "mbo_da6c57f3-efdf-4c5a-aae5-19bd1d0511d8",
@@ -21,17 +117,6 @@
         [
           "mbo_diudicone",
           1.0
-        ]
-      ]
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_f91f436c-4eef-44e9-ae07-71483255de20",
-      "semantic_id": "mbo_digescu",
-      "similar": [
-        [
-          "mbo_madamescu",
-          0.75
         ]
       ]
     }
