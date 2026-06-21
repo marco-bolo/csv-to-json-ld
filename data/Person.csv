@@ -9,7 +9,7 @@ mbo_jbeatty,mbo_madsrj,mbo_wp2_d2,Jennifer,Beatty,,,,
 mbo_28269,mbo_sformel,mbo_db_tool_population,Joana,Beja,,,,https://oceanexpert.org/expert/28269
 mbo_dbellardini,mbo_sformel,mbo_wp2_d2_2,Daniele,Bellardini,,mbo_org_szn,,https://orcid.org/0000-0002-3319-7036
 mbo_49824,mbo_sformel,mbo_db_tool_population,Lisa,Benedetti,mbo_org_obis,,,https://oceanexpert.org/expert/49824
-mbo_58369,mbo_sformel,mbo_db_tool_population,Caterina,Bergami,,,,https://oceanexpert.org/expert/58369
+mbo_58369,mbo_sformel,mbo_db_tool_population,Caterina,Bergami,mbo_org_cnr,,,https://oceanexpert.org/expert/58369|https://orcid.org/0000-0002-5284-1317
 mbo_eboulanger,mbo_madsrj,mbo_wp2_d2,Emilie,Boulanger,mbo_org_obis,,,https://orcid.org/0000-0002-6446-7342
 mbo_cbowler,mbo_madsrj,mbo_wp2_d2,Chris,Bowler,,,,https://orcid.org/0000-0003-3835-6187
 mbo_34461,mbo_sformel,mbo_db_tool_population,Pier Luigi,Buttigieg,mbo_org_awi,,,https://oceanexpert.org/expert/34461
@@ -35,7 +35,7 @@ mbo_ngallo,mbo_sformel,mbo_db_tool_population,Natalya,Gallo,mbo_org_norce,,,http
 mbo_55091,mbo_sformel,mbo_db_tool_population,Sarah Lou Carolin,Giering,,,,https://oceanexpert.org/expert/55091
 mbo_58245,mbo_sformel,mbo_db_tool_population,Charlie,Gough,,,,https://oceanexpert.org/expert/58245
 mbo_43953,mbo_sformel,mbo_db_tool_population,Maria,Grigoratou,,,,https://oceanexpert.org/expert/43953
-mbo_58615,mbo_sformel,mbo_db_tool_population,Peter,Haase,,,,https://oceanexpert.org/expert/58615
+mbo_58615,mbo_sformel,mbo_db_tool_population,Peter,Haase,mbo_org_sgn,,,https://oceanexpert.org/expert/58615|https://orcid.org/0000-0002-9340-0438
 mbo_58451,mbo_sformel,mbo_db_tool_population,Avril,Hanbidge,,,,https://oceanexpert.org/expert/58451
 mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,mbo_org_vliz,,https://oceanexpert.org/expert/61691|https://orcid.org/0000-0002-5611-837X
 mbo_16535,mbo_sformel,mbo_db_tool_population,Neil,Holdsworth,,,,https://oceanexpert.org/expert/16535
@@ -49,7 +49,7 @@ mbo_13339,mbo_sformel,mbo_db_tool_population,Pierre Yves,Le Traon,,,,https://oce
 mbo_23316,mbo_sformel,mbo_db_tool_population,Dan,Lear,mbo_org_mba,,,https://oceanexpert.org/expert/23316
 mbo_7925,mbo_sformel,mbo_db_tool_population,Inga,Lips,,,,https://oceanexpert.org/expert/7925
 mbo_diudicone,mbo_sformel,mbo_wp2_d2_2,Daniele,Iudicone,,mbo_org_szn,,https://oceanexpert.org/expert/59161
-mbo_59780,mbo_sformel,mbo_db_tool_population,Bénédicte,Madon,,,,https://oceanexpert.org/expert/59780
+mbo_59780,mbo_sformel,mbo_db_tool_population,Bénédicte,Madon,mbo_org_use,,,https://oceanexpert.org/expert/59780|https://orcid.org/0000-0001-8608-3895
 mbo_pmariani,mbo_sformel,mbo_db_tool_population,Patrizio,Mariani,,,,
 mbo_59174,mbo_sformel,mbo_db_tool_population,Mojtaba,Masoudi,,,,https://oceanexpert.org/expert/59174
 mbo_imatejusova,mbo_madsrj,mbo_wp2_d2,Iveta,Matejusová,mbo_org_frs,,,https://orcid.org/0000-0002-3241-043X
@@ -124,3 +124,11 @@ mbo_zgold,mbo_sformel,mbo_wp2_d2_2,Zachary,Gold,,,,
 mbo_costle,mbo_jwarwickdugdale,mbo_wp5_d5_2,Clare,Ostle,mbo_org_mba,,,https://orcid.org/0000-0001-6923-5535
 mbo_hjee,mbo_sformel,mbo_wp2_d2_3,Haesung,Jee,mbo_org_ibens_cnrs,,,
 mbo_lafonso,mbo_sformel,mbo_wp2_d2_4,Luís,Afonso,mbo_org_ciimar,,,https://orcid.org/0000-0003-3978-1388
+mbo_vcaruso,mbo_sformel,mbo_wp3_d3_1,Valerio,Caruso,mbo_org_cnr,,,https://orcid.org/0009-0000-8394-0142
+mbo_apugnetti,mbo_sformel,mbo_wp3_d3_1,Alessandra,Pugnetti,mbo_org_cnr,,,https://orcid.org/0000-0002-7346-6675
+mbo_mmuresan,mbo_sformel,mbo_wp3_d3_2,Mihaela,Muresan,mbo_org_geoecom,,,https://orcid.org/0000-0002-8446-1263
+mbo_madamescu,mbo_sformel,mbo_wp3_d3_4,Mihai,Adamescu,mbo_org_ub,,,https://orcid.org/0000-0002-3056-8444
+mbo_garhire,mbo_sformel,mbo_wp3_d3_4,Georgia,Arhire,mbo_org_ub,,,
+mbo_skeuter,mbo_sformel,mbo_wp3_d3_4,Sabine,Keuter,mbo_org_hereon,,,https://orcid.org/0000-0001-8902-4882
+mbo_aperedo,mbo_sformel,mbo_wp3_d3_4,Andres,Peredo,mbo_org_sgn,,,https://orcid.org/0000-0002-6353-9121
+mbo_digescu,mbo_sformel,mbo_wp3_d3_4,Denisa,Igescu,mbo_org_ub,,,https://orcid.org/0009-0001-8189-5074
