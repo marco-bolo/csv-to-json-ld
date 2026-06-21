@@ -1,25 +1,115 @@
 {
-  "timestamp": "2026-06-21T20:17:22.627780",
+  "timestamp": "2026-06-21T22:50:58.197775",
   "new_ids": [
     {
       "class": "Person",
-      "uuid": "mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
-      "semantic_id": "mbo_kmckee"
+      "uuid": "mbo_56122d1e-711a-4a60-a750-02a76fa73735",
+      "semantic_id": "mbo_mreuver"
     },
     {
       "class": "Person",
-      "uuid": "mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8",
-      "semantic_id": "mbo_esalasleiton"
+      "uuid": "mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd",
+      "semantic_id": "mbo_gvecchi"
     },
     {
       "class": "Person",
-      "uuid": "mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420",
-      "semantic_id": "mbo_cfigueroaashforth"
+      "uuid": "mbo_2482a6cd-9966-4186-ae60-e6950a62ac09",
+      "semantic_id": "mbo_vfernandez"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1",
+      "semantic_id": "mbo_alanglet"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_72bcebdd-f903-42b8-af39-d392a330dabe",
+      "semantic_id": "mbo_fwurm"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c",
+      "semantic_id": "mbo_avadrot"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33",
+      "semantic_id": "mbo_otimmerman"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_e25f6218-3684-4a5c-9033-bc6894f18b2f",
+      "semantic_id": "mbo_qpan"
+    },
+    {
+      "class": "Dataset",
+      "uuid": "mbo_fd97a33f-a7a1-4256-8e84-b989c797ab79",
+      "semantic_id": "mbo_ds_gallo_seagrass_env"
+    },
+    {
+      "class": "Organization",
+      "uuid": "mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38",
+      "semantic_id": "mbo_org_cambridge"
     },
     {
       "class": "Document",
-      "uuid": "mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3",
-      "semantic_id": "mbo_wp6_d6_2_doc"
+      "uuid": "mbo_9b4c53af-4b12-4737-a18b-219daca351d3",
+      "semantic_id": "mbo_wp7_d7_4_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_82842830-37e6-4fdc-aaeb-4027a75ddfb3",
+      "semantic_id": "mbo_wp7_d7_5_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
+      "semantic_id": "mbo_wp7_d7_7_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e",
+      "semantic_id": "mbo_wp7_d7_9_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f",
+      "semantic_id": "mbo_wp6_workshop1_report"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
+      "semantic_id": "mbo_wp6_workshop1_slides"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08",
+      "semantic_id": "mbo_wp6_workshop2_slides"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f",
+      "semantic_id": "mbo_wp6_workshop2_report"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_ef9392e0-b321-411e-8b46-2122fad611c8",
+      "semantic_id": "mbo_wp6_workshop3_slides"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_13be6b75-e3b5-4c59-a32a-e3eab7c5e26a",
+      "semantic_id": "mbo_wp6_workshop3_report"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_03af3434-536f-4318-b186-18561dc28460",
+      "semantic_id": "mbo_wp6_stakeholder_survey_pres"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_da4a19b5-f843-4f89-872a-9c876549cb68",
+      "semantic_id": "mbo_wp6_biodiv_data_needs_poster"
     }
   ],
   "missing_ids": [
