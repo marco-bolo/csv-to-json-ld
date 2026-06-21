@@ -74,11 +74,11 @@ $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(
 	@echo "=============================== Splitting $(1) ==============================="
 	@$(PARTITON_CLI) --out out/raw-jsonld "$(1)"
 	@for file in $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)); do \
-		tmp_file="$${file%.json}-input-metadata-tmp.json"; \
-		out_file="$${file%.json}-input-metadata.json"; \
-		$(PROCESS_PARA_METADATA) --git_repo_commit_file_url "$(GIT_HASH_REPO_URL)" "$$file" "$$tmp_file"; \
-		$(JSONLD_CLI) frame --frame remote/para-metadata.frame.json "$$tmp_file" > "$$out_file"; \
-		rm -f "$$tmp_file"; \
+		tmp_file="$$$${file%.json}-input-metadata-tmp.json"; \
+		out_file="$$$${file%.json}-input-metadata.json"; \
+		$(PROCESS_PARA_METADATA) --git_repo_commit_file_url "$(GIT_HASH_REPO_URL)" "$$$$file" "$$$$tmp_file"; \
+		$(JSONLD_CLI) frame --frame remote/para-metadata.frame.json "$$$$tmp_file" > "$$$$out_file"; \
+		rm -f "$$$$tmp_file"; \
 	done
 	@echo "Done."
 	@echo ""
