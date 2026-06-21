@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_42b4e971-36c9-4ed6-86c6-e97795d0e4cf",
+  "@type": "Person",
+  "familyName": "Asdar",
+  "givenName": "Sarah",
+  "identifier": "https://orcid.org/0009-0002-6251-4456",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  }
+}

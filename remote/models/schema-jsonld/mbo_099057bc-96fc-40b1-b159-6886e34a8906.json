@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_099057bc-96fc-40b1-b159-6886e34a8906",
+  "@type": "Person",
+  "familyName": "Lefebvre",
+  "givenName": "Camil",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1674ce8d-08aa-4e90-960b-858a4e3fcbcc"
+  }
+}

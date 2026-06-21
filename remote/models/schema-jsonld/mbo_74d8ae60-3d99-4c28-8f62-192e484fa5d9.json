@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_74d8ae60-3d99-4c28-8f62-192e484fa5d9",
+  "@type": "Person",
+  "familyName": "Thompson",
+  "givenName": "Fletcher",
+  "identifier": "https://orcid.org/0000-0002-0639-9871",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
+  }
+}

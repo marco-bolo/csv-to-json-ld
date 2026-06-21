@@ -10,21 +10,24 @@
   },
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+      "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
+      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
@@ -37,9 +40,6 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_43683843-9d03-42bb-b3c0-181ca9a78395"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
     }
   ],
   "conditionsOfAccess": "Embargoed until 2026-11-30",
@@ -66,14 +66,14 @@
   },
   "isBasedOn": "https://doi.org/10.5281/zenodo.17670154",
   "keywords": [
-    "ddPCR",
-    "LTER-MareChiara",
     "NEREA",
+    "LTER-MareChiara",
+    "Engraulis encrasicolus",
+    "ddPCR",
+    "anchovy",
     "eDNA",
     "Gulf of Naples",
-    "Engraulis encrasicolus",
-    "marine biodiversity",
-    "anchovy"
+    "marine biodiversity"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {

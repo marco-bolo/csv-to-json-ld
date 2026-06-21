@@ -8,8 +8,8 @@
   "familyName": "Madon",
   "givenName": "Bénédicte",
   "identifier": [
-    "https://oceanexpert.org/expert/59780",
-    "https://orcid.org/0000-0001-8608-3895"
+    "https://orcid.org/0000-0001-8608-3895",
+    "https://oceanexpert.org/expert/59780"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1674ce8d-08aa-4e90-960b-858a4e3fcbcc",
+  "@type": "CollegeOrUniversity",
+  "legalName": "École centrale de Nantes",
+  "name": "ECNantes"
+}

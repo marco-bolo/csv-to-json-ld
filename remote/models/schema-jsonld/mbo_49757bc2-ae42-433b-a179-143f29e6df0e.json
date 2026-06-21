@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e",
+  "@type": "Person",
+  "familyName": "Buongiorno Nardelli",
+  "givenName": "Bruno",
+  "identifier": "https://orcid.org/0000-0002-3416-7189",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  }
+}

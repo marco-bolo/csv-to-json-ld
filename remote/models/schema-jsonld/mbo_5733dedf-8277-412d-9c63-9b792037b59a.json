@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a",
+  "@type": "Person",
+  "familyName": "Daraghmeh",
+  "givenName": "Nauras",
+  "identifier": "https://orcid.org/0000-0001-8261-824X",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+  }
+}

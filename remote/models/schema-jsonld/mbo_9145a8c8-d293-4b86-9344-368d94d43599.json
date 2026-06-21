@@ -7,5 +7,11 @@
   "@type": "Person",
   "familyName": "Giering",
   "givenName": "Sarah Lou Carolin",
-  "identifier": "https://oceanexpert.org/expert/55091"
+  "identifier": [
+    "https://oceanexpert.org/expert/55091",
+    "https://orcid.org/0000-0002-3090-1876"
+  ],
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"
+  }
 }

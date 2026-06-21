@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a8a50618-3349-4077-8c12-2af66817ca9a",
+  "@type": "ResearchOrganization",
+  "legalName": "Centro Euro-Mediterraneo sui Cambiamenti Climatici",
+  "name": "CMCC"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10",
+  "@type": "Person",
+  "familyName": "Mercogliano",
+  "givenName": "Paola",
+  "identifier": "https://orcid.org/0000-0001-7236-010X",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a8a50618-3349-4077-8c12-2af66817ca9a"
+  }
+}

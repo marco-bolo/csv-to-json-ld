@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d2498828-ca79-403f-b3b3-899002c19d12",
+  "@type": "Person",
+  "familyName": "Ribera d'Alcalá",
+  "givenName": "Maurizio",
+  "identifier": "https://orcid.org/0000-0002-5492-9961",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+  }
+}

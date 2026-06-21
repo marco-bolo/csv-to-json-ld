@@ -9,19 +9,19 @@
   "alternateName": "D2.1",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     }
   ],
   "author": [
@@ -49,8 +49,8 @@
     "doi:10.5281/zenodo.17517691"
   ],
   "keywords": [
-    "Essential Ocean Variables (EOV)",
     "MBO WP2",
+    "Essential Ocean Variables (EOV)",
     "eDNA",
     "Essential Biodiversity Variables (EBV)"
   ],
@@ -63,11 +63,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D2.1_Jun-2024.pdf"
+      "@value": "https://zenodo.org/records/17517691"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17517691"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D2.1_Jun-2024.pdf"
     }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3",
+  "@type": "DigitalDocument",
+  "abstract": "The MARCO-BOLO project aims to structure and strengthen European coastal and marine biodiversity observation capabilities, linking these to global efforts to understand and restore ocean health, hence ensuring that outputs respond to explicit stakeholder needs from policy, planning and industry. To this end, MARCO-BOLO has established and is engaging regularly with a Community of Practice (CoP) made up of (Marine and Coastal) Biodiversity Data Generators and Data users from marine observatories, data infrastructures, and other relevant stakeholders across the EU and internationally. The project has 7 Work Packages (WPs), with WP6 responsible for facilitating stakeholder engagement amongst the technical WPs 1-5 through the CoP, as well as developing Knowledge Transfer material from WP Deliverables and wider outputs. To enable stakeholder engagement and consultation, two major CoP events and three Co-design/Co-creation Workshops were planned. In the first two years of MARCO-BOLO, WP6 convened the first CoP and three Co-design/Co-creation Workshops, all held mainly online, with the exception of the second workshop. This report is Deliverable 6.2 of the project, which provides a summary of the three co-design/co-creation/stakeholder consultation workshops and weblinks to the full workshop reports, with main conclusions and recommendations/decisions for the project workplan that have and are being considered by the MARCO-BOLO Coordination team and Project Implementation Committee (PIC) composed of WP (co)leaders. The three workshops covered: (1) 1st CoP Event & 1st Co-design/Co-creation Workshop (23 May 2024, online): Making Marine and Coastal Biodiversity Observations Policy Relevant - over 70 experts, focused on policymaker engagement and DMP/EOV/EBV uptake; (2) 2nd Co-design/Co-creation Workshop (6 November, Sitges, Spain): Solutions for Improving Marine Biodiversity Monitoring - approximately 50 in-person stakeholders, held jointly with OBAMA-NEXT and GES4SEAS as part of the JRC's Future of Marine Biodiversity Monitoring in Europe initiative; (3) 3rd Co-design/Co-creation Workshops (last week of June 2025, online targeted sessions): three sessions targeting D2.4 (eDNA-based EBVs), T2.3 + T5.2 (eDNA & AI imaging), and T5.3 (Blue Carbon spatial mapping). Cumulatively the three workshops brought almost fifty external biodiversity and marine data experts and other stakeholders. Lessons learned include: the connection across natural and social sciences via the CoP has been a strength, attracting high-level policy maker engagement; technical-WP products needed a certain level of maturity before useful co-design discussions could happen, so the third (later) workshop achieved a truer co-design interaction; ongoing engagement with Biodiversa+ and EuropaBON as core CoP members has been particularly fruitful. Further stakeholder engagement — including a Spring 2026 industry-focused event and the Final CoP Stakeholder event tentatively scheduled for September 2026 — will inform development of knowledge transfer plans and custom materials for target audiences (industry, policy makers, researchers).",
+  "alternateName": "D6.2",
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2025-11-03",
+  "schema:datePublished": "2025-12-03",
+  "description": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+  "identifier": [
+    "doi:10.5281/zenodo.20707345",
+    "Deliverable D6.2"
+  ],
+  "isBasedOn": [
+    "https://doi.org/10.5281/zenodo.17244601",
+    "https://doi.org/10.5281/zenodo.17244778",
+    "https://doi.org/10.5281/zenodo.17244832"
+  ],
+  "keywords": [
+    "Community of Practice",
+    "marine biodiversity policy",
+    "co-design workshops",
+    "stakeholder engagement",
+    "MBO WP6"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D6.2 - Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/207073459"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D6.2_Dec-2025.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20707345"
+    }
+  ],
+  "version": "1"
+}

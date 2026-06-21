@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8",
+  "@type": "Person",
+  "familyName": "Salas Leitón",
+  "givenName": "Emilio",
+  "identifier": "https://orcid.org/0000-0003-2133-1581",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+  }
+}

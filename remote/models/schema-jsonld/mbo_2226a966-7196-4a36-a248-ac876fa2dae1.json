@@ -7,7 +7,10 @@
   "@type": "Person",
   "familyName": "Lear",
   "givenName": "Dan",
-  "identifier": "https://oceanexpert.org/expert/23316",
+  "identifier": [
+    "https://orcid.org/0000-0002-5806-0837",
+    "https://oceanexpert.org/expert/23316"
+  ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
   }
