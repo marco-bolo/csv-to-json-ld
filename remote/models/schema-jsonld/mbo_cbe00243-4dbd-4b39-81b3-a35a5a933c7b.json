@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b",
+  "@type": "DigitalDocument",
+  "abstract": "DRAFT VERSION (draft 2). A finalized version with the complete WP3 author list (CNR, HEREON, SGN, UB, USE, APS contributors) is expected to be released; this record will be superseded by a new version at that time. This study evaluates the capacity of a number of existing monitoring programs in four European river-estuary-coastal systems (Elbe-North Sea, Danube-Black Sea, Po-Adriatic Sea, and Guadalquivir-Atlantic Ocean) to support Essential Biodiversity Variables (EBVs) and, where available, Essential Ocean Variables (EOVs). We analyzed more than 100 monitoring datasets across freshwater, transitional, and marine domains, assessing their readiness to generate EBVs based on spatial and temporal representativeness, taxonomic coverage, data accessibility, and methodological approach. Across all case studies, monitoring systems already provide strong foundations for EBVs related to species abundance, community composition, and ecosystem functioning. These EBVs are supported by long-term marine programs (ICES, CMEMS, LTER) and established WFD/MSFD policy. However, other EBVs — particularly trait diversity, ecosystem structure, and river-sea connectivity — are poorly represented or fragmented, especially in estuaries and wetlands. Marine data are generally more standardized, interoperable, and openly accessible, enabling easier integration into regional and global data infrastructures (EMODnet, ICES, CMEMS, BONs). Freshwater and estuarine data, although abundant, are often stored in restricted databases, limiting reuse and slowing EBV/EOV translation. The dominant barrier is data accessibility, not lack of data. All sites show high policy alignment (WFD, MSFD, Natura 2000), ensuring long-term monitoring continuity. To become EBV/EOV-ready, the systems need improved FAIR access to biological datasets, harmonized metadata and taxonomy, and better integration across freshwater-estuary-sea continuum. Overall, the monitoring capacity exists, but stronger interoperability is needed so that national monitoring smoothly flows into regional and global biodiversity observation systems.",
+  "alternateName": "D3.2",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:datePublished": "2025-11-11",
+  "description": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
+  "identifier": [
+    "Deliverable D3.2",
+    "doi:10.5281/zenodo.20776313"
+  ],
+  "keywords": [
+    "MBO WP3",
+    "Essential Biodiversity Variables (EBV)",
+    "biodiversity monitoring",
+    "Essential Ocean Variables (EOV)",
+    "river-coastal continuum"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D3.2 - Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20776313"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20776313"
+    }
+  ],
+  "version": "draft 2"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_47bbc637-52d5-4003-98bf-8cec7c3b8a12",
+  "@type": "Person",
+  "familyName": "Peredo",
+  "givenName": "Andres",
+  "identifier": "https://orcid.org/0000-0002-6353-9121",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+  }
+}

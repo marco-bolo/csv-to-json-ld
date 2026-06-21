@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54",
+  "@type": "Person",
+  "familyName": "Keuter",
+  "givenName": "Sabine",
+  "identifier": "https://orcid.org/0000-0001-8902-4882",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
+  }
+}

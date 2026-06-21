@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911",
+  "@type": "Person",
+  "familyName": "Muresan",
+  "givenName": "Mihaela",
+  "identifier": "https://orcid.org/0000-0002-8446-1263",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
+  }
+}

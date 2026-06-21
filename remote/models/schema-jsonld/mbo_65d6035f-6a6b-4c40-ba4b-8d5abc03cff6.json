@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_65d6035f-6a6b-4c40-ba4b-8d5abc03cff6",
+  "@type": "DigitalDocument",
+  "abstract": "This deliverable assesses how terrestrial and freshwater conservation areas across four major European land-river-sea systems — the Danube-Black Sea, Po-Adriatic Sea, Elbe-North Sea, and Guadalquivir-Atlantic Ocean — influence downstream coastal and marine biodiversity and ecosystem services. Using the source-to-sea paradigm and a conceptual model linking upstream ecosystem service supply, mediating flows, and downstream ecological conditions, we analyse spatially distributed protected-area coverage, ecological quality (WFD EQR-based EQC), chlorophyll-a and nutrient concentrations. Complementary storylines co-developed with case-study teams summarise the narrative pathways through which upstream protection affects coastal outcomes (see https://arcg.is/1OmDji3). Across all basins, the extent of protected areas has increased substantially since 1990, often in parallel with EU environmental policies. Statistical analyses reveal highly significant associations between upstream protected-area coverage, lower nitrogen and phosphorus concentrations, and improved ecological status — supporting the hypothesis that conservation enhances nutrient retention, hydrological buffering and habitat quality, with measurable positive signals along the freshwater-marine continuum. However, a key challenge remains the lack of integrated data systems across freshwater and marine monitoring frameworks. Discontinuities in temporal resolution, indicator definitions, and ecosystem typologies limit the ability to fully capture cumulative effects along the land-to-sea continuum. Each basin presents unique hydrological, ecological, and governance contexts that require system-specific approaches — but within a harmonised, interoperable monitoring infrastructure. Addressing this integration gap is essential for building robust cross-domain evidence bases, aligning Water Framework Directive (WFD) and Marine Strategy Framework Directive (MSFD) assessments, and advancing the EU Biodiversity Strategy for 2030. Strengthened basin-to-coast planning, integration of terrestrial/freshwater and marine policies, improved monitoring, and systematic inclusion of protected-area scenarios in modelling frameworks are essential for enhancing coastal biodiversity and ecosystem services. This deliverable supports MARCO-BOLO's broader objective of building an integrated evidence base to inform cross-domain management and the design of coherent conservation strategies across Europe's land-to-sea continuum.",
+  "alternateName": "D3.4",
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_47bbc637-52d5-4003-98bf-8cec7c3b8a12"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f91f436c-4eef-44e9-ae07-71483255de20"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:datePublished": "2025-11-26",
+  "description": "Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
+  "identifier": [
+    "Deliverable D3.4",
+    "doi:10.5281/zenodo.20776355"
+  ],
+  "keywords": [
+    "land-sea continuum",
+    "MBO WP3",
+    "ecosystem services",
+    "protected areas",
+    "nutrient dynamics"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D3.4 - Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20776355"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D3.4_Jan-2026.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20776355"
+    }
+  ],
+  "version": "1.2"
+}

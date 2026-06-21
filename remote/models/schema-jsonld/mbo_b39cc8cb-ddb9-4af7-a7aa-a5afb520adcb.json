@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb",
+  "@type": "Person",
+  "familyName": "Adamescu",
+  "givenName": "Mihai",
+  "identifier": "https://orcid.org/0000-0002-3056-8444",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+  }
+}

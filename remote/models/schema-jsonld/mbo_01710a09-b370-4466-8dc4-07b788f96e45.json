@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_01710a09-b370-4466-8dc4-07b788f96e45",
+  "@type": "DigitalDocument",
+  "abstract": "The primary aim of this deliverable is to gather comprehensive information on the key methodologies and protocols used for biodiversity monitoring across Europe. The key steps of the deliverable are: (1) outline the process for systematically gathering and analyzing information from various resources to ensure comprehensive information retrieval; (2) provide an overview of the collected information, including biodiversity monitoring variables, methods, protocols, and tools across different countries and ecosystems; and (3) identify commonalities and gaps and use this analysis to recommend actions for aligning and harmonizing land-sea biodiversity monitoring efforts. By leveraging the collective expertise of all partners, a comprehensive set of resources was selected, including European legislations (Habitats and Birds Directives, Water Framework Directive, Marine Strategy Framework Directive) as well as ESFRI Research Infrastructures and other global and international initiatives. The study identifies macro-regions and countries that are the most frequently monitored. Abundance, species composition, and biomass are commonly observed variables. Monitoring methods are better shared within marine ecosystems under the MSFD. The diversity in method descriptions across countries and ecosystems poses challenges for direct comparisons, highlighting the need for standardised protocols. Biodiversity tools are dispersed across various sources, with genetic data analysis tools prevalent but image analysis and sampling support tools underrepresented. Non-EU countries struggle to align with EU frameworks, resulting in incomplete information. Citizen science initiatives, while valuable for expanding monitoring coverage, often lack detailed methodological integration, reducing reliability. This study offers a valid approach to assess the status of biodiversity monitoring methods across the land-sea continuum in Europe. Recommendations are structured around three pillars: Information Systems and Access (information convergence such as WISE-Marine as a model for MSFD monitoring, and improved accessibility for researchers, policymakers, and the public); Standardization and Harmonization (semantic harmonisation via controlled vocabularies and thesauri, and methods harmonisation such as the Ocean Best Practices System for the marine realm, with standardized metadata describing protocols); and Collaboration and Sharing (promoting collaboration among monitoring networks, research institutions, and governmental bodies to share best practices, methodologies, and resources).",
+  "alternateName": "D3.1",
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:datePublished": "2025-04-01",
+  "description": "Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+  "identifier": [
+    "doi:10.5281/zenodo.20776269",
+    "Deliverable D3.1"
+  ],
+  "keywords": [
+    "WFD/MSFD",
+    "land-sea continuum",
+    "monitoring protocols",
+    "MBO WP3",
+    "biodiversity monitoring"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO Deliverable D3.1 - Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+  "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20776269"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_Deliverable3.1_V3.0.pdf"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20776269"
+    }
+  ],
+  "version": "3"
+}

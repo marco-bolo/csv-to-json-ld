@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec",
+  "@type": "Person",
+  "familyName": "Caruso",
+  "givenName": "Valerio",
+  "identifier": "https://orcid.org/0009-0000-8394-0142",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  }
+}

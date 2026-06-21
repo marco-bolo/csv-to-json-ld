@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f91f436c-4eef-44e9-ae07-71483255de20",
+  "@type": "Person",
+  "familyName": "Igescu",
+  "givenName": "Denisa",
+  "identifier": "https://orcid.org/0009-0001-8189-5074",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+  }
+}

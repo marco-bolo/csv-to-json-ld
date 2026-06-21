@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954",
+  "@type": "Person",
+  "familyName": "Arhire",
+  "givenName": "Georgia",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+  }
+}

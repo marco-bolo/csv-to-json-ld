@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085",
+  "@type": "Person",
+  "familyName": "Pugnetti",
+  "givenName": "Alessandra",
+  "identifier": "https://orcid.org/0000-0002-7346-6675",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  }
+}

@@ -7,5 +7,11 @@
   "@type": "Person",
   "familyName": "Haase",
   "givenName": "Peter",
-  "identifier": "https://oceanexpert.org/expert/58615"
+  "identifier": [
+    "https://orcid.org/0000-0002-9340-0438",
+    "https://oceanexpert.org/expert/58615"
+  ],
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+  }
 }
