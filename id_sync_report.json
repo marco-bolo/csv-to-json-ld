@@ -1,30 +1,63 @@
 {
-  "timestamp": "2026-06-20T01:41:53.862323",
+  "timestamp": "2026-06-21T01:38:56.335337",
   "new_ids": [
     {
       "class": "Person",
-      "uuid": "mbo_bf1361e7-7995-4de1-94ff-a734e849c925",
-      "semantic_id": "mbo_diudicone"
+      "uuid": "mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec",
+      "semantic_id": "mbo_vcaruso"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_de103263-2e56-46de-a1e8-735fb0d72085",
+      "semantic_id": "mbo_apugnetti"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911",
+      "semantic_id": "mbo_mmuresan"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb",
+      "semantic_id": "mbo_madamescu"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954",
+      "semantic_id": "mbo_garhire"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54",
+      "semantic_id": "mbo_skeuter"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_47bbc637-52d5-4003-98bf-8cec7c3b8a12",
+      "semantic_id": "mbo_aperedo"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_f91f436c-4eef-44e9-ae07-71483255de20",
+      "semantic_id": "mbo_digescu"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_01710a09-b370-4466-8dc4-07b788f96e45",
+      "semantic_id": "mbo_wp3_d3_1_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b",
+      "semantic_id": "mbo_wp3_d3_2_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_65d6035f-6a6b-4c40-ba4b-8d5abc03cff6",
+      "semantic_id": "mbo_wp3_d3_4_doc"
     }
   ],
   "missing_ids": [
-    {
-      "class": "Person",
-      "uuid": "mbo_8e84bda8-2fdb-4e0f-b59b-d6ba143325e5",
-      "semantic_id": "mbo_todo_person_michaelcunliffe",
-      "similar": []
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_caed0960-ba27-4680-b8f0-1f2f22a7d365",
-      "semantic_id": "mbo_dludicone",
-      "similar": [
-        [
-          "mbo_diudicone",
-          0.9230769230769231
-        ]
-      ]
-    },
     {
       "class": "Person",
       "uuid": "mbo_da6c57f3-efdf-4c5a-aae5-19bd1d0511d8",
