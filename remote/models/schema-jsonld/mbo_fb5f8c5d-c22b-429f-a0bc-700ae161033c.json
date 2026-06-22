@@ -7,17 +7,17 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
     }
   ],
   "familyName": "Muñiz",
   "givenName": "Carlota",
   "identifier": [
-    "https://orcid.org/0000-0001-9584-3833",
-    "https://oceanexpert.org/expert/58452"
+    "https://oceanexpert.org/expert/58452",
+    "https://orcid.org/0000-0001-9584-3833"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"

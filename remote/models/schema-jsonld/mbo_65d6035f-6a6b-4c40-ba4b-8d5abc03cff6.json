@@ -9,7 +9,13 @@
   "alternateName": "D3.4",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
@@ -18,25 +24,19 @@
       "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f91f436c-4eef-44e9-ae07-71483255de20"
+      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
+      "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f91f436c-4eef-44e9-ae07-71483255de20"
     }
   ],
   "availableLanguage": "en",
@@ -53,18 +53,18 @@
     "doi:10.5281/zenodo.20776355"
   ],
   "keywords": [
-    "land-sea continuum",
     "protected areas",
+    "MBO WP3",
     "ecosystem services",
     "nutrient dynamics",
-    "MBO WP3"
+    "land-sea continuum"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D3.4 - Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776355"
+      "@value": "https://doi.org/10.5281/zenodo.20776355"
     },
     {
       "@type": "URL",
@@ -72,7 +72,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20776355"
+      "@value": "https://zenodo.org/records/20776355"
     }
   ],
   "version": "1.2"

@@ -11,8 +11,8 @@
   "familyName": "Bergami",
   "givenName": "Caterina",
   "identifier": [
-    "https://oceanexpert.org/expert/58369",
-    "https://orcid.org/0000-0002-5284-1317"
+    "https://orcid.org/0000-0002-5284-1317",
+    "https://oceanexpert.org/expert/58369"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
