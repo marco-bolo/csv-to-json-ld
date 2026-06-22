@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ffcfc14d-53ae-4119-84da-370299b1e5d9"
+  },
   "familyName": "Arhire",
   "givenName": "Georgia",
   "worksFor": {

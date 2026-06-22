@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e"
+  },
   "familyName": "Vecchi",
   "givenName": "Giulia",
   "worksFor": {

@@ -20,22 +20,22 @@
   "schema:datePublished": "2025-11-11",
   "description": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
   "identifier": [
-    "Deliverable D3.2",
-    "doi:10.5281/zenodo.20776313"
+    "doi:10.5281/zenodo.20776313",
+    "Deliverable D3.2"
   ],
   "keywords": [
     "Essential Ocean Variables (EOV)",
-    "biodiversity monitoring",
     "river-coastal continuum",
     "Essential Biodiversity Variables (EBV)",
-    "MBO WP3"
+    "MBO WP3",
+    "biodiversity monitoring"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D3.2 - Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
     },
     {
       "@type": "URL",
@@ -43,7 +43,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
+      "@value": "https://zenodo.org/records/20776313"
     }
   ],
   "version": "draft 2"

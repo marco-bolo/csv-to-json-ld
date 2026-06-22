@@ -5,6 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5",
   "@type": "Person",
+  "contactPoint": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+    }
+  ],
   "familyName": "Gallo",
   "givenName": "Natalya",
   "identifier": "https://orcid.org/0000-0001-5168-4244",

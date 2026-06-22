@@ -5,11 +5,22 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd",
   "@type": "Person",
+  "contactPoint": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4496d710-82a0-44a8-b3b0-e3e165eb7bf8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5ba7ac3-dbc1-4e3f-a730-d43cb328ad11"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ace14210-a9a6-4ba5-a3de-4004587de4f5"
+    }
+  ],
   "familyName": "Larkin",
   "givenName": "Kate",
   "identifier": [
-    "https://oceanexpert.org/expert/25892",
-    "https://orcid.org/0000-0002-5713-6465"
+    "https://orcid.org/0000-0002-5713-6465",
+    "https://oceanexpert.org/expert/25892"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"

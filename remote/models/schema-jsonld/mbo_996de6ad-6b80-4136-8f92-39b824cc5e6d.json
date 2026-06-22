@@ -5,11 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61"
+  },
   "familyName": "Jensen",
   "givenName": "Mads Reinholdt",
   "identifier": [
-    "https://oceanexpert.org/expert/54167",
-    "https://orcid.org/0000-0001-7418-1244"
+    "https://orcid.org/0000-0001-7418-1244",
+    "https://oceanexpert.org/expert/54167"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_7f3896d1-5d7b-4019-96af-22a7dc519670"

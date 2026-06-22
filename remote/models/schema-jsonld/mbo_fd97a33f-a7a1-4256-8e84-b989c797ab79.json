@@ -7,25 +7,25 @@
   "@type": "Dataset",
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e25f6218-3684-4a5c-9033-bc6894f18b2f"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33"
+      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
     }
   ],
   "contributor": {
@@ -40,8 +40,8 @@
   "identifier": "doi:10.5281/zenodo.19329403",
   "keywords": [
     "NORCE",
-    "EMBRC",
-    "MARCO-BOLO"
+    "MARCO-BOLO",
+    "EMBRC"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "Oceanographic drivers of carbon storage in European seagrass beds: Environmental datasets",

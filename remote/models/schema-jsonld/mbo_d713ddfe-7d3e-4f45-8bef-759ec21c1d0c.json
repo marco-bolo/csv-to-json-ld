@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_170e1a0f-3b7c-42ac-9661-16baa958491e"
+  },
   "familyName": "Vadrot",
   "givenName": "Alice BM",
   "identifier": "https://orcid.org/0000-0002-6043-9846",

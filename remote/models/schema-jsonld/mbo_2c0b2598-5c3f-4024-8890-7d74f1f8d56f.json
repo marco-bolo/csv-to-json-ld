@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_2c0b2598-5c3f-4024-8890-7d74f1f8d56f",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_0b48e016-8464-4bbf-ad72-18c49be40774"
+  },
   "familyName": "Pade",
   "givenName": "Nicolas",
   "identifier": [

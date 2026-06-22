@@ -23,10 +23,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+      "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
     }
   ],
   "availableLanguage": "en",
@@ -43,15 +43,15 @@
     "doi:10.5281/zenodo.17537386"
   ],
   "keywords": [
-    "EOV",
-    "metadata",
     "data management",
     "FAIR",
+    "EOV",
+    "metadata",
     "marine biodiversity",
     "EBV",
-    "persistent identifiers",
+    "JSON-LD",
     "linked open data",
-    "JSON-LD"
+    "persistent identifiers"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",
@@ -62,11 +62,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17537386"
+      "@value": "https://zenodo.org/records/17537386"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17537386"
+      "@value": "https://doi.org/10.5281/zenodo.17537386"
     }
   ]
 }

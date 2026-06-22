@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a"
+  },
   "familyName": "Exter",
   "givenName": "Katrina",
   "identifier": [

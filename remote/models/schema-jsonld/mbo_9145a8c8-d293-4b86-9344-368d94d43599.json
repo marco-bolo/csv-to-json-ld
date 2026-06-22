@@ -5,11 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_9145a8c8-d293-4b86-9344-368d94d43599",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
+  },
   "familyName": "Giering",
   "givenName": "Sarah Lou Carolin",
   "identifier": [
-    "https://oceanexpert.org/expert/55091",
-    "https://orcid.org/0000-0002-3090-1876"
+    "https://orcid.org/0000-0002-3090-1876",
+    "https://oceanexpert.org/expert/55091"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"

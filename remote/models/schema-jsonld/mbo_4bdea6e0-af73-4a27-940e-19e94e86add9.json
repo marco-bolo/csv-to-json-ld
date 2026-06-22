@@ -5,6 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9",
   "@type": "Person",
+  "contactPoint": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_03fe64dc-706f-4e09-ba2f-2933507dcf67"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581"
+    }
+  ],
   "familyName": "Obst",
   "givenName": "Matthias",
   "identifier": "https://orcid.org/0000-0003-0264-9631",

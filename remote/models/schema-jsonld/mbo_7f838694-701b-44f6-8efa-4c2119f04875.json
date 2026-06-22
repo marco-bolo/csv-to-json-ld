@@ -8,10 +8,10 @@
   "abstract": "Collecting and processing samples destined for eDNA",
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+      "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
+      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
     }
   ],
   "name": "T4.4 eDNA collect and process: from seabed",

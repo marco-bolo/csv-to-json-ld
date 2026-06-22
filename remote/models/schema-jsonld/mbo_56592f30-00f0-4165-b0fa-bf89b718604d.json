@@ -8,8 +8,8 @@
   "familyName": "Buttigieg",
   "givenName": "Pier Luigi",
   "identifier": [
-    "https://oceanexpert.org/expert/34461",
-    "https://orcid.org/0000-0002-4366-3088"
+    "https://orcid.org/0000-0002-4366-3088",
+    "https://oceanexpert.org/expert/34461"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"

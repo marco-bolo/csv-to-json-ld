@@ -5,6 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c",
   "@type": "Person",
+  "contactPoint": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+    }
+  ],
   "familyName": "Muñiz",
   "givenName": "Carlota",
   "identifier": [

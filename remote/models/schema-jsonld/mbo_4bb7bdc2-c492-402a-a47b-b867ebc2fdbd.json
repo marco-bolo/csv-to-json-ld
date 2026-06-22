@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_683b2b3e-5972-480a-ba70-ca68992dbdae"
+  },
   "familyName": "Cano-Barbacil",
   "givenName": "Carlos",
   "identifier": "https://orcid.org/0000-0002-6482-5103",

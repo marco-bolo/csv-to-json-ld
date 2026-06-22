@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+  },
   "familyName": "Nowé",
   "givenName": "Jo-Hannes",
   "identifier": "https://orcid.org/0009-0000-1555-5867",

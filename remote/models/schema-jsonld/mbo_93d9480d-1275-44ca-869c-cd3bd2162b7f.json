@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dfef8783-b826-4b18-8017-c414283df03f"
+  },
   "familyName": "Sanders",
   "givenName": "Richard",
   "identifier": "https://orcid.org/0000-0002-6884-7131",

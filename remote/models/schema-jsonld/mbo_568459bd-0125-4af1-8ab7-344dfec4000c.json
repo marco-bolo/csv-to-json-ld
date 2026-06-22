@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9eb43660-5563-43bb-a694-e35513253ff7"
+  },
   "familyName": "Arvanitidis",
   "givenName": "Christos",
   "identifier": "https://oceanexpert.org/expert/24333"

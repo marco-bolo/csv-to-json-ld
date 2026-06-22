@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f395721a-2023-4bf9-a2e0-462a61bcc3e5"
+  },
   "familyName": "Bergami",
   "givenName": "Caterina",
   "identifier": [

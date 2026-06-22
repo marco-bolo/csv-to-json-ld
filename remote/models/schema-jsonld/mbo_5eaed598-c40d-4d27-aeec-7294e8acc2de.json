@@ -5,11 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d"
+  },
   "familyName": "Vidal",
   "givenName": "Mathilde",
   "identifier": [
-    "https://oceanexpert.org/expert/60642",
-    "https://orcid.org/0000-0003-2178-7052"
+    "https://orcid.org/0000-0003-2178-7052",
+    "https://oceanexpert.org/expert/60642"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"

@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cfd66405-b20a-4bcf-90b9-63586ac5e4b0"
+  },
   "familyName": "Robidart",
   "givenName": "Julie",
   "identifier": "https://orcid.org/0000-0001-9805-3570",

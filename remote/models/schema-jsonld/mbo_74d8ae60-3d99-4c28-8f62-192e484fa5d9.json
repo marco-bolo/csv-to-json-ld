@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_74d8ae60-3d99-4c28-8f62-192e484fa5d9",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76"
+  },
   "familyName": "Thompson",
   "givenName": "Fletcher",
   "identifier": "https://orcid.org/0000-0002-0639-9871",

@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8",
   "@type": "Person",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e17c3c1a-f71e-4bb8-94e7-b6f63407f9c5"
+  },
   "familyName": "Cunliffe",
   "givenName": "Michael",
   "identifier": "https://orcid.org/0000-0002-6716-3555",

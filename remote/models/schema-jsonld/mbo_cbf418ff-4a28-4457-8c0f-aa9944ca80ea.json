@@ -8,11 +8,19 @@
   "affiliation": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
   },
+  "contactPoint": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e0ac6c44-24fb-4205-ab92-34e3109e9bc2"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6"
+    }
+  ],
   "familyName": "Heynderickx",
   "givenName": "Hanneloor",
   "identifier": [
-    "https://oceanexpert.org/expert/61691",
-    "https://orcid.org/0000-0002-5611-837X"
+    "https://orcid.org/0000-0002-5611-837X",
+    "https://oceanexpert.org/expert/61691"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"

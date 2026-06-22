@@ -35,11 +35,11 @@
     "https://doi.org/10.5281/zenodo.17537386"
   ],
   "keywords": [
-    "FAIR",
-    "interoperability",
-    "MBO WP7",
     "ODIS",
-    "data management plan"
+    "MBO WP7",
+    "interoperability",
+    "data management plan",
+    "FAIR"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.7 - Project Data Management Plan Update 1",

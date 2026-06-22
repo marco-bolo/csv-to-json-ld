@@ -21,11 +21,11 @@
   "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
   "identifier": "doi:10.5281/zenodo.17236790",
   "keywords": [
-    "Community of Practice",
     "co-design workshop",
-    "presentation slides",
     "stakeholder engagement",
-    "MBO WP6"
+    "MBO WP6",
+    "Community of Practice",
+    "presentation slides"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
