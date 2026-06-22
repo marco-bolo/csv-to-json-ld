@@ -3,21 +3,21 @@ mbo_balric,mbo_madsrj,mbo_wp2_d2,Benjamin,Alric,,,,
 mbo_lamadeimartinez,mbo_sformel,mbo_db_tool_population,Luz,Amadei Martinez,mbo_org_vliz,,,https://orcid.org/0000-0001-5960-7972
 mbo_gannona,mbo_sformel,mbo_wp2_d2_2,Giovanni,Annona,,mbo_org_szn,,https://orcid.org/0000-0001-7806-6761
 mbo_11770,mbo_sformel,mbo_db_tool_population,Ward,Appeltans,mbo_org_obis,,,https://oceanexpert.org/expert/11770
-mbo_24333,mbo_sformel,mbo_db_tool_population,Christos,Arvanitidis,,,,https://oceanexpert.org/expert/24333
+mbo_24333,mbo_sformel,mbo_db_tool_population,Christos,Arvanitidis,,,mbo_contact_wp5_d5_5_2,https://oceanexpert.org/expert/24333
 mbo_roblinksdata,mbo_sformel,mbo_db_task_1_1,Rob,Barry,mbo_org_awi,mbo_org_awi,,
 mbo_jbeatty,mbo_madsrj,mbo_wp2_d2,Jennifer,Beatty,,,,
 mbo_28269,mbo_sformel,mbo_db_tool_population,Joana,Beja,,,,https://oceanexpert.org/expert/28269
 mbo_dbellardini,mbo_sformel,mbo_wp2_d2_2,Daniele,Bellardini,,mbo_org_szn,,https://orcid.org/0000-0002-3319-7036
-mbo_49824,mbo_sformel,mbo_db_tool_population,Lisa,Benedetti,mbo_org_obis,mbo_org_unesco,,https://oceanexpert.org/expert/49824|https://orcid.org/0009-0001-3827-7318
-mbo_58369,mbo_sformel,mbo_db_tool_population,Caterina,Bergami,mbo_org_cnr,,,https://oceanexpert.org/expert/58369|https://orcid.org/0000-0002-5284-1317
+mbo_49824,mbo_sformel,mbo_db_tool_population,Lisa,Benedetti,mbo_org_obis,mbo_org_unesco,mbo_contact_wp6_d6_2|mbo_contact_wp6_t6_1|mbo_contact_wp6_t6_2,https://oceanexpert.org/expert/49824|https://orcid.org/0009-0001-3827-7318
+mbo_58369,mbo_sformel,mbo_db_tool_population,Caterina,Bergami,mbo_org_cnr,,mbo_contact_wp3_d3_1,https://oceanexpert.org/expert/58369|https://orcid.org/0000-0002-5284-1317
 mbo_eboulanger,mbo_madsrj,mbo_wp2_d2,Emilie,Boulanger,mbo_org_obis,,,https://orcid.org/0000-0002-6446-7342
-mbo_cbowler,mbo_madsrj,mbo_wp2_d2,Chris,Bowler,,,,https://orcid.org/0000-0003-3835-6187
+mbo_cbowler,mbo_madsrj,mbo_wp2_d2,Chris,Bowler,,,mbo_contact_wp2_d2_4,https://orcid.org/0000-0003-3835-6187
 mbo_34461,mbo_sformel,mbo_db_tool_population,Pier Luigi,Buttigieg,mbo_org_awi,,,https://oceanexpert.org/expert/34461|https://orcid.org/0000-0002-4366-3088
-mbo_ccanobarbacil,mbo_sformel,mbo_db_tool_population,Carlos,Cano-Barbacil,mbo_org_sgn,,,https://orcid.org/0000-0002-6482-5103
+mbo_ccanobarbacil,mbo_sformel,mbo_db_tool_population,Carlos,Cano-Barbacil,mbo_org_sgn,,mbo_contact_wp5_d5_1,https://orcid.org/0000-0002-6482-5103
 mbo_rcasotti,mbo_sformel,mbo_wp2_d2_2,Raffaella,Casotti,,mbo_org_szn,mbo_cp_rcasotti_ddPCR,https://orcid.org/0000-0002-9876-4601
 mbo_59077,mbo_sformel,mbo_db_tool_population,Adriana,Constantinescu,,,,https://oceanexpert.org/expert/59077
 mbo_38252,mbo_sformel,mbo_db_tool_population,Cristian,Cudalbu,,,,https://oceanexpert.org/expert/38252
-mbo_mcunliffe,mbo_jwarwickdugdale,mbo_wp2_t2_3,Michael,Cunliffe,mbo_org_mba,,,https://orcid.org/0000-0002-6716-3555
+mbo_mcunliffe,mbo_jwarwickdugdale,mbo_wp2_t2_3,Michael,Cunliffe,mbo_org_mba,,mbo_contact_wp2_d2_3,https://orcid.org/0000-0002-6716-3555
 mbo_ddalelio,mbo_sformel,mbo_wp2_d2_2,Domenico,D'Alelio,,mbo_org_szn,,https://orcid.org/0000-0002-2189-503X
 mbo_pdeluca,mbo_sformel,mbo_wp2_d2_2,Pasquale,De Luca,,mbo_org_szn,,https://orcid.org/0000-0003-4289-6784
 mbo_edebusschere,mbo_kexter,mbo_task_4_4_seatrial,Elisabeth,Debusschere,mbo_org_vliz,,,https://orcid.org/0000-0002-5595-0295
@@ -26,45 +26,45 @@ mbo_39481,mbo_sformel,mbo_db_tool_population,Davide,Di Cioccio,mbo_org_embrc,,,h
 mbo_vdituccio,mbo_sformel,mbo_wp2_d2_2,Viviana,Di Tuccio,,mbo_org_szn,,https://orcid.org/0000-0002-3826-7697
 mbo_gduspara,mbo_sformel,mbo_db_tool_population,Guillaume,Duspara,mbo_org_embrc,,,
 mbo_meliso,mbo_sformel,mbo_wp2_d2_2,Maria Concetta,Eliso,,mbo_org_szn,,https://orcid.org/0000-0002-5914-8312
-mbo_kexter,mbo_sformel,mbo_db_tool_population,Katrina,Exter,mbo_org_vliz,,,https://oceanexpert.org/expert/58464|https://orcid.org/0000-0002-5911-1536
+mbo_kexter,mbo_sformel,mbo_db_tool_population,Katrina,Exter,mbo_org_vliz,,mbo_contact_kexter,https://oceanexpert.org/expert/58464|https://orcid.org/0000-0002-5911-1536
 mbo_66048,mbo_sformel,mbo_db_tool_population,Miguel,Fernandez,,,,https://oceanexpert.org/expert/66048
 mbo_28159,mbo_sformel,mbo_db_tool_population,Vicente,Fernández,,,,https://oceanexpert.org/expert/28159
 mbo_56774,mbo_sformel,mbo_db_tool_population,Chloe,Figueroa Ashforth,mbo_org_mba,,,https://oceanexpert.org/expert/56774
 mbo_sformel,mbo_sformel,mbo_db_tool_population,Stephen,Formel,mbo_org_obis,mbo_org_unesco,mbo_contact_sformel,https://oceanexpert.org/expert/54167
-mbo_ngallo,mbo_sformel,mbo_db_tool_population,Natalya,Gallo,mbo_org_norce,,,https://orcid.org/0000-0001-5168-4244
-mbo_55091,mbo_sformel,mbo_db_tool_population,Sarah Lou Carolin,Giering,mbo_org_noc,,,https://oceanexpert.org/expert/55091|https://orcid.org/0000-0002-3090-1876
+mbo_ngallo,mbo_sformel,mbo_db_tool_population,Natalya,Gallo,mbo_org_norce,,mbo_contact_wp5_d5_3|mbo_contact_wp5_t5_3,https://orcid.org/0000-0001-5168-4244
+mbo_55091,mbo_sformel,mbo_db_tool_population,Sarah Lou Carolin,Giering,mbo_org_noc,,mbo_contact_wp4_d4_1_2,https://oceanexpert.org/expert/55091|https://orcid.org/0000-0002-3090-1876
 mbo_58245,mbo_sformel,mbo_db_tool_population,Charlie,Gough,,,,https://oceanexpert.org/expert/58245
 mbo_43953,mbo_sformel,mbo_db_tool_population,Maria,Grigoratou,,,,https://oceanexpert.org/expert/43953
 mbo_58615,mbo_sformel,mbo_db_tool_population,Peter,Haase,mbo_org_sgn,,,https://oceanexpert.org/expert/58615|https://orcid.org/0000-0002-9340-0438
 mbo_58451,mbo_sformel,mbo_db_tool_population,Avril,Hanbidge,mbo_org_erinn,,,https://oceanexpert.org/expert/58451
-mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,mbo_org_vliz,,https://oceanexpert.org/expert/61691|https://orcid.org/0000-0002-5611-837X
+mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,mbo_org_vliz,mbo_contact_wp5_d5_2|mbo_contact_wp5_t5_2,https://oceanexpert.org/expert/61691|https://orcid.org/0000-0002-5611-837X
 mbo_16535,mbo_sformel,mbo_db_tool_population,Neil,Holdsworth,,,,https://oceanexpert.org/expert/16535
 mbo_lilihufnagel,mbo_kexter,mbo_t3_3_agents,Lili,Hufnagel,mbo_org_ufz,mbo_org_ufz,mbo_contact_wp3_t3_3,https://orcid.org/0009-0008-7905-3100
-mbo_madsrj,mbo_sformel,mbo_db_tool_population,Mads Reinholdt,Jensen,mbo_org_uit_genetics,,,https://oceanexpert.org/expert/54167|https://orcid.org/0000-0001-7418-1244
+mbo_madsrj,mbo_sformel,mbo_db_tool_population,Mads Reinholdt,Jensen,mbo_org_uit_genetics,,mbo_contact_wp2_d2_2,https://oceanexpert.org/expert/54167|https://orcid.org/0000-0001-7418-1244
 mbo_pciarlini_junger,mbo_madsrj,mbo_wp2_d2,Pedro Ciarlini,Junger,,,,https://orcid.org/0000-0001-8774-0738
 mbo_rlagaisse,mbo_sformel,mbo_db_tool_population,Rune,Lagaisse,mbo_org_vliz,,,https://orcid.org/0000-0001-9191-9104
 mbo_claguionie,mbo_madsrj,mbo_wp2_d2,Claire,Laguionie,,,,
-mbo_25892,mbo_sformel,mbo_db_tool_population,Kate,Larkin,mbo_org_ssbe,,,https://oceanexpert.org/expert/25892|https://orcid.org/0000-0002-5713-6465
+mbo_25892,mbo_sformel,mbo_db_tool_population,Kate,Larkin,mbo_org_ssbe,,mbo_contact_wp6_d6_3|mbo_contact_wp6_d6_4|mbo_contact_wp6_t6_3,https://oceanexpert.org/expert/25892|https://orcid.org/0000-0002-5713-6465
 mbo_13339,mbo_sformel,mbo_db_tool_population,Pierre Yves,Le Traon,,,,https://oceanexpert.org/expert/13339
-mbo_23316,mbo_sformel,mbo_db_tool_population,Dan,Lear,mbo_org_mba,,,https://oceanexpert.org/expert/23316|https://orcid.org/0000-0002-5806-0837
+mbo_23316,mbo_sformel,mbo_db_tool_population,Dan,Lear,mbo_org_mba,,mbo_contact_dan|mbo_contact_wp1_d1_1|mbo_contact_wp1_d1_2|mbo_contact_wp1_d1_3|mbo_contact_wp1_t1_1|mbo_contact_wp1_t1_2|mbo_contact_wp1_t1_3|mbo_contact_wp1_t1_4,https://oceanexpert.org/expert/23316|https://orcid.org/0000-0002-5806-0837
 mbo_7925,mbo_sformel,mbo_db_tool_population,Inga,Lips,,,,https://oceanexpert.org/expert/7925
 mbo_diudicone,mbo_sformel,mbo_wp2_d2_2,Daniele,Iudicone,,mbo_org_szn,,https://oceanexpert.org/expert/59161|https://orcid.org/0000-0002-7473-394X
 mbo_59780,mbo_sformel,mbo_db_tool_population,Bénédicte,Madon,mbo_org_use,,,https://oceanexpert.org/expert/59780|https://orcid.org/0000-0001-8608-3895
-mbo_pmariani,mbo_sformel,mbo_db_tool_population,Patrizio,Mariani,mbo_org_dtu,,,https://orcid.org/0000-0002-8015-1583
+mbo_pmariani,mbo_sformel,mbo_db_tool_population,Patrizio,Mariani,mbo_org_dtu,,mbo_contact_wp4_d4_2|mbo_contact_wp5_t5_1_3,https://orcid.org/0000-0002-8015-1583
 mbo_59174,mbo_sformel,mbo_db_tool_population,Mojtaba,Masoudi,mbo_org_noc,,,https://oceanexpert.org/expert/59174|https://orcid.org/0000-0002-0007-0362
-mbo_imatejusova,mbo_madsrj,mbo_wp2_d2,Iveta,Matejusová,mbo_org_frs,,,https://orcid.org/0000-0002-3241-043X
+mbo_imatejusova,mbo_madsrj,mbo_wp2_d2,Iveta,Matejusová,mbo_org_frs,,mbo_contact_wp2_d2_1,https://orcid.org/0000-0002-3241-043X
 mbo_62379,mbo_sformel,mbo_db_tool_population,Abigail,McQuatters-Gollop,,,,https://oceanexpert.org/expert/62379
 mbo_dkumazawa_morais,mbo_madsrj,mbo_wp2_d2,Daniel Kumazawa,Morais,mbo_org_uit_genetics,,,https://orcid.org/0000-0003-3328-7848
 mbo_55557,mbo_sformel,mbo_db_tool_population,Lina,Mtwana Nordlund,,,,https://oceanexpert.org/expert/55557
 mbo_1486,mbo_sformel,mbo_db_tool_population,Frank,Muller-Karger,,,,https://oceanexpert.org/expert/1486
-mbo_58452,mbo_sformel,mbo_db_tool_population,Carlota,Muñiz,mbo_org_vliz,,,https://oceanexpert.org/expert/58452|https://orcid.org/0000-0001-9584-3833
-mbo_fnot,mbo_madsrj,mbo_wp2_d2,Fabrice,Not,,,,https://oceanexpert.org/expert/58571|https://orcid.org/0000-0002-9342-195X
-mbo_jnowe,mbo_sformel,mbo_db_tool_population,Jo-Hannes,Nowé,mbo_org_vliz,,,https://orcid.org/0009-0000-1555-5867
-mbo_mobst,mbo_sformel,mbo_db_tool_population,Matthias,Obst,mbo_org_ugot,,,https://orcid.org/0000-0003-0264-9631
+mbo_58452,mbo_sformel,mbo_db_tool_population,Carlota,Muñiz,mbo_org_vliz,,mbo_contact_wp4_d4_1|mbo_contact_wp4_d4_4,https://oceanexpert.org/expert/58452|https://orcid.org/0000-0001-9584-3833
+mbo_fnot,mbo_madsrj,mbo_wp2_d2,Fabrice,Not,,,mbo_contact_wp2_d2_5,https://oceanexpert.org/expert/58571|https://orcid.org/0000-0002-9342-195X
+mbo_jnowe,mbo_sformel,mbo_db_tool_population,Jo-Hannes,Nowé,mbo_org_vliz,,mbo_contact_wp5_t5_1_2,https://orcid.org/0009-0000-1555-5867
+mbo_mobst,mbo_sformel,mbo_db_tool_population,Matthias,Obst,mbo_org_ugot,,mbo_contact_wp5_d5_4_2|mbo_contact_wp5_t5_4,https://orcid.org/0000-0003-0264-9631
 mbo_27395,mbo_sformel,mbo_db_tool_population,Alessandro,Oggioni,,,,https://oceanexpert.org/expert/27395
 mbo_aounoufriou,mbo_madsrj,mbo_wp2_d2,Aubrie,Onoufriou,,,,https://orcid.org/0000-0002-4605-1896
-mbo_44123,mbo_sformel,mbo_db_tool_population,Nicolas,Pade,mbo_org_embrc,,,https://oceanexpert.org/expert/44123|https://orcid.org/0000-0003-2733-9752
-mbo_aperedoarce,mbo_aperedoarce,mbo_wp5_t5_1_1,Andrés,Peredo Arce,mbo_org_sgn,,,https://oceanexpert.org/expert/84963|https://orcid.org/0000-0002-6353-9121
+mbo_44123,mbo_sformel,mbo_db_tool_population,Nicolas,Pade,mbo_org_embrc,,mbo_contact_nick,https://oceanexpert.org/expert/44123|https://orcid.org/0000-0003-2733-9752
+mbo_aperedoarce,mbo_aperedoarce,mbo_wp5_t5_1_1,Andrés,Peredo Arce,mbo_org_sgn,,mbo_contact_wp5_t5_1_1,https://oceanexpert.org/expert/84963|https://orcid.org/0000-0002-6353-9121
 mbo_43716,mbo_sformel,mbo_db_tool_population,Marc,Portier,mbo_org_vliz,,,https://oceanexpert.org/expert/43716
 mbo_39344,mbo_sformel,mbo_db_tool_population,Kim,Præbel,mbo_org_uit_genetics,,,https://oceanexpert.org/expert/39344|https://orcid.org/0000-0002-0681-1854
 mbo_26192,mbo_sformel,mbo_db_tool_population,Pieter,Provoost,,,,https://oceanexpert.org/expert/26192
@@ -78,13 +78,13 @@ mbo_43352,mbo_sformel,mbo_db_tool_population,Saara,Suominen,mbo_org_obis,,,https
 mbo_27401,mbo_sformel,mbo_db_tool_population,Paolo,Tagliolato,mbo_org_cnr,,,https://oceanexpert.org/expert/27401
 mbo_60462,mbo_sformel,mbo_db_tool_population,Megan,Tijssens,,,,https://oceanexpert.org/expert/60462
 mbo_avasic,mbo_sformel,mbo_db_tool_population,Alexandra,Vasic,mbo_org_embrc,,,
-mbo_60642,mbo_sformel,mbo_db_tool_population,Mathilde,Vidal,mbo_org_erinn,,,https://oceanexpert.org/expert/60642|https://orcid.org/0000-0003-2178-7052
+mbo_60642,mbo_sformel,mbo_db_tool_population,Mathilde,Vidal,mbo_org_erinn,,mbo_contact_mathilde,https://oceanexpert.org/expert/60642|https://orcid.org/0000-0003-2178-7052
 mbo_jwarwickdugdale,mbo_jwarwickdugdale,mbo_wp2_t2_3,Joanna,Warwick-Dugdale,mbo_org_mba,,mbo_contact_wp2_d2_3,https://oceanexpert.org/expert/88666|https://orcid.org/0000-0001-5242-6706
 mbo_gzampicinini,mbo_sformel,mbo_wp2_d2_2,Gianpaolo,Zampicinini,,mbo_org_szn,,https://orcid.org/0000-0003-3028-5812
 mbo_lzinger,mbo_sformel,mbo_db_tool_population,Lucie,Zinger,,,,https://orcid.org/0000-0002-3400-5825
 mbo_etramontin,mbo_sformel,mbo_wp2_d2_2,Eugenia,Tramontin,mbo_org_szn,,,https://orcid.org/0009-0000-9228-7886
 mbo_javieralonso,mbo_kexter,mbo_wp4_d4_4,Javier,Alonso Fernandez,mbo_org_dtu,,,https://orcid.org/0009-0007-8561-6793
-mbo_julierobidart,mbo_kexter,mbo_wp4_d4_4,Julie,Robidart,mbo_org_noc,,,https://orcid.org/0000-0001-9805-3570
+mbo_julierobidart,mbo_kexter,mbo_wp4_d4_4,Julie,Robidart,mbo_org_noc,,mbo_contact_wp4_d4_1_1,https://orcid.org/0000-0001-9805-3570
 mbo_danieledecorte,mbo_kexter,mbo_wp4_d4_4,Daniele de Corte,de Corte,mbo_org_univie,,,https://orcid.org/0000-0002-9782-9821
 mbo_abennett,mbo_sformel,mbo_wp2_d2_2,Adam John,Bennett,mbo_org_minderoo,,,https://orcid.org/0009-0000-7038-2890
 mbo_aabdala,mbo_sformel,mbo_wp2_d2_2,Alejandro,Abdala,,,,
@@ -127,10 +127,10 @@ mbo_lafonso,mbo_sformel,mbo_wp2_d2_4,Luís,Afonso,mbo_org_ciimar,,,https://orcid
 mbo_vcaruso,mbo_sformel,mbo_wp3_d3_1,Valerio,Caruso,mbo_org_cnr,,,https://orcid.org/0009-0000-8394-0142
 mbo_apugnetti,mbo_sformel,mbo_wp3_d3_1,Alessandra,Pugnetti,mbo_org_cnr,,,https://orcid.org/0000-0002-7346-6675
 mbo_mmuresan,mbo_sformel,mbo_wp3_d3_2,Mihaela,Muresan,mbo_org_geoecom,,,https://orcid.org/0000-0002-8446-1263
-mbo_madamescu,mbo_sformel,mbo_wp3_d3_4,Mihai,Adamescu,mbo_org_ub,,,https://orcid.org/0000-0002-3056-8444
-mbo_garhire,mbo_sformel,mbo_wp3_d3_4,Georgia,Arhire,mbo_org_ub,,,
+mbo_madamescu,mbo_sformel,mbo_wp3_d3_4,Mihai,Adamescu,mbo_org_ub,,mbo_contact_wp3_d3_4_1|mbo_contact_wp3_d3_4_2,https://orcid.org/0000-0002-3056-8444
+mbo_garhire,mbo_sformel,mbo_wp3_d3_4,Georgia,Arhire,mbo_org_ub,,mbo_contact_wp3_d3_4_3,
 mbo_skeuter,mbo_sformel,mbo_wp3_d3_4,Sabine,Keuter,mbo_org_hereon,,,https://orcid.org/0000-0001-8902-4882
-mbo_fthompson,mbo_sformel,mbo_wp4_d4_1,Fletcher,Thompson,mbo_org_dtu,,,https://orcid.org/0000-0002-0639-9871
+mbo_fthompson,mbo_sformel,mbo_wp4_d4_1,Fletcher,Thompson,mbo_org_dtu,,mbo_contact_wp4_d4_1_3,https://orcid.org/0000-0002-0639-9871
 mbo_fkokoszka,mbo_sformel,mbo_wp5_d5_1,Florian,Kokoszka,mbo_org_cnr,mbo_org_szn,,https://orcid.org/0000-0001-5346-3058
 mbo_sasdar,mbo_sformel,mbo_wp5_d5_1,Sarah,Asdar,mbo_org_cnr,,,https://orcid.org/0009-0002-6251-4456
 mbo_clefebvre,mbo_sformel,mbo_wp5_d5_1,Camil,Lefebvre,mbo_org_ecnantes,,,
@@ -139,7 +139,7 @@ mbo_pmercogliano,mbo_sformel,mbo_wp5_d5_1,Paola,Mercogliano,mbo_org_cmcc,,,https
 mbo_mriberadalcala,mbo_sformel,mbo_wp5_d5_1,Maurizio,Ribera d'Alcalá,mbo_org_szn,,,https://orcid.org/0000-0002-5492-9961
 mbo_fmargiotta,mbo_sformel,mbo_wp5_d5_1,Francesca,Margiotta,mbo_org_szn,,,https://orcid.org/0000-0003-0757-5934
 mbo_schemello,mbo_sformel,mbo_wp5_d5_3,Silvia,Chemello,mbo_org_ciimar,,,https://orcid.org/0000-0001-6151-891X
-mbo_rsanders,mbo_sformel,mbo_wp5_d5_3,Richard,Sanders,mbo_org_norce,,,https://orcid.org/0000-0002-6884-7131
+mbo_rsanders,mbo_sformel,mbo_wp5_d5_3,Richard,Sanders,mbo_org_norce,,mbo_contact_wp5_d5_4_1,https://orcid.org/0000-0002-6884-7131
 mbo_kblix,mbo_sformel,mbo_wp5_d5_3,Katalin,Blix,mbo_org_norce,,,https://orcid.org/0009-0001-3994-1559
 mbo_jhaarpaintner,mbo_sformel,mbo_wp5_d5_3,Jörg,Haarpaintner,mbo_org_norce,,,https://orcid.org/0000-0002-9681-9269
 mbo_ndaraghmeh,mbo_sformel,mbo_wp5_d5_4,Nauras,Daraghmeh,mbo_org_ugot,,,https://orcid.org/0000-0001-8261-824X
@@ -149,10 +149,10 @@ mbo_kmckee,mbo_sformel,mbo_wp6_d6_2,Kara,McKee,mbo_org_ssbe,,,
 mbo_esalasleiton,mbo_sformel,mbo_wp6_d6_2,Emilio,Salas Leitón,mbo_org_ciimar,,,https://orcid.org/0000-0003-2133-1581
 mbo_cfigueroaashforth,mbo_sformel,mbo_wp6_d6_2,Chloe,Figueroa Ashforth,mbo_org_mba,,,https://orcid.org/0009-0007-9889-5090
 mbo_mreuver,mbo_sformel,mbo_db_tool_population,Marieke,Reuver,mbo_org_erinn,,,https://orcid.org/0000-0002-7863-2687
-mbo_gvecchi,mbo_sformel,mbo_db_tool_population,Giulia,Vecchi,mbo_org_embrc,,,
+mbo_gvecchi,mbo_sformel,mbo_db_tool_population,Giulia,Vecchi,mbo_org_embrc,,mbo_contact_giulia,
 mbo_vfernandez,mbo_sformel,mbo_db_tool_population,Vicente,Fernandez,mbo_org_ssbe,,,
 mbo_alanglet,mbo_sformel,mbo_db_tool_population,Arne,Langlet,mbo_org_univie,,,https://orcid.org/0000-0003-4193-6385
 mbo_fwurm,mbo_sformel,mbo_db_tool_population,Felix,Wurm,mbo_org_univie,,,https://orcid.org/0009-0001-4405-7370
-mbo_avadrot,mbo_sformel,mbo_db_tool_population,Alice BM,Vadrot,mbo_org_univie,,,https://orcid.org/0000-0002-6043-9846
+mbo_avadrot,mbo_sformel,mbo_db_tool_population,Alice BM,Vadrot,mbo_org_univie,,mbo_contact_wp6_d6_1,https://orcid.org/0000-0002-6043-9846
 mbo_otimmerman,mbo_sformel,mbo_db_tool_population,Orlando,Timmerman,mbo_org_cambridge,,,https://orcid.org/0009-0008-6204-4689
 mbo_qpan,mbo_sformel,mbo_db_tool_population,Quan,Pan,mbo_org_lifewatch_eric,,,https://orcid.org/0000-0001-9660-3241
