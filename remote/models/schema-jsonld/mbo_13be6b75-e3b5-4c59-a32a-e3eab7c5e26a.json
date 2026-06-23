@@ -11,22 +11,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     }
   ],
   "availableLanguage": "en",
@@ -41,12 +41,12 @@
   "description": "Report on the 3rd Co-design/Co-creation Workshop (online sessions, June 2025)",
   "identifier": "doi:10.5281/zenodo.17244832",
   "keywords": [
-    "MBO WP6",
-    "EBVs",
-    "eDNA",
-    "Community of Practice",
     "stakeholder engagement",
+    "MBO WP6",
+    "eDNA",
     "co-design workshop",
+    "Community of Practice",
+    "EBVs",
     "Blue Carbon"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -54,11 +54,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244832"
+      "@value": "https://zenodo.org/records/17244832"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244832"
+      "@value": "https://doi.org/10.5281/zenodo.17244832"
     }
   ]
 }

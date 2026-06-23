@@ -25,7 +25,7 @@
         },
         "schema:contentUrl": {
           "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=10"
+          "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=8"
         },
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
@@ -48,7 +48,7 @@
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
         },
-        "dateModified": "2026-06-22",
+        "dateModified": "2026-06-23",
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c-input-metadata"
         },
@@ -56,7 +56,7 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/11a56e13b6294f042c4fc728410df810d4f7f7d0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/826dd47961cc750a82bacb03ab55a75306f2801b",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
   },

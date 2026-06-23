@@ -11,8 +11,8 @@
   "familyName": "Exter",
   "givenName": "Katrina",
   "identifier": [
-    "https://oceanexpert.org/expert/58464",
-    "https://orcid.org/0000-0002-5911-1536"
+    "https://orcid.org/0000-0002-5911-1536",
+    "https://oceanexpert.org/expert/58464"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
