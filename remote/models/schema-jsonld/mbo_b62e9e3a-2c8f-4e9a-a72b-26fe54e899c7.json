@@ -8,10 +8,10 @@
   "abstract": "The T5.1.2 habitat suitabilty model was copied to the LW GitLab and adapted to be run within the LifeWatch VRE",
   "citation": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
+      "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+      "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
     }
   ],
   "name": "T5.1.2 Model uptake by LW VRE",

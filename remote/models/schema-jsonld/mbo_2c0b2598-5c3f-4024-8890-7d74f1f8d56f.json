@@ -11,8 +11,8 @@
   "familyName": "Pade",
   "givenName": "Nicolas",
   "identifier": [
-    "https://oceanexpert.org/expert/44123",
-    "https://orcid.org/0000-0003-2733-9752"
+    "https://orcid.org/0000-0003-2733-9752",
+    "https://oceanexpert.org/expert/44123"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
