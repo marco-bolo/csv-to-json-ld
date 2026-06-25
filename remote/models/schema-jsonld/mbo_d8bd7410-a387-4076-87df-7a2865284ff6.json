@@ -9,22 +9,22 @@
   "alternateName": "D5.3",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+      "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b"
+      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
     }
   ],
   "availableLanguage": "en",
@@ -38,22 +38,22 @@
   "schema:datePublished": "2025-10-17",
   "description": "Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
   "identifier": [
-    "doi:10.5281/zenodo.20787356",
-    "Deliverable D5.3"
+    "Deliverable D5.3",
+    "doi:10.5281/zenodo.20787356"
   ],
   "keywords": [
-    "seagrass",
-    "coastal ecosystems",
-    "remote sensing",
+    "blue carbon",
     "MBO WP5",
-    "blue carbon"
+    "seagrass",
+    "remote sensing",
+    "coastal ecosystems"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/11/MBO_D5.3_Oct-2025.pdf"
+      "@value": "https://zenodo.org/records/20787356"
     },
     {
       "@type": "URL",
@@ -61,7 +61,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20787356"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/11/MBO_D5.3_Oct-2025.pdf"
     }
   ],
   "version": "1"

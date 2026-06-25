@@ -12,39 +12,33 @@
       "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_45754589-3cf8-4db1-9e6f-888c9af2e05c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"
+      "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_45754589-3cf8-4db1-9e6f-888c9af2e05c"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1"
@@ -53,7 +47,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30"
+      "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
@@ -62,10 +56,16 @@
       "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+      "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175"
+      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
@@ -81,19 +81,23 @@
   "schema:datePublished": "2025-11-28",
   "description": "Report on the congruence between traditional and eDNA-based biodiversity observations, and their robustness across bioinformatics issues and diversity metrics",
   "identifier": [
-    "doi:10.5281/zenodo.20767070",
-    "Deliverable D2.3"
+    "Deliverable D2.3",
+    "doi:10.5281/zenodo.20767070"
   ],
   "keywords": [
-    "biodiversity comparison",
-    "diversity metrics",
-    "eDNA",
     "MBO WP2",
-    "metabarcoding"
+    "metabarcoding",
+    "eDNA",
+    "diversity metrics",
+    "biodiversity comparison"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D2.3 - Final report on the congruence between traditional and eDNA-based biodiversity observations, and their robustness across bioinformatics issues and diversity metrics",
   "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20767070"
+    },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20767070"
@@ -101,10 +105,6 @@
     {
       "@type": "URL",
       "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D2.3_Jan-2026.pdf"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://zenodo.org/records/20767070"
     }
   ]
 }

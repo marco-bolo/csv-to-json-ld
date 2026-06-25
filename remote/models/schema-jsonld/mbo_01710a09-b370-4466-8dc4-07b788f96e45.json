@@ -28,15 +28,15 @@
   "schema:datePublished": "2025-04-01",
   "description": "Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
   "identifier": [
-    "Deliverable D3.1",
-    "doi:10.5281/zenodo.20776269"
+    "doi:10.5281/zenodo.20776269",
+    "Deliverable D3.1"
   ],
   "keywords": [
-    "land-sea continuum",
-    "biodiversity monitoring",
-    "MBO WP3",
+    "WFD/MSFD",
     "monitoring protocols",
-    "WFD/MSFD"
+    "biodiversity monitoring",
+    "land-sea continuum",
+    "MBO WP3"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D3.1 - Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",

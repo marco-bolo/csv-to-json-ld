@@ -21,19 +21,23 @@
   "schema:datePublished": "2023-05-31",
   "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
   "identifier": [
-    "Deliverable D7.4",
-    "doi:10.5281/zenodo.17527033"
+    "doi:10.5281/zenodo.17527033",
+    "Deliverable D7.4"
   ],
   "keywords": [
-    "exploitation",
-    "communication",
     "stakeholder engagement",
-    "MBO WP7",
-    "dissemination"
+    "dissemination",
+    "communication",
+    "exploitation",
+    "MBO WP7"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.4 - Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
   "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
+    },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.17527033"
@@ -41,10 +45,6 @@
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/17527033"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
     }
   ],
   "version": "1"

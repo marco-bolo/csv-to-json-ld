@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3aa7bc94-2ce0-46bb-9065-34401c3ba377",
+  "@type": "DigitalDocument",
+  "identifier": "github: https://github.com/bioinfo-arctic/eDNA-biodiversity-flowchart",
+  "name": "Placeholder"
+}

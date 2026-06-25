@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
+  "@type": "DigitalDocument",
+  "identifier": "github: https://github.com/MadsRJ/NordicRefDBs",
+  "name": "Placeholder"
+}
