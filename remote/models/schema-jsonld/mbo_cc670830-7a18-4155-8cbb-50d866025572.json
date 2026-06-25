@@ -9,16 +9,16 @@
   "alternateName": "D2.1",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
@@ -26,13 +26,13 @@
   ],
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
     }
   ],
   "availableLanguage": "en",
@@ -49,18 +49,14 @@
     "doi:10.5281/zenodo.17517691"
   ],
   "keywords": [
-    "Essential Biodiversity Variables (EBV)",
     "MBO WP2",
-    "eDNA",
-    "Essential Ocean Variables (EOV)"
+    "Essential Biodiversity Variables (EBV)",
+    "Essential Ocean Variables (EOV)",
+    "eDNA"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D2.1 - Interim report on the performance of eDNA-based approaches and associated optimal diversity indices for biodiversity observations",
   "schema:url": [
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D2.1_Jun-2024.pdf"
-    },
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/17517691"
@@ -68,6 +64,10 @@
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.17517691"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D2.1_Jun-2024.pdf"
     }
   ]
 }

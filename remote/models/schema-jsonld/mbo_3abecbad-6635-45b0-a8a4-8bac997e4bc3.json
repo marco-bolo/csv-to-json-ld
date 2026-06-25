@@ -9,25 +9,25 @@
   "alternateName": "D6.2",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
     }
   ],
   "availableLanguage": "en",
@@ -45,16 +45,16 @@
     "Deliverable D6.2"
   ],
   "isBasedOn": [
-    "https://doi.org/10.5281/zenodo.17244832",
     "https://doi.org/10.5281/zenodo.17244601",
-    "https://doi.org/10.5281/zenodo.17244778"
+    "https://doi.org/10.5281/zenodo.17244778",
+    "https://doi.org/10.5281/zenodo.17244832"
   ],
   "keywords": [
-    "co-design workshops",
-    "stakeholder engagement",
-    "Community of Practice",
     "marine biodiversity policy",
-    "MBO WP6"
+    "Community of Practice",
+    "MBO WP6",
+    "stakeholder engagement",
+    "co-design workshops"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D6.2 - Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",

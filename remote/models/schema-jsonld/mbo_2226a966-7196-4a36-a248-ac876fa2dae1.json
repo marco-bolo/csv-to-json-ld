@@ -7,25 +7,25 @@
   "@type": "Person",
   "contactPoint": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_0bad93de-0498-49d8-90ca-3079174513f2"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cbc98b7e-9282-45a6-b7b7-75ead1206ba6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_dc252371-81f3-4b64-86ce-a80d67496d82"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_0bad93de-0498-49d8-90ca-3079174513f2"
+      "@id": "https://w3id.org/marco-bolo/mbo_65599d55-81a8-470a-9e90-0f32a6298dc1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2e224b07-ddd2-4e4b-89ce-8a42f39a4e89"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_65599d55-81a8-470a-9e90-0f32a6298dc1"
     }
   ],
   "familyName": "Lear",

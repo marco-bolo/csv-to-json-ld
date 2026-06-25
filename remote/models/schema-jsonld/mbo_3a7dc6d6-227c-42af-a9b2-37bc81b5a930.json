@@ -9,24 +9,24 @@
   "alternateName": "D1.1",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
     }
   ],
   "availableLanguage": "en",
@@ -43,15 +43,15 @@
     "doi:10.5281/zenodo.17537386"
   ],
   "keywords": [
-    "linked open data",
-    "EOV",
-    "EBV",
+    "marine biodiversity",
     "JSON-LD",
     "data management",
-    "persistent identifiers",
     "FAIR",
-    "metadata",
-    "marine biodiversity"
+    "linked open data",
+    "EOV",
+    "persistent identifiers",
+    "EBV",
+    "metadata"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",

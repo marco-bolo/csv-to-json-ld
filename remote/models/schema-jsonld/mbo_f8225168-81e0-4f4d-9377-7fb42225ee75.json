@@ -8,8 +8,8 @@
   "familyName": "Deneudt",
   "givenName": "Klaas",
   "identifier": [
-    "https://orcid.org/0000-0002-8559-3508",
-    "https://oceanexpert.org/expert/15571"
+    "https://oceanexpert.org/expert/15571",
+    "https://orcid.org/0000-0002-8559-3508"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"

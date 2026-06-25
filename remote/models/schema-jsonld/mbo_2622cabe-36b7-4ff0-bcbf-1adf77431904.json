@@ -30,10 +30,10 @@
     "Deliverable D5.5"
   ],
   "keywords": [
+    "alien species",
     "species distribution modelling",
     "MBO WP5",
     "climate projections",
-    "alien species",
     "non-indigenous species"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -41,7 +41,7 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D5.5_30.06.2025.pdf"
+      "@value": "https://doi.org/10.5281/zenodo.20787365"
     },
     {
       "@type": "URL",
@@ -49,7 +49,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20787365"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D5.5_30.06.2025.pdf"
     }
   ],
   "version": "1"

@@ -9,19 +9,16 @@
   "alternateName": "D1.2",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3eb68bc9-72dc-4e97-a69a-172bfe2e86a1"
     },
@@ -29,10 +26,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
@@ -52,20 +52,24 @@
     "Deliverable D1.2"
   ],
   "keywords": [
-    "linked open data",
-    "JSON-LD",
-    "MBO WP1",
-    "data management",
     "persistent identifiers",
-    "schema.org",
+    "MBO WP1",
     "W3ID",
+    "marine biodiversity",
+    "JSON-LD",
     "FAIR",
+    "data management",
     "ODIS",
-    "marine biodiversity"
+    "schema.org",
+    "linked open data"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D1.2 - Revised Project Data Management Plan, Associated Specification and Supporting Tools for Data Generation and Exchange (WP1)",
   "schema:url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_D1.2_Dec-2025.pdf"
+    },
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/20765873"
@@ -73,10 +77,6 @@
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20765873"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_D1.2_Dec-2025.pdf"
     }
   ]
 }
