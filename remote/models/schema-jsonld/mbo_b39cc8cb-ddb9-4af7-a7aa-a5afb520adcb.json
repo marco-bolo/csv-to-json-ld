@@ -7,10 +7,10 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_549fe80a-dc17-44bd-b1fd-8d01df6bac24"
+      "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2"
+      "@id": "https://w3id.org/marco-bolo/mbo_549fe80a-dc17-44bd-b1fd-8d01df6bac24"
     }
   ],
   "familyName": "Adamescu",
