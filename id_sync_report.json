@@ -1,20 +1,10 @@
 {
-  "timestamp": "2026-06-25T16:18:08.954603",
+  "timestamp": "2026-06-27T04:46:19.912024",
   "new_ids": [
     {
-      "class": "Document",
-      "uuid": "mbo_ae42096a-4117-4755-93a1-65a4c8a984c9",
-      "semantic_id": "mbo_wp2_d2_ds2_tables"
-    },
-    {
-      "class": "Document",
-      "uuid": "mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
-      "semantic_id": "mbo_wp2_d2_ds2_NordicRefDBs"
-    },
-    {
-      "class": "Document",
-      "uuid": "mbo_3aa7bc94-2ce0-46bb-9065-34401c3ba377",
-      "semantic_id": "mbo_wp2_d2_ds2_eDNA_Biodiv_flowchart"
+      "class": "Dataset",
+      "uuid": "mbo_d8458103-ecc3-49bd-a404-570caa97db52",
+      "semantic_id": "mbo_wp2_d2_ds2_cetacean_mitogenomes"
     }
   ],
   "missing_ids": []
