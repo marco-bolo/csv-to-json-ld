@@ -16,8 +16,8 @@
   "familyName": "Muñiz",
   "givenName": "Carlota",
   "identifier": [
-    "https://oceanexpert.org/expert/58452",
-    "https://orcid.org/0000-0001-9584-3833"
+    "https://orcid.org/0000-0001-9584-3833",
+    "https://oceanexpert.org/expert/58452"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"

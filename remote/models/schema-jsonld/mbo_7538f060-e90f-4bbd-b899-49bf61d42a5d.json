@@ -22,21 +22,21 @@
   "identifier": "doi:10.5281/zenodo.17236790",
   "keywords": [
     "Community of Practice",
-    "stakeholder engagement",
+    "presentation slides",
     "MBO WP6",
     "co-design workshop",
-    "presentation slides"
+    "stakeholder engagement"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236790"
+      "@value": "https://zenodo.org/records/17236790"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236790"
+      "@value": "https://doi.org/10.5281/zenodo.17236790"
     }
   ]
 }

@@ -17,5 +17,28 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
     }
+  ],
+  "result": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_13be6b75-e3b5-4c59-a32a-e3eab7c5e26a"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3"
+    }
   ]
 }

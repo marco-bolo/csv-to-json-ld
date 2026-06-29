@@ -17,5 +17,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
     }
-  ]
+  ],
+  "result": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e46238df-020d-4e88-aea5-81b9fd7a14ec"
+  }
 }
