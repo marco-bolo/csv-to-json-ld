@@ -8,25 +8,25 @@
   "abstract": "This report summarizes the 3rd mobilisation of MARCO-BOLO's Community of Practice (CoP). Building on the outcomes and lessons learned from the 1st and 2nd Co-Design/Co-Creation Workshops, three targeted online sessions were held between MARCO-BOLO technical colleagues and selected stakeholders for the following products: T2.3 (comparison of spatial and temporal eDNA-based vs traditional observations); T5.2 (application of integrative approaches to established biological indicators); D2.4 (report on the definition of eDNA-based EBVs and associated datasets); and T5.3 (spatial mapping of Blue Carbon benefits). Each session presented current progress and engaged targeted experts as potential users in the discussions. The workshops brought together almost fifty external biodiversity and marine data experts and stakeholders, including representatives from DG ENV, DG RTD, CINEA, Regional Sea Conventions, the GOOS BioEco Panel, sister EU Horizon projects (Biodiversa+, EuropaBON, OBAMA-NEXT, BioEcoOcean), national institutions, academia and research, the private sector, and other organisations responsible for marine biodiversity monitoring across the EU, UK and internationally. Aligned with the co-design concept, these sessions provided user feedback to guide further development of each product.",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
     }
   ],
   "availableLanguage": "en",
@@ -43,22 +43,22 @@
   "keywords": [
     "MBO WP6",
     "Blue Carbon",
-    "stakeholder engagement",
     "EBVs",
     "co-design workshop",
+    "eDNA",
     "Community of Practice",
-    "eDNA"
+    "stakeholder engagement"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 3rd Co-design/Co-creation Workshop Report",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244832"
+      "@value": "https://doi.org/10.5281/zenodo.17244832"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244832"
+      "@value": "https://zenodo.org/records/17244832"
     }
   ]
 }

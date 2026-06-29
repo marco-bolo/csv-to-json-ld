@@ -12,10 +12,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_56122d1e-711a-4a60-a750-02a76fa73735"
+      "@id": "https://w3id.org/marco-bolo/mbo_c66b4684-7ce6-4830-902d-2656d0cc5c7c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c66b4684-7ce6-4830-902d-2656d0cc5c7c"
+      "@id": "https://w3id.org/marco-bolo/mbo_56122d1e-711a-4a60-a750-02a76fa73735"
     }
   ],
   "availableLanguage": "en",
@@ -29,13 +29,13 @@
   "schema:datePublished": "2023-11-30",
   "description": "Portfolio of Tools and Activities to Promote MARCO-BOLO",
   "identifier": [
-    "doi:10.5281/zenodo.17527039",
-    "Deliverable D7.5"
+    "Deliverable D7.5",
+    "doi:10.5281/zenodo.17527039"
   ],
   "keywords": [
-    "communication",
     "promotional resources",
     "dissemination",
+    "communication",
     "MBO WP7",
     "outreach"
   ],
@@ -48,11 +48,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17527039"
+      "@value": "https://zenodo.org/records/17527039"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17527039"
+      "@value": "https://doi.org/10.5281/zenodo.17527039"
     }
   ],
   "version": "1"

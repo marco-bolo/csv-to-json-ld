@@ -26,13 +26,13 @@
   "schema:datePublished": "2025-09-05",
   "description": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
   "identifier": [
-    "doi:10.5281/zenodo.20787365",
-    "Deliverable D5.5"
+    "Deliverable D5.5",
+    "doi:10.5281/zenodo.20787365"
   ],
   "keywords": [
-    "species distribution modelling",
-    "alien species",
     "MBO WP5",
+    "alien species",
+    "species distribution modelling",
     "climate projections",
     "non-indigenous species"
   ],
@@ -41,11 +41,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20787365"
+      "@value": "https://zenodo.org/records/20787365"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20787365"
+      "@value": "https://doi.org/10.5281/zenodo.20787365"
     },
     {
       "@type": "URL",

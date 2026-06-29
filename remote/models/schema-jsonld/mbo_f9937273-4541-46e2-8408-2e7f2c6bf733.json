@@ -10,20 +10,20 @@
   },
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c"
+      "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd"
+      "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c"
     }
   ],
   "familyName": "Benedetti",
   "givenName": "Lisa",
   "identifier": [
-    "https://oceanexpert.org/expert/49824",
-    "https://orcid.org/0009-0001-3827-7318"
+    "https://orcid.org/0009-0001-3827-7318",
+    "https://oceanexpert.org/expert/49824"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"

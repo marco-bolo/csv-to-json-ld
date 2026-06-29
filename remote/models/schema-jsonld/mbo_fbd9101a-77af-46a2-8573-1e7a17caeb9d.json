@@ -11,8 +11,8 @@
   "familyName": "Warwick-Dugdale",
   "givenName": "Joanna",
   "identifier": [
-    "https://oceanexpert.org/expert/88666",
-    "https://orcid.org/0000-0001-5242-6706"
+    "https://orcid.org/0000-0001-5242-6706",
+    "https://oceanexpert.org/expert/88666"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
