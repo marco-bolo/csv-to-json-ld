@@ -146,5 +146,5 @@ jobs:
       - name: Notify kg-explorer to rebuild
         if: github.ref == 'refs/heads/main'
         env:
-          GH_TOKEN: ${{ secrets.KG_EXPLORER_DISPATCH_PAT }}
+          GH_TOKEN: ${{ secrets.KG_EXPLORER_DISPATCH_TOKEN }}
         run: gh api repos/marco-bolo/kg-explorer/dispatches -f event_type=jsonld-rebuilt
