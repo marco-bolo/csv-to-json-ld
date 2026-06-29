@@ -195,6 +195,25 @@
             }
         },
         {
+            "name": "resultingDocumentMboIds",
+            "titles": {
+                "en": [
+                    "Resulting Documents (mPIDs)"
+                ]
+            },
+            "dc:description": {
+                "en": [
+                    "mPID(s) from the first column of Document.csv\nPipe-delimited when there are multiple values"
+                ]
+            },
+            "propertyUrl": "https://schema.org/result",
+            "separator": "|",
+            "datatype": {
+                "@id": "https://w3id.org/marco-bolo/ConvertMboIdToNode",
+                "base": "string"
+            }
+        },
+        {
             "name": "childActionMboIds",
             "titles": {
                 "en": [
