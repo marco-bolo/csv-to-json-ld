@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d8458103-ecc3-49bd-a404-570caa97db52",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635"
+  },
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+    }
+  ],
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2026-06-26",
+  "schema:datePublished": "2026-04-16",
+  "description": "Supplementary tables with cetacean mitogenomes dataset analysis, extracted from NCBI's Nucleotide database and Bold Systems, last accessed on 4th of July 2025",
+  "identifier": "https://doi.org/10.5281/zenodo.17733928",
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "Cetacean Mitogenome Gap analysis Supplementary tables",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b9ae39f4-0890-4303-bdd7-6828beea2411"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://zenodo.org/records/17733928"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

@@ -15,28 +15,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_9bdb6d72-4400-49e2-a866-f543d2467de7"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+      "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54"
+      "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_f91f436c-4eef-44e9-ae07-71483255de20"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
+      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
     }
   ],
   "availableLanguage": "en",
@@ -56,8 +56,8 @@
     "protected areas",
     "land-sea continuum",
     "ecosystem services",
-    "nutrient dynamics",
-    "MBO WP3"
+    "MBO WP3",
+    "nutrient dynamics"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D3.4 - Effects of Existing and Future Terrestrial and Freshwater Conservation Areas on Coastal and Marine Biodiversity and Ecosystem Services",
