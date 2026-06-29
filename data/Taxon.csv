@@ -15,3 +15,4 @@ mbo_taxon_archaea,mbo_sformel,mbo_wp2_d2_2,Archaea,Archaea,,,,,,,accepted,kingdo
 mbo_taxon_harbourporpose,mbo_kexter,mbo_db_tool_population,harbour porpoise,Phocoena phocoena,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137117
 mbo_prokaryota,mbo_kexter,mbo_db_tool_population,Prokaryotes,,,,,,,,,,,
 mbo_metazoa,mbo_kexter,mbo_db_tool_population,Metazoans,,,,,,,,,,,
+mbo_taxon_cetacea,mbo_sformel,mbo_wp2_t2_2,Cetaceans,Cetacea,Animalia,Chordata,Cetartiodactyla,,,,accepted,infraorder,worms:2688,urn:lsid:marinespecies.org:taxname:2688
