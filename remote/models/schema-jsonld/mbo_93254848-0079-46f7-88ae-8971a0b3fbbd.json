@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Ostle",
   "givenName": "Clare",
   "identifier": "https://orcid.org/0000-0001-6923-5535",

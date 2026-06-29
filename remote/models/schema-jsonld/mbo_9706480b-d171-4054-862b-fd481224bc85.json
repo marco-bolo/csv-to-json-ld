@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Pascal",
   "givenName": "Geraldine",
   "identifier": "https://orcid.org/0000-0002-5250-6594",

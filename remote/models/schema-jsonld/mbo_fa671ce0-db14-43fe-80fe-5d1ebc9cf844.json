@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_fa671ce0-db14-43fe-80fe-5d1ebc9cf844",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Geslain",
   "givenName": "Enora",
   "identifier": "https://orcid.org/0000-0002-4300-1308",

@@ -5,9 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_3fc59608-9c22-42de-a9e4-b92d677f7f3c",
   "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
-  },
+  "affiliation": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    }
+  ],
   "familyName": "Kokoszka",
   "givenName": "Florian",
   "identifier": "https://orcid.org/0000-0001-5346-3058",

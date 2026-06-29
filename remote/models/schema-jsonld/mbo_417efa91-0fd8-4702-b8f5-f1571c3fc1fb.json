@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_417efa91-0fd8-4702-b8f5-f1571c3fc1fb",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Abdala",
   "givenName": "Alejandro"
 }

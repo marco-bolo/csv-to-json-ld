@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_d2498828-ca79-403f-b3b3-899002c19d12",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Ribera d'Alcalá",
   "givenName": "Maurizio",
   "identifier": "https://orcid.org/0000-0002-5492-9961",

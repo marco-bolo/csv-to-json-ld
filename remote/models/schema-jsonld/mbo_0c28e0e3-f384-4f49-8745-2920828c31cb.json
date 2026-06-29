@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Canals",
   "givenName": "Oriol"
 }

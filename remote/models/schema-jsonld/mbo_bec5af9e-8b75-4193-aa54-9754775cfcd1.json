@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_bec5af9e-8b75-4193-aa54-9754775cfcd1",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Onoufriou",
   "givenName": "Aubrie",
   "identifier": "https://orcid.org/0000-0002-4605-1896"

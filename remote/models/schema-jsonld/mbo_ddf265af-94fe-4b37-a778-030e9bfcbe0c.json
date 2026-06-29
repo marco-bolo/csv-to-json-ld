@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_ddf265af-94fe-4b37-a778-030e9bfcbe0c",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Bennett",
   "givenName": "Adam John",
   "identifier": "https://orcid.org/0009-0000-7038-2890",

@@ -5,7 +5,13 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
   "familyName": "Provoost",
   "givenName": "Pieter",
-  "identifier": "https://oceanexpert.org/expert/26192"
+  "identifier": "https://oceanexpert.org/expert/26192",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+  }
 }

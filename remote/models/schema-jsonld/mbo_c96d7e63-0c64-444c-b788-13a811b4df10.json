@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Mercogliano",
   "givenName": "Paola",
   "identifier": "https://orcid.org/0000-0001-7236-010X",

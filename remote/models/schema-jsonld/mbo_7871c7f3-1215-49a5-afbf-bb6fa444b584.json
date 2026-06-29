@@ -9,28 +9,31 @@
   "alternateName": "D5.1",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_f8225168-81e0-4f4d-9377-7fb42225ee75"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3fc59608-9c22-42de-a9e4-b92d677f7f3c"
+      "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0b2ecf15-dbeb-4195-814b-8d0a7167fd34"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_099057bc-96fc-40b1-b159-6886e34a8906"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e"
@@ -39,22 +42,19 @@
       "@id": "https://w3id.org/marco-bolo/mbo_d2498828-ca79-403f-b3b3-899002c19d12"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_099057bc-96fc-40b1-b159-6886e34a8906"
+      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+      "@id": "https://w3id.org/marco-bolo/mbo_3fc59608-9c22-42de-a9e4-b92d677f7f3c"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_42b4e971-36c9-4ed6-86c6-e97795d0e4cf"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_0b2ecf15-dbeb-4195-814b-8d0a7167fd34"
+      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"
     }
   ],
   "availableLanguage": "en",
@@ -72,10 +72,10 @@
     "Deliverable D5.1"
   ],
   "keywords": [
-    "time series analysis",
-    "biodiversity trends",
-    "climate projections",
     "MBO WP5",
+    "climate projections",
+    "biodiversity trends",
+    "time series analysis",
     "habitat suitability modelling"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -83,15 +83,15 @@
   "schema:url": [
     {
       "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.20787354"
+    },
+    {
+      "@type": "URL",
       "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_D5.1_Nov-2025.pdf"
     },
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/20787354"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20787354"
     }
   ],
   "version": "1"

@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "contactPoint": {
     "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544"
   },

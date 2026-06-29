@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Chemello",
   "givenName": "Silvia",
   "identifier": "https://orcid.org/0000-0001-6151-891X",

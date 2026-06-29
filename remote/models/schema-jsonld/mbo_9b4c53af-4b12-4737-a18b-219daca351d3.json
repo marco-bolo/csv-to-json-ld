@@ -21,15 +21,15 @@
   "schema:datePublished": "2023-05-31",
   "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
   "identifier": [
-    "doi:10.5281/zenodo.17527033",
-    "Deliverable D7.4"
+    "Deliverable D7.4",
+    "doi:10.5281/zenodo.17527033"
   ],
   "keywords": [
-    "dissemination",
-    "exploitation",
     "communication",
+    "MBO WP7",
     "stakeholder engagement",
-    "MBO WP7"
+    "exploitation",
+    "dissemination"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.4 - Plan for Dissemination, Exploitation and Communication Activities (PDEC)",

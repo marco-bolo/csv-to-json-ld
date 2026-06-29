@@ -5,14 +5,17 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
   "contactPoint": {
     "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a"
   },
   "familyName": "Exter",
   "givenName": "Katrina",
   "identifier": [
-    "https://orcid.org/0000-0002-5911-1536",
-    "https://oceanexpert.org/expert/58464"
+    "https://oceanexpert.org/expert/58464",
+    "https://orcid.org/0000-0002-5911-1536"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"

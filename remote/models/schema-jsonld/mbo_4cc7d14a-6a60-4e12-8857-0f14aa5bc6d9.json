@@ -5,13 +5,16 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "contactPoint": {
     "@id": "https://w3id.org/marco-bolo/mbo_0155f30d-9693-42bb-a8b1-717188ef25e6"
   },
   "familyName": "Not",
   "givenName": "Fabrice",
   "identifier": [
-    "https://orcid.org/0000-0002-9342-195X",
-    "https://oceanexpert.org/expert/58571"
+    "https://oceanexpert.org/expert/58571",
+    "https://orcid.org/0000-0002-9342-195X"
   ]
 }

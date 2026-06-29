@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Blix",
   "givenName": "Katalin",
   "identifier": "https://orcid.org/0009-0001-3994-1559",

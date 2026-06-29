@@ -5,7 +5,13 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
   "familyName": "Beja",
   "givenName": "Joana",
-  "identifier": "https://oceanexpert.org/expert/28269"
+  "identifier": "https://oceanexpert.org/expert/28269",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+  }
 }

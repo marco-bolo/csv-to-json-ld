@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_0b3f2ef2-5dd9-4ea7-adb8-c02c20a36cdf",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Rué",
   "givenName": "Olivier",
   "identifier": "https://orcid.org/0000-0001-7517-4724",

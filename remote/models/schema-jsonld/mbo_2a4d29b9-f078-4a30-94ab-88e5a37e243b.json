@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Haarpaintner",
   "givenName": "Jörg",
   "identifier": "https://orcid.org/0000-0002-9681-9269",

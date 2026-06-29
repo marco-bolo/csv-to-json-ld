@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Buongiorno Nardelli",
   "givenName": "Bruno",
   "identifier": "https://orcid.org/0000-0002-3416-7189",

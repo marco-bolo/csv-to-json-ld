@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+  },
   "familyName": "Afonso",
   "givenName": "Luís",
   "identifier": "https://orcid.org/0000-0003-3978-1388",

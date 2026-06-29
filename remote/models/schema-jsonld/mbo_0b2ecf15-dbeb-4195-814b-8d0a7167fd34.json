@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_0b2ecf15-dbeb-4195-814b-8d0a7167fd34",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Margiotta",
   "givenName": "Francesca",
   "identifier": "https://orcid.org/0000-0003-0757-5934",

@@ -5,9 +5,14 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f",
   "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
-  },
+  "affiliation": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+    }
+  ],
   "contactPoint": {
     "@id": "https://w3id.org/marco-bolo/mbo_810f1702-f7cf-49b1-96ac-2d3becff58f4"
   },

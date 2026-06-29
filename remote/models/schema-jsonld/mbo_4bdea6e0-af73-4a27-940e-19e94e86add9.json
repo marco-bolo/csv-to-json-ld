@@ -7,10 +7,10 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_03fe64dc-706f-4e09-ba2f-2933507dcf67"
+      "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581"
+      "@id": "https://w3id.org/marco-bolo/mbo_03fe64dc-706f-4e09-ba2f-2933507dcf67"
     }
   ],
   "familyName": "Obst",

@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
   "familyName": "McKee",
   "givenName": "Kara",
   "worksFor": {

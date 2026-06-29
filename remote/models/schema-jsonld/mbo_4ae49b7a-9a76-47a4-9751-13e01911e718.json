@@ -17,8 +17,8 @@
   "conditionsOfAccess": "For queries and access to the dataset please contact Claire Widdicombe (clst@pml.ac.uk).",
   "description": "Phytoplankton time-series contains taxa-specific and total functional group abundance (cells mL-1) and biomass (mgC m-3) data.",
   "keywords": [
-    "microscopy",
     "Utermohl",
+    "microscopy",
     "phytoplankton"
   ],
   "maintainer": {

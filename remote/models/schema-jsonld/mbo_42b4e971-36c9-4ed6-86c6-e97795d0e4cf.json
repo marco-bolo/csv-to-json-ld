@@ -5,6 +5,9 @@
   },
   "@id": "https://w3id.org/marco-bolo/mbo_42b4e971-36c9-4ed6-86c6-e97795d0e4cf",
   "@type": "Person",
+  "affiliation": {
+    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+  },
   "familyName": "Asdar",
   "givenName": "Sarah",
   "identifier": "https://orcid.org/0009-0002-6251-4456",
