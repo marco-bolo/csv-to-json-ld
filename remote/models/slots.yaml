@@ -1741,3 +1741,16 @@ slots:
       For MSFD criteria DefinedTerms, used for an MBO-authored note explaining that
       an associated MBO entity is relevant to the named criterion (rather than asserting
       it formally assesses or satisfies it).
+
+
+  # For linking documents to actions
+  resultingDocumentMboIds:
+    title: "Resulting Documents (mPIDs)"
+    description: "The MBO identifiers of any documents created in this action."
+    required: false
+    multivalued: true
+    range: Document
+    slot_uri: schema:result
+    comments: |
+      mPID(s) from the first column of Document.csv
+      Pipe-delimited when there are multiple values

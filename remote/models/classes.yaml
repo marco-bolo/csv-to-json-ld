@@ -36,6 +36,7 @@ classes:
       - participantIds
       - actionInputPids
       - resultingDatasetMboIds
+      - resultingDocumentMboIds
       - childActionMboIds
       - startTime
       - endTime
