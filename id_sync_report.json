@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-27T04:46:19.912024",
+  "timestamp": "2026-06-29T16:56:51.087842",
   "new_ids": [
     {
-      "class": "Dataset",
-      "uuid": "mbo_d8458103-ecc3-49bd-a404-570caa97db52",
-      "semantic_id": "mbo_wp2_d2_ds2_cetacean_mitogenomes"
+      "class": "Taxon",
+      "uuid": "mbo_a02f82ed-e50e-414b-9f82-d9666b694635",
+      "semantic_id": "mbo_taxon_cetacea"
     }
   ],
   "missing_ids": []
