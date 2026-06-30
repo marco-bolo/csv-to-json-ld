@@ -9,13 +9,13 @@
   "alternateName": "D3.1",
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
     }
   ],
   "availableLanguage": "en",
@@ -32,9 +32,9 @@
     "doi:10.5281/zenodo.20776269"
   ],
   "keywords": [
-    "WFD/MSFD",
-    "biodiversity monitoring",
     "land-sea continuum",
+    "biodiversity monitoring",
+    "WFD/MSFD",
     "monitoring protocols",
     "MBO WP3"
   ],
@@ -43,15 +43,15 @@
   "schema:url": [
     {
       "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_Deliverable3.1_V3.0.pdf"
+    },
+    {
+      "@type": "URL",
       "@value": "https://zenodo.org/records/20776269"
     },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20776269"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/12/MBO_Deliverable3.1_V3.0.pdf"
     }
   ],
   "version": "3"

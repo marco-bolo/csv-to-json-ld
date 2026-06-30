@@ -7,25 +7,25 @@
   "@type": "Dataset",
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e25f6218-3684-4a5c-9033-bc6894f18b2f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33"
     }
   ],
   "contributor": {
@@ -39,9 +39,9 @@
   "description": "This repository contains all environmental datasets that were downloaded and used in the Gallo, Timmerman et al. manuscript on Oceanographic Drivers of Carbon Storage in European Seagrass Beds, submitted to Philosophical Transactions of the Royal Society B for the Special Issue on Marine Biodiversity Loss, Fishing, and Climate Change. All analysis code is available through GitHub; the environmental data must be downloaded from this repository and added to the data folder in the GitHub repository to run the pipeline. The env_rasters archive contains all environmental raster files for the oceanographic datasets downloaded from NASA, Copernicus, or GEBCO. The ICES_ecoregions and MEOW archives contain associated shapefiles for regional grouping. Six remote-sensing products were downloaded from the NASA Sentinel-3A OLCI sensor (KD490, RRS620, RRS443, Chla, PBS443, CDOM) using composite data from 2016-2025. Seven Copernicus Marine Data Store products covering physical, biogeochemical, sea-surface temperature, currents, and bathymetry are also included.",
   "identifier": "doi:10.5281/zenodo.19329403",
   "keywords": [
-    "NORCE",
+    "MARCO-BOLO",
     "EMBRC",
-    "MARCO-BOLO"
+    "NORCE"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "Oceanographic drivers of carbon storage in European seagrass beds: Environmental datasets",

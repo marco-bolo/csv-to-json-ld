@@ -29,15 +29,15 @@
   "schema:datePublished": "2023-11-30",
   "description": "Portfolio of Tools and Activities to Promote MARCO-BOLO",
   "identifier": [
-    "Deliverable D7.5",
-    "doi:10.5281/zenodo.17527039"
+    "doi:10.5281/zenodo.17527039",
+    "Deliverable D7.5"
   ],
   "keywords": [
-    "MBO WP7",
-    "communication",
-    "promotional resources",
     "dissemination",
-    "outreach"
+    "MBO WP7",
+    "outreach",
+    "communication",
+    "promotional resources"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.5 - Portfolio of Tools and Activities to Promote MARCO-BOLO",

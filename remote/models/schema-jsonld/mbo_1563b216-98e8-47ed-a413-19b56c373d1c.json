@@ -7,10 +7,10 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b17501aa-5df4-41ac-9599-d72f51182472"
+      "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
+      "@id": "https://w3id.org/marco-bolo/mbo_b17501aa-5df4-41ac-9599-d72f51182472"
     }
   ],
   "familyName": "Mariani",

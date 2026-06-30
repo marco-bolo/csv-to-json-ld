@@ -9,13 +9,13 @@
   "alternateName": "D7.7",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd"
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+      "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd"
     }
   ],
   "availableLanguage": "en",
@@ -30,16 +30,16 @@
   "description": "Project Data Management Plan Update 1",
   "identifier": "Deliverable D7.7",
   "isBasedOn": [
+    "https://doi.org/10.5281/zenodo.20765873",
     "https://doi.org/10.5281/zenodo.8208410",
-    "https://doi.org/10.5281/zenodo.17537386",
-    "https://doi.org/10.5281/zenodo.20765873"
+    "https://doi.org/10.5281/zenodo.17537386"
   ],
   "keywords": [
     "FAIR",
+    "data management plan",
     "ODIS",
-    "MBO WP7",
     "interoperability",
-    "data management plan"
+    "MBO WP7"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.7 - Project Data Management Plan Update 1",
