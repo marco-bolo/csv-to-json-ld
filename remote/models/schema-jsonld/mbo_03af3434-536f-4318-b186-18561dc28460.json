@@ -29,10 +29,10 @@
   "identifier": "doi:10.5281/zenodo.10715714",
   "keywords": [
     "stakeholder engagement",
-    "survey",
-    "presentation",
     "MBO WP6",
-    "biodiversity data needs"
+    "biodiversity data needs",
+    "presentation",
+    "survey"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "WP6: Stakeholder Engagement & Community Integration - Stakeholder Survey",

@@ -10,15 +10,21 @@
       "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
+      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
@@ -27,16 +33,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+      "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
     }
   ],
   "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -60,13 +60,13 @@
   ],
   "keywords": [
     "16S rDNA",
-    "amplicon sequencing",
-    "NEREA",
-    "environmental DNA",
-    "metabarcoding",
     "16S",
+    "environmental DNA",
+    "prokaryotic",
+    "amplicon sequencing",
+    "metabarcoding",
     "eDNA",
-    "prokaryotic"
+    "NEREA"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
