@@ -12,48 +12,15 @@
   "name": "MARCO-BOLO Deliverable 5.1",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
     }
   ],
   "result": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f345740a-964d-44b2-b8df-7f0062c16df1"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2138a351-8473-4824-a6cc-1e463149002d"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c7df80b9-a695-4027-9183-e6152098fcfc"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_046a4abb-97a9-4b1b-a522-152f56e50e59"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_41d40a19-0f84-4592-aa33-9233455eedb4"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f5f58d71-069c-4dfe-bd15-532157660b95"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1a647d09-d104-4897-adfa-458dfcd67567"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d0e189de-7127-4e4a-b96b-9dd90f9a61a7"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7871c7f3-1215-49a5-afbf-bb6fa444b584"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_56970015-10a2-44a0-8092-f09deb1196f3"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_46297fcb-c86c-42cc-9b54-05f128dcf5a1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c6942103-8dde-4a9c-a47e-cf265fefb165"
@@ -62,10 +29,43 @@
       "@id": "https://w3id.org/marco-bolo/mbo_a90ef954-59cd-4db8-9475-f49633968c6c"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_f5f58d71-069c-4dfe-bd15-532157660b95"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c7df80b9-a695-4027-9183-e6152098fcfc"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7871c7f3-1215-49a5-afbf-bb6fa444b584"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_040619d9-32e0-434f-9387-92a236a1a794"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_41d40a19-0f84-4592-aa33-9233455eedb4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1a647d09-d104-4897-adfa-458dfcd67567"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2138a351-8473-4824-a6cc-1e463149002d"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_aa929ab1-9220-4902-98d5-9f1956bf2b0d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_046a4abb-97a9-4b1b-a522-152f56e50e59"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f345740a-964d-44b2-b8df-7f0062c16df1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d0e189de-7127-4e4a-b96b-9dd90f9a61a7"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_46297fcb-c86c-42cc-9b54-05f128dcf5a1"
     }
   ]
 }

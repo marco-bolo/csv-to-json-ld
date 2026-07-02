@@ -22,23 +22,23 @@
   "identifier": "doi:10.5281/zenodo.17236969",
   "keywords": [
     "eDNA",
-    "co-design workshop",
-    "stakeholder engagement",
     "Blue Carbon",
-    "MBO WP6",
+    "stakeholder engagement",
     "presentation slides",
-    "Community of Practice"
+    "MBO WP6",
+    "Community of Practice",
+    "co-design workshop"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 3rd Co-Design Workshop - presentations",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236969"
+      "@value": "https://zenodo.org/records/17236969"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236969"
+      "@value": "https://doi.org/10.5281/zenodo.17236969"
     }
   ]
 }

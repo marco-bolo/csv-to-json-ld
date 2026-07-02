@@ -29,22 +29,22 @@
   "schema:datePublished": "2024-07-10",
   "description": "Ethics brief on environmental issues for planned marine operations",
   "identifier": [
-    "doi:10.5281/zenodo.17527043",
-    "Deliverable D7.9"
+    "Deliverable D7.9",
+    "doi:10.5281/zenodo.17527043"
   ],
   "keywords": [
-    "marine operations",
-    "ethics",
     "Belgian North Sea",
-    "collision avoidance",
-    "MBO WP7"
+    "marine operations",
+    "MBO WP7",
+    "ethics",
+    "collision avoidance"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.9 - Ethics brief on environmental issues for planned marine operations",
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17527043"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
     },
     {
       "@type": "URL",
@@ -52,7 +52,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
+      "@value": "https://zenodo.org/records/17527043"
     }
   ],
   "version": "2.1"

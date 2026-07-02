@@ -8,46 +8,46 @@
   "alternateName": "eDNA metabarcoding primers and their target groups; eDNA relevant reference databases; eDNA processing pipelines",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_8857ee62-00d8-44f2-ac2f-b172f33fcdd8"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3e189d37-a549-4e25-aef6-43f278ef8be9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1a1d07f1-a09b-4acb-acac-d5ed2ba1dd30"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1aa14649-5622-4d1b-9906-a45d0d2e7867"
     }
   ],
   "availableLanguage": "en",
@@ -58,8 +58,8 @@
   "description": "Three tables generated as part of MBO WP2's work on identifying primers, reference databases and pipelines used for metabarcoding studies.",
   "identifier": "github: https://github.com/MadsRJ/MBO_WP2_Tables",
   "keywords": [
-    "eDNA",
-    "MBO WP2"
+    "MBO WP2",
+    "eDNA"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MBO WP2 Tables",
