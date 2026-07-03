@@ -22,10 +22,10 @@
   "identifier": "doi:10.5281/zenodo.17236969",
   "keywords": [
     "eDNA",
-    "Blue Carbon",
-    "stakeholder engagement",
-    "presentation slides",
     "MBO WP6",
+    "Blue Carbon",
+    "presentation slides",
+    "stakeholder engagement",
     "Community of Practice",
     "co-design workshop"
   ],
@@ -34,11 +34,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236969"
+      "@value": "https://doi.org/10.5281/zenodo.17236969"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236969"
+      "@value": "https://zenodo.org/records/17236969"
     }
   ]
 }
