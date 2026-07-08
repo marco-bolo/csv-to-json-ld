@@ -11,10 +11,10 @@
   },
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca"
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+      "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca"
     }
   ],
   "name": "T4.4 ecosounder data capture",

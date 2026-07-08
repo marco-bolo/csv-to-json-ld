@@ -8,8 +8,8 @@
   "familyName": "Di Cioccio",
   "givenName": "Davide",
   "identifier": [
-    "https://orcid.org/0000-0002-9022-9962",
-    "https://oceanexpert.org/expert/39481"
+    "https://oceanexpert.org/expert/39481",
+    "https://orcid.org/0000-0002-9022-9962"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
