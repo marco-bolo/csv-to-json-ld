@@ -48,7 +48,7 @@
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
         },
-        "dateModified": "2026-07-10",
+        "dateModified": "2026-07-11",
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0-input-metadata"
         },
@@ -56,7 +56,7 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9ed19e619e600791813f966b8379c40d3f522f02",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d1fec6f655dfe5c1f586331b71767462b917d638",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
