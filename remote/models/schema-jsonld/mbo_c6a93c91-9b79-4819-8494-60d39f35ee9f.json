@@ -26,9 +26,9 @@
   "description": "Report on the 2nd Co-design/Co-creation Workshop (Sitges, November 2024)",
   "identifier": "doi:10.5281/zenodo.17244778",
   "keywords": [
-    "stakeholder engagement",
     "JRC",
     "co-design workshop",
+    "stakeholder engagement",
     "MBO WP6",
     "marine biodiversity monitoring",
     "Community of Practice"
@@ -38,11 +38,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244778"
+      "@value": "https://doi.org/10.5281/zenodo.17244778"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244778"
+      "@value": "https://zenodo.org/records/17244778"
     }
   ]
 }

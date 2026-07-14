@@ -25,11 +25,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17552850"
+      "@value": "https://doi.org/10.5281/zenodo.17552850"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17552850"
+      "@value": "https://zenodo.org/records/17552850"
     }
   ],
   "https://w3id.org/marco-bolo/inProgressDate": "2026"
