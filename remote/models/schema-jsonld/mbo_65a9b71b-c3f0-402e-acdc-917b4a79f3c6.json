@@ -11,8 +11,8 @@
   "familyName": "Peredo Arce",
   "givenName": "Andrés",
   "identifier": [
-    "https://oceanexpert.org/expert/84963",
-    "https://orcid.org/0000-0002-6353-9121"
+    "https://orcid.org/0000-0002-6353-9121",
+    "https://oceanexpert.org/expert/84963"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
