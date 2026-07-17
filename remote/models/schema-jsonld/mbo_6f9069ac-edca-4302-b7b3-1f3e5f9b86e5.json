@@ -7,10 +7,10 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
+      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
     }
   ],
   "familyName": "Gallo",

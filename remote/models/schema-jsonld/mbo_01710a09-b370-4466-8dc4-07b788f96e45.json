@@ -12,10 +12,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
     }
   ],
   "availableLanguage": "en",
@@ -28,13 +28,13 @@
   "schema:datePublished": "2025-04-01",
   "description": "Assessment and analysis of current marine, coastal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
   "identifier": [
-    "doi:10.5281/zenodo.20776269",
-    "Deliverable D3.1"
+    "Deliverable D3.1",
+    "doi:10.5281/zenodo.20776269"
   ],
   "keywords": [
     "monitoring protocols",
-    "WFD/MSFD",
     "biodiversity monitoring",
+    "WFD/MSFD",
     "MBO WP3",
     "land-sea continuum"
   ],
