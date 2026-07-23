@@ -25,8 +25,8 @@
   ],
   "keywords": [
     "river-coastal continuum",
-    "MBO WP3",
     "biodiversity monitoring",
+    "MBO WP3",
     "Essential Biodiversity Variables (EBV)",
     "Essential Ocean Variables (EOV)"
   ],
@@ -35,15 +35,15 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
-    },
-    {
-      "@type": "URL",
       "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
     },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20776313"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20776313"
     }
   ],
   "version": "draft 2"
