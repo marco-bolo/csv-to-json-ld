@@ -29,15 +29,15 @@
   "schema:url": [
     {
       "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.19592377"
+    },
+    {
+      "@type": "URL",
       "@value": "https://obstek.aqua.dtu.dk/demos/collections/bluerov2-multicam"
     },
     {
       "@type": "URL",
       "@value": "https://sketchfab.com/jalfe"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.19592377"
     }
   ],
   "variableMeasured": {
