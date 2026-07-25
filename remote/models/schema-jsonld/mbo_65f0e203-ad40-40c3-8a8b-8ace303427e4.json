@@ -6,5 +6,12 @@
   "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4",
   "@type": "ResearchOrganization",
   "legalName": "Istituto per il Rilevamento Elettromagnetico dell'Ambiente, Sezione di Milano",
-  "name": "IREA-CNR"
+  "name": "IREA-CNR",
+  "parentOrganization": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+  },
+  "schema:url": {
+    "@type": "URL",
+    "@value": "http://irea.cnr.it"
+  }
 }
