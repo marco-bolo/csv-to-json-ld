@@ -12,13 +12,13 @@
   "name": "MARCO BOLO Task 7.1",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_835c1cdb-aaaa-49f5-90c2-382a20476e5a"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+      "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
     }
   ]
 }

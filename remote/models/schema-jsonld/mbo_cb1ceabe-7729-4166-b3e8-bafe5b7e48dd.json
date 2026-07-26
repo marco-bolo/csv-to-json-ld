@@ -7,13 +7,13 @@
   "@type": "Person",
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ace14210-a9a6-4ba5-a3de-4004587de4f5"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5ba7ac3-dbc1-4e3f-a730-d43cb328ad11"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_4496d710-82a0-44a8-b3b0-e3e165eb7bf8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ace14210-a9a6-4ba5-a3de-4004587de4f5"
     }
   ],
   "familyName": "Larkin",
