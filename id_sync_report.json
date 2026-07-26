@@ -1,10 +1,15 @@
 {
-  "timestamp": "2026-06-29T16:56:51.087842",
+  "timestamp": "2026-07-26T04:23:09.920727",
   "new_ids": [
     {
-      "class": "Taxon",
-      "uuid": "mbo_a02f82ed-e50e-414b-9f82-d9666b694635",
-      "semantic_id": "mbo_taxon_cetacea"
+      "class": "Person",
+      "uuid": "mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3",
+      "semantic_id": "mbo_mzilioli"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_7d9ca136-f71d-411c-a1c5-1f92aa0e47ab",
+      "semantic_id": "mbo_cfugazza"
     }
   ],
   "missing_ids": []
