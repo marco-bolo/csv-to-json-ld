@@ -20,8 +20,8 @@
   "schema:datePublished": "2025-11-11",
   "description": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
   "identifier": [
-    "doi:10.5281/zenodo.20776313",
-    "Deliverable D3.2"
+    "Deliverable D3.2",
+    "doi:10.5281/zenodo.20776313"
   ],
   "keywords": [
     "Essential Biodiversity Variables (EBV)",
@@ -39,11 +39,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
+      "@value": "https://doi.org/10.5281/zenodo.20776313"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20776313"
+      "@value": "https://zenodo.org/records/20776313"
     }
   ],
   "version": "draft 2"
