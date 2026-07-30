@@ -9,10 +9,10 @@
   "alternateName": "D5.5",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
     }
   ],
   "availableLanguage": "en",
@@ -26,13 +26,13 @@
   "schema:datePublished": "2025-09-05",
   "description": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
   "identifier": [
-    "Deliverable D5.5",
-    "doi:10.5281/zenodo.20787365"
+    "doi:10.5281/zenodo.20787365",
+    "Deliverable D5.5"
   ],
   "keywords": [
-    "species distribution modelling",
     "alien species",
     "climate projections",
+    "species distribution modelling",
     "MBO WP5",
     "non-indigenous species"
   ],
@@ -45,11 +45,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20787365"
+      "@value": "https://zenodo.org/records/20787365"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20787365"
+      "@value": "https://doi.org/10.5281/zenodo.20787365"
     }
   ],
   "version": "1"

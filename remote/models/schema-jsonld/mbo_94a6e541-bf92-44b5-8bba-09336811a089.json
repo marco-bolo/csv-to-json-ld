@@ -21,9 +21,6 @@
   ],
   "result": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
     },
     {
@@ -31,6 +28,9 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
