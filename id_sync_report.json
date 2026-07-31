@@ -1,15 +1,10 @@
 {
-  "timestamp": "2026-07-26T04:23:09.920727",
+  "timestamp": "2026-07-31T04:18:28.895290",
   "new_ids": [
     {
-      "class": "Person",
-      "uuid": "mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3",
-      "semantic_id": "mbo_mzilioli"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_7d9ca136-f71d-411c-a1c5-1f92aa0e47ab",
-      "semantic_id": "mbo_cfugazza"
+      "class": "Dataset",
+      "uuid": "mbo_5ccb32e3-10c4-4199-818b-b034dd8d87cb",
+      "semantic_id": "mbo_wp4_d4_1"
     }
   ],
   "missing_ids": []
