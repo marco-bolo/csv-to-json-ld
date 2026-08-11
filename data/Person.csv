@@ -39,7 +39,7 @@ mbo_58615,mbo_sformel,mbo_db_tool_population,Peter,Haase,mbo_org_sgn,,,https://o
 mbo_58451,mbo_sformel,mbo_db_tool_population,Avril,Hanbidge,mbo_org_erinn,,,https://oceanexpert.org/expert/58451
 mbo_heynderickx,mbo_madsrj,mbo_wp2_d2,Hanneloor,Heynderickx,mbo_org_vliz,mbo_org_vliz|mbo_org_mbo_wp2,mbo_contact_wp5_d5_2|mbo_contact_wp5_t5_2,https://oceanexpert.org/expert/61691|https://orcid.org/0000-0002-5611-837X
 mbo_16535,mbo_sformel,mbo_db_tool_population,Neil,Holdsworth,,,,https://oceanexpert.org/expert/16535
-mbo_lilihufnagel,mbo_kexter,mbo_t3_3_agents,Lili,Hufnagel,mbo_org_ufz,mbo_org_ufz|mbo_org_mbo_wp3,mbo_contact_wp3_t3_3,https://orcid.org/0009-0008-7905-3100
+mbo_lhufnagel,mbo_kexter,mbo_t3_3_agents,Lili,Hufnagel,mbo_org_ufz,mbo_org_ufz|mbo_org_mbo_wp3,mbo_contact_wp3_t3_3,https://orcid.org/0009-0008-7905-3100
 mbo_madsrj,mbo_sformel,mbo_db_tool_population,Mads Reinholdt,Jensen,mbo_org_uit_genetics,mbo_org_mbo_wp2,mbo_contact_wp2_d2_2,https://oceanexpert.org/expert/54167|https://orcid.org/0000-0001-7418-1244
 mbo_pciarlini_junger,mbo_madsrj,mbo_wp2_d2,Pedro Ciarlini,Junger,,mbo_org_mbo_wp2,,https://orcid.org/0000-0001-8774-0738
 mbo_rlagaisse,mbo_sformel,mbo_db_tool_population,Rune,Lagaisse,mbo_org_vliz,,,https://orcid.org/0000-0001-9191-9104
@@ -158,3 +158,5 @@ mbo_otimmerman,mbo_sformel,mbo_db_tool_population,Orlando,Timmerman,mbo_org_camb
 mbo_qpan,mbo_sformel,mbo_db_tool_population,Quan,Pan,mbo_org_lifewatch_eric,,,https://orcid.org/0000-0001-9660-3241
 mbo_mzilioli,mbo_27401,mbo_db_tool_population,Martina,Zilioli,mbo_org_cnr,mbo_org_mbo_wp1,,https://oceanexpert.org/expert/79712|https://orcid.org/0000-0003-0023-6331
 mbo_cfugazza,mbo_27401,mbo_db_tool_population,Cristiano,Fugazza,mbo_org_cnr,mbo_org_mbo_wp1,,https://orcid.org/0000-0003-2679-4868
+mbo_nkamjunke,mbo_lhufnagel,mbo_wp3_d3_3,Norbert,Kamjunke,mbo_org_ufz,mbo_org_ufz|mbo_org_mbo_wp3,,https://orcid.org/0000-0002-8016-5352
+mbo_mweitere,mbo_lhufnagel,mbo_wp3_d3_3,Markus,Weitere,mbo_org_ufz,mbo_org_ufz|mbo_org_mbo_wp3,,https://orcid.org/0000-0002-5259-2293
