@@ -1,11 +1,138 @@
 {
-  "timestamp": "2026-07-31T04:18:28.895290",
+  "timestamp": "2026-08-11T03:01:35.941708",
   "new_ids": [
     {
-      "class": "Dataset",
-      "uuid": "mbo_5ccb32e3-10c4-4199-818b-b034dd8d87cb",
-      "semantic_id": "mbo_wp4_d4_1"
+      "class": "Person",
+      "uuid": "mbo_eba329fb-3675-40a9-8ae4-5899a500ea80",
+      "semantic_id": "mbo_lhufnagel"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_c0636979-13de-48b2-ab77-91605cb4410b",
+      "semantic_id": "mbo_nkamjunke"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_73a76255-5857-40fe-b740-f803526a3086",
+      "semantic_id": "mbo_mweitere"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_6cd95ee6-f8d5-44e8-8164-9845b64eb275",
+      "semantic_id": "mbo_place_Elbe_DESM_DESN_OBF02810"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9",
+      "semantic_id": "mbo_place_Elbe_DESM_DEST_410020"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_e503a0b8-a731-4492-b3e3-67ab045799ff",
+      "semantic_id": "mbo_place_Elbe_DESM_DESN_OBF00200"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_ee4bbe74-ad2d-4988-802e-e43204ff4e2b",
+      "semantic_id": "mbo_place_Elbe_DESM_DENI_59152010"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_42e6647a-da1e-4991-b9a5-6fb8e171adeb",
+      "semantic_id": "mbo_place_Elbe_DESM_DEST_2110020"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_c147fa6f-87c0-439a-8ec7-b38e6b9fb1a5",
+      "semantic_id": "mbo_place_Elbe_DENI_SB_GL"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_181a0b23-b6fa-488f-954c-9974417f9172",
+      "semantic_id": "mbo_place_Elbe_DESN_DM"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_63f4cead-6bdc-4abd-9cb1-0ef0392b937f",
+      "semantic_id": "mbo_place_Elbe_DESN_SK"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_9de8b1e5-1bd8-4048-aecd-5dc01b5bae92",
+      "semantic_id": "mbo_place_Elbe_DEST_KN_TM"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_b6723871-dc8b-498b-914c-a3da0806a03f",
+      "semantic_id": "mbo_place_Elbe_DEST_WB"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_15b43f39-44b2-4d9d-8084-a89eb219302f",
+      "semantic_id": "mbo_place_Elbe_DEHH_4020014"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_4020017"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_a315e3d1-529c-49f0-8398-66126b593cf9",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_4020018"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_0b1e1394-eb7f-4a35-abe1-c129fd9cb213",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_4020020"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_d9b06193-30ae-4663-9919-93cdd0de45a9",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_4020021"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_729fad77-f20f-4433-b113-de865f08494c",
+      "semantic_id": "mbo_place_Elbe_DEHH_SMH"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_19ddeb18-c174-4491-a9fd-1fe0ca98ac79",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_BEL"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_e78117c7-4cd3-46f8-8eb2-bfe2347b5b3f",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_BS"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_STS"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_e8b5ad00-ed8a-41f8-8c9c-32e3bd1e38b6",
+      "semantic_id": "mbo_place_Elbe_DESH_NI_TF"
+    },
+    {
+      "class": "Place",
+      "uuid": "mbo_f272bc1f-3396-4e3c-9f0a-5e5e630e50d7",
+      "semantic_id": "mbo_place_Elbe_DEHH_Uesh"
     }
   ],
-  "missing_ids": []
+  "missing_ids": [
+    {
+      "class": "Person",
+      "uuid": "mbo_9bdb6d72-4400-49e2-a866-f543d2467de7",
+      "semantic_id": "mbo_lilihufnagel",
+      "similar": [
+        [
+          "mbo_lhufnagel",
+          0.896551724137931
+        ]
+      ]
+    }
+  ]
 }
