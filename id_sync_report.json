@@ -1,260 +1,190 @@
 {
-  "timestamp": "2026-08-12T03:20:29.878001",
+  "timestamp": "2026-08-12T19:13:43.872634",
   "new_ids": [
     {
-      "class": "GeoShape",
-      "uuid": "mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3",
-      "semantic_id": "mbo_shape_Elbe_DESH_220006_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041",
-      "semantic_id": "mbo_shape_Elbe_DESH_220016_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809",
-      "semantic_id": "mbo_shape_Elbe_DESH_220051_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_93dda573-c7db-4ebb-8b7e-a86827c44a09",
-      "semantic_id": "mbo_shape_Elbe_DESH_220054_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d",
-      "semantic_id": "mbo_shape_Elbe_DESH_220055_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_05e02ba8-44ad-4c86-943a-480062fb0507",
-      "semantic_id": "mbo_shape_Elbe_DESH_220057_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_5de725d2-1ecd-4521-a397-6431b0629a9c",
-      "semantic_id": "mbo_shape_Elbe_DESH_220063_fish"
-    },
-    {
-      "class": "GeoShape",
-      "uuid": "mbo_1c6657c2-136b-405e-a231-89a34301183d",
-      "semantic_id": "mbo_shape_Elbe_DESH_220065_fish"
-    },
-    {
-      "class": "Person",
-      "uuid": "mbo_8208f23b-6533-4d34-b921-26c41cc13ac7",
-      "semantic_id": "mbo_tsanders"
+      "class": "Place",
+      "uuid": "mbo_289e8690-0f73-4e2e-bfb0-c4215357f439",
+      "semantic_id": "mbo_place_Guadalquivir_41308_2"
     },
     {
       "class": "Place",
-      "uuid": "mbo_9e284405-e898-4f45-adb7-c757a60a54da",
-      "semantic_id": "mbo_place_Elbe_DESM_DENI_59592110"
+      "uuid": "mbo_b3906006-273b-4447-8c23-fa617e4af0bc",
+      "semantic_id": "mbo_place_Guadalquivir_41416"
     },
     {
       "class": "Place",
-      "uuid": "mbo_664b175f-24a1-4d78-be8a-bfe94ceb4861",
-      "semantic_id": "mbo_place_Elbe_DESH_220006"
+      "uuid": "mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
+      "semantic_id": "mbo_place_Po_IT0801000100"
     },
     {
       "class": "Place",
-      "uuid": "mbo_3add4538-8fd9-426c-93f2-6a1297047e07",
-      "semantic_id": "mbo_place_Elbe_DESH_220055"
+      "uuid": "mbo_30307e0e-1eee-44b5-add8-d6ced0b20222",
+      "semantic_id": "mbo_place_Po_IT0801000200"
     },
     {
       "class": "Place",
-      "uuid": "mbo_3c7ddc49-7d34-4516-9e33-3fdd4f717add",
-      "semantic_id": "mbo_place_Elbe_DESH_220063"
+      "uuid": "mbo_44a1bf7a-43f1-454c-a6eb-55ea129e864c",
+      "semantic_id": "mbo_place_Po_IT0801000250"
     },
     {
       "class": "Place",
-      "uuid": "mbo_b66f74fb-c2b9-4fe4-b4c2-f49d19b99906",
-      "semantic_id": "mbo_place_Elbe_DESH_220051"
+      "uuid": "mbo_cc9b098f-b69d-4dd6-a06f-0d7284dac380",
+      "semantic_id": "mbo_place_Po_IT0801000500"
     },
     {
       "class": "Place",
-      "uuid": "mbo_ac215118-cfe8-423f-b825-b1bf68b48723",
-      "semantic_id": "mbo_place_Elbe_DESH_220054"
+      "uuid": "mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c",
+      "semantic_id": "mbo_place_Po_IT0801000700"
     },
     {
       "class": "Place",
-      "uuid": "mbo_7bea7086-5799-4513-953c-02a2a4659bd6",
-      "semantic_id": "mbo_place_Elbe_DESH_220057"
+      "uuid": "mbo_ddfe7fe3-579a-4fee-9e39-4868117c194e",
+      "semantic_id": "mbo_place_Po_BOCCA_C"
     },
     {
       "class": "Place",
-      "uuid": "mbo_6ec360e4-4b35-4cfb-9eb3-e140f0918a2c",
-      "semantic_id": "mbo_place_Elbe_DESH_220065"
+      "uuid": "mbo_7efdf5dd-31d9-461b-8be1-423289e26bc3",
+      "semantic_id": "mbo_place_Po_BOCCA_T"
     },
     {
       "class": "Place",
-      "uuid": "mbo_21afe0a8-73f3-41aa-9988-945377cc7f33",
-      "semantic_id": "mbo_place_Elbe_DE_Helgo"
+      "uuid": "mbo_c68ede15-a404-44bd-84a1-422980874d1c",
+      "semantic_id": "mbo_place_Po_Station_2"
     },
     {
       "class": "Place",
-      "uuid": "mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
-      "semantic_id": "mbo_place_Elbe_DESH_220199"
+      "uuid": "mbo_94c89df7-625a-4391-99c6-23b770111f21",
+      "semantic_id": "mbo_place_Po_Station_4"
     },
     {
       "class": "Place",
-      "uuid": "mbo_5e866041-cc91-4377-8cfd-c7109a118cf9",
-      "semantic_id": "mbo_place_Elbe_DESH_220073"
+      "uuid": "mbo_ffe8b0b1-e98c-4ea1-a391-d52e5ac2e467",
+      "semantic_id": "mbo_place_Po_Station_5"
     },
     {
       "class": "Place",
-      "uuid": "mbo_4f9be234-299c-49cc-9d1a-68d8fb8d2d49",
-      "semantic_id": "mbo_place_Elbe_DESH_220077"
+      "uuid": "mbo_849666e8-41d2-429c-833f-66e6efc8c07a",
+      "semantic_id": "mbo_place_Po_Station_6"
     },
     {
       "class": "Place",
-      "uuid": "mbo_20189322-caff-41b1-a0df-bd19b0eb334e",
-      "semantic_id": "mbo_place_Elbe_DESH_220079"
+      "uuid": "mbo_dbd6d69b-bca0-4b48-9498-399671528985",
+      "semantic_id": "mbo_place_Po_Station_C1"
     },
     {
       "class": "Place",
-      "uuid": "mbo_b5bc2062-c7e0-4f75-b77a-958424184968",
-      "semantic_id": "mbo_place_Elbe_DESH_220080"
+      "uuid": "mbo_1087ebbb-7fca-4a01-b54d-a7a660cac35a",
+      "semantic_id": "mbo_place_Po_Station_C2"
     },
     {
       "class": "Place",
-      "uuid": "mbo_d061f095-da97-4ce0-ab1f-5a0aeed4d8a3",
-      "semantic_id": "mbo_place_Elbe_DESH_220082"
+      "uuid": "mbo_98d164a1-366d-40cd-b85f-1bc703396d5d",
+      "semantic_id": "mbo_place_Po_Station_C3"
     },
     {
       "class": "Place",
-      "uuid": "mbo_ec8e252d-8c7f-4b74-b6ad-ed171aff2792",
-      "semantic_id": "mbo_place_Elbe_DESH_220083"
+      "uuid": "mbo_cf615c56-b121-4e6b-91b1-989a8b07bc0f",
+      "semantic_id": "mbo_place_Po_Station_C4"
     },
     {
       "class": "Place",
-      "uuid": "mbo_a86312c8-e77e-4e16-9fe0-54d755197a02",
-      "semantic_id": "mbo_place_Elbe_DESH_220145"
+      "uuid": "mbo_00cec630-e42f-4256-be67-587f8c31fa6c",
+      "semantic_id": "mbo_place_Po_Station_C5"
     },
     {
       "class": "Place",
-      "uuid": "mbo_8cda3058-ac54-48e6-b06f-4865deb12a0d",
-      "semantic_id": "mbo_place_Elbe_DESM_DENI_59752051"
+      "uuid": "mbo_e5ff6db2-7813-4bc0-943b-da8d495b9ea2",
+      "semantic_id": "mbo_place_Po_Station_P1"
     },
     {
       "class": "Place",
-      "uuid": "mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56",
-      "semantic_id": "mbo_place_Elbe_DESM_DENI_59992055"
+      "uuid": "mbo_9defe7de-9eb9-44c6-b255-c5dd017394db",
+      "semantic_id": "mbo_place_Po_Station_P2"
     },
     {
       "class": "Place",
-      "uuid": "mbo_987df518-fd4f-45d1-b119-431edc258a7d",
-      "semantic_id": "mbo_place_Elbe_DESM_SH_120207"
+      "uuid": "mbo_b13af204-d3d2-43f0-bb63-c2af16ac5a3c",
+      "semantic_id": "mbo_place_Po_Station_P3"
     },
     {
       "class": "Place",
-      "uuid": "mbo_36719149-08ba-4441-b6d9-9b8bd644b431",
-      "semantic_id": "mbo_place_Elbe_DESH_220006_fish"
+      "uuid": "mbo_299d8bec-4104-493a-99c0-55c8ad1c63cf",
+      "semantic_id": "mbo_place_Po_Station_P4"
     },
     {
       "class": "Place",
-      "uuid": "mbo_5df022a3-f0a8-4b98-a490-02c6453da95e",
-      "semantic_id": "mbo_place_Elbe_DESH_220016_fish"
+      "uuid": "mbo_81f44d97-f37e-42d9-99e5-102687cbca32",
+      "semantic_id": "mbo_place_Po_Station_P5"
     },
     {
       "class": "Place",
-      "uuid": "mbo_e6053229-2391-4ddb-aab9-6c03e2897210",
-      "semantic_id": "mbo_place_Elbe_DESH_220051_fish"
+      "uuid": "mbo_8f2a2e44-0595-4e8b-a2f7-9c4cc57de74c",
+      "semantic_id": "mbo_place_Po_99100201"
     },
     {
       "class": "Place",
-      "uuid": "mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6",
-      "semantic_id": "mbo_place_Elbe_DESH_220054_fish"
+      "uuid": "mbo_2b0b9501-17ae-4f0c-b299-8130dad76ffc",
+      "semantic_id": "mbo_place_Po_S1-GB_pylon"
     },
     {
       "class": "Place",
-      "uuid": "mbo_ad202b0f-dde8-4841-92ca-0a9ec2bd53cb",
-      "semantic_id": "mbo_place_Elbe_DESH_220055_fish"
+      "uuid": "mbo_bfe1635a-45ea-4245-be65-e03cde7457fc",
+      "semantic_id": "mbo_place_Po_2"
     },
     {
       "class": "Place",
-      "uuid": "mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128",
-      "semantic_id": "mbo_place_Elbe_DESH_220057_fish"
+      "uuid": "mbo_5e2985da-cf01-4d26-8aed-ad819296e1ea",
+      "semantic_id": "mbo_place_Po_4"
     },
     {
       "class": "Place",
-      "uuid": "mbo_283bbdf5-c275-4536-9715-86647e3a4f7f",
-      "semantic_id": "mbo_place_Elbe_DESH_220063_fish"
+      "uuid": "mbo_68f59d5d-a7a1-4ec8-870b-2c46e70b3038",
+      "semantic_id": "mbo_place_Danube_Chiciu"
     },
     {
       "class": "Place",
-      "uuid": "mbo_4b27654f-6b42-40d3-bc3a-bb1d210d22d6",
-      "semantic_id": "mbo_place_Elbe_DESH_220065_fish"
+      "uuid": "mbo_944987d3-0bc5-4075-9b88-2a1a8c888edf",
+      "semantic_id": "mbo_place_Danube_Oltenita_Arges"
     },
     {
       "class": "Place",
-      "uuid": "mbo_7cb31166-0aa8-43e8-bddb-0424ac557aac",
-      "semantic_id": "mbo_place_Guadalquivir_Yesos"
+      "uuid": "mbo_e299fb77-5425-422d-9727-980130046033",
+      "semantic_id": "mbo_place_Danube_SG_01_transitionalwaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_f2471954-55fe-4aaf-9ed8-b417c989f545",
-      "semantic_id": "mbo_place_Guadalquivir_Esparraguera"
+      "uuid": "mbo_6c6862f3-497b-4d74-974b-c5eced6e7004",
+      "semantic_id": "mbo_place_Danube_SG_02_transitionalwaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_27ca348f-4682-400e-a963-31fe7b538653",
-      "semantic_id": "mbo_place_Guadalquivir_Puntalete"
+      "uuid": "mbo_b33a2836-24d0-4755-81a5-27eaa18fa8be",
+      "semantic_id": "mbo_place_Danube_SG_03_marinewaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_12bc4e1b-5141-4283-9ac1-22788982c81f",
-      "semantic_id": "mbo_place_Guadalquivir_Salinas"
+      "uuid": "mbo_57d6b4c5-c8f6-49d9-bb51-66a77f7e85ed",
+      "semantic_id": "mbo_place_Danube_SG_04_marinewaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_7248ae3c-43c0-4a62-a8db-f473f5b7abf5",
-      "semantic_id": "mbo_place_Guadalquivir_Bonanza"
+      "uuid": "mbo_7679129a-9d6b-46f2-8f71-20a22cceabac",
+      "semantic_id": "mbo_place_Danube_SG_05_marinewaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_27c0a172-1ea0-438a-9543-3ed8daace5cd",
-      "semantic_id": "mbo_place_Guadalquivir_Broa"
+      "uuid": "mbo_29fe5886-7703-479a-af16-44156a5b163a",
+      "semantic_id": "mbo_place_Danube_SG_06_marinewaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_b1bae4f0-447d-4f4d-97fb-187a7e219851",
-      "semantic_id": "mbo_place_Guadalquivir_DONANA"
+      "uuid": "mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e",
+      "semantic_id": "mbo_place_Danube_SG_07_marinewaters"
     },
     {
       "class": "Place",
-      "uuid": "mbo_f19fc64f-fc9e-4908-a51c-34f178e0f85b",
-      "semantic_id": "mbo_place_Guadalquivir_CANAL"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_ba18ab82-7535-4913-9d02-4a67024fe55f",
-      "semantic_id": "mbo_place_Guadalquivir_FARO"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_d771cdfd-9806-444e-be23-c58fd8cc0f1d",
-      "semantic_id": "mbo_place_Guadalquivir_40901_3"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_79ded334-ffd5-43cd-a435-c075c1442ca9",
-      "semantic_id": "mbo_place_Guadalquivir_40901BIO"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_b5d589a6-dd3e-4353-bdb7-6af50d2ac498",
-      "semantic_id": "mbo_place_Guadalquivir_41101_2"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_355a1f74-374b-4f87-bef9-0ca5614d394b",
-      "semantic_id": "mbo_place_Guadalquivir_41101BIO"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_a832a392-a832-40d7-adb2-e7fc10c94395",
-      "semantic_id": "mbo_place_Guadalquivir_41302"
+      "uuid": "mbo_0f764777-e98a-4035-aca2-7bc12856bb89",
+      "semantic_id": "mbo_place_Danube_SG_08_marinewaters"
     }
   ],
   "missing_ids": [
