@@ -65,3 +65,45 @@ mbo_place_Elbe_DESH_NI_BS,mbo_lhufnagel,mbo_wp3_d3_3,Böschrücken/ St. Margaret
 mbo_place_Elbe_DESH_NI_STS,mbo_lhufnagel,mbo_wp3_d3_3,Schwarztonnensand,,53.69817852,9.485152436,
 mbo_place_Elbe_DESH_NI_TF,mbo_lhufnagel,mbo_wp3_d3_3,Twielenfleth/ Lühemündung,,53.60837486,9.566782765,
 mbo_place_Elbe_DEHH_Uesh,mbo_lhufnagel,mbo_wp3_d3_3,Seemannshöft,,53.54021472,9.886206881,
+mbo_place_Elbe_DESM_DENI_59592110,mbo_lhufnagel,mbo_wp3_d3_3,Lühemündung,,53.57730853,9.640146782,
+mbo_place_Elbe_DESH_220006,mbo_lhufnagel,mbo_wp3_d3_3,Südl. Amrum,,54.5916667,8.39166667,
+mbo_place_Elbe_DESH_220055,mbo_lhufnagel,mbo_wp3_d3_3,Westerhever,,54.375,8.511666667,
+mbo_place_Elbe_DESH_220063,mbo_lhufnagel,mbo_wp3_d3_3,Pellworm / Norderhever,,54.495,8.723333333,
+mbo_place_Elbe_DESH_220051,mbo_lhufnagel,mbo_wp3_d3_3,Büsum,,54.11666667,8.855,
+mbo_place_Elbe_DESH_220054,mbo_lhufnagel,mbo_wp3_d3_3,St. Peter / Eider,,54.24333333,8.495,
+mbo_place_Elbe_DESH_220057,mbo_lhufnagel,mbo_wp3_d3_3,Hörnum / Vortrapptief,,54.7133,8.283333333,
+mbo_place_Elbe_DESH_220065,mbo_lhufnagel,mbo_wp3_d3_3,Norderelbe,,54.0016667,8.6683,
+mbo_place_Elbe_DE_Helgo,mbo_lhufnagel,mbo_wp3_d3_3,Helgoland,,54.193,7.878,
+mbo_place_Elbe_DESH_220199,mbo_lhufnagel,mbo_wp3_d3_3,Helgoland Tiefe Rinne,,54.14667,7.83333,
+mbo_place_Elbe_DESH_220073,mbo_lhufnagel,mbo_wp3_d3_3,"Büsum, Stinteck",,54.16116667,8.815,
+mbo_place_Elbe_DESH_220077,mbo_lhufnagel,mbo_wp3_d3_3,"Nordstrand, Reithörn",,54.47416667,8.801166667,
+mbo_place_Elbe_DESH_220079,mbo_lhufnagel,mbo_wp3_d3_3,Amrumbank,,54.725,80.575,
+mbo_place_Elbe_DESH_220080,mbo_lhufnagel,mbo_wp3_d3_3,Vortrapptief,,54.584,8.131666667,
+mbo_place_Elbe_DESH_220082,mbo_lhufnagel,mbo_wp3_d3_3,Süderhever,,54.3,8.2995,
+mbo_place_Elbe_DESH_220083,mbo_lhufnagel,mbo_wp3_d3_3,Norderpiep,,54.17816667,8.46,
+mbo_place_Elbe_DESH_220145,mbo_lhufnagel,mbo_wp3_d3_3,Trischendamm,,54.02316667,8.8095,
+mbo_place_Elbe_DESM_DENI_59752051,mbo_lhufnagel,mbo_wp3_d3_3,Grauerort,,53.67790514,9.495002138,
+mbo_place_Elbe_DESM_DENI_59992055,mbo_lhufnagel,mbo_wp3_d3_3,Cuxhaven,,53.87651553,8.705703831,
+mbo_place_Elbe_DESM_SH_120207,mbo_lhufnagel,mbo_wp3_d3_3,Brunsbüttel,,53.88043371,9.16882372,
+mbo_place_Elbe_DESH_220006_fish,mbo_lhufnagel,mbo_wp3_d3_3,Südl. Amrum - fish,,54.5916667,8.39166667,mbo_shape_Elbe_DESH_220006_fish
+mbo_place_Elbe_DESH_220016_fish,mbo_lhufnagel,mbo_wp3_d3_3,Helgoland Rede - fish,,54.188333,7.9,mbo_shape_Elbe_DESH_220016_fish
+mbo_place_Elbe_DESH_220051_fish,mbo_lhufnagel,mbo_wp3_d3_3,Büsum - fish,,54.1166667,8.855,mbo_shape_Elbe_DESH_220051_fish
+mbo_place_Elbe_DESH_220054_fish,mbo_lhufnagel,mbo_wp3_d3_3,St. Peter / Eider - fish,,54.2433333,8.495,mbo_shape_Elbe_DESH_220054_fish
+mbo_place_Elbe_DESH_220055_fish,mbo_lhufnagel,mbo_wp3_d3_3,Westerhever - fish,,54.375,8.51166667,mbo_shape_Elbe_DESH_220055_fish
+mbo_place_Elbe_DESH_220057_fish,mbo_lhufnagel,mbo_wp3_d3_3,Hörnum / Vortrapptief - fish,,54.7133,8.28333333,mbo_shape_Elbe_DESH_220057_fish
+mbo_place_Elbe_DESH_220063_fish,mbo_lhufnagel,mbo_wp3_d3_3,Pellworm / Norderhever - fish,,54.495,8.72333333,mbo_shape_Elbe_DESH_220063_fish
+mbo_place_Elbe_DESH_220065_fish,mbo_lhufnagel,mbo_wp3_d3_3,Norderelbe - fish,,54.0016667,8.6683,mbo_shape_Elbe_DESH_220065_fish
+mbo_place_Guadalquivir_Yesos,mbo_lhufnagel,mbo_wp3_d3_3,Yesos / 5PSU,,36.91269,-6.203985,
+mbo_place_Guadalquivir_Esparraguera,mbo_lhufnagel,mbo_wp3_d3_3,Esparraguera,,36.892713,-6.259377,
+mbo_place_Guadalquivir_Puntalete,mbo_lhufnagel,mbo_wp3_d3_3,Puntalete / 15PSU,,36.906993,-6.289627,
+mbo_place_Guadalquivir_Salinas,mbo_lhufnagel,mbo_wp3_d3_3,Salinas,,36.87359,-6.34684,
+mbo_place_Guadalquivir_Bonanza,mbo_lhufnagel,mbo_wp3_d3_3,Bonanza / 25PSU,,36.8182,-6.34721,
+mbo_place_Guadalquivir_Broa,mbo_lhufnagel,mbo_wp3_d3_3,Broa,,36.779115,-6.441263,
+mbo_place_Guadalquivir_DONANA,mbo_lhufnagel,mbo_wp3_d3_3,Donana,,36.809355,-6.409233,
+mbo_place_Guadalquivir_CANAL,mbo_lhufnagel,mbo_wp3_d3_3,Canal,,36.787224,-6.394642,
+mbo_place_Guadalquivir_FARO,mbo_lhufnagel,mbo_wp3_d3_3,Faro,,36.75436,-6.429317,
+mbo_place_Guadalquivir_40901_3,mbo_lhufnagel,mbo_wp3_d3_3,Almodovar del Rio Cordoba,,37.802989,-5.009707,
+mbo_place_Guadalquivir_40901BIO,mbo_lhufnagel,mbo_wp3_d3_3,,,,,
+mbo_place_Guadalquivir_41101_2,mbo_lhufnagel,mbo_wp3_d3_3,,,,,
+mbo_place_Guadalquivir_41101BIO,mbo_lhufnagel,mbo_wp3_d3_3,,,,,
+mbo_place_Guadalquivir_41302,mbo_lhufnagel,mbo_wp3_d3_3,,,,,
