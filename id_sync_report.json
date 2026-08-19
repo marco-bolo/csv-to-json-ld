@@ -1,203 +1,91 @@
 {
-  "timestamp": "2026-08-12T19:13:43.872634",
+  "timestamp": "2026-08-19T18:00:13.450481",
   "new_ids": [
     {
-      "class": "Place",
-      "uuid": "mbo_289e8690-0f73-4e2e-bfb0-c4215357f439",
-      "semantic_id": "mbo_place_Guadalquivir_41308_2"
+      "class": "License",
+      "uuid": "mbo_caa388af-6208-49d4-a011-ac2473dc59e0",
+      "semantic_id": "mbo_license_mit"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_b3906006-273b-4447-8c23-fa617e4af0bc",
-      "semantic_id": "mbo_place_Guadalquivir_41416"
+      "class": "HowToStep",
+      "uuid": "mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa",
+      "semantic_id": "mbo_t3_3_source_data_howtosteps1"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
-      "semantic_id": "mbo_place_Po_IT0801000100"
+      "class": "HowToStep",
+      "uuid": "mbo_441299a4-33de-4a62-9134-fc3758ab8492",
+      "semantic_id": "mbo_t3_3_source_data_howtosteps2"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_30307e0e-1eee-44b5-add8-d6ced0b20222",
-      "semantic_id": "mbo_place_Po_IT0801000200"
+      "class": "HowToStep",
+      "uuid": "mbo_96d1ac76-50f4-4819-b313-e0a12e4205e6",
+      "semantic_id": "mbo_t3_3_source_data_howtosteps3"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_44a1bf7a-43f1-454c-a6eb-55ea129e864c",
-      "semantic_id": "mbo_place_Po_IT0801000250"
+      "class": "HowToStep",
+      "uuid": "mbo_0883dc06-0619-4801-b370-e7a19232e4ff",
+      "semantic_id": "mbo_t3_3_qc_harmonise_howtosteps1"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_cc9b098f-b69d-4dd6-a06f-0d7284dac380",
-      "semantic_id": "mbo_place_Po_IT0801000500"
+      "class": "HowToStep",
+      "uuid": "mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239",
+      "semantic_id": "mbo_t3_3_qc_harmonise_howtosteps2"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c",
-      "semantic_id": "mbo_place_Po_IT0801000700"
+      "class": "HowToStep",
+      "uuid": "mbo_15b887c1-ab57-41b8-a26e-0261fe951d61",
+      "semantic_id": "mbo_t3_3_analyse_data_howtostep"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_ddfe7fe3-579a-4fee-9e39-4868117c194e",
-      "semantic_id": "mbo_place_Po_BOCCA_C"
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_933edfa2-9528-4110-9b6c-4d29bc179513",
+      "semantic_id": "mbo_T3_3_formatting_and_analysis_code"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_7efdf5dd-31d9-461b-8be1-423289e26bc3",
-      "semantic_id": "mbo_place_Po_BOCCA_T"
+      "class": "HowTo",
+      "uuid": "mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec",
+      "semantic_id": "mbo_t3_3_source_data_howto"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_c68ede15-a404-44bd-84a1-422980874d1c",
-      "semantic_id": "mbo_place_Po_Station_2"
+      "class": "HowTo",
+      "uuid": "mbo_11294263-2e73-40ed-8b56-85c705c29e1a",
+      "semantic_id": "mbo_t3_3_qc_harmonise_howto"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_94c89df7-625a-4391-99c6-23b770111f21",
-      "semantic_id": "mbo_place_Po_Station_4"
+      "class": "HowTo",
+      "uuid": "mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
+      "semantic_id": "mbo_t3_3_analyse_data_howto"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_ffe8b0b1-e98c-4ea1-a391-d52e5ac2e467",
-      "semantic_id": "mbo_place_Po_Station_5"
+      "class": "Action",
+      "uuid": "mbo_1af88b26-8d33-4c26-acc9-5b44ad2aaa06",
+      "semantic_id": "mbo_t3_3_source_data_collection"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_849666e8-41d2-429c-833f-66e6efc8c07a",
-      "semantic_id": "mbo_place_Po_Station_6"
+      "class": "Action",
+      "uuid": "mbo_2d3e7566-48a5-47e2-9980-76c4d9b77a79",
+      "semantic_id": "mbo_t3_3_qc_and_harmonise"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_dbd6d69b-bca0-4b48-9498-399671528985",
-      "semantic_id": "mbo_place_Po_Station_C1"
+      "class": "Action",
+      "uuid": "mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246",
+      "semantic_id": "mbo_t3_3_data_analysis"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_1087ebbb-7fca-4a01-b54d-a7a660cac35a",
-      "semantic_id": "mbo_place_Po_Station_C2"
+      "class": "Dataset",
+      "uuid": "mbo_04cefba1-8246-45ab-ba78-80f0cdc516e7",
+      "semantic_id": "mbo_t3_3_source_data_collected"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_98d164a1-366d-40cd-b85f-1bc703396d5d",
-      "semantic_id": "mbo_place_Po_Station_C3"
+      "class": "Dataset",
+      "uuid": "mbo_654ff890-7117-4d0d-97dc-cdfb939a055a",
+      "semantic_id": "mbo_t3_3_source_data_reformatted"
     },
     {
-      "class": "Place",
-      "uuid": "mbo_cf615c56-b121-4e6b-91b1-989a8b07bc0f",
-      "semantic_id": "mbo_place_Po_Station_C4"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_00cec630-e42f-4256-be67-587f8c31fa6c",
-      "semantic_id": "mbo_place_Po_Station_C5"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_e5ff6db2-7813-4bc0-943b-da8d495b9ea2",
-      "semantic_id": "mbo_place_Po_Station_P1"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_9defe7de-9eb9-44c6-b255-c5dd017394db",
-      "semantic_id": "mbo_place_Po_Station_P2"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_b13af204-d3d2-43f0-bb63-c2af16ac5a3c",
-      "semantic_id": "mbo_place_Po_Station_P3"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_299d8bec-4104-493a-99c0-55c8ad1c63cf",
-      "semantic_id": "mbo_place_Po_Station_P4"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_81f44d97-f37e-42d9-99e5-102687cbca32",
-      "semantic_id": "mbo_place_Po_Station_P5"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_8f2a2e44-0595-4e8b-a2f7-9c4cc57de74c",
-      "semantic_id": "mbo_place_Po_99100201"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_2b0b9501-17ae-4f0c-b299-8130dad76ffc",
-      "semantic_id": "mbo_place_Po_S1-GB_pylon"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_bfe1635a-45ea-4245-be65-e03cde7457fc",
-      "semantic_id": "mbo_place_Po_2"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_5e2985da-cf01-4d26-8aed-ad819296e1ea",
-      "semantic_id": "mbo_place_Po_4"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_68f59d5d-a7a1-4ec8-870b-2c46e70b3038",
-      "semantic_id": "mbo_place_Danube_Chiciu"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_944987d3-0bc5-4075-9b88-2a1a8c888edf",
-      "semantic_id": "mbo_place_Danube_Oltenita_Arges"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_e299fb77-5425-422d-9727-980130046033",
-      "semantic_id": "mbo_place_Danube_SG_01_transitionalwaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_6c6862f3-497b-4d74-974b-c5eced6e7004",
-      "semantic_id": "mbo_place_Danube_SG_02_transitionalwaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_b33a2836-24d0-4755-81a5-27eaa18fa8be",
-      "semantic_id": "mbo_place_Danube_SG_03_marinewaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_57d6b4c5-c8f6-49d9-bb51-66a77f7e85ed",
-      "semantic_id": "mbo_place_Danube_SG_04_marinewaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_7679129a-9d6b-46f2-8f71-20a22cceabac",
-      "semantic_id": "mbo_place_Danube_SG_05_marinewaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_29fe5886-7703-479a-af16-44156a5b163a",
-      "semantic_id": "mbo_place_Danube_SG_06_marinewaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e",
-      "semantic_id": "mbo_place_Danube_SG_07_marinewaters"
-    },
-    {
-      "class": "Place",
-      "uuid": "mbo_0f764777-e98a-4035-aca2-7bc12856bb89",
-      "semantic_id": "mbo_place_Danube_SG_08_marinewaters"
+      "class": "Dataset",
+      "uuid": "mbo_055324d1-ce20-49e1-8abc-67310dff0d4f",
+      "semantic_id": "mbo_t3_3_analysis_results"
     }
   ],
-  "missing_ids": [
-    {
-      "class": "Person",
-      "uuid": "mbo_9bdb6d72-4400-49e2-a866-f543d2467de7",
-      "semantic_id": "mbo_lilihufnagel",
-      "similar": [
-        [
-          "mbo_lhufnagel",
-          0.896551724137931
-        ]
-      ]
-    }
-  ]
+  "missing_ids": []
 }
