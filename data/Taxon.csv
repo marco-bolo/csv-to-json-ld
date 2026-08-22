@@ -16,3 +16,6 @@ mbo_taxon_harbourporpose,mbo_kexter,mbo_db_tool_population,harbour porpoise,Phoc
 mbo_prokaryota,mbo_kexter,mbo_db_tool_population,Prokaryotes,,,,,,,,,,,
 mbo_metazoa,mbo_kexter,mbo_db_tool_population,Metazoans,,,,,,,,,,,
 mbo_taxon_cetacea,mbo_sformel,mbo_wp2_t2_2,Cetaceans,Cetacea,Animalia,Chordata,Cetartiodactyla,,,,accepted,infraorder,worms:2688,urn:lsid:marinespecies.org:taxname:2688
+mbo_taxon_bottlenosedolphin,mbo_kexter,mbo_db_tool_population,bottlenose dolphin,Tursiops truncatus,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137117
+mbo_taxon_harbourseal,mbo_kexter,mbo_db_tool_population,bottlenose dolphin,Phoca vitulina,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137084
+mbo_taxon_commondolphin,mbo_kexter,mbo_db_tool_population,bottlenose dolphin,Delphinus delphis,,,,,,,,,,urn:lsid:marinespecies.org:taxname:137094

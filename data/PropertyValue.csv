@@ -65,3 +65,8 @@ mbo_propval_speciesdistrib,mbo_kexter,mbo_db_tool_population,Species distributio
 mbo_propval_speciescount,mbo_kexter,mbo_db_tool_population,Species count,"Count of species by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",,,,,,
 mbo_propval_ecosystemverticalprofile,mbo_kexter,mbo_db_tool_population,Ecosystem vertical profile,"Ecosystem vertical profile by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",,,,,,
 mbo_propval_ecosystemvolumeestimate,mbo_kexter,mbo_db_tool_population,Ecosystem volume,"Ecosystem volume estimation by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",,,,,,
+mbo_propval_acoustic_presenceabsence,mbo_kexter,mbo_db_tool_population,Acoustic presence/absence per minute,Acoustic presence/absence per minute (extracted from the raw FPOD data of T4.4),,,,,,
+mbo_propval_ambient_noise,mbo_kexter,mbo_db_tool_population,Ambient noise,,https://vocab.nerc.ac.uk/collection/P04/current/G877/,,,,,
+mbo_propval_echogram,mbo_kexter,mbo_db_tool_population,Echogram,Output of an Echosounder,,,,,,
+mbo_propval_video,mbo_kexter,mbo_db_tool_population,Video,Output from cameras on ROV of T4.4 (mp4),,,,,,
+mbo_propval_fishschool_info,mbo_kexter,mbo_db_tool_population,Fish school information,Relevant to the echosounder of Task 4.4: fish school size and other details,,,,,,
