@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec",
+  "@type": "HowTo",
+  "description": "The steps undertaken: creating a data-requirements matrix; searching for source data that fulfill the requirements; collecting those data (via portals, metadata records, emails).",
+  "name": "T3.3: Collecting source data: HowTo",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_933edfa2-9528-4110-9b6c-4d29bc179513",
+  "@type": "SoftwareSourceCode",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+  },
+  "schema:codeRepository": {
+    "@type": "URL",
+    "@value": "https://codebase.helmholtz.cloud/marco-bolo-task-3.3/deliverable-3.3"
+  },
+  "contributor": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c0636979-13de-48b2-ab77-91605cb4410b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
+    }
+  ],
+  "copyrightHolder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "schema:dateCreated": "2026-04-29",
+  "description": "Workflow/ code is formatting the source data into a standardized formatted spreadsheet containing macrozoobenthos, fish, phytoplankton and environmental data from the four case studies in EU HORIZON project MARCO-BOLO Deliverable D3.3 of Task 3.3. The source data (input) can be either preformatted in the spreadsheet or in other formats depending on the data source. Output is the final formatted spreadsheet ready for further analysis. Second part of the workflow/code is taking those inputs and analysing them for various parameters (details provided with the code).",
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+  },
+  "name": "MBO D3.3 RScript Data Formatting and analysis",
+  "programmingLanguage": "R",
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+  },
+  "runtimePlatform": "R version 4.5.2"
+}

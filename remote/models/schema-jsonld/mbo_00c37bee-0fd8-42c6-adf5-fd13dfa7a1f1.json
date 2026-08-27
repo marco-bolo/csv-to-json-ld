@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1",
+  "@type": "Dataset",
+  "name": "Biological detections from the sound data (not specific to taxon identifications)",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9"
+  },
+  "temporalCoverage": "2025-05-16/2025-05-11",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://www.vliz.be/en/imis?module=dataset&dasid=9027"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"
+  }
+}

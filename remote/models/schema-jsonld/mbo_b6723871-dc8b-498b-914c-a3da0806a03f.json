@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b6723871-dc8b-498b-914c-a3da0806a03f",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.86237555"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.61274935"
+  },
+  "name": "Area Wittenberg"
+}

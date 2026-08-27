@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8cda3058-ac54-48e6-b06f-4865deb12a0d",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.67790514"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.495002138"
+  },
+  "name": "Grauerort"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ddfe7fe3-579a-4fee-9e39-4868117c194e",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.785716"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.307783"
+  },
+  "name": "Sacca di Goro, Bocca C"
+}

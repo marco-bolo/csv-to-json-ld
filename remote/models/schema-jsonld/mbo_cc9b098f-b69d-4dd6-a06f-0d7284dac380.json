@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_cc9b098f-b69d-4dd6-a06f-0d7284dac380",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.9081"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "10.5519"
+  },
+  "name": "Po a Boretto"
+}

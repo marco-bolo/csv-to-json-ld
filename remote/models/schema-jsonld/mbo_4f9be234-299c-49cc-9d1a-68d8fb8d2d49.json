@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_4f9be234-299c-49cc-9d1a-68d8fb8d2d49",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.47416667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.801166667"
+  },
+  "name": "Nordstrand, Reithörn"
+}

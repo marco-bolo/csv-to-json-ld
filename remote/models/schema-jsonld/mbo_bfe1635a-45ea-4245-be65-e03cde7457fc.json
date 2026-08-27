@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bfe1635a-45ea-4245-be65-e03cde7457fc",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.762758"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.2585433"
+  },
+  "name": "Station 2 - Lido di Volano"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_987df518-fd4f-45d1-b119-431edc258a7d",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.88043371"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.16882372"
+  },
+  "name": "Brunsbüttel"
+}

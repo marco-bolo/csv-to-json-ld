@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b3906006-273b-4447-8c23-fa617e4af0bc",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "37.620504"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-5.676982"
+  },
+  "name": "Alcolea del Rio"
+}

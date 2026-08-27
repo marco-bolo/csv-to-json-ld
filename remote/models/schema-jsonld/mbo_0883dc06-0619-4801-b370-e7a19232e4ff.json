@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_0883dc06-0619-4801-b370-e7a19232e4ff",
+  "@type": "HowToStep",
+  "abstract": "Manual QC or following Excel macros: remove incomplete data",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+  },
+  "itemListElement": {
+    "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239"
+  },
+  "name": "T3.3 QC and harmonise",
+  "position": {
+    "@type": "xsd:int",
+    "@value": "1"
+  }
+}

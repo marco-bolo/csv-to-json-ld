@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef",
+  "@type": "PropertyValue",
+  "description": "Output of an Echosounder",
+  "name": "Echogram"
+}

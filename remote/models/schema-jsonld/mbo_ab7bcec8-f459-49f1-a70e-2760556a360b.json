@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "45.0917"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.4456"
+  },
+  "name": "Po a Castel S. Giovanni"
+}

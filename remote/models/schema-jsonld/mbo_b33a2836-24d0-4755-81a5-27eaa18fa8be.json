@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b33a2836-24d0-4755-81a5-27eaa18fa8be",
+  "@type": "Place",
+  "description": "Sampling station in the Danube - Black Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.8114"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "29.671117"
+  },
+  "name": "SfGheorghe SG 03 marine waters"
+}

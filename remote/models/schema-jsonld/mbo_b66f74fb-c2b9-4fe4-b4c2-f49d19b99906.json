@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b66f74fb-c2b9-4fe4-b4c2-f49d19b99906",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.11666667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.855"
+  },
+  "name": "Büsum"
+}

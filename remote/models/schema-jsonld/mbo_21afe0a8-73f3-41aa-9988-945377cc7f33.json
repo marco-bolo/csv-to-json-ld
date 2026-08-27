@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_21afe0a8-73f3-41aa-9988-945377cc7f33",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.193"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "7.878"
+  },
+  "name": "Helgoland"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1a612cca-8be6-434e-9a26-9915c568a488",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3"
+  },
+  "name": "T5.1.2 running habitat model results - harbor porpoise",
+  "spatialCoverage": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+    }
+  ],
+  "temporalCoverage": "2000-01-01/2019-12-31",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://marineinfo.org/en/imis?module=dataset&dasid=9150"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6d341da5-8076-4539-b3e4-10b896dd9e3f",
+  "@type": "Dataset",
+  "about": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+    }
+  ],
+  "description": "Raw eDNA metabarcoding sequences targeting 16S,18S, COI and 12S Fish genes",
+  "name": "16S,18S, COI and 12S Fish metabarcoding raw reads",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b9ae39f4-0890-4303-bdd7-6828beea2411"
+  },
+  "temporalCoverage": "2025-05/2025-06",
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
+}

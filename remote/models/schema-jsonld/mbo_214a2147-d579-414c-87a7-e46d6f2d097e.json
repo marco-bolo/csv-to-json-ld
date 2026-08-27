@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_214a2147-d579-414c-87a7-e46d6f2d097e",
+  "@type": "PropertyValue",
+  "name": "Ambient noise",
+  "propertyID": {
+    "@id": "https://vocab.nerc.ac.uk/collection/P04/current/G877/"
+  }
+}

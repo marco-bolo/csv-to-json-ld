@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a315e3d1-529c-49f0-8398-66126b593cf9",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.72525384"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.459531838"
+  },
+  "name": "Area Kollmar"
+}

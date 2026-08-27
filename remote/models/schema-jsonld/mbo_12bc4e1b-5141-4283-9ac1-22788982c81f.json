@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_12bc4e1b-5141-4283-9ac1-22788982c81f",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "36.87359"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-6.34684"
+  },
+  "name": "Salinas"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20",
+  "@type": "PropertyValue",
+  "description": "Acoustic presence/absence per minute (extracted from the raw FPOD data of T4.4)",
+  "name": "Acoustic presence/absence per minute"
+}

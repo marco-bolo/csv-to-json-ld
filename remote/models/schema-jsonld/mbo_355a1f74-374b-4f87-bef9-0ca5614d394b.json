@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_355a1f74-374b-4f87-bef9-0ca5614d394b",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "37.794976"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-5.095606"
+  },
+  "name": "Posadas 2"
+}

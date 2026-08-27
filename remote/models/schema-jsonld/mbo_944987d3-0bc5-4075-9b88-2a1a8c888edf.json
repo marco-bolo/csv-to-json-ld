@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_944987d3-0bc5-4075-9b88-2a1a8c888edf",
+  "@type": "Place",
+  "description": "Sampling station in the Danube - Black Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.0720833"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "26.6612583"
+  },
+  "name": "Oltenita / Arges"
+}

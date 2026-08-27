@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.14667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "7.83333"
+  },
+  "name": "Helgoland Tiefe Rinne"
+}

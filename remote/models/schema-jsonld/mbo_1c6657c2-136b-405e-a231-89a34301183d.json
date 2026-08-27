@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1c6657c2-136b-405e-a231-89a34301183d",
+  "@type": "GeoShape",
+  "circle": "54.495 8.72333333 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Norderelbe - fish"
+}

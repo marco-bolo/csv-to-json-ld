@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246",
+  "@type": "CreateAction",
+  "abstract": "Data analysis which were performed for HORIZON project MARCO-BOLO Deliverable D3.3 of Task 3.3.",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+  },
+  "description": "Data analysis which were performed for HORIZON project MARCO-BOLO Deliverable D3.3 of Task 3.3: Calculated diversity and ploted as non-metric multidimensional scaling (Nmds), Ploted species distribution according to distance in the river-to-sea continuum, Calculated diversity Indices (Shannon, Simpson, Richness, Evenness) and ploted them according to distance in the river-to-sea continuum, Tested correlations of diversity indices with environmental variables, Calculated and ploted redundancy analysis (RDA).",
+  "name": "T3.3: Analyse the QCd and formatted data",
+  "object": {
+    "@id": "file:///work/out/bulk/mbo_654ff890-7117-4d0d-97dc-cdfb939a055a"
+  },
+  "participant": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c0636979-13de-48b2-ab77-91605cb4410b"
+    }
+  ],
+  "result": {
+    "@id": "https://w3id.org/marco-bolo/mbo_055324d1-ce20-49e1-8abc-67310dff0d4f"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56",
+  "@type": "PropertyValue",
+  "description": "Relevant to the echosounder of Task 4.4: fish school size and other details",
+  "name": "Fish school information"
+}

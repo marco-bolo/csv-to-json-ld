@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.8876"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "11.6018"
+  },
+  "name": "Po a Pontelagoscuro"
+}

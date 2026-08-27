@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3",
+  "@type": "GeoShape",
+  "circle": "54.5916667 8.39166667 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Südl. Amrum - fish"
+}

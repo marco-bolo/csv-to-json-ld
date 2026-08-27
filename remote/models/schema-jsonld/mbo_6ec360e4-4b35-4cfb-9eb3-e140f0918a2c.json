@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6ec360e4-4b35-4cfb-9eb3-e140f0918a2c",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.0016667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.6683"
+  },
+  "name": "Norderelbe"
+}

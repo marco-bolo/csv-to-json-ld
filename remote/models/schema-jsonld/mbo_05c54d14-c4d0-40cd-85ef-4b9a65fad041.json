@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041",
+  "@type": "GeoShape",
+  "circle": "54.188333 7.9 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Helgoland Rede - fish"
+}

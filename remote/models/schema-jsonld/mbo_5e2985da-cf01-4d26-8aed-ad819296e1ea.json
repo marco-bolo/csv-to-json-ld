@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5e2985da-cf01-4d26-8aed-ad819296e1ea",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.6614537"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.2570453"
+  },
+  "name": "Station 4 - Porto Garibaldi"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_289e8690-0f73-4e2e-bfb0-c4215357f439",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "37.717142"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-5.28842"
+  },
+  "name": "Palma del Rio 2"
+}

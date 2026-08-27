@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e6053229-2391-4ddb-aab9-6c03e2897210",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.1166667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.855"
+  },
+  "name": "Büsum - fish"
+}

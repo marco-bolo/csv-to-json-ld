@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b13af204-d3d2-43f0-bb63-c2af16ac5a3c",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.8058833"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.3537167"
+  },
+  "name": "Sacca di Goro, Station P3"
+}

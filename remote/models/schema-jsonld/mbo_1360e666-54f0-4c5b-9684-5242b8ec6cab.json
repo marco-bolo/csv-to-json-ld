@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.61035588"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.566038425"
+  },
+  "name": "Area Twielenfleth"
+}

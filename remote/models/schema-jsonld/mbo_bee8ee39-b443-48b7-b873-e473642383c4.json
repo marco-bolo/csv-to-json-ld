@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bee8ee39-b443-48b7-b873-e473642383c4",
+  "@type": "PropertyValue",
+  "description": "Output from cameras on ROV of T4.4 (mp4)",
+  "name": "Video"
+}

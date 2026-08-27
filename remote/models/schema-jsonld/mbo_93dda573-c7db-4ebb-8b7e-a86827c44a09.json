@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_93dda573-c7db-4ebb-8b7e-a86827c44a09",
+  "@type": "GeoShape",
+  "circle": "54.2433333 8.495 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "St. Peter / Eider - fish"
+}

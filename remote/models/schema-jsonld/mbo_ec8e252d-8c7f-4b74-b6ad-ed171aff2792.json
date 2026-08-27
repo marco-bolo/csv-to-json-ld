@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_ec8e252d-8c7f-4b74-b6ad-ed171aff2792",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.17816667"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.46"
+  },
+  "name": "Norderpiep"
+}

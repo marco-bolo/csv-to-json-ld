@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d",
+  "@type": "GeoShape",
+  "circle": "54.375 8.51166667 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Westerhever - fish"
+}

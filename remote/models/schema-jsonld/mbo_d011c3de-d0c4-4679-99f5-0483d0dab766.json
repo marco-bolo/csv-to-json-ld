@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
+  "@type": "HowTo",
+  "description": "The steps undertaken: A R-code was written to do the necessary analyses that is published in the deliverable.",
+  "name": "T3.3: Analyse the source data: HowTo",
+  "step": {
+    "@id": "https://w3id.org/marco-bolo/mbo_15b887c1-ab57-41b8-a26e-0261fe951d61"
+  }
+}

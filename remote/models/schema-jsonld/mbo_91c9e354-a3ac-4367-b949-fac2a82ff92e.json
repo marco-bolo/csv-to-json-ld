@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e",
+  "@type": "Place",
+  "description": "Sampling station in the Danube - Black Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.293278"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "30.610333"
+  },
+  "name": "SG 07 marine waters"
+}

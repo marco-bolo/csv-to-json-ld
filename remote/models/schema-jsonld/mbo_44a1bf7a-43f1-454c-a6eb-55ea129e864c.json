@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_44a1bf7a-43f1-454c-a6eb-55ea129e864c",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "45.0657"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.8375"
+  },
+  "name": "Po a Roncarolo, Caorso"
+}

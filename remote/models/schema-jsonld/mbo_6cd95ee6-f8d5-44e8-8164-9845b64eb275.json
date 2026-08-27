@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6cd95ee6-f8d5-44e8-8164-9845b64eb275",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "51.6490218"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.89486574"
+  },
+  "name": "Dommitzsch"
+}

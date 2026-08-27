@@ -16,7 +16,12 @@
     "@type": "URL",
     "@value": "https://marineinfo.org/doc/dataset/9027"
   },
-  "variableMeasured": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
-  }
+  "variableMeasured": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef"
+    }
+  ]
 }

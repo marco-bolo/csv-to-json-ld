@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_15b43f39-44b2-4d9d-8084-a89eb219302f",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.49175574"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.953869794"
+  },
+  "name": "Area Moorburg (Süderelbe)"
+}

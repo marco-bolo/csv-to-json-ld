@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_d771cdfd-9806-444e-be23-c58fd8cc0f1d",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "37.802989"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-5.009707"
+  },
+  "name": "Almodovar del Rio Cordoba"
+}

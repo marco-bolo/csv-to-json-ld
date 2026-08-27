@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809",
+  "@type": "GeoShape",
+  "circle": "54.1166667 8.855 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Büsum - fish"
+}

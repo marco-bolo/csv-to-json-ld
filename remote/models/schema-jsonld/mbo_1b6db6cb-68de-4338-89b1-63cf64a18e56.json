@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.87651553"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.705703831"
+  },
+  "name": "Cuxhaven"
+}

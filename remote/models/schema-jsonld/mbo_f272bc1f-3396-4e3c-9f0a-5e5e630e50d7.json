@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f272bc1f-3396-4e3c-9f0a-5e5e630e50d7",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.54021472"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.886206881"
+  },
+  "name": "Seemannshöft"
+}

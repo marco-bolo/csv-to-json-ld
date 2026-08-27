@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "53.69817852"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "9.485152436"
+  },
+  "name": "Schwarztonnensand"
+}

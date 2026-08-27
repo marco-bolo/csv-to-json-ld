@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8208f23b-6533-4d34-b921-26c41cc13ac7",
+  "@type": "Person",
+  "familyName": "Sanders",
+  "givenName": "Tina",
+  "identifier": "https://orcid.org/0000-0002-3692-1800",
+  "worksFor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
+  }
+}

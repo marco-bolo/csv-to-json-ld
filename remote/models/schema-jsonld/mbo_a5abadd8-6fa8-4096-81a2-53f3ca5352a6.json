@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_93dda573-c7db-4ebb-8b7e-a86827c44a09"
+  },
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.2433333"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.495"
+  },
+  "name": "St. Peter / Eider - fish"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7248ae3c-43c0-4a62-a8db-f473f5b7abf5",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "36.8182"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "-6.34721"
+  },
+  "name": "Bonanza / 25PSU"
+}

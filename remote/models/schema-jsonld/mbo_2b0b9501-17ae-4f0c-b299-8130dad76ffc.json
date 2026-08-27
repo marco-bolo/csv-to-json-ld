@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_2b0b9501-17ae-4f0c-b299-8130dad76ffc",
+  "@type": "Place",
+  "description": "Sampling station in the Po - Adriatic Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "44.738483"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "12.452633"
+  },
+  "name": "S1-GB dynamic pylon"
+}

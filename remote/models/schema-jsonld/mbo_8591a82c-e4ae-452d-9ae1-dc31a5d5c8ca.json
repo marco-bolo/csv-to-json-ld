@@ -6,7 +6,7 @@
   "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca",
   "@type": "Thing",
   "additionalType": {
-    "@id": "https://vocab.nerc.ac.uk/collection/L05/current/157/"
+    "@id": "http://aims.fao.org/aos/agrovoc/c_2283ec53"
   },
   "category": "echosounder",
   "description": "Muliti-beam echosounder",

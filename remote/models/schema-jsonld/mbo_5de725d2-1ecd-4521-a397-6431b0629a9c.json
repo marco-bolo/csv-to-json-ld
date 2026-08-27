@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_5de725d2-1ecd-4521-a397-6431b0629a9c",
+  "@type": "GeoShape",
+  "circle": "54.495 8.72333333 7500",
+  "description": "Sampling area in the Elbe - North Sea continuum",
+  "name": "Pellworm / Norderhever - fish"
+}

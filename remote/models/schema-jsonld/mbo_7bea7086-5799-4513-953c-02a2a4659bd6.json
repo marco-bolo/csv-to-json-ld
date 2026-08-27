@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7bea7086-5799-4513-953c-02a2a4659bd6",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.7133"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.283333333"
+  },
+  "name": "Hörnum / Vortrapptief"
+}

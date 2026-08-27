@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "52.06741959"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "11.679057"
+  },
+  "name": "Magdeburg / Tangermuende"
+}

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_e0f5ca4c-45d8-4f48-bd71-554cc3db26af",
+  "@type": "DefinedTerm",
+  "description": "The dataset contains source data that cannot be republished, although those source data may be accessible on reqest from the originators",
+  "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+  "termCode": "ClosedAtSource"
+}

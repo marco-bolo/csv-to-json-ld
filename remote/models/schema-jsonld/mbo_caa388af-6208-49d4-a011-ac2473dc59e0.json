@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_caa388af-6208-49d4-a011-ac2473dc59e0",
+  "@type": "CreativeWork",
+  "description": "MIT open access license normally used for software",
+  "name": "MIT License",
+  "schema:url": {
+    "@type": "URL",
+    "@value": "https://opensource.org/license/MIT"
+  }
+}

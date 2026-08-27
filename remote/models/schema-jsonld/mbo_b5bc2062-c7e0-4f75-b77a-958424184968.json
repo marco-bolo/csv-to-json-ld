@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_b5bc2062-c7e0-4f75-b77a-958424184968",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "xsd:decimal",
+    "@value": "54.584"
+  },
+  "longitude": {
+    "@type": "xsd:decimal",
+    "@value": "8.131666667"
+  },
+  "name": "Vortrapptief"
+}
