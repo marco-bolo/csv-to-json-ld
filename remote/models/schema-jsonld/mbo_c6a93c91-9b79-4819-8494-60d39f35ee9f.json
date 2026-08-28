@@ -27,9 +27,9 @@
   "identifier": "doi:10.5281/zenodo.17244778",
   "keywords": [
     "Community of Practice",
+    "JRC",
     "MBO WP6",
     "co-design workshop",
-    "JRC",
     "stakeholder engagement",
     "marine biodiversity monitoring"
   ],
@@ -38,11 +38,11 @@
   "schema:url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244778"
+      "@value": "https://zenodo.org/records/17244778"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244778"
+      "@value": "https://doi.org/10.5281/zenodo.17244778"
     }
   ]
 }
