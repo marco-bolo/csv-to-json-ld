@@ -5,15 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
-      "@type": "MonetaryAmount",
-      "currency": "GBP",
-      "value": {
-        "@type": "xsd:decimal",
-        "@value": "471379.0"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
       "@type": "MonetaryGrant",
       "amount": {
@@ -27,6 +18,15 @@
       "schema:url": {
         "@type": "URL",
         "@value": "https://gtr.ukri.org/projects?ref=10063994"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
       }
     }
   ]

@@ -11,10 +11,10 @@
   "name": "T5.1.2 running habitat model results - bottlenose dolphin",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
     }
   ],
   "temporalCoverage": "2000-01-01/2019-12-31",
