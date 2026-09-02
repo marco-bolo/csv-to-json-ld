@@ -5,31 +5,25 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Phoca vitulina"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -40,10 +34,31 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     },
     {
@@ -51,31 +66,31 @@
       "@type": "Taxon",
       "additionalProperty": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status"
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName"
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank"
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family"
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#SpecificEpithet"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom"
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum"
         }
       ],
       "identifier": {
@@ -84,25 +99,10 @@
       "name": "bottlenose dolphin"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Phoca vitulina"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     }
   ]
