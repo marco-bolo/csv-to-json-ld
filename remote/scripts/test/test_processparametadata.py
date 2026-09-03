@@ -60,7 +60,7 @@ def test_expected_output_triples_present():
             @prefix mbo: <https://w3id.org/marco-bolo/>.
             @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
             
-            mbo:mbo_TODO_LICENSE_1-input-metadata a schema:Dataset;
+            mbo:mbo_TODO_LICENSE_1-input-metadata a schema:Dataset, mbo:InputMetadataDescription;
                                                   schema:dateCreated "2019-01-01"^^schema:Date;
                                                   schema:about mbo:mbo_TODO_LICENSE_1;
                                                   schema:creator mbo:mbo_todo_organization_mbo;
@@ -72,7 +72,7 @@ def test_expected_output_triples_present():
                                                              schema:creator mbo:mbo_todo_organization_mbo;
                                                              schema:about mbo:mbo_TODO_LICENSE_1;
                                                              schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                             schema:contentUrl "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1"^^schema:URL;
+                                                             schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1>;
                                                              schema:encodingFormat "text/csv".
             
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
@@ -80,7 +80,7 @@ def test_expected_output_triples_present():
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
                                                                 schema:about mbo:mbo_TODO_LICENSE_1;
                                                                 schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                                schema:contentUrl "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1"^^schema:URL;
+                                                                schema:contentUrl <https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1>;
                                                                 schema:encodingFormat "application/ld+json".
                                                                 
             mbo:mbo_some_action a schema:CreateAction;

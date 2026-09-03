@@ -116,6 +116,7 @@ def _build_para_metadata_graph(
     ]
     dataset_triples += [
         (dataset_uri, RDF.type, SCHEMA.Dataset),
+        (dataset_uri, RDF.type, INPUT_METADATA_DATA_TYPE_URI),
         (dataset_uri, SCHEMA.distribution, csv_data_download_uri),
         (dataset_uri, SCHEMA.distribution, jsonld_data_download_uri),
         
@@ -137,7 +138,7 @@ def _build_para_metadata_graph(
         (
             csv_data_download_uri,
             SCHEMA.contentUrl,
-            Literal(str(csv_content_url), datatype=SCHEMA.URL),
+            URIRef(str(csv_content_url)),
         ),
         
     ]
@@ -155,7 +156,7 @@ def _build_para_metadata_graph(
         (
             jsonld_data_download_uri,
             SCHEMA.contentUrl,
-            Literal(str(uri_described_in_original_metadata), datatype=SCHEMA.URL),
+            URIRef(str(uri_described_in_original_metadata)),
         ),
         (
             jsonld_data_download_uri,
