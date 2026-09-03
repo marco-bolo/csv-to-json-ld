@@ -27,8 +27,8 @@
   "familyName": "Benedetti",
   "givenName": "Lisa",
   "identifier": [
-    "https://orcid.org/0009-0001-3827-7318",
-    "https://oceanexpert.org/expert/49824"
+    "https://oceanexpert.org/expert/49824",
+    "https://orcid.org/0009-0001-3827-7318"
   ],
   "worksFor": {
     "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
