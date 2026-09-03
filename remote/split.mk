@@ -20,8 +20,7 @@ PARTITON_LIST_CLI		:= $(MBO_TOOLS_DOCKER_RUN) partition list
 PROCESS_PARA_METADATA	:= $(MBO_TOOLS_DOCKER_RUN) processparametadata
 
 
-SCHEMA_ORG_CONTEXT_URL 	:= https://schema.org/docs/jsonldcontext.json
-SCHEMA_ORG_FILE			:= out/resources/schema-context.json
+MBO_CONTEXT_FILE		:= remote/mbo-context.json
 
 BULK_TTL_FILES 			:= $(wildcard out/bulk/*.ttl)
 	
@@ -29,32 +28,17 @@ output-directories:
 	@mkdir -p out/raw-jsonld
 	@mkdir -p out/resources
 
-$(SCHEMA_ORG_FILE):
-	@curl --silent -H "Accept: application/json" --compressed --output "$(SCHEMA_ORG_FILE).tmp" "$(SCHEMA_ORG_CONTEXT_URL)";
+init: output-directories
 
-	@# remove the `id` and `type` properties since compaction replaces `@id` with `id` and similarly for `@type`.
-	@$(JQ) 'del(.["@context"].id) | del(.["@context"].type)' "$(SCHEMA_ORG_FILE).tmp" > "$(SCHEMA_ORG_FILE)";
-	@rm -f "$(SCHEMA_ORG_FILE).tmp"
-
-	@echo ""
-
-init: output-directories $(SCHEMA_ORG_FILE)
-
-out/%.json: out/raw-jsonld/%.json
+out/%.json: out/raw-jsonld/%.json $(MBO_CONTEXT_FILE)
 	@echo "=============================== Converting $< to schema.org JSON-LD $@ ===============================" ;
 
-	@# 1. We do a raw conversion of the raw JSON-LD into tidier schema.org JSON-LD
-	@# 2. We change all https://schema.org/ URIs to http://schema.org/ in preparation for compaction 
-	@# 		against the schema.org JSON-LD context (which uses exclusively http://schema.org URIs).
-	@# 3. We now compact against the schema.org JSON-LD context so we can have things like `"@type": "Dataset"` 
-	@# 		instead of `"@type": "https://schema.org/Dataset"`
-	@# 4. Then we set the context to make use of the schema.org context, but tell it to use https URIs instead 
-	@# 		of http.
+	@# We compact against our own context and then publish that same context inline.
+	@# A document is therefore readable with exactly the context it declares: no remote
+	@# fetch, no @import, and no http/https rewriting (csv2rdf already emits https URIs).
 
-	@cat "$<" \
-		| sed 's/https:\/\/schema.org\//http:\/\/schema.org\//g' \
-		| $(JSONLD_CLI) compact --context "$(SCHEMA_ORG_FILE)" --allow all \
-		| $(JQ) '.["@context"] = { "@import": "https://schema.org/", "schema": "https://schema.org/" }' > "$@";
+	@$(JSONLD_CLI) compact --context "$(MBO_CONTEXT_FILE)" --allow all "$<" \
+		| $(JQ) --slurpfile ctx "$(MBO_CONTEXT_FILE)" '.["@context"] = $$ctx[0]["@context"]' > "$@";
 
 	@echo "";
 
@@ -103,7 +87,6 @@ remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wild
 jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned
 
 clean:
-	@rm -f $(SCHEMA_ORG_FILE)
 	@rm -rf out/resources
 	@rm -rf out/raw-jsonld
 	@rm -f $(TIDY_JSON_LD_FILES)

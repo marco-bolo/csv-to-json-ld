@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+
+    "archivedAt": { "@type": "@id" },
+    "contentUrl": { "@type": "@id" },
+    "inDefinedTermSet": { "@type": "@id" },
+    "isBasedOn": { "@type": "@id" },
+    "isPartOf": { "@type": "@id" },
+    "license": { "@type": "@id" },
+    "usageInfo": { "@type": "@id" }
+  }
+}
