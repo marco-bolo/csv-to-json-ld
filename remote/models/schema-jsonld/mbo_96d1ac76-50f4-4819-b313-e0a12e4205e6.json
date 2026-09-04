@@ -8,10 +8,13 @@
   "abstract": "Collecting the data and archiving that locally",
   "contributor": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c0636979-13de-48b2-ab77-91605cb4410b"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
+      "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
@@ -20,19 +23,16 @@
       "@id": "https://w3id.org/marco-bolo/mbo_3574aba5-2a29-4d77-8932-a2cd1d47d954"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7f80facf-3b26-48f0-9355-ea11a5f2e911"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
     }
   ],
   "name": "T3.3 source data howto",

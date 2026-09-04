@@ -5,6 +5,64 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet"
+        }
+      ],
+      "identifier": {
+        "@id": "urn:lsid:marinespecies.org:taxname:137094"
+      },
+      "name": "bottlenose dolphin"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
@@ -13,10 +71,10 @@
       "value": "Delphinus delphis"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -24,6 +82,13 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     },
     {
@@ -38,71 +103,6 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus"
-        }
-      ],
-      "identifier": {
-        "@id": "urn:lsid:marinespecies.org:taxname:137094"
-      },
-      "name": "bottlenose dolphin"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     }
   ]
