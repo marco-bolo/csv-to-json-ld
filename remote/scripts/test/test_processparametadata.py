@@ -6,6 +6,7 @@ from typing import Tuple, Optional
 
 import pytest
 import rdflib
+from rdflib.compare import isomorphic
 
 from mbocsvwscripts.processparametadata import (
     _process_para_metadata,
@@ -20,26 +21,57 @@ from .utils import (
 )
 
 
-def test_removal_of_triples_from_input():
+def test_input_file_is_not_modified():
+    """Build steps get re-run; a step that edits its own input is a landmine."""
+    source = TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json"
     with TemporaryDirectory() as tmp_dir:
         tmp_dir = Path(tmp_dir)
-        input_file, output_file = _augment_input_metadata_tmp_dir(
+        input_file, _ = _augment_input_metadata_tmp_dir(
+            source, "mbo_TODO_LICENSE_1-merged.json", tmp_dir
+        )
+
+        assert input_file.read_bytes() == source.read_bytes()
+
+
+def test_rerunning_over_its_own_output_is_a_no_op():
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        _, first_output = _augment_input_metadata_tmp_dir(
             TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
-            "mbo_TODO_LICENSE_1-input-metadata.json",
+            "mbo_TODO_LICENSE_1-merged.json",
             tmp_dir,
         )
 
-        graph = rdflib.Graph()
-        graph.parse(input_file)
+        second_output = tmp_dir / "second-pass.json"
+        _process_para_metadata(
+            first_output, second_output, date.fromisoformat("2020-01-01")
+        )
 
-        assert not _ask_graph(
-            graph,
-            f"""
-            ASK 
-            WHERE {{
-                [] a <{INPUT_METADATA_DATA_TYPE_URI}>
-            }}
-        """,
+        first_graph = rdflib.Graph()
+        first_graph.parse(first_output)
+        second_graph = rdflib.Graph()
+        second_graph.parse(second_output)
+
+        assert isomorphic(first_graph, second_graph)
+
+
+def test_entity_links_to_its_para_metadata():
+    """The entity is the subject of its own para-metadata record."""
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        _, output_file = _augment_input_metadata_tmp_dir(
+            TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
+            "mbo_TODO_LICENSE_1-merged.json",
+            tmp_dir,
+        )
+
+        assert_file_contains_these_triples(
+            output_file,
+            """
+                prefix schema: <https://schema.org/>
+                prefix mbo: <https://w3id.org/marco-bolo/>
+            """,
+            "mbo:mbo_TODO_LICENSE_1 schema:subjectOf mbo:mbo_TODO_LICENSE_1-input-metadata.",
         )
 
 
@@ -48,7 +80,7 @@ def test_expected_output_triples_present():
         tmp_dir = Path(tmp_dir)
         input_file, output_file = _augment_input_metadata_tmp_dir(
             TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
-            "mbo_TODO_LICENSE_1-input-metadata.json",
+            "mbo_TODO_LICENSE_1-merged.json",
             tmp_dir,
             date_created=date.fromisoformat("2024-12-13"),
         )
@@ -60,6 +92,11 @@ def test_expected_output_triples_present():
             @prefix mbo: <https://w3id.org/marco-bolo/>.
             @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
             
+            mbo:mbo_TODO_LICENSE_1 a schema:CreativeWork;
+                                   schema:name "Creative Commons Zero v1.0 Universal";
+                                   schema:url <https://spdx.org/licenses/CC0-1.0>;
+                                   schema:subjectOf mbo:mbo_TODO_LICENSE_1-input-metadata.
+
             mbo:mbo_TODO_LICENSE_1-input-metadata a schema:Dataset, mbo:InputMetadataDescription;
                                                   schema:dateCreated "2019-01-01"^^schema:Date;
                                                   schema:about mbo:mbo_TODO_LICENSE_1;
@@ -97,7 +134,7 @@ def test_github_output_triples_present():
         github_repo_commit_file_url = "https://github.com/marco-bolo/csv-to-jsonld/bb2dd7bc813d264c43089be26d2db9fd2cd99aa7/TODO"
         input_file, output_file = _augment_input_metadata_tmp_dir(
             TEST_CASES_DIR / "parametadata" / "mbo_TODO_LICENSE_1.json",
-            "mbo_TODO_LICENSE_1-input-metadata.json",
+            "mbo_TODO_LICENSE_1-merged.json",
             tmp_dir,
             git_repo_commit_file_url=github_repo_commit_file_url,
         )

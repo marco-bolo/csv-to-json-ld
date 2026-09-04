@@ -37,21 +37,23 @@ The URI Persistent Identifier for the MARCO-BOLO Organization.
 
 @click.command("augment")
 @click.argument("metadata_file", type=click.Path(exists=True))
-@click.argument("para_metadata_file_out", type=click.Path())
+@click.argument("merged_file_out", type=click.Path())
 @click.option("-g", "--git_repo_commit_file_url", type=str, required=False)
 def main(
     metadata_file: click.Path,
-    para_metadata_file_out: click.Path,
+    merged_file_out: click.Path,
     git_repo_commit_file_url: Optional[str] = None,
 ) -> None:
     """
     1. Generates metadata describing the JSON-LD output generated in this build process.
-    2. Augments (and improve the structure of) input metadata that already exists.
-    3. Splits the input-metadata/para-metadata into a separate file `PARA_METADATA_FILE_OUT`.
+    2. Augments (and improves the structure of) input metadata that already exists.
+    3. Writes the entity and its para-metadata together to `MERGED_FILE_OUT`.
+
+    METADATA_FILE is never modified, so this command is safe to run repeatedly.
     """
     _process_para_metadata(
         Path(str(metadata_file)),
-        Path(str(para_metadata_file_out)),
+        Path(str(merged_file_out)),
         date.today(),
         git_repo_commit_file_url,
     )
@@ -59,31 +61,55 @@ def main(
 
 def _process_para_metadata(
     metadata_file: Path,
-    para_metadata_file_out: Path,
+    merged_file_out: Path,
     dt_stamp: date,
     git_repo_commit_file_url: Optional[str] = None,
 ) -> None:
+    """
+    Restructure the para-metadata recorded against `metadata_file` and write the
+    entity and its para-metadata out together.
+
+    `metadata_file` is only ever read. Build steps get re-run whenever make is
+    unsure whether they are up to date, so a step that edited its own input
+    would fail the second time it ran - see the no-op below.
+    """
     input_graph, input_metadata_triples = _extract_input_metadata_triples_and_remove(
         metadata_file
     )
+
+    if not input_metadata_triples:
+        # Nothing to restructure. Either this entity never had para-metadata or
+        # we are looking at output we have already produced; both mean the file
+        # passes through unchanged rather than being an error.
+        input_graph.serialize(
+            merged_file_out, format=guess_format(str(merged_file_out))
+        )
+        return
 
     uri_described_in_original_metadata = _get_uri_described_in_original_metadata(
         input_metadata_triples
     )
 
-    para_metadata_graph = _build_para_metadata_graph(
+    para_metadata_graph, dataset_uri = _build_para_metadata_graph(
         uri_described_in_original_metadata,
         input_metadata_triples,
         dt_stamp,
         git_repo_commit_file_url,
     )
 
-    # Write everything out to disk now that we're confident it'll work.
-    para_metadata_graph.serialize(
-        para_metadata_file_out, format=guess_format(str(para_metadata_file_out))
+    merged_graph = input_graph + para_metadata_graph
+
+    # schema:subjectOf is the inverse of the schema:about the record already
+    # carries. Stating it explicitly lets the entity be the root of the
+    # document, with its para-metadata nested underneath, rather than the
+    # other way round.
+    merged_graph.add(
+        (uri_described_in_original_metadata, SCHEMA.subjectOf, dataset_uri)
     )
-    # Do this last, incase something fails earlier and the user needs to retry.
-    input_graph.serialize(metadata_file, format=guess_format(str(metadata_file)))
+
+    merged_graph.serialize(
+        merged_file_out, format=guess_format(str(merged_file_out))
+    )
 
 
 def _build_para_metadata_graph(
@@ -173,7 +199,7 @@ def _build_para_metadata_graph(
     para_metadata_graph.add((result_of_action, SCHEMA.result, csv_data_download_uri))
     para_metadata_graph.add((result_of_action, SCHEMA.result, jsonld_data_download_uri))
     para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
-    return para_metadata_graph
+    return para_metadata_graph, dataset_uri
 
 
 def _get_object_from_single_triple_with_predicate(
@@ -209,6 +235,11 @@ def _extract_input_metadata_triples_and_remove(
 ) -> Tuple[rdflib.Graph, List[Tuple[Node, Node, Node]]]:
     input_graph = rdflib.Graph()
     input_graph.parse(metadata_file)
+    # `isResultOf` is only ever present on para-metadata as it comes out of
+    # csv2rdf; restructuring consumes it and re-expresses it as the inverse
+    # `schema:result`. Matching on it therefore selects records that have not
+    # been restructured yet, which is what makes this command safe to re-run
+    # over its own output.
     input_metadata_triples = list(
         input_graph.query(
             f"""
@@ -220,6 +251,7 @@ def _extract_input_metadata_triples_and_remove(
         }}
         WHERE {{
             ?inputMetadata a <{INPUT_METADATA_DATA_TYPE_URI}>;
+                           <{IS_RESULT_OF_PREDICATE}> [];
                            ?p ?o.
         }}
     """
@@ -228,9 +260,12 @@ def _extract_input_metadata_triples_and_remove(
 
     input_graph.update(
         f"""
-        DELETE 
+        DELETE {{
+            ?inputMetadata ?p ?o.
+        }}
         WHERE {{
             ?inputMetadata a <{INPUT_METADATA_DATA_TYPE_URI}>;
+                           <{IS_RESULT_OF_PREDICATE}> [];
                            ?p ?o.
         }}
     """

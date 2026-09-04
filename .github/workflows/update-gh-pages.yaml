@@ -31,25 +31,16 @@ jobs:
           
           ## Entity Files
           
+          Each file describes one entity, with the metadata about its
+          spreadsheet row nested inside it under `subjectOf`.
+          
           EOF
             
-            # List entity JSON files (excluding -input-metadata.json files)
+            # One document per entity; its input metadata is nested inside it
+            # under schema:subjectOf.
             cd schema-jsonld
             for file in *.json; do
-              if [[ ! "$file" =~ -input-metadata\.json$ ]]; then
-                echo "- [$file]($file)" >> index.md
-              fi
-            done
-            
-            echo "" >> index.md
-            echo "## Input Metadata Files" >> index.md
-            echo "" >> index.md
-            
-            # List metadata JSON files
-            for file in *-input-metadata.json; do
-              if [ -f "$file" ]; then
-                echo "- [$file]($file)" >> index.md
-              fi
+              echo "- [$file]($file)" >> index.md
             done
           fi
       - name: Build docs
