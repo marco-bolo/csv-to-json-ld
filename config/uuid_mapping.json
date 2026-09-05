@@ -48,6 +48,7 @@
     "mbo_7921c26b-00e9-44ab-b811-babb9e0d23ca": "mbo_wp2_t2_2",
     "mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53": "mbo_wp6_d6_2",
     "mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c": "mbo_wp1_d1_1",
+    "mbo_7d7b1f30-7b0b-49e5-85c4-e7173da6b59d": "mbo_task_4_4_seatrial_echosounder_processed",
     "mbo_7efa642b-cd85-45e1-ac72-9653987d3917": "mbo_wp7_d7_9",
     "mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719": "mbo_db_tool_population",
     "mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f": "mbo_wp4_d4_1",
@@ -74,6 +75,7 @@
     "mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f": "mbo_wp2_d2",
     "mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad": "mbo_wp4_d4_3",
     "mbo_cdf676ff-9758-4b83-864d-a669f74ea7b5": "mbo_wp3_t3_3",
+    "mbo_d04d5a74-faf4-42c0-ac93-dd65afe4a0a2": "mbo_task_4_4_seatrial_hydrophone_processed",
     "mbo_d0f05d75-1c1e-407c-8241-2f67048c8f29": "mbo_wp5_t5_1_1_collect",
     "mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246": "mbo_t3_3_data_analysis",
     "mbo_d44b020a-b57f-4719-b887-f38d9571079d": "mbo_wp6_d6_4",
@@ -93,6 +95,7 @@
     "mbo_f8b67c55-ec0d-4f01-a102-37debde2318a": "mbo_task_4_4_seatrial_rov_modelling",
     "mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0": "mbo_wp5_d5_1",
     "mbo_fb7e0fc8-6cfd-4ad5-9655-739fe659bfa9": "mbo_wp4_t4_3",
+    "mbo_fd860475-685f-405f-871e-cf7e2be21389": "mbo_task_4_4_seatrial_fpod_processed",
     "mbo_ff5c2829-d4b6-4651-aa1c-2a19688c9f98": "mbo_wp7_d7_5"
   },
   "Audience": {

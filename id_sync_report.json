@@ -1,37 +1,21 @@
 {
-  "timestamp": "2026-08-27T18:04:44.651514",
+  "timestamp": "2026-09-05T05:09:07.606439",
   "new_ids": [
     {
-      "class": "Dataset",
-      "uuid": "mbo_6d341da5-8076-4539-b3e4-10b896dd9e3f",
-      "semantic_id": "mbo_wp4_t4_1_fishreads"
-    }
-  ],
-  "missing_ids": [
-    {
-      "class": "Dataset",
-      "uuid": "mbo_5ccb32e3-10c4-4199-818b-b034dd8d87cb",
-      "semantic_id": "mbo_wp4_d4_1",
-      "similar": []
+      "class": "Action",
+      "uuid": "mbo_7d7b1f30-7b0b-49e5-85c4-e7173da6b59d",
+      "semantic_id": "mbo_task_4_4_seatrial_echosounder_processed"
     },
     {
-      "class": "HowToStep",
-      "uuid": "mbo_946125e0-0293-4cdd-8d8c-020d4144d7c3",
-      "semantic_id": "mbo_t5_1_2_habitatsuit_modelvrerun_howtostep",
-      "similar": [
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_bd_howtostep",
-          0.967032967032967
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_cd_howtostep",
-          0.967032967032967
-        ],
-        [
-          "mbo_t5_1_2_habitatsuit_modelvrerun_hp_howtostep",
-          0.967032967032967
-        ]
-      ]
+      "class": "Action",
+      "uuid": "mbo_fd860475-685f-405f-871e-cf7e2be21389",
+      "semantic_id": "mbo_task_4_4_seatrial_fpod_processed"
+    },
+    {
+      "class": "Action",
+      "uuid": "mbo_d04d5a74-faf4-42c0-ac93-dd65afe4a0a2",
+      "semantic_id": "mbo_task_4_4_seatrial_hydrophone_processed"
     }
-  ]
+  ],
+  "missing_ids": []
 }
