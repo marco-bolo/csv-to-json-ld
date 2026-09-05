@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7",
-  "@type": "PropertyValue",
-  "description": "Statement of whether a biological entity (identified elsewhere in the data or metadata) is present (1) or absent (0)",
-  "name": "Biological entity presence or absence",
-  "propertyID": {
-    "@id": "https://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7",
+      "@type": "PropertyValue",
+      "description": "Statement of whether a biological entity (identified elsewhere in the data or metadata) is present (1) or absent (0)",
+      "name": "Biological entity presence or absence",
+      "propertyID": {
+        "@id": "https://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=36",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

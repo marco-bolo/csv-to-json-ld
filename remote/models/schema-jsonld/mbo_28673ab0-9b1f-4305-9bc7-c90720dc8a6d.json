@@ -3,8 +3,29 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d",
-  "@type": "ResearchOrganization",
-  "legalName": "Institut National de Recherche pour l'Agriculture l'Alimentation et l'Environnement Centre Occitanie-Toulouse",
-  "name": "INRAE Occitanie-Toulouse"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d",
+      "@type": "ResearchOrganization",
+      "legalName": "Institut National de Recherche pour l'Agriculture l'Alimentation et l'Environnement Centre Occitanie-Toulouse",
+      "name": "INRAE Occitanie-Toulouse"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=48",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    }
+  ]
 }

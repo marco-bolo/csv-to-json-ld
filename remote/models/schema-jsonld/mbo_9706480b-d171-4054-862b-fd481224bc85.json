@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Pascal",
-  "givenName": "Geraldine",
-  "identifier": "https://orcid.org/0000-0002-5250-6594",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Pascal",
+      "givenName": "Geraldine",
+      "identifier": "https://orcid.org/0000-0002-5250-6594",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_28673ab0-9b1f-4305-9bc7-c90720dc8a6d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9706480b-d171-4054-862b-fd481224bc85"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=101",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    }
+  ]
 }

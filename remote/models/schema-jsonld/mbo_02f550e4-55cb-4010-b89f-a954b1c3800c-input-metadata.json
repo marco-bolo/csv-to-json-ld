@@ -9,11 +9,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_1b6df413-44b7-47f0-a805-5daeaaefe0c0"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
+    "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 4.2 Contact",
+    "description": "Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions",
+    "email": "pat@aqua.dtu.dk",
+    "name": "Patrizio Mariani",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +40,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=41"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=41",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +60,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c-input-metadata"
       },

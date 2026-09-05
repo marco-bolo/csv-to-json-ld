@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8",
-  "@type": "HowTo",
-  "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
-  "name": "T5.1.2 Run model on LW-VRE for harbor seal",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_5b29801c-3271-4727-beb2-38dc969d4326"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=14",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8",
+      "@type": "HowTo",
+      "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+      "name": "T5.1.2 Run model on LW-VRE for harbor seal",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5b29801c-3271-4727-beb2-38dc969d4326"
+      }
+    }
+  ]
 }

@@ -9,38 +9,65 @@
       "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
+    "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
+    "@type": "DigitalDocument",
+    "abstract": "Deliverable D7.7 provides the first update of the MARCO-BOLO Project Data Management Plan, originally delivered as D7.2. This update does not introduce structural changes to the project data management strategy, but documents how the approach defined at project level remains valid and is being operationalised through the technical developments carried out under WP1. In particular, D7.7 acknowledges the availability of updated and extended guidance provided through Deliverables D1.1 and D1.2, which specify concrete tools, workflows and examples to support Work Packages in the description, publication and interoperability of MARCO-BOLO data and knowledge outputs. This deliverable therefore serves as a light-touch update, ensuring consistency between the project-level Data Management Plan and the evolving implementation practices, while avoiding duplication of content already documented in detail in WP1 deliverables.",
+    "alternateName": "D7.7",
+    "author": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd"
+      }
+    ],
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2026-01",
+    "schema:datePublished": "2026-01-30",
+    "description": "Project Data Management Plan Update 1",
+    "identifier": "Deliverable D7.7",
+    "isBasedOn": [
+      "https://doi.org/10.5281/zenodo.17537386",
+      "https://doi.org/10.5281/zenodo.20765873",
+      "https://doi.org/10.5281/zenodo.8208410"
+    ],
+    "keywords": [
+      "data management plan",
+      "ODIS",
+      "MBO WP7",
+      "FAIR",
+      "interoperability"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "MARCO-BOLO Deliverable D7.7 - Project Data Management Plan Update 1",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
+    },
+    "schema:url": {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D7.7_formatted.pdf"
+    },
+    "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=28"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +79,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=28",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

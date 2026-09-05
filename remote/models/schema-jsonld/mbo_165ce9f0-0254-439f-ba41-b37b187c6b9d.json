@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d",
-  "@type": "GeoShape",
-  "circle": "54.375 8.51166667 7500",
-  "description": "Sampling area in the Elbe - North Sea continuum",
-  "name": "Westerhever - fish"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d",
+      "@type": "GeoShape",
+      "circle": "54.375 8.51166667 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Westerhever - fish"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_165ce9f0-0254-439f-ba41-b37b187c6b9d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=32",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

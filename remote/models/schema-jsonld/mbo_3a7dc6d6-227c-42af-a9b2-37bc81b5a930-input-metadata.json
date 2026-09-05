@@ -9,11 +9,88 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
+    "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
+    "@type": "DigitalDocument",
+    "abstract": "The MARCO-BOLO project (MARine COastal BiOdiversity Long-term Observations) aims to enhance the integration, accessibility, and interoperability of marine biodiversity data across Europe and globally. This deliverable, D1.1, outlines the project's Joint Data and Information Management Plan, which serves as a foundational framework for managing data generated and mobilised by the project. The plan is built around the principles of FAIR data (Findable, Accessible, Interoperable, Reusable), and where appropriate the CARE and TRUST principles, additionally alignment with the UN Ocean Decade Data and Information Strategy is planned. The plan promotes the use of Linked Open Data (LOD) and semantic web standards such as JSON-LD to ensure broad accessibility and machine-readability of metadata. Key components include alignment with global standards such as Essential Ocean Variables (EOVs) and Essential Biodiversity Variables (EBVs); support for data-generating work packages through training, tools, and engagement activities; use of persistent identifiers (PIDs) and community-standard vocabularies; integration with global and regional repositories like OBIS, GBIF, EMODnet, and Zenodo; provenance tracking and metadata transformation workflows; and community engagement with global infrastructures and linked-data communities. The plan also addresses challenges such as digital literacy gaps, metadata standardisation, and the need for sustainable data infrastructure, recommending the development of a long-term Persistent Identifier Service.",
+    "alternateName": "D1.1",
+    "audience": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+      }
+    ],
+    "author": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+      }
+    ],
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:datePublished": "2025-05-29",
+    "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
+    "identifier": [
+      "doi:10.5281/zenodo.17537386",
+      "Deliverable D1.1"
+    ],
+    "keywords": [
+      "linked open data",
+      "JSON-LD",
+      "metadata",
+      "FAIR",
+      "marine biodiversity",
+      "persistent identifiers",
+      "data management",
+      "EOV",
+      "EBV"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
+    },
+    "schema:url": [
+      {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D1.1_29.05.2025.pdf"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/17537386"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://doi.org/10.5281/zenodo.17537386"
+      }
+    ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +106,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=11"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=11",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +126,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
       },

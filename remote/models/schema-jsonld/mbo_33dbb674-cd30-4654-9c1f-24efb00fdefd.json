@@ -3,8 +3,29 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd",
-  "@type": "PropertyValue",
-  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (marine vertebrates (12S rRNA))",
-  "name": "Sequences: marine vertebrates (12S rRNA)"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=49",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33dbb674-cd30-4654-9c1f-24efb00fdefd",
+      "@type": "PropertyValue",
+      "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (marine vertebrates (12S rRNA))",
+      "name": "Sequences: marine vertebrates (12S rRNA)"
+    }
+  ]
 }

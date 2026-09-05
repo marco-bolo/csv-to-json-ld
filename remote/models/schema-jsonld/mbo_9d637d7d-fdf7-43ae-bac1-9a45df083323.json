@@ -3,22 +3,43 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323",
-  "@type": "GovernmentOrganization",
-  "alternateName": "DASSH",
-  "description": "Focused on marine biology, our mission is to understand and disseminate the causes and consequences of environmental change in the ocean through research and discovery",
-  "funding": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
-  },
-  "identifier": "https://ror.org/0431sk359",
-  "keywords": "marine biology, UK, scientific society",
-  "legalName": "Marine Biological Association Of The United Kingdom",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "MBA",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://www.mba.ac.uk/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=22",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323",
+      "@type": "GovernmentOrganization",
+      "alternateName": "DASSH",
+      "description": "Focused on marine biology, our mission is to understand and disseminate the causes and consequences of environmental change in the ocean through research and discovery",
+      "funding": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
+      },
+      "identifier": "https://ror.org/0431sk359",
+      "keywords": "marine biology, UK, scientific society",
+      "legalName": "Marine Biological Association Of The United Kingdom",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "MBA",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.mba.ac.uk/"
+      }
+    }
+  ]
 }

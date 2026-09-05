@@ -3,25 +3,46 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396",
-  "@type": "Dataset",
-  "description": "Task 4.4 echosounder processed data: RAW files to NASC files being echograms",
-  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
-  "name": "T4.4 Echosounder raw data",
-  "spatialCoverage": {
-    "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
-  },
-  "temporalCoverage": "2025-05-16/2025-08-12",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://marineinfo.org/doc/dataset/9027"
-  },
-  "variableMeasured": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef"
+      "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=27",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20"
+      "@id": "https://w3id.org/marco-bolo/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396",
+      "@type": "Dataset",
+      "description": "Task 4.4 echosounder processed data: RAW files to NASC files being echograms",
+      "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+      "name": "T4.4 Echosounder raw data",
+      "spatialCoverage": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+      },
+      "temporalCoverage": "2025-05-16/2025-08-12",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marineinfo.org/doc/dataset/9027"
+      },
+      "variableMeasured": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef"
+        }
+      ]
     }
   ]
 }

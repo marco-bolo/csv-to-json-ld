@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c",
-  "@type": "Place",
-  "description": "Sampling station in the Po - Adriatic Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "44.8876"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "11.6018"
-  },
-  "name": "Po a Pontelagoscuro"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c",
+      "@type": "Place",
+      "description": "Sampling station in the Po - Adriatic Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "44.8876"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "11.6018"
+      },
+      "name": "Po a Pontelagoscuro"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_30e234f2-dea2-4128-b0e0-19aa642eff4c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=115",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_849666e8-41d2-429c-833f-66e6efc8c07a",
-  "@type": "Place",
-  "description": "Sampling station in the Po - Adriatic Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "44.798533"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "12.355466"
-  },
-  "name": "Sacca di Goro, Station 6"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_849666e8-41d2-429c-833f-66e6efc8c07a#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_849666e8-41d2-429c-833f-66e6efc8c07a"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=121",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_849666e8-41d2-429c-833f-66e6efc8c07a",
+      "@type": "Place",
+      "description": "Sampling station in the Po - Adriatic Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "44.798533"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "12.355466"
+      },
+      "name": "Sacca di Goro, Station 6"
+    }
+  ]
 }

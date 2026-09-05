@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581",
-  "@type": "ContactPoint",
-  "contactType": "Task 5.4 Contact",
-  "description": "Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches",
-  "name": "Matthias Obst"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581",
+      "@type": "ContactPoint",
+      "contactType": "Task 5.4 Contact",
+      "description": "Mapping the impacts of Non-Indigenous Invasive species on European coastal and marine habitats, based on multidisciplinary approaches",
+      "name": "Matthias Obst"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_037b1e8c-6627-4d60-871c-929ed1f90581"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=62",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_17baa516-75c2-43a3-a40c-c469c8fafffc"
+      }
+    }
+  ]
 }

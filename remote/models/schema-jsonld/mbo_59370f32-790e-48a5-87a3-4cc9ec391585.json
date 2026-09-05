@@ -3,10 +3,31 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
-  "@type": "ContactPoint",
-  "contactType": "Deliverable 4.3 Contact",
-  "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
-  "email": "torralba@us.es",
-  "name": "Antonio Torralba Silgado"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 4.3 Contact",
+      "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
+      "email": "torralba@us.es",
+      "name": "Antonio Torralba Silgado"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=42",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad"
+      }
+    }
+  ]
 }

@@ -9,11 +9,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+    "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 4.3 Contact",
+    "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
+    "email": "torralba@us.es",
+    "name": "Antonio Torralba Silgado",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +40,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=42"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=42",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +60,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata"
       },

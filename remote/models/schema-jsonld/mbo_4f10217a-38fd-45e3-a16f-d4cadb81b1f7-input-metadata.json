@@ -9,38 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
+    "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+    "@type": "Vehicle",
+    "additionalType": {
+      "@id": "http://vocab.nerc.ac.uk/collection/B76/current/B7600023/"
+    },
+    "alternateName": "Blue4",
+    "description": "Blue Robotics BlueROV2 remotely operated vehicle",
+    "name": "BlueROV2",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000029#row=2"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +42,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000029#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

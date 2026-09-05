@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ba18ab82-7535-4913-9d02-4a67024fe55f",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "36.75436"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-6.429317"
-  },
-  "name": "Faro"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ba18ab82-7535-4913-9d02-4a67024fe55f#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ba18ab82-7535-4913-9d02-4a67024fe55f"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=103",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ba18ab82-7535-4913-9d02-4a67024fe55f",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.75436"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.429317"
+      },
+      "name": "Faro"
+    }
+  ]
 }

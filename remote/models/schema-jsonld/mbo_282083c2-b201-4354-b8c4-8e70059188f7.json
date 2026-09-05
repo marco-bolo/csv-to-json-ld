@@ -3,12 +3,33 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7",
-  "@type": "CollegeOrUniversity",
-  "legalName": "KU Leuven",
-  "name": "KU Leuven",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://ror.org/05f950310"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=50",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_282083c2-b201-4354-b8c4-8e70059188f7",
+      "@type": "CollegeOrUniversity",
+      "legalName": "KU Leuven",
+      "name": "KU Leuven",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://ror.org/05f950310"
+      }
+    }
+  ]
 }

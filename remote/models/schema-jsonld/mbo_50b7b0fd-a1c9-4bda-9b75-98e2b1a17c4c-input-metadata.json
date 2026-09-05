@@ -9,38 +9,35 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c"
+    "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c",
+    "@type": "Place",
+    "description": "Spanish Exclusive Economic Zone (MRGID:5693). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+    "geo": {
+      "@id": "https://w3id.org/marco-bolo/mbo_fcc6d39a-935e-4253-af37-be52fb2d0e29"
+    },
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "41.72201"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "-4.15801"
+    },
+    "name": "Spanish EEZ",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=22"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +49,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=22",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50b7b0fd-a1c9-4bda-9b75-98e2b1a17c4c-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

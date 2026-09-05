@@ -3,12 +3,33 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5",
-  "@type": "SoftwareApplication",
-  "description": "To reconstruct 3D models from videos (photogrammetry)",
-  "schema:downloadUrl": {
-    "@type": "URL",
-    "@value": "https://www.3dflow.net/3df-zephyr-photogrammetry-software/"
-  },
-  "name": "3DF ZEPHYR"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5",
+      "@type": "SoftwareApplication",
+      "description": "To reconstruct 3D models from videos (photogrammetry)",
+      "schema:downloadUrl": {
+        "@type": "URL",
+        "@value": "https://www.3dflow.net/3df-zephyr-photogrammetry-software/"
+      },
+      "name": "3DF ZEPHYR"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000024#row=4",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    }
+  ]
 }

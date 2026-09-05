@@ -9,11 +9,21 @@
       "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3"
+    "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3",
+    "@type": "DefinedTerm",
+    "description": "The mortality rate per species from incidental by-catch is below levels which threaten the species, such that its longterm viability is ensured. Member States shall establish the threshold values for the mortality rate from incidental by-catch per species, through regional or subregional cooperation.",
+    "inDefinedTermSet": "https://example.com/TODO-msfd-d1c1",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3-input-metadata"
+    },
+    "termCode": "D1C1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
   },
@@ -29,10 +39,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000010#row=1"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000010#row=1",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
       },
@@ -52,14 +59,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3-input-metadata"
       },

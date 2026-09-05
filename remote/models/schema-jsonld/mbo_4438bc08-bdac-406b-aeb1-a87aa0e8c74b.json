@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_4438bc08-bdac-406b-aeb1-a87aa0e8c74b",
-  "@type": "Place",
-  "description": "The ESC68N genomic observatory is in the Norwegian part of the Norwegian Sea and monitors the annual tide-driven flux of marine larvae in and out of the fjord system. The site has not been included in genomic biodiversity sampling campaigns in the past and experiences an annual phytoplankton bloom peak in late March.",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "68.925895"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "17.125619"
-  },
-  "name": "EMO BON Observatory: ESC68N"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4438bc08-bdac-406b-aeb1-a87aa0e8c74b",
+      "@type": "Place",
+      "description": "The ESC68N genomic observatory is in the Norwegian part of the Norwegian Sea and monitors the annual tide-driven flux of marine larvae in and out of the fjord system. The site has not been included in genomic biodiversity sampling campaigns in the past and experiences an annual phytoplankton bloom peak in late March.",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "68.925895"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "17.125619"
+      },
+      "name": "EMO BON Observatory: ESC68N"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4438bc08-bdac-406b-aeb1-a87aa0e8c74b#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4438bc08-bdac-406b-aeb1-a87aa0e8c74b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=27",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

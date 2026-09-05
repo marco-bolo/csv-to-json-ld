@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_8e162b4e-089a-4ecf-a2a2-68729ab3904e",
-  "@type": "GeoShape",
-  "box": "33.28103 18.26094 41.09133 30.10359",
-  "description": "Bounding Box of Greek Exclusive Economic Zone (MRGID:5679). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
-  "name": "Greek EEZ Bounding Box"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8e162b4e-089a-4ecf-a2a2-68729ab3904e",
+      "@type": "GeoShape",
+      "box": "33.28103 18.26094 41.09133 30.10359",
+      "description": "Bounding Box of Greek Exclusive Economic Zone (MRGID:5679). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+      "name": "Greek EEZ Bounding Box"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8e162b4e-089a-4ecf-a2a2-68729ab3904e#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8e162b4e-089a-4ecf-a2a2-68729ab3904e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=11",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

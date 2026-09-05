@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_a832a392-a832-40d7-adb2-e7fc10c94395",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "37.694055"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-5.33069"
-  },
-  "name": "Palma del Rio"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a832a392-a832-40d7-adb2-e7fc10c94395#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a832a392-a832-40d7-adb2-e7fc10c94395"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=108",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a832a392-a832-40d7-adb2-e7fc10c94395",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "37.694055"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-5.33069"
+      },
+      "name": "Palma del Rio"
+    }
+  ]
 }

@@ -3,67 +3,163 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf",
+      "@type": "Dataset",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
+      },
+      "name": "T5.1.2 running habitat model - common dolphin",
+      "spatialCoverage": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata",
+        "@type": [
+          "Dataset",
+          "https://w3id.org/marco-bolo/InputMetadataDescription"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=60",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          }
+        ]
+      },
+      "temporalCoverage": "2000-01-01/2019-12-31",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marineinfo.org/en/imis?module=dataset&dasid=9150"
+      },
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "Dataset",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf",
+        "@type": "Dataset",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
+        },
+        "name": "T5.1.2 running habitat model - common dolphin",
+        "spatialCoverage": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+          }
+        ],
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
+        },
+        "temporalCoverage": "2000-01-01/2019-12-31",
+        "schema:url": {
+          "@type": "URL",
+          "@value": "https://marineinfo.org/en/imis?module=dataset&dasid=9150"
+        },
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+        }
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=60"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=60",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
+          },
+          "encodingFormat": "text/csv"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }

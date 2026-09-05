@@ -9,11 +9,24 @@
       "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
+    "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
+    "@type": "Vehicle",
+    "additionalProperty": "IMO 9622681",
+    "additionalType": {
+      "@id": "http://vocab.nerc.ac.uk/collection/L06/current/31"
+    },
+    "category": "research vessel",
+    "name": "Simon Stevin RV",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +42,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000029#row=3"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000029#row=3",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +62,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e-input-metadata"
       },

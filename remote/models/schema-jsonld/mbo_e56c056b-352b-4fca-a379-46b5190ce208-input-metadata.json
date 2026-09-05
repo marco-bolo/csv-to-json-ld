@@ -9,38 +9,25 @@
       "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+    "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208",
+    "@type": "ContactPoint",
+    "contactType": "Task 5.3 Contact",
+    "description": "Spatial mapping of Blue Carbon benefits",
+    "name": "Natalya Gallo",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=61"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +39,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=61",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

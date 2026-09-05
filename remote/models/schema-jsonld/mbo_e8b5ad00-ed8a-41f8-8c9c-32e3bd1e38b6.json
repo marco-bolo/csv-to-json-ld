@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_e8b5ad00-ed8a-41f8-8c9c-32e3bd1e38b6",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.60837486"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.566782765"
-  },
-  "name": "Twielenfleth / Lühemündung"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e8b5ad00-ed8a-41f8-8c9c-32e3bd1e38b6#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e8b5ad00-ed8a-41f8-8c9c-32e3bd1e38b6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=65",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e8b5ad00-ed8a-41f8-8c9c-32e3bd1e38b6",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.60837486"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.566782765"
+      },
+      "name": "Twielenfleth / Lühemündung"
+    }
+  ]
 }

@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b",
-  "@type": "HowToStep",
-  "abstract": "For 3D reconstruction (photograpmmetry)",
-  "citation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5"
-  },
-  "description": "From these reconstructions it is possible to inspect the environment. For example, we have demonstrated that species distribution, species count and measurement, ecosystem vertical profile and volume estimations can be made.",
-  "name": "T4.4 3D reconstruction",
-  "position": {
-    "@type": "xsd:int",
-    "@value": "3"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b",
+      "@type": "HowToStep",
+      "abstract": "For 3D reconstruction (photograpmmetry)",
+      "citation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1001ccfe-d22d-4276-b8e2-62e51cdc48d5"
+      },
+      "description": "From these reconstructions it is possible to inspect the environment. For example, we have demonstrated that species distribution, species count and measurement, ecosystem vertical profile and volume estimations can be made.",
+      "name": "T4.4 3D reconstruction",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "3"
+      }
+    }
+  ]
 }

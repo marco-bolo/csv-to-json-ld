@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "contactPoint": {
-    "@id": "https://w3id.org/marco-bolo/mbo_5f3bc8f1-1778-4d90-81c5-90d0bde00037"
-  },
-  "familyName": "Bowler",
-  "givenName": "Chris",
-  "identifier": "https://orcid.org/0000-0003-3835-6187"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=13",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7ce87af5-1eb7-425f-9f95-d21fc6533175",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5f3bc8f1-1778-4d90-81c5-90d0bde00037"
+      },
+      "familyName": "Bowler",
+      "givenName": "Chris",
+      "identifier": "https://orcid.org/0000-0003-3835-6187"
+    }
+  ]
 }

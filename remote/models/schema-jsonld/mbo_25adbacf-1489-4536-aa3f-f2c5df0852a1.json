@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1",
-  "@type": "GeoShape",
-  "box": "51.406617 2.9963330000 51.406617 2.9963330000",
-  "description": "Point of the FPOD sea trial for Task 4.4 sea trial",
-  "name": "Belgium EEZ Task 4.4 FPOD"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=25",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1",
+      "@type": "GeoShape",
+      "box": "51.406617 2.9963330000 51.406617 2.9963330000",
+      "description": "Point of the FPOD sea trial for Task 4.4 sea trial",
+      "name": "Belgium EEZ Task 4.4 FPOD"
+    }
+  ]
 }

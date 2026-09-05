@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d7b1f30-7b0b-49e5-85c4-e7173da6b59d",
+      "@type": "CreateAction",
+      "abstract": "T4.4 seatrial event: echo-sounder",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+      },
+      "description": "Processing the acoustic data from the echo-sounders",
+      "name": "Multi-sensor biodiversity observations: sea trial echosounder; processed data",
+      "object": {
+        "@id": "file:///work/out/bulk/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396"
+      },
+      "participant": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+      },
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d7b1f30-7b0b-49e5-85c4-e7173da6b59d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7d7b1f30-7b0b-49e5-85c4-e7173da6b59d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=95",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
+}

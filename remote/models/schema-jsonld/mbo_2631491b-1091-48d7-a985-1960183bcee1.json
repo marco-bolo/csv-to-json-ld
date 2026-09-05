@@ -3,12 +3,33 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_2631491b-1091-48d7-a985-1960183bcee1",
-  "@type": "Person",
-  "familyName": "Lagaisse",
-  "givenName": "Rune",
-  "identifier": "https://orcid.org/0000-0001-9191-9104",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2631491b-1091-48d7-a985-1960183bcee1",
+      "@type": "Person",
+      "familyName": "Lagaisse",
+      "givenName": "Rune",
+      "identifier": "https://orcid.org/0000-0001-9191-9104",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2631491b-1091-48d7-a985-1960183bcee1#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2631491b-1091-48d7-a985-1960183bcee1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=44",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

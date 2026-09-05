@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e",
-  "@type": "Statement",
-  "schema:expires": "2026-11-30",
-  "mainEntity": {
-    "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
-  },
-  "text": "Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-11-30. Part of MARCO-BOLO WP2 D2.2 deliverables."
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e",
+      "@type": "Statement",
+      "schema:expires": "2026-11-30",
+      "mainEntity": {
+        "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
+      },
+      "text": "Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-11-30. Part of MARCO-BOLO WP2 D2.2 deliverables."
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e05d4af2-85bc-43b1-a9ca-4794c3a2231e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000011#row=3",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    }
+  ]
 }

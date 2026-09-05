@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f",
-  "@type": "SoftwareApplication",
-  "schema:downloadUrl": {
-    "@type": "URL",
-    "@value": "https://echoview.com/products-and-services/echoview/"
-  },
-  "name": "Echoview software"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f",
+      "@type": "SoftwareApplication",
+      "schema:downloadUrl": {
+        "@type": "URL",
+        "@value": "https://echoview.com/products-and-services/echoview/"
+      },
+      "name": "Echoview software"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0fe1d35b-7fe0-4067-adc5-54a9fb2c7c4f"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000024#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    }
+  ]
 }

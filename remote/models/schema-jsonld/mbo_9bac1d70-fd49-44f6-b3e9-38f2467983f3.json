@@ -3,18 +3,39 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
-  },
-  "familyName": "Zilioli",
-  "givenName": "Martina",
-  "identifier": [
-    "https://oceanexpert.org/expert/79712",
-    "https://orcid.org/0000-0003-0023-6331"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+      },
+      "familyName": "Zilioli",
+      "givenName": "Martina",
+      "identifier": [
+        "https://orcid.org/0000-0003-0023-6331",
+        "https://oceanexpert.org/expert/79712"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=158",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.61035588"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.566038425"
-  },
-  "name": "Area Twielenfleth"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.61035588"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.566038425"
+      },
+      "name": "Area Twielenfleth"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1360e666-54f0-4c5b-9684-5242b8ec6cab"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=57",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

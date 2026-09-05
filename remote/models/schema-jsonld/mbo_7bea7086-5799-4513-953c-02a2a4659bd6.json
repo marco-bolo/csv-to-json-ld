@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_7bea7086-5799-4513-953c-02a2a4659bd6",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "54.7133"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "8.283333333"
-  },
-  "name": "Hörnum / Vortrapptief"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7bea7086-5799-4513-953c-02a2a4659bd6#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7bea7086-5799-4513-953c-02a2a4659bd6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=73",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7bea7086-5799-4513-953c-02a2a4659bd6",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.7133"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.283333333"
+      },
+      "name": "Hörnum / Vortrapptief"
+    }
+  ]
 }

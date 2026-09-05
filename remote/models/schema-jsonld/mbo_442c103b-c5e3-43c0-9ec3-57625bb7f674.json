@@ -3,10 +3,31 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674",
-  "@type": "HowTo",
-  "name": "T5.2 Script to calculate pelagic habitat indicators based on genetic data",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=10",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_442c103b-c5e3-43c0-9ec3-57625bb7f674",
+      "@type": "HowTo",
+      "name": "T5.2 Script to calculate pelagic habitat indicators based on genetic data",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
+      }
+    }
+  ]
 }

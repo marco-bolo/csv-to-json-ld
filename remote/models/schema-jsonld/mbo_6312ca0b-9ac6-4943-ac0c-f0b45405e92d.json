@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
-  "@type": "HowTo",
-  "description": "Photogrammetry. Reconstruction of the filmed environment.",
-  "name": "T4.4 Multi-camera work: 3D modelling",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=5",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
+      "@type": "HowTo",
+      "description": "Photogrammetry. Reconstruction of the filmed environment.",
+      "name": "T4.4 Multi-camera work: 3D modelling",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0643f469-c960-4e99-9e71-6db9a62a5d0b"
+      }
+    }
+  ]
 }

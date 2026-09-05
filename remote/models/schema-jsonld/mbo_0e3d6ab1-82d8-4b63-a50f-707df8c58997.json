@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0e3d6ab1-82d8-4b63-a50f-707df8c58997",
-  "@type": "PropertyValue",
-  "description": "Essential Ocean Variable (EOV), Ocean bottom pressure, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
-  "name": "Ocean bottom pressure",
-  "propertyID": {
-    "@id": "https://goosocean.org/document/32488"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0e3d6ab1-82d8-4b63-a50f-707df8c58997#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0e3d6ab1-82d8-4b63-a50f-707df8c58997"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=20",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0e3d6ab1-82d8-4b63-a50f-707df8c58997",
+      "@type": "PropertyValue",
+      "description": "Essential Ocean Variable (EOV), Ocean bottom pressure, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+      "name": "Ocean bottom pressure",
+      "propertyID": {
+        "@id": "https://goosocean.org/document/32488"
+      }
+    }
+  ]
 }

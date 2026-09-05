@@ -3,8 +3,29 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee",
-  "@type": "PropertyValue",
-  "description": "this is a dummy term to allow validation of datasets while waiting for this table to be populated with relevant properties.",
-  "name": "placeholder to allow validation of datasets"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee",
+      "@type": "PropertyValue",
+      "description": "this is a dummy term to allow validation of datasets while waiting for this table to be populated with relevant properties.",
+      "name": "placeholder to allow validation of datasets"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=29",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

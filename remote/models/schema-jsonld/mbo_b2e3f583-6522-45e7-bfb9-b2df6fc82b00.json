@@ -3,31 +3,52 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b2e3f583-6522-45e7-bfb9-b2df6fc82b00",
-  "@type": "CreateAction",
-  "abstract": "Creation of reproducible analytical workflows and VRE deployment",
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-  },
-  "name": "MARCO BOLO Task 5.5",
-  "participant": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+      "@id": "https://w3id.org/marco-bolo/mbo_b2e3f583-6522-45e7-bfb9-b2df6fc82b00#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b2e3f583-6522-45e7-bfb9-b2df6fc82b00"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=61",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      "@id": "https://w3id.org/marco-bolo/mbo_b2e3f583-6522-45e7-bfb9-b2df6fc82b00",
+      "@type": "CreateAction",
+      "abstract": "Creation of reproducible analytical workflows and VRE deployment",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "name": "MARCO BOLO Task 5.5",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c"
+        }
+      ]
     }
   ]
 }

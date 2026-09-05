@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec",
-  "@type": "HowTo",
-  "description": "The steps undertaken: creating a data-requirements matrix; searching for source data that fulfill the requirements; collecting those data (via portals, metadata records, emails).",
-  "name": "T3.3: Collecting source data: HowTo",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=15",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1af88b26-8d33-4c26-acc9-5b44ad2aaa06"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a1695d28-882b-495c-88e2-ca0e8c2068ec",
+      "@type": "HowTo",
+      "description": "The steps undertaken: creating a data-requirements matrix; searching for source data that fulfill the requirements; collecting those data (via portals, metadata records, emails).",
+      "name": "T3.3: Collecting source data: HowTo",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
+      }
+    }
+  ]
 }

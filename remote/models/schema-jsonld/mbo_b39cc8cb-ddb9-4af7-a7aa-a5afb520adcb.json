@@ -3,23 +3,44 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
-  },
-  "contactPoint": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2"
+      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=129",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_549fe80a-dc17-44bd-b1fd-8d01df6bac24"
+      "@id": "https://w3id.org/marco-bolo/mbo_b39cc8cb-ddb9-4af7-a7aa-a5afb520adcb",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      },
+      "contactPoint": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_549fe80a-dc17-44bd-b1fd-8d01df6bac24"
+        }
+      ],
+      "familyName": "Adamescu",
+      "givenName": "Mihai",
+      "identifier": "https://orcid.org/0000-0002-3056-8444",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+      }
     }
-  ],
-  "familyName": "Adamescu",
-  "givenName": "Mihai",
-  "identifier": "https://orcid.org/0000-0002-3056-8444",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
-  }
+  ]
 }

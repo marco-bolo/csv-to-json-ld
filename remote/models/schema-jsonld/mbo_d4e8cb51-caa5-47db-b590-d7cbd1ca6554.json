@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
-  "@type": "PropertyValue",
-  "description": "The areal extent (km2 or ha), canopy cover, species composition of mangroves that form the foundation of the habitat and ecosystem Source: GOOS Essential Ocean Variable specification sheet, v2.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
-  "name": "Mangrove cover and composition",
-  "propertyID": {
-    "@id": "https://goosocean.org/document/17514"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=62",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
+      "@type": "PropertyValue",
+      "description": "The areal extent (km2 or ha), canopy cover, species composition of mangroves that form the foundation of the habitat and ecosystem Source: GOOS Essential Ocean Variable specification sheet, v2.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+      "name": "Mangrove cover and composition",
+      "propertyID": {
+        "@id": "https://goosocean.org/document/17514"
+      }
+    }
+  ]
 }

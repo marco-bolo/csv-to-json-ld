@@ -3,67 +3,277 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+      "@type": "Dataset",
+      "about": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+        }
+      ],
+      "author": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+        }
+      ],
+      "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
+      "copyrightHolder": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+      },
+      "creativeWorkStatus": {
+        "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6"
+      },
+      "schema:dateCreated": "2025-11-21",
+      "schema:dateModified": [
+        "2026-01-15",
+        "2026-06-22"
+      ],
+      "schema:datePublished": "2026-06-30",
+      "description": "Analysis of the V4-V5 regions of 16S rDNA in the environmental DNA from seawater through amplicon sequencing. Samples were collected monthly between September 2021 and December 2023, across different sampling sites within the context of the NEREA observatory in the Gulf of Naples (Italy). Seawater was collected at discrete depths, filtered through 0.45 micron filters, and the environmental DNA was extracted and amplified by PCR. Plankton metabarcoding raw reads were registered in the European Nucleotide Archive (ENA), under the umbrella project permanent identifier PRJEB74649. The raw prokaryotic metabarcoding sequencing data files - 16S (FastQ format) are available on BioProject ID PRJEB100988.",
+      "identifier": "https://doi.org/10.5281/zenodo.17670063",
+      "isBasedOn": [
+        "https://identifiers.org/ena.embl:PRJEB100988",
+        "https://identifiers.org/ena.embl:PRJEB74649"
+      ],
+      "keywords": [
+        "eDNA",
+        "metabarcoding",
+        "16S",
+        "amplicon sequencing",
+        "NEREA",
+        "prokaryotic",
+        "environmental DNA",
+        "16S rDNA"
+      ],
+      "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+      "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
+      "spatialCoverage": {
+        "@id": "https://w3id.org/marco-bolo/mbo_07f1b807-c0dd-42e8-8735-5dae01a61146"
+      },
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata",
+        "@type": [
+          "https://w3id.org/marco-bolo/InputMetadataDescription",
+          "Dataset"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=30",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          }
+        ]
+      },
+      "temporalCoverage": "2021-09/2023-12",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/17670063"
+      },
+      "usageInfo": "https://w3id.org/marco-bolo/mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7",
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "Dataset"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+        "@type": "Dataset",
+        "about": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+          }
+        ],
+        "author": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+          }
+        ],
+        "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
+        "copyrightHolder": {
+          "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+        },
+        "creativeWorkStatus": {
+          "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6"
+        },
+        "schema:dateCreated": "2025-11-21",
+        "schema:dateModified": [
+          "2026-01-15",
+          "2026-06-22"
+        ],
+        "schema:datePublished": "2026-06-30",
+        "description": "Analysis of the V4-V5 regions of 16S rDNA in the environmental DNA from seawater through amplicon sequencing. Samples were collected monthly between September 2021 and December 2023, across different sampling sites within the context of the NEREA observatory in the Gulf of Naples (Italy). Seawater was collected at discrete depths, filtered through 0.45 micron filters, and the environmental DNA was extracted and amplified by PCR. Plankton metabarcoding raw reads were registered in the European Nucleotide Archive (ENA), under the umbrella project permanent identifier PRJEB74649. The raw prokaryotic metabarcoding sequencing data files - 16S (FastQ format) are available on BioProject ID PRJEB100988.",
+        "identifier": "https://doi.org/10.5281/zenodo.17670063",
+        "isBasedOn": [
+          "https://identifiers.org/ena.embl:PRJEB100988",
+          "https://identifiers.org/ena.embl:PRJEB74649"
+        ],
+        "keywords": [
+          "eDNA",
+          "metabarcoding",
+          "16S",
+          "amplicon sequencing",
+          "NEREA",
+          "prokaryotic",
+          "environmental DNA",
+          "16S rDNA"
+        ],
+        "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+        "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
+        "spatialCoverage": {
+          "@id": "https://w3id.org/marco-bolo/mbo_07f1b807-c0dd-42e8-8735-5dae01a61146"
+        },
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+        },
+        "temporalCoverage": "2021-09/2023-12",
+        "schema:url": {
+          "@type": "URL",
+          "@value": "https://zenodo.org/records/17670063"
+        },
+        "usageInfo": "https://w3id.org/marco-bolo/mbo_01a4a4c8-a855-4b09-9bda-f8e23c8b46b7",
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+        }
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=30"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=30",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+          },
+          "encodingFormat": "text/csv"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }

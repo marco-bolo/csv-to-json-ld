@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_8081ffac-90ef-4eec-adde-8683b0932946",
-  "@type": "GeoShape",
-  "box": "52.65352 14.2014 55.92155 19.80486",
-  "description": "Bounding Box of Polish Exclusive Economic Zone (MRGID:5687). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
-  "name": "Polish EEZ Bounding Box"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8081ffac-90ef-4eec-adde-8683b0932946#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8081ffac-90ef-4eec-adde-8683b0932946"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=17",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8081ffac-90ef-4eec-adde-8683b0932946",
+      "@type": "GeoShape",
+      "box": "52.65352 14.2014 55.92155 19.80486",
+      "description": "Bounding Box of Polish Exclusive Economic Zone (MRGID:5687). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+      "name": "Polish EEZ Bounding Box"
+    }
+  ]
 }

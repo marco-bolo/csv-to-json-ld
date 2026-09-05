@@ -3,19 +3,40 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_689a6bb3-86ee-4510-ac1b-e05b3f265fe9",
-  "@type": "CreateAction",
-  "abstract": "Online reproducible workflows and associated user manual for key analytical processes in the WP5 use cases",
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-  },
-  "name": "MARCO-BOLO Deliverable 5.6",
-  "participant": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      "@id": "https://w3id.org/marco-bolo/mbo_689a6bb3-86ee-4510-ac1b-e05b3f265fe9",
+      "@type": "CreateAction",
+      "abstract": "Online reproducible workflows and associated user manual for key analytical processes in the WP5 use cases",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "name": "MARCO-BOLO Deliverable 5.6",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+        }
+      ]
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+      "@id": "https://w3id.org/marco-bolo/mbo_689a6bb3-86ee-4510-ac1b-e05b3f265fe9#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_689a6bb3-86ee-4510-ac1b-e05b3f265fe9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=52",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     }
   ]
 }

@@ -9,38 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_85f3d8d7-d090-41fa-a879-758346a52fc5"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+    "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
+    "@type": "ContactPoint",
+    "availableLanguage": "en",
+    "contactType": "Deliverable 4.4 Contact",
+    "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
+    "email": "carlota.muniz@vliz.be",
+    "name": "Carlota Muniz",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_85f3d8d7-d090-41fa-a879-758346a52fc5"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=43"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +41,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_85f3d8d7-d090-41fa-a879-758346a52fc5"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=43",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

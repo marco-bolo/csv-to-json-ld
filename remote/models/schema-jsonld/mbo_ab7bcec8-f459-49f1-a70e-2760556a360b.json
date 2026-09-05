@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
-  "@type": "Place",
-  "description": "Sampling station in the Po - Adriatic Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "45.0917"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.4456"
-  },
-  "name": "Po a Castel S. Giovanni"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=111",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
+      "@type": "Place",
+      "description": "Sampling station in the Po - Adriatic Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "45.0917"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.4456"
+      },
+      "name": "Po a Castel S. Giovanni"
+    }
+  ]
 }

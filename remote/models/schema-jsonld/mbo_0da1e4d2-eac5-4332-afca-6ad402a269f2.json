@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
-  "@type": "HowTo",
-  "description": "Raw to subset and reformatted videos",
-  "name": "T4.4 ROV camera work: raw to mp4",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8"
-  },
-  "schema:url": {
-    "@type": "URL",
-    "@value": "Preprocessing GUI · Wiki · Javier Alonso Fernández / 3D Reconstruction BlueROV Multi-cam · GitLab"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=4",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
+      "@type": "HowTo",
+      "description": "Raw to subset and reformatted videos",
+      "name": "T4.4 ROV camera work: raw to mp4",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8"
+      },
+      "schema:url": {
+        "@type": "URL",
+        "@value": "Preprocessing GUI · Wiki · Javier Alonso Fernández / 3D Reconstruction BlueROV Multi-cam · GitLab"
+      }
+    }
+  ]
 }

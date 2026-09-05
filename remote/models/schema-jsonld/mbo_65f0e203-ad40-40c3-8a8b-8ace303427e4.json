@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4",
-  "@type": "ResearchOrganization",
-  "identifier": "https://ror.org/02wxw4x45",
-  "legalName": "Istituto per il Rilevamento Elettromagnetico dell'Ambiente, Sezione di Milano",
-  "name": "IREA-CNR",
-  "parentOrganization": {
-    "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-  },
-  "schema:url": {
-    "@type": "URL",
-    "@value": "http://irea.cnr.it"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=54",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f0e203-ad40-40c3-8a8b-8ace303427e4",
+      "@type": "ResearchOrganization",
+      "identifier": "https://ror.org/02wxw4x45",
+      "legalName": "Istituto per il Rilevamento Elettromagnetico dell'Ambiente, Sezione di Milano",
+      "name": "IREA-CNR",
+      "parentOrganization": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+      },
+      "schema:url": {
+        "@type": "URL",
+        "@value": "http://irea.cnr.it"
+      }
+    }
+  ]
 }

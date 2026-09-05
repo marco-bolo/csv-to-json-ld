@@ -3,20 +3,41 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5",
-  "@type": "Person",
-  "contactPoint": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
+      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5",
+      "@type": "Person",
+      "contactPoint": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+        }
+      ],
+      "familyName": "Gallo",
+      "givenName": "Natalya",
+      "identifier": "https://orcid.org/0000-0001-5168-4244",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c6c9ba29-cd01-43bf-90dc-9025f7078d52"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
+      "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=33",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     }
-  ],
-  "familyName": "Gallo",
-  "givenName": "Natalya",
-  "identifier": "https://orcid.org/0000-0001-5168-4244",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c6c9ba29-cd01-43bf-90dc-9025f7078d52"
-  }
+  ]
 }

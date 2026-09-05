@@ -9,11 +9,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
+    "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 6.2 Contact",
+    "description": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
+    "email": "l.benedetti@unesco.org",
+    "name": "Lisa Benedetti",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +40,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=65"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=65",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +60,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5-input-metadata"
       },

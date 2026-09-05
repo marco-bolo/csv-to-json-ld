@@ -3,34 +3,55 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733",
-  "@type": "Person",
-  "affiliation": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd"
+        }
+      ],
+      "familyName": "Benedetti",
+      "givenName": "Lisa",
+      "identifier": [
+        "https://orcid.org/0009-0001-3827-7318",
+        "https://oceanexpert.org/expert/49824"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=10",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     }
-  ],
-  "contactPoint": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_16ac00cd-6bfd-4e4d-9320-be1b1ff137a5"
-    }
-  ],
-  "familyName": "Benedetti",
-  "givenName": "Lisa",
-  "identifier": [
-    "https://orcid.org/0009-0001-3827-7318",
-    "https://oceanexpert.org/expert/49824"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
-  }
+  ]
 }

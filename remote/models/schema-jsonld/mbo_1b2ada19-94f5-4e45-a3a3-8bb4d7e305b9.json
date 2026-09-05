@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1b2ada19-94f5-4e45-a3a3-8bb4d7e305b9",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Alric",
-  "givenName": "Benjamin"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b2ada19-94f5-4e45-a3a3-8bb4d7e305b9#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b2ada19-94f5-4e45-a3a3-8bb4d7e305b9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b2ada19-94f5-4e45-a3a3-8bb4d7e305b9",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Alric",
+      "givenName": "Benjamin"
+    }
+  ]
 }

@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c",
-  "@type": "CreateAction",
-  "abstract": "Filliing in the organisation information for all data providers of task 3.3",
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-  },
-  "name": "MARCO-BOLO Deliverable 3.3"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=8",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ed9d6a44-8a7f-4987-82ea-794b0ca3596c",
+      "@type": "CreateAction",
+      "abstract": "Filliing in the organisation information for all data providers of task 3.3",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "name": "MARCO-BOLO Deliverable 3.3"
+    }
+  ]
 }

@@ -9,11 +9,47 @@
       "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
+    "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491",
+    "@type": "CreateAction",
+    "abstract": "The habitat suitability model was run in the LW-VRE for the harbor seal.",
+    "actionProcess": {
+      "@id": "https://w3id.org/marco-bolo/mbo_eb9c632a-2700-464c-94da-d818dfe9d9a8"
+    },
+    "agent": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    },
+    "description": "The model was run in the LW-VRE with 'Phoca vitulina' as input for the Aphiaid parameter.",
+    "name": "T5.1.2 running habitat model - harbor seal",
+    "object": [
+      {
+        "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
+      },
+      {
+        "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
+      },
+      {
+        "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
+      },
+      {
+        "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+      }
+    ],
+    "participant": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+    },
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4cf58b6-1037-42f8-84f8-d18f0adc2844"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +65,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=90"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=90",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +85,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
       },

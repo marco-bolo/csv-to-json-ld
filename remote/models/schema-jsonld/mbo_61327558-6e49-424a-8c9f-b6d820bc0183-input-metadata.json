@@ -9,11 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183"
+    "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183",
+    "@type": "Person",
+    "affiliation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+    },
+    "familyName": "Doğan",
+    "givenName": "Onur",
+    "identifier": "https://orcid.org/0000-0002-5576-2331",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183-input-metadata"
+    },
+    "worksFor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_fee626c8-133d-460c-ad6f-365fadad90ba"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +45,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000019#row=116"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=116",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +65,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_61327558-6e49-424a-8c9f-b6d820bc0183-input-metadata"
       },

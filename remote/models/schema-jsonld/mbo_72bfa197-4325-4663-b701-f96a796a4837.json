@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837",
-  "@type": "CreateAction",
-  "abstract": "Filling in the people and organisations for task 3.3",
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-  },
-  "name": "MARCO-BOLO Deliverable 3.3"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=7",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837",
+      "@type": "CreateAction",
+      "abstract": "Filling in the people and organisations for task 3.3",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "name": "MARCO-BOLO Deliverable 3.3"
+    }
+  ]
 }

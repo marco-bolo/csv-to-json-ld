@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1c6657c2-136b-405e-a231-89a34301183d",
-  "@type": "GeoShape",
-  "circle": "54.495 8.72333333 7500",
-  "description": "Sampling area in the Elbe - North Sea continuum",
-  "name": "Norderelbe - fish"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1c6657c2-136b-405e-a231-89a34301183d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1c6657c2-136b-405e-a231-89a34301183d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=35",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1c6657c2-136b-405e-a231-89a34301183d",
+      "@type": "GeoShape",
+      "circle": "54.495 8.72333333 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Norderelbe - fish"
+    }
+  ]
 }

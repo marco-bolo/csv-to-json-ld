@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_bfe1635a-45ea-4245-be65-e03cde7457fc",
-  "@type": "Place",
-  "description": "Sampling station in the Po - Adriatic Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "44.762758"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "12.2585433"
-  },
-  "name": "Station 2 - Lido di Volano"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bfe1635a-45ea-4245-be65-e03cde7457fc",
+      "@type": "Place",
+      "description": "Sampling station in the Po - Adriatic Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "44.762758"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "12.2585433"
+      },
+      "name": "Station 2 - Lido di Volano"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bfe1635a-45ea-4245-be65-e03cde7457fc#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bfe1635a-45ea-4245-be65-e03cde7457fc"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=134",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

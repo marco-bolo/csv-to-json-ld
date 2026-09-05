@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c",
-  "@type": "Person",
-  "familyName": "Madon",
-  "givenName": "Bénédicte",
-  "identifier": [
-    "https://orcid.org/0000-0001-8608-3895",
-    "https://oceanexpert.org/expert/59780"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=51",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5c8de53-c30d-42a2-a689-45f1d343859c",
+      "@type": "Person",
+      "familyName": "Madon",
+      "givenName": "Bénédicte",
+      "identifier": [
+        "https://oceanexpert.org/expert/59780",
+        "https://orcid.org/0000-0001-8608-3895"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
+      }
+    }
+  ]
 }

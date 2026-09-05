@@ -3,19 +3,40 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a",
-  "@type": "Place",
-  "description": "The location of the hydrophone used in the Task 4.4 sea trial",
-  "geo": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d928e30a-153c-4bfa-b32c-4b48fff6f871"
-  },
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.40645"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "2.8185"
-  },
-  "name": "Belgium EEZ Task 4.4 hydrophone"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=33",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ebc9a6c9-2d3b-446e-a685-f8726975354a",
+      "@type": "Place",
+      "description": "The location of the hydrophone used in the Task 4.4 sea trial",
+      "geo": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d928e30a-153c-4bfa-b32c-4b48fff6f871"
+      },
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.40645"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "2.8185"
+      },
+      "name": "Belgium EEZ Task 4.4 hydrophone"
+    }
+  ]
 }

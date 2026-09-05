@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013",
-  "@type": "HowToStep",
-  "abstract": "Inside the LW-VRE workflow studio, the marine habitat suitability predictions (monthly and decadal) was selected. The Aphiaid selection was 'Phocoena phocoena' (https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117), startdate 1 January 2000, end date 31 december 2019, also copernicus marine username and password provided.",
-  "citation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
-  },
-  "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
-  "position": {
-    "@type": "xsd:int",
-    "@value": "1"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=14",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013",
+      "@type": "HowToStep",
+      "abstract": "Inside the LW-VRE workflow studio, the marine habitat suitability predictions (monthly and decadal) was selected. The Aphiaid selection was 'Phocoena phocoena' (https://www.marinespecies.org/aphia.php?p=taxdetails&id=137117), startdate 1 January 2000, end date 31 december 2019, also copernicus marine username and password provided.",
+      "citation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
+      },
+      "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "1"
+      }
+    }
+  ]
 }

@@ -3,32 +3,53 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9",
-  "@type": "CreateAction",
-  "abstract": "The habitat suitability model was run in the LW-VRE for the bottlenose dolphin.",
-  "actionProcess": {
-    "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82"
-  },
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-  },
-  "description": "The model was run in the LW-VRE with 'Tursiops truncatus' as input for the Aphiaid parameter.",
-  "name": "T5.1.2 running habitat model - bottlenose dolphin",
-  "object": [
+  "@graph": [
     {
-      "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
+      "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9",
+      "@type": "CreateAction",
+      "abstract": "The habitat suitability model was run in the LW-VRE for the bottlenose dolphin.",
+      "actionProcess": {
+        "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82"
+      },
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "description": "The model was run in the LW-VRE with 'Tursiops truncatus' as input for the Aphiaid parameter.",
+      "name": "T5.1.2 running habitat model - bottlenose dolphin",
+      "object": [
+        {
+          "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
+        },
+        {
+          "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+        },
+        {
+          "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
+        }
+      ],
+      "participant": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
+      },
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5"
+      }
     },
     {
-      "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
-    },
-    {
-      "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+      "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=88",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+      }
     }
-  ],
-  "participant": {
-    "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
-  },
-  "result": {
-    "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5"
-  }
+  ]
 }

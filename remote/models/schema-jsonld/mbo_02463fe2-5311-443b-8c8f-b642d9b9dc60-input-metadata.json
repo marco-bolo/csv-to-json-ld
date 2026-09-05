@@ -9,11 +9,31 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60"
+    "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60",
+    "@type": "CreateAction",
+    "abstract": "Joint action report – Report on the joint actions, communication & exploitation products and activities, targeting end-users of common interest, and update of D7.4",
+    "agent": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    "name": "MARCO-BOLO Deliverable 7.6",
+    "participant": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+      }
+    ],
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +49,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=74"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=74",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +69,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_02463fe2-5311-443b-8c8f-b642d9b9dc60-input-metadata"
       },

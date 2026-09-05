@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b",
-  "@type": "GeoShape",
-  "box": "51.40645 2.8185 51.40645 2.8185",
-  "description": "Point of the echo-sounder sea trial for Task 4.4 sea trial",
-  "name": "Belgium EEZ Task 4.4 echo-sounder"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=26",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b",
+      "@type": "GeoShape",
+      "box": "51.40645 2.8185 51.40645 2.8185",
+      "description": "Point of the echo-sounder sea trial for Task 4.4 sea trial",
+      "name": "Belgium EEZ Task 4.4 echo-sounder"
+    }
+  ]
 }

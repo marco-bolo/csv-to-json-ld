@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
-  "@type": "SoftwareSourceCode",
-  "schema:codeRepository": {
-    "@type": "URL",
-    "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
-  },
-  "name": "Blue ROV multi cam reconstruct"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
+      "@type": "SoftwareSourceCode",
+      "schema:codeRepository": {
+        "@type": "URL",
+        "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
+      },
+      "name": "Blue ROV multi cam reconstruct"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000025#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    }
+  ]
 }

@@ -9,11 +9,32 @@
       "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
+    "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac",
+    "@type": "HowToStep",
+    "abstract": "Collecting and processing samples destined for eDNA",
+    "mentions": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
+      }
+    ],
+    "name": "T4.4 eDNA collect and process: from RV",
+    "position": {
+      "@type": "xsd:int",
+      "@value": "1"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +50,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000014#row=8"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=8",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +70,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac-input-metadata"
       },

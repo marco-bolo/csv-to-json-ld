@@ -3,10 +3,31 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2",
-  "@type": "ContactPoint",
-  "contactType": "Deliverable 3.4 Contact",
-  "description": "Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity",
-  "email": "adacri@gmail.com",
-  "name": "Mihai Adamescu"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=30",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2581d5cb-3e76-44bf-a3fd-ef17c66c03a2",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 3.4 Contact",
+      "description": "Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity",
+      "email": "adacri@gmail.com",
+      "name": "Mihai Adamescu"
+    }
+  ]
 }

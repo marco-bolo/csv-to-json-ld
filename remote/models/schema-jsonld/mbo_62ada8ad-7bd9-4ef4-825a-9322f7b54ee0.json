@@ -3,40 +3,61 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0",
-  "@type": "CreateAction",
-  "abstract": "Effects on conservation areas",
-  "agent": {
-    "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
-  },
-  "name": "MARCO BOLO Task 3.4",
-  "participant": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
+      "@id": "https://w3id.org/marco-bolo/mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=36",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      "@id": "https://w3id.org/marco-bolo/mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0",
+      "@type": "CreateAction",
+      "abstract": "Effects on conservation areas",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      },
+      "name": "MARCO BOLO Task 3.4",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_71dbfba8-93df-4c43-82b5-21d2715dd049"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+        }
+      ],
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
+      }
     }
-  ],
-  "result": {
-    "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
-  }
+  ]
 }

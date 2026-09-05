@@ -3,23 +3,45 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136",
-  "@type": "Dataset",
-  "name": "Biological detections from the sound data (not specific to taxon identifications)",
-  "spatialCoverage": {
-    "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
-  },
-  "temporalCoverage": "2025-05-16/2025-08-12",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://www.vliz.be/en/imis?module=dataset&dasid=9027"
-  },
-  "variableMeasured": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56"
+      "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136",
+      "@type": "Dataset",
+      "isBasedOn": "file:///work/out/bulk/mbo_dcf09cc2-3aea-4455-9b42-99304ce91396",
+      "name": "Biological detections from the sound data (not specific to taxon identifications)",
+      "spatialCoverage": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+      },
+      "temporalCoverage": "2025-05-16/2025-08-12",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.vliz.be/en/imis?module=dataset&dasid=9027"
+      },
+      "variableMeasured": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56"
+        }
+      ]
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_503e4ea8-a442-4740-8cd2-d513cc8fecd7"
+      "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=63",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1235bc4e-e431-4418-aced-926778b8a552"
+      }
     }
   ]
 }

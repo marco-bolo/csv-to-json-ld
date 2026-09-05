@@ -3,10 +3,31 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492",
-  "@type": "HowTo",
-  "name": "T5.1.2 Model for habitat suitabilty",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_91b7cb16-9063-409f-974a-208dac4adc71"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492",
+      "@type": "HowTo",
+      "name": "T5.1.2 Model for habitat suitabilty",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_91b7cb16-9063-409f-974a-208dac4adc71"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_33e6c6a3-ef3f-454a-83b4-e50055111492"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=8",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8"
+      }
+    }
+  ]
 }

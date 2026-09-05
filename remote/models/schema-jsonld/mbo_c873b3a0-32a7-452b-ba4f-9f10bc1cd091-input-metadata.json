@@ -9,11 +9,26 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
+    "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
+    "@type": "Person",
+    "affiliation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    },
+    "familyName": "McKee",
+    "givenName": "Kara",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091-input-metadata"
+    },
+    "worksFor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +44,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000019#row=147"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=147",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +64,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091-input-metadata"
       },

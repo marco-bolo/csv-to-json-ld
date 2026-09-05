@@ -9,11 +9,54 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
+    "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08",
+    "@type": "DigitalDocument",
+    "abstract": "Slide decks from the second mobilisation of MARCO-BOLO's Community of Practice (CoP). The 2nd CoP Workshop sought to advance stakeholder consultation on the creation of MARCO-BOLO products as key solutions to challenges currently facing marine biodiversity, ensuring that end-user needs and requirements are met. The project's Data Management Plan and new technology based on tools such as environmental DNA (eDNA), artificial intelligence and 3D image analysis were addressed in detail, with discussions including stakeholder input to guide further development. The meeting drew on collaboration with the OBAMA-NEXT sister project. The workshop formed part of the event \"The Future of Marine Biodiversity Monitoring in Europe\" organised by the ACTeon research consultancy for the Joint Research Centre (JRC).",
+    "author": {
+      "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+    },
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2024-11",
+    "schema:datePublished": "2024-11",
+    "description": "Slide decks from the 2nd Co-Design Workshop (November 2024, Sitges)",
+    "identifier": "doi:10.5281/zenodo.17236878",
+    "keywords": [
+      "Community of Practice",
+      "stakeholder engagement",
+      "co-design workshop",
+      "presentation slides",
+      "eDNA",
+      "MBO WP6",
+      "AI"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "MARCO-BOLO 2nd Co-Design Workshop - presentations",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08-input-metadata"
+    },
+    "schema:url": [
+      {
+        "@type": "URL",
+        "@value": "https://doi.org/10.5281/zenodo.17236878"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/17236878"
+      }
+    ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +72,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=32"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=32",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +92,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08-input-metadata"
       },

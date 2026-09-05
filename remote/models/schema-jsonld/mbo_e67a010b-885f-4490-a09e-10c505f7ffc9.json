@@ -3,19 +3,40 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9",
-  "@type": "Place",
-  "description": "The location of the FPOD used in the Task 4.4 sea trial",
-  "geo": {
-    "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
-  },
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.406617"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "2.996333"
-  },
-  "name": "Belgium EEZ Task 4.4 FPOD"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=31",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e67a010b-885f-4490-a09e-10c505f7ffc9",
+      "@type": "Place",
+      "description": "The location of the FPOD used in the Task 4.4 sea trial",
+      "geo": {
+        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
+      },
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.406617"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "2.996333"
+      },
+      "name": "Belgium EEZ Task 4.4 FPOD"
+    }
+  ]
 }

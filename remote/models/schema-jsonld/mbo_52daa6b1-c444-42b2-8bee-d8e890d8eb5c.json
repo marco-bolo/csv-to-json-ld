@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_52daa6b1-c444-42b2-8bee-d8e890d8eb5c",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Eisele",
-  "givenName": "Marius"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_52daa6b1-c444-42b2-8bee-d8e890d8eb5c#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_52daa6b1-c444-42b2-8bee-d8e890d8eb5c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=111",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_52daa6b1-c444-42b2-8bee-d8e890d8eb5c",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Eisele",
+      "givenName": "Marius"
+    }
+  ]
 }

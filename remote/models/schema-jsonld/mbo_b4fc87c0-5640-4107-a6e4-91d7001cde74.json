@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-  },
-  "familyName": "Chemello",
-  "givenName": "Silvia",
-  "identifier": "https://orcid.org/0000-0001-6151-891X",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "familyName": "Chemello",
+      "givenName": "Silvia",
+      "identifier": "https://orcid.org/0000-0001-6151-891X",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=140",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
+      }
+    }
+  ]
 }

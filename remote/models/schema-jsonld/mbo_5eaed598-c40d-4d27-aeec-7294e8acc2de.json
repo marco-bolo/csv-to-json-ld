@@ -3,18 +3,39 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de",
-  "@type": "Person",
-  "contactPoint": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d"
-  },
-  "familyName": "Vidal",
-  "givenName": "Mathilde",
-  "identifier": [
-    "https://orcid.org/0000-0003-2178-7052",
-    "https://oceanexpert.org/expert/60642"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de",
+      "@type": "Person",
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d"
+      },
+      "familyName": "Vidal",
+      "givenName": "Mathilde",
+      "identifier": [
+        "https://orcid.org/0000-0003-2178-7052",
+        "https://oceanexpert.org/expert/60642"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5d5ae741-3ce7-49af-820b-b91ae1253cf5"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=80",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

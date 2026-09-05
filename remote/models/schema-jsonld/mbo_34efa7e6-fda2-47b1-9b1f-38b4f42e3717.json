@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Afonso",
-  "givenName": "Luís",
-  "identifier": "https://orcid.org/0000-0003-3978-1388",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Afonso",
+      "givenName": "Luís",
+      "identifier": "https://orcid.org/0000-0003-3978-1388",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_96a65d45-7a30-4f46-bcae-586276bf8b23"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_34efa7e6-fda2-47b1-9b1f-38b4f42e3717"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=125",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6960e42b-1372-4bf6-89d3-1684a05952e0"
+      }
+    }
+  ]
 }

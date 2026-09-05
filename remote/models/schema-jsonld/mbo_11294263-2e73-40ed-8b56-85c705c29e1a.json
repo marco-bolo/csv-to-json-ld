@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_11294263-2e73-40ed-8b56-85c705c29e1a",
-  "@type": "HowTo",
-  "description": "The steps undertaken: QC on the data to eliminate uncertain or incomplete data; harmonise all collected data into individual single-river-system spreadsheets.",
-  "name": "T3.3: Harmonise source data: HowTo",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_0883dc06-0619-4801-b370-e7a19232e4ff"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_11294263-2e73-40ed-8b56-85c705c29e1a#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_11294263-2e73-40ed-8b56-85c705c29e1a"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=16",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2d3e7566-48a5-47e2-9980-76c4d9b77a79"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_11294263-2e73-40ed-8b56-85c705c29e1a",
+      "@type": "HowTo",
+      "description": "The steps undertaken: QC on the data to eliminate uncertain or incomplete data; harmonise all collected data into individual single-river-system spreadsheets.",
+      "name": "T3.3: Harmonise source data: HowTo",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0883dc06-0619-4801-b370-e7a19232e4ff"
+      }
+    }
+  ]
 }

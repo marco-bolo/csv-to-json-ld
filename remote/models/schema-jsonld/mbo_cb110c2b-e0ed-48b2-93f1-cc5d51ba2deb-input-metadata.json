@@ -9,38 +9,25 @@
       "@id": "https://w3id.org/marco-bolo/mbo_4a847f41-0367-47d4-86d3-fc17081ea8e0"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb"
+    "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb",
+    "@type": "ContactPoint",
+    "contactType": "Task 2.5 Contact",
+    "description": "Developing a framework of guidelines/protocols for eDNA-based biodiversity observations",
+    "name": "TBD",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_4a847f41-0367-47d4-86d3-fc17081ea8e0"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=23"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +39,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_4a847f41-0367-47d4-86d3-fc17081ea8e0"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=23",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cb110c2b-e0ed-48b2-93f1-cc5d51ba2deb-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b5bc2062-c7e0-4f75-b77a-958424184968",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "54.584"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "8.131666667"
-  },
-  "name": "Vortrapptief"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5bc2062-c7e0-4f75-b77a-958424184968",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.584"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.131666667"
+      },
+      "name": "Vortrapptief"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5bc2062-c7e0-4f75-b77a-958424184968#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b5bc2062-c7e0-4f75-b77a-958424184968"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=80",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

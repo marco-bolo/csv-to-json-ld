@@ -9,11 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_eee5776d-a4c8-47b4-b8ff-541acbbc6145"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
+    "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085",
+    "@type": "Person",
+    "affiliation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+    },
+    "familyName": "Pugnetti",
+    "givenName": "Alessandra",
+    "identifier": "https://orcid.org/0000-0002-7346-6675",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085-input-metadata"
+    },
+    "worksFor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +45,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000019#row=127"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=127",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +65,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_de103263-2e56-46de-a1e8-735fb0d72085-input-metadata"
       },

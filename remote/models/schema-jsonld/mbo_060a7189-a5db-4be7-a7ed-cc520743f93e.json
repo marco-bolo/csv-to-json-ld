@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_060a7189-a5db-4be7-a7ed-cc520743f93e",
-  "@type": "PropertyValue",
-  "description": "Essential Ocean Variable (EOV), Ocean surface heat flux, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
-  "name": "Ocean surface heat flux",
-  "propertyID": {
-    "@id": "https://goosocean.org/document/17472"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_060a7189-a5db-4be7-a7ed-cc520743f93e",
+      "@type": "PropertyValue",
+      "description": "Essential Ocean Variable (EOV), Ocean surface heat flux, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+      "name": "Ocean surface heat flux",
+      "propertyID": {
+        "@id": "https://goosocean.org/document/17472"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_060a7189-a5db-4be7-a7ed-cc520743f93e#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_060a7189-a5db-4be7-a7ed-cc520743f93e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=19",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

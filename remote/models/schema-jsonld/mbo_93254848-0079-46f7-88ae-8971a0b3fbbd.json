@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Ostle",
-  "givenName": "Clare",
-  "identifier": "https://orcid.org/0000-0001-6923-5535",
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=123",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_93254848-0079-46f7-88ae-8971a0b3fbbd",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Ostle",
+      "givenName": "Clare",
+      "identifier": "https://orcid.org/0000-0001-6923-5535",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+      }
+    }
+  ]
 }

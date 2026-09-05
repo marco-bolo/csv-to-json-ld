@@ -9,38 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1"
+    "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1",
+    "@type": "Thing",
+    "additionalType": {
+      "@id": "https://vocab.nerc.ac.uk/collection/L22/current/TOOL1544/"
+    },
+    "description": "Low-Light HD USB Nose Camera",
+    "isPartOf": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+    "name": "HD Video camera",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000028#row=4"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +42,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000028#row=4",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a994b10c-a8d9-429e-b732-b5e510ba3ab1-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

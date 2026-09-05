@@ -3,67 +3,157 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+      "@type": "Dataset",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+      },
+      "conditionsOfAccess": "open access",
+      "description": "AI processed imaging time series data from the FlowCam for the Belgian Part of the North Sea",
+      "name": "WP5 T5.2 Query: BPNS Marine Phytoplankton Time Series Imaging Dataset",
+      "spatialCoverage": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+      },
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata",
+        "@type": [
+          "Dataset",
+          "https://w3id.org/marco-bolo/InputMetadataDescription"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=38",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          }
+        ]
+      },
+      "temporalCoverage": "2017-05-01/2024-01-01",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://doi.org/10.14284/680"
+      },
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "Dataset",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+        "@type": "Dataset",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+        },
+        "conditionsOfAccess": "open access",
+        "description": "AI processed imaging time series data from the FlowCam for the Belgian Part of the North Sea",
+        "name": "WP5 T5.2 Query: BPNS Marine Phytoplankton Time Series Imaging Dataset",
+        "spatialCoverage": {
+          "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+        },
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
+        },
+        "temporalCoverage": "2017-05-01/2024-01-01",
+        "schema:url": {
+          "@type": "URL",
+          "@value": "https://doi.org/10.14284/680"
+        },
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+        }
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=38"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=38",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
+          },
+          "encodingFormat": "text/csv"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }

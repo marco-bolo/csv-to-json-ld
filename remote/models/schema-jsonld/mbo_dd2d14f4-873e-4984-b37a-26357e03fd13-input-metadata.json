@@ -3,67 +3,189 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13",
+      "@type": "Dataset",
+      "about": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
+        }
+      ],
+      "schema:datePublished": "2026-04-02",
+      "description": "Task 4.4 videos from ROV multi-camera setup camera (.mkv files processed into video (mp4)",
+      "name": "MBO Task 4.4 ROV video data from mutti-camera",
+      "spatialCoverage": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a32ba611-efbb-4e48-acdf-8973f6f5daa9"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_31061cfe-c611-4fd2-964a-b3e350ae521c"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata",
+        "@type": [
+          "https://w3id.org/marco-bolo/InputMetadataDescription",
+          "Dataset"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=33",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          }
+        ]
+      },
+      "temporalCoverage": "2024-10-14/2025-06-20",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://doi.org/10.11583/DTU.27694068"
+      },
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bee8ee39-b443-48b7-b873-e473642383c4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "Dataset"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13",
+        "@type": "Dataset",
+        "about": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
+          }
+        ],
+        "schema:datePublished": "2026-04-02",
+        "description": "Task 4.4 videos from ROV multi-camera setup camera (.mkv files processed into video (mp4)",
+        "name": "MBO Task 4.4 ROV video data from mutti-camera",
+        "spatialCoverage": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_a32ba611-efbb-4e48-acdf-8973f6f5daa9"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_31061cfe-c611-4fd2-964a-b3e350ae521c"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
+          }
+        ],
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
+        },
+        "temporalCoverage": "2024-10-14/2025-06-20",
+        "schema:url": {
+          "@type": "URL",
+          "@value": "https://doi.org/10.11583/DTU.27694068"
+        },
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bee8ee39-b443-48b7-b873-e473642383c4"
+        }
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=33"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=33",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
+          },
+          "encodingFormat": "text/csv"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }

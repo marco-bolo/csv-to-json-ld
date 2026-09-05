@@ -9,11 +9,25 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
+    "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
+    "@type": "Thing",
+    "description": "NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support",
+    "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+    "name": "Multi-camera system",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata"
+    },
+    "schema:url": {
+      "@type": "URL",
+      "@value": "https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +43,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000028#row=5"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000028#row=5",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +63,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata"
       },

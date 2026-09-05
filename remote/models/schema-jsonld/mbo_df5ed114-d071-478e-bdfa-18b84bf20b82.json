@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82",
-  "@type": "HowTo",
-  "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
-  "name": "T5.1.2 Run model on LW-VRE for bottlenose dolphin",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_208303f2-5e4e-4f6b-8b99-246b8a718728"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=11",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_df5ed114-d071-478e-bdfa-18b84bf20b82",
+      "@type": "HowTo",
+      "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+      "name": "T5.1.2 Run model on LW-VRE for bottlenose dolphin",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_208303f2-5e4e-4f6b-8b99-246b8a718728"
+      }
+    }
+  ]
 }

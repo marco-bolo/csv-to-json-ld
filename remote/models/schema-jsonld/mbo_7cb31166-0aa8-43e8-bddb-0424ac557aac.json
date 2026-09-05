@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_7cb31166-0aa8-43e8-bddb-0424ac557aac",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "36.91269"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-6.203985"
-  },
-  "name": "Yesos / 5PSU"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7cb31166-0aa8-43e8-bddb-0424ac557aac#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7cb31166-0aa8-43e8-bddb-0424ac557aac"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=95",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7cb31166-0aa8-43e8-bddb-0424ac557aac",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.91269"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.203985"
+      },
+      "name": "Yesos / 5PSU"
+    }
+  ]
 }

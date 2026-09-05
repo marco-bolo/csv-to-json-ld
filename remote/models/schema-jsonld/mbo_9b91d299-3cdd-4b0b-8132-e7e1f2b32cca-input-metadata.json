@@ -9,38 +9,32 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca"
+    "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca",
+    "@type": "Place",
+    "description": "Sampling station in the Elbe - North Sea continuum",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "53.69817852"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "9.485152436"
+    },
+    "name": "Schwarztonnensand",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=64"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +46,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=64",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9b91d299-3cdd-4b0b-8132-e7e1f2b32cca-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

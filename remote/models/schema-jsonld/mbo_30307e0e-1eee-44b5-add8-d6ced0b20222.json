@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_30307e0e-1eee-44b5-add8-d6ced0b20222",
-  "@type": "Place",
-  "description": "Sampling station in the Po - Adriatic Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "45.0616"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.698"
-  },
-  "name": "Po a Piacenza"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_30307e0e-1eee-44b5-add8-d6ced0b20222",
+      "@type": "Place",
+      "description": "Sampling station in the Po - Adriatic Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "45.0616"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.698"
+      },
+      "name": "Po a Piacenza"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_30307e0e-1eee-44b5-add8-d6ced0b20222#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_30307e0e-1eee-44b5-add8-d6ced0b20222"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=112",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

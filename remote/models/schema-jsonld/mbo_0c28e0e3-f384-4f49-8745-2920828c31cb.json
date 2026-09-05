@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Canals",
-  "givenName": "Oriol"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=115",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0c28e0e3-f384-4f49-8745-2920828c31cb",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Canals",
+      "givenName": "Oriol"
+    }
+  ]
 }

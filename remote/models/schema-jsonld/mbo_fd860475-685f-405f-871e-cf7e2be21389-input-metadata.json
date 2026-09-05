@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata",
+  "@reverse": {
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+    }
+  },
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389",
+    "@type": "CreateAction",
+    "abstract": "T4.4 seatrial event: FPOD sensors",
+    "agent": {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+    },
+    "description": "Processing the acoustic data from the FPODs",
+    "name": "Multi-sensor biodiversity observations: sea trial FPOD; processed data",
+    "object": {
+      "@id": "file:///work/out/bulk/mbo_aa899d50-9990-456b-b7b5-d774076ada8d"
+    },
+    "participant": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+    },
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata"
+    }
+  },
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+  },
+  "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=96",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata"
+      },
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-05",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fd860475-685f-405f-871e-cf7e2be21389-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  ]
+}

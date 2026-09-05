@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.64698223"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "12.93440029"
-  },
-  "name": "Area Dommitzsch"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.64698223"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "12.93440029"
+      },
+      "name": "Area Dommitzsch"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=52",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

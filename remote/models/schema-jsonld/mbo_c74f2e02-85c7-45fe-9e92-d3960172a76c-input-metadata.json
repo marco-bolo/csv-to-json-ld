@@ -9,38 +9,25 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c"
+    "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
+    "@type": "DigitalDocument",
+    "availableLanguage": "en",
+    "identifier": "github: https://github.com/MadsRJ/NordicRefDBs",
+    "name": "WP2 Nordic species eDNA Reference Databases",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=39"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +39,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=39",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

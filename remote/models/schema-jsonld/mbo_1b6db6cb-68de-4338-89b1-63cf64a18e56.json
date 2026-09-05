@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.87651553"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "8.705703831"
-  },
-  "name": "Cuxhaven"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.87651553"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.705703831"
+      },
+      "name": "Cuxhaven"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b6db6cb-68de-4338-89b1-63cf64a18e56"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=85",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

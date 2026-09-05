@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9e284405-e898-4f45-adb7-c757a60a54da",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.57730853"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.640146782"
-  },
-  "name": "Lühemündung"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9e284405-e898-4f45-adb7-c757a60a54da",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.57730853"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.640146782"
+      },
+      "name": "Lühemündung"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9e284405-e898-4f45-adb7-c757a60a54da#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9e284405-e898-4f45-adb7-c757a60a54da"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=67",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

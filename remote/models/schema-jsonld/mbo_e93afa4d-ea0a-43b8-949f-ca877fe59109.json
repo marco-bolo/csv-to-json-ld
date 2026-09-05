@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
-  "@type": "ContactPoint",
-  "availableLanguage": "en",
-  "contactType": "Deliverable 4.4 Contact",
-  "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
-  "email": "carlota.muniz@vliz.be",
-  "name": "Carlota Muniz"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Deliverable 4.4 Contact",
+      "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
+      "email": "carlota.muniz@vliz.be",
+      "name": "Carlota Muniz"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=43",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_85f3d8d7-d090-41fa-a879-758346a52fc5"
+      }
+    }
+  ]
 }

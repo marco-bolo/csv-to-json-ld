@@ -9,11 +9,21 @@
       "@id": "https://w3id.org/marco-bolo/mbo_4f00e86a-58d5-47dc-8a34-e6eaf3b099c8"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4"
+    "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 4.5 Contact",
+    "description": "Preliminary report on WP4 progress",
+    "name": "TBD",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +39,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=44"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=44",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +59,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4-input-metadata"
       },

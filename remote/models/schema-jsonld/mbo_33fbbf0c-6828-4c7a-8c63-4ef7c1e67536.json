@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "54.14667"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "7.83333"
-  },
-  "name": "Helgoland Tiefe Rinne"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.14667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "7.83333"
+      },
+      "name": "Helgoland Tiefe Rinne"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=76",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

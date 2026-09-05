@@ -9,38 +9,35 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6"
+    "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6",
+    "@type": "Place",
+    "description": "Sampling station in the Elbe - North Sea continuum",
+    "geo": {
+      "@id": "https://w3id.org/marco-bolo/mbo_93dda573-c7db-4ebb-8b7e-a86827c44a09"
+    },
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "54.2433333"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "8.495"
+    },
+    "name": "St. Peter / Eider - fish",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=90"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +49,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=90",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a5abadd8-6fa8-4096-81a2-53f3ca5352a6-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

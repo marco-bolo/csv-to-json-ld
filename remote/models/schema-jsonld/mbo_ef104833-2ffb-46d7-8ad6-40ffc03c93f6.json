@@ -3,17 +3,38 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6",
-  "@type": "ResearchProject",
-  "alternateName": "MBO WP6",
-  "description": "Stakeholder Engagement and Community Integration",
-  "keywords": "MARCO-BOLO",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "MARCO-BOLO Work Package 6",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://marcobolo-project.eu/work-packages/work-package-6-stakeholder-engagement-and-community-integration/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6",
+      "@type": "ResearchProject",
+      "alternateName": "MBO WP6",
+      "description": "Stakeholder Engagement and Community Integration",
+      "keywords": "MARCO-BOLO",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "MARCO-BOLO Work Package 6",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/work-packages/work-package-6-stakeholder-engagement-and-community-integration/"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=20",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

@@ -9,11 +9,21 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec"
+    "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec",
+    "@type": "Person",
+    "familyName": "Grigoratou",
+    "givenName": "Maria",
+    "identifier": "https://oceanexpert.org/expert/43953",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +39,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000019#row=36"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=36",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +59,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec-input-metadata"
       },

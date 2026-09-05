@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_63f4cead-6bdc-4abd-9cb1-0ef0392b937f",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "50.88835725"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "14.2320262"
-  },
-  "name": "Area Schmilka"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f4cead-6bdc-4abd-9cb1-0ef0392b937f",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "50.88835725"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "14.2320262"
+      },
+      "name": "Area Schmilka"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63f4cead-6bdc-4abd-9cb1-0ef0392b937f#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f4cead-6bdc-4abd-9cb1-0ef0392b937f"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=53",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

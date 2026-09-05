@@ -9,38 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
+    "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
+    "@type": "SoftwareSourceCode",
+    "schema:codeRepository": {
+      "@type": "URL",
+      "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
+    },
+    "name": "Blue ROV multi cam reconstruct",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000025#row=1"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +41,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000025#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

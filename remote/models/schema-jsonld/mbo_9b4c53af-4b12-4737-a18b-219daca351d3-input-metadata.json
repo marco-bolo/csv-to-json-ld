@@ -9,11 +9,61 @@
       "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
+    "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3",
+    "@type": "DigitalDocument",
+    "abstract": "The MARCO-BOLO Plan for the Dissemination, Exploitation and Communication Activities (PDEC) outlines the EC's rights and the consortium's contractual obligations for the dissemination, exploitation and communication of project results. It adopts EC best practice guidelines and defines the objectives of MARCO-BOLO's DEC, identifies target stakeholders, specifies the communication tools and channels, and outlines responsibilities and resources to carry out effective knowledge management and to measure the impact. MARCO-BOLO has tasks within work package 7 (T7.2 and T7.3 led by ERINN Innovation) specifically designed to support project communication activities to a wide audience and targeted dissemination and exploitation of results to specific stakeholders. The PDEC has been developed by ERINN Innovation, who will also oversee its continuous implementation. This is the first version of the PDEC and as it is a dynamic document, it will be evaluated throughout the project and updated at EC reporting stages.",
+    "alternateName": "D7.4",
+    "author": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c66b4684-7ce6-4830-902d-2656d0cc5c7c"
+    },
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2023-05",
+    "schema:datePublished": "2023-05-31",
+    "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
+    "identifier": [
+      "Deliverable D7.4",
+      "doi:10.5281/zenodo.17527033"
+    ],
+    "keywords": [
+      "MBO WP7",
+      "exploitation",
+      "stakeholder engagement",
+      "dissemination",
+      "communication"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "MARCO-BOLO Deliverable D7.4 - Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
+    },
+    "schema:url": [
+      {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://doi.org/10.5281/zenodo.17527033"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/17527033"
+      }
+    ],
+    "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +79,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=26"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=26",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +99,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
       },

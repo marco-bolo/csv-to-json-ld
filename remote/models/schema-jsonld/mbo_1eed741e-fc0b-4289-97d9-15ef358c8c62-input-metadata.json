@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62"
+    "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62",
+    "@type": "DataDownload",
+    "schema:datePublished": "2026-04-02",
+    "description": "The folder containing the subset of the data from the multi-camera",
+    "encodesCreativeWork": {
+      "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
+    },
+    "name": "Underwater Visual and Visual-Inertial Datasets UVVID (MultiCam)",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62-input-metadata"
+    },
+    "schema:url": {
+      "@type": "URL",
+      "@value": "https://data.dtu.dk/ndownloader/articles/27694068/versions/3?folder_path=Multicam+Datasets+Videos"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000007#row=4"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000007#row=4",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62-input-metadata"
       },

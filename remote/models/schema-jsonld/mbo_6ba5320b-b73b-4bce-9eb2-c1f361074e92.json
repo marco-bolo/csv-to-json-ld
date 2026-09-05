@@ -3,12 +3,33 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92",
-  "@type": "SoftwareSourceCode",
-  "schema:codeRepository": {
-    "@type": "URL",
-    "@value": "https://github.com/lifewatch/pypam"
-  },
-  "description": "pypam is a python package to analyze underwater sound. It is made to make easier the processing of underwater data stored in audio files in chunks.",
-  "name": "Pypam: processing of underwater sound"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92",
+      "@type": "SoftwareSourceCode",
+      "schema:codeRepository": {
+        "@type": "URL",
+        "@value": "https://github.com/lifewatch/pypam"
+      },
+      "description": "pypam is a python package to analyze underwater sound. It is made to make easier the processing of underwater data stored in audio files in chunks.",
+      "name": "Pypam: processing of underwater sound"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000025#row=4",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+      }
+    }
+  ]
 }

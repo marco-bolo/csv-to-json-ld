@@ -9,11 +9,52 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
+    "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586",
+    "@type": "DigitalDocument",
+    "alternateName": "MARCO BOLO DMP",
+    "audience": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    "availableLanguage": "en",
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2023-08-02",
+    "schema:dateModified": "2024-07-01",
+    "schema:datePublished": "2023-08-02",
+    "description": "The Data Management Plan is a mandatory component of any Horizon Europe project providing information about: Guiding principles around data management following EC Horizon Europe requirements; How to make MBO data FAIR: Findable, Accessible, Interoperable and Re-usable; Data management cost and allocation of resources; Data security and ethics, and confidentiality.<br>\\nMARCO-BOLO is a project built around data with the objective to make transformative change in the use of biodiversity data in decision making. Therefore MBO aims to deliver a globally relevant freshwater and marine biodiversity Data Management Plan defined with a Community of Practice of stakeholders from different sectors (industry, policy, research, society) and from different ends of the data pathway (data collector to data end-users). MBO co-design Data Management Plans (D1.1 and D1.2) are deliverables due at 24 and 36 month of the project. The present first iteration of the Data Management Plan is only an overview of MBO principles about freshwater and marine biodiversity data that will be refined and detailed in D1.1 and D1.2. The DMP is a live document that will be reviewed and updated periodically.",
+    "identifier": "https://doi.org/10.5281/zenodo.8208410",
+    "keywords": [
+      "United Nations Decade of Ocean Science for Sustainable Development",
+      "essential ocean variables",
+      "Horizon Europe",
+      "biodiversity data",
+      "data management plan",
+      "Global Ocean Observing System"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "maintainer": {
+      "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+    },
+    "name": "Deliverable D7.2 Project Data Management Plan",
+    "publisher": {
+      "@id": "https://w3id.org/marco-bolo/mbo_fccd8788-7c81-4099-96f0-8a1a4085912d"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata"
+    },
+    "schema:url": {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/8208410"
+    },
+    "version": "v1.0.0"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +70,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=1"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=1",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +90,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata"
       },

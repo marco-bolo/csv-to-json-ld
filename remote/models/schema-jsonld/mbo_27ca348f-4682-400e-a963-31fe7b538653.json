@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_27ca348f-4682-400e-a963-31fe7b538653",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "36.906993"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-6.289627"
-  },
-  "name": "Puntalete / 15PSU"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_27ca348f-4682-400e-a963-31fe7b538653",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.906993"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.289627"
+      },
+      "name": "Puntalete / 15PSU"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_27ca348f-4682-400e-a963-31fe7b538653#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_27ca348f-4682-400e-a963-31fe7b538653"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=97",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897",
-  "@type": "Service",
-  "description": "The LW VRE instance of T5.1.2's habitat suitability model",
-  "name": "Marine habitat suitabilty predictions: monthly and decadal",
-  "provider": {
-    "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
-  },
-  "serviceType": "virtual research environment",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://metadatacatalogue.lifewatch.eu/srv/eng/catalog.search#/metadata/d332a9d2-b982-4e01-8096-e08bae1880a1"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000023#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0c904f57-0320-4d9d-ae38-dbb3185ab897",
+      "@type": "Service",
+      "description": "The LW VRE instance of T5.1.2's habitat suitability model",
+      "name": "Marine habitat suitabilty predictions: monthly and decadal",
+      "provider": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+      },
+      "serviceType": "virtual research environment",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://metadatacatalogue.lifewatch.eu/srv/eng/catalog.search#/metadata/d332a9d2-b982-4e01-8096-e08bae1880a1"
+      }
+    }
+  ]
 }

@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3",
-  "@type": "ContactPoint",
-  "availableLanguage": "en",
-  "contactType": "Deliverable 1.2 Contact",
-  "description": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
-  "email": "dble@mba.ac.uk",
-  "name": "Dan Lear"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=8",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Deliverable 1.2 Contact",
+      "description": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
+      "email": "dble@mba.ac.uk",
+      "name": "Dan Lear"
+    }
+  ]
 }

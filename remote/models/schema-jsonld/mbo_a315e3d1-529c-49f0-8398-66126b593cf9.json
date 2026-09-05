@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_a315e3d1-529c-49f0-8398-66126b593cf9",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.72525384"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.459531838"
-  },
-  "name": "Area Kollmar"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a315e3d1-529c-49f0-8398-66126b593cf9",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.72525384"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.459531838"
+      },
+      "name": "Area Kollmar"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a315e3d1-529c-49f0-8398-66126b593cf9#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a315e3d1-529c-49f0-8398-66126b593cf9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=58",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

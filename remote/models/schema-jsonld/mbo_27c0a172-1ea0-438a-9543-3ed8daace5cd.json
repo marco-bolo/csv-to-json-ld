@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_27c0a172-1ea0-438a-9543-3ed8daace5cd",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "36.779115"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-6.441263"
-  },
-  "name": "Broa"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_27c0a172-1ea0-438a-9543-3ed8daace5cd",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.779115"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.441263"
+      },
+      "name": "Broa"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_27c0a172-1ea0-438a-9543-3ed8daace5cd#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_27c0a172-1ea0-438a-9543-3ed8daace5cd"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=100",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

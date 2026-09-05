@@ -3,23 +3,44 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c",
-  "@type": "HowToStep",
-  "abstract": "T4.4 hydrophone data capture and raw data processing",
-  "citation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92"
-  },
-  "mentions": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+      "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
+      "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c",
+      "@type": "HowToStep",
+      "abstract": "T4.4 hydrophone data capture and raw data processing",
+      "citation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6ba5320b-b73b-4bce-9eb2-c1f361074e92"
+      },
+      "mentions": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+        }
+      ],
+      "name": "T4.4 hydrophone data capture",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "1"
+      }
     }
-  ],
-  "name": "T4.4 hydrophone data capture",
-  "position": {
-    "@type": "xsd:int",
-    "@value": "1"
-  }
+  ]
 }

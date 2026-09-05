@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_42e6647a-da1e-4991-b9a5-6fb8e171adeb",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.85742692"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "12.65119866"
-  },
-  "name": "Wittenberg"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_42e6647a-da1e-4991-b9a5-6fb8e171adeb",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.85742692"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "12.65119866"
+      },
+      "name": "Wittenberg"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_42e6647a-da1e-4991-b9a5-6fb8e171adeb#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_42e6647a-da1e-4991-b9a5-6fb8e171adeb"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=50",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

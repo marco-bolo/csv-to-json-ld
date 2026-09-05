@@ -9,11 +9,52 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+    "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
+    "@type": "DigitalDocument",
+    "abstract": "Slide decks from the first mobilisation of MARCO-BOLO's Community of Practice (CoP), representing both generators and users of marine biodiversity data, products, and services in the EU and beyond. The event brought together over 70 experts and stakeholders to begin the co-design process by introducing the project and providing a platform for policymakers to present their needs and perspectives. The event encouraged the broader biodiversity community to test, use and adopt the MARCO-BOLO Data Management Plan, project outputs, Essential Ocean Variables (EOVs) and Essential Biodiversity Variables (EBVs) for reporting to MSFD and other EU and international legal frameworks. Seagrass coverage and composition were presented as a tangible use case to showcase the complete data pipeline from observations to reporting. The event targeted policymakers at national, regional and EU levels, including the European Commission, Regional Sea Conventions, national representatives responsible for marine-directive reporting, the GOOS BioEco Panel, and the wider biodiversity monitoring, observation and scientific community.",
+    "author": {
+      "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+    },
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2024-05",
+    "schema:datePublished": "2024-05",
+    "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
+    "identifier": "doi:10.5281/zenodo.17236790",
+    "keywords": [
+      "co-design workshop",
+      "Community of Practice",
+      "presentation slides",
+      "MBO WP6",
+      "stakeholder engagement"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
+    },
+    "schema:url": [
+      {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/17236790"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://doi.org/10.5281/zenodo.17236790"
+      }
+    ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +70,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=31"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=31",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +90,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
       },

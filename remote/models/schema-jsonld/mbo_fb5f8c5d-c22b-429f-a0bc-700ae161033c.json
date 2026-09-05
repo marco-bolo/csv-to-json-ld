@@ -3,23 +3,44 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c",
-  "@type": "Person",
-  "contactPoint": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=59",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c",
+      "@type": "Person",
+      "contactPoint": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+        }
+      ],
+      "familyName": "Muñiz",
+      "givenName": "Carlota",
+      "identifier": [
+        "https://oceanexpert.org/expert/58452",
+        "https://orcid.org/0000-0001-9584-3833"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+      }
     }
-  ],
-  "familyName": "Muñiz",
-  "givenName": "Carlota",
-  "identifier": [
-    "https://orcid.org/0000-0001-9584-3833",
-    "https://oceanexpert.org/expert/58452"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
-  }
+  ]
 }

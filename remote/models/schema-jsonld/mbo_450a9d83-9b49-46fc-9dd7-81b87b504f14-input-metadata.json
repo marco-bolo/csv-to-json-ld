@@ -9,11 +9,21 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5dd2fd8d-4392-4b5c-9539-4e530dc6f832"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14"
+    "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 7.3 Contact",
+    "description": "The MBO Best Practices for Biodiversity Observation",
+    "name": "TBD",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +39,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=73"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=73",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +59,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_450a9d83-9b49-46fc-9dd7-81b87b504f14-input-metadata"
       },

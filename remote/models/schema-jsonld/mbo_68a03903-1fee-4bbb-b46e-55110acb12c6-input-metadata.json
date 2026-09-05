@@ -9,38 +9,55 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
+    "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6",
+    "@type": "CreateAction",
+    "abstract": "Scientific document demonstrating the value of novel observation approaches for established biological indicators",
+    "agent": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    },
+    "name": "MARCO-BOLO Deliverable 5.2",
+    "participant": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      }
+    ],
+    "result": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_10f87325-44b1-4e3c-b944-b908b014d58a"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2bb711b3-cf87-4b95-9755-dfd730a363a9"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_d36eb952-cede-42b6-b1e8-2121da521037"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_35fb3019-a938-4974-a555-2c8bfae1e610"
+      }
+    ],
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=48"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +69,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=48",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_68a03903-1fee-4bbb-b46e-55110acb12c6-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

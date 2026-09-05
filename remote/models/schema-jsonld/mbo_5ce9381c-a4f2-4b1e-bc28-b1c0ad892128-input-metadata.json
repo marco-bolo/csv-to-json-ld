@@ -9,11 +9,31 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128"
+    "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128",
+    "@type": "Place",
+    "description": "Sampling station in the Elbe - North Sea continuum",
+    "geo": {
+      "@id": "https://w3id.org/marco-bolo/mbo_05e02ba8-44ad-4c86-943a-480062fb0507"
+    },
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "54.7133"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "8.28333333"
+    },
+    "name": "Hörnum / Vortrapptief - fish",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
@@ -29,10 +49,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=92"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=92",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
       },
@@ -52,14 +69,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_5ce9381c-a4f2-4b1e-bc28-b1c0ad892128-input-metadata"
       },

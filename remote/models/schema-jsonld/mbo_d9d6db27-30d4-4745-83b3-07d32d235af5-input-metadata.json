@@ -3,67 +3,153 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5",
+      "@type": "Dataset",
+      "creativeWorkStatus": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+      },
+      "description": "Raw 18S rRNA metabarcoding reads from the ASTAN observatory (SOMLIT-Astan station, Western English Channel), published by Caracciolo et al. (2022, Molecular Ecology, doi:10.1111/mec.16539). Used as input to the MARCO-BOLO Data Analysis Challenge.",
+      "name": "18S protist metabarcoding from the ASTAN observatory (raw reads)",
+      "spatialCoverage": {
+        "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb"
+      },
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata",
+        "@type": [
+          "Dataset",
+          "https://w3id.org/marco-bolo/InputMetadataDescription"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=48",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          }
+        ]
+      },
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.ebi.ac.uk/ena/browser/view/PRJEB48571"
+      },
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "Dataset",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5",
+        "@type": "Dataset",
+        "creativeWorkStatus": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+        },
+        "description": "Raw 18S rRNA metabarcoding reads from the ASTAN observatory (SOMLIT-Astan station, Western English Channel), published by Caracciolo et al. (2022, Molecular Ecology, doi:10.1111/mec.16539). Used as input to the MARCO-BOLO Data Analysis Challenge.",
+        "name": "18S protist metabarcoding from the ASTAN observatory (raw reads)",
+        "spatialCoverage": {
+          "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb"
+        },
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
+        },
+        "schema:url": {
+          "@type": "URL",
+          "@value": "https://www.ebi.ac.uk/ena/browser/view/PRJEB48571"
+        },
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+        }
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=48"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=48",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
+          },
+          "encodingFormat": "text/csv"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d9d6db27-30d4-4745-83b3-07d32d235af5-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }

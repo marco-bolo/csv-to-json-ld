@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b5d589a6-dd3e-4353-bdb7-6af50d2ac498",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "37.79831"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-5.1193"
-  },
-  "name": "Posadas"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5d589a6-dd3e-4353-bdb7-6af50d2ac498#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b5d589a6-dd3e-4353-bdb7-6af50d2ac498"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=106",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b5d589a6-dd3e-4353-bdb7-6af50d2ac498",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "37.79831"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-5.1193"
+      },
+      "name": "Posadas"
+    }
+  ]
 }

@@ -9,11 +9,30 @@
       "@id": "https://w3id.org/marco-bolo/mbo_2d3e7566-48a5-47e2-9980-76c4d9b77a79"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239"
+    "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239",
+    "@type": "HowToStep",
+    "abstract": "For each river system individually, combine all QCd data into a single harmonised spreadsheet",
+    "citation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_933edfa2-9528-4110-9b6c-4d29bc179513"
+    },
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+    },
+    "name": "T3.3 QC and harmonise",
+    "position": {
+      "@type": "xsd:int",
+      "@value": "2"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +48,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000014#row=20"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=20",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +68,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239-input-metadata"
       },

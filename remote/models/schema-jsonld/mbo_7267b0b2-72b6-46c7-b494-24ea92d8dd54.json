@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54",
-  "@type": "Person",
-  "familyName": "Suominen",
-  "givenName": "Saara",
-  "identifier": [
-    "https://oceanexpert.org/expert/43352",
-    "https://orcid.org/0000-0001-9401-8460"
-  ],
-  "worksFor": {
-    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54",
+      "@type": "Person",
+      "familyName": "Suominen",
+      "givenName": "Saara",
+      "identifier": [
+        "https://orcid.org/0000-0001-9401-8460",
+        "https://oceanexpert.org/expert/43352"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=76",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

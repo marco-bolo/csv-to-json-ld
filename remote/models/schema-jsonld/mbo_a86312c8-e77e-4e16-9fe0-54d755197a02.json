@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_a86312c8-e77e-4e16-9fe0-54d755197a02",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "54.02316667"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "8.8095"
-  },
-  "name": "Trischendamm"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a86312c8-e77e-4e16-9fe0-54d755197a02",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.02316667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.8095"
+      },
+      "name": "Trischendamm"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a86312c8-e77e-4e16-9fe0-54d755197a02#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a86312c8-e77e-4e16-9fe0-54d755197a02"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=83",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

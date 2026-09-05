@@ -9,11 +9,22 @@
       "@id": "https://w3id.org/marco-bolo/mbo_f228c8da-cf90-4605-b0ac-89fc6b6c653e"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544"
+    "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 2.1 Contact",
+    "description": "Contact for D2.1 - Report on meta-analysis of the performance of eDNA-based approaches",
+    "email": "iveta.matejusova@gov.scot",
+    "name": "Iveta Matejusova",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +40,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=14"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=14",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +60,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_b1ba348d-7b0e-4ed8-8335-f5d9709f3544-input-metadata"
       },

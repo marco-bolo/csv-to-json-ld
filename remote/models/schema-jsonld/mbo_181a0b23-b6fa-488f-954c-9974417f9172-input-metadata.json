@@ -9,38 +9,32 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
+    "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172",
+    "@type": "Place",
+    "description": "Sampling station in the Elbe - North Sea continuum",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "51.64698223"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "12.93440029"
+    },
+    "name": "Area Dommitzsch",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=52"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +46,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=52",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_181a0b23-b6fa-488f-954c-9974417f9172-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

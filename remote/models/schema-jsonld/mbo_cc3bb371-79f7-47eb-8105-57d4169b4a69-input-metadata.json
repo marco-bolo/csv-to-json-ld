@@ -9,11 +9,36 @@
       "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
+    "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69",
+    "@type": "HowToStep",
+    "abstract": "Calculating pelagic habitat indicator PH1 lifeform ratios",
+    "citation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34"
+    },
+    "contributor": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      }
+    ],
+    "description": "Calculating pelagic habitat indicator PH1 lifeform ratios",
+    "name": "T5.2 Gentic Pelagic Habitat Indicator PH1",
+    "position": {
+      "@type": "xsd:int",
+      "@value": "1"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
   },
@@ -29,10 +54,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000014#row=11"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=11",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
       },
@@ -52,14 +74,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69-input-metadata"
       },

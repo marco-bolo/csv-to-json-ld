@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b1bae4f0-447d-4f4d-97fb-187a7e219851",
-  "@type": "Place",
-  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "36.809355"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "-6.409233"
-  },
-  "name": "Donana"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b1bae4f0-447d-4f4d-97fb-187a7e219851",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.809355"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.409233"
+      },
+      "name": "Donana"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b1bae4f0-447d-4f4d-97fb-187a7e219851#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b1bae4f0-447d-4f4d-97fb-187a7e219851"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=101",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    }
+  ]
 }

@@ -9,11 +9,23 @@
       "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
+    "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
+    "@type": "HowTo",
+    "description": "The steps undertaken: A R-code was written to do the necessary analyses that is published in the deliverable.",
+    "name": "T3.3: Analyse the source data: HowTo",
+    "step": {
+      "@id": "https://w3id.org/marco-bolo/mbo_15b887c1-ab57-41b8-a26e-0261fe951d61"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +41,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000013#row=17"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=17",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +61,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766-input-metadata"
       },

@@ -3,17 +3,38 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7",
-  "@type": "ResearchProject",
-  "alternateName": "MBO WP4",
-  "description": "Mapping Biodiversity with Autonomous Systems",
-  "keywords": "MARCO-BOLO",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "MARCO-BOLO Work Package 4",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://marcobolo-project.eu/work-packages/work-package-4-mapping-biodiversity-with-autonomous-systems/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7",
+      "@type": "ResearchProject",
+      "alternateName": "MBO WP4",
+      "description": "Mapping Biodiversity with Autonomous Systems",
+      "keywords": "MARCO-BOLO",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "MARCO-BOLO Work Package 4",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/work-packages/work-package-4-mapping-biodiversity-with-autonomous-systems/"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_15f6ae40-8607-4c27-b7d4-d46b57e2ecb7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=18",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

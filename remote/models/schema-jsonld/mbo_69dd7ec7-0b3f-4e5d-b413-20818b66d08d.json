@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d",
-  "@type": "Place",
-  "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.407058"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "2.818065"
-  },
-  "name": "Belgian EEZ Task 4.4 ROV multi-camera c"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=38",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d",
+      "@type": "Place",
+      "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.407058"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "2.818065"
+      },
+      "name": "Belgian EEZ Task 4.4 ROV multi-camera c"
+    }
+  ]
 }

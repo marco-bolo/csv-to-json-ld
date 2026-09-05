@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4"
+    "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4",
+    "@type": "Place",
+    "description": "Oceanário de Lisboa, Portugal. Source of the 12S/16S/COI fish, shark and ray aquarium samples.",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "38.76352"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "-9.093716"
+    },
+    "name": "Lisbon Aquarium",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=45"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=45",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a2f9383-c17d-4cbb-a185-926bdb4704f4-input-metadata"
       },

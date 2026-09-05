@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_5b97854f-828b-466b-87d2-9c980927ff68",
-  "@type": "PropertyValue",
-  "description": "Data collected during RoCSI sampling",
-  "name": "RoSCI output",
-  "propertyID": {
-    "@id": "https://vocab.nerc.ac.uk/collection/S01/current/S019/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5b97854f-828b-466b-87d2-9c980927ff68#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5b97854f-828b-466b-87d2-9c980927ff68"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=40",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5b97854f-828b-466b-87d2-9c980927ff68",
+      "@type": "PropertyValue",
+      "description": "Data collected during RoCSI sampling",
+      "name": "RoSCI output",
+      "propertyID": {
+        "@id": "https://vocab.nerc.ac.uk/collection/S01/current/S019/"
+      }
+    }
+  ]
 }

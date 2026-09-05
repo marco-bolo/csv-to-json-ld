@@ -9,38 +9,32 @@
       "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
+    "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
+    "@type": "Place",
+    "description": "Coastal sampling site, 50 km off Plymouth, sampled since 1800's",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "50.25"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "-4.217"
+    },
+    "name": "Western Channel Observatory Coastal Site L4",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=1"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +46,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-04",
+      "dateModified": "2026-09-05",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

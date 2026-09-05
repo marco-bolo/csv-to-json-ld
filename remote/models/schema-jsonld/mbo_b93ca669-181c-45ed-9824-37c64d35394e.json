@@ -3,18 +3,39 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e",
-  "@type": "GovernmentOrganization",
-  "alternateName": "UKRI",
-  "schema:foundingDate": "2018-04-01",
-  "identifier": "https://ror.org/001aqnf71",
-  "legalName": "United Kingdom Resarch and Innovation",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "UK Research and Innovation",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://www.ukri.org/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e",
+      "@type": "GovernmentOrganization",
+      "alternateName": "UKRI",
+      "schema:foundingDate": "2018-04-01",
+      "identifier": "https://ror.org/001aqnf71",
+      "legalName": "United Kingdom Resarch and Innovation",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "UK Research and Innovation",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.ukri.org/"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=36",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

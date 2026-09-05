@@ -3,67 +3,199 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata",
-  "@reverse": {
-    "result": {
-      "@id": "https://w3id.org/marco-bolo/mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14"
-    }
-  },
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
-  },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/23cc599cd2ba0d9cec5e20c1e14914d21bd1371b",
-  "creator": {
-    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-  },
-  "distribution": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#csv",
+      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8",
+      "@type": "Dataset",
+      "about": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+        }
+      ],
+      "author": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+        }
+      ],
+      "creativeWorkStatus": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+      },
+      "description": "Compiled dataset of 2,359 time series containing 552,475 observations of 4,718 coastal and marine taxa across 2,246 sites, organized by six biotic groups (birds, fish, invertebrates, macroalgae, phytoplankton, zooplankton)",
+      "name": "WP5 D5.1: European Coastal and Marine Biotic Groups Time Series Dataset",
+      "subjectOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata",
+        "@type": [
+          "https://w3id.org/marco-bolo/InputMetadataDescription",
+          "Dataset"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=23",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-05",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          }
+        ]
+      },
+      "temporalCoverage": "1956/2022",
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      },
+      "https://w3id.org/marco-bolo/inProgressDate": "2026"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata",
       "@reverse": {
         "result": {
           "@id": "https://w3id.org/marco-bolo/mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14"
         }
       },
-      "@type": "DataDownload",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "Dataset"
+      ],
       "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8",
+        "@type": "Dataset",
+        "about": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_be600bac-0d5d-42c6-8e1a-dfeefa051308"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_014056cd-1624-4d0f-a792-b3cd41ea8c3c"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+          }
+        ],
+        "author": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_4bb7bdc2-c492-402a-a47b-b867ebc2fdbd"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
+          }
+        ],
+        "creativeWorkStatus": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+        },
+        "description": "Compiled dataset of 2,359 time series containing 552,475 observations of 4,718 coastal and marine taxa across 2,246 sites, organized by six biotic groups (birds, fish, invertebrates, macroalgae, phytoplankton, zooplankton)",
+        "name": "WP5 D5.1: European Coastal and Marine Biotic Groups Time Series Dataset",
+        "subjectOf": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
+        },
+        "temporalCoverage": "1956/2022",
+        "variableMeasured": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+        },
+        "https://w3id.org/marco-bolo/inProgressDate": "2026"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=23"
-      },
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14"
+      "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=23",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
+          },
+          "encodingFormat": "text/csv"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_f352e631-cf6b-4a95-9e3e-f05d47c72c14"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-05",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
         }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-04",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c3a9a079-ff51-44a9-844e-4288ee2128f8-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
+      ]
     }
   ]
 }
