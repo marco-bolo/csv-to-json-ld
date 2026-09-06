@@ -13,8 +13,8 @@
       "familyName": "Bergami",
       "givenName": "Caterina",
       "identifier": [
-        "https://orcid.org/0000-0002-5284-1317",
-        "https://oceanexpert.org/expert/58369"
+        "https://oceanexpert.org/expert/58369",
+        "https://orcid.org/0000-0002-5284-1317"
       ],
       "worksFor": {
         "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
@@ -23,8 +23,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"

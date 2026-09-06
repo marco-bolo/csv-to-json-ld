@@ -5,6 +5,22 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e",
+      "@type": "ResearchOrganization",
+      "description": "University of Gothenburg",
+      "identifier": "https://ror.org/01tm6cn81",
+      "keywords": "university, Sweden",
+      "legalName": "Goeteborgs Universitet",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "UGOT",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.gu.se/en/biological-environmental-sciences"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,22 +35,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e",
-      "@type": "ResearchOrganization",
-      "description": "University of Gothenburg",
-      "identifier": "https://ror.org/01tm6cn81",
-      "keywords": "university, Sweden",
-      "legalName": "Goeteborgs Universitet",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "UGOT",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://www.gu.se/en/biological-environmental-sciences"
       }
     }
   ]

@@ -5,6 +5,12 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_274abdf2-001e-4efd-a6bc-3a8f61f2e94b",
+      "@type": "PropertyValue",
+      "description": "Essential Biodiversity Variable class covering genetic diversity and differentiation within and among populations.",
+      "name": "Genetic Composition"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_274abdf2-001e-4efd-a6bc-3a8f61f2e94b#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_274abdf2-001e-4efd-a6bc-3a8f61f2e94b",
-      "@type": "PropertyValue",
-      "description": "Essential Biodiversity Variable class covering genetic diversity and differentiation within and among populations.",
-      "name": "Genetic Composition"
     }
   ]
 }

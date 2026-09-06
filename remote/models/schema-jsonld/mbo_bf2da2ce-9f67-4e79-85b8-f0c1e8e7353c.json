@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
-      "@type": "ContactPoint",
-      "contactType": "Task 5.1.2 Contact",
-      "description": "Detection and analyses of biodiversity trends",
-      "name": "Jo-Hannes Nowé"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
+      "@type": "ContactPoint",
+      "contactType": "Task 5.1.2 Contact",
+      "description": "Detection and analyses of biodiversity trends",
+      "name": "Jo-Hannes Nowé"
     }
   ]
 }

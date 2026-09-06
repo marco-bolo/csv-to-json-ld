@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf",
+      "@type": "Vehicle",
+      "additionalType": {
+        "@id": "https://vocab.nerc.ac.uk/collection/B76/current/B7600007/"
+      },
+      "description": "multipurpose seabed lander",
+      "name": "multipurpose seabed lander"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf",
-      "@type": "Vehicle",
-      "additionalType": {
-        "@id": "https://vocab.nerc.ac.uk/collection/B76/current/B7600007/"
-      },
-      "description": "multipurpose seabed lander",
-      "name": "multipurpose seabed lander"
     }
   ]
 }

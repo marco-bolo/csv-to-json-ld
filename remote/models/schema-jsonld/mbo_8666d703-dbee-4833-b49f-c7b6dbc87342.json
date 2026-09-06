@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
+      "@type": "Place",
+      "description": "Coastal sampling site, 50 km off Plymouth, sampled since 1800's",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "50.25"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-4.217"
+      },
+      "name": "Western Channel Observatory Coastal Site L4"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8666d703-dbee-4833-b49f-c7b6dbc87342",
-      "@type": "Place",
-      "description": "Coastal sampling site, 50 km off Plymouth, sampled since 1800's",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "50.25"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-4.217"
-      },
-      "name": "Western Channel Observatory Coastal Site L4"
     }
   ]
 }

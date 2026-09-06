@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7825333b-d9ae-4e27-889c-1fdd20f985f0",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "General enquiries",
+      "description": "General contact for MARCO-BOLO",
+      "email": "info@marcobolo-project.eu",
+      "name": "Contact MARCO-BOLO"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7825333b-d9ae-4e27-889c-1fdd20f985f0#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_22019081-8c20-4cf0-b830-8fcced750678"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7825333b-d9ae-4e27-889c-1fdd20f985f0",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "General enquiries",
-      "description": "General contact for MARCO-BOLO",
-      "email": "info@marcobolo-project.eu",
-      "name": "Contact MARCO-BOLO"
     }
   ]
 }

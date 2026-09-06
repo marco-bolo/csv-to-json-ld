@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 4.1 Contact",
+      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+      "email": "fletho@aqua.dtu.dk",
+      "name": "Fletcher Thompson"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76"
@@ -20,14 +28,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_30612c08-be12-4da2-8ab6-1f4b3260ae76",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 4.1 Contact",
-      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
-      "email": "fletho@aqua.dtu.dk",
-      "name": "Fletcher Thompson"
     }
   ]
 }

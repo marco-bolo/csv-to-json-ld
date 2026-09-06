@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_940e1915-821c-41ba-adc2-8225745f9e2a",
+      "@type": "PropertyValue",
+      "description": "Essential Ocean Variable (EOV), Particulate Matter, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+      "name": "Particulate Matter",
+      "propertyID": {
+        "@id": "https://goosocean.org/document/17477"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_940e1915-821c-41ba-adc2-8225745f9e2a#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_940e1915-821c-41ba-adc2-8225745f9e2a"
@@ -19,15 +28,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_940e1915-821c-41ba-adc2-8225745f9e2a",
-      "@type": "PropertyValue",
-      "description": "Essential Ocean Variable (EOV), Particulate Matter, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
-      "name": "Particulate Matter",
-      "propertyID": {
-        "@id": "https://goosocean.org/document/17477"
       }
     }
   ]

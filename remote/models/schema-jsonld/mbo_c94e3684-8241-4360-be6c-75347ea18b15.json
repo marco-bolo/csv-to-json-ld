@@ -5,6 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15",
+      "@type": "Person",
+      "familyName": "Haase",
+      "givenName": "Peter",
+      "identifier": [
+        "https://orcid.org/0000-0002-9340-0438",
+        "https://oceanexpert.org/expert/58615"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,19 +32,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15",
-      "@type": "Person",
-      "familyName": "Haase",
-      "givenName": "Peter",
-      "identifier": [
-        "https://oceanexpert.org/expert/58615",
-        "https://orcid.org/0000-0002-9340-0438"
-      ],
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
       }
     }
   ]

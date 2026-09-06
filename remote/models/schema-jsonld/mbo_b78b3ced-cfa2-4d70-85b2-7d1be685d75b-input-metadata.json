@@ -17,8 +17,8 @@
     "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b",
     "@type": "ContactPoint",
     "availableLanguage": [
-      "es",
-      "en"
+      "en",
+      "es"
     ],
     "contactType": "CSV-to-JSON-LD tool management",
     "description": "Independent consultant with OBIS supporting the MBO project. Stephen took over the development of the tool when Rob Barry left.",
@@ -28,7 +28,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8ac7c88a47a64509f0cc569421b13fd671e5a644",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/a1dcb8eb1381fcde7d99ae9712171c8c28e09d0d",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -48,7 +48,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-05",
+      "dateModified": "2026-09-06",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b-input-metadata"
       },

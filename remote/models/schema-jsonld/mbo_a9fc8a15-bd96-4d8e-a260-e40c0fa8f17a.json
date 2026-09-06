@@ -14,18 +14,18 @@
       "name": "MARCO-BOLO Deliverable 6.3",
       "participant": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+          "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+          "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
         }
       ]
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a"

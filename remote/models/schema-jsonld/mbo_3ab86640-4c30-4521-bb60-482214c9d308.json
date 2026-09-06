@@ -5,19 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308",
-      "@type": "HowTo",
-      "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
-      "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
-      "step": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308"
@@ -28,6 +19,15 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3ab86640-4c30-4521-bb60-482214c9d308",
+      "@type": "HowTo",
+      "description": "Running of the model on the LW-VRE by selecting a certain species in the LW-VRE workflow studio.",
+      "name": "T5.1.2 Run model on LW-VRE for harbor porpoise",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d572b03b-6c72-440b-b847-c39f3fa94013"
       }
     }
   ]

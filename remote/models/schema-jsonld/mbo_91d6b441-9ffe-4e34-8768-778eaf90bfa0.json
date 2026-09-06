@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_91d6b441-9ffe-4e34-8768-778eaf90bfa0",
+      "@type": "Person",
+      "familyName": "McQuatters-Gollop",
+      "givenName": "Abigail",
+      "identifier": "https://oceanexpert.org/expert/62379"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_91d6b441-9ffe-4e34-8768-778eaf90bfa0#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_91d6b441-9ffe-4e34-8768-778eaf90bfa0",
-      "@type": "Person",
-      "familyName": "McQuatters-Gollop",
-      "givenName": "Abigail",
-      "identifier": "https://oceanexpert.org/expert/62379"
     }
   ]
 }

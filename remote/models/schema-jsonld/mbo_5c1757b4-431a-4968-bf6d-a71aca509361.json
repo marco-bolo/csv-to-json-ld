@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_5c1757b4-431a-4968-bf6d-a71aca509361#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c1757b4-431a-4968-bf6d-a71aca509361"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=12",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_5c1757b4-431a-4968-bf6d-a71aca509361",
       "@type": "ResearchProject",
       "alternateName": "National Distributed Centre for LifeWatch Belgium",
@@ -17,23 +34,6 @@
       "schema:url": {
         "@type": "URL",
         "@value": "https://www.lifewatch.be"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5c1757b4-431a-4968-bf6d-a71aca509361#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_5c1757b4-431a-4968-bf6d-a71aca509361"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=12",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

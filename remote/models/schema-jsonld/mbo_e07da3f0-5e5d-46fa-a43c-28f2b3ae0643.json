@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e07da3f0-5e5d-46fa-a43c-28f2b3ae0643",
+      "@type": "ContactPoint",
+      "contactType": "Task 4.2 Contact",
+      "description": "Pressures and biodiversity variables from remote sensing",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e07da3f0-5e5d-46fa-a43c-28f2b3ae0643#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_88104af7-4de5-489e-a458-2f8f135d5833"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e07da3f0-5e5d-46fa-a43c-28f2b3ae0643",
-      "@type": "ContactPoint",
-      "contactType": "Task 4.2 Contact",
-      "description": "Pressures and biodiversity variables from remote sensing",
-      "name": "TBD"
     }
   ]
 }

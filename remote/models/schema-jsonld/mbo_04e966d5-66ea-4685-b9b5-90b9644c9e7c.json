@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c",
+      "@type": "ContactPoint",
+      "contactType": "Task 6.1 Contact",
+      "description": "Develop and Operationalise a CoP",
+      "email": "l.benedetti@unesco.org",
+      "name": "Lisa Benedetti"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c"
@@ -20,14 +28,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c059d18-5964-4ca4-8553-a8efc4e29db5"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04e966d5-66ea-4685-b9b5-90b9644c9e7c",
-      "@type": "ContactPoint",
-      "contactType": "Task 6.1 Contact",
-      "description": "Develop and Operationalise a CoP",
-      "email": "l.benedetti@unesco.org",
-      "name": "Lisa Benedetti"
     }
   ]
 }

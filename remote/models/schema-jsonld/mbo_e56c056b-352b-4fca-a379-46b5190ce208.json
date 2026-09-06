@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208",
+      "@type": "ContactPoint",
+      "contactType": "Task 5.3 Contact",
+      "description": "Spatial mapping of Blue Carbon benefits",
+      "name": "Natalya Gallo"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e56c056b-352b-4fca-a379-46b5190ce208",
-      "@type": "ContactPoint",
-      "contactType": "Task 5.3 Contact",
-      "description": "Spatial mapping of Blue Carbon benefits",
-      "name": "Natalya Gallo"
     }
   ]
 }

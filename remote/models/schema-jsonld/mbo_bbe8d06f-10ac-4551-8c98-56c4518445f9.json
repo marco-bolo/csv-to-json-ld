@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_bbe8d06f-10ac-4551-8c98-56c4518445f9",
+      "@type": "ContactPoint",
+      "contactType": "Task 3.5 Contact",
+      "description": "Roadmap for harmonising biodiversity observation",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_bbe8d06f-10ac-4551-8c98-56c4518445f9#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_bbe8d06f-10ac-4551-8c98-56c4518445f9"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_2e050335-10c7-44d2-b896-c6942251a2d4"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bbe8d06f-10ac-4551-8c98-56c4518445f9",
-      "@type": "ContactPoint",
-      "contactType": "Task 3.5 Contact",
-      "description": "Roadmap for harmonising biodiversity observation",
-      "name": "TBD"
     }
   ]
 }
