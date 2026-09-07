@@ -18,17 +18,10 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Phylum",
+        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Order",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Family",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
         }
       },
       {
@@ -39,10 +32,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#VerbatimTaxonRank",
+        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Family",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
         }
       },
       {
@@ -53,24 +46,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#SpecificEpithet",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-        }
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#ScientificName",
         "@type": "PropertyValue",
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Order",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
         }
       },
       {
@@ -79,6 +58,27 @@
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/genus"
         }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#SpecificEpithet",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#VerbatimTaxonRank",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919#Phylum",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        }
       }
     ],
     "name": "Invertebrates",
@@ -86,7 +86,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_c310a446-4cdb-46de-80b1-bf3b98b0c919-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/de2a0908aa2d3783bdd8b4f3fc304ca4fa6adbcc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
   },

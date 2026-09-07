@@ -18,35 +18,6 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#SpecificEpithet",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Status",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        },
-        "value": "accepted"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Genus",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Phylum",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-        }
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Kingdom",
         "@type": "PropertyValue",
         "propertyID": {
@@ -63,6 +34,21 @@
         "value": "Plantae"
       },
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Genus",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#VerbatimTaxonRank",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        },
+        "value": "kingdom"
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Family",
         "@type": "PropertyValue",
         "propertyID": {
@@ -77,50 +63,44 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#VerbatimTaxonRank",
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Status",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
         },
-        "value": "kingdom"
+        "value": "accepted"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Phylum",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#SpecificEpithet",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        }
       }
     ],
     "identifier": [
-      "worms:3",
       {
         "@id": "urn:lsid:marinespecies.org:taxname:3"
-      }
+      },
+      "worms:3"
     ],
     "name": "Plants",
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/de2a0908aa2d3783bdd8b4f3fc304ca4fa6adbcc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000026#row=2",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata#jsonld",
       "@reverse": {
@@ -141,6 +121,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000026#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

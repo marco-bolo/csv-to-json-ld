@@ -5,6 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+      },
+      "familyName": "Figueroa Ashforth",
+      "givenName": "Chloe",
+      "identifier": "https://orcid.org/0009-0007-9889-5090",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420#input-metadata",
       "@type": [
         "DataDownload",
@@ -19,19 +32,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
-      },
-      "familyName": "Figueroa Ashforth",
-      "givenName": "Chloe",
-      "identifier": "https://orcid.org/0009-0007-9889-5090",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
       }
     }
   ]

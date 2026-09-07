@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_dc055a2d-ed2c-4d4a-9f37-0a5116840ed3",
+      "@type": "Person",
+      "familyName": "Lips",
+      "givenName": "Inga",
+      "identifier": "https://oceanexpert.org/expert/7925"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_dc055a2d-ed2c-4d4a-9f37-0a5116840ed3#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_dc055a2d-ed2c-4d4a-9f37-0a5116840ed3",
-      "@type": "Person",
-      "familyName": "Lips",
-      "givenName": "Inga",
-      "identifier": "https://oceanexpert.org/expert/7925"
     }
   ]
 }

@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=44",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282",
       "@type": "Dataset",
       "about": {
@@ -12,13 +29,13 @@
       },
       "audience": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+          "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+          "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
         }
       ],
       "author": {
@@ -47,23 +64,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
       },
       "https://w3id.org/marco-bolo/inProgressDate": "2026"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_43440a4b-b0bb-40fb-9a01-fc30d2f5e282"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=44",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
-      }
     }
   ]
 }

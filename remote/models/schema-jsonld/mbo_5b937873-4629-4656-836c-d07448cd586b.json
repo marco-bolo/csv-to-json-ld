@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_5b937873-4629-4656-836c-d07448cd586b",
+      "@type": "ContactPoint",
+      "contactType": "Task 2.4 Contact",
+      "description": "Defining eDNA-based variables for the EV, MSFD and WFD frameworks",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_5b937873-4629-4656-836c-d07448cd586b#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_5b937873-4629-4656-836c-d07448cd586b"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_af71678b-40e4-4a6b-bc12-719fa70b8b4d"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5b937873-4629-4656-836c-d07448cd586b",
-      "@type": "ContactPoint",
-      "contactType": "Task 2.4 Contact",
-      "description": "Defining eDNA-based variables for the EV, MSFD and WFD frameworks",
-      "name": "TBD"
     }
   ]
 }

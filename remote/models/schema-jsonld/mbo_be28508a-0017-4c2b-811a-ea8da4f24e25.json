@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=42",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25",
       "@type": "Dataset",
       "about": {
@@ -26,23 +43,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
       },
       "https://w3id.org/marco-bolo/inProgressDate": "2026"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_be28508a-0017-4c2b-811a-ea8da4f24e25"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=42",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
-      }
     }
   ]
 }

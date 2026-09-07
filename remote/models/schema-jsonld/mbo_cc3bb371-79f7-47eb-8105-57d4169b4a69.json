@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=11",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69",
       "@type": "HowToStep",
       "abstract": "Calculating pelagic habitat indicator PH1 lifeform ratios",
@@ -24,23 +41,6 @@
       "position": {
         "@type": "xsd:int",
         "@value": "1"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=11",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
       }
     }
   ]

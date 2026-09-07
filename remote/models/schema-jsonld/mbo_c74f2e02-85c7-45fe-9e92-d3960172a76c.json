@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
+      "@type": "DigitalDocument",
+      "availableLanguage": "en",
+      "identifier": "github: https://github.com/MadsRJ/NordicRefDBs",
+      "name": "WP2 Nordic species eDNA Reference Databases"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c74f2e02-85c7-45fe-9e92-d3960172a76c",
-      "@type": "DigitalDocument",
-      "availableLanguage": "en",
-      "identifier": "github: https://github.com/MadsRJ/NordicRefDBs",
-      "name": "WP2 Nordic species eDNA Reference Databases"
     }
   ]
 }

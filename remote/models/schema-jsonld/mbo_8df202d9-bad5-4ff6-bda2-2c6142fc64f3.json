@@ -5,19 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3",
-      "@type": "Person",
-      "familyName": "Di Cioccio",
-      "givenName": "Davide",
-      "identifier": [
-        "https://oceanexpert.org/expert/39481",
-        "https://orcid.org/0000-0002-9022-9962"
-      ],
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8df202d9-bad5-4ff6-bda2-2c6142fc64f3",
+      "@type": "Person",
+      "familyName": "Di Cioccio",
+      "givenName": "Davide",
+      "identifier": [
+        "https://oceanexpert.org/expert/39481",
+        "https://orcid.org/0000-0002-9022-9962"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
       }
     }
   ]

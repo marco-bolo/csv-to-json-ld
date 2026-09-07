@@ -9,10 +9,10 @@
       "@type": "Dataset",
       "about": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
+          "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+          "@id": "https://w3id.org/marco-bolo/mbo_ec9c0371-6280-46b3-89c6-8216ed726b7b"
         }
       ],
       "author": {
@@ -32,8 +32,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2138a351-8473-4824-a6cc-1e463149002d#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2138a351-8473-4824-a6cc-1e463149002d"

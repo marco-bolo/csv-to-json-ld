@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ad5a7949-609c-4791-9c59-26bdecbb9ab5",
+      "@type": "ContactPoint",
+      "contactType": "Task 3.1 Contact",
+      "description": "Meta-analysis of land and sea observation variables, protocols and tools",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ad5a7949-609c-4791-9c59-26bdecbb9ab5#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ad5a7949-609c-4791-9c59-26bdecbb9ab5"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7452444b-2d23-465c-8225-b8266652a0d8"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ad5a7949-609c-4791-9c59-26bdecbb9ab5",
-      "@type": "ContactPoint",
-      "contactType": "Task 3.1 Contact",
-      "description": "Meta-analysis of land and sea observation variables, protocols and tools",
-      "name": "TBD"
     }
   ]
 }

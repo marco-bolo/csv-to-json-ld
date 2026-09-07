@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
+      "@type": "Thing",
+      "description": "RoCSI eDNA sampler",
+      "identifier": "RoCSI Serial Number 5",
+      "name": "RoCSI"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
-      "@type": "Thing",
-      "description": "RoCSI eDNA sampler",
-      "identifier": "RoCSI Serial Number 5",
-      "name": "RoCSI"
     }
   ]
 }

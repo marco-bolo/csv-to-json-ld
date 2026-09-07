@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=11",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747",
       "@type": "CreateAction",
       "abstract": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
@@ -22,23 +39,6 @@
       ],
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_1c2e71ac-99fe-42bc-b8c2-3a143904eca3"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=11",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

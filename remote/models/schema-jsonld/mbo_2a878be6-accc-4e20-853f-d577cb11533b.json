@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2a878be6-accc-4e20-853f-d577cb11533b",
-      "@type": "ContactPoint",
-      "contactType": "Task 4.1 Contact",
-      "description": "Autonomy for mapping biodiversity characteristics",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2a878be6-accc-4e20-853f-d577cb11533b#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2a878be6-accc-4e20-853f-d577cb11533b"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_66abb93f-920f-4acd-9112-0d742d1d922b"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2a878be6-accc-4e20-853f-d577cb11533b",
+      "@type": "ContactPoint",
+      "contactType": "Task 4.1 Contact",
+      "description": "Autonomy for mapping biodiversity characteristics",
+      "name": "TBD"
     }
   ]
 }

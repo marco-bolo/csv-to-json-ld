@@ -5,10 +5,25 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+        }
+      ],
+      "familyName": "Di Tuccio",
+      "givenName": "Viviana",
+      "identifier": "https://orcid.org/0000-0002-3826-7697"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a"
@@ -20,21 +35,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a",
-      "@type": "Person",
-      "affiliation": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
-        }
-      ],
-      "familyName": "Di Tuccio",
-      "givenName": "Viviana",
-      "identifier": "https://orcid.org/0000-0002-3826-7697"
     }
   ]
 }

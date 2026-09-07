@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_4109bb2b-5a29-4541-ba40-f3bf42f3132a",
+      "@type": "ContactPoint",
+      "contactType": "Task 7.2 Contact",
+      "description": "Communication & Dissemination",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_4109bb2b-5a29-4541-ba40-f3bf42f3132a#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4109bb2b-5a29-4541-ba40-f3bf42f3132a"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_3c7d86b9-4175-448a-b146-aa8dcb8de4fb"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4109bb2b-5a29-4541-ba40-f3bf42f3132a",
-      "@type": "ContactPoint",
-      "contactType": "Task 7.2 Contact",
-      "description": "Communication & Dissemination",
-      "name": "TBD"
     }
   ]
 }

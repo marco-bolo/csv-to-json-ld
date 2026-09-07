@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0c8a6a0-19fb-44c1-9588-29c771a1fd65",
+      "@type": "ContactPoint",
+      "contactType": "Task 4.3 Contact",
+      "description": "Networks of biodiversity sensors",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b0c8a6a0-19fb-44c1-9588-29c771a1fd65#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_fb7e0fc8-6cfd-4ad5-9655-739fe659bfa9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0c8a6a0-19fb-44c1-9588-29c771a1fd65",
-      "@type": "ContactPoint",
-      "contactType": "Task 4.3 Contact",
-      "description": "Networks of biodiversity sensors",
-      "name": "TBD"
     }
   ]
 }

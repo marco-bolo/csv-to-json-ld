@@ -22,8 +22,8 @@
     "familyName": "Buttigieg",
     "givenName": "Pier Luigi",
     "identifier": [
-      "https://orcid.org/0000-0002-4366-3088",
-      "https://oceanexpert.org/expert/34461"
+      "https://oceanexpert.org/expert/34461",
+      "https://orcid.org/0000-0002-4366-3088"
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata"
@@ -32,11 +32,31 @@
       "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/de2a0908aa2d3783bdd8b4f3fc304ca4fa6adbcc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=14",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata"
+      },
+      "encodingFormat": "text/csv"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata#jsonld",
       "@reverse": {
@@ -57,26 +77,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata"
       },
       "encodingFormat": "application/ld+json"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=14",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d-input-metadata"
-      },
-      "encodingFormat": "text/csv"
     }
   ]
 }

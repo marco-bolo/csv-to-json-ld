@@ -19,8 +19,8 @@
     "familyName": "Deneudt",
     "givenName": "Klaas",
     "identifier": [
-      "https://orcid.org/0000-0002-8559-3508",
-      "https://oceanexpert.org/expert/15571"
+      "https://oceanexpert.org/expert/15571",
+      "https://orcid.org/0000-0002-8559-3508"
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_f8225168-81e0-4f4d-9377-7fb42225ee75-input-metadata"
@@ -29,7 +29,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/de2a0908aa2d3783bdd8b4f3fc304ca4fa6adbcc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
