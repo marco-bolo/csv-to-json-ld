@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"
@@ -44,8 +44,8 @@
       },
       "schema:dateCreated": "2025-11-21",
       "schema:dateModified": [
-        "2026-06-22",
-        "2026-01-15"
+        "2026-01-15",
+        "2026-06-22"
       ],
       "schema:datePublished": "2026-11-30",
       "description": "Excel file containing quantitative measurements of E. encrasicolus mitochondrial DNA in seawater samples analyzed via ddPCR.",

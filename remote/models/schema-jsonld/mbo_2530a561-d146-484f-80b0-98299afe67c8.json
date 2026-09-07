@@ -5,10 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8",
+      "@type": "Person",
+      "familyName": "Sousa Pinto",
+      "givenName": "Isabel",
+      "identifier": [
+        "https://orcid.org/0000-0002-9231-0553",
+        "https://oceanexpert.org/expert/23935"
+      ]
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8",
-      "@type": "Person",
-      "familyName": "Sousa Pinto",
-      "givenName": "Isabel",
-      "identifier": [
-        "https://orcid.org/0000-0002-9231-0553",
-        "https://oceanexpert.org/expert/23935"
-      ]
     }
   ]
 }

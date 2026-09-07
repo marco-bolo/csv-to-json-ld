@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
@@ -30,8 +30,8 @@
       "familyName": "Tagliolato",
       "givenName": "Paolo",
       "identifier": [
-        "https://oceanexpert.org/expert/27401",
-        "https://orcid.org/0000-0002-0261-313X"
+        "https://orcid.org/0000-0002-0261-313X",
+        "https://oceanexpert.org/expert/27401"
       ],
       "worksFor": {
         "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"

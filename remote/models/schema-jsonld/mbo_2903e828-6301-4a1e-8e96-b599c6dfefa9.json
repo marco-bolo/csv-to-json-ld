@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2903e828-6301-4a1e-8e96-b599c6dfefa9",
-      "@type": "GovernmentOrganization",
-      "legalName": "NOAA Atlantic Oceanographic and Meteorological Laboratories",
-      "name": "NOAA AOML",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://ror.org/042r9xb17"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2903e828-6301-4a1e-8e96-b599c6dfefa9#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2903e828-6301-4a1e-8e96-b599c6dfefa9"
@@ -29,6 +19,16 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2903e828-6301-4a1e-8e96-b599c6dfefa9",
+      "@type": "GovernmentOrganization",
+      "legalName": "NOAA Atlantic Oceanographic and Meteorological Laboratories",
+      "name": "NOAA AOML",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://ror.org/042r9xb17"
       }
     }
   ]

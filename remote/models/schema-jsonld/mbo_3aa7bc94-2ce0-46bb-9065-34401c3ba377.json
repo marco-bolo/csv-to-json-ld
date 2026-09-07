@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3aa7bc94-2ce0-46bb-9065-34401c3ba377",
-      "@type": "DigitalDocument",
-      "availableLanguage": "en",
-      "identifier": "github: https://github.com/bioinfo-arctic/eDNA-biodiversity-flowchart",
-      "name": "MARCO-BOLO Deliverable D2.5 - eDNA Biodiversity Flowchart"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_3aa7bc94-2ce0-46bb-9065-34401c3ba377#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_be3919f4-9445-4fd5-8548-09e38200566f"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3aa7bc94-2ce0-46bb-9065-34401c3ba377",
+      "@type": "DigitalDocument",
+      "availableLanguage": "en",
+      "identifier": "github: https://github.com/bioinfo-arctic/eDNA-biodiversity-flowchart",
+      "name": "MARCO-BOLO Deliverable D2.5 - eDNA Biodiversity Flowchart"
     }
   ]
 }

@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840",
-      "@type": "DefinedTerm",
-      "description": "The dataset is complete and publicly available for access and use.",
-      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
-      "termCode": "Published"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840",
+      "@type": "DefinedTerm",
+      "description": "The dataset is complete and publicly available for access and use.",
+      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+      "termCode": "Published"
     }
   ]
 }

@@ -5,16 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_917918ba-e5fc-4674-b784-03c13ee868a5",
-      "@type": "ResearchOrganization",
-      "legalName": "INRA Centre de Jouy-en-Josas",
-      "name": "INRA Jouy-en-Josas"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_917918ba-e5fc-4674-b784-03c13ee868a5#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_917918ba-e5fc-4674-b784-03c13ee868a5"
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_917918ba-e5fc-4674-b784-03c13ee868a5",
+      "@type": "ResearchOrganization",
+      "legalName": "INRA Centre de Jouy-en-Josas",
+      "name": "INRA Jouy-en-Josas"
     }
   ]
 }

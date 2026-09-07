@@ -18,8 +18,8 @@
       "familyName": "Muñiz",
       "givenName": "Carlota",
       "identifier": [
-        "https://orcid.org/0000-0001-9584-3833",
-        "https://oceanexpert.org/expert/58452"
+        "https://oceanexpert.org/expert/58452",
+        "https://orcid.org/0000-0001-9584-3833"
       ],
       "worksFor": {
         "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
@@ -28,8 +28,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"

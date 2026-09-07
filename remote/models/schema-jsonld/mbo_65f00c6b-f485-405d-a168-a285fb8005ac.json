@@ -5,26 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac",
-      "@type": "Person",
-      "contactPoint": {
-        "@id": "https://w3id.org/marco-bolo/mbo_f395721a-2023-4bf9-a2e0-462a61bcc3e5"
-      },
-      "familyName": "Bergami",
-      "givenName": "Caterina",
-      "identifier": [
-        "https://oceanexpert.org/expert/58369",
-        "https://orcid.org/0000-0002-5284-1317"
-      ],
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac"
@@ -35,6 +19,22 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65f00c6b-f485-405d-a168-a285fb8005ac",
+      "@type": "Person",
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f395721a-2023-4bf9-a2e0-462a61bcc3e5"
+      },
+      "familyName": "Bergami",
+      "givenName": "Caterina",
+      "identifier": [
+        "https://orcid.org/0000-0002-5284-1317",
+        "https://oceanexpert.org/expert/58369"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
       }
     }
   ]

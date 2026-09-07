@@ -5,6 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
+      "@type": "ContactPoint",
+      "availableLanguage": [
+        "en",
+        "nl"
+      ],
+      "contactType": "Task 5.2 Contact",
+      "description": "Application of integrative approaches on established biological indicators",
+      "email": "hanneloor.heynderickx@vliz.be",
+      "name": "Hanneloor Heynderickx"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,18 +32,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
-      "@type": "ContactPoint",
-      "availableLanguage": [
-        "nl",
-        "en"
-      ],
-      "contactType": "Task 5.2 Contact",
-      "description": "Application of integrative approaches on established biological indicators",
-      "email": "hanneloor.heynderickx@vliz.be",
-      "name": "Hanneloor Heynderickx"
     }
   ]
 }

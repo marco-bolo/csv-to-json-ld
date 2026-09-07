@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730",
+      "@type": "CreateAction",
+      "abstract": "Filling in the geography of the data collected for task 3.3",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "name": "MARCO-BOLO Deliverable 3.3"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a3910157-65ec-4609-ba4f-031e7f8c0730",
-      "@type": "CreateAction",
-      "abstract": "Filling in the geography of the data collected for task 3.3",
-      "agent": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "name": "MARCO-BOLO Deliverable 3.3"
     }
   ]
 }

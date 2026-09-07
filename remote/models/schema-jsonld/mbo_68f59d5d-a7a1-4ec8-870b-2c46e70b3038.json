@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_68f59d5d-a7a1-4ec8-870b-2c46e70b3038",
+      "@type": "Place",
+      "description": "Sampling station in the Danube - Black Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "44.1216667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "27.2438889"
+      },
+      "name": "Chiciu"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_68f59d5d-a7a1-4ec8-870b-2c46e70b3038#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_68f59d5d-a7a1-4ec8-870b-2c46e70b3038",
-      "@type": "Place",
-      "description": "Sampling station in the Danube - Black Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "44.1216667"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "27.2438889"
-      },
-      "name": "Chiciu"
     }
   ]
 }

@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809",
-      "@type": "GeoShape",
-      "circle": "54.1166667 8.855 7500",
-      "description": "Sampling area in the Elbe - North Sea continuum",
-      "name": "Büsum - fish"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_36e0e152-a9d0-4bc4-81b6-c7ef568a9809",
+      "@type": "GeoShape",
+      "circle": "54.1166667 8.855 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Büsum - fish"
     }
   ]
 }

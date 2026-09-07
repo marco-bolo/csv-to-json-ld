@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34",
-      "@type": "SoftwareSourceCode",
-      "schema:codeRepository": {
-        "@type": "URL",
-        "@value": "https://github.com"
-      },
-      "description": "Unfinished description of record with dummy URL",
-      "name": "Pelagic Habitat Indicator script for genetic data"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4d40d3c9-638c-42c2-8a42-d38f613e8f34",
+      "@type": "SoftwareSourceCode",
+      "schema:codeRepository": {
+        "@type": "URL",
+        "@value": "https://github.com"
+      },
+      "description": "Unfinished description of record with dummy URL",
+      "name": "Pelagic Habitat Indicator script for genetic data"
     }
   ]
 }

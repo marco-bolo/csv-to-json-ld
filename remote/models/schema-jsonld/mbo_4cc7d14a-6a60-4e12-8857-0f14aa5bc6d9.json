@@ -16,15 +16,15 @@
       "familyName": "Not",
       "givenName": "Fabrice",
       "identifier": [
-        "https://orcid.org/0000-0002-9342-195X",
-        "https://oceanexpert.org/expert/58571"
+        "https://oceanexpert.org/expert/58571",
+        "https://orcid.org/0000-0002-9342-195X"
       ]
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"

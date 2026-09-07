@@ -5,15 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Project Communications",
-      "description": "ERINN Innovation",
-      "email": "mathilde@erinn.eu",
-      "name": "Mathilde Vidal"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -29,6 +20,15 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_22019081-8c20-4cf0-b830-8fcced750678"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c7c525d9-27b7-4778-a33c-60d8e65ded6d",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Project Communications",
+      "description": "ERINN Innovation",
+      "email": "mathilde@erinn.eu",
+      "name": "Mathilde Vidal"
     }
   ]
 }

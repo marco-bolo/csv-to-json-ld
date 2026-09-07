@@ -5,20 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_79ded334-ffd5-43cd-a435-c075c1442ca9",
-      "@type": "Place",
-      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "37.827902"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-4.932487"
-      },
-      "name": "Almodovar del Rio Cordoba 2"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_79ded334-ffd5-43cd-a435-c075c1442ca9#input-metadata",
       "@type": [
         "DataDownload",
@@ -34,6 +20,20 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79ded334-ffd5-43cd-a435-c075c1442ca9",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "37.827902"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-4.932487"
+      },
+      "name": "Almodovar del Rio Cordoba 2"
     }
   ]
 }

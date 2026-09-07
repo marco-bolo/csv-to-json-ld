@@ -5,10 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4",
+      "@type": "PropertyValue",
+      "description": "3D models (photogrammetry) from ROV-mounted multi cameras",
+      "name": "3D models from multi-camera"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4"
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2f14b57e-31c3-4b56-85d3-e101bebd18d4",
-      "@type": "PropertyValue",
-      "description": "3D models (photogrammetry) from ROV-mounted multi cameras",
-      "name": "3D models from multi-camera"
     }
   ]
 }

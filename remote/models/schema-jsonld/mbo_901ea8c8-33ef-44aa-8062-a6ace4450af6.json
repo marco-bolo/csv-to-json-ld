@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6",
-      "@type": "DefinedTerm",
-      "description": "The dataset is complete but temporarily restricted from public access until a specified release date, after which it will become publicly available.",
-      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
-      "termCode": "Embargoed"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6",
+      "@type": "DefinedTerm",
+      "description": "The dataset is complete but temporarily restricted from public access until a specified release date, after which it will become publicly available.",
+      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+      "termCode": "Embargoed"
     }
   ]
 }
