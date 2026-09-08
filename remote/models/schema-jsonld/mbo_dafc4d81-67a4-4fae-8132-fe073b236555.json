@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=35",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555",
       "@type": "Place",
       "description": "The location of the ROV low-light camera work during the Task 4.4 sea trial",
@@ -34,6 +17,23 @@
         "@value": "2.818065"
       },
       "name": "Belgian EEZ Task 4.4 ROV low light camera"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=35",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
     }
   ]
 }

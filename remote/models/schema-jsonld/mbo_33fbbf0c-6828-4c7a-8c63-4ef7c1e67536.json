@@ -5,20 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
-      "@type": "Place",
-      "description": "Sampling station in the Elbe - North Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "54.14667"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "7.83333"
-      },
-      "name": "Helgoland Tiefe Rinne"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -34,6 +20,20 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.14667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "7.83333"
+      },
+      "name": "Helgoland Tiefe Rinne"
     }
   ]
 }

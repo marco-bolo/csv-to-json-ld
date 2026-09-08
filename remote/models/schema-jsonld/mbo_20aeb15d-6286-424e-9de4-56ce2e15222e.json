@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
@@ -44,11 +44,11 @@
       "schema:url": [
         {
           "@type": "URL",
-          "@value": "https://zenodo.org/records/17590006"
+          "@value": "https://doi.org/10.5281/zenodo.17590006"
         },
         {
           "@type": "URL",
-          "@value": "https://doi.org/10.5281/zenodo.17590006"
+          "@value": "https://zenodo.org/records/17590006"
         }
       ],
       "https://w3id.org/marco-bolo/inProgressDate": "2026"

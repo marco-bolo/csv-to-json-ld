@@ -5,12 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_12bf8e35-4827-4a01-9fd5-48e8fb4d6b45",
-      "@type": "PropertyValue",
-      "description": "Essential Biodiversity Variable class covering spatial distribution, cover and vertical structure of ecosystems.",
-      "name": "Ecosystem Structure"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_12bf8e35-4827-4a01-9fd5-48e8fb4d6b45#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_12bf8e35-4827-4a01-9fd5-48e8fb4d6b45",
+      "@type": "PropertyValue",
+      "description": "Essential Biodiversity Variable class covering spatial distribution, cover and vertical structure of ecosystems.",
+      "name": "Ecosystem Structure"
     }
   ]
 }

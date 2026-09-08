@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 7.5 Contact",
+      "description": "Portfolio of tools and activities to promote MBO",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_ff5c2829-d4b6-4651-aa1c-2a19688c9f98"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8926b9e6-d58f-4ee0-af02-ec6fc7583506",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 7.5 Contact",
-      "description": "Portfolio of tools and activities to promote MBO",
-      "name": "TBD"
     }
   ]
 }

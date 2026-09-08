@@ -9,13 +9,13 @@
       "@type": "DataDownload",
       "audience": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
-        },
-        {
           "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
         }
       ],
       "contentSize": "11KB",
@@ -50,8 +50,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"

@@ -5,22 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2",
-      "@type": "MonetaryGrant",
-      "amount": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2#MonetaryAmount"
-      },
-      "description": "EU funding for the MARine COastal BiOdiversity Long-term Observations (MARCO-BOLO) project under Horizon Europe programme call HORIZON-CL6-2022-BIODIV-01-01 (Biodiversity and ecosystem services). Total project budget is 8614089.50 EUR with EU contribution of 7255037.50 EUR. Project duration: 48 months (December 1, 2022 - November 30, 2026).",
-      "funder": {
-        "@id": "https://w3id.org/marco-bolo/mbo_97759e39-db22-40d1-bbb8-2b27adfaa825"
-      },
-      "name": "Horizon Europe Grant for MARCO-BOLO",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://doi.org/10.3030/101082021"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2#input-metadata",
       "@type": [
         "DataDownload",
@@ -35,6 +19,22 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2",
+      "@type": "MonetaryGrant",
+      "amount": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2#MonetaryAmount"
+      },
+      "description": "EU funding for the MARine COastal BiOdiversity Long-term Observations (MARCO-BOLO) project under Horizon Europe programme call HORIZON-CL6-2022-BIODIV-01-01 (Biodiversity and ecosystem services). Total project budget is 8614089.50 EUR with EU contribution of 7255037.50 EUR. Project duration: 48 months (December 1, 2022 - November 30, 2026).",
+      "funder": {
+        "@id": "https://w3id.org/marco-bolo/mbo_97759e39-db22-40d1-bbb8-2b27adfaa825"
+      },
+      "name": "Horizon Europe Grant for MARCO-BOLO",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://doi.org/10.3030/101082021"
       }
     },
     {

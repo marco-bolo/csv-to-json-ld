@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
@@ -20,13 +20,13 @@
     "alternateName": "D7.7",
     "author": [
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_db79af1e-ffb4-4d09-8aed-936be8f333fd"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
       }
     ],
     "availableLanguage": "en",
@@ -46,11 +46,11 @@
       "https://doi.org/10.5281/zenodo.20765873"
     ],
     "keywords": [
-      "ODIS",
-      "data management plan",
       "interoperability",
+      "MBO WP7",
       "FAIR",
-      "MBO WP7"
+      "data management plan",
+      "ODIS"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO Deliverable D7.7 - Project Data Management Plan Update 1",
@@ -63,32 +63,11 @@
     },
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-07",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#csv",
       "@reverse": {
@@ -108,6 +87,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-08",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b83ba51-7dbb-4e12-9c06-71535318aef9-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

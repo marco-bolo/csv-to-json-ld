@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4ae49b7a-9a76-47a4-9751-13e01911e718#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_4ae49b7a-9a76-47a4-9751-13e01911e718"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=45",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_4ae49b7a-9a76-47a4-9751-13e01911e718",
       "@type": "Dataset",
       "about": {
@@ -36,8 +19,8 @@
       "conditionsOfAccess": "For queries and access to the dataset please contact Claire Widdicombe (clst@pml.ac.uk).",
       "description": "Phytoplankton time-series contains taxa-specific and total functional group abundance (cells mL-1) and biomass (mgC m-3) data.",
       "keywords": [
-        "Utermohl",
         "phytoplankton",
+        "Utermohl",
         "microscopy"
       ],
       "maintainer": {
@@ -54,6 +37,23 @@
       },
       "variableMeasured": {
         "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4ae49b7a-9a76-47a4-9751-13e01911e718#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4ae49b7a-9a76-47a4-9751-13e01911e718"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=45",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
       }
     }
   ]

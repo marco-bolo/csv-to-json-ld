@@ -5,14 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6f36af14-66db-47d7-921a-2fdfe445e58d",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 5.5 Contact",
-      "description": "Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases",
-      "email": "cristina.huertas@lifewatch.eu",
-      "name": "Cristina Huertas"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_6f36af14-66db-47d7-921a-2fdfe445e58d#input-metadata",
       "@type": [
         "DataDownload",
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6f36af14-66db-47d7-921a-2fdfe445e58d",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 5.5 Contact",
+      "description": "Contact for D5.5 - Online reproducible workflows for key analytical processes in the WP5 use cases",
+      "email": "cristina.huertas@lifewatch.eu",
+      "name": "Cristina Huertas"
     }
   ]
 }

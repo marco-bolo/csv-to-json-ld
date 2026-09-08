@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_44e2d3cc-aa41-45dd-b61e-04e70fed7e65",
-      "@type": "Person",
-      "familyName": "Le Traon",
-      "givenName": "Pierre Yves",
-      "identifier": "https://oceanexpert.org/expert/13339"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_44e2d3cc-aa41-45dd-b61e-04e70fed7e65#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_44e2d3cc-aa41-45dd-b61e-04e70fed7e65"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_44e2d3cc-aa41-45dd-b61e-04e70fed7e65",
+      "@type": "Person",
+      "familyName": "Le Traon",
+      "givenName": "Pierre Yves",
+      "identifier": "https://oceanexpert.org/expert/13339"
     }
   ]
 }

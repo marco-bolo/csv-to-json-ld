@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=59",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d",
       "@type": "CreateAction",
       "abstract": "Spatial mapping of Blue Carbon benefits",
@@ -28,23 +45,6 @@
       ],
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2e2a6f8a-9c2e-44ea-9619-4abc23b1409d"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=59",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

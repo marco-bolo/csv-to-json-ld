@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_846f5eda-60f5-44c7-9391-58b9a1687003",
-      "@type": "Person",
-      "familyName": "Holdsworth",
-      "givenName": "Neil",
-      "identifier": "https://oceanexpert.org/expert/16535"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_846f5eda-60f5-44c7-9391-58b9a1687003#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_846f5eda-60f5-44c7-9391-58b9a1687003",
+      "@type": "Person",
+      "familyName": "Holdsworth",
+      "givenName": "Neil",
+      "identifier": "https://oceanexpert.org/expert/16535"
     }
   ]
 }

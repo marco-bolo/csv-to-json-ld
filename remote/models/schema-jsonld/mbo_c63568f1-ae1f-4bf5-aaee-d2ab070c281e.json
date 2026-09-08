@@ -5,22 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e",
-      "@type": "CollegeOrUniversity",
-      "description": "University of Bucharest",
-      "identifier": "https://ror.org/02x2v6p15",
-      "keywords": "university, Romania",
-      "legalName": "Universitatea Din Bucuresti",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "UB"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e"
@@ -32,6 +20,18 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c63568f1-ae1f-4bf5-aaee-d2ab070c281e",
+      "@type": "CollegeOrUniversity",
+      "description": "University of Bucharest",
+      "identifier": "https://ror.org/02x2v6p15",
+      "keywords": "university, Romania",
+      "legalName": "Universitatea Din Bucuresti",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "UB"
     }
   ]
 }

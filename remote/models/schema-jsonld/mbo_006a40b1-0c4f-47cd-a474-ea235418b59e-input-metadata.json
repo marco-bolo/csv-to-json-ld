@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_006a40b1-0c4f-47cd-a474-ea235418b59e",
@@ -25,7 +25,7 @@
     },
     "text": "Zenodo record embargoed. Files are restricted; record metadata is public. Embargo lifts 2026-11-30. Part of MARCO-BOLO WP2 D2.2 deliverables."
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e17e1946ceb21884006c15d6f9d5dcecbb9523f6",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -65,7 +65,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-07",
+      "dateModified": "2026-09-08",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_006a40b1-0c4f-47cd-a474-ea235418b59e-input-metadata"
       },

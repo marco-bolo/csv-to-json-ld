@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_aa337ca4-52cb-4388-bc59-c80439079fcf",
-      "@type": "GeoShape",
-      "box": "54.96244 10.03003 67.08059 24.18972",
-      "description": "Bounding Box of Swedish Exclusive Economic Zone (MRGID:5694). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
-      "name": "Swedish EEZ Bounding Box"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_aa337ca4-52cb-4388-bc59-c80439079fcf#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_aa337ca4-52cb-4388-bc59-c80439079fcf"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_aa337ca4-52cb-4388-bc59-c80439079fcf",
+      "@type": "GeoShape",
+      "box": "54.96244 10.03003 67.08059 24.18972",
+      "description": "Bounding Box of Swedish Exclusive Economic Zone (MRGID:5694). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+      "name": "Swedish EEZ Bounding Box"
     }
   ]
 }

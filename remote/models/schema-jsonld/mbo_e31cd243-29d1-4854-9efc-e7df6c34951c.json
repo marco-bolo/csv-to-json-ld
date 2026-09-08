@@ -5,6 +5,12 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e31cd243-29d1-4854-9efc-e7df6c34951c",
+      "@type": "PropertyValue",
+      "description": "Essential Biodiversity Variable class covering phenological, morphological, physiological, reproductive and behavioral traits of species.",
+      "name": "Species Traits"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e31cd243-29d1-4854-9efc-e7df6c34951c#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e31cd243-29d1-4854-9efc-e7df6c34951c",
-      "@type": "PropertyValue",
-      "description": "Essential Biodiversity Variable class covering phenological, morphological, physiological, reproductive and behavioral traits of species.",
-      "name": "Species Traits"
     }
   ]
 }

@@ -5,22 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6",
-      "@type": "Person",
-      "contactPoint": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98"
-      },
-      "familyName": "Peredo Arce",
-      "givenName": "Andrés",
-      "identifier": [
-        "https://orcid.org/0000-0002-6353-9121",
-        "https://oceanexpert.org/expert/84963"
-      ],
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -35,6 +19,22 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_9bbf64ac-2520-486e-beef-3fb47c5708ff"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6",
+      "@type": "Person",
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98"
+      },
+      "familyName": "Peredo Arce",
+      "givenName": "Andrés",
+      "identifier": [
+        "https://orcid.org/0000-0002-6353-9121",
+        "https://oceanexpert.org/expert/84963"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
       }
     }
   ]

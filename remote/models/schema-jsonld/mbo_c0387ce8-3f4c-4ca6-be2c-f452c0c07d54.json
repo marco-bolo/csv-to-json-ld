@@ -5,19 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
-      },
-      "familyName": "Keuter",
-      "givenName": "Sabine",
-      "identifier": "https://orcid.org/0000-0001-8902-4882",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54#input-metadata",
       "@type": [
         "DataDownload",
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c0387ce8-3f4c-4ca6-be2c-f452c0c07d54",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      },
+      "familyName": "Keuter",
+      "givenName": "Sabine",
+      "identifier": "https://orcid.org/0000-0001-8902-4882",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_13ce813e-f498-4e44-bb45-9ba7a979002e"
       }
     }
   ]

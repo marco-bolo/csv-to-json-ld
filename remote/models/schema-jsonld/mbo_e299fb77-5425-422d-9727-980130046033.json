@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e299fb77-5425-422d-9727-980130046033#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e299fb77-5425-422d-9727-980130046033"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=138",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e299fb77-5425-422d-9727-980130046033",
       "@type": "Place",
       "description": "Sampling station in the Danube - Black Sea continuum",
@@ -17,23 +34,6 @@
         "@value": "29.649183"
       },
       "name": "SfGheorghe SG 01 transitional waters"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e299fb77-5425-422d-9727-980130046033#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e299fb77-5425-422d-9727-980130046033"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=138",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
-      }
     }
   ]
 }

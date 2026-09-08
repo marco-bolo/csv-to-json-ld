@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_05e02ba8-44ad-4c86-943a-480062fb0507",
-      "@type": "GeoShape",
-      "circle": "54.7133 8.28333333 7500",
-      "description": "Sampling area in the Elbe - North Sea continuum",
-      "name": "Hörnum / Vortrapptief - fish"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_05e02ba8-44ad-4c86-943a-480062fb0507#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_05e02ba8-44ad-4c86-943a-480062fb0507"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_05e02ba8-44ad-4c86-943a-480062fb0507",
+      "@type": "GeoShape",
+      "circle": "54.7133 8.28333333 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Hörnum / Vortrapptief - fish"
     }
   ]
 }

@@ -5,15 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_dc252371-81f3-4b64-86ce-a80d67496d82",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Deliverable 1.1 Contact",
-      "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
-      "email": "dble@mba.ac.uk",
-      "name": "Dan Lear"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_dc252371-81f3-4b64-86ce-a80d67496d82#input-metadata",
       "@type": [
         "DataDownload",
@@ -29,6 +20,15 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_dc252371-81f3-4b64-86ce-a80d67496d82",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Deliverable 1.1 Contact",
+      "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
+      "email": "dble@mba.ac.uk",
+      "name": "Dan Lear"
     }
   ]
 }
