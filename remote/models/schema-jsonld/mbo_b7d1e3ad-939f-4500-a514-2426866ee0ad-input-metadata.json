@@ -26,31 +26,11 @@
       "@value": "https://www.westernchannelobservatory.org.uk/about.php"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=45",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata#jsonld",
       "@reverse": {
@@ -71,6 +51,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=45",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b7d1e3ad-939f-4500-a514-2426866ee0ad-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

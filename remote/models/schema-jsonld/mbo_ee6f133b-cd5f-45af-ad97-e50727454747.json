@@ -5,10 +5,30 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747",
+      "@type": "CreateAction",
+      "abstract": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+      },
+      "name": "MARCO-BOLO Deliverable 1.2",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+        }
+      ],
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1c2e71ac-99fe-42bc-b8c2-3a143904eca3"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747"
@@ -19,26 +39,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ee6f133b-cd5f-45af-ad97-e50727454747",
-      "@type": "CreateAction",
-      "abstract": "Revised Project Data Management Plan, associated specifications, and supporting tools for data generation and exchange",
-      "agent": {
-        "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
-      },
-      "name": "MARCO-BOLO Deliverable 1.2",
-      "participant": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
-        }
-      ],
-      "result": {
-        "@id": "https://w3id.org/marco-bolo/mbo_1c2e71ac-99fe-42bc-b8c2-3a143904eca3"
       }
     }
   ]

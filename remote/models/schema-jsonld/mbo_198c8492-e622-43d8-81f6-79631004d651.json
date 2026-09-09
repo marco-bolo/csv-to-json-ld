@@ -5,18 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_198c8492-e622-43d8-81f6-79631004d651",
-      "@type": "GovernmentOrganization",
-      "description": "Scottish government marine directorate",
-      "identifier": "https://ror.org/02kh2f959",
-      "keywords": "government, marine management, Scotland, UK",
-      "legalName": "Marine Scotland",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "MS"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_198c8492-e622-43d8-81f6-79631004d651#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -32,6 +20,18 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_198c8492-e622-43d8-81f6-79631004d651",
+      "@type": "GovernmentOrganization",
+      "description": "Scottish government marine directorate",
+      "identifier": "https://ror.org/02kh2f959",
+      "keywords": "government, marine management, Scotland, UK",
+      "legalName": "Marine Scotland",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "MS"
     }
   ]
 }

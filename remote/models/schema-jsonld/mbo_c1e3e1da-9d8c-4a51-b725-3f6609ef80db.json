@@ -5,12 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db",
-      "@type": "Researcher",
-      "audienceType": "All personnel working on the MARCO-BOLO project.",
-      "name": "MARCO-BOLO"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db",
+      "@type": "Researcher",
+      "audienceType": "All personnel working on the MARCO-BOLO project.",
+      "name": "MARCO-BOLO"
     }
   ]
 }

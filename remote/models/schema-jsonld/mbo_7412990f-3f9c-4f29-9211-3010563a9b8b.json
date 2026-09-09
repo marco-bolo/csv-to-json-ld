@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b",
-      "@type": "SoftwareApplication",
-      "description": "To crop and convert the videos to mp4",
-      "schema:downloadUrl": {
-        "@type": "URL",
-        "@value": "https://ffmpeg.org/"
-      },
-      "name": "FMPEG software"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b",
+      "@type": "SoftwareApplication",
+      "description": "To crop and convert the videos to mp4",
+      "schema:downloadUrl": {
+        "@type": "URL",
+        "@value": "https://ffmpeg.org/"
+      },
+      "name": "FMPEG software"
     }
   ]
 }

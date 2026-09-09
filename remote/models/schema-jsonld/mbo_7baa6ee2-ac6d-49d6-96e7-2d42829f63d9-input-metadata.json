@@ -27,31 +27,11 @@
     },
     "text": "The dataset is divided into two: the nose cam videos from the ROV and the multi-camera videos attatched to the ROV. Then, from the multi-camera videos, 3D models of the seafloor are generated."
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000008#row=1",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata#jsonld",
       "@reverse": {
@@ -72,6 +52,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000008#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb",
+      "@type": "Thing",
+      "category": "hydrophone",
+      "description": "Long-term underwater sound recorder",
+      "identifier": "SOUNDTRAP ST600 HF-7560",
+      "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+      "name": "hydrophone"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb",
-      "@type": "Thing",
-      "category": "hydrophone",
-      "description": "Long-term underwater sound recorder",
-      "identifier": "SOUNDTRAP ST600 HF-7560",
-      "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
-      "name": "hydrophone"
     }
   ]
 }

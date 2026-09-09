@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837",
+      "@type": "CreateAction",
+      "abstract": "Filling in the people and organisations for task 3.3",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "name": "D3.3 filling in agents"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_72bfa197-4325-4663-b701-f96a796a4837",
-      "@type": "CreateAction",
-      "abstract": "Filling in the people and organisations for task 3.3",
-      "agent": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "name": "MARCO-BOLO Deliverable 3.3"
     }
   ]
 }

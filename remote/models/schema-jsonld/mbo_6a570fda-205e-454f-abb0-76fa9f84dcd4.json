@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
-      "@type": "Vehicle",
-      "additionalType": {
-        "@id": "https://vocab.nerc.ac.uk/collection/L06/current/48/"
-      },
-      "alternateName": "mooring",
-      "category": "mooring",
-      "name": "multipurpose seabed lander"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+      "@type": "Vehicle",
+      "additionalType": {
+        "@id": "https://vocab.nerc.ac.uk/collection/L06/current/48/"
+      },
+      "alternateName": "mooring",
+      "category": "mooring",
+      "name": "multipurpose seabed lander"
     }
   ]
 }

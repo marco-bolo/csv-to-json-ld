@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
@@ -35,10 +35,10 @@
       "name": "T5.1.2 running habitat model - common dolphin",
       "object": [
         {
-          "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
+          "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
         },
         {
-          "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+          "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
         },
         {
           "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"

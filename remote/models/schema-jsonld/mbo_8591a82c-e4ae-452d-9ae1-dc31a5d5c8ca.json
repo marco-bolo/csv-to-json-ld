@@ -5,18 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca",
-      "@type": "Thing",
-      "additionalType": {
-        "@id": "http://aims.fao.org/aos/agrovoc/c_2283ec53"
-      },
-      "category": "echosounder",
-      "description": "Muliti-beam echosounder",
-      "identifier": "WBAT-SPLITBEAM-ES70-18CD-SN280-ES200-7CD-SN205-284143",
-      "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
-      "name": "echosounder"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -32,6 +20,18 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8591a82c-e4ae-452d-9ae1-dc31a5d5c8ca",
+      "@type": "Thing",
+      "additionalType": {
+        "@id": "http://aims.fao.org/aos/agrovoc/c_2283ec53"
+      },
+      "category": "echosounder",
+      "description": "Muliti-beam echosounder",
+      "identifier": "WBAT-SPLITBEAM-ES70-18CD-SN280-ES200-7CD-SN205-284143",
+      "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+      "name": "echosounder"
     }
   ]
 }

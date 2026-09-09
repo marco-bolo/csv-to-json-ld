@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=6",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e",
       "@type": "DigitalDocument",
       "alternateName": "EMO BON Handbook Condensation, Protocol for Metadata and WaSOP 1 (Basic) sampling",
@@ -44,14 +27,31 @@
       "schema:url": [
         {
           "@type": "URL",
-          "@value": "https://doi.org/10.5281/zenodo.17590006"
+          "@value": "https://zenodo.org/records/17590006"
         },
         {
           "@type": "URL",
-          "@value": "https://zenodo.org/records/17590006"
+          "@value": "https://doi.org/10.5281/zenodo.17590006"
         }
       ],
       "https://w3id.org/marco-bolo/inProgressDate": "2026"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+      }
     }
   ]
 }

@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 2.2 Contact",
+      "description": "Contact for D2.2 - Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring",
+      "email": "mads.jensen@uit.no",
+      "name": "Mads Reinholdt Jensen"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61"
@@ -20,14 +28,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a1b9ec9c-0fd0-4630-980f-cae02357db61",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 2.2 Contact",
-      "description": "Contact for D2.2 - Set of databases and software/pipelines facilitating the implementation of eDNA-based monitoring",
-      "email": "mads.jensen@uit.no",
-      "name": "Mads Reinholdt Jensen"
     }
   ]
 }

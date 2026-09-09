@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d604f7e0-d77f-4702-9c68-237cbd3b3228",
+      "@type": "Person",
+      "familyName": "Gough",
+      "givenName": "Charlie",
+      "identifier": "https://oceanexpert.org/expert/58245"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_d604f7e0-d77f-4702-9c68-237cbd3b3228#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d604f7e0-d77f-4702-9c68-237cbd3b3228"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d604f7e0-d77f-4702-9c68-237cbd3b3228",
-      "@type": "Person",
-      "familyName": "Gough",
-      "givenName": "Charlie",
-      "identifier": "https://oceanexpert.org/expert/58245"
     }
   ]
 }

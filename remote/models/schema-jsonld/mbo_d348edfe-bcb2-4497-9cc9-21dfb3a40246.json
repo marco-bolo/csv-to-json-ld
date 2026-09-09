@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=94",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246",
       "@type": "CreateAction",
       "abstract": "Data analysis which were performed for HORIZON project MARCO-BOLO Deliverable D3.3 of Task 3.3.",
@@ -38,17 +21,34 @@
       },
       "participant": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+          "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_c0636979-13de-48b2-ab77-91605cb4410b"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
+          "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
         }
       ],
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_055324d1-ce20-49e1-8abc-67310dff0d4f"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=94",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

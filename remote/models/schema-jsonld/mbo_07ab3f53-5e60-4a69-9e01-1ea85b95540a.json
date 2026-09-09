@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Deliverable 4.1 Contact",
+      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+      "email": "carlota.muniz@vliz.be",
+      "name": "Carlota Muniz"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Deliverable 4.1 Contact",
-      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
-      "email": "carlota.muniz@vliz.be",
-      "name": "Carlota Muniz"
     }
   ]
 }

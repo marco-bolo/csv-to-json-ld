@@ -5,6 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "familyName": "Mercogliano",
+      "givenName": "Paola",
+      "identifier": "https://orcid.org/0000-0001-7236-010X",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a8a50618-3349-4077-8c12-2af66817ca9a"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,19 +32,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c96d7e63-0c64-444c-b788-13a811b4df10",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-      },
-      "familyName": "Mercogliano",
-      "givenName": "Paola",
-      "identifier": "https://orcid.org/0000-0001-7236-010X",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a8a50618-3349-4077-8c12-2af66817ca9a"
       }
     }
   ]

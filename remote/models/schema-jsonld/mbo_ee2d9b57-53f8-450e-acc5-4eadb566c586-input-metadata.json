@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586",
@@ -30,12 +30,12 @@
     "description": "The Data Management Plan is a mandatory component of any Horizon Europe project providing information about: Guiding principles around data management following EC Horizon Europe requirements; How to make MBO data FAIR: Findable, Accessible, Interoperable and Re-usable; Data management cost and allocation of resources; Data security and ethics, and confidentiality.<br>\\nMARCO-BOLO is a project built around data with the objective to make transformative change in the use of biodiversity data in decision making. Therefore MBO aims to deliver a globally relevant freshwater and marine biodiversity Data Management Plan defined with a Community of Practice of stakeholders from different sectors (industry, policy, research, society) and from different ends of the data pathway (data collector to data end-users). MBO co-design Data Management Plans (D1.1 and D1.2) are deliverables due at 24 and 36 month of the project. The present first iteration of the Data Management Plan is only an overview of MBO principles about freshwater and marine biodiversity data that will be refined and detailed in D1.1 and D1.2. The DMP is a live document that will be reviewed and updated periodically.",
     "identifier": "https://doi.org/10.5281/zenodo.8208410",
     "keywords": [
-      "Horizon Europe",
-      "Global Ocean Observing System",
-      "data management plan",
-      "biodiversity data",
       "United Nations Decade of Ocean Science for Sustainable Development",
-      "essential ocean variables"
+      "essential ocean variables",
+      "Global Ocean Observing System",
+      "Horizon Europe",
+      "biodiversity data",
+      "data management plan"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "maintainer": {
@@ -54,31 +54,11 @@
     },
     "version": "v1.0.0"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=1",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata#jsonld",
       "@reverse": {
@@ -99,6 +79,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

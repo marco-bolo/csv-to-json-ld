@@ -12,10 +12,10 @@
       },
       "audience": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+          "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+          "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
@@ -23,22 +23,22 @@
       ],
       "author": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
-        },
-        {
           "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_43683843-9d03-42bb-b3c0-181ca9a78395"
@@ -69,14 +69,14 @@
       "identifier": "https://doi.org/10.5281/zenodo.17670287",
       "isBasedOn": "https://doi.org/10.5281/zenodo.17670154",
       "keywords": [
+        "NEREA",
         "ddPCR",
-        "LTER-MareChiara",
-        "eDNA",
-        "anchovy",
-        "Engraulis encrasicolus",
         "marine biodiversity",
+        "LTER-MareChiara",
         "Gulf of Naples",
-        "NEREA"
+        "Engraulis encrasicolus",
+        "anchovy",
+        "eDNA"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
       "maintainer": {
@@ -92,17 +92,32 @@
       "subjectOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata",
         "@type": [
-          "https://w3id.org/marco-bolo/InputMetadataDescription",
-          "Dataset"
+          "Dataset",
+          "https://w3id.org/marco-bolo/InputMetadataDescription"
         ],
         "about": {
           "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
         },
-        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
         },
         "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=31",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#jsonld",
             "@type": "DataDownload",
@@ -118,21 +133,6 @@
               "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
             },
             "encodingFormat": "application/ld+json"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#csv",
-            "@type": "DataDownload",
-            "about": {
-              "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
-            },
-            "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=31",
-            "creator": {
-              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-            },
-            "encodesCreativeWork": {
-              "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
-            },
-            "encodingFormat": "text/csv"
           }
         ]
       },
@@ -154,8 +154,8 @@
         }
       },
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "Dataset"
+        "Dataset",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032",
@@ -165,10 +165,10 @@
         },
         "audience": [
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+            "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+            "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
@@ -176,22 +176,22 @@
         ],
         "author": [
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
-          },
-          {
             "@id": "https://w3id.org/marco-bolo/mbo_4969ef81-abd4-439a-a1fb-a4dba92a7e6a"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
           },
           {
+            "@id": "https://w3id.org/marco-bolo/mbo_628eb8bd-5755-451d-89e5-9a69a4bd98dd"
+          },
+          {
             "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_b0815a6f-4d21-438b-a8b5-cd03aff919cc"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_43683843-9d03-42bb-b3c0-181ca9a78395"
@@ -225,14 +225,14 @@
         "identifier": "https://doi.org/10.5281/zenodo.17670287",
         "isBasedOn": "https://doi.org/10.5281/zenodo.17670154",
         "keywords": [
+          "NEREA",
           "ddPCR",
-          "LTER-MareChiara",
-          "eDNA",
-          "anchovy",
-          "Engraulis encrasicolus",
           "marine biodiversity",
+          "LTER-MareChiara",
           "Gulf of Naples",
-          "NEREA"
+          "Engraulis encrasicolus",
+          "anchovy",
+          "eDNA"
         ],
         "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
         "maintainer": {
@@ -258,11 +258,31 @@
           "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
         }
       },
-      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
       "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#csv",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=31",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+          },
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
+          },
+          "encodingFormat": "text/csv"
+        },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#jsonld",
           "@reverse": {
@@ -283,26 +303,6 @@
             "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
           },
           "encodingFormat": "application/ld+json"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata#csv",
-          "@reverse": {
-            "result": {
-              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-            }
-          },
-          "@type": "DataDownload",
-          "about": {
-            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032"
-          },
-          "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=31",
-          "creator": {
-            "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-          },
-          "encodesCreativeWork": {
-            "@id": "https://w3id.org/marco-bolo/mbo_9a97f72a-1b18-462a-a333-bc40a0416032-input-metadata"
-          },
-          "encodingFormat": "text/csv"
         }
       ]
     }

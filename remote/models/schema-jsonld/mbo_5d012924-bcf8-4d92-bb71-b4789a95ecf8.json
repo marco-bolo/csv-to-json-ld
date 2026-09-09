@@ -5,6 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Boulanger",
+      "givenName": "Emilie",
+      "identifier": "https://orcid.org/0000-0002-6446-7342",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,19 +32,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5d012924-bcf8-4d92-bb71-b4789a95ecf8",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-      },
-      "familyName": "Boulanger",
-      "givenName": "Emilie",
-      "identifier": "https://orcid.org/0000-0002-6446-7342",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
       }
     }
   ]

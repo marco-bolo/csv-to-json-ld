@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
@@ -23,27 +23,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+        "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+        "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
       }
     ],
     "author": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
       }
     ],
     "availableLanguage": "en",
@@ -56,18 +56,18 @@
     "schema:datePublished": "2025-05-29",
     "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
     "identifier": [
-      "doi:10.5281/zenodo.17537386",
-      "Deliverable D1.1"
+      "Deliverable D1.1",
+      "doi:10.5281/zenodo.17537386"
     ],
     "keywords": [
-      "metadata",
-      "linked open data",
-      "FAIR",
-      "persistent identifiers",
-      "EBV",
-      "data management",
       "marine biodiversity",
+      "metadata",
+      "persistent identifiers",
+      "data management",
+      "FAIR",
+      "EBV",
       "EOV",
+      "linked open data",
       "JSON-LD"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -78,23 +78,43 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D1.1_29.05.2025.pdf"
-      },
-      {
-        "@type": "URL",
         "@value": "https://doi.org/10.5281/zenodo.17537386"
       },
       {
         "@type": "URL",
         "@value": "https://zenodo.org/records/17537386"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D1.1_29.05.2025.pdf"
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=11",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
+      },
+      "encodingFormat": "text/csv"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#jsonld",
       "@reverse": {
@@ -115,26 +135,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
       },
       "encodingFormat": "application/ld+json"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=11",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
-      },
-      "encodingFormat": "text/csv"
     }
   ]
 }

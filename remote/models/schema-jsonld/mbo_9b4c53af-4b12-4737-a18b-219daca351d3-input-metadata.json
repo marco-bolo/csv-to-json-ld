@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3",
@@ -32,14 +32,14 @@
     "schema:datePublished": "2023-05-31",
     "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
     "identifier": [
-      "doi:10.5281/zenodo.17527033",
-      "Deliverable D7.4"
+      "Deliverable D7.4",
+      "doi:10.5281/zenodo.17527033"
     ],
     "keywords": [
-      "exploitation",
       "MBO WP7",
       "dissemination",
       "communication",
+      "exploitation",
       "stakeholder engagement"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -50,7 +50,7 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
+        "@value": "https://doi.org/10.5281/zenodo.17527033"
       },
       {
         "@type": "URL",
@@ -58,36 +58,16 @@
       },
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.17527033"
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
       }
     ],
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=26",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata#jsonld",
       "@reverse": {
@@ -108,6 +88,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=26",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

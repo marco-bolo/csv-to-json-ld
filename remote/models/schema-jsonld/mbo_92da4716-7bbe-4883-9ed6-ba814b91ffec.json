@@ -5,6 +5,14 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_92da4716-7bbe-4883-9ed6-ba814b91ffec",
+      "@type": "PropertyValue",
+      "name": "Community species richness",
+      "propertyID": {
+        "@id": "http://purl.obolibrary.org/obo/PCO_0000010"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_92da4716-7bbe-4883-9ed6-ba814b91ffec#input-metadata",
       "@type": [
         "DataDownload",
@@ -19,14 +27,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_92da4716-7bbe-4883-9ed6-ba814b91ffec",
-      "@type": "PropertyValue",
-      "name": "Community species richness",
-      "propertyID": {
-        "@id": "http://purl.obolibrary.org/obo/PCO_0000010"
       }
     }
   ]

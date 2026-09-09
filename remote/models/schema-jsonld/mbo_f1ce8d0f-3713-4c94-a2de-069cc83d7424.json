@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_f1ce8d0f-3713-4c94-a2de-069cc83d7424",
+      "@type": "Person",
+      "familyName": "Silva del Pozo",
+      "givenName": "Michelle",
+      "identifier": "https://oceanexpert.org/expert/62286"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_f1ce8d0f-3713-4c94-a2de-069cc83d7424#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_f1ce8d0f-3713-4c94-a2de-069cc83d7424"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f1ce8d0f-3713-4c94-a2de-069cc83d7424",
-      "@type": "Person",
-      "familyName": "Silva del Pozo",
-      "givenName": "Michelle",
-      "identifier": "https://oceanexpert.org/expert/62286"
     }
   ]
 }

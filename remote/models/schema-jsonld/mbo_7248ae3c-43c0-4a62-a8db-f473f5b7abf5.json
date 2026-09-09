@@ -5,20 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7248ae3c-43c0-4a62-a8db-f473f5b7abf5",
-      "@type": "Place",
-      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "36.8182"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-6.34721"
-      },
-      "name": "Bonanza / 25PSU"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_7248ae3c-43c0-4a62-a8db-f473f5b7abf5#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -34,6 +20,20 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7248ae3c-43c0-4a62-a8db-f473f5b7abf5",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.8182"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.34721"
+      },
+      "name": "Bonanza / 25PSU"
     }
   ]
 }

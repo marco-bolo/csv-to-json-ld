@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33",
+      "@type": "Person",
+      "familyName": "Timmerman",
+      "givenName": "Orlando",
+      "identifier": "https://orcid.org/0009-0008-6204-4689",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33#input-metadata",
       "@type": [
         "DataDownload",
@@ -19,16 +29,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_eacad2f7-4d42-4d52-90f5-29fec649cc33",
-      "@type": "Person",
-      "familyName": "Timmerman",
-      "givenName": "Orlando",
-      "identifier": "https://orcid.org/0009-0008-6204-4689",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38"
       }
     }
   ]
