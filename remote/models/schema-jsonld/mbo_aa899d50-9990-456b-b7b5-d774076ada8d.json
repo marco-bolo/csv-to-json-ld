@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_aa899d50-9990-456b-b7b5-d774076ada8d#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_aa899d50-9990-456b-b7b5-d774076ada8d"
@@ -40,10 +40,10 @@
       },
       "variableMeasured": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20"
+          "@id": "https://w3id.org/marco-bolo/mbo_214a2147-d579-414c-87a7-e46d6f2d097e"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_214a2147-d579-414c-87a7-e46d6f2d097e"
+          "@id": "https://w3id.org/marco-bolo/mbo_ecdd5d1d-e08e-4952-9a24-17418a732f20"
         }
       ]
     }

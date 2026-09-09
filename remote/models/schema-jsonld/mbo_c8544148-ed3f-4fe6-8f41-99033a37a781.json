@@ -5,12 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
-      "@type": "PropertyValue",
-      "description": "Ecosystem volume estimation by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
-      "name": "Ecosystem volume"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781#input-metadata",
       "@type": [
         "DataDownload",
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
+      "@type": "PropertyValue",
+      "description": "Ecosystem volume estimation by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+      "name": "Ecosystem volume"
     }
   ]
 }

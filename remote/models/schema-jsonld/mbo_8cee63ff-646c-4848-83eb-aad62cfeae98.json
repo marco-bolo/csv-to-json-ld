@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98",
+      "@type": "ContactPoint",
+      "contactType": "Task 5.1.1 Contact",
+      "description": "Detection and analyses of biodiversity trends",
+      "name": "Andres Peredo Arce"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8cee63ff-646c-4848-83eb-aad62cfeae98",
-      "@type": "ContactPoint",
-      "contactType": "Task 5.1.1 Contact",
-      "description": "Detection and analyses of biodiversity trends",
-      "name": "Andres Peredo Arce"
     }
   ]
 }

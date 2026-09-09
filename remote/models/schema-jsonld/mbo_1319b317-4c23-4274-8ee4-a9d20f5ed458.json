@@ -5,6 +5,12 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458",
+      "@type": "Researcher",
+      "audienceType": "The global environmental DNA (eDNA) research community.",
+      "name": "environment DNA (eDNA) Research Community"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458",
-      "@type": "Researcher",
-      "audienceType": "The global environmental DNA (eDNA) research community.",
-      "name": "environment DNA (eDNA) Research Community"
     }
   ]
 }

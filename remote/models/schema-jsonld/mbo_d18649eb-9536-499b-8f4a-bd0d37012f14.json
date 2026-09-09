@@ -14,6 +14,22 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
+      "@type": "MonetaryGrant",
+      "amount": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount"
+      },
+      "description": "UK funding for National Oceanography Centre (NOC) participation in MARCO-BOLO project under UKRI's Horizon Europe Guarantee scheme.",
+      "funder": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
+      },
+      "name": "UKRI Horizon Europe Guarantee Grant No. 10048178",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://gtr.ukri.org/projects?ref=10063994"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -28,22 +44,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
-      "@type": "MonetaryGrant",
-      "amount": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount"
-      },
-      "description": "UK funding for National Oceanography Centre (NOC) participation in MARCO-BOLO project under UKRI's Horizon Europe Guarantee scheme.",
-      "funder": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
-      },
-      "name": "UKRI Horizon Europe Guarantee Grant No. 10048178",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://gtr.ukri.org/projects?ref=10063994"
       }
     }
   ]

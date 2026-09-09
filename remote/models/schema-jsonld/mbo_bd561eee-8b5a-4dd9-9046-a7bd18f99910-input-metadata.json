@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_bd561eee-8b5a-4dd9-9046-a7bd18f99910",
@@ -26,7 +26,7 @@
       "@value": "https://spdx.org/licenses/CC0-1.0"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
   },

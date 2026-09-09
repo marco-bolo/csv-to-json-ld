@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "148700.0"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b",
       "@type": "MonetaryGrant",
       "amount": {
@@ -23,8 +32,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b"
@@ -35,15 +44,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b#MonetaryAmount",
-      "@type": "MonetaryAmount",
-      "currency": "GBP",
-      "value": {
-        "@type": "xsd:decimal",
-        "@value": "148700.0"
       }
     }
   ]

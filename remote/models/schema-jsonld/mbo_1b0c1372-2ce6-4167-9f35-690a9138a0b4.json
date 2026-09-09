@@ -5,10 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_15043",
+      "name": "Turbidity",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NTU"
+      },
+      "unitText": "NTU"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4"
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4",
-      "@type": "PropertyValue",
-      "description": "http://aims.fao.org/aos/agrovoc/c_15043",
-      "name": "Turbidity",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NTU"
-      },
-      "unitText": "NTU"
     }
   ]
 }

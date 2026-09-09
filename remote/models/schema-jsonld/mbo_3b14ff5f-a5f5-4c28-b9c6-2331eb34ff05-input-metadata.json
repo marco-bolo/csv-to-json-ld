@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_3b14ff5f-a5f5-4c28-b9c6-2331eb34ff05",
@@ -25,7 +25,7 @@
     },
     "text": "Standard request to hold off sharing of sequences to avoid being scooped."
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },

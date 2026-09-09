@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
@@ -32,11 +32,11 @@
     "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
     "identifier": "doi:10.5281/zenodo.17236790",
     "keywords": [
-      "Community of Practice",
-      "stakeholder engagement",
       "MBO WP6",
+      "presentation slides",
+      "Community of Practice",
       "co-design workshop",
-      "presentation slides"
+      "stakeholder engagement"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
@@ -46,39 +46,19 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.17236790"
+        "@value": "https://zenodo.org/records/17236790"
       },
       {
         "@type": "URL",
-        "@value": "https://zenodo.org/records/17236790"
+        "@value": "https://doi.org/10.5281/zenodo.17236790"
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/eb8e0fe12b095015e5cb974555520d5303491c67",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=31",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata#jsonld",
       "@reverse": {
@@ -99,6 +79,26 @@
         "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=31",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

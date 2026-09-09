@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=10",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c",
       "@type": "CreateAction",
       "abstract": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
@@ -39,6 +22,23 @@
       ],
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=7",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

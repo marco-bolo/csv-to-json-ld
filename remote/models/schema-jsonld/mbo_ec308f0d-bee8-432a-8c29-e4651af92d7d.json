@@ -5,10 +5,25 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d",
+      "@type": "Person",
+      "affiliation": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+        }
+      ],
+      "familyName": "Eliso",
+      "givenName": "Maria Concetta",
+      "identifier": "https://orcid.org/0000-0002-5914-8312"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
@@ -20,21 +35,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d",
-      "@type": "Person",
-      "affiliation": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-        }
-      ],
-      "familyName": "Eliso",
-      "givenName": "Maria Concetta",
-      "identifier": "https://orcid.org/0000-0002-5914-8312"
     }
   ]
 }

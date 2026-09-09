@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=8",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac",
       "@type": "HowToStep",
       "abstract": "Collecting and processing samples destined for eDNA",
@@ -20,23 +37,6 @@
       "position": {
         "@type": "xsd:int",
         "@value": "1"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=8",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
       }
     }
   ]

@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_14f1ae5b-a7ec-4694-8c73-594e7f572758",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P35/current/EPC00002/",
+      "name": "Oxygen concentration",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_14f1ae5b-a7ec-4694-8c73-594e7f572758#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_14f1ae5b-a7ec-4694-8c73-594e7f572758",
-      "@type": "PropertyValue",
-      "description": "https://vocab.nerc.ac.uk/collection/P35/current/EPC00002/",
-      "name": "Oxygen concentration",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
-      },
-      "unitText": "mg/l"
     }
   ]
 }

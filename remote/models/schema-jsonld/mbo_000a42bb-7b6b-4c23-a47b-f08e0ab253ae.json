@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae",
+      "@type": "Person",
+      "familyName": "Tijssens",
+      "givenName": "Megan",
+      "identifier": "https://oceanexpert.org/expert/60462"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae",
-      "@type": "Person",
-      "familyName": "Tijssens",
-      "givenName": "Megan",
-      "identifier": "https://oceanexpert.org/expert/60462"
     }
   ]
 }
