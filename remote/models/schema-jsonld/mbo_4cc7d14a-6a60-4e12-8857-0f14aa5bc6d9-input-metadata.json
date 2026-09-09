@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9",
@@ -25,14 +25,14 @@
     "familyName": "Not",
     "givenName": "Fabrice",
     "identifier": [
-      "https://oceanexpert.org/expert/58571",
-      "https://orcid.org/0000-0002-9342-195X"
+      "https://orcid.org/0000-0002-9342-195X",
+      "https://oceanexpert.org/expert/58571"
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
   },
@@ -72,7 +72,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-08",
+      "dateModified": "2026-09-09",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9-input-metadata"
       },

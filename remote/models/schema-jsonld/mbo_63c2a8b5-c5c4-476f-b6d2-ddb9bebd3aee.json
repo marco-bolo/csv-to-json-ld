@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000007#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
       "@type": "DataDownload",
       "audience": [
@@ -27,8 +44,8 @@
       },
       "schema:dateCreated": "2025-11-21",
       "schema:dateModified": [
-        "2026-06-22",
-        "2026-01-15"
+        "2026-01-15",
+        "2026-06-22"
       ],
       "schema:datePublished": "2026-11-30",
       "description": "Excel file containing quantitative measurements of E. encrasicolus mitochondrial DNA in seawater samples analyzed via ddPCR.",
@@ -46,23 +63,6 @@
         "@value": "https://zenodo.org/records/17670287"
       },
       "version": "1.0.0"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000007#row=2",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-      }
     }
   ]
 }

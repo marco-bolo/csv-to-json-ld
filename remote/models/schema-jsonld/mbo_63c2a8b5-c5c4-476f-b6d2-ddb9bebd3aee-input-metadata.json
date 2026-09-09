@@ -10,21 +10,21 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
     "@type": "DataDownload",
     "audience": [
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
       }
     ],
     "contentSize": "11KB",
@@ -36,8 +36,8 @@
     },
     "schema:dateCreated": "2025-11-21",
     "schema:dateModified": [
-      "2026-01-15",
-      "2026-06-22"
+      "2026-06-22",
+      "2026-01-15"
     ],
     "schema:datePublished": "2026-11-30",
     "description": "Excel file containing quantitative measurements of E. encrasicolus mitochondrial DNA in seawater samples analyzed via ddPCR.",
@@ -59,11 +59,32 @@
     },
     "version": "1.0.0"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata#csv",
       "@reverse": {
@@ -83,27 +104,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata"
       },
       "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63c2a8b5-c5c4-476f-b6d2-ddb9bebd3aee-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
     }
   ]
 }

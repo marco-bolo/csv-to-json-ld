@@ -5,16 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c",
-      "@type": "Person",
-      "contactPoint": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9eb43660-5563-43bb-a694-e35513253ff7"
-      },
-      "familyName": "Arvanitidis",
-      "givenName": "Christos",
-      "identifier": "https://oceanexpert.org/expert/24333"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c#input-metadata",
       "@type": [
         "DataDownload",
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c",
+      "@type": "Person",
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9eb43660-5563-43bb-a694-e35513253ff7"
+      },
+      "familyName": "Arvanitidis",
+      "givenName": "Christos",
+      "identifier": "https://oceanexpert.org/expert/24333"
     }
   ]
 }

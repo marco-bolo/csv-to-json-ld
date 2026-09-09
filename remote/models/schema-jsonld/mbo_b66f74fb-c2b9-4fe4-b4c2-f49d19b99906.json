@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b66f74fb-c2b9-4fe4-b4c2-f49d19b99906",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.11666667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.855"
+      },
+      "name": "Büsum"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b66f74fb-c2b9-4fe4-b4c2-f49d19b99906#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b66f74fb-c2b9-4fe4-b4c2-f49d19b99906",
-      "@type": "Place",
-      "description": "Sampling station in the Elbe - North Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "54.11666667"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "8.855"
-      },
-      "name": "Büsum"
     }
   ]
 }

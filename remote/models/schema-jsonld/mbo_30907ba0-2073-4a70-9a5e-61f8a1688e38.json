@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38",
+      "@type": "CollegeOrUniversity",
+      "name": "University of Cambridge",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://www.cam.ac.uk/"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38"
@@ -19,15 +28,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_30907ba0-2073-4a70-9a5e-61f8a1688e38",
-      "@type": "CollegeOrUniversity",
-      "name": "University of Cambridge",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://www.cam.ac.uk/"
       }
     }
   ]

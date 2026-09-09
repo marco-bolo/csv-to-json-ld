@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
@@ -32,11 +32,11 @@
     "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
     "identifier": "doi:10.5281/zenodo.17236790",
     "keywords": [
-      "presentation slides",
-      "co-design workshop",
+      "MBO WP6",
       "Community of Practice",
+      "co-design workshop",
       "stakeholder engagement",
-      "MBO WP6"
+      "presentation slides"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
@@ -54,7 +54,7 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -74,7 +74,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-08",
+      "dateModified": "2026-09-09",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
       },

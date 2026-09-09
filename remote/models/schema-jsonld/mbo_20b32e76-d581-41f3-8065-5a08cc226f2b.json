@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_20b32e76-d581-41f3-8065-5a08cc226f2b",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Hildebrand",
+      "givenName": "Falk"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_20b32e76-d581-41f3-8065-5a08cc226f2b#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_20b32e76-d581-41f3-8065-5a08cc226f2b"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_20b32e76-d581-41f3-8065-5a08cc226f2b",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-      },
-      "familyName": "Hildebrand",
-      "givenName": "Falk"
     }
   ]
 }

@@ -5,19 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
-      "@type": "SoftwareSourceCode",
-      "schema:codeRepository": {
-        "@type": "URL",
-        "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
-      },
-      "name": "Blue ROV multi cam reconstruct"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699"
@@ -29,6 +20,15 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_99fcf646-b410-4ced-878b-cc9e71ba1699",
+      "@type": "SoftwareSourceCode",
+      "schema:codeRepository": {
+        "@type": "URL",
+        "@value": "https://gitlab.gbar.dtu.dk/jalfe/3d-reconstruction-bluerov-multi-cam"
+      },
+      "name": "Blue ROV multi cam reconstruct"
     }
   ]
 }

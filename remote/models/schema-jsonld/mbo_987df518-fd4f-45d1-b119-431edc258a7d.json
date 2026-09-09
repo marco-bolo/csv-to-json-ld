@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_987df518-fd4f-45d1-b119-431edc258a7d",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.88043371"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.16882372"
+      },
+      "name": "Brunsbüttel"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_987df518-fd4f-45d1-b119-431edc258a7d#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_987df518-fd4f-45d1-b119-431edc258a7d",
-      "@type": "Place",
-      "description": "Sampling station in the Elbe - North Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "53.88043371"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "9.16882372"
-      },
-      "name": "Brunsbüttel"
     }
   ]
 }

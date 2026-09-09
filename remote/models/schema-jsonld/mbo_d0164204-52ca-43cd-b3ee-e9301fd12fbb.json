@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=97",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_ac4b3c22",
+      "name": "Total P",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
+    }
+  ]
+}

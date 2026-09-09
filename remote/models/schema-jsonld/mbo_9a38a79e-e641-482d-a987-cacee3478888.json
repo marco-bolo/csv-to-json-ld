@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9a38a79e-e641-482d-a987-cacee3478888",
-      "@type": "Person",
-      "familyName": "Fernández",
-      "givenName": "Vicente",
-      "identifier": "https://oceanexpert.org/expert/28159"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9a38a79e-e641-482d-a987-cacee3478888#input-metadata",
       "@type": [
         "DataDownload",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9a38a79e-e641-482d-a987-cacee3478888",
+      "@type": "Person",
+      "familyName": "Fernández",
+      "givenName": "Vicente",
+      "identifier": "https://oceanexpert.org/expert/28159"
     }
   ]
 }

@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
@@ -26,16 +26,16 @@
         "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b"
+        "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
+        "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b"
       }
     ],
     "availableLanguage": "en",
@@ -49,14 +49,14 @@
     "schema:datePublished": "2025-10-17",
     "description": "Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
     "identifier": [
-      "doi:10.5281/zenodo.20787356",
-      "Deliverable D5.3"
+      "Deliverable D5.3",
+      "doi:10.5281/zenodo.20787356"
     ],
     "keywords": [
-      "seagrass",
-      "remote sensing",
       "blue carbon",
+      "remote sensing",
       "coastal ecosystems",
+      "seagrass",
       "MBO WP5"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -67,7 +67,7 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/11/MBO_D5.3_Oct-2025.pdf"
+        "@value": "https://doi.org/10.5281/zenodo.20787356"
       },
       {
         "@type": "URL",
@@ -75,16 +75,37 @@
       },
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.20787356"
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/11/MBO_D5.3_Oct-2025.pdf"
       }
     ],
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#csv",
       "@reverse": {
@@ -104,27 +125,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
       },
       "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
     }
   ]
 }

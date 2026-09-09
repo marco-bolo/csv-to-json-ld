@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_e3953413-e33b-438a-a643-1d5635a68883",
@@ -23,22 +23,19 @@
     "name": "WP5 T5.1.1 Data Modeling",
     "participant": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_f8225168-81e0-4f4d-9377-7fb42225ee75"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
       },
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_568459bd-0125-4af1-8ab7-344dfec4000c"
@@ -47,17 +44,20 @@
         "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_a01ffd6c-4b98-496b-bf74-524aa979fe88"
+        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
       }
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_e3953413-e33b-438a-a643-1d5635a68883-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -77,7 +77,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-08",
+      "dateModified": "2026-09-09",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_e3953413-e33b-438a-a643-1d5635a68883-input-metadata"
       },

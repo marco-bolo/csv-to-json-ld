@@ -10,15 +10,15 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
     "@type": "ContactPoint",
     "availableLanguage": [
-      "nl",
-      "en"
+      "en",
+      "nl"
     ],
     "contactType": "Task 5.2 Contact",
     "description": "Application of integrative approaches on established biological indicators",
@@ -28,32 +28,11 @@
       "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata#csv",
       "@reverse": {
@@ -73,6 +52,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d49886c8-aed0-45c7-b441-255a76c568b6-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

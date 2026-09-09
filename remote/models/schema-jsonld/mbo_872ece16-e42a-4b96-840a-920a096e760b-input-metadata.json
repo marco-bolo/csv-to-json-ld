@@ -26,42 +26,21 @@
     "name": "Multi-sensor biodiversity observations: eDNA from seabed",
     "participant": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7"
+        "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
+        "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7"
       }
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata#csv",
       "@reverse": {
@@ -81,6 +60,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

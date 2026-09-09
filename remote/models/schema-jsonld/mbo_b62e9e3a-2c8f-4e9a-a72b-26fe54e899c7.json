@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=10",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7",
       "@type": "HowToStep",
       "abstract": "The T5.1.2 habitat suitabilty model was copied to the LW GitLab and adapted to be run within the LifeWatch VRE",
@@ -20,23 +37,6 @@
       "position": {
         "@type": "xsd:int",
         "@value": "1"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b62e9e3a-2c8f-4e9a-a72b-26fe54e899c7"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=10",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_327b04b9-13c0-48fc-a107-9274d3bcb7fc"
       }
     }
   ]

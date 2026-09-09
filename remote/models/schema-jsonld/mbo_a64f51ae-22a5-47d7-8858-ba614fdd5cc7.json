@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a64f51ae-22a5-47d7-8858-ba614fdd5cc7",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 3.2 Contact",
+      "description": "Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a64f51ae-22a5-47d7-8858-ba614fdd5cc7#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a64f51ae-22a5-47d7-8858-ba614fdd5cc7"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_19cd9c6d-5654-4cce-91b9-acb102faf15d"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a64f51ae-22a5-47d7-8858-ba614fdd5cc7",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 3.2 Contact",
-      "description": "Contact for D3.1 - Meta-analysis of current marine, costal, freshwater and terrestrial biodiversity observation variables, methods/protocols and tools",
-      "name": "TBD"
     }
   ]
 }

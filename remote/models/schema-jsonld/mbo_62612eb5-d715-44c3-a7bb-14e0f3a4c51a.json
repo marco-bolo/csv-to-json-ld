@@ -5,10 +5,22 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a",
+      "@type": "ContactPoint",
+      "availableLanguage": [
+        "nl",
+        "en"
+      ],
+      "contactType": "FAIR data management",
+      "description": "FAIR data manager",
+      "email": "katrina.exter@vliz.be",
+      "name": "Katrina Exter"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a"
@@ -20,18 +32,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a",
-      "@type": "ContactPoint",
-      "availableLanguage": [
-        "en",
-        "nl"
-      ],
-      "contactType": "FAIR data management",
-      "description": "FAIR data manager",
-      "email": "katrina.exter@vliz.be",
-      "name": "Katrina Exter"
     }
   ]
 }

@@ -10,32 +10,18 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee",
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Genus",
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#SpecificEpithet",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Status",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Order",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
         }
       },
       {
@@ -46,24 +32,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#VerbatimTaxonRank",
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Status",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Family",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#ScientificName",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
         }
       },
       {
@@ -74,10 +46,38 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#SpecificEpithet",
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Order",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Genus",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#VerbatimTaxonRank",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#ScientificName",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Family",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
         }
       }
     ],
@@ -86,11 +86,32 @@
       "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata#csv",
       "@reverse": {
@@ -110,27 +131,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata"
       },
       "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
     }
   ]
 }

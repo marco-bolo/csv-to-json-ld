@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ccafc315-79f2-454b-b9a7-290fdbf7c083",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_16063",
+      "name": "Water temperature",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/DEG_C"
+      },
+      "unitText": "°C"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ccafc315-79f2-454b-b9a7-290fdbf7c083#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ccafc315-79f2-454b-b9a7-290fdbf7c083"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=101",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
+}

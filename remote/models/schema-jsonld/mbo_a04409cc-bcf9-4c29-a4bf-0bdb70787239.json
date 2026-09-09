@@ -5,22 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239",
-      "@type": "HowToStep",
-      "abstract": "For each river system individually, combine all QCd data into a single harmonised spreadsheet",
-      "citation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_933edfa2-9528-4110-9b6c-4d29bc179513"
-      },
-      "contributor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "name": "T3.3 QC and harmonise",
-      "position": {
-        "@type": "xsd:int",
-        "@value": "2"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -35,6 +19,22 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_2d3e7566-48a5-47e2-9980-76c4d9b77a79"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a04409cc-bcf9-4c29-a4bf-0bdb70787239",
+      "@type": "HowToStep",
+      "abstract": "For each river system individually, combine all QCd data into a single harmonised spreadsheet",
+      "citation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_933edfa2-9528-4110-9b6c-4d29bc179513"
+      },
+      "contributor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "name": "T3.3 QC and harmonise",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "2"
       }
     }
   ]

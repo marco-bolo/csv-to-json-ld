@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
@@ -25,32 +25,11 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-08",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata#csv",
       "@reverse": {
@@ -70,6 +49,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6312ca0b-9ac6-4943-ac0c-f0b45405e92d-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

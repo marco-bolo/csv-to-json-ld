@@ -5,24 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875",
-      "@type": "HowToStep",
-      "abstract": "Collecting and processing samples destined for eDNA",
-      "mentions": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
-        }
-      ],
-      "name": "T4.4 eDNA collect and process: from seabed",
-      "position": {
-        "@type": "xsd:int",
-        "@value": "1"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875#input-metadata",
       "@type": [
         "DataDownload",
@@ -37,6 +19,24 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875",
+      "@type": "HowToStep",
+      "abstract": "Collecting and processing samples destined for eDNA",
+      "mentions": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+        }
+      ],
+      "name": "T4.4 eDNA collect and process: from seabed",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "1"
       }
     }
   ]

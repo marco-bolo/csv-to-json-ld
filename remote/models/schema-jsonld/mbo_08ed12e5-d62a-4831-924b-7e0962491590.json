@@ -5,30 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_08ed12e5-d62a-4831-924b-7e0962491590",
-      "@type": "CreateAction",
-      "abstract": "Project Data Management Plan",
-      "agent": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
-      },
-      "name": "MARCO-BOLO Deliverable 7.2",
-      "participant": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
-        }
-      ],
-      "result": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_08ed12e5-d62a-4831-924b-7e0962491590#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_08ed12e5-d62a-4831-924b-7e0962491590"
@@ -39,6 +19,26 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_08ed12e5-d62a-4831-924b-7e0962491590",
+      "@type": "CreateAction",
+      "abstract": "Project Data Management Plan",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+      },
+      "name": "MARCO-BOLO Deliverable 7.2",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_d3b9c001-b93f-4476-9398-8ea9f1c6a609"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
+        }
+      ],
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ee2d9b57-53f8-450e-acc5-4eadb566c586"
       }
     }
   ]

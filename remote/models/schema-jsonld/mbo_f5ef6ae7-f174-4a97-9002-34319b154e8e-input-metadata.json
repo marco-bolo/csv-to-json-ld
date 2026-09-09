@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e",
@@ -31,7 +31,7 @@
       "@value": "https://marcobolo-project.eu/work-packages/work-package-1-delivering-essential-biodiversity-variables-local-to-global-biodiversity-metadata-for-coastal-and-marine-systems/"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
   },
@@ -51,7 +51,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-08",
+      "dateModified": "2026-09-09",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e-input-metadata"
       },

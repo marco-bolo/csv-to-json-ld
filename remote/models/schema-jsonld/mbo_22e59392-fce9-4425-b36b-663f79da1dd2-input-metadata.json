@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata",
+  "@reverse": {
+    "result": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+    }
+  },
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2",
+    "@type": "PropertyValue",
+    "description": "https://vocab.nerc.ac.uk/collection/P21/current/MS11512/",
+    "name": "Total suspended matter",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata"
+    },
+    "unitCode": {
+      "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+    },
+    "unitText": "mg/l"
+  },
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
+  "creator": {
+    "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+  },
+  "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=98",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata"
+      },
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-09",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  ]
+}

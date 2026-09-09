@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_6ec360e4-4b35-4cfb-9eb3-e140f0918a2c",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.0016667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "8.6683"
+      },
+      "name": "Norderelbe"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_6ec360e4-4b35-4cfb-9eb3-e140f0918a2c#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6ec360e4-4b35-4cfb-9eb3-e140f0918a2c",
-      "@type": "Place",
-      "description": "Sampling station in the Elbe - North Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "54.0016667"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "8.6683"
-      },
-      "name": "Norderelbe"
     }
   ]
 }

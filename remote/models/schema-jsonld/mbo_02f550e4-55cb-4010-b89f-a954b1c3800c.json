@@ -5,18 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 4.2 Contact",
-      "description": "Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions",
-      "email": "pat@aqua.dtu.dk",
-      "name": "Patrizio Mariani"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_1b6df413-44b7-47f0-a805-5daeaaefe0c0"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 4.2 Contact",
+      "description": "Contact for D4.2 - Physical drivers and extreme events on plankton biodiversity distributions",
+      "email": "pat@aqua.dtu.dk",
+      "name": "Patrizio Mariani"
     }
   ]
 }

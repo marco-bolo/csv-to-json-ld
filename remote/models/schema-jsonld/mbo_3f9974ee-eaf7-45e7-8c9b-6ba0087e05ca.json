@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3f9974ee-eaf7-45e7-8c9b-6ba0087e05ca#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3f9974ee-eaf7-45e7-8c9b-6ba0087e05ca"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=90",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3f9974ee-eaf7-45e7-8c9b-6ba0087e05ca",
+      "@type": "PropertyValue",
+      "description": "http://vocab.nerc.ac.uk/collection/P35/current/EPC00007/",
+      "name": "Ortho-phosphate P o-PO4-P",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
+    }
+  ]
+}

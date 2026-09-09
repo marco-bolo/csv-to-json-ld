@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=98",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_22e59392-fce9-4425-b36b-663f79da1dd2",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P21/current/MS11512/",
+      "name": "Total suspended matter",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
+    }
+  ]
+}

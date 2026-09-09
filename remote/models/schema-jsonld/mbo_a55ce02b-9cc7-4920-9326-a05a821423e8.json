@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=91",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8",
       "@type": "CreateAction",
       "abstract": "The habitat suitability model was run in the LW-VRE for the common dolphin.",
@@ -32,23 +49,6 @@
       },
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_a55ce02b-9cc7-4920-9326-a05a821423e8"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=91",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
       }
     }
   ]

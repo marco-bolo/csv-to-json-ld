@@ -27,7 +27,7 @@
     },
     "text": "The dataset is divided into two: the nose cam videos from the ROV and the multi-camera videos attatched to the ROV. Then, from the multi-camera videos, 3D models of the seafloor are generated."
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f8672a75aa7d05227479cab406eb357cc79aacdb",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f20d76b63ab52fbbfacf5cc124763ed102607a1",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_51e8169f-c6a7-4205-a7f9-790fb3cdf78d"
   },
@@ -67,7 +67,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-08",
+      "dateModified": "2026-09-09",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7baa6ee2-ac6d-49d6-96e7-2d42829f63d9-input-metadata"
       },
