@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a"
@@ -25,8 +25,8 @@
       "@id": "https://w3id.org/marco-bolo/mbo_62612eb5-d715-44c3-a7bb-14e0f3a4c51a",
       "@type": "ContactPoint",
       "availableLanguage": [
-        "en",
-        "nl"
+        "nl",
+        "en"
       ],
       "contactType": "FAIR data management",
       "description": "FAIR data manager",

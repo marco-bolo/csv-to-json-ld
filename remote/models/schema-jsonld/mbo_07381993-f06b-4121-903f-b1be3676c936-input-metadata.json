@@ -12,25 +12,25 @@
       },
       "author": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+          "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+          "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+          "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
         }
       ],
       "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -53,13 +53,13 @@
         "https://identifiers.org/ena.embl:PRJEB98195"
       ],
       "keywords": [
+        "metabarcoding",
         "NEREA",
-        "eDNA",
-        "environmental DNA",
         "amplicon sequencing",
+        "eDNA",
         "18S rDNA",
         "V9-18S",
-        "metabarcoding",
+        "environmental DNA",
         "eukaryotic"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -76,7 +76,7 @@
         "about": {
           "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
         },
-        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
         },
@@ -106,7 +106,7 @@
             "creator": {
               "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
             },
-            "dateModified": "2026-09-09",
+            "dateModified": "2026-09-10",
             "encodesCreativeWork": {
               "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata"
             },
@@ -143,25 +143,25 @@
         },
         "author": [
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+            "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
+            "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+            "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
           }
         ],
         "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -184,13 +184,13 @@
           "https://identifiers.org/ena.embl:PRJEB98195"
         ],
         "keywords": [
+          "metabarcoding",
           "NEREA",
-          "eDNA",
-          "environmental DNA",
           "amplicon sequencing",
+          "eDNA",
           "18S rDNA",
           "V9-18S",
-          "metabarcoding",
+          "environmental DNA",
           "eukaryotic"
         ],
         "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -211,7 +211,7 @@
           "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
         }
       },
-      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -251,7 +251,7 @@
           "creator": {
             "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
           },
-          "dateModified": "2026-09-09",
+          "dateModified": "2026-09-10",
           "encodesCreativeWork": {
             "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata"
           },

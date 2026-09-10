@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb",
+      "@type": "Place",
+      "description": "SOMLIT-Astan sampling station, Western English Channel, France; 60 m depth. MarineRegions MRGID 5372 (http://marineregions.org/mrgid/5372). 18S protist metabarcoding site.",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "48.771667"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-3.968333"
+      },
+      "name": "SOMLIT-Astan"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_82d75288-8a73-4dc1-887c-47956e19a3bb",
-      "@type": "Place",
-      "description": "SOMLIT-Astan sampling station, Western English Channel, France; 60 m depth. MarineRegions MRGID 5372 (http://marineregions.org/mrgid/5372). 18S protist metabarcoding site.",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "48.771667"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-3.968333"
-      },
-      "name": "SOMLIT-Astan"
     }
   ]
 }

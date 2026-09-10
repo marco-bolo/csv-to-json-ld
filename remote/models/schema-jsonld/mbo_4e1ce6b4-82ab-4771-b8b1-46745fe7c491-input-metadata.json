@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491",
@@ -27,6 +27,9 @@
     "name": "T5.1.2 running habitat model - harbor seal",
     "object": [
       {
+        "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
+      },
+      {
         "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
       },
       {
@@ -34,9 +37,6 @@
       },
       {
         "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
-      },
-      {
-        "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
       }
     ],
     "participant": {
@@ -49,7 +49,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -89,7 +89,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-09",
+      "dateModified": "2026-09-10",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
       },

@@ -5,16 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29",
-      "@type": "GovernmentOrganization",
-      "legalName": "Fisheries Research Services",
-      "name": "FRS"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29"
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_f228c8da-cf90-4605-b0ac-89fc6b6c653e"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_451c2a7e-c80a-4f62-88a0-45b3890b3f29",
+      "@type": "GovernmentOrganization",
+      "legalName": "Fisheries Research Services",
+      "name": "FRS"
     }
   ]
 }

@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
@@ -29,11 +29,32 @@
       "@value": "Preprocessing GUI · Wiki · Javier Alonso Fernández / 3D Reconstruction BlueROV Multi-cam · GitLab"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ff5b06a6a2ee87cbd291cd9a3e09836f22547ade",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-10",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata#csv",
       "@reverse": {
@@ -53,27 +74,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata"
       },
       "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-09",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_0da1e4d2-eac5-4332-afca-6ad402a269f2-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
     }
   ]
 }

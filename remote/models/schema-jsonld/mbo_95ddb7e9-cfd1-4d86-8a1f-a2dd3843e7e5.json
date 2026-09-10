@@ -5,14 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_95ddb7e9-cfd1-4d86-8a1f-a2dd3843e7e5",
-      "@type": "PropertyValue",
-      "name": "Community species evenness",
-      "propertyID": {
-        "@id": "http://purl.obolibrary.org/obo/PCO_0000023"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_95ddb7e9-cfd1-4d86-8a1f-a2dd3843e7e5#input-metadata",
       "@type": [
         "DataDownload",
@@ -27,6 +19,14 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_95ddb7e9-cfd1-4d86-8a1f-a2dd3843e7e5",
+      "@type": "PropertyValue",
+      "name": "Community species evenness",
+      "propertyID": {
+        "@id": "http://purl.obolibrary.org/obo/PCO_0000023"
       }
     }
   ]

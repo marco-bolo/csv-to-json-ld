@@ -5,10 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea",
+      "@type": "PropertyValue",
+      "description": "Count of species by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+      "name": "Species count"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea"
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6de665df-b5fc-4952-b4c1-e2381498d3ea",
-      "@type": "PropertyValue",
-      "description": "Count of species by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
-      "name": "Species count"
     }
   ]
 }

@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_619074dc-7439-4e10-a69e-d4c0101745a2",
+      "@type": "ContactPoint",
+      "contactType": "Task 3.4 Contact",
+      "description": "Effects on conservation areas",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_619074dc-7439-4e10-a69e-d4c0101745a2#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_62ada8ad-7bd9-4ef4-825a-9322f7b54ee0"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_619074dc-7439-4e10-a69e-d4c0101745a2",
-      "@type": "ContactPoint",
-      "contactType": "Task 3.4 Contact",
-      "description": "Effects on conservation areas",
-      "name": "TBD"
     }
   ]
 }

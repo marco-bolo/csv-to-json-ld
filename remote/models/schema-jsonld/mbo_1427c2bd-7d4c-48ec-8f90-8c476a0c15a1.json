@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 5.3 Contact",
+      "description": "Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
+      "email": "ngal@norceresearch.no",
+      "name": "Natalya Gallo"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1"
@@ -20,14 +28,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1427c2bd-7d4c-48ec-8f90-8c476a0c15a1",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 5.3 Contact",
-      "description": "Contact for D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
-      "email": "ngal@norceresearch.no",
-      "name": "Natalya Gallo"
     }
   ]
 }

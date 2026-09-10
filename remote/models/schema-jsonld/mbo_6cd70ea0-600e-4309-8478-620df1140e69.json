@@ -5,6 +5,14 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_6cd70ea0-600e-4309-8478-620df1140e69",
+      "@type": "PropertyValue",
+      "name": "Shannon diversity index",
+      "propertyID": {
+        "@id": "http://purl.obolibrary.org/obo/PCO_0000062"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_6cd70ea0-600e-4309-8478-620df1140e69#input-metadata",
       "@type": [
         "DataDownload",
@@ -19,14 +27,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_6cd70ea0-600e-4309-8478-620df1140e69",
-      "@type": "PropertyValue",
-      "name": "Shannon diversity index",
-      "propertyID": {
-        "@id": "http://purl.obolibrary.org/obo/PCO_0000062"
       }
     }
   ]

@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=32",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08",
       "@type": "DigitalDocument",
       "abstract": "Slide decks from the second mobilisation of MARCO-BOLO's Community of Practice (CoP). The 2nd CoP Workshop sought to advance stakeholder consultation on the creation of MARCO-BOLO products as key solutions to challenges currently facing marine biodiversity, ensuring that end-user needs and requirements are met. The project's Data Management Plan and new technology based on tools such as environmental DNA (eDNA), artificial intelligence and 3D image analysis were addressed in detail, with discussions including stakeholder input to guide further development. The meeting drew on collaboration with the OBAMA-NEXT sister project. The workshop formed part of the event \"The Future of Marine Biodiversity Monitoring in Europe\" organised by the ACTeon research consultancy for the Joint Research Centre (JRC).",
@@ -40,12 +23,12 @@
       "description": "Slide decks from the 2nd Co-Design Workshop (November 2024, Sitges)",
       "identifier": "doi:10.5281/zenodo.17236878",
       "keywords": [
-        "stakeholder engagement",
-        "Community of Practice",
+        "co-design workshop",
         "eDNA",
         "presentation slides",
         "AI",
-        "co-design workshop",
+        "Community of Practice",
+        "stakeholder engagement",
         "MBO WP6"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -60,6 +43,23 @@
           "@value": "https://doi.org/10.5281/zenodo.17236878"
         }
       ]
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=32",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+      }
     }
   ]
 }

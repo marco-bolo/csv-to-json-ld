@@ -5,15 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Task 1.4 Contact",
-      "description": "Digital synthesis, gap analysis, and sustainability",
-      "email": "dble@mba.ac.uk",
-      "name": "Dan Lear"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -29,6 +20,15 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_ec8d7e28-d77c-49c5-90bb-7c76b0f165d0"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Task 1.4 Contact",
+      "description": "Digital synthesis, gap analysis, and sustainability",
+      "email": "dble@mba.ac.uk",
+      "name": "Dan Lear"
     }
   ]
 }

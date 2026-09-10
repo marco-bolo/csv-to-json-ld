@@ -5,31 +5,14 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=36",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460",
       "@type": "DigitalDocument",
       "author": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe"
+          "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
+          "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c"
@@ -47,10 +30,10 @@
       "description": "WP6 Stakeholder Engagement & Community Integration: stakeholder survey presentation (February 2024)",
       "identifier": "doi:10.5281/zenodo.10715714",
       "keywords": [
-        "biodiversity data needs",
-        "MBO WP6",
         "presentation",
+        "biodiversity data needs",
         "stakeholder engagement",
+        "MBO WP6",
         "survey"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -65,6 +48,23 @@
           "@value": "https://zenodo.org/records/10715714"
         }
       ]
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=36",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+      }
     }
   ]
 }

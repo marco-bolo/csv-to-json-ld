@@ -5,20 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8",
-      "@type": "HowToStep",
-      "abstract": "To crop and convert the videos to mp4",
-      "citation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b"
-      },
-      "description": "For preprocessing and extracting frames",
-      "name": "T4.4 raw to mp4",
-      "position": {
-        "@type": "xsd:int",
-        "@value": "1"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -33,6 +19,20 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_39334243-747c-41f5-b211-79a3c5325fb8",
+      "@type": "HowToStep",
+      "abstract": "To crop and convert the videos to mp4",
+      "citation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7412990f-3f9c-4f29-9211-3010563a9b8b"
+      },
+      "description": "For preprocessing and extracting frames",
+      "name": "T4.4 raw to mp4",
+      "position": {
+        "@type": "xsd:int",
+        "@value": "1"
       }
     }
   ]

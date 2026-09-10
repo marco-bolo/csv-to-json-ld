@@ -5,16 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a5dd38f5-a3da-4052-afd1-4f331e758f97",
-      "@type": "PropertyValue",
-      "description": "http://purl.dataone.org/odo/ECSO_00001875",
-      "name": "Cadmium and its compounds (Cd)",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
-      },
-      "unitText": "ng/l"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_a5dd38f5-a3da-4052-afd1-4f331e758f97#input-metadata",
       "@type": [
         "DataDownload",
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a5dd38f5-a3da-4052-afd1-4f331e758f97",
+      "@type": "PropertyValue",
+      "description": "http://purl.dataone.org/odo/ECSO_00001875",
+      "name": "Cadmium and its compounds (Cd)",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+      },
+      "unitText": "ng/l"
     }
   ]
 }

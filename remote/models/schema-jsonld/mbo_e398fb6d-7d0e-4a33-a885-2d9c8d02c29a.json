@@ -13,10 +13,10 @@
       },
       "mentions": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_16fd074f-eeef-4812-8967-e27da038026d"
+          "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+          "@id": "https://w3id.org/marco-bolo/mbo_16fd074f-eeef-4812-8967-e27da038026d"
         }
       ],
       "name": "T4.4 FPOD data capture",
@@ -28,8 +28,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a"

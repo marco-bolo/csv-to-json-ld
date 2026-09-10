@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_26a0a5c1-291c-4fa1-97d2-a303958f4837",
-      "@type": "ContactPoint",
-      "contactType": "Task 2.1 Contact",
-      "description": "Meta-analysis of technical and practical aspects of current eDNA approaches",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_26a0a5c1-291c-4fa1-97d2-a303958f4837#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_26a0a5c1-291c-4fa1-97d2-a303958f4837"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_43d093da-eb94-4692-ab0e-a8c94883e4d1"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_26a0a5c1-291c-4fa1-97d2-a303958f4837",
+      "@type": "ContactPoint",
+      "contactType": "Task 2.1 Contact",
+      "description": "Meta-analysis of technical and practical aspects of current eDNA approaches",
+      "name": "TBD"
     }
   ]
 }
