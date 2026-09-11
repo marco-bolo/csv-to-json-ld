@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_5de725d2-1ecd-4521-a397-6431b0629a9c",
-      "@type": "GeoShape",
-      "circle": "54.495 8.72333333 7500",
-      "description": "Sampling area in the Elbe - North Sea continuum",
-      "name": "Pellworm / Norderhever - fish"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_5de725d2-1ecd-4521-a397-6431b0629a9c#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5de725d2-1ecd-4521-a397-6431b0629a9c",
+      "@type": "GeoShape",
+      "circle": "54.495 8.72333333 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Pellworm / Norderhever - fish"
     }
   ]
 }

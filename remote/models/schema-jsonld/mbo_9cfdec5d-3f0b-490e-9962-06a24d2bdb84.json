@@ -5,6 +5,28 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Delphinus delphis"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
@@ -12,10 +34,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -30,19 +59,10 @@
       "@type": "Taxon",
       "additionalProperty": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet"
-        },
-        {
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Kingdom"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order"
@@ -51,10 +71,19 @@
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum"
         },
         {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank"
+        },
+        {
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank"
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status"
         }
       ],
       "identifier": {
@@ -63,31 +92,24 @@
       "name": "bottlenose dolphin"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
@@ -99,28 +121,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Delphinus delphis"
     }
   ]
 }

@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e6a0c923-cb17-4d62-a0d5-e94dc65f25b2",
+      "@type": "ContactPoint",
+      "contactType": "Task 3.2 Contact",
+      "description": "Testing biodiversity and environmental variables workflows using case studies",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e6a0c923-cb17-4d62-a0d5-e94dc65f25b2#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_621e02c7-cb68-4388-8492-21ae5084acc0"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e6a0c923-cb17-4d62-a0d5-e94dc65f25b2",
-      "@type": "ContactPoint",
-      "contactType": "Task 3.2 Contact",
-      "description": "Testing biodiversity and environmental variables workflows using case studies",
-      "name": "TBD"
     }
   ]
 }

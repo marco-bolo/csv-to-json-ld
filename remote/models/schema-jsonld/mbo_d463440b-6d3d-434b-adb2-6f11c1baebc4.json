@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 4.5 Contact",
+      "description": "Preliminary report on WP4 progress",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_4f00e86a-58d5-47dc-8a34-e6eaf3b099c8"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d463440b-6d3d-434b-adb2-6f11c1baebc4",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 4.5 Contact",
-      "description": "Preliminary report on WP4 progress",
-      "name": "TBD"
     }
   ]
 }

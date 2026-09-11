@@ -20,22 +20,22 @@
     "alternateName": "D5.3",
     "author": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_050c4274-c78e-40b6-8c94-63a2b6ed7e2c"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_93d9480d-1275-44ca-869c-cd3bd2162b7f"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_2a4d29b9-f078-4a30-94ab-88e5a37e243b"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_6f9069ac-edca-4302-b7b3-1f3e5f9b86e5"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_b4fc87c0-5640-4107-a6e4-91d7001cde74"
       }
     ],
     "availableLanguage": "en",
@@ -53,11 +53,11 @@
       "doi:10.5281/zenodo.20787356"
     ],
     "keywords": [
+      "seagrass",
+      "blue carbon",
       "MBO WP5",
       "coastal ecosystems",
-      "blue carbon",
-      "remote sensing",
-      "seagrass"
+      "remote sensing"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO Deliverable D5.3 - Scientific document describing potential for satellite remote sensing to estimate blue carbon at regional scales within European coastal systems",
@@ -80,32 +80,11 @@
     ],
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-10",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#csv",
       "@reverse": {
@@ -125,6 +104,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_70ca2d71-f40d-4dba-b01d-a0d0922dedba"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-11",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d8bd7410-a387-4076-87df-7a2865284ff6-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

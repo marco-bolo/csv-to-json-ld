@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=46",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd",
       "@type": "Person",
       "contactPoint": [
@@ -43,6 +26,23 @@
       ],
       "worksFor": {
         "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=46",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

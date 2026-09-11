@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Project Management",
+      "description": "EMBRC-ERIC",
+      "email": "giulia.vecchi@embrc.eu",
+      "name": "Giulia Vecchi"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_22019081-8c20-4cf0-b830-8fcced750678"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9ce7d183-95ae-48f8-b7c4-96b03af60b2e",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Project Management",
-      "description": "EMBRC-ERIC",
-      "email": "giulia.vecchi@embrc.eu",
-      "name": "Giulia Vecchi"
     }
   ]
 }

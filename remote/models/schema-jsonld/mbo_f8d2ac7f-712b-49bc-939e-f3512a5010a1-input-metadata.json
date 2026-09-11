@@ -10,43 +10,19 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1",
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Status",
+        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Order",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        },
-        "value": "accepted"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Kingdom",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-        },
-        "value": "Animalia"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Genus",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
         }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#ScientificName",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-        },
-        "value": "Animalia"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#VerbatimTaxonRank",
@@ -57,11 +33,12 @@
         "value": "kingdom"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Order",
+        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Status",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
-        }
+          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        },
+        "value": "accepted"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#SpecificEpithet",
@@ -69,6 +46,29 @@
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
         }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Genus",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Kingdom",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        },
+        "value": "Animalia"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#ScientificName",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        },
+        "value": "Animalia"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Family",
@@ -96,7 +96,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -136,7 +136,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-10",
+      "dateModified": "2026-09-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1-input-metadata"
       },

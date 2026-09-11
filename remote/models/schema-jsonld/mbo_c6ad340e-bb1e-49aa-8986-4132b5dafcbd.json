@@ -5,10 +5,22 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd",
+      "@type": "ResearchOrganization",
+      "description": "Helmholtz Centre for Environmental Research",
+      "identifier": "https://ror.org/000h6jb29",
+      "keywords": "environmental research, Helmholtz, Germany",
+      "legalName": "Helmholtz-Zentrum Fur Umweltforschung Gmbh - Ufz",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "UFZ"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
@@ -20,18 +32,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd",
-      "@type": "ResearchOrganization",
-      "description": "Helmholtz Centre for Environmental Research",
-      "identifier": "https://ror.org/000h6jb29",
-      "keywords": "environmental research, Helmholtz, Germany",
-      "legalName": "Helmholtz-Zentrum Fur Umweltforschung Gmbh - Ufz",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "UFZ"
     }
   ]
 }

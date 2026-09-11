@@ -5,10 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_89f2683b-ca08-4a93-8638-ab25b194929b",
+      "@type": "PropertyValue",
+      "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (metazoans (cytochrome oxidase I))",
+      "name": "Sequences: metazoans (COI)"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_89f2683b-ca08-4a93-8638-ab25b194929b#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_89f2683b-ca08-4a93-8638-ab25b194929b"
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_89f2683b-ca08-4a93-8638-ab25b194929b",
-      "@type": "PropertyValue",
-      "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (metazoans (cytochrome oxidase I))",
-      "name": "Sequences: metazoans (COI)"
     }
   ]
 }

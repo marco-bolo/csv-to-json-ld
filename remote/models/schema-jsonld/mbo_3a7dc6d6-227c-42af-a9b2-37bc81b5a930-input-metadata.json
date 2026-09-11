@@ -31,16 +31,16 @@
     ],
     "author": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
@@ -56,19 +56,19 @@
     "schema:datePublished": "2025-05-29",
     "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
     "identifier": [
-      "Deliverable D1.1",
-      "doi:10.5281/zenodo.17537386"
+      "doi:10.5281/zenodo.17537386",
+      "Deliverable D1.1"
     ],
     "keywords": [
       "linked open data",
-      "EBV",
-      "marine biodiversity",
-      "JSON-LD",
+      "metadata",
       "EOV",
+      "marine biodiversity",
+      "EBV",
       "data management",
       "FAIR",
-      "metadata",
-      "persistent identifiers"
+      "persistent identifiers",
+      "JSON-LD"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",
@@ -90,11 +90,32 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-11",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#csv",
       "@reverse": {
@@ -114,27 +135,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
       },
       "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7d0e75a9-25cd-4f98-92e8-80ff6cd4cb2c"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-10",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
     }
   ]
 }

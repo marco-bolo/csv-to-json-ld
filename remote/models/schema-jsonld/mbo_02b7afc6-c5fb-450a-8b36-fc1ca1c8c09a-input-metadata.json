@@ -17,10 +17,10 @@
       ],
       "audience": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+          "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+          "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
@@ -42,13 +42,13 @@
       },
       "description": "The 12S and CO1 sequences collected and archived in support of WP2 Deliverable 2, dataset 2.",
       "keywords": [
-        "marine biodiversity",
-        "vertebrates",
         "metabarcoding",
+        "marine biodiversity",
+        "Norway",
+        "vertebrates",
         "eDNA",
-        "eukaryotes",
         "EMO BON",
-        "Norway"
+        "eukaryotes"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
       "maintainer": {
@@ -70,11 +70,27 @@
         "about": {
           "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
         },
-        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
         },
         "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-11",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
+          },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#csv",
             "@type": "DataDownload",
@@ -89,22 +105,6 @@
               "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
             },
             "encodingFormat": "text/csv"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#jsonld",
-            "@type": "DataDownload",
-            "about": {
-              "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
-            },
-            "contentUrl": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a",
-            "creator": {
-              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-            },
-            "dateModified": "2026-09-10",
-            "encodesCreativeWork": {
-              "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
-            },
-            "encodingFormat": "application/ld+json"
           }
         ]
       },
@@ -143,10 +143,10 @@
         ],
         "audience": [
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+            "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+            "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
@@ -171,13 +171,13 @@
           "@id": "https://w3id.org/marco-bolo/mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad"
         },
         "keywords": [
-          "marine biodiversity",
-          "vertebrates",
           "metabarcoding",
+          "marine biodiversity",
+          "Norway",
+          "vertebrates",
           "eDNA",
-          "eukaryotes",
           "EMO BON",
-          "Norway"
+          "eukaryotes"
         ],
         "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
         "maintainer": {
@@ -204,11 +204,32 @@
         },
         "https://w3id.org/marco-bolo/inProgressDate": "2026-11-30"
       },
-      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
       "distribution": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-11",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
+        },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#csv",
           "@reverse": {
@@ -228,27 +249,6 @@
             "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
           },
           "encodingFormat": "text/csv"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#jsonld",
-          "@reverse": {
-            "result": {
-              "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
-            }
-          },
-          "@type": "DataDownload",
-          "about": {
-            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
-          },
-          "contentUrl": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a",
-          "creator": {
-            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-          },
-          "dateModified": "2026-09-10",
-          "encodesCreativeWork": {
-            "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
-          },
-          "encodingFormat": "application/ld+json"
         }
       ]
     }

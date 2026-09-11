@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_f65c3e4a-eba6-43d3-a42b-530fe94120d6",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 7.9 Contact",
+      "description": "Ethics report on environmental issues",
+      "name": "TBD"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_f65c3e4a-eba6-43d3-a42b-530fe94120d6#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f65c3e4a-eba6-43d3-a42b-530fe94120d6",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 7.9 Contact",
-      "description": "Ethics report on environmental issues",
-      "name": "TBD"
     }
   ]
 }

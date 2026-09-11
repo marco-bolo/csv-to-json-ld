@@ -10,25 +10,25 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c",
     "@type": "Person",
     "contactPoint": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
+        "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_07ab3f53-5e60-4a69-9e01-1ea85b95540a"
+        "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
       }
     ],
     "familyName": "Muñiz",
     "givenName": "Carlota",
     "identifier": [
-      "https://oceanexpert.org/expert/58452",
-      "https://orcid.org/0000-0001-9584-3833"
+      "https://orcid.org/0000-0001-9584-3833",
+      "https://oceanexpert.org/expert/58452"
     ],
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c-input-metadata"
@@ -37,7 +37,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -77,7 +77,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-10",
+      "dateModified": "2026-09-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c-input-metadata"
       },

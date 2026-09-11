@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_3d2d544c-b298-44b2-b85c-cf74c65ae9ba",
+      "@type": "Person",
+      "familyName": "Fernandez",
+      "givenName": "Miguel",
+      "identifier": "https://oceanexpert.org/expert/66048"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_3d2d544c-b298-44b2-b85c-cf74c65ae9ba#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3d2d544c-b298-44b2-b85c-cf74c65ae9ba"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3d2d544c-b298-44b2-b85c-cf74c65ae9ba",
-      "@type": "Person",
-      "familyName": "Fernandez",
-      "givenName": "Miguel",
-      "identifier": "https://oceanexpert.org/expert/66048"
     }
   ]
 }

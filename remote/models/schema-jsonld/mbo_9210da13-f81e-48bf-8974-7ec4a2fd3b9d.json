@@ -5,10 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d",
+      "@type": "ResearchOrganization",
+      "legalName": "Mediterranean Institute of Oceanography",
+      "name": "M.I.O"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d"
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9210da13-f81e-48bf-8974-7ec4a2fd3b9d",
-      "@type": "ResearchOrganization",
-      "legalName": "Mediterranean Institute of Oceanography",
-      "name": "M.I.O"
     }
   ]
 }

@@ -5,14 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cfd66405-b20a-4bcf-90b9-63586ac5e4b0",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 4.1 Contact",
-      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
-      "email": "j.robidart@noc.ac.uk",
-      "name": "Julie Robidart"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_cfd66405-b20a-4bcf-90b9-63586ac5e4b0#input-metadata",
       "@type": [
         "DataDownload",
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cfd66405-b20a-4bcf-90b9-63586ac5e4b0",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 4.1 Contact",
+      "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+      "email": "j.robidart@noc.ac.uk",
+      "name": "Julie Robidart"
     }
   ]
 }

@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_caa388af-6208-49d4-a011-ac2473dc59e0",
-      "@type": "CreativeWork",
-      "description": "MIT open access license normally used for software",
-      "name": "MIT License",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://opensource.org/license/MIT"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_caa388af-6208-49d4-a011-ac2473dc59e0#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_caa388af-6208-49d4-a011-ac2473dc59e0"
@@ -29,6 +19,16 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_caa388af-6208-49d4-a011-ac2473dc59e0",
+      "@type": "CreativeWork",
+      "description": "MIT open access license normally used for software",
+      "name": "MIT License",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://opensource.org/license/MIT"
       }
     }
   ]

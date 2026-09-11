@@ -19,10 +19,10 @@
     "abstract": "Collecting and processing samples destined for eDNA",
     "mentions": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
+        "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+        "@id": "https://w3id.org/marco-bolo/mbo_9aee23be-b53a-40da-8a11-b4d295b85fbf"
       }
     ],
     "name": "T4.4 eDNA collect and process: from seabed",
@@ -34,7 +34,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -74,7 +74,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-10",
+      "dateModified": "2026-09-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f838694-701b-44f6-8efa-4c2119f04875-input-metadata"
       },

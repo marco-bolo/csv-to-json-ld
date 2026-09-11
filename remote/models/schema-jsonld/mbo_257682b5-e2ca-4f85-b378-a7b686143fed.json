@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_257682b5-e2ca-4f85-b378-a7b686143fed",
-      "@type": "PropertyValue",
-      "description": "http://vocabs.lter-europe.net/EnvThes/USLterCV_490",
-      "name": "Visibility depth",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/M"
-      },
-      "unitText": "m"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_257682b5-e2ca-4f85-b378-a7b686143fed#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_257682b5-e2ca-4f85-b378-a7b686143fed"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_257682b5-e2ca-4f85-b378-a7b686143fed",
+      "@type": "PropertyValue",
+      "description": "http://vocabs.lter-europe.net/EnvThes/USLterCV_490",
+      "name": "Visibility depth",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/M"
+      },
+      "unitText": "m"
     }
   ]
 }

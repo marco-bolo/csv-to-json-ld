@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=5",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a",
       "@type": "HowToStep",
       "abstract": "For preprocessing and extracting frames once in mp4 format",
@@ -32,6 +15,23 @@
       "position": {
         "@type": "xsd:int",
         "@value": "2"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b90341a-9060-48f2-9f1f-d2327873204a"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=5",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f8b67c55-ec0d-4f01-a102-37debde2318a"
       }
     }
   ]

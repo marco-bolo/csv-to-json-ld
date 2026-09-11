@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3",
@@ -21,12 +21,6 @@
     "author": [
       {
         "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
@@ -39,6 +33,12 @@
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2530a561-d146-484f-80b0-98299afe67c8"
       }
     ],
     "availableLanguage": "en",
@@ -56,15 +56,15 @@
       "Deliverable D6.2"
     ],
     "isBasedOn": [
+      "https://doi.org/10.5281/zenodo.17244778",
       "https://doi.org/10.5281/zenodo.17244601",
-      "https://doi.org/10.5281/zenodo.17244832",
-      "https://doi.org/10.5281/zenodo.17244778"
+      "https://doi.org/10.5281/zenodo.17244832"
     ],
     "keywords": [
-      "MBO WP6",
-      "marine biodiversity policy",
-      "co-design workshops",
       "Community of Practice",
+      "marine biodiversity policy",
+      "MBO WP6",
+      "co-design workshops",
       "stakeholder engagement"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -79,16 +79,16 @@
       },
       {
         "@type": "URL",
-        "@value": "https://zenodo.org/records/20707345"
+        "@value": "https://doi.org/10.5281/zenodo.20707345"
       },
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.20707345"
+        "@value": "https://zenodo.org/records/20707345"
       }
     ],
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -128,7 +128,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-10",
+      "dateModified": "2026-09-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3-input-metadata"
       },

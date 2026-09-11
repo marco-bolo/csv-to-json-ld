@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b",
@@ -35,11 +35,11 @@
       "doi:10.5281/zenodo.20776313"
     ],
     "keywords": [
-      "river-coastal continuum",
-      "MBO WP3",
-      "Essential Biodiversity Variables (EBV)",
       "Essential Ocean Variables (EOV)",
-      "biodiversity monitoring"
+      "river-coastal continuum",
+      "biodiversity monitoring",
+      "Essential Biodiversity Variables (EBV)",
+      "MBO WP3"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO Deliverable D3.2 - Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
@@ -49,11 +49,11 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.20776313"
+        "@value": "https://zenodo.org/records/20776313"
       },
       {
         "@type": "URL",
-        "@value": "https://zenodo.org/records/20776313"
+        "@value": "https://doi.org/10.5281/zenodo.20776313"
       },
       {
         "@type": "URL",
@@ -62,7 +62,7 @@
     ],
     "version": "draft 2"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -82,7 +82,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-10",
+      "dateModified": "2026-09-11",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
       },

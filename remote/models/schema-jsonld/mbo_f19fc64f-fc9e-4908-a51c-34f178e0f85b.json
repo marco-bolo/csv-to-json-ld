@@ -5,6 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_f19fc64f-fc9e-4908-a51c-34f178e0f85b",
+      "@type": "Place",
+      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "36.787224"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "-6.394642"
+      },
+      "name": "Canal"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_f19fc64f-fc9e-4908-a51c-34f178e0f85b#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,20 +34,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f19fc64f-fc9e-4908-a51c-34f178e0f85b",
-      "@type": "Place",
-      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "36.787224"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-6.394642"
-      },
-      "name": "Canal"
     }
   ]
 }

@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a2e2e722-caf0-4013-8aac-a90e31f66835",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 7.7 Contact",
-      "description": "Project Data Management Plan Update 1",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_a2e2e722-caf0-4013-8aac-a90e31f66835#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_12ebe644-f3c8-4c30-ba89-10139942fb0d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a2e2e722-caf0-4013-8aac-a90e31f66835",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 7.7 Contact",
+      "description": "Project Data Management Plan Update 1",
+      "name": "TBD"
     }
   ]
 }

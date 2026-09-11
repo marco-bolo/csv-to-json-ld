@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb",
-      "@type": "PropertyValue",
-      "description": "http://aims.fao.org/aos/agrovoc/c_ac4b3c22",
-      "name": "Total P",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
-      },
-      "unitText": "mg/l"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_ac4b3c22",
+      "name": "Total P",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
     }
   ]
 }

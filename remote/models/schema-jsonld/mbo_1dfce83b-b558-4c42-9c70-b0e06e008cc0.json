@@ -5,18 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1dfce83b-b558-4c42-9c70-b0e06e008cc0",
-      "@type": "ContactPoint",
-      "contactType": "Task 3.3 Contact",
-      "description": "Causal chain analysis in coupled land-river-sea systems",
-      "email": "lili.hufnagel@ufz.de",
-      "name": "Lili Hufnagel"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_1dfce83b-b558-4c42-9c70-b0e06e008cc0#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1dfce83b-b558-4c42-9c70-b0e06e008cc0"
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_cdf676ff-9758-4b83-864d-a669f74ea7b5"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1dfce83b-b558-4c42-9c70-b0e06e008cc0",
+      "@type": "ContactPoint",
+      "contactType": "Task 3.3 Contact",
+      "description": "Causal chain analysis in coupled land-river-sea systems",
+      "email": "lili.hufnagel@ufz.de",
+      "name": "Lili Hufnagel"
     }
   ]
 }

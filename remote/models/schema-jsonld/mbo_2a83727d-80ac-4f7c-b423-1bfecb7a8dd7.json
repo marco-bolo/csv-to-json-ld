@@ -5,19 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2a83727d-80ac-4f7c-b423-1bfecb7a8dd7",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-      },
-      "familyName": "Lescot",
-      "givenName": "Magali"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2a83727d-80ac-4f7c-b423-1bfecb7a8dd7#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2a83727d-80ac-4f7c-b423-1bfecb7a8dd7"
@@ -29,6 +20,15 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2a83727d-80ac-4f7c-b423-1bfecb7a8dd7",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Lescot",
+      "givenName": "Magali"
     }
   ]
 }

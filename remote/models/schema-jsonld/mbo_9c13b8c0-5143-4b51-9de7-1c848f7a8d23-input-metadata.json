@@ -20,25 +20,25 @@
     "alternateName": "D4.1",
     "author": [
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_9145a8c8-d293-4b86-9344-368d94d43599"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_6c6a182c-469a-4828-a335-39359af3eb61"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+        "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_74d8ae60-3d99-4c28-8f62-192e484fa5d9"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_9145a8c8-d293-4b86-9344-368d94d43599"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
       }
     ],
     "availableLanguage": "en",
@@ -56,10 +56,10 @@
       "Deliverable D4.1"
     ],
     "keywords": [
-      "marine instrumentation",
       "MBO WP4",
-      "geolocation",
       "autonomous sensors",
+      "geolocation",
+      "marine instrumentation",
       "biodiversity monitoring"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -70,11 +70,11 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://doi.org/10.5281/zenodo.20779638"
+        "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D4.1_Jun-2024.pdf"
       },
       {
         "@type": "URL",
-        "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D4.1_Jun-2024.pdf"
+        "@value": "https://doi.org/10.5281/zenodo.20779638"
       },
       {
         "@type": "URL",
@@ -83,32 +83,11 @@
     ],
     "version": "1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-10",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata#csv",
       "@reverse": {
@@ -128,6 +107,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-11",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

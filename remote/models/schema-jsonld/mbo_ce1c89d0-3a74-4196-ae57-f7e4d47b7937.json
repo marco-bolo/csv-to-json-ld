@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937",
+      "@type": "PropertyValue",
+      "description": "Data collected during RoCSI sampling",
+      "name": "RoSCI output",
+      "propertyID": {
+        "@id": "https://vocab.nerc.ac.uk/collection/S06/current/S0600331/"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937"
@@ -19,15 +28,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ce1c89d0-3a74-4196-ae57-f7e4d47b7937",
-      "@type": "PropertyValue",
-      "description": "Data collected during RoCSI sampling",
-      "name": "RoSCI output",
-      "propertyID": {
-        "@id": "https://vocab.nerc.ac.uk/collection/S06/current/S0600331/"
       }
     }
   ]

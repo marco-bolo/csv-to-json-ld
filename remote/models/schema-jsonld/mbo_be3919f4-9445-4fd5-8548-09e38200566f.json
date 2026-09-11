@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_be3919f4-9445-4fd5-8548-09e38200566f",
-      "@type": "CreateAction",
-      "abstract": "Report on a framework of guidelines and protocols for eDNA-based biodiversity observations",
-      "agent": {
-        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-      },
-      "name": "MARCO-BOLO Deliverable 2.5",
-      "participant": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_6ee05b75-ccfb-4faf-84ad-8bc656ffcf7c"
-        }
-      ]
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_be3919f4-9445-4fd5-8548-09e38200566f#input-metadata",
       "@type": [
         "DataDownload",
@@ -37,6 +20,23 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_be3919f4-9445-4fd5-8548-09e38200566f",
+      "@type": "CreateAction",
+      "abstract": "Report on a framework of guidelines and protocols for eDNA-based biodiversity observations",
+      "agent": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "name": "MARCO-BOLO Deliverable 2.5",
+      "participant": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_6ee05b75-ccfb-4faf-84ad-8bc656ffcf7c"
+        }
+      ]
     }
   ]
 }

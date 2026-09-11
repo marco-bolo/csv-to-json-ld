@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e",
@@ -40,14 +40,14 @@
     "schema:datePublished": "2024-07-10",
     "description": "Ethics brief on environmental issues for planned marine operations",
     "identifier": [
-      "Deliverable D7.9",
-      "doi:10.5281/zenodo.17527043"
+      "doi:10.5281/zenodo.17527043",
+      "Deliverable D7.9"
     ],
     "keywords": [
+      "MBO WP7",
       "ethics",
       "marine operations",
       "collision avoidance",
-      "MBO WP7",
       "Belgian North Sea"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -71,32 +71,11 @@
     ],
     "version": "2.1"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/27143570f38852c218521ae24ee47c011c766fb0",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-10",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#csv",
       "@reverse": {
@@ -116,6 +95,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-11",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

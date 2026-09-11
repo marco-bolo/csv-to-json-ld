@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec",
-      "@type": "Person",
-      "familyName": "Grigoratou",
-      "givenName": "Maria",
-      "identifier": "https://oceanexpert.org/expert/43953"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec#input-metadata",
       "@type": [
         "DataDownload",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_40aff00e-bb3c-4e30-85b7-1b70e20a16ec",
+      "@type": "Person",
+      "familyName": "Grigoratou",
+      "givenName": "Maria",
+      "identifier": "https://oceanexpert.org/expert/43953"
     }
   ]
 }
