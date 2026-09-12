@@ -5,15 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_29444a61-2ed3-41d7-93c3-b1c4421042d4",
-      "@type": "PropertyValue",
-      "description": "Essential Ocean Variable (EOV), Ocean surface stress, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
-      "name": "Ocean surface stress",
-      "propertyID": {
-        "@id": "https://goosocean.org/document/17463"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_29444a61-2ed3-41d7-93c3-b1c4421042d4#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -28,6 +19,15 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_29444a61-2ed3-41d7-93c3-b1c4421042d4",
+      "@type": "PropertyValue",
+      "description": "Essential Ocean Variable (EOV), Ocean surface stress, as defined by the Global Ocean Observing System. EOVs are a minimum set of key variables identified by the Global Ocean Observing System (GOOS) community that are critical to understanding ocean change and guiding policy.",
+      "name": "Ocean surface stress",
+      "propertyID": {
+        "@id": "https://goosocean.org/document/17463"
       }
     }
   ]

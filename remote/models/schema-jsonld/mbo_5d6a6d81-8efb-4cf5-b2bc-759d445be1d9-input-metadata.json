@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9",
@@ -27,16 +27,16 @@
     "name": "T5.1.2 running habitat model - harbor porpoise",
     "object": [
       {
-        "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+        "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
       },
       {
         "@id": "file:///work/out/bulk/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
       },
       {
-        "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
+        "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
       },
       {
-        "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
+        "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
       }
     ],
     "participant": {
@@ -49,32 +49,11 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-11",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata#csv",
       "@reverse": {
@@ -94,6 +73,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-12",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

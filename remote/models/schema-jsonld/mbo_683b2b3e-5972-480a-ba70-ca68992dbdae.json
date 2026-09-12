@@ -5,18 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_683b2b3e-5972-480a-ba70-ca68992dbdae",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 5.1 Contact",
-      "description": "Contact for D5.1 - Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling",
-      "email": "Carlos.cano-barbacil@senckenberg.de",
-      "name": "Carlos Cano-Barbacil"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_683b2b3e-5972-480a-ba70-ca68992dbdae#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_683b2b3e-5972-480a-ba70-ca68992dbdae"
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_683b2b3e-5972-480a-ba70-ca68992dbdae",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 5.1 Contact",
+      "description": "Contact for D5.1 - Scientific document determining biodiversity trends, underlying drivers and essential observations for predictive modelling",
+      "email": "Carlos.cano-barbacil@senckenberg.de",
+      "name": "Carlos Cano-Barbacil"
     }
   ]
 }

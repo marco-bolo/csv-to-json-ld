@@ -5,6 +5,23 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=1",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a",
       "@type": "HowToStep",
       "abstract": "T4.4 hydrophonedata capture and raw data processing",
@@ -23,23 +40,6 @@
       "position": {
         "@type": "xsd:int",
         "@value": "1"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e398fb6d-7d0e-4a33-a885-2d9c8d02c29a"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000014#row=1",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
       }
     }
   ]

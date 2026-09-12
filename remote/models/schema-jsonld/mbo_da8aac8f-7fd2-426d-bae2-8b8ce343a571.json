@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_da8aac8f-7fd2-426d-bae2-8b8ce343a571",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Task 2.3 Contact",
+      "description": "Comparison of spatial and temporal eDNA-based vs. traditional observations",
+      "email": "joadug@mba.ac.uk",
+      "name": "Joanna Warwick-Dugdale"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_da8aac8f-7fd2-426d-bae2-8b8ce343a571#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_0b8bb755-e39e-4623-9856-3d4d486aa9a7"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_da8aac8f-7fd2-426d-bae2-8b8ce343a571",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Task 2.3 Contact",
-      "description": "Comparison of spatial and temporal eDNA-based vs. traditional observations",
-      "email": "joadug@mba.ac.uk",
-      "name": "Joanna Warwick-Dugdale"
     }
   ]
 }

@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb123b8e-17a3-43d9-baa9-0732c192861b",
-      "@type": "ContactPoint",
-      "contactType": "Task 7.4 Contact",
-      "description": "Clustering activities with marine biodiversity projects and coordinating activities",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_fb123b8e-17a3-43d9-baa9-0732c192861b#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_fb123b8e-17a3-43d9-baa9-0732c192861b"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_0b70318f-9d20-48bc-a6d8-a99077c3d032"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fb123b8e-17a3-43d9-baa9-0732c192861b",
+      "@type": "ContactPoint",
+      "contactType": "Task 7.4 Contact",
+      "description": "Clustering activities with marine biodiversity projects and coordinating activities",
+      "name": "TBD"
     }
   ]
 }

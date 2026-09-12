@@ -35,11 +35,11 @@
         },
         {
           "@type": "URL",
-          "@value": "https://sketchfab.com/jalfe"
+          "@value": "https://obstek.aqua.dtu.dk/demos/collections/bluerov2-multicam"
         },
         {
           "@type": "URL",
-          "@value": "https://obstek.aqua.dtu.dk/demos/collections/bluerov2-multicam"
+          "@value": "https://sketchfab.com/jalfe"
         }
       ],
       "variableMeasured": {
@@ -49,8 +49,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_dfb477bb-5783-49d0-9362-3bc6ded079f9#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_dfb477bb-5783-49d0-9362-3bc6ded079f9"

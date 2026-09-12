@@ -18,10 +18,24 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
         }
       },
       {
@@ -29,13 +43,6 @@
         "@type": "PropertyValue",
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
         }
       },
       {
@@ -54,10 +61,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
+          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
         }
       },
       {
@@ -68,17 +75,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
         }
       }
     ],
@@ -90,32 +90,11 @@
       "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-11",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata#csv",
       "@reverse": {
@@ -135,6 +114,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-12",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

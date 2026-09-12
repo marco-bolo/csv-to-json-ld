@@ -5,18 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd",
-      "@type": "ContactPoint",
-      "contactType": "Task 6.2 Contact",
-      "description": "Co-Design, Co-Creation and Stakeholder Consultation",
-      "email": "l.benedetti@unesco.org",
-      "name": "Lisa Benedetti"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd"
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8037c092-fcb8-4372-bf12-c8e5363152cd",
+      "@type": "ContactPoint",
+      "contactType": "Task 6.2 Contact",
+      "description": "Co-Design, Co-Creation and Stakeholder Consultation",
+      "email": "l.benedetti@unesco.org",
+      "name": "Lisa Benedetti"
     }
   ]
 }

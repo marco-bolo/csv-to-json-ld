@@ -5,10 +5,22 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+      },
+      "familyName": "McKee",
+      "givenName": "Kara",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
@@ -19,18 +31,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7b0340f3-cee9-492c-b87c-8b89d0f20e53"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
-      },
-      "familyName": "McKee",
-      "givenName": "Kara",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
       }
     }
   ]

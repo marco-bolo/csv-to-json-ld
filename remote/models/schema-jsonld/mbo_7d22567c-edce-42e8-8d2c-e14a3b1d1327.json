@@ -5,6 +5,15 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327",
+      "@type": "PropertyValue",
+      "description": "Data collected during RoCSI sampling",
+      "name": "RoSCI output",
+      "propertyID": {
+        "@id": "schema:description"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,15 +28,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7d22567c-edce-42e8-8d2c-e14a3b1d1327",
-      "@type": "PropertyValue",
-      "description": "Data collected during RoCSI sampling",
-      "name": "RoSCI output",
-      "propertyID": {
-        "@id": "schema:description"
       }
     }
   ]

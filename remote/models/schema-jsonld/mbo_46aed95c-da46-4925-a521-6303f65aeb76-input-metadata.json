@@ -12,24 +12,21 @@
           "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+          "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
         }
       ],
       "author": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
-        },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
@@ -39,6 +36,9 @@
         },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
         }
       ],
       "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -61,14 +61,14 @@
         "https://identifiers.org/ena.embl:PRJEB100988"
       ],
       "keywords": [
-        "prokaryotic",
-        "metabarcoding",
-        "environmental DNA",
-        "16S",
-        "16S rDNA",
+        "amplicon sequencing",
         "eDNA",
         "NEREA",
-        "amplicon sequencing"
+        "environmental DNA",
+        "metabarcoding",
+        "16S",
+        "16S rDNA",
+        "prokaryotic"
       ],
       "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
       "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
@@ -78,33 +78,17 @@
       "subjectOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata",
         "@type": [
-          "Dataset",
-          "https://w3id.org/marco-bolo/InputMetadataDescription"
+          "https://w3id.org/marco-bolo/InputMetadataDescription",
+          "Dataset"
         ],
         "about": {
           "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
         },
-        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
         "creator": {
           "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
         },
         "distribution": [
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
-            "@type": "DataDownload",
-            "about": {
-              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
-            },
-            "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
-            "creator": {
-              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-            },
-            "dateModified": "2026-09-11",
-            "encodesCreativeWork": {
-              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
-            },
-            "encodingFormat": "application/ld+json"
-          },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#csv",
             "@type": "DataDownload",
@@ -119,6 +103,22 @@
               "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
             },
             "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+            },
+            "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+            },
+            "dateModified": "2026-09-12",
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+            },
+            "encodingFormat": "application/ld+json"
           }
         ]
       },
@@ -140,8 +140,8 @@
         }
       },
       "@type": [
-        "Dataset",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "Dataset"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
@@ -151,24 +151,21 @@
             "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+            "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
           },
           {
-            "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+            "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
           }
         ],
         "author": [
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
-          },
-          {
-            "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
-          },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
@@ -178,6 +175,9 @@
           },
           {
             "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
           }
         ],
         "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -200,14 +200,14 @@
           "https://identifiers.org/ena.embl:PRJEB100988"
         ],
         "keywords": [
-          "prokaryotic",
-          "metabarcoding",
-          "environmental DNA",
-          "16S",
-          "16S rDNA",
+          "amplicon sequencing",
           "eDNA",
           "NEREA",
-          "amplicon sequencing"
+          "environmental DNA",
+          "metabarcoding",
+          "16S",
+          "16S rDNA",
+          "prokaryotic"
         ],
         "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
         "name": "MARCO-BOLO - Metadata 16S rDNA amplicon sequencing of NEREA environmental DNA samples",
@@ -227,32 +227,11 @@
           "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
         }
       },
-      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
       "distribution": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
-          "@reverse": {
-            "result": {
-              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-            }
-          },
-          "@type": "DataDownload",
-          "about": {
-            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
-          },
-          "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
-          "creator": {
-            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-          },
-          "dateModified": "2026-09-11",
-          "encodesCreativeWork": {
-            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
-          },
-          "encodingFormat": "application/ld+json"
-        },
         {
           "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#csv",
           "@reverse": {
@@ -272,6 +251,27 @@
             "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
           },
           "encodingFormat": "text/csv"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata#jsonld",
+          "@reverse": {
+            "result": {
+              "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+            }
+          },
+          "@type": "DataDownload",
+          "about": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76"
+          },
+          "contentUrl": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76",
+          "creator": {
+            "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+          },
+          "dateModified": "2026-09-12",
+          "encodesCreativeWork": {
+            "@id": "https://w3id.org/marco-bolo/mbo_46aed95c-da46-4925-a521-6303f65aeb76-input-metadata"
+          },
+          "encodingFormat": "application/ld+json"
         }
       ]
     }

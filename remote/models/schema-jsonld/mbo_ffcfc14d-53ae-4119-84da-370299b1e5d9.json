@@ -5,14 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ffcfc14d-53ae-4119-84da-370299b1e5d9",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 3.4 Contact",
-      "description": "Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity",
-      "email": "georgia.lavinia@gmail.com",
-      "name": "Georgia Arhire"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_ffcfc14d-53ae-4119-84da-370299b1e5d9#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -28,6 +20,14 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_55e4a940-3c75-4760-848f-bba5a024b9f4"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ffcfc14d-53ae-4119-84da-370299b1e5d9",
+      "@type": "ContactPoint",
+      "contactType": "Deliverable 3.4 Contact",
+      "description": "Contact for D3.4 - Effects of existing and future terrestrial and freshwater conservation areas on marine and coastal biodiversity",
+      "email": "georgia.lavinia@gmail.com",
+      "name": "Georgia Arhire"
     }
   ]
 }

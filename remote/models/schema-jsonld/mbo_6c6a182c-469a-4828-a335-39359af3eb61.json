@@ -5,19 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6c6a182c-469a-4828-a335-39359af3eb61",
-      "@type": "Person",
-      "familyName": "Masoudi",
-      "givenName": "Mojtaba",
-      "identifier": [
-        "https://oceanexpert.org/expert/59174",
-        "https://orcid.org/0000-0002-0007-0362"
-      ],
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_6c6a182c-469a-4828-a335-39359af3eb61#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6c6a182c-469a-4828-a335-39359af3eb61",
+      "@type": "Person",
+      "familyName": "Masoudi",
+      "givenName": "Mojtaba",
+      "identifier": [
+        "https://oceanexpert.org/expert/59174",
+        "https://orcid.org/0000-0002-0007-0362"
+      ],
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cdcbf8c0-f70c-4a75-9240-242899355e1b"
       }
     }
   ]

@@ -33,7 +33,7 @@
       "@value": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
   },
@@ -53,7 +53,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-11",
+      "dateModified": "2026-09-12",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_97759e39-db22-40d1-bbb8-2b27adfaa825-input-metadata"
       },

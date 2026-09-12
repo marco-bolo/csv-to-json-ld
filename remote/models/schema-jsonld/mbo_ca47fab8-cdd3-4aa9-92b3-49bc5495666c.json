@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ca47fab8-cdd3-4aa9-92b3-49bc5495666c",
+      "@type": "ResearchOrganization",
+      "legalName": "Minderoo Foundation",
+      "name": "Minderoo Foundation",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://ror.org/0289t9g81"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_ca47fab8-cdd3-4aa9-92b3-49bc5495666c#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -19,16 +29,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ca47fab8-cdd3-4aa9-92b3-49bc5495666c",
-      "@type": "ResearchOrganization",
-      "legalName": "Minderoo Foundation",
-      "name": "Minderoo Foundation",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://ror.org/0289t9g81"
       }
     }
   ]

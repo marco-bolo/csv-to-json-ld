@@ -10,8 +10,8 @@
       "familyName": "Haase",
       "givenName": "Peter",
       "identifier": [
-        "https://oceanexpert.org/expert/58615",
-        "https://orcid.org/0000-0002-9340-0438"
+        "https://orcid.org/0000-0002-9340-0438",
+        "https://oceanexpert.org/expert/58615"
       ],
       "worksFor": {
         "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
@@ -20,8 +20,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c94e3684-8241-4360-be6c-75347ea18b15"

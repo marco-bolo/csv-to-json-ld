@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d",
+      "@type": "HowTo",
+      "name": "T4.4 eDNA work: from RV",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d"
@@ -19,14 +27,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c8c75776-2884-45b9-b0b9-38087f638d5d",
-      "@type": "HowTo",
-      "name": "T4.4 eDNA work: from RV",
-      "step": {
-        "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
       }
     }
   ]

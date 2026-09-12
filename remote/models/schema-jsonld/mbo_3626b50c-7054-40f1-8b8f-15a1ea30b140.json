@@ -5,20 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_3626b50c-7054-40f1-8b8f-15a1ea30b140",
-      "@type": "PropertyValue",
-      "description": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/",
-      "name": "Nitrate N NO3-N",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
-      },
-      "unitText": "mg/l"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_3626b50c-7054-40f1-8b8f-15a1ea30b140#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3626b50c-7054-40f1-8b8f-15a1ea30b140"
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_3626b50c-7054-40f1-8b8f-15a1ea30b140",
+      "@type": "PropertyValue",
+      "description": "http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/",
+      "name": "Nitrate N NO3-N",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
     }
   ]
 }

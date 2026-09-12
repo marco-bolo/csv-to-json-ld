@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041",
+      "@type": "GeoShape",
+      "circle": "54.188333 7.9 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Helgoland Rede - fish"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041",
-      "@type": "GeoShape",
-      "circle": "54.188333 7.9 7500",
-      "description": "Sampling area in the Elbe - North Sea continuum",
-      "name": "Helgoland Rede - fish"
     }
   ]
 }

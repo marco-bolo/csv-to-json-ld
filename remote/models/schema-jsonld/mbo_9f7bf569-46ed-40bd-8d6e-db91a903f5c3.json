@@ -5,16 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9f7bf569-46ed-40bd-8d6e-db91a903f5c3",
-      "@type": "PropertyValue",
-      "description": "http://aims.fao.org/aos/agrovoc/c_72b79d57",
-      "name": "Chlorophyll a",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
-      },
-      "unitText": "µg/l"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9f7bf569-46ed-40bd-8d6e-db91a903f5c3#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9f7bf569-46ed-40bd-8d6e-db91a903f5c3",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_72b79d57",
+      "name": "Chlorophyll a",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+      },
+      "unitText": "µg/l"
     }
   ]
 }

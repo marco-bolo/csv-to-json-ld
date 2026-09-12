@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=69",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef",
       "@type": "CreateAction",
       "abstract": "Plan for Dissemination, Exploitation and Communication Activities",
@@ -39,6 +22,23 @@
       ],
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_e4b15954-807d-43b5-9752-dd4faf8230ef"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=69",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     }
   ]

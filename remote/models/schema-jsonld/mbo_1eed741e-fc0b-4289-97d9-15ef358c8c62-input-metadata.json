@@ -30,7 +30,7 @@
       "@value": "https://data.dtu.dk/ndownloader/articles/27694068/versions/3?folder_path=Multicam+Datasets+Videos"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -50,7 +50,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-11",
+      "dateModified": "2026-09-12",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_1eed741e-fc0b-4289-97d9-15ef358c8c62-input-metadata"
       },

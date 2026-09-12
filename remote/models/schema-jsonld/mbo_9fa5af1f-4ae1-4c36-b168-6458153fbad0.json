@@ -5,12 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0",
-      "@type": "Place",
-      "description": "http://marineregions.org/mrgid/33320",
-      "name": "Ospar regions"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0",
+      "@type": "Place",
+      "description": "http://marineregions.org/mrgid/33320",
+      "name": "Ospar regions"
     }
   ]
 }

@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fafdd330-eb75-4b18-b3a2-08693abebd40",
-      "@type": "ContactPoint",
-      "contactType": "Task 5.5 Contact",
-      "description": "Creation of reproducible analytical workflows and VRE deployment",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_fafdd330-eb75-4b18-b3a2-08693abebd40#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_b2e3f583-6522-45e7-bfb9-b2df6fc82b00"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fafdd330-eb75-4b18-b3a2-08693abebd40",
+      "@type": "ContactPoint",
+      "contactType": "Task 5.5 Contact",
+      "description": "Creation of reproducible analytical workflows and VRE deployment",
+      "name": "TBD"
     }
   ]
 }

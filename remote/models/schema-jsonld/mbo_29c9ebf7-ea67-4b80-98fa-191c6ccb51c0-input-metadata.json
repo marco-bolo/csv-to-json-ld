@@ -20,13 +20,13 @@
     "alternateName": "HORIZON-CL6-2022-BIODIV-01-01",
     "audience": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
@@ -65,16 +65,16 @@
     "schema:url": [
       {
         "@type": "URL",
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01, https://cordis.europa.eu/programme/id/HORIZON_HORIZON-CL6-2022-BIODIV-01-01"
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
       },
       {
         "@type": "URL",
-        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01"
+        "@value": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2022-biodiv-01-01, https://cordis.europa.eu/programme/id/HORIZON_HORIZON-CL6-2022-BIODIV-01-01"
       }
     ],
     "version": "2021-2022"
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -94,7 +94,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-11",
+      "dateModified": "2026-09-12",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0-input-metadata"
       },

@@ -5,23 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083",
-      "@type": "Person",
-      "contactPoint": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
-      },
-      "familyName": "Nowé",
-      "givenName": "Jo-Hannes",
-      "identifier": "https://orcid.org/0009-0000-1555-5867",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083"
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9610b8a3-b0da-42d7-b252-bcdb75529083",
+      "@type": "Person",
+      "contactPoint": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+      },
+      "familyName": "Nowé",
+      "givenName": "Jo-Hannes",
+      "identifier": "https://orcid.org/0009-0000-1555-5867",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
       }
     }
   ]

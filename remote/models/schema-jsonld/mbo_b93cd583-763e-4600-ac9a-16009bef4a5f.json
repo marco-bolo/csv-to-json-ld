@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b93cd583-763e-4600-ac9a-16009bef4a5f",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P09/current/FLRW/",
+      "name": "Fluoranthene",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+      },
+      "unitText": "ng/l"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b93cd583-763e-4600-ac9a-16009bef4a5f#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b93cd583-763e-4600-ac9a-16009bef4a5f",
-      "@type": "PropertyValue",
-      "description": "https://vocab.nerc.ac.uk/collection/P09/current/FLRW/",
-      "name": "Fluoranthene",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
-      },
-      "unitText": "ng/l"
     }
   ]
 }

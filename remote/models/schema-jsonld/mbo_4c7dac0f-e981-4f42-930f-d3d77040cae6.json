@@ -5,6 +5,13 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_4c7dac0f-e981-4f42-930f-d3d77040cae6",
+      "@type": "GeoShape",
+      "box": "-90 -180 90 180",
+      "description": "Bounding box for entire earth",
+      "name": "Global boundaries"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_4c7dac0f-e981-4f42-930f-d3d77040cae6#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_4c7dac0f-e981-4f42-930f-d3d77040cae6",
-      "@type": "GeoShape",
-      "box": "-90 -180 90 180",
-      "description": "Bounding box for entire earth",
-      "name": "Global boundaries"
     }
   ]
 }

@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3",
-      "@type": "DefinedTerm",
-      "description": "The dataset is currently under development or data collection is ongoing; it may be partially available but is not yet finalized.",
-      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
-      "termCode": "Incomplete"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3",
+      "@type": "DefinedTerm",
+      "description": "The dataset is currently under development or data collection is ongoing; it may be partially available but is not yet finalized.",
+      "inDefinedTermSet": "https://w3id.org/marco-bolo/mbo_todo_publishing_term_set",
+      "termCode": "Incomplete"
     }
   ]
 }

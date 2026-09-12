@@ -5,10 +5,20 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
+      "@type": "Vehicle",
+      "additionalProperty": "IMO 9622681",
+      "additionalType": {
+        "@id": "http://vocab.nerc.ac.uk/collection/L06/current/31"
+      },
+      "category": "research vessel",
+      "name": "Simon Stevin RV"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e",
-      "@type": "Vehicle",
-      "additionalProperty": "IMO 9622681",
-      "additionalType": {
-        "@id": "http://vocab.nerc.ac.uk/collection/L06/current/31"
-      },
-      "category": "research vessel",
-      "name": "Simon Stevin RV"
     }
   ]
 }

@@ -5,10 +5,22 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5",
+      "@type": "ResearchOrganization",
+      "alternateName": "LifeWatch",
+      "description": "European Research Infrastructure for biodiversity and ecosystem research",
+      "keywords": "biodiversity, e-science, ERIC, ecosystem research",
+      "legalName": "LifeWatch European Research Infrastructure Consortium",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "LifeWatch-ERIC"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
@@ -20,18 +32,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5",
-      "@type": "ResearchOrganization",
-      "alternateName": "LifeWatch",
-      "description": "European Research Infrastructure for biodiversity and ecosystem research",
-      "keywords": "biodiversity, e-science, ERIC, ecosystem research",
-      "legalName": "LifeWatch European Research Infrastructure Consortium",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "LifeWatch-ERIC"
     }
   ]
 }

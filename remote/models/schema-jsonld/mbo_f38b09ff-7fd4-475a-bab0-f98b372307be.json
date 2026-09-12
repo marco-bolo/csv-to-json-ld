@@ -5,16 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f38b09ff-7fd4-475a-bab0-f98b372307be",
-      "@type": "PropertyValue",
-      "description": "https://vocab.nerc.ac.uk/collection/P35/current/EPC00008/",
-      "name": "Silicate-Si",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
-      },
-      "unitText": "mg/l"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_f38b09ff-7fd4-475a-bab0-f98b372307be#input-metadata",
       "@type": [
         "DataDownload",
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f38b09ff-7fd4-475a-bab0-f98b372307be",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P35/current/EPC00008/",
+      "name": "Silicate-Si",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
     }
   ]
 }

@@ -5,19 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
-      },
-      "familyName": "Caruso",
-      "givenName": "Valerio",
-      "identifier": "https://orcid.org/0009-0000-8394-0142",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_eee5776d-a4c8-47b4-b8ff-541acbbc6145"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_035dfb7d-6c83-4385-90b7-0c372c4896ec",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      },
+      "familyName": "Caruso",
+      "givenName": "Valerio",
+      "identifier": "https://orcid.org/0009-0000-8394-0142",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
       }
     }
   ]

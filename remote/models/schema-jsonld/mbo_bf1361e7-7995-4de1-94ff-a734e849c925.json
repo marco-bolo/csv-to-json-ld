@@ -7,8 +7,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
@@ -30,8 +30,8 @@
       "familyName": "Iudicone",
       "givenName": "Daniele",
       "identifier": [
-        "https://oceanexpert.org/expert/59161",
-        "https://orcid.org/0000-0002-7473-394X"
+        "https://orcid.org/0000-0002-7473-394X",
+        "https://oceanexpert.org/expert/59161"
       ]
     }
   ]

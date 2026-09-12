@@ -18,10 +18,31 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Phylum",
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Genus",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Status",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
         }
       },
       {
@@ -32,10 +53,10 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#VerbatimTaxonRank",
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Phylum",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
         }
       },
       {
@@ -53,27 +74,6 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Genus",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Family",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#Status",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        }
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b#SpecificEpithet",
         "@type": "PropertyValue",
         "propertyID": {
@@ -86,32 +86,11 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata#jsonld",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_9bbf64ac-2520-486e-beef-3fb47c5708ff"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-      },
-      "dateModified": "2026-09-11",
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata"
-      },
-      "encodingFormat": "application/ld+json"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata#csv",
       "@reverse": {
@@ -131,6 +110,27 @@
         "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata"
       },
       "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9bbf64ac-2520-486e-beef-3fb47c5708ff"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": "2026-09-12",
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7381969a-4b0c-4387-a467-25014b5e486b-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
     }
   ]
 }

@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_5b072428-c364-493c-8b92-14a7e0a54497",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_bdc779f4",
+      "name": "Total N",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
+      },
+      "unitText": "mg/l"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_5b072428-c364-493c-8b92-14a7e0a54497#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_5b072428-c364-493c-8b92-14a7e0a54497",
-      "@type": "PropertyValue",
-      "description": "http://aims.fao.org/aos/agrovoc/c_bdc779f4",
-      "name": "Total N",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliGM-PER-L"
-      },
-      "unitText": "mg/l"
     }
   ]
 }

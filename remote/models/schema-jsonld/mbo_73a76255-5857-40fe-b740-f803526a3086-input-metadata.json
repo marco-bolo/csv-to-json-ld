@@ -10,18 +10,18 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086",
     "@type": "Person",
     "affiliation": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+        "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
       }
     ],
     "familyName": "Weitere",
@@ -34,7 +34,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7f5b5f8ddea73cd31083782283482b6dedf1b3b8",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
@@ -54,7 +54,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-11",
+      "dateModified": "2026-09-12",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086-input-metadata"
       },

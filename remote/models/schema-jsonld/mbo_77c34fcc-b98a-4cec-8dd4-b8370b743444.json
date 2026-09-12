@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_77c34fcc-b98a-4cec-8dd4-b8370b743444",
-      "@type": "Person",
-      "familyName": "Cudalbu",
-      "givenName": "Cristian",
-      "identifier": "https://oceanexpert.org/expert/38252"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_77c34fcc-b98a-4cec-8dd4-b8370b743444#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_77c34fcc-b98a-4cec-8dd4-b8370b743444"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_77c34fcc-b98a-4cec-8dd4-b8370b743444",
+      "@type": "Person",
+      "familyName": "Cudalbu",
+      "givenName": "Cristian",
+      "identifier": "https://oceanexpert.org/expert/38252"
     }
   ]
 }
