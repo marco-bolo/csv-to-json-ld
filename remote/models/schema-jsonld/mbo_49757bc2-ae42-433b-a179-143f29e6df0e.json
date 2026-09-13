@@ -5,19 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e",
-      "@type": "Person",
-      "affiliation": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-      },
-      "familyName": "Buongiorno Nardelli",
-      "givenName": "Bruno",
-      "identifier": "https://orcid.org/0000-0002-3416-7189",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e#input-metadata",
       "@type": [
         "DataDownload",
@@ -32,6 +19,19 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_f8d206a3-ae3b-416c-9f7c-22d1f3b15ef0"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_49757bc2-ae42-433b-a179-143f29e6df0e",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+      },
+      "familyName": "Buongiorno Nardelli",
+      "givenName": "Bruno",
+      "identifier": "https://orcid.org/0000-0002-3416-7189",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b3c4fb96-b26d-45cf-9855-ee83cc9ef743"
       }
     }
   ]

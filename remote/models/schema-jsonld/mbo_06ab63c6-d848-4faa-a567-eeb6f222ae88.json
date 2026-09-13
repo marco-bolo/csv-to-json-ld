@@ -5,20 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88",
-      "@type": "Place",
-      "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "55.761141"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "12.600487"
-      },
-      "name": "Danish EEZ Task 4.4 ROV multi-camera e"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88#input-metadata",
       "@type": [
         "DataDownload",
@@ -34,6 +20,20 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88",
+      "@type": "Place",
+      "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "55.761141"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "12.600487"
+      },
+      "name": "Danish EEZ Task 4.4 ROV multi-camera e"
     }
   ]
 }

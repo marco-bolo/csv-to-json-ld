@@ -5,16 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec74b25c-6228-469e-90b4-01cee6ce17c1",
-      "@type": "PropertyValue",
-      "description": "Essential Biodiversity Variable class covering primary productivity, phenology and disturbance regimes of ecosystems.",
-      "name": "Ecosystem Functioning"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_ec74b25c-6228-469e-90b4-01cee6ce17c1#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ec74b25c-6228-469e-90b4-01cee6ce17c1"
@@ -26,6 +20,12 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec74b25c-6228-469e-90b4-01cee6ce17c1",
+      "@type": "PropertyValue",
+      "description": "Essential Biodiversity Variable class covering primary productivity, phenology and disturbance regimes of ecosystems.",
+      "name": "Ecosystem Functioning"
     }
   ]
 }

@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_7cef560d-f14f-4f7f-a8bd-0f97ab30034e",
+      "@type": "PropertyValue",
+      "description": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
+      "name": "Electric Conductivity (20°C)",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/MilliS-PER-M"
+      },
+      "unitText": "mS/m"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_7cef560d-f14f-4f7f-a8bd-0f97ab30034e#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7cef560d-f14f-4f7f-a8bd-0f97ab30034e",
-      "@type": "PropertyValue",
-      "description": "http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/",
-      "name": "Electric Conductivity (20°C)",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/MilliS-PER-M"
-      },
-      "unitText": "mS/m"
     }
   ]
 }

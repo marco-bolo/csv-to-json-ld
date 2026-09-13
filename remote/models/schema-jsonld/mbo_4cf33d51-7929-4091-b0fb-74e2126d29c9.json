@@ -5,16 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4cf33d51-7929-4091-b0fb-74e2126d29c9",
-      "@type": "PropertyValue",
-      "description": "https://vocab.nerc.ac.uk/collection/S06/current/S0600281/",
-      "name": "pH",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/UNITLESS"
-      },
-      "unitText": "unitless"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_4cf33d51-7929-4091-b0fb-74e2126d29c9#input-metadata",
       "@type": [
         "DataDownload",
@@ -30,6 +20,16 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4cf33d51-7929-4091-b0fb-74e2126d29c9",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/S06/current/S0600281/",
+      "name": "pH",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/UNITLESS"
+      },
+      "unitText": "unitless"
     }
   ]
 }

@@ -5,10 +5,17 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3",
+      "@type": "GeoShape",
+      "circle": "54.5916667 8.39166667 7500",
+      "description": "Sampling area in the Elbe - North Sea continuum",
+      "name": "Südl. Amrum - fish"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3"
@@ -20,13 +27,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3f00fec4-d154-4bdc-8afb-9f17c284f2f3",
-      "@type": "GeoShape",
-      "circle": "54.5916667 8.39166667 7500",
-      "description": "Sampling area in the Elbe - North Sea continuum",
-      "name": "Südl. Amrum - fish"
     }
   ]
 }

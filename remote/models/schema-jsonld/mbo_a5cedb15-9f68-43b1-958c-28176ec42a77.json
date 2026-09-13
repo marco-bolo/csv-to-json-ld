@@ -5,17 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a5cedb15-9f68-43b1-958c-28176ec42a77",
-      "@type": "Person",
-      "familyName": "Rodrigues",
-      "givenName": "João",
-      "identifier": "https://oceanexpert.org/expert/35458"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_a5cedb15-9f68-43b1-958c-28176ec42a77#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_a5cedb15-9f68-43b1-958c-28176ec42a77"
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a5cedb15-9f68-43b1-958c-28176ec42a77",
+      "@type": "Person",
+      "familyName": "Rodrigues",
+      "givenName": "João",
+      "identifier": "https://oceanexpert.org/expert/35458"
     }
   ]
 }

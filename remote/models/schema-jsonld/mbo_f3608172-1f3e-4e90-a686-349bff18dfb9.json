@@ -5,6 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_f3608172-1f3e-4e90-a686-349bff18dfb9",
+      "@type": "PropertyValue",
+      "description": "http://purl.dataone.org/odo/ECSO_00001786",
+      "name": "Lead and its compounds (Pb)",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+      },
+      "unitText": "ng/l"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_f3608172-1f3e-4e90-a686-349bff18dfb9#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,16 +30,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f3608172-1f3e-4e90-a686-349bff18dfb9",
-      "@type": "PropertyValue",
-      "description": "http://purl.dataone.org/odo/ECSO_00001786",
-      "name": "Lead and its compounds (Pb)",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
-      },
-      "unitText": "ng/l"
     }
   ]
 }

@@ -5,6 +5,14 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5ba7ac3-dbc1-4e3f-a730-d43cb328ad11",
+      "@type": "ContactPoint",
+      "contactType": "Task 6.3 Contact",
+      "description": "Knowledge transfer, capacity building and exploitation of MBO results",
+      "email": "kate.larkin@seascapebelgium.be",
+      "name": "Kate Larkin"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5ba7ac3-dbc1-4e3f-a730-d43cb328ad11#input-metadata",
       "@type": [
         "DataDownload",
@@ -20,14 +28,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_37b8c03f-3cae-4f09-874f-965f60ce8f24"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5ba7ac3-dbc1-4e3f-a730-d43cb328ad11",
-      "@type": "ContactPoint",
-      "contactType": "Task 6.3 Contact",
-      "description": "Knowledge transfer, capacity building and exploitation of MBO results",
-      "email": "kate.larkin@seascapebelgium.be",
-      "name": "Kate Larkin"
     }
   ]
 }

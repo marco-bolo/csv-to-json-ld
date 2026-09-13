@@ -34,10 +34,10 @@
         "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
+        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+        "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
@@ -60,15 +60,15 @@
       "Deliverable D1.1"
     ],
     "keywords": [
+      "EBV",
       "JSON-LD",
-      "linked open data",
-      "persistent identifiers",
-      "FAIR",
       "EOV",
       "metadata",
-      "EBV",
+      "persistent identifiers",
+      "data management",
+      "linked open data",
       "marine biodiversity",
-      "data management"
+      "FAIR"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",
@@ -90,7 +90,7 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ec774805a95a6ad983d02bca519ddb98f8c7afdc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -110,7 +110,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-12",
+      "dateModified": "2026-09-13",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
       },

@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_85299a58-c230-4152-97fa-e126197b622c",
@@ -30,7 +30,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_85299a58-c230-4152-97fa-e126197b622c-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5debdcf065add4af87f904cb263bf8b665fdacc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ec774805a95a6ad983d02bca519ddb98f8c7afdc",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
   },
@@ -50,7 +50,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-12",
+      "dateModified": "2026-09-13",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_85299a58-c230-4152-97fa-e126197b622c-input-metadata"
       },
