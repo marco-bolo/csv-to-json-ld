@@ -18,24 +18,10 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Order",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
-        }
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Status",
         "@type": "PropertyValue",
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Family",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
         }
       },
       {
@@ -46,17 +32,17 @@
         }
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#SpecificEpithet",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-        }
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Phylum",
         "@type": "PropertyValue",
         "propertyID": {
           "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#SpecificEpithet",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
         }
       },
       {
@@ -75,6 +61,20 @@
         "value": "Phocoena phocoena"
       },
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Order",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Family",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
+        }
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Kingdom",
         "@type": "PropertyValue",
         "propertyID": {
@@ -90,7 +90,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ec774805a95a6ad983d02bca519ddb98f8c7afdc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fd8d84942765b81b39895a04a510167523a5545b",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -130,7 +130,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-13",
+      "dateModified": "2026-09-14",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3-input-metadata"
       },

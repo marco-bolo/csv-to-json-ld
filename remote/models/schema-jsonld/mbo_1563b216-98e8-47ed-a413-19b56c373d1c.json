@@ -5,28 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c",
-      "@type": "Person",
-      "contactPoint": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_b17501aa-5df4-41ac-9599-d72f51182472"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
-        }
-      ],
-      "familyName": "Mariani",
-      "givenName": "Patrizio",
-      "identifier": "https://orcid.org/0000-0002-8015-1583",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
@@ -37,6 +19,24 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c",
+      "@type": "Person",
+      "contactPoint": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_02f550e4-55cb-4010-b89f-a954b1c3800c"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b17501aa-5df4-41ac-9599-d72f51182472"
+        }
+      ],
+      "familyName": "Mariani",
+      "givenName": "Patrizio",
+      "identifier": "https://orcid.org/0000-0002-8015-1583",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1e701002-7c44-456d-a42d-16ea57f3e1ae"
       }
     }
   ]

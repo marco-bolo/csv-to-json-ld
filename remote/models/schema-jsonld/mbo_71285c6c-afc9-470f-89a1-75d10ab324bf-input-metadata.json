@@ -10,28 +10,20 @@
     }
   },
   "@type": [
-    "Dataset",
-    "https://w3id.org/marco-bolo/InputMetadataDescription"
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf",
     "@type": "Taxon",
     "additionalProperty": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#SpecificEpithet",
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
         },
-        "value": "encrasicolus"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Family",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
-        },
-        "value": "Engraulidae"
+        "value": "Animalia"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#VerbatimTaxonRank",
@@ -42,12 +34,12 @@
         "value": "species"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Kingdom",
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Genus",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
         },
-        "value": "Animalia"
+        "value": "Engraulis"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Status",
@@ -58,20 +50,20 @@
         "value": "accepted"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order",
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Family",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
         },
-        "value": "Clupeiformes"
+        "value": "Engraulidae"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Genus",
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
+          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
         },
-        "value": "Engraulis"
+        "value": "Chordata"
       },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#ScientificName",
@@ -82,12 +74,20 @@
         "value": "Engraulis encrasicolus"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Phylum",
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#SpecificEpithet",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
         },
-        "value": "Chordata"
+        "value": "encrasicolus"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf#Order",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
+        },
+        "value": "Clupeiformes"
       }
     ],
     "identifier": [
@@ -101,7 +101,7 @@
       "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ec774805a95a6ad983d02bca519ddb98f8c7afdc",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fd8d84942765b81b39895a04a510167523a5545b",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -121,7 +121,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-13",
+      "dateModified": "2026-09-14",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_71285c6c-afc9-470f-89a1-75d10ab324bf-input-metadata"
       },

@@ -19,8 +19,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_099057bc-96fc-40b1-b159-6886e34a8906#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_099057bc-96fc-40b1-b159-6886e34a8906"

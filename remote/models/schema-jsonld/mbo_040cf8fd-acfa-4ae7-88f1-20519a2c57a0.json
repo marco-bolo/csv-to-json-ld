@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_040cf8fd-acfa-4ae7-88f1-20519a2c57a0",
-      "@type": "Place",
-      "description": "Estonian Exclusive Economic Zone (MRGID:5675). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
-      "geo": {
-        "@id": "https://w3id.org/marco-bolo/mbo_22d76493-71aa-450a-899f-1ca6bbca6eee"
-      },
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "58.77012"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "23.00232"
-      },
-      "name": "Estonian EEZ"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_040cf8fd-acfa-4ae7-88f1-20519a2c57a0#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -37,6 +20,23 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_040cf8fd-acfa-4ae7-88f1-20519a2c57a0",
+      "@type": "Place",
+      "description": "Estonian Exclusive Economic Zone (MRGID:5675). Flanders Marine Institute (2025): MarineRegions.org. Available online at www.marineregions.org. Consulted on 2025-10-02.",
+      "geo": {
+        "@id": "https://w3id.org/marco-bolo/mbo_22d76493-71aa-450a-899f-1ca6bbca6eee"
+      },
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "58.77012"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "23.00232"
+      },
+      "name": "Estonian EEZ"
     }
   ]
 }
