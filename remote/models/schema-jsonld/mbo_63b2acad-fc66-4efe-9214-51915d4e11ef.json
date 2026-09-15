@@ -5,10 +5,16 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef",
+      "@type": "PropertyValue",
+      "description": "Output of an Echosounder",
+      "name": "Echogram"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef"
@@ -20,12 +26,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_63b2acad-fc66-4efe-9214-51915d4e11ef",
-      "@type": "PropertyValue",
-      "description": "Output of an Echosounder",
-      "name": "Echogram"
     }
   ]
 }

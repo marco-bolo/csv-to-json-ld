@@ -5,23 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=4",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0",
       "@type": "CreateAction",
       "abstract": "T4.4 seatrial event: FPOD sensors",
@@ -38,6 +21,23 @@
       },
       "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_aa899d50-9990-456b-b7b5-d774076ada8d"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000004#row=4",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
       }
     }
   ]

@@ -18,6 +18,44 @@
     "@type": "Taxon",
     "additionalProperty": [
       {
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#SpecificEpithet",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        }
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        },
+        "value": "accepted"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#ScientificName",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        },
+        "value": "Cetacea"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Order",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/order"
+        },
+        "value": "Cetartiodactyla"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
+        "@type": "PropertyValue",
+        "propertyID": {
+          "@id": "http://rs.tdwg.org/dwc/terms/family"
+        }
+      },
+      {
         "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Kingdom",
         "@type": "PropertyValue",
         "propertyID": {
@@ -34,10 +72,10 @@
         "value": "infraorder"
       },
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
+        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Genus",
         "@type": "PropertyValue",
         "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/family"
+          "@id": "http://rs.tdwg.org/dwc/terms/genus"
         }
       },
       {
@@ -47,58 +85,20 @@
           "@id": "http://rs.tdwg.org/dwc/terms/phylum"
         },
         "value": "Chordata"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-        },
-        "value": "accepted"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Order",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/order"
-        },
-        "value": "Cetartiodactyla"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#SpecificEpithet",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Genus",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/genus"
-        }
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#ScientificName",
-        "@type": "PropertyValue",
-        "propertyID": {
-          "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-        },
-        "value": "Cetacea"
       }
     ],
     "identifier": [
+      "worms:2688",
       {
         "@id": "urn:lsid:marinespecies.org:taxname:2688"
-      },
-      "worms:2688"
+      }
     ],
     "name": "Cetaceans",
     "subjectOf": {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635-input-metadata"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fd8d84942765b81b39895a04a510167523a5545b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -118,7 +118,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-14",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635-input-metadata"
       },

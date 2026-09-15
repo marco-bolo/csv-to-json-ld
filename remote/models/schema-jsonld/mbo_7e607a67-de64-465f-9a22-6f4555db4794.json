@@ -5,13 +5,6 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7e607a67-de64-465f-9a22-6f4555db4794",
-      "@type": "ContactPoint",
-      "contactType": "Task 7.3 Contact",
-      "description": "Citizen Engagement and Public Outreach",
-      "name": "TBD"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_7e607a67-de64-465f-9a22-6f4555db4794#input-metadata",
       "@type": [
         "https://w3id.org/marco-bolo/InputMetadataDescription",
@@ -27,6 +20,13 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_ec116ed7-848a-417d-ad6d-b5f54bc49262"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7e607a67-de64-465f-9a22-6f4555db4794",
+      "@type": "ContactPoint",
+      "contactType": "Task 7.3 Contact",
+      "description": "Citizen Engagement and Public Outreach",
+      "name": "TBD"
     }
   ]
 }

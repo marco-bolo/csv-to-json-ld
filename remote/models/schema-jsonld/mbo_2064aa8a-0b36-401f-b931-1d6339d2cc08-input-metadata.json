@@ -33,12 +33,12 @@
     "identifier": "doi:10.5281/zenodo.17236878",
     "keywords": [
       "co-design workshop",
-      "AI",
-      "stakeholder engagement",
+      "Community of Practice",
+      "presentation slides",
       "MBO WP6",
       "eDNA",
-      "Community of Practice",
-      "presentation slides"
+      "AI",
+      "stakeholder engagement"
     ],
     "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
     "name": "MARCO-BOLO 2nd Co-Design Workshop - presentations",
@@ -56,7 +56,7 @@
       }
     ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fd8d84942765b81b39895a04a510167523a5545b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -76,7 +76,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-14",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08-input-metadata"
       },

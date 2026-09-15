@@ -5,10 +5,18 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c73b7105-ba32-4705-b974-8961f50562ed",
+      "@type": "PropertyValue",
+      "name": "Simpson diversity index",
+      "propertyID": {
+        "@id": "http://purl.obolibrary.org/obo/PCO_0000063"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c73b7105-ba32-4705-b974-8961f50562ed#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c73b7105-ba32-4705-b974-8961f50562ed"
@@ -19,14 +27,6 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c73b7105-ba32-4705-b974-8961f50562ed",
-      "@type": "PropertyValue",
-      "name": "Simpson diversity index",
-      "propertyID": {
-        "@id": "http://purl.obolibrary.org/obo/PCO_0000063"
       }
     }
   ]

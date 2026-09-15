@@ -14,10 +14,10 @@
       "name": "MARCO-BOLO Deliverable 5.4",
       "participant": [
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+          "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
         },
         {
-          "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+          "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
         }
       ],
       "result": {
@@ -27,8 +27,8 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9c40834c-7f71-4240-a7ed-82fff90cf7e6#input-metadata",
       "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9c40834c-7f71-4240-a7ed-82fff90cf7e6"

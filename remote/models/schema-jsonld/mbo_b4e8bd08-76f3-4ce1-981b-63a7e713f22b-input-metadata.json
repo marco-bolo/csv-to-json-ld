@@ -10,8 +10,8 @@
     }
   },
   "@type": [
-    "https://w3id.org/marco-bolo/InputMetadataDescription",
-    "Dataset"
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
   ],
   "about": {
     "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b",
@@ -38,7 +38,7 @@
       "@value": "https://gtr.ukri.org/projects?ref=10068180"
     }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fd8d84942765b81b39895a04a510167523a5545b",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
   },
@@ -78,7 +78,7 @@
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-14",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_b4e8bd08-76f3-4ce1-981b-63a7e713f22b-input-metadata"
       },

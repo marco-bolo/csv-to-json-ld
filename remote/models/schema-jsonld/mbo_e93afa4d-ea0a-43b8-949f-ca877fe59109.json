@@ -5,10 +5,19 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
+      "@type": "ContactPoint",
+      "availableLanguage": "en",
+      "contactType": "Deliverable 4.4 Contact",
+      "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
+      "email": "carlota.muniz@vliz.be",
+      "name": "Carlota Muniz"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109"
@@ -20,15 +29,6 @@
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_85f3d8d7-d090-41fa-a879-758346a52fc5"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_e93afa4d-ea0a-43b8-949f-ca877fe59109",
-      "@type": "ContactPoint",
-      "availableLanguage": "en",
-      "contactType": "Deliverable 4.4 Contact",
-      "description": "Contact for D4.4 - Data processing, validation, transmission and dissemination proven in combination with traditional biodiversity observations",
-      "email": "carlota.muniz@vliz.be",
-      "name": "Carlota Muniz"
     }
   ]
 }

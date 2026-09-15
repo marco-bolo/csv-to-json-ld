@@ -5,19 +5,10 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09",
-      "@type": "Person",
-      "familyName": "Fernandez",
-      "givenName": "Vicente",
-      "worksFor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09#input-metadata",
       "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09"
@@ -28,6 +19,15 @@
       },
       "https://w3id.org/marco-bolo/isResultOf": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09",
+      "@type": "Person",
+      "familyName": "Fernandez",
+      "givenName": "Vicente",
+      "worksFor": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7b628ea2-2d91-45a1-95b2-c90d3444abd6"
       }
     }
   ]
