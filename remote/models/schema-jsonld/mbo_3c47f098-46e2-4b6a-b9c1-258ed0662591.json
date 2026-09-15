@@ -1,42 +1,112 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=32",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591",
+  "@type": "Place",
+  "description": "The location of the echo-sounder used in the Task 4.4 sea trial",
+  "geo": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b"
+  },
+  "latitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "51.40645"
+  },
+  "longitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "2.8185"
+  },
+  "name": "Belgium EEZ Task 4.4 echo-sounder",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591",
-      "@type": "Place",
-      "description": "The location of the echo-sounder used in the Task 4.4 sea trial",
-      "geo": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8636f3af-e42f-411e-b464-449a4e39596b"
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       },
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "51.40645"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "2.8185"
-      },
-      "name": "Belgium EEZ Task 4.4 echo-sounder"
-    }
-  ]
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=32"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_3c47f098-46e2-4b6a-b9c1-258ed0662591-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

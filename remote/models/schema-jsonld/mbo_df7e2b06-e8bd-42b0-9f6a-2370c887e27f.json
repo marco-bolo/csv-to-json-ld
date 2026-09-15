@@ -1,35 +1,105 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f",
-      "@type": "CreativeWork",
-      "description": "European Union Public License version 1.2, the current version of the EU's copyleft software license with improved compatibility and clarity (FSF and OSI approved).",
-      "name": "European Union Public License 1.2",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://spdx.org/licenses/EUPL-1.2"
-      }
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000016#row=3",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f",
+  "@type": "CreativeWork",
+  "description": "European Union Public License version 1.2, the current version of the EU's copyleft software license with improved compatibility and clarity (FSF and OSI approved).",
+  "name": "European Union Public License 1.2",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
-    }
-  ]
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000016#row=3"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_df7e2b06-e8bd-42b0-9f6a-2370c887e27f-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  },
+  "url": {
+    "@type": "URL",
+    "@value": "https://spdx.org/licenses/EUPL-1.2"
+  }
 }

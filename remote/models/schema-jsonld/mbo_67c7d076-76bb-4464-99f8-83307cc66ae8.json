@@ -1,35 +1,105 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000025#row=2",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8",
+  "@type": "SoftwareSourceCode",
+  "codeRepository": {
+    "@type": "URL",
+    "@value": "https://github.com/lifewatch/habitat_suitability_model/tree/main"
+  },
+  "description": "R johannes's code which then fed the LW VRE code",
+  "name": "Habitat suitability model",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8",
-      "@type": "SoftwareSourceCode",
-      "schema:codeRepository": {
-        "@type": "URL",
-        "@value": "https://github.com/lifewatch/habitat_suitability_model/tree/main"
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       },
-      "description": "R johannes's code which then fed the LW VRE code",
-      "name": "Habitat suitability model"
-    }
-  ]
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_b22fea99-0291-416a-817b-49ed56d78dd8"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000025#row=2"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_67c7d076-76bb-4464-99f8-83307cc66ae8-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

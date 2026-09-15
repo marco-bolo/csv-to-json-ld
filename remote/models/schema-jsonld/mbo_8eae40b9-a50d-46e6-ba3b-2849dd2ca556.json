@@ -1,36 +1,106 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
-      "@type": "Thing",
-      "description": "NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support",
-      "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
-      "name": "Multi-camera system",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp"
-      }
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000028#row=5",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556",
+  "@type": "Thing",
+  "description": "NileCAM25 - Full HD GMSL2 Global Shutter color camera with 15m cable support",
+  "isPartOf": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4",
+  "name": "Multi-camera system",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
       }
-    }
-  ]
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000028#row=5"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_8eae40b9-a50d-46e6-ba3b-2849dd2ca556-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  },
+  "url": {
+    "@type": "URL",
+    "@value": "https://www.e-consystems.com/camera-modules/ar0234-global-shutter-gmsl-camera-module.asp"
+  }
 }

@@ -1,33 +1,103 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=42",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
+  "@type": "ContactPoint",
+  "contactType": "Deliverable 4.3 Contact",
+  "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
+  "email": "torralba@us.es",
+  "name": "Antonio Torralba Silgado",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585",
-      "@type": "ContactPoint",
-      "contactType": "Deliverable 4.3 Contact",
-      "description": "Contact for D4.3 - Sensor data transmission protocols and methods for different biodiversity attributes",
-      "email": "torralba@us.es",
-      "name": "Antonio Torralba Silgado"
-    }
-  ]
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_cd54a32b-1846-4a8a-918a-2cfa390291ad"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=42"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_59370f32-790e-48a5-87a3-4cc9ec391585-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

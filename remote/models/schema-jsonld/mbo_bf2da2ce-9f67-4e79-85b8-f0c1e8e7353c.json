@@ -1,32 +1,102 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
-      "@type": "ContactPoint",
-      "contactType": "Task 5.1.2 Contact",
-      "description": "Detection and analyses of biodiversity trends",
-      "name": "Jo-Hannes Nowé"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=58",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c",
+  "@type": "ContactPoint",
+  "contactType": "Task 5.1.2 Contact",
+  "description": "Detection and analyses of biodiversity trends",
+  "name": "Jo-Hannes Nowé",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
       }
-    }
-  ]
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=58"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf2da2ce-9f67-4e79-85b8-f0c1e8e7353c-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

@@ -1,39 +1,109 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=35",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555",
+  "@type": "Place",
+  "description": "The location of the ROV low-light camera work during the Task 4.4 sea trial",
+  "latitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "51.407058"
+  },
+  "longitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "2.818065"
+  },
+  "name": "Belgian EEZ Task 4.4 ROV low light camera",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555",
-      "@type": "Place",
-      "description": "The location of the ROV low-light camera work during the Task 4.4 sea trial",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "51.407058"
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "2.818065"
-      },
-      "name": "Belgian EEZ Task 4.4 ROV low light camera"
-    }
-  ]
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=35"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_dafc4d81-67a4-4fae-8132-fe073b236555-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

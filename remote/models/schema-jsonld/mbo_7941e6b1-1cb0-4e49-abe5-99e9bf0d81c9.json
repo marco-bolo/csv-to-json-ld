@@ -1,39 +1,109 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9",
-      "@type": "Place",
-      "description": "Sampling station in the Elbe - North Sea continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "52.06741959"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "11.679057"
-      },
-      "name": "Magdeburg / Tangermuende"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=47",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9",
+  "@type": "Place",
+  "description": "Sampling station in the Elbe - North Sea continuum",
+  "latitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "52.06741959"
+  },
+  "longitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "11.679057"
+  },
+  "name": "Magdeburg / Tangermuende",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
-    }
-  ]
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=47"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7941e6b1-1cb0-4e49-abe5-99e9bf0d81c9-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

@@ -1,39 +1,109 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=96",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545",
+  "@type": "Place",
+  "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
+  "latitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "36.892713"
+  },
+  "longitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "-6.259377"
+  },
+  "name": "Esparraguera",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545",
-      "@type": "Place",
-      "description": "Sampling station in the Guadalquivir - Atlantic Ocean continuum",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "36.892713"
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "-6.259377"
-      },
-      "name": "Esparraguera"
-    }
-  ]
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=96"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_f2471954-55fe-4aaf-9ed8-b417c989f545-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

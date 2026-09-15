@@ -1,21 +1,43 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca",
+  "@type": "Taxon",
+  "additionalProperty": [
     {
       "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     },
     {
@@ -27,54 +49,10 @@
       "value": "Phoca vitulina"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#SpecificEpithet"
-        }
-      ],
-      "identifier": {
-        "@id": "urn:lsid:marinespecies.org:taxname:137084"
-      },
-      "name": "bottlenose dolphin"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     },
     {
@@ -85,17 +63,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
@@ -106,21 +84,86 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000026#row=19",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     }
-  ]
+  ],
+  "identifier": {
+    "@id": "urn:lsid:marinespecies.org:taxname:137084"
+  },
+  "name": "bottlenose dolphin",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000026#row=19"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

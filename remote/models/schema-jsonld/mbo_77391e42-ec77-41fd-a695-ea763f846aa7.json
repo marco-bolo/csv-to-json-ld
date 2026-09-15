@@ -1,44 +1,114 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7",
-      "@type": "Dataset",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
-      },
-      "description": "AI processed imaging time series data from the ZooScan for the Belgian Part of the North Sea",
-      "name": "WP5 T5.2 Query: BPNS Marine Zooplankton Time Series Imaging Dataset",
-      "spatialCoverage": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
-      },
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://doi.org/10.14284/775"
-      },
-      "variableMeasured": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
-      }
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=39",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7",
+  "@type": "Dataset",
+  "about": {
+    "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
+  },
+  "description": "AI processed imaging time series data from the ZooScan for the Belgian Part of the North Sea",
+  "name": "WP5 T5.2 Query: BPNS Marine Zooplankton Time Series Imaging Dataset",
+  "spatialCoverage": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+  },
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
       }
-    }
-  ]
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=39"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_677375a9-1989-4915-812e-8ad675abb73d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_77391e42-ec77-41fd-a695-ea763f846aa7-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  },
+  "url": {
+    "@type": "URL",
+    "@value": "https://doi.org/10.14284/775"
+  },
+  "variableMeasured": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+  }
 }

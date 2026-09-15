@@ -1,39 +1,109 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3",
-      "@type": "Place",
-      "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
-      "latitude": {
-        "@type": "xsd:decimal",
-        "@value": "55.721743"
-      },
-      "longitude": {
-        "@type": "xsd:decimal",
-        "@value": "12.680951"
-      },
-      "name": "Danish EEZ Task 4.4 ROV multi-camera d"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=39",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3",
+  "@type": "Place",
+  "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+  "latitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "55.721743"
+  },
+  "longitude": {
+    "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value": "12.680951"
+  },
+  "name": "Danish EEZ Task 4.4 ROV multi-camera d",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
       }
-    }
-  ]
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=39"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  }
 }

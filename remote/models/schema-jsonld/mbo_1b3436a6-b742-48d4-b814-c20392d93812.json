@@ -1,46 +1,116 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=26",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812",
+  "@type": "GovernmentOrganization",
+  "alternateName": "Ocean Biodiversity Information System",
+  "contactPoint": {
+    "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b"
+  },
+  "description": "The Ocean Biodiversity Information System (OBIS) is a global open-access data platform that provides information on the distribution and abundance of marine life. Operating as a program under UNESCO's Intergovernmental Oceanographic Commission (IOC-UNESCO), OBIS integrates biodiversity data from over 30 regional and thematic nodes worldwide, making millions of marine species occurrence records freely available for research, conservation, and sustainable ocean management.",
+  "foundingDate": "2000",
+  "identifier": "https://ror.org/00d21gf72",
+  "keywords": "OBIS, Biodiversity, UNESCO",
+  "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
+  "memberOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "name": "OBIS",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812",
-      "@type": "GovernmentOrganization",
-      "alternateName": "Ocean Biodiversity Information System",
-      "contactPoint": {
-        "@id": "https://w3id.org/marco-bolo/mbo_b78b3ced-cfa2-4d70-85b2-7d1be685d75b"
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000018#row=26"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812-input-metadata"
+        },
+        "encodingFormat": "text/csv"
       },
-      "description": "The Ocean Biodiversity Information System (OBIS) is a global open-access data platform that provides information on the distribution and abundance of marine life. Operating as a program under UNESCO's Intergovernmental Oceanographic Commission (IOC-UNESCO), OBIS integrates biodiversity data from over 30 regional and thematic nodes worldwide, making millions of marine species occurrence records freely available for research, conservation, and sustainable ocean management.",
-      "schema:foundingDate": "2000",
-      "identifier": "https://ror.org/00d21gf72",
-      "keywords": "OBIS, Biodiversity, UNESCO",
-      "legalName": "Intergovernmental Oceanographic Commission of UNESCO",
-      "memberOf": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "name": "OBIS",
-      "schema:url": {
-        "@type": "URL",
-        "@value": "https://obis.org/"
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_1b3436a6-b742-48d4-b814-c20392d93812-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       }
-    }
-  ]
+    ]
+  },
+  "url": {
+    "@type": "URL",
+    "@value": "https://obis.org/"
+  }
 }

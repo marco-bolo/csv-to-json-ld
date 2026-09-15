@@ -1,35 +1,105 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
   },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e#input-metadata",
-      "@type": [
-        "DataDownload",
-        "https://w3id.org/marco-bolo/InputMetadataDescription"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=86",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+  "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e",
+  "@type": "PropertyValue",
+  "description": "http://purl.dataone.org/odo/ECSO_00002242",
+  "name": "Mercury and its compounds (Hg)",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e",
-      "@type": "PropertyValue",
-      "description": "http://purl.dataone.org/odo/ECSO_00002242",
-      "name": "Mercury and its compounds (Hg)",
-      "unitCode": {
-        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000021#row=86"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e-input-metadata"
+        },
+        "encodingFormat": "text/csv"
       },
-      "unitText": "ng/l"
-    }
-  ]
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_25728109-bf4c-4de6-88d6-ab841595cb5e-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  },
+  "unitCode": {
+    "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+  },
+  "unitText": "ng/l"
 }

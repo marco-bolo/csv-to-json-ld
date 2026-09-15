@@ -1,63 +1,133 @@
 {
   "@context": {
-    "@import": "https://schema.org/",
-    "schema": "https://schema.org/"
-  },
-  "@graph": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
-      "@type": "DigitalDocument",
-      "abstract": "Slide decks from the first mobilisation of MARCO-BOLO's Community of Practice (CoP), representing both generators and users of marine biodiversity data, products, and services in the EU and beyond. The event brought together over 70 experts and stakeholders to begin the co-design process by introducing the project and providing a platform for policymakers to present their needs and perspectives. The event encouraged the broader biodiversity community to test, use and adopt the MARCO-BOLO Data Management Plan, project outputs, Essential Ocean Variables (EOVs) and Essential Biodiversity Variables (EBVs) for reporting to MSFD and other EU and international legal frameworks. Seagrass coverage and composition were presented as a tangible use case to showcase the complete data pipeline from observations to reporting. The event targeted policymakers at national, regional and EU levels, including the European Commission, Regional Sea Conventions, national representatives responsible for marine-directive reporting, the GOOS BioEco Panel, and the wider biodiversity monitoring, observation and scientific community.",
-      "author": {
-        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-      },
-      "availableLanguage": "en",
-      "contributor": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
-      },
-      "creativeWorkStatus": {
-        "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
-      },
-      "schema:dateCreated": "2024-05",
-      "schema:datePublished": "2024-05",
-      "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
-      "identifier": "doi:10.5281/zenodo.17236790",
-      "keywords": [
-        "presentation slides",
-        "Community of Practice",
-        "MBO WP6",
-        "co-design workshop",
-        "stakeholder engagement"
-      ],
-      "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
-      "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
-      "schema:url": [
-        {
-          "@type": "URL",
-          "@value": "https://zenodo.org/records/17236790"
-        },
-        {
-          "@type": "URL",
-          "@value": "https://doi.org/10.5281/zenodo.17236790"
-        }
-      ]
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
     },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d#input-metadata",
-      "@type": [
-        "https://w3id.org/marco-bolo/InputMetadataDescription",
-        "DataDownload"
-      ],
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
-      },
-      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=31",
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "https://w3id.org/marco-bolo/isResultOf": {
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d",
+  "@type": "DigitalDocument",
+  "abstract": "Slide decks from the first mobilisation of MARCO-BOLO's Community of Practice (CoP), representing both generators and users of marine biodiversity data, products, and services in the EU and beyond. The event brought together over 70 experts and stakeholders to begin the co-design process by introducing the project and providing a platform for policymakers to present their needs and perspectives. The event encouraged the broader biodiversity community to test, use and adopt the MARCO-BOLO Data Management Plan, project outputs, Essential Ocean Variables (EOVs) and Essential Biodiversity Variables (EBVs) for reporting to MSFD and other EU and international legal frameworks. Seagrass coverage and composition were presented as a tangible use case to showcase the complete data pipeline from observations to reporting. The event targeted policymakers at national, regional and EU levels, including the European Commission, Regional Sea Conventions, national representatives responsible for marine-directive reporting, the GOOS BioEco Panel, and the wider biodiversity monitoring, observation and scientific community.",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+  },
+  "availableLanguage": "en",
+  "contributor": {
+    "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+  },
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "dateCreated": "2024-05",
+  "datePublished": "2024-05",
+  "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
+  "identifier": "doi:10.5281/zenodo.17236790",
+  "keywords": [
+    "stakeholder engagement",
+    "co-design workshop",
+    "Community of Practice",
+    "presentation slides",
+    "MBO WP6"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "MARCO-BOLO 1st CoP and 1st Co-Design Workshop - presentations",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata",
+    "@reverse": {
+      "result": {
         "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
       }
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-15"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=31"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      }
+    ]
+  },
+  "url": [
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17236790"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/17236790"
     }
   ]
 }
