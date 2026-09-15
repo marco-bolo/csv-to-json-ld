@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_68c46714-aca2-4c68-a48d-b8620580d516",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P01/current/RWS00047/",
+      "name": "gamma-Hexachlorocyclohexane",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NanoGM-PER-L"
+      },
+      "unitText": "ng/l"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_68c46714-aca2-4c68-a48d-b8620580d516#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_68c46714-aca2-4c68-a48d-b8620580d516"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=83",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
+}

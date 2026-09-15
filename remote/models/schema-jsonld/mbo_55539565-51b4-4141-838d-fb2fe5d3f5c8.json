@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8",
-  "@type": "PropertyValue",
-  "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (Prokaryotes (16S rRNA))",
-  "name": "Sequences: Prokaryotes (16S rRNA)",
-  "propertyID": {
-    "@id": "http://www.sequenceontology.org/browser/current_release/term/SO:0001000"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8",
+      "@type": "PropertyValue",
+      "description": "Sequences extracted from eDNA sampled during seatrials of task 4.4 (Prokaryotes (16S rRNA))",
+      "name": "Sequences: Prokaryotes (16S rRNA)",
+      "propertyID": {
+        "@id": "http://www.sequenceontology.org/browser/current_release/term/SO:0001000"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_55539565-51b4-4141-838d-fb2fe5d3f5c8"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=45",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

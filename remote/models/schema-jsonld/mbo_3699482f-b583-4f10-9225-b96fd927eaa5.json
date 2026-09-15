@@ -3,26 +3,47 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5",
-  "@type": "Dataset",
-  "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44"
-  },
-  "name": "T5.1.2 running habitat model results - bottlenose dolphin",
-  "spatialCoverage": [
+  "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+      "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=57",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2b3b1dc0-4a6e-4121-be02-cf279b7c8ea9"
+      }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+      "@id": "https://w3id.org/marco-bolo/mbo_3699482f-b583-4f10-9225-b96fd927eaa5",
+      "@type": "Dataset",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44"
+      },
+      "name": "T5.1.2 running habitat model results - bottlenose dolphin",
+      "spatialCoverage": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+        }
+      ],
+      "temporalCoverage": "2000-01-01/2019-12-31",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marineinfo.org/en/imis?module=dataset&dasid=9150"
+      },
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
     }
-  ],
-  "temporalCoverage": "2000-01-01/2019-12-31",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://marineinfo.org/en/imis?module=dataset&dasid=9150"
-  },
-  "variableMeasured": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
-  }
+  ]
 }

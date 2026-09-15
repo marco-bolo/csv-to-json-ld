@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca",
-  "@type": "HowTo",
-  "description": "Data from hydrophones turned into useful measurements",
-  "name": "T4.4 hydrophone data capture",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9d00d2ab-e001-49d9-9b3c-64008577d6ca",
+      "@type": "HowTo",
+      "description": "Data from hydrophones turned into useful measurements",
+      "name": "T4.4 hydrophone data capture",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c"
+      }
+    }
+  ]
 }

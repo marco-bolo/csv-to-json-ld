@@ -9,38 +9,40 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
+    "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
+    "@type": "MonetaryGrant",
+    "amount": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
+      }
+    },
+    "description": "UK funding for National Oceanography Centre (NOC) participation in MARCO-BOLO project under UKRI's Horizon Europe Guarantee scheme.",
+    "funder": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b93ca669-181c-45ed-9824-37c64d35394e"
+    },
+    "name": "UKRI Horizon Europe Guarantee Grant No. 10048178",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata"
+    },
+    "schema:url": {
+      "@type": "URL",
+      "@value": "https://gtr.ukri.org/projects?ref=10063994"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000017#row=3"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +54,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000017#row=3",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

@@ -3,8 +3,29 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56",
-  "@type": "PropertyValue",
-  "description": "Relevant to the echosounder of Task 4.4: fish school size and other details",
-  "name": "Fish school information"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56",
+      "@type": "PropertyValue",
+      "description": "Relevant to the echosounder of Task 4.4: fish school size and other details",
+      "name": "Fish school information"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_b2b1b80a-db1b-4d5c-806a-23ce77c86b56"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=71",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

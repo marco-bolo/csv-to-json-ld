@@ -3,10 +3,31 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f",
-  "@type": "Dataset",
-  "name": "Papers retrieved from literature review on eDNA studies",
-  "variableMeasured": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f",
+      "@type": "Dataset",
+      "name": "Papers retrieved from literature review on eDNA studies",
+      "variableMeasured": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c7cbaeed-7379-4f15-94ab-599ea1ca03ee"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bfcbd0b8-6c9e-4fda-b5c5-d1357adb871f"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000009#row=46",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_43d093da-eb94-4692-ab0e-a8c94883e4d1"
+      }
+    }
+  ]
 }

@@ -9,11 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_9c40834c-7f71-4240-a7ed-82fff90cf7e6"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a"
+    "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a",
+    "@type": "Person",
+    "affiliation": {
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
+    },
+    "familyName": "Daraghmeh",
+    "givenName": "Nauras",
+    "identifier": "https://orcid.org/0000-0001-8261-824X",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a-input-metadata"
+    },
+    "worksFor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +45,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000019#row=144"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=144",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +65,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a-input-metadata"
       },

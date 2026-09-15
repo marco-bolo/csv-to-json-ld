@@ -9,11 +9,59 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
+    "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460",
+    "@type": "DigitalDocument",
+    "author": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe"
+      }
+    ],
+    "availableLanguage": "en",
+    "contributor": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    },
+    "creativeWorkStatus": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+    },
+    "schema:dateCreated": "2024-02-05",
+    "schema:datePublished": "2024-02-05",
+    "description": "WP6 Stakeholder Engagement & Community Integration: stakeholder survey presentation (February 2024)",
+    "identifier": "doi:10.5281/zenodo.10715714",
+    "keywords": [
+      "biodiversity data needs",
+      "stakeholder engagement",
+      "MBO WP6",
+      "survey",
+      "presentation"
+    ],
+    "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+    "name": "WP6: Stakeholder Engagement & Community Integration - Stakeholder Survey",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460-input-metadata"
+    },
+    "schema:url": [
+      {
+        "@type": "URL",
+        "@value": "https://zenodo.org/records/10715714"
+      },
+      {
+        "@type": "URL",
+        "@value": "https://doi.org/10.5281/zenodo.10715714"
+      }
+    ]
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
@@ -29,10 +77,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=36"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000027#row=36",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
       },
@@ -52,14 +97,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460-input-metadata"
       },

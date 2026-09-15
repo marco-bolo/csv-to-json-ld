@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fa8534a9-8a90-4cae-92d1-9f210f537dfa",
+      "@type": "PropertyValue",
+      "description": "https://vocab.nerc.ac.uk/collection/P35/current/EPC00001/",
+      "name": "Salinity",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/PSU"
+      },
+      "unitText": "PSU"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fa8534a9-8a90-4cae-92d1-9f210f537dfa#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_fa8534a9-8a90-4cae-92d1-9f210f537dfa"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=94",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
+}

@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_ea3d4640-bea4-49a5-bfca-909b7182733e",
-  "@type": "PropertyValue",
-  "description": "The pressure caused by background acoustic signals expressed on the decibel scale.",
-  "name": "Sound pressure level of ambient noise in the water body",
-  "propertyID": {
-    "@id": "https://vocab.nerc.ac.uk/collection/P01/current/AMBNSPL1/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ea3d4640-bea4-49a5-bfca-909b7182733e",
+      "@type": "PropertyValue",
+      "description": "The pressure caused by background acoustic signals expressed on the decibel scale.",
+      "name": "Sound pressure level of ambient noise in the water body",
+      "propertyID": {
+        "@id": "https://vocab.nerc.ac.uk/collection/P01/current/AMBNSPL1/"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ea3d4640-bea4-49a5-bfca-909b7182733e#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_ea3d4640-bea4-49a5-bfca-909b7182733e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=50",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    }
+  ]
 }

@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b"
+    "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
+    "@type": "Place",
+    "description": "Sampling station in the Po - Adriatic Sea continuum",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "45.0917"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "9.4456"
+    },
+    "name": "Po a Castel S. Giovanni",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=111"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=111",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ab7bcec8-f459-49f1-a70e-2760556a360b-input-metadata"
       },

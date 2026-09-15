@@ -5,11 +5,81 @@
   },
   "@graph": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Plantae"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1",
+      "@type": "Taxon",
+      "additionalProperty": [
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#SpecificEpithet"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#ScientificName"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Genus"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#VerbatimTaxonRank"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Status"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Family"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Kingdom"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Order"
+        },
+        {
+          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Phylum"
+        }
+      ],
+      "identifier": [
+        {
+          "@id": "urn:lsid:marinespecies.org:taxname:3"
+        },
+        "worms:3"
+      ],
+      "name": "Plants"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Plantae"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#VerbatimTaxonRank",
@@ -20,57 +90,20 @@
       "value": "kingdom"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1",
-      "@type": "Taxon",
-      "additionalProperty": [
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Phylum"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Genus"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Kingdom"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Order"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#VerbatimTaxonRank"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#ScientificName"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Family"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Status"
-        },
-        {
-          "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#SpecificEpithet"
-        }
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
       ],
-      "identifier": [
-        "worms:3",
-        {
-          "@id": "urn:lsid:marinespecies.org:taxname:3"
-        }
-      ],
-      "name": "Plants"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000026#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     },
     {
@@ -86,22 +119,6 @@
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Plantae"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      },
-      "value": "Plantae"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1#Status",

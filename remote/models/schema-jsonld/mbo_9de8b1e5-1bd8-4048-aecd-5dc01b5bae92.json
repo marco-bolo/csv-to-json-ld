@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_9de8b1e5-1bd8-4048-aecd-5dc01b5bae92",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "52.50622559"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "11.97286076"
-  },
-  "name": "Area Klietznik / Tangermünde"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9de8b1e5-1bd8-4048-aecd-5dc01b5bae92#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9de8b1e5-1bd8-4048-aecd-5dc01b5bae92"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=54",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9de8b1e5-1bd8-4048-aecd-5dc01b5bae92",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "52.50622559"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "11.97286076"
+      },
+      "name": "Area Klietznik / Tangermünde"
+    }
+  ]
 }

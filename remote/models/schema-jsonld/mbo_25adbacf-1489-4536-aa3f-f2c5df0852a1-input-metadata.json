@@ -9,38 +9,25 @@
       "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
+    "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1",
+    "@type": "GeoShape",
+    "box": "51.406617 2.9963330000 51.406617 2.9963330000",
+    "description": "Point of the FPOD sea trial for Task 4.4 sea trial",
+    "name": "Belgium EEZ Task 4.4 FPOD",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000012#row=25"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +39,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000012#row=25",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_25adbacf-1489-4536-aa3f-f2c5df0852a1-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

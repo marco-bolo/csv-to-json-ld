@@ -3,9 +3,30 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
-  "@type": "Thing",
-  "description": "RoCSI eDNA sampler",
-  "identifier": "RoCSI Serial Number 5",
-  "name": "RoCSI"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea",
+      "@type": "Thing",
+      "description": "RoCSI eDNA sampler",
+      "identifier": "RoCSI Serial Number 5",
+      "name": "RoCSI"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000028#row=6",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
+      }
+    }
+  ]
 }

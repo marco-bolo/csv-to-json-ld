@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536"
+    "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
+    "@type": "Place",
+    "description": "Sampling station in the Elbe - North Sea continuum",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "54.14667"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "7.83333"
+    },
+    "name": "Helgoland Tiefe Rinne",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=76"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=76",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_33fbbf0c-6828-4c7a-8c63-4ef7c1e67536-input-metadata"
       },

@@ -9,38 +9,26 @@
       "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
+    "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4",
+    "@type": "ContactPoint",
+    "contactType": "Deliverable 4.1 Contact",
+    "description": "Contact for D4.1 - Advanced sensor data processing, geolocation and export format, integrated with autonomous platforms",
+    "email": "s.giering@noc.ac.uk",
+    "name": "Sari Giering",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000006#row=38"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +40,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_80331009-5d93-476b-8cdd-e7c0d3e14f0f"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=38",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_dd541388-824f-4b07-b477-517b9424f2b4-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

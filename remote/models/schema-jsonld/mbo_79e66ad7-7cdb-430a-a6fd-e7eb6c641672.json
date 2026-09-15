@@ -3,17 +3,38 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672",
-  "@type": "ResearchProject",
-  "alternateName": "MBO WP3",
-  "description": "Linking Land and Sea Biodiversity Observation",
-  "keywords": "MARCO-BOLO",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "MARCO-BOLO Work Package 3",
-  "schema:url": {
-    "@type": "URL",
-    "@value": "https://marcobolo-project.eu/work-packages/work-package-3-linking-land-and-sea-biodiversity-observation/"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=17",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672",
+      "@type": "ResearchProject",
+      "alternateName": "MBO WP3",
+      "description": "Linking Land and Sea Biodiversity Observation",
+      "keywords": "MARCO-BOLO",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "MARCO-BOLO Work Package 3",
+      "schema:url": {
+        "@type": "URL",
+        "@value": "https://marcobolo-project.eu/work-packages/work-package-3-linking-land-and-sea-biodiversity-observation/"
+      }
+    }
+  ]
 }

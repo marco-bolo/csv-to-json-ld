@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_6c6862f3-497b-4d74-974b-c5eced6e7004",
-  "@type": "Place",
-  "description": "Sampling station in the Danube - Black Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "44.834417"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "29.671833"
-  },
-  "name": "SG 02 transitional waters"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6c6862f3-497b-4d74-974b-c5eced6e7004#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6c6862f3-497b-4d74-974b-c5eced6e7004"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=139",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6c6862f3-497b-4d74-974b-c5eced6e7004",
+      "@type": "Place",
+      "description": "Sampling station in the Danube - Black Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "44.834417"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "29.671833"
+      },
+      "name": "SG 02 transitional waters"
+    }
+  ]
 }

@@ -3,15 +3,36 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_02656303-5068-4297-bdfe-17630a06c38e",
-  "@type": "Place",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "51.406617"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "2.996333"
-  },
-  "name": "Task 4.4 eDNA benthic mooring"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_02656303-5068-4297-bdfe-17630a06c38e",
+      "@type": "Place",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "51.406617"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "2.996333"
+      },
+      "name": "Task 4.4 eDNA benthic mooring"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_02656303-5068-4297-bdfe-17630a06c38e#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_02656303-5068-4297-bdfe-17630a06c38e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=42",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
+      }
+    }
+  ]
 }

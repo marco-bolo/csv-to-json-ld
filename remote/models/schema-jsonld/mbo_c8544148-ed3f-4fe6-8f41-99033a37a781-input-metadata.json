@@ -9,11 +9,20 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781"
+    "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
+    "@type": "PropertyValue",
+    "description": "Ecosystem volume estimation by Task 4.4 from ROV data, using tools such as Hydrophis or CesiumJS",
+    "name": "Ecosystem volume",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +38,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000021#row=66"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=66",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +58,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c8544148-ed3f-4fe6-8f41-99033a37a781-input-metadata"
       },

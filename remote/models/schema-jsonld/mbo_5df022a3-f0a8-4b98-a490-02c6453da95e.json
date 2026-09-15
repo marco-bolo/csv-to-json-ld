@@ -3,19 +3,40 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_5df022a3-f0a8-4b98-a490-02c6453da95e",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "geo": {
-    "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041"
-  },
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "54.188333"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "7.9"
-  },
-  "name": "Helgoland Rede - fish"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5df022a3-f0a8-4b98-a490-02c6453da95e#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_5df022a3-f0a8-4b98-a490-02c6453da95e"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=88",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5df022a3-f0a8-4b98-a490-02c6453da95e",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "geo": {
+        "@id": "https://w3id.org/marco-bolo/mbo_05c54d14-c4d0-40cd-85ef-4b9a65fad041"
+      },
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "54.188333"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "7.9"
+      },
+      "name": "Helgoland Rede - fish"
+    }
+  ]
 }

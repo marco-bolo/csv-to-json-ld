@@ -9,11 +9,19 @@
       "@id": "https://w3id.org/marco-bolo/mbo_e5a7305e-b999-49e9-9d26-0a31799a9e9d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8"
+    "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8",
+    "@type": "Place",
+    "name": "Task 4.4 eDNA from ship",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +37,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=43"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=43",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +57,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_6baf1724-0a5a-4df3-80e4-ff2444e4b0d8-input-metadata"
       },

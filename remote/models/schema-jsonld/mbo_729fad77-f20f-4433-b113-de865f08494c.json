@@ -3,16 +3,37 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_729fad77-f20f-4433-b113-de865f08494c",
-  "@type": "Place",
-  "description": "Sampling station in the Elbe - North Sea continuum",
-  "latitude": {
-    "@type": "xsd:decimal",
-    "@value": "53.54021472"
-  },
-  "longitude": {
-    "@type": "xsd:decimal",
-    "@value": "9.886206881"
-  },
-  "name": "Seemannshöft / Hafen"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_729fad77-f20f-4433-b113-de865f08494c#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_729fad77-f20f-4433-b113-de865f08494c"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=61",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_729fad77-f20f-4433-b113-de865f08494c",
+      "@type": "Place",
+      "description": "Sampling station in the Elbe - North Sea continuum",
+      "latitude": {
+        "@type": "xsd:decimal",
+        "@value": "53.54021472"
+      },
+      "longitude": {
+        "@type": "xsd:decimal",
+        "@value": "9.886206881"
+      },
+      "name": "Seemannshöft / Hafen"
+    }
+  ]
 }

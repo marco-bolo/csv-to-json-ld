@@ -9,38 +9,27 @@
       "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
+    "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
+    "@type": "PropertyValue",
+    "description": "The areal extent (km2 or ha), canopy cover, species composition of mangroves that form the foundation of the habitat and ecosystem Source: GOOS Essential Ocean Variable specification sheet, v2.0, April 2025. Vocabulary status and discussion — NERC EXV: https://github.com/nvs-vocabs/EXV/blob/main/README.md; ENVO minting: https://github.com/EnvironmentOntology/envo/pull/1568.",
+    "name": "Mangrove cover and composition",
+    "propertyID": {
+      "@id": "https://goosocean.org/document/17514"
+    },
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
   },
   "distribution": [
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata#csv",
-      "@reverse": {
-        "result": {
-          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-        }
-      },
-      "@type": "DataDownload",
-      "about": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
-      },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000021#row=62"
-      },
-      "creator": {
-        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-      },
-      "encodesCreativeWork": {
-        "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata"
-      },
-      "encodingFormat": "text/csv"
-    },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata#jsonld",
       "@reverse": {
@@ -52,18 +41,35 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata"
       },
       "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata#csv",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=62",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d4e8cb51-caa5-47db-b590-d7cbd1ca6554-input-metadata"
+      },
+      "encodingFormat": "text/csv"
     }
   ]
 }

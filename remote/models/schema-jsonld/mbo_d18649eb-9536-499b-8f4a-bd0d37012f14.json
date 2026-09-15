@@ -5,12 +5,20 @@
   },
   "@graph": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
-      "@type": "MonetaryAmount",
-      "currency": "GBP",
-      "value": {
-        "@type": "xsd:decimal",
-        "@value": "471379.0"
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000017#row=3",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
       }
     },
     {
@@ -27,6 +35,15 @@
       "schema:url": {
         "@type": "URL",
         "@value": "https://gtr.ukri.org/projects?ref=10063994"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d18649eb-9536-499b-8f4a-bd0d37012f14#MonetaryAmount",
+      "@type": "MonetaryAmount",
+      "currency": "GBP",
+      "value": {
+        "@type": "xsd:decimal",
+        "@value": "471379.0"
       }
     }
   ]

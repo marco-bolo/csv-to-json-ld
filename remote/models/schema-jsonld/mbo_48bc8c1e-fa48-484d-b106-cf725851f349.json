@@ -3,14 +3,35 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349",
-  "@type": "ResearchOrganization",
-  "description": "Ukrainian Scientific Centre of Ecology of the Sea",
-  "identifier": "https://ror.org/0303yjn29",
-  "keywords": "marine ecology, Ukraine",
-  "legalName": "Ukrainian Scientific Centre Of Ecology Of The Sea",
-  "memberOf": {
-    "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
-  },
-  "name": "UkrSCES"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000018#row=37",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349",
+      "@type": "ResearchOrganization",
+      "description": "Ukrainian Scientific Centre of Ecology of the Sea",
+      "identifier": "https://ror.org/0303yjn29",
+      "keywords": "marine ecology, Ukraine",
+      "legalName": "Ukrainian Scientific Centre Of Ecology Of The Sea",
+      "memberOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "name": "UkrSCES"
+    }
+  ]
 }

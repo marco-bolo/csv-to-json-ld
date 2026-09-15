@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_74e99343-6f49-429a-8607-9b221032b709",
-  "@type": "Person",
-  "affiliation": {
-    "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
-  },
-  "familyName": "Morien",
-  "givenName": "Evan"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_74e99343-6f49-429a-8607-9b221032b709#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_74e99343-6f49-429a-8607-9b221032b709"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000019#row=98",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_74e99343-6f49-429a-8607-9b221032b709",
+      "@type": "Person",
+      "affiliation": {
+        "@id": "https://w3id.org/marco-bolo/mbo_63f59404-7004-435f-9e52-624147bb0c9e"
+      },
+      "familyName": "Morien",
+      "givenName": "Evan"
+    }
+  ]
 }

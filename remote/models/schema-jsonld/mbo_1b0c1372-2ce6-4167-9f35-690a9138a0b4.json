@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@import": "https://schema.org/",
+    "schema": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4#input-metadata",
+      "@type": [
+        "DataDownload",
+        "https://w3id.org/marco-bolo/InputMetadataDescription"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000021#row=99",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4",
+      "@type": "PropertyValue",
+      "description": "http://aims.fao.org/aos/agrovoc/c_15043",
+      "name": "Turbidity",
+      "unitCode": {
+        "@id": "http://qudt.org/vocab/unit/NTU"
+      },
+      "unitText": "NTU"
+    }
+  ]
+}

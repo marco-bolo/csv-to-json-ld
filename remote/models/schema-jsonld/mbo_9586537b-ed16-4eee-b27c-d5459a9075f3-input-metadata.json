@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "Dataset",
+    "https://w3id.org/marco-bolo/InputMetadataDescription"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+    "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3",
+    "@type": "Place",
+    "description": "The location of the ROV multi-camera work during the Task 4.4 sea trial",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "55.721743"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "12.680951"
+    },
+    "name": "Danish EEZ Task 4.4 ROV multi-camera d",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=39"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=39",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3-input-metadata"
       },

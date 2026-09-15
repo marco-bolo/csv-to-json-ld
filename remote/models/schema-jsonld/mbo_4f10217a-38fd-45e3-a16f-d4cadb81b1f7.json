@@ -3,12 +3,33 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
-  "@type": "Vehicle",
-  "additionalType": {
-    "@id": "http://vocab.nerc.ac.uk/collection/B76/current/B7600023/"
-  },
-  "alternateName": "Blue4",
-  "description": "Blue Robotics BlueROV2 remotely operated vehicle",
-  "name": "BlueROV2"
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000029#row=2",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_4f10217a-38fd-45e3-a16f-d4cadb81b1f7",
+      "@type": "Vehicle",
+      "additionalType": {
+        "@id": "http://vocab.nerc.ac.uk/collection/B76/current/B7600023/"
+      },
+      "alternateName": "Blue4",
+      "description": "Blue Robotics BlueROV2 remotely operated vehicle",
+      "name": "BlueROV2"
+    }
+  ]
 }

@@ -3,11 +3,32 @@
     "@import": "https://schema.org/",
     "schema": "https://schema.org/"
   },
-  "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
-  "@type": "HowTo",
-  "description": "The steps undertaken: A R-code was written to do the necessary analyses that is published in the deliverable.",
-  "name": "T3.3: Analyse the source data: HowTo",
-  "step": {
-    "@id": "https://w3id.org/marco-bolo/mbo_15b887c1-ab57-41b8-a26e-0261fe951d61"
-  }
+  "@graph": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766",
+      "@type": "HowTo",
+      "description": "The steps undertaken: A R-code was written to do the necessary analyses that is published in the deliverable.",
+      "name": "T3.3: Analyse the source data: HowTo",
+      "step": {
+        "@id": "https://w3id.org/marco-bolo/mbo_15b887c1-ab57-41b8-a26e-0261fe951d61"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766#input-metadata",
+      "@type": [
+        "https://w3id.org/marco-bolo/InputMetadataDescription",
+        "DataDownload"
+      ],
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d011c3de-d0c4-4679-99f5-0483d0dab766"
+      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000013#row=17",
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      },
+      "https://w3id.org/marco-bolo/isResultOf": {
+        "@id": "https://w3id.org/marco-bolo/mbo_d348edfe-bcb2-4497-9cc9-21dfb3a40246"
+      }
+    }
+  ]
 }

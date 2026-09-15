@@ -9,11 +9,28 @@
       "@id": "https://w3id.org/marco-bolo/mbo_6b9ce8c1-b582-43c2-b73f-a834bdcb6bc9"
     }
   },
-  "@type": "Dataset",
+  "@type": [
+    "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "Dataset"
+  ],
   "about": {
-    "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e"
+    "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e",
+    "@type": "Place",
+    "description": "Sampling station in the Danube - Black Sea continuum",
+    "latitude": {
+      "@type": "xsd:decimal",
+      "@value": "44.293278"
+    },
+    "longitude": {
+      "@type": "xsd:decimal",
+      "@value": "30.610333"
+    },
+    "name": "SG 07 marine waters",
+    "subjectOf": {
+      "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e-input-metadata"
+    }
   },
-  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d273692743f2de405d45eef3556d543d502ff365",
+  "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/8d40945d4c14482796398349955fe9ed2a1883a2",
   "creator": {
     "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
   },
@@ -29,10 +46,7 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_0000020#row=144"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_0000020#row=144",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
       },
@@ -52,14 +66,11 @@
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e"
       },
-      "schema:contentUrl": {
-        "@type": "URL",
-        "@value": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e"
-      },
+      "contentUrl": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
       },
-      "dateModified": "2026-09-03",
+      "dateModified": "2026-09-15",
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_91c9e354-a3ac-4367-b949-fac2a82ff92e-input-metadata"
       },
