@@ -4,7 +4,7 @@
 * Go to the [editing dashboard](https://docs.google.com/spreadsheets/d/1PBFK3LW3DAdvXdbk2v8bSdtTf87mBhabeeegwRjOBRg/edit?usp=drive_link)
 * Edit the files
 * Your data is automatically synchronized with the processing system nightly
-* You can view the resulting JSON files at: https://lab.marcobolo-project.eu/csv-to-json-ld/schema-jsonld/.
+* You can view the resulting JSON files at: https://lab.marcobolo-project.eu/csv-to-json-ld/schema-jsonld/. See [documentation/output-format.md](./documentation/output-format.md) for what those documents contain.
 * Logs from the process are attached to the GitHub Actions, WP1  monitors data validation and will contact you if any issues need resolution.
 * Validated data becomes part of the MARCO-BOLO metadata catalog andw will be made discoverable through international research platforms, beginning with ODIS.
 

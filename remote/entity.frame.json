@@ -1,0 +1,29 @@
+{
+  "https://schema.org/subjectOf": {
+    "@type": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "@embed": "@always",
+    "https://schema.org/distribution": [
+      {
+        "@type": "https://schema.org/DataDownload",
+        "@reverse": {
+          "https://schema.org/result": {
+            "@type": "https://schema.org/CreateAction",
+            "@embed": "@never"
+          }
+        }
+      }
+    ],
+    "@reverse": {
+      "https://schema.org/result": {
+        "@type": "https://schema.org/CreateAction",
+        "@embed": "@never"
+      }
+    }
+  },
+  "@reverse": {
+    "https://schema.org/result": {
+      "@type": "https://schema.org/CreateAction",
+      "@embed": "@never"
+    }
+  }
+}

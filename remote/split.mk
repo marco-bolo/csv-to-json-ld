@@ -20,41 +20,26 @@ PARTITON_LIST_CLI		:= $(MBO_TOOLS_DOCKER_RUN) partition list
 PROCESS_PARA_METADATA	:= $(MBO_TOOLS_DOCKER_RUN) processparametadata
 
 
-SCHEMA_ORG_CONTEXT_URL 	:= https://schema.org/docs/jsonldcontext.json
-SCHEMA_ORG_FILE			:= out/resources/schema-context.json
+MBO_CONTEXT_FILE		:= remote/mbo-context.json
 
 BULK_TTL_FILES 			:= $(wildcard out/bulk/*.ttl)
 	
 output-directories:
 	@mkdir -p out/raw-jsonld
+	@mkdir -p out/merged-jsonld
 	@mkdir -p out/resources
 
-$(SCHEMA_ORG_FILE):
-	@curl --silent -H "Accept: application/json" --compressed --output "$(SCHEMA_ORG_FILE).tmp" "$(SCHEMA_ORG_CONTEXT_URL)";
+init: output-directories
 
-	@# remove the `id` and `type` properties since compaction replaces `@id` with `id` and similarly for `@type`.
-	@$(JQ) 'del(.["@context"].id) | del(.["@context"].type)' "$(SCHEMA_ORG_FILE).tmp" > "$(SCHEMA_ORG_FILE)";
-	@rm -f "$(SCHEMA_ORG_FILE).tmp"
-
-	@echo ""
-
-init: output-directories $(SCHEMA_ORG_FILE)
-
-out/%.json: out/raw-jsonld/%.json
+out/%.json: out/merged-jsonld/%.json $(MBO_CONTEXT_FILE)
 	@echo "=============================== Converting $< to schema.org JSON-LD $@ ===============================" ;
 
-	@# 1. We do a raw conversion of the raw JSON-LD into tidier schema.org JSON-LD
-	@# 2. We change all https://schema.org/ URIs to http://schema.org/ in preparation for compaction 
-	@# 		against the schema.org JSON-LD context (which uses exclusively http://schema.org URIs).
-	@# 3. We now compact against the schema.org JSON-LD context so we can have things like `"@type": "Dataset"` 
-	@# 		instead of `"@type": "https://schema.org/Dataset"`
-	@# 4. Then we set the context to make use of the schema.org context, but tell it to use https URIs instead 
-	@# 		of http.
+	@# We compact against our own context and then publish that same context inline.
+	@# A document is therefore readable with exactly the context it declares: no remote
+	@# fetch, no @import, and no http/https rewriting (csv2rdf already emits https URIs).
 
-	@cat "$<" \
-		| sed 's/https:\/\/schema.org\//http:\/\/schema.org\//g' \
-		| $(JSONLD_CLI) compact --context "$(SCHEMA_ORG_FILE)" --allow all \
-		| $(JQ) '.["@context"] = { "@import": "https://schema.org/", "schema": "https://schema.org/" }' > "$@";
+	@$(JSONLD_CLI) compact --context "$(MBO_CONTEXT_FILE)" --allow all "$<" \
+		| $(JQ) --slurpfile ctx "$(MBO_CONTEXT_FILE)" '.["@context"] = $$ctx[0]["@context"]' > "$@";
 
 	@echo "";
 
@@ -68,16 +53,21 @@ define SPLIT_TTL =
 #	data will be placed. 
 $(eval INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1) = \
   $(shell $(PARTITON_LIST_CLI) --out out/raw-jsonld "$(1)" ))
-$(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):%.json=%-input-metadata.json))
+$(eval INDIVIDUAL_MERGED_FILE_NAMES_$(1) = $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):out/raw-jsonld/%=out/merged-jsonld/%))
+$(eval SPLIT_RAW_JSON_LD_FILES += $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)))
+$(eval MERGED_JSON_LD_FILES += $(INDIVIDUAL_MERGED_FILE_NAMES_$(1)))
 
-$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1):%.json=%-input-metadata.json)  &: $(1)
+$(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)) $(INDIVIDUAL_MERGED_FILE_NAMES_$(1))  &: $(1)
 	@echo "=============================== Splitting $(1) ==============================="
 	@$(PARTITON_CLI) --out out/raw-jsonld "$(1)"
+	@# out/raw-jsonld is left untouched: processparametadata only ever reads it,
+	@# so an interrupted build cannot leave inputs that poison the next run.
 	@for file in $(INDIVIDUAL_RAW_JSON_LD_FILE_NAMES_$(1)); do \
-		tmp_file="$$$${file%.json}-input-metadata-tmp.json"; \
-		out_file="$$$${file%.json}-input-metadata.json"; \
+		base_name="$$$$(basename "$$$$file")"; \
+		merged_file="out/merged-jsonld/$$$$base_name"; \
+		tmp_file="out/merged-jsonld/$$$${base_name%.json}-tmp.json"; \
 		$(PROCESS_PARA_METADATA) --git_repo_commit_file_url "$(GIT_HASH_REPO_URL)" "$$$$file" "$$$$tmp_file"; \
-		$(JSONLD_CLI) frame --frame remote/para-metadata.frame.json "$$$$tmp_file" > "$$$$out_file"; \
+		$(JSONLD_CLI) frame --frame remote/entity.frame.json "$$$$tmp_file" > "$$$$merged_file"; \
 		rm -f "$$$$tmp_file"; \
 	done
 	@echo "Done."
@@ -87,8 +77,8 @@ endef
 
 $(foreach file,$(BULK_TTL_FILES),$(eval $(call SPLIT_TTL,$(file))))
 
-TIDY_JSON_LD_FILES				:= $(SPLIT_RAW_JSON_LD_FILES:out/raw-jsonld/%=out/%)
-EXPECTED_INDIVIDUAL_OUT_FILES 	:= $(TIDY_JSON_LD_FILES) $(SPLIT_RAW_JSON_LD_FILES)
+TIDY_JSON_LD_FILES				:= $(MERGED_JSON_LD_FILES:out/merged-jsonld/%=out/%)
+EXPECTED_INDIVIDUAL_OUT_FILES 	:= $(TIDY_JSON_LD_FILES) $(SPLIT_RAW_JSON_LD_FILES) $(MERGED_JSON_LD_FILES)
 
 define DELETE_UNEXPECTED_INDIVIDUAL_FILES
 ifeq ($$(filter $$(file),$(EXPECTED_INDIVIDUAL_OUT_FILES)),) 
@@ -97,15 +87,15 @@ endif
 endef
 
 # Remove orphaned outputs which should no longer be present.
-remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/ttl/*.ttl) $(wildcard out/**/*-tmp.json)
+remove-orphaned: $(wildcard out/*.json) $(wildcard out/raw-jsonld/*.json) $(wildcard out/merged-jsonld/*.json) $(wildcard out/ttl/*.ttl) $(wildcard out/**/*-tmp.json)
 	$(foreach file,$^, $(eval $(DELETE_UNEXPECTED_INDIVIDUAL_FILES)))
 
 jsonld: $(TIDY_JSON_LD_FILES) remove-orphaned
 
 clean:
-	@rm -f $(SCHEMA_ORG_FILE)
 	@rm -rf out/resources
 	@rm -rf out/raw-jsonld
+	@rm -rf out/merged-jsonld
 	@rm -f $(TIDY_JSON_LD_FILES)
 
 .DEFAULT_GOAL := jsonld
