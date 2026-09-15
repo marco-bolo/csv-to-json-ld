@@ -53,12 +53,12 @@ read one, and no remote document can change what a published document means.
 
 It is `@vocab`-based (`https://schema.org/`), so most properties are exactly
 their schema.org names. It declares two MBO vocabulary terms
-(`InputMetadataDescription`, `inProgressDate`) and coerces seven properties to
+(`InputMetadataDescription`, `inProgressDate`) and coerces six properties to
 `@id`:
 
 ```
-archivedAt   contentUrl   inDefinedTermSet   isBasedOn
-isPartOf     license      usageInfo
+archivedAt   inDefinedTermSet   isBasedOn
+isPartOf     license            usageInfo
 ```
 
 The source of truth is [`remote/mbo-context.json`](../remote/mbo-context.json),
@@ -77,12 +77,27 @@ The distinction is not always visible in the JSON. A property coerced to `@id`
 in the context appears as a bare string but is still a link:
 
 ```json
-"contentUrl": "https://w3id.org/marco-bolo/mbo_0000006#row=34"
+"license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201"
 ```
 
 To be certain, expand the document with a JSON-LD processor rather than reading
-the JSON. Anything appearing as `{"@type": "URL", "@value": "..."}` is a string
-literal, and is a bug - see issue #313.
+the JSON.
+
+### Web addresses are deliberately strings
+
+URLs that point at a real web page or file - `url`, `downloadUrl`,
+`codeRepository`, `contentUrl` and similar - are published as `schema:URL`
+literals, not links:
+
+```json
+"url": { "@type": "URL", "@value": "https://zenodo.org/records/19329403" }
+```
+
+This is by design (issue #23). A link means "an identifier with metadata you can
+look up"; a `schema:URL` string means "an address a person visits or downloads".
+The cost is that these values will not join to other graphs that use the same
+address as an identifier, such as a DOI. To match on one in SPARQL, compare its
+string form: `FILTER(STR(?url) = "https://...")`.
 
 ## What is not in a document
 

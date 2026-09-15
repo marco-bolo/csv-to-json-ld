@@ -164,7 +164,7 @@ def _build_para_metadata_graph(
         (
             csv_data_download_uri,
             SCHEMA.contentUrl,
-            URIRef(str(csv_content_url)),
+            Literal(str(csv_content_url), datatype=SCHEMA.URL),
         ),
         
     ]
@@ -182,7 +182,7 @@ def _build_para_metadata_graph(
         (
             jsonld_data_download_uri,
             SCHEMA.contentUrl,
-            URIRef(str(uri_described_in_original_metadata)),
+            Literal(str(uri_described_in_original_metadata), datatype=SCHEMA.URL),
         ),
         (
             jsonld_data_download_uri,
