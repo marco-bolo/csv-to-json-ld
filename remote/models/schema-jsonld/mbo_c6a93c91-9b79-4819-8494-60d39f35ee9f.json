@@ -46,12 +46,12 @@
   "description": "Report on the 2nd Co-design/Co-creation Workshop (Sitges, November 2024)",
   "identifier": "doi:10.5281/zenodo.17244778",
   "keywords": [
-    "JRC",
-    "Community of Practice",
-    "co-design workshop",
-    "marine biodiversity monitoring",
     "MBO WP6",
-    "stakeholder engagement"
+    "marine biodiversity monitoring",
+    "JRC",
+    "co-design workshop",
+    "stakeholder engagement",
+    "Community of Practice"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 2nd Co-design/Co-creation Workshop Report",
@@ -63,17 +63,44 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6d5c22ad64edb524b4f608b8d95038814b333bc1",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-16"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata#csv",
         "@reverse": {
@@ -96,44 +123,17 @@
           "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata"
         },
         "encodingFormat": "text/csv"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_7221789b-72aa-4cf3-a406-2c1470592f53"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-15"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_c6a93c91-9b79-4819-8494-60d39f35ee9f-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
       }
     ]
   },
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244778"
+      "@value": "https://doi.org/10.5281/zenodo.17244778"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244778"
+      "@value": "https://zenodo.org/records/17244778"
     }
   ]
 }

@@ -32,27 +32,27 @@
   "name": "MARCO BOLO Task 5.4",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_464b964d-e28a-4193-9925-e4ba083fdec8"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
+      "@id": "https://w3id.org/marco-bolo/mbo_cf69d77e-2ded-4a17-9142-1aa1f7629b26"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_b29a94e7-b6c7-45ca-aa18-399e9cc3aef5"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_acb343eb-25ee-4330-b1e7-6e15d0be294e"
     }
   ],
   "result": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9c40834c-7f71-4240-a7ed-82fff90cf7e6"
+      "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
+      "@id": "https://w3id.org/marco-bolo/mbo_9c40834c-7f71-4240-a7ed-82fff90cf7e6"
     }
   ],
   "subjectOf": {
@@ -63,13 +63,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_17baa516-75c2-43a3-a40c-c469c8fafffc"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6d5c22ad64edb524b4f608b8d95038814b333bc1",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -94,7 +94,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-15"
+          "@value": "2026-09-16"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_17baa516-75c2-43a3-a40c-c469c8fafffc-input-metadata"

@@ -28,10 +28,10 @@
   "abstract": "Deciding what information needs to be collected for the task: timeframes, regions, following what WFD/ MSFD requirements, and which have regular data collections done",
   "contributor": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
+      "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
+      "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c0636979-13de-48b2-ab77-91605cb4410b"
@@ -39,10 +39,10 @@
   ],
   "itemListElement": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_96d1ac76-50f4-4819-b313-e0a12e4205e6"
+      "@id": "https://w3id.org/marco-bolo/mbo_441299a4-33de-4a62-9134-fc3758ab8492"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_441299a4-33de-4a62-9134-fc3758ab8492"
+      "@id": "https://w3id.org/marco-bolo/mbo_96d1ac76-50f4-4819-b313-e0a12e4205e6"
     }
   ],
   "name": "T3.3 source data howto",
@@ -58,44 +58,17 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/947f8ca8a13122ef01a0cf162cd1cde8c8d750a5",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6d5c22ad64edb524b4f608b8d95038814b333bc1",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     "distribution": [
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_1af88b26-8d33-4c26-acc9-5b44ad2aaa06"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-15"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
-      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata#csv",
         "@reverse": {
@@ -118,6 +91,33 @@
           "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata"
         },
         "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_1af88b26-8d33-4c26-acc9-5b44ad2aaa06"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-16"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_239fedf2-9420-402e-ba2b-3378e36d7bfa-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       }
     ]
   }
