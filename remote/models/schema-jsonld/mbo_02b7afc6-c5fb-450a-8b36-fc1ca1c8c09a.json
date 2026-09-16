@@ -46,10 +46,10 @@
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     }
   ],
   "copyrightHolder": {
@@ -63,13 +63,13 @@
     "@id": "https://w3id.org/marco-bolo/mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad"
   },
   "keywords": [
-    "eukaryotes",
-    "EMO BON",
-    "Norway",
     "metabarcoding",
+    "EMO BON",
+    "eukaryotes",
+    "vertebrates",
+    "Norway",
     "eDNA",
-    "marine biodiversity",
-    "vertebrates"
+    "marine biodiversity"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {
@@ -86,49 +86,26 @@
     "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata",
     "@reverse": {
       "result": {
-        "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+        "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6d5c22ad64edb524b4f608b8d95038814b333bc1",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d3858dcb56eea86305b6e0c87dc17fbfbe468a1e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
       {
-        "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#csv",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=4"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
-        },
-        "encodingFormat": "text/csv"
-      },
-      {
         "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#jsonld",
         "@reverse": {
           "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_ca9d47fe-7ce4-413a-aea8-b618071dc13f"
+            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
           }
         },
         "@type": "DataDownload",
@@ -150,6 +127,29 @@
           "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
         },
         "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000009#row=4"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
+        },
+        "encodingFormat": "text/csv"
       }
     ]
   },
