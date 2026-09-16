@@ -143,8 +143,19 @@ jobs:
             git commit -m "Update JSON-LD outputs"
             git push
           fi
+  # A separate job so that a failure here cannot be mistaken for a failed build:
+  # by this point the JSON-LD has been built and committed. The run still goes
+  # red, because kg-explorer is left showing stale data until it is rebuilt.
+  notify-kg-explorer:
+    needs: validate-csvws-build-jsonld
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
       - name: Notify kg-explorer to rebuild
-        if: github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ secrets.KG_EXPLORER_DISPATCH_TOKEN }}
-        run: gh api repos/marco-bolo/kg-explorer/dispatches -f event_type=jsonld-rebuilt
+        run: |
+          if ! gh api repos/marco-bolo/kg-explorer/dispatches -f event_type=jsonld-rebuilt; then
+            echo "::error title=kg-explorer not notified::The JSON-LD was built and committed successfully; only this notification failed, so kg-explorer is showing stale data. A 401 means KG_EXPLORER_DISPATCH_TOKEN has expired - reissue it and run: gh secret set KG_EXPLORER_DISPATCH_TOKEN. Then rebuild with: gh workflow run refresh-and-deploy.yml -R marco-bolo/kg-explorer"
+            exit 1
+          fi
