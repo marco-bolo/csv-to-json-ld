@@ -56,7 +56,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_788c8959-1ba5-42c9-a99c-445b72fc8758"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/70ebdb2502873ce8c054d6b3ad5cc1453d6ee5a2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/22460614651858d231daf4b3e5293eb41da9cd4d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -116,11 +116,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17552850"
+      "@value": "https://doi.org/10.5281/zenodo.17552850"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17552850"
+      "@value": "https://zenodo.org/records/17552850"
     }
   ],
   "inProgressDate": "2026"
