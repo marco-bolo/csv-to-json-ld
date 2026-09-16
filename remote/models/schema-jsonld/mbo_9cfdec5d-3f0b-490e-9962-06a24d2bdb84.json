@@ -27,10 +27,31 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
@@ -41,17 +62,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -63,31 +84,10 @@
       "value": "Delphinus delphis"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     }
   ],
@@ -109,34 +109,11 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d3858dcb56eea86305b6e0c87dc17fbfbe468a1e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/70ebdb2502873ce8c054d6b3ad5cc1453d6ee5a2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     "distribution": [
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata#csv",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_0000026#row=20"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata"
-        },
-        "encodingFormat": "text/csv"
-      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata#jsonld",
         "@reverse": {
@@ -163,6 +140,29 @@
           "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata"
         },
         "encodingFormat": "application/ld+json"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7f3b6f98-bea7-49ad-9c8c-6f75cf2a1719"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000026#row=20"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9cfdec5d-3f0b-490e-9962-06a24d2bdb84-input-metadata"
+        },
+        "encodingFormat": "text/csv"
       }
     ]
   }

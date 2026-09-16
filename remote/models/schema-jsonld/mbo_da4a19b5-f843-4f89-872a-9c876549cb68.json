@@ -48,11 +48,11 @@
   "description": "Poster on surveying biodiversity data needs among stakeholders (February 2024)",
   "identifier": "doi:10.5281/zenodo.10715749",
   "keywords": [
-    "poster",
     "biodiversity data needs",
     "survey",
-    "stakeholder engagement",
-    "MBO WP6"
+    "poster",
+    "MBO WP6",
+    "stakeholder engagement"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "Surveying Biodiversity Data Needs among Stakeholders",
@@ -64,13 +64,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_da4a19b5-f843-4f89-872a-9c876549cb68"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d3858dcb56eea86305b6e0c87dc17fbfbe468a1e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/70ebdb2502873ce8c054d6b3ad5cc1453d6ee5a2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -130,11 +130,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/10715749"
+      "@value": "https://doi.org/10.5281/zenodo.10715749"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.10715749"
+      "@value": "https://zenodo.org/records/10715749"
     }
   ]
 }

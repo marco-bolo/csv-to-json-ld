@@ -43,13 +43,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_4e776e28-2e3b-4a0c-996a-1237e5d9df4d"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d3858dcb56eea86305b6e0c87dc17fbfbe468a1e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/70ebdb2502873ce8c054d6b3ad5cc1453d6ee5a2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
