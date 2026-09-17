@@ -1,0 +1,76 @@
+{
+  "upload_type": "software",
+  "title": "MARCO-BOLO csv-to-json-ld: a CSV-W to JSON-LD pipeline for marine biodiversity metadata",
+  "version": "0.7.0-draft",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-zero",
+  "description": "<p><strong>DRAFT RELEASE &mdash; WORK IN PROGRESS. THIS IS NOT A FINISHED PROJECT.</strong> This archive is a snapshot of active, unfinished development work, deposited for citability and transparency only. The CSV schemas, the JSON-LD output format, the vocabulary mappings and the contents of the accompanying data CSVs are all subject to change without notice, and the outputs should not be treated as a stable or authoritative MARCO-BOLO metadata product. Breaking changes between this and any subsequent release are expected.</p><p><code>csv-to-json-ld</code> is the tooling MARCO-BOLO Work Package 1 uses to turn human-editable CSV files describing project entities (datasets, people, organizations, places, instruments, platforms, taxa, workflows, licenses and related resources) into validated, schema.org-aligned JSON-LD. Metadata is authored in a set of per-class CSVs, described with <a href=\"https://www.w3.org/TR/tabular-data-primer/\">CSV on the Web (CSV-W)</a> metadata documents, checked against CSV-W constraints, manual foreign-key constraints and SHACL shapes, and then converted to RDF and framed as JSON-LD for publication and harvesting. A persistent identifier scheme (MARCO-BOLO permanent identifiers, or mPIDs) links records across classes.</p><p>The pipeline is driven by <code>make</code> and runs inside Docker, so it can be executed locally or in CI. In MARCO-BOLO it runs on a schedule: partner-contributed metadata is synchronized from a shared spreadsheet, validated, converted, and the resulting JSON-LD is published for discovery through international research infrastructures, beginning with ODIS.</p><p>This repository is developed under MARCO-BOLO (MARine COastal BiOdiversity Long-term Observations), Horizon Europe grant agreement No. 101082021.</p>",
+  "notes": "Draft release. This deposit is an interim snapshot of in-progress work by MARCO-BOLO Work Package 1 and does not represent a completed project, a finished deliverable, or a stable software release. Schemas, output formats and data content are unstable and may change in later releases. Author order reflects contribution to this tooling; it is not a MARCO-BOLO deliverable author list. Please check for a later version before citing or reusing.",
+  "keywords": [
+    "draft",
+    "work in progress",
+    "MBO WP1",
+    "MARCO-BOLO",
+    "marine biodiversity",
+    "metadata",
+    "JSON-LD",
+    "CSV-W",
+    "schema.org",
+    "linked data",
+    "FAIR data",
+    "ODIS"
+  ],
+  "creators": [
+    {
+      "name": "Formel, Stephen",
+      "orcid": "0000-0001-7418-1244"
+    },
+    {
+      "name": "Barry, Rob",
+      "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research (AWI)"
+    },
+    {
+      "name": "Exter, Katrina",
+      "orcid": "0000-0002-5911-1536"
+    },
+    {
+      "name": "Beja, Joana",
+      "orcid": "0000-0002-5196-8447"
+    },
+    {
+      "name": "Figueroa Ashforth, Chloe",
+      "orcid": "0009-0007-9889-5090"
+    },
+    {
+      "name": "Fugazza, Cristiano",
+      "orcid": "0000-0003-2679-4868"
+    },
+    {
+      "name": "Provoost, Pieter",
+      "orcid": "0000-0002-4236-0384"
+    },
+    {
+      "name": "Tagliolato, Paolo",
+      "orcid": "0000-0002-0261-313X"
+    },
+    {
+      "name": "Buttigieg, Pier Luigi",
+      "orcid": "0000-0002-4366-3088"
+    },
+    {
+      "name": "Lear, Dan",
+      "orcid": "0000-0002-5806-0837"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "marco-bolo"
+    }
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101082021"
+    }
+  ]
+}
