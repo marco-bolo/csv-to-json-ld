@@ -29,13 +29,13 @@
   "alternateName": "D7.9",
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
     }
   ],
   "availableLanguage": "en",
@@ -54,9 +54,9 @@
   ],
   "keywords": [
     "MBO WP7",
+    "collision avoidance",
     "marine operations",
     "Belgian North Sea",
-    "collision avoidance",
     "ethics"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -69,13 +69,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/22460614651858d231daf4b3e5293eb41da9cd4d",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/83e89a4d33bc5e5e22c0c2af12376c3de546e22b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -123,7 +123,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-16"
+          "@value": "2026-09-17"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
@@ -135,11 +135,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17527043"
+      "@value": "https://doi.org/10.5281/zenodo.17527043"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17527043"
+      "@value": "https://zenodo.org/records/17527043"
     },
     {
       "@type": "URL",

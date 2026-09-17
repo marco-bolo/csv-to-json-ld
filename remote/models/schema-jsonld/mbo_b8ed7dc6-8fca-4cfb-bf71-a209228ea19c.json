@@ -31,10 +31,10 @@
   },
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
+      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6a570fda-205e-454f-abb0-76fa9f84dcd4"
+      "@id": "https://w3id.org/marco-bolo/mbo_bcb83675-8065-43e0-8fdf-95c8d0b569eb"
     }
   ],
   "name": "T4.4 hydrophone data capture",
@@ -50,13 +50,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/22460614651858d231daf4b3e5293eb41da9cd4d",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/83e89a4d33bc5e5e22c0c2af12376c3de546e22b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -104,7 +104,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-16"
+          "@value": "2026-09-17"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_b8ed7dc6-8fca-4cfb-bf71-a209228ea19c-input-metadata"
