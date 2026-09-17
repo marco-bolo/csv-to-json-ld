@@ -29,7 +29,7 @@ mbo_meliso,mbo_sformel,mbo_wp2_d2_2,Maria Concetta,Eliso,,mbo_org_szn|mbo_org_mb
 mbo_kexter,mbo_sformel,mbo_db_tool_population,Katrina,Exter,mbo_org_vliz,mbo_org_mbo_wp1,mbo_contact_kexter,https://oceanexpert.org/expert/58464|https://orcid.org/0000-0002-5911-1536
 mbo_66048,mbo_sformel,mbo_db_tool_population,Miguel,Fernandez,,,,https://oceanexpert.org/expert/66048
 mbo_28159,mbo_sformel,mbo_db_tool_population,Vicente,Fernández,,,,https://oceanexpert.org/expert/28159
-mbo_56774,mbo_sformel,mbo_db_tool_population,Chloe,Figueroa Ashforth,mbo_org_mba,mbo_org_mbo_wp1,,https://oceanexpert.org/expert/56774|https://orcid.org/0009-0007-9889-5090
+mbo_cfigueroaashforth,mbo_sformel,mbo_db_tool_population,Chloe,Figueroa Ashforth,mbo_org_mba,mbo_org_mbo_wp1,,https://oceanexpert.org/expert/56774|https://orcid.org/0009-0007-9889-5090
 mbo_sformel,mbo_sformel,mbo_db_tool_population,Stephen,Formel,mbo_org_obis,mbo_org_unesco|mbo_org_mbo_wp1,mbo_contact_sformel,https://oceanexpert.org/expert/54167|https://orcid.org/0000-0001-7418-1244
 mbo_ngallo,mbo_sformel,mbo_db_tool_population,Natalya,Gallo,mbo_org_norce,,mbo_contact_wp5_d5_3|mbo_contact_wp5_t5_3,https://orcid.org/0000-0001-5168-4244
 mbo_55091,mbo_sformel,mbo_db_tool_population,Sarah Lou Carolin,Giering,mbo_org_noc,,mbo_contact_wp4_d4_1_2,https://oceanexpert.org/expert/55091|https://orcid.org/0000-0002-3090-1876
@@ -147,7 +147,6 @@ mbo_jpagnier,mbo_sformel,mbo_wp5_d5_4,Justine,Pagnier,mbo_org_ugot,mbo_org_lifew
 mbo_digescu,mbo_sformel,mbo_wp3_d3_4,Denisa,Igescu,mbo_org_ub,mbo_org_mbo_wp3,,https://orcid.org/0009-0001-8189-5074
 mbo_kmckee,mbo_sformel,mbo_wp6_d6_2,Kara,McKee,mbo_org_ssbe,mbo_org_mbo_wp6,,
 mbo_esalasleiton,mbo_sformel,mbo_wp6_d6_2,Emilio,Salas Leitón,mbo_org_ciimar,mbo_org_mbo_wp6,,https://orcid.org/0000-0003-2133-1581
-mbo_cfigueroaashforth,mbo_sformel,mbo_wp6_d6_2,Chloe,Figueroa Ashforth,mbo_org_mba,mbo_org_mbo_wp6,,https://orcid.org/0009-0007-9889-5090
 mbo_mreuver,mbo_sformel,mbo_db_tool_population,Marieke,Reuver,mbo_org_erinn,,,https://orcid.org/0000-0002-7863-2687
 mbo_gvecchi,mbo_sformel,mbo_db_tool_population,Giulia,Vecchi,mbo_org_embrc,,mbo_contact_giulia,
 mbo_vfernandez,mbo_sformel,mbo_db_tool_population,Vicente,Fernandez,mbo_org_ssbe,,,
