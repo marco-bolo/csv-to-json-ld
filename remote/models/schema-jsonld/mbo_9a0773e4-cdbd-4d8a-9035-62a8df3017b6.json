@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6",
+  "@type": "SoftwareSourceCode",
+  "author": {
+    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+  },
+  "codeRepository": {
+    "@type": "URL",
+    "@value": "https://github.com/marco-bolo/kg-explorer"
+  },
+  "contributor": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d9ca136-f71d-411c-a1c5-1f92aa0e47ab"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
+    }
+  ],
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+  },
+  "dateCreated": "2026-06-21",
+  "description": "Browser-based knowledge graph explorer for the MARCO-BOLO metadata catalog. Consumes the JSON-LD published by csv-to-json-ld and renders it as a filterable graph, with work package filtering, orphan detection for tasks and deliverables lacking recorded outputs, a coverage heatmap and GEXF export. Deployed at https://lab.marcobolo-project.eu/kg-explorer/. Forked from sdiggs/kg-explorer by Stephen C. Diggs.",
+  "keywords": [
+    "knowledge graph",
+    "linked data",
+    "MBO WP1",
+    "graph visualization",
+    "metadata catalog",
+    "JSON-LD"
+  ],
+  "maintainer": {
+    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+  },
+  "name": "MARCO-BOLO KG Explorer",
+  "programmingLanguage": [
+    "Python",
+    "JavaScript"
+  ],
+  "publisher": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
+  "runtimePlatform": "Web browser",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+      }
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000025#row=7"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-17"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      }
+    ]
+  }
+}

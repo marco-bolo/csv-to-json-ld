@@ -29,10 +29,10 @@
   "alternateName": "D5.5",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
     }
   ],
   "availableLanguage": "en",
@@ -46,15 +46,15 @@
   "datePublished": "2025-09-05",
   "description": "Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
   "identifier": [
-    "Deliverable D5.5",
-    "doi:10.5281/zenodo.20787365"
+    "doi:10.5281/zenodo.20787365",
+    "Deliverable D5.5"
   ],
   "keywords": [
-    "alien species",
-    "non-indigenous species",
     "MBO WP5",
+    "non-indigenous species",
+    "species distribution modelling",
     "climate projections",
-    "species distribution modelling"
+    "alien species"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D5.5 - Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
@@ -72,11 +72,34 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d13b7ac89c08ce056c334e14104224787db2aaa3",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#csv",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=24"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
+        },
+        "encodingFormat": "text/csv"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#jsonld",
         "@reverse": {
@@ -103,29 +126,6 @@
           "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
         },
         "encodingFormat": "application/ld+json"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#csv",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=24"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
-        },
-        "encodingFormat": "text/csv"
       }
     ]
   },

@@ -31,8 +31,8 @@
   "familyName": "Peredo Arce",
   "givenName": "Andrés",
   "identifier": [
-    "https://orcid.org/0000-0002-6353-9121",
-    "https://oceanexpert.org/expert/84963"
+    "https://oceanexpert.org/expert/84963",
+    "https://orcid.org/0000-0002-6353-9121"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6-input-metadata",
@@ -48,7 +48,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d13b7ac89c08ce056c334e14104224787db2aaa3",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },

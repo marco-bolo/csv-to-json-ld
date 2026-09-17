@@ -36,6 +36,9 @@
   "name": "T5.1.2 running habitat model - harbor porpoise",
   "object": [
     {
+      "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+    },
+    {
       "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
     },
     {
@@ -43,9 +46,6 @@
     },
     {
       "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
-    },
-    {
-      "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
     }
   ],
   "participant": {
@@ -68,7 +68,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d13b7ac89c08ce056c334e14104224787db2aaa3",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },

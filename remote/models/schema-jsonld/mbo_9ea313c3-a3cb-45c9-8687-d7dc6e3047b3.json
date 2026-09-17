@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3",
+  "@type": "CreateAction",
+  "abstract": "Development of an interactive knowledge graph browser for the MARCO-BOLO metadata catalog, used to inspect cross-work-package linkages and identify gaps in catalog coverage.",
+  "actionProcess": {
+    "@id": "https://w3id.org/marco-bolo/mbo_6ec55a4c-2767-4a10-a524-8213b4b9ccd7"
+  },
+  "agent": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+  },
+  "description": "WP1 adapted an existing knowledge graph explorer to consume the schema.org-compacted JSON-LD published by the csv-to-json-ld pipeline, bundling it into a browsable graph of entities and the properties that relate them. The tool supports filtering by work package, orphan detection for tasks and deliverables with no recorded output, and a coverage heatmap of entity kinds against work packages.",
+  "name": "WP1: Development of the MARCO-BOLO KG Explorer",
+  "participant": {
+    "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+  },
+  "result": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#jsonld",
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-09-17"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata",
+        "@type": [
+          "InputMetadataDescription",
+          "Dataset"
+        ],
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+        },
+        "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+        },
+        "distribution": [
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#csv",
+            "@type": "DataDownload",
+            "about": {
+              "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+            },
+            "contentUrl": {
+              "@type": "URL",
+              "@value": "https://w3id.org/marco-bolo/mbo_0000004#row=95"
+            },
+            "creator": {
+              "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+            },
+            "encodesCreativeWork": {
+              "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata"
+            },
+            "encodingFormat": "text/csv"
+          },
+          {
+            "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#jsonld"
+          }
+        ]
+      },
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#csv"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata"
+    }
+  ],
+  "startTime": "2026-06-21",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+      }
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3-input-metadata#jsonld"
+      }
+    ]
+  }
+}
