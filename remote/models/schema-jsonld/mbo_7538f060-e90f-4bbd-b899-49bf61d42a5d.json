@@ -41,10 +41,10 @@
   "description": "Slide decks from the 1st Community of Practice event and 1st Co-design Workshop (May 2024)",
   "identifier": "doi:10.5281/zenodo.17236790",
   "keywords": [
-    "stakeholder engagement",
-    "Community of Practice",
     "presentation slides",
     "co-design workshop",
+    "stakeholder engagement",
+    "Community of Practice",
     "MBO WP6"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -57,13 +57,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_7538f060-e90f-4bbd-b899-49bf61d42a5d"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/83e89a4d33bc5e5e22c0c2af12376c3de546e22b",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/33bb3a46e010fdc3790454ad21bb5c8c66407616",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
