@@ -1,156 +1,86 @@
 {
-  "timestamp": "2026-09-09T05:38:54.911196",
+  "timestamp": "2026-09-17T21:42:33.364621",
   "new_ids": [
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_6cd70ea0-600e-4309-8478-620df1140e69",
-      "semantic_id": "mbo_propval_shannoon"
+      "class": "HowToStep",
+      "uuid": "mbo_308af643-4723-4c6a-81d9-97f758e09b09",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep1"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_c73b7105-ba32-4705-b974-8961f50562ed",
-      "semantic_id": "mbo_propval_simpson"
+      "class": "HowToStep",
+      "uuid": "mbo_1b2505b3-f93a-426e-a3ad-f2c94bb15a4f",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep2"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_92da4716-7bbe-4883-9ed6-ba814b91ffec",
-      "semantic_id": "mbo_propval_richness"
+      "class": "HowToStep",
+      "uuid": "mbo_f826ea73-40c9-40af-9103-60524e625079",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep3"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_95ddb7e9-cfd1-4d86-8a1f-a2dd3843e7e5",
-      "semantic_id": "mbo_propval_evenness"
+      "class": "HowToStep",
+      "uuid": "mbo_788cf369-1808-4a1d-a916-132dbcfdabd8",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep4"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_fa133e06-ce40-4e2c-baa6-9765d738c6d4",
-      "semantic_id": "mbo_propval_Ammonium"
+      "class": "HowToStep",
+      "uuid": "mbo_d38d7642-59d2-4d8a-965f-f852a32d7203",
+      "semantic_id": "mbo_wp1_kg_explorer_howtostep1"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_7016c23f-66ba-4a9e-9872-be6643775057",
-      "semantic_id": "mbo_propval_Arsenic"
+      "class": "HowToStep",
+      "uuid": "mbo_49f05e69-4bb4-4803-b1ec-b3292977cb9a",
+      "semantic_id": "mbo_wp1_kg_explorer_howtostep2"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_0eb3273f-fc01-42fa-a94f-edb9896a253b",
-      "semantic_id": "mbo_propval_Benzo-a-pyrene"
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_ee1a31ab-0522-478c-af17-ab2436c15266",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_code"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_a5dd38f5-a3da-4052-afd1-4f331e758f97",
-      "semantic_id": "mbo_propval_Cadmium"
+      "class": "SoftwareSourceCode",
+      "uuid": "mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6",
+      "semantic_id": "mbo_wp1_kg_explorer_code"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_9f7bf569-46ed-40bd-8d6e-db91a903f5c3",
-      "semantic_id": "mbo_propval_Chlorophyll-a"
+      "class": "Action",
+      "uuid": "mbo_b1ab4024-2534-426f-8d8f-b3d826bf8df9",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_dev"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_7cef560d-f14f-4f7f-a8bd-0f97ab30034e",
-      "semantic_id": "mbo_propval_Electric-Conductivity"
+      "class": "Action",
+      "uuid": "mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3",
+      "semantic_id": "mbo_wp1_kg_explorer_dev"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_b93cd583-763e-4600-ac9a-16009bef4a5f",
-      "semantic_id": "mbo_propval_Fluoranthene"
+      "class": "HowTo",
+      "uuid": "mbo_50c01c14-614e-43e0-a009-db5a8f1dd0f7",
+      "semantic_id": "mbo_wp1_csv_to_json_ld_howto"
     },
     {
-      "class": "PropertyValue",
-      "uuid": "mbo_68c46714-aca2-4c68-a48d-b8620580d516",
-      "semantic_id": "mbo_propval_gamma-Hexachlorocyclohexane"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_332b15f6-a7fb-42e3-a5c6-d3dde63bb828",
-      "semantic_id": "mbo_propval_Indeno-1-2-3-cd-pyrene"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_f3608172-1f3e-4e90-a686-349bff18dfb9",
-      "semantic_id": "mbo_propval_Lead"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_25728109-bf4c-4de6-88d6-ab841595cb5e",
-      "semantic_id": "mbo_propval_Mercury"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_312f2bed-51f2-4342-8fcd-5b2d51dac2d0",
-      "semantic_id": "mbo_propval_Nickel"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_3626b50c-7054-40f1-8b8f-15a1ea30b140",
-      "semantic_id": "mbo_propval_Nitrate"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_9b8c982f-b696-4139-b53a-7e06ae7704e9",
-      "semantic_id": "mbo_propval_Nitrite"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_3f9974ee-eaf7-45e7-8c9b-6ba0087e05ca",
-      "semantic_id": "mbo_propval_Ortho-phosphate"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_14f1ae5b-a7ec-4694-8c73-594e7f572758",
-      "semantic_id": "mbo_propval_Oxygen-concentration"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_21ce580a-60f2-4393-91dc-bd3cf2abf3c4",
-      "semantic_id": "mbo_propval_Oxygen-saturation"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_4cf33d51-7929-4091-b0fb-74e2126d29c9",
-      "semantic_id": "mbo_propval_pH"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_fa8534a9-8a90-4cae-92d1-9f210f537dfa",
-      "semantic_id": "mbo_propval_Salinity"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_f38b09ff-7fd4-475a-bab0-f98b372307be",
-      "semantic_id": "mbo_propval_Silicate"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_5b072428-c364-493c-8b92-14a7e0a54497",
-      "semantic_id": "mbo_propval_Total-N"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_d0164204-52ca-43cd-b3ee-e9301fd12fbb",
-      "semantic_id": "mbo_propval_Total-P"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_22e59392-fce9-4425-b36b-663f79da1dd2",
-      "semantic_id": "mbo_propval_Total-suspended-matter"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_1b0c1372-2ce6-4167-9f35-690a9138a0b4",
-      "semantic_id": "mbo_propval_Turbidity"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_257682b5-e2ca-4f85-b378-a7b686143fed",
-      "semantic_id": "mbo_propval_Visibility-depth"
-    },
-    {
-      "class": "PropertyValue",
-      "uuid": "mbo_ccafc315-79f2-454b-b9a7-290fdbf7c083",
-      "semantic_id": "mbo_propval_Water-temperature"
+      "class": "HowTo",
+      "uuid": "mbo_6ec55a4c-2767-4a10-a524-8213b4b9ccd7",
+      "semantic_id": "mbo_wp1_kg_explorer_howto"
     }
   ],
-  "missing_ids": []
+  "missing_ids": [
+    {
+      "class": "Person",
+      "uuid": "mbo_3eb68bc9-72dc-4e97-a69a-172bfe2e86a1",
+      "semantic_id": "mbo_56774",
+      "similar": [
+        [
+          "mbo_59077",
+          0.7777777777777778
+        ],
+        [
+          "mbo_59174",
+          0.7777777777777778
+        ],
+        [
+          "mbo_57469",
+          0.7777777777777778
+        ]
+      ]
+    }
+  ]
 }
