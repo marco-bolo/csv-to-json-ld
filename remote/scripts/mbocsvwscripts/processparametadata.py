@@ -29,7 +29,7 @@ IS_RESULT_OF_PREDICATE: URIRef = MBO.isResultOf
 """
 A predicate which specifies that this metadata is the result of an action (inverse of `schema:result`)
 """
-MBO_ORGANIZATION_URI: URIRef = MBO.mbo_todo_organization_mbo
+MBO_ORGANIZATION_URI: URIRef = MBO["mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"]
 """
 The URI Persistent Identifier for the MARCO-BOLO Organization.
 """
