@@ -27,27 +27,6 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
@@ -56,17 +35,17 @@
       "value": "Phocoena phocoena"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
@@ -77,6 +56,27 @@
       }
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
@@ -84,10 +84,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     }
   ],
@@ -109,7 +109,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9b28ddd4555a3e8903fd6415c8946be5a4fed568",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -157,7 +157,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-17"
+          "@value": "2026-09-18"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3-input-metadata"

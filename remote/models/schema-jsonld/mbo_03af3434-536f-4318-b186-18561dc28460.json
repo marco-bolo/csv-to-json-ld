@@ -27,10 +27,10 @@
   "@type": "DigitalDocument",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
+      "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c"
+      "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe"
@@ -48,11 +48,11 @@
   "description": "WP6 Stakeholder Engagement & Community Integration: stakeholder survey presentation (February 2024)",
   "identifier": "doi:10.5281/zenodo.10715714",
   "keywords": [
-    "presentation",
+    "stakeholder engagement",
     "survey",
     "MBO WP6",
-    "biodiversity data needs",
-    "stakeholder engagement"
+    "presentation",
+    "biodiversity data needs"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "WP6: Stakeholder Engagement & Community Integration - Stakeholder Survey",
@@ -70,7 +70,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9b28ddd4555a3e8903fd6415c8946be5a4fed568",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -95,7 +95,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-17"
+          "@value": "2026-09-18"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_03af3434-536f-4318-b186-18561dc28460-input-metadata"
@@ -130,11 +130,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.10715714"
+      "@value": "https://zenodo.org/records/10715714"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/10715714"
+      "@value": "https://doi.org/10.5281/zenodo.10715714"
     }
   ]
 }

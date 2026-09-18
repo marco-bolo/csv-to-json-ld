@@ -27,6 +27,20 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Family",
       "@type": "PropertyValue",
       "propertyID": {
@@ -34,10 +48,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     },
     {
@@ -49,21 +63,6 @@
       "value": "kingdom"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
@@ -72,10 +71,10 @@
       "value": "Archaea"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -86,18 +85,19 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      },
+      "value": "accepted"
     }
   ],
   "identifier": [
-    "worms:8",
     {
       "@id": "urn:lsid:marinespecies.org:taxname:8"
-    }
+    },
+    "worms:8"
   ],
   "name": "Archaea",
   "subjectOf": {
@@ -114,38 +114,11 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0fa2bbc302cd64e4a5e8b7e82d7a93fc3588196",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9b28ddd4555a3e8903fd6415c8946be5a4fed568",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-17"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
-      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata#csv",
         "@reverse": {
@@ -168,6 +141,33 @@
           "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata"
         },
         "encodingFormat": "text/csv"
+      },
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-18"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
       }
     ]
   }
