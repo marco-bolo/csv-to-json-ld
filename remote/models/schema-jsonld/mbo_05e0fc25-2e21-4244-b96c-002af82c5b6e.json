@@ -29,13 +29,13 @@
   "alternateName": "D7.9",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9c62c2f4-582f-4435-b576-951b0e53c8a5"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     }
   ],
   "availableLanguage": "en",
@@ -49,14 +49,14 @@
   "datePublished": "2024-07-10",
   "description": "Ethics brief on environmental issues for planned marine operations",
   "identifier": [
-    "Deliverable D7.9",
-    "doi:10.5281/zenodo.17527043"
+    "doi:10.5281/zenodo.17527043",
+    "Deliverable D7.9"
   ],
   "keywords": [
-    "MBO WP7",
-    "ethics",
     "collision avoidance",
     "marine operations",
+    "MBO WP7",
+    "ethics",
     "Belgian North Sea"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -69,17 +69,44 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9b28ddd4555a3e8903fd6415c8946be5a4fed568",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/034a330d6c9f6acf08c9463ecfbcaece6a6d3d4f",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-19"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#csv",
         "@reverse": {
@@ -102,37 +129,14 @@
           "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
         },
         "encodingFormat": "text/csv"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_7efa642b-cd85-45e1-ac72-9653987d3917"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-18"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
       }
     ]
   },
   "url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
+    },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.17527043"
@@ -140,10 +144,6 @@
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/17527043"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
     }
   ],
   "version": "2.1"
