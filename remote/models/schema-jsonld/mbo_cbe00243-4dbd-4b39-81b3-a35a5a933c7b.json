@@ -40,14 +40,14 @@
   "datePublished": "2025-11-11",
   "description": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
   "identifier": [
-    "Deliverable D3.2",
-    "doi:10.5281/zenodo.20776313"
+    "doi:10.5281/zenodo.20776313",
+    "Deliverable D3.2"
   ],
   "keywords": [
-    "MBO WP3",
     "river-coastal continuum",
-    "Essential Ocean Variables (EOV)",
     "biodiversity monitoring",
+    "Essential Ocean Variables (EOV)",
+    "MBO WP3",
     "Essential Biodiversity Variables (EBV)"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -60,17 +60,44 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/034a330d6c9f6acf08c9463ecfbcaece6a6d3d4f",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_19cd9c6d-5654-4cce-91b9-acb102faf15d"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-20"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata#csv",
         "@reverse": {
@@ -93,41 +120,10 @@
           "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
         },
         "encodingFormat": "text/csv"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_19cd9c6d-5654-4cce-91b9-acb102faf15d"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-19"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
       }
     ]
   },
   "url": [
-    {
-      "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
-    },
     {
       "@type": "URL",
       "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
@@ -135,6 +131,10 @@
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20776313"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/20776313"
     }
   ],
   "version": "draft 2"

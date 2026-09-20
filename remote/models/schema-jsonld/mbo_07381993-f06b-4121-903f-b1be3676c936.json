@@ -30,25 +30,25 @@
   },
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_3feaf3a9-ac70-4e08-a9d7-635a65f22a16"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_91ec56f2-0050-43e4-8401-9d7c18247c2d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b263e75-c86f-4abc-812e-a3252defcb1f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b573b276-b107-4f64-8b4e-d40dd8aac57f"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_aff526fb-91f6-4eda-85d5-fd72fb3e9824"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ec308f0d-bee8-432a-8c29-e4651af92d7d"
     }
   ],
   "conditionsOfAccess": "Files restricted until embargo lifts 2026-11-30",
@@ -71,14 +71,14 @@
     "https://identifiers.org/ena.embl:PRJEB98195"
   ],
   "keywords": [
-    "environmental DNA",
-    "NEREA",
-    "eDNA",
+    "metabarcoding",
+    "18S rDNA",
     "V9-18S",
     "amplicon sequencing",
+    "environmental DNA",
     "eukaryotic",
-    "18S rDNA",
-    "metabarcoding"
+    "eDNA",
+    "NEREA"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO - Metadata V9-18S rDNA amplicon sequencing of NEREA environmental DNA samples",
@@ -93,17 +93,44 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/034a330d6c9f6acf08c9463ecfbcaece6a6d3d4f",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-20"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata#csv",
         "@reverse": {
@@ -126,33 +153,6 @@
           "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata"
         },
         "encodingFormat": "text/csv"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_8f69ddba-7e9f-4937-b0df-a8c55110545c"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-19"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_07381993-f06b-4121-903f-b1be3676c936-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
       }
     ]
   },
