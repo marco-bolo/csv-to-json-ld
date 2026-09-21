@@ -1,86 +1,11 @@
 {
-  "timestamp": "2026-09-17T21:42:33.364621",
+  "timestamp": "2026-09-21T16:55:33.400399",
   "new_ids": [
     {
-      "class": "HowToStep",
-      "uuid": "mbo_308af643-4723-4c6a-81d9-97f758e09b09",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep1"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_1b2505b3-f93a-426e-a3ad-f2c94bb15a4f",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep2"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_f826ea73-40c9-40af-9103-60524e625079",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep3"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_788cf369-1808-4a1d-a916-132dbcfdabd8",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_howtostep4"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_d38d7642-59d2-4d8a-965f-f852a32d7203",
-      "semantic_id": "mbo_wp1_kg_explorer_howtostep1"
-    },
-    {
-      "class": "HowToStep",
-      "uuid": "mbo_49f05e69-4bb4-4803-b1ec-b3292977cb9a",
-      "semantic_id": "mbo_wp1_kg_explorer_howtostep2"
-    },
-    {
-      "class": "SoftwareSourceCode",
-      "uuid": "mbo_ee1a31ab-0522-478c-af17-ab2436c15266",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_code"
-    },
-    {
-      "class": "SoftwareSourceCode",
-      "uuid": "mbo_9a0773e4-cdbd-4d8a-9035-62a8df3017b6",
-      "semantic_id": "mbo_wp1_kg_explorer_code"
-    },
-    {
-      "class": "Action",
-      "uuid": "mbo_b1ab4024-2534-426f-8d8f-b3d826bf8df9",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_dev"
-    },
-    {
-      "class": "Action",
-      "uuid": "mbo_9ea313c3-a3cb-45c9-8687-d7dc6e3047b3",
-      "semantic_id": "mbo_wp1_kg_explorer_dev"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_50c01c14-614e-43e0-a009-db5a8f1dd0f7",
-      "semantic_id": "mbo_wp1_csv_to_json_ld_howto"
-    },
-    {
-      "class": "HowTo",
-      "uuid": "mbo_6ec55a4c-2767-4a10-a524-8213b4b9ccd7",
-      "semantic_id": "mbo_wp1_kg_explorer_howto"
+      "class": "DefinedTermSet",
+      "uuid": "mbo_bd232373-c051-45ed-a616-ad0718ed9ec3",
+      "semantic_id": "mbo_definedtermset_publishing_status"
     }
   ],
-  "missing_ids": [
-    {
-      "class": "Person",
-      "uuid": "mbo_3eb68bc9-72dc-4e97-a69a-172bfe2e86a1",
-      "semantic_id": "mbo_56774",
-      "similar": [
-        [
-          "mbo_59077",
-          0.7777777777777778
-        ],
-        [
-          "mbo_59174",
-          0.7777777777777778
-        ],
-        [
-          "mbo_57469",
-          0.7777777777777778
-        ]
-      ]
-    }
-  ]
+  "missing_ids": []
 }

@@ -268,6 +268,9 @@
     "mbo_6d89e8df-cde2-41f7-a859-cb2d91b86a04": "mbo_definedterm_d1c2",
     "mbo_88ba84eb-be8f-4801-932b-b708f9adc2e3": "mbo_definedterm_d1c1"
   },
+  "DefinedTermSet": {
+    "mbo_bd232373-c051-45ed-a616-ad0718ed9ec3": "mbo_definedtermset_publishing_status"
+  },
   "Document": {
     "mbo_01710a09-b370-4466-8dc4-07b788f96e45": "mbo_wp3_d3_1_doc",
     "mbo_03af3434-536f-4318-b186-18561dc28460": "mbo_wp6_stakeholder_survey_pres",
