@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-21T16:55:33.400399",
+  "timestamp": "2026-09-21T18:55:13.023169",
   "new_ids": [
     {
-      "class": "DefinedTermSet",
-      "uuid": "mbo_bd232373-c051-45ed-a616-ad0718ed9ec3",
-      "semantic_id": "mbo_definedtermset_publishing_status"
+      "class": "Organization",
+      "uuid": "mbo_7351b43a-294d-4006-9a32-d6e02ba105f9",
+      "semantic_id": "mbo_european_union"
     }
   ],
   "missing_ids": []
