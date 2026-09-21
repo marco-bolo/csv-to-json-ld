@@ -8,6 +8,7 @@ This makes up for a limitation in the CSV on the web standard, see <https://list
 """
 
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import click
 import rdflib
@@ -67,7 +68,38 @@ def _update_literals_to_nodes_in_graph_assert_success(
     if num_remaining != 0:
         raise Exception(f"Failed to convert {num_remaining}literals.")
 
+    _assert_converted_iris_are_absolute(graph)
+
     return graph
+
+
+def _assert_converted_iris_are_absolute(graph: rdflib.Graph) -> None:
+    """
+    A `(URL PIDs)` column is used verbatim, since it may legitimately hold any kind of URL. So an
+    `mbo_` identifier which was never replaced with its UUID arrives here as a *relative* IRI
+    reference, and RDF gives us no way to leave one unresolved - it is silently completed against
+    whatever document is being processed. That turns a typo like `mbo_t44_data_hydrophonerraw` into
+    `file:///work/out/bulk/mbo_t44_data_hydrophonerraw` in published output.
+
+    These columns have no foreign key checks by design, so this is the only thing standing between a
+    mistyped identifier and a broken link in the catalogue. Every IRI we mint must be absolute, which
+    for our purposes means it carries a scheme.
+    """
+    relative_iris = sorted(
+        {
+            f"<{o}> as the object of <{p}> on <{s}>"
+            for (s, p, o) in graph
+            if isinstance(o, rdflib.URIRef) and not urlsplit(str(o)).scheme
+        }
+    )
+
+    if any(relative_iris):
+        raise Exception(
+            f"Produced {len(relative_iris)} relative IRI(s); every IRI must be absolute. "
+            "This usually means an mbo_ identifier in a '(URL PIDs)' column was never replaced "
+            "with its UUID - look for a typo in the source sheet, or a record missing from "
+            "config/uuid_mapping.json:" + "".join(f"\n  {i}" for i in relative_iris)
+        )
 
 
 def _get_number_to_be_converted_in_graph(graph: rdflib.Graph) -> int:

@@ -121,14 +121,7 @@ def _build_para_metadata_graph(
     result_of_action = _get_object_from_single_triple_with_predicate(
         input_metadata_triples, IS_RESULT_OF_PREDICATE
     )
-    csv_content_url = _get_object_from_single_triple_with_predicate(
-        input_metadata_triples, SCHEMA.contentUrl
-    )
-
     dataset_uri = URIRef(f"{uri_described_in_original_metadata}-input-metadata")
-    csv_data_download_uri = URIRef(
-        f"{uri_described_in_original_metadata}-input-metadata#csv"
-    )
     jsonld_data_download_uri = URIRef(
         f"{uri_described_in_original_metadata}-input-metadata#jsonld"
     )
@@ -137,13 +130,12 @@ def _build_para_metadata_graph(
         # existing CSV record.
         (dataset_uri, p, o)
         for (_, p, o) in input_metadata_triples
-        # We of course don't bring the type/CSV URL along.
-        if p not in {SCHEMA.contentUrl, RDF.type, IS_RESULT_OF_PREDICATE}
+        # We of course don't bring the type along.
+        if p not in {RDF.type, IS_RESULT_OF_PREDICATE}
     ]
     dataset_triples += [
         (dataset_uri, RDF.type, SCHEMA.Dataset),
         (dataset_uri, RDF.type, INPUT_METADATA_DATA_TYPE_URI),
-        (dataset_uri, SCHEMA.distribution, csv_data_download_uri),
         (dataset_uri, SCHEMA.distribution, jsonld_data_download_uri),
         
     ]
@@ -151,23 +143,6 @@ def _build_para_metadata_graph(
         dataset_triples.append(
             (dataset_uri, SCHEMA.archivedAt, URIRef(git_repo_commit_file_url))
         )
-
-    csv_data_download_triples = [
-        (csv_data_download_uri, p, o)
-        for (_, p, o) in input_metadata_triples
-        if p not in {SCHEMA.contentUrl, RDF.type, IS_RESULT_OF_PREDICATE}
-    ]
-    csv_data_download_triples += [
-        (csv_data_download_uri, RDF.type, SCHEMA.DataDownload),
-        (csv_data_download_uri, SCHEMA.encodesCreativeWork, dataset_uri),
-        (csv_data_download_uri, SCHEMA.encodingFormat, Literal("text/csv")),
-        (
-            csv_data_download_uri,
-            SCHEMA.contentUrl,
-            Literal(str(csv_content_url), datatype=SCHEMA.URL),
-        ),
-        
-    ]
 
     json_data_download_triples = [
         (jsonld_data_download_uri, RDF.type, SCHEMA.DataDownload),
@@ -193,10 +168,8 @@ def _build_para_metadata_graph(
     ]
     para_metadata_graph = rdflib.Graph()
     para_metadata_graph += dataset_triples
-    para_metadata_graph += csv_data_download_triples
     para_metadata_graph += json_data_download_triples
     para_metadata_graph.add((result_of_action, SCHEMA.result, dataset_uri))
-    para_metadata_graph.add((result_of_action, SCHEMA.result, csv_data_download_uri))
     para_metadata_graph.add((result_of_action, SCHEMA.result, jsonld_data_download_uri))
     para_metadata_graph.add((result_of_action, RDF.type, SCHEMA.CreateAction))
     return para_metadata_graph, dataset_uri

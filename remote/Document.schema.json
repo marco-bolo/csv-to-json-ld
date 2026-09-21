@@ -237,7 +237,7 @@
             },
             "dc:description": {
                 "en": [
-                    "WARNING: There are no foreign key checks.\n\nFor example: `https://example.com`, `http://example.com`, \n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
+                    "Any URL is accepted here, so most values cannot be checked. Those which name an MBO record --\neither `mbo_...` or the full `https://w3id.org/marco-bolo/mbo_...` -- are checked against the\ncatalogue; anything else is left alone.\n\nFor example: `https://example.com`, `http://example.com`,\n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
                 ]
             },
             "propertyUrl": "https://schema.org/isBasedOn",
@@ -550,12 +550,6 @@
             "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
             "propertyUrl": "https://schema.org/about",
             "valueUrl": "https://w3id.org/marco-bolo/{+id}"
-        },
-        {
-            "virtual": true,
-            "aboutUrl": "https://w3id.org/marco-bolo/{+id}#input-metadata",
-            "propertyUrl": "https://schema.org/contentUrl",
-            "valueUrl": "https://w3id.org/marco-bolo/mbo_0000027#row={_row}"
         }
     ],
     "aboutUrl": "https://w3id.org/marco-bolo/{+id}",

@@ -1,0 +1,5 @@
+MBO Permanent Identifier*,Based On (URL PIDs)
+mbo_dataset_one,https://example.com/someone-elses-dataset|doi:10.1000/example123
+mbo_dataset_two,mbo_dataset_one|ftp://ftp.example.org/data
+mbo_dataset_three,https://w3id.org/marco-bolo/mbo_dataset_one
+mbo_dataset_four,mbo_typo_not_in_catalogue|https://w3id.org/marco-bolo/mbo_url_form_not_in_catalogue

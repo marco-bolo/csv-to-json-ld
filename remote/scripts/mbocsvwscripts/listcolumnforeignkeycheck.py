@@ -7,10 +7,12 @@ Enforces foreign key constraints on the literal values inside list columns.
 
 import sys
 from pathlib import Path
-from typing import Set, Any
+from typing import Set, Any, Optional
 
 import click
 import pandas as pd
+
+_MBO_PID_URI_PREFIX = "https://w3id.org/marco-bolo/"
 
 
 @click.command()
@@ -38,12 +40,20 @@ import pandas as pd
     show_default=True,
     help="The character separating values in LIST_COLUMN_TITLE_IN_CHILD_TABLE",
 )
+@click.option(
+    "--mbo-identifiers-only",
+    is_flag=True,
+    default=False,
+    help="Only check values which name an MBO record, ignoring any other value. Use this for "
+    "`(URL PIDs)` columns, which may legitimately hold any URL.",
+)
 def main(
     csv_child_table: click.Path,
     list_column_title_in_child_table: str,
     csv_parent_table: click.Path,
     column_title_in_parent_table: str,
     separator: str,
+    mbo_identifiers_only: bool,
 ) -> None:
     """
     Validates the values of the `LIST_COLUMN_TITLE_IN_CHILD_TABLE` inside `CSV_CHILD_TABLE` against the authoritative
@@ -55,6 +65,7 @@ def main(
         Path(str(csv_parent_table)),
         column_title_in_parent_table,
         separator,
+        mbo_identifiers_only,
     )
 
     if any(invalid_values):
@@ -76,6 +87,7 @@ def _get_invalid_list_column_values(
     csv_parent_table: Path,
     column_title_in_parent_table: str,
     separator: str,
+    mbo_identifiers_only: bool = False,
 ) -> Set[Any]:
     """
     Returns missing values.
@@ -87,7 +99,31 @@ def _get_invalid_list_column_values(
         column_title_in_parent_table, csv_parent_table
     )
 
+    if mbo_identifiers_only:
+        unique_child_values = {
+            identifier
+            for identifier in (_as_mbo_identifier(str(v)) for v in unique_child_values)
+            if identifier is not None
+        }
+
     return unique_child_values - unique_parent_values
+
+
+def _as_mbo_identifier(value: str) -> Optional[str]:
+    """
+    Returns the MBO identifier `value` names, or `None` where it does not name one.
+
+    A `(URL PIDs)` column may hold any URL -- `https://example.com`, `doi:10.1000/example123` -- so
+    most values in one are not ours to check. Those which are may be written either bare (`mbo_...`)
+    or as the full PID URI, and the parent tables list the bare form, so the URI form is normalised
+    to it. Without that normalisation the full-URI form would silently bypass this check, which is
+    the bug this is here to prevent.
+    """
+    value = value.strip()
+    if value.startswith(_MBO_PID_URI_PREFIX):
+        value = value[len(_MBO_PID_URI_PREFIX) :]
+
+    return value if value.startswith("mbo_") else None
 
 
 def _get_unique_parent_values(column_title_in_parent_table, csv_parent_table):

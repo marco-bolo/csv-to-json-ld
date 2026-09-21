@@ -54,6 +54,16 @@ _UNIONED_IDENTIFIERS_SCHEMA_FILE_NAME = "unioned-identifiers.schema.json"
 The schema file for the unioned identifiers table structure.
 """
 
+_ALL_IDENTIFIERS_CSV_FILE_NAME = "all-identifiers.csv"
+"""
+Generated at build time: every identifier in the catalogue, from all of the data CSVs.
+
+`(URL PIDs)` columns accept any URL, so they can carry a reference to any kind of record. This is
+the table those references are checked against.
+"""
+
+_ALL_IDENTIFIERS_COLUMN_TITLE = "MBO Permanent Identifier*"
+
 _SEPARATOR_CHAR: str = "|"
 _SCHEMA_ORG_PREFIX = "https://schema.org/"
 _MBO_PREFIX = "https://w3id.org/marco-bolo/"
@@ -74,40 +84,6 @@ _NON_TITLE_CHARS = re.compile("\\W+")
 _NEW_LINES_REGEX = re.compile("\\n")
 _PIPES_REGEX = re.compile("\\|")
 
-_MAP_CSV_NAME_TO_PID_URI: Dict[str, str] = {
-    "Action.csv": f"{_MBO_PREFIX}mbo_0000004",
-    "Audience.csv": f"{_MBO_PREFIX}mbo_0000005",
-    "ContactPoint.csv": f"{_MBO_PREFIX}mbo_0000006",
-    "DataDownload.csv": f"{_MBO_PREFIX}mbo_0000007",
-    "DatasetComment.csv": f"{_MBO_PREFIX}mbo_0000008",
-    "Dataset.csv": f"{_MBO_PREFIX}mbo_0000009",
-    "DefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000010",
-    "EmbargoStatement.csv": f"{_MBO_PREFIX}mbo_0000011",
-    "GeoShape.csv": f"{_MBO_PREFIX}mbo_0000012",
-    "HowTo.csv": f"{_MBO_PREFIX}mbo_0000013",
-    "HowToStep.csv": f"{_MBO_PREFIX}mbo_0000014",
-    "HowToTip.csv": f"{_MBO_PREFIX}mbo_0000015",
-    "License.csv": f"{_MBO_PREFIX}mbo_0000016",
-    "MonetaryGrant.csv": f"{_MBO_PREFIX}mbo_0000017",
-    "Organization.csv": f"{_MBO_PREFIX}mbo_0000018",
-    "Person.csv": f"{_MBO_PREFIX}mbo_0000019",
-    "Place.csv": f"{_MBO_PREFIX}mbo_0000020",
-    "PropertyValue.csv": f"{_MBO_PREFIX}mbo_0000021",
-    "PublishingStatusDefinedTerm.csv": f"{_MBO_PREFIX}mbo_0000022",
-    "Service.csv": f"{_MBO_PREFIX}mbo_0000023",
-    "SoftwareApplication.csv": f"{_MBO_PREFIX}mbo_0000024",
-    "SoftwareSourceCode.csv": f"{_MBO_PREFIX}mbo_0000025",
-    "Taxon.csv": f"{_MBO_PREFIX}mbo_0000026",
-    "Document.csv": f"{_MBO_PREFIX}mbo_0000027",
-    "Instrument.csv": f"{_MBO_PREFIX}mbo_0000028",
-    "Platform.csv": f"{_MBO_PREFIX}mbo_0000029"
-}
-"""
-Mapping each of the model names to their CSV file's PID URI.
-
-If you add a new class/model you need to create the above mapping. The PID needs to be generated and correctly redirected
-in the w3id configuration.
-"""
 
 
 @dataclass
@@ -117,6 +93,7 @@ class ManualForeignKeyCheckConfig:
     parent_table_path: Path
     parent_table_column: str
     separator: Optional[str]
+    mbo_identifiers_only: bool = False
 
 
 @click.command()
@@ -360,6 +337,9 @@ def _get_makefile_config_for_foreign_key_check(
             f' --separator "{manual_foreign_key_check.separator}"'
         )
 
+    if manual_foreign_key_check.mbo_identifiers_only:
+        foreign_key_check_command += " --mbo-identifiers-only"
+
     foreign_key_check_command = f'@RES=$$({foreign_key_check_command}) && echo "$$RES" || echo "$$RES" >> "{err_log_file_path}"'
 
     return dedent(
@@ -528,16 +508,6 @@ def _generate_csv_and_schema_for_class(
             "valueUrl": identifier_template_uri_for_row,
         }
     ]
-
-    if csv_name_for_class in _MAP_CSV_NAME_TO_PID_URI:
-        column_definitions.append({
-            "virtual": True,
-            "aboutUrl": input_metadata_uri,
-            "propertyUrl": f"{_SCHEMA_ORG_PREFIX}contentUrl",
-            "valueUrl": f"{_MAP_CSV_NAME_TO_PID_URI[csv_name_for_class]}#row={{_row}}",
-        })
-    else:
-        raise Exception(f"Could not find PID for CSV model '{csv_name_for_class}' - is this a new model/class?")
 
     if _LINKML_EXTENSION_VIRTUAL_TRIPLES in clazz.extensions:
         column_definitions += _add_user_defined_virtual_columns_for_triples(
@@ -717,6 +687,17 @@ def _get_column_definition_for_slot(
         if slot.pattern is not None:
             column_definition["datatype"] = {"base": "string", "format": slot.pattern}
 
+        # Single-valued `(URL PID)` columns need the same check as the multivalued ones below: they
+        # accept any URL, so nothing validates the values which do name one of our records.
+        _add_mbo_identifier_foreign_key_check(
+            clazz,
+            slot_column_title,
+            manual_build_foreign_key_checks,
+            output_dir,
+            csv_dependencies_for_class,
+            separator=None,
+        )
+
     else:
         # Primitive data type
         data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(
@@ -735,6 +716,15 @@ def _get_column_definition_for_slot(
             column_definition["separator"] = _SEPARATOR_CHAR
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
+
+                _add_mbo_identifier_foreign_key_check(
+                    clazz,
+                    slot_column_title,
+                    manual_build_foreign_key_checks,
+                    output_dir,
+                    csv_dependencies_for_class,
+                    separator=_SEPARATOR_CHAR,
+                )
 
         if slot.implicit_prefix:
             if slot.multivalued:
@@ -888,6 +878,44 @@ def _generate_manual_foreign_key_checks(
 
 def _get_virtual_file_path(output_dir: Path, virtual_class_name: str) -> Path:
     return output_dir / "out" / "validation" / _VIRTUAL_CSV_FILES[virtual_class_name]
+
+
+def _get_all_identifiers_csv_path(output_dir: Path) -> Path:
+    return output_dir / "out" / "validation" / _ALL_IDENTIFIERS_CSV_FILE_NAME
+
+
+def _add_mbo_identifier_foreign_key_check(
+    clazz: ClassDefinition,
+    slot_column_title: str,
+    manual_build_foreign_key_checks: List[ManualForeignKeyCheckConfig],
+    output_dir: Path,
+    csv_dependencies_for_class: Set[Path],
+    separator: Optional[str],
+) -> None:
+    """
+    Checks the values of a `uri`-ranged column which name one of our records against the catalogue.
+
+    A `uri` range means the column accepts any URL, so there is no single table to check it against
+    and CSV-W can express no foreign key. That is how a reference to a record which does not exist
+    reached published output as `file:///work/out/bulk/mbo_wp2_t3_ds_02`. The values which *are*
+    ours can still be checked, against the union of every identifier in the catalogue; anything
+    else is left alone. See issue #337.
+    """
+    all_identifiers_csv_path = _get_all_identifiers_csv_path(output_dir)
+    csv_dependencies_for_class.add(all_identifiers_csv_path)
+
+    manual_build_foreign_key_checks.append(
+        ManualForeignKeyCheckConfig(
+            child_table_path=output_dir
+            / _DATA_DIR_NAME
+            / _get_csv_name_for_class(clazz.name),
+            child_table_column=slot_column_title,
+            parent_table_path=all_identifiers_csv_path,
+            parent_table_column=_ALL_IDENTIFIERS_COLUMN_TITLE,
+            separator=separator,
+            mbo_identifiers_only=True,
+        )
+    )
 
 
 def _get_primary_key_identifier_slot_definition(

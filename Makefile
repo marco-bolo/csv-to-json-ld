@@ -55,9 +55,15 @@ check-csv-format:
 	@echo "Checking CSV files for incomplete lines..."
 	@python3 scripts/check_csv_integrity.py
 
-out/validation/person-or-organization.csv: data/Person.csv data/Organization.csv 
+out/validation/person-or-organization.csv: data/Person.csv data/Organization.csv
 	@mkdir -p out/validation
 	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv --column-name "MBO Permanent Identifier*" data/Person.csv data/Organization.csv
+
+# Every identifier in the catalogue. `(URL PIDs)` columns may reference any kind of record, so this
+# is what those references are validated against. See issue #337.
+out/validation/all-identifiers.csv: $(wildcard data/*.csv)
+	@mkdir -p out/validation
+	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/all-identifiers.csv --column-name "MBO Permanent Identifier*" $(wildcard data/*.csv)
 
 validate: check-csv-format $(CSVW_METADATA_VALIDATION_FILES) $(MANUAL_FOREIGN_KEY_VALIDATION_LOGS)
 	@EXIT_CODE=0; \
