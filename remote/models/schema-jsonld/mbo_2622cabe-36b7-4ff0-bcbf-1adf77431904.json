@@ -29,10 +29,10 @@
   "alternateName": "D5.5",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
     }
   ],
   "availableLanguage": "en",
@@ -50,11 +50,11 @@
     "doi:10.5281/zenodo.20787365"
   ],
   "keywords": [
-    "non-indigenous species",
+    "climate projections",
     "alien species",
-    "MBO WP5",
+    "non-indigenous species",
     "species distribution modelling",
-    "climate projections"
+    "MBO WP5"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D5.5 - Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
@@ -66,70 +66,49 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/708c0811a3215fde6f112b844f6510124e59cda6",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
-    "distribution": [
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#csv",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_0000027#row=24"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
-        },
-        "encodingFormat": "text/csv"
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
+        }
       },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_0d496f78-49ba-4b5d-bb2a-25ea09aea8f9"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-21"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
-      }
-    ]
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-09-21"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
   },
   "url": [
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D5.5_30.06.2025.pdf"
+    },
     {
       "@type": "URL",
       "@value": "https://zenodo.org/records/20787365"
@@ -137,10 +116,6 @@
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.20787365"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D5.5_30.06.2025.pdf"
     }
   ],
   "version": "1"
