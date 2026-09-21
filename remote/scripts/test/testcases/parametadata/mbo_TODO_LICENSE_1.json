@@ -30,11 +30,6 @@
         "@id": "https://w3id.org/marco-bolo/mbo_TODO_LICENSE_1"
       }
     ],
-    "https://schema.org/contentUrl": [
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1"
-      }
-    ],
     "https://schema.org/creator": [
       {
         "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"

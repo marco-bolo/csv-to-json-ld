@@ -101,17 +101,8 @@ def test_expected_output_triples_present():
                                                   schema:dateCreated "2019-01-01"^^schema:Date;
                                                   schema:about mbo:mbo_TODO_LICENSE_1;
                                                   schema:creator mbo:mbo_todo_organization_mbo;
-                                                  schema:distribution <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}>,
-                                                                      <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
-                                                                      
-            <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}> a schema:DataDownload;
-                                                             schema:dateCreated "2019-01-01"^^schema:Date;
-                                                             schema:creator mbo:mbo_todo_organization_mbo;
-                                                             schema:about mbo:mbo_TODO_LICENSE_1;
-                                                             schema:encodesCreativeWork mbo:mbo_TODO_LICENSE_1-input-metadata;
-                                                             schema:contentUrl "https://w3id.org/marco-bolo/mbo_TODO_license.csv#row=1"^^schema:URL;
-                                                             schema:encodingFormat "text/csv".
-            
+                                                  schema:distribution <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
+
             <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}> a schema:DataDownload;
                                                                 schema:dateModified "2024-12-13"^^schema:Date;
                                                                 schema:creator <{MBO_ORGANIZATION_URI}>;
@@ -122,7 +113,6 @@ def test_expected_output_triples_present():
                                                                 
             mbo:mbo_some_action a schema:CreateAction;
                                 schema:result mbo:mbo_TODO_LICENSE_1-input-metadata,
-                                              <{MBO['mbo_TODO_LICENSE_1-input-metadata#csv']}>, 
                                               <{MBO['mbo_TODO_LICENSE_1-input-metadata#jsonld']}>.
         """,
         )

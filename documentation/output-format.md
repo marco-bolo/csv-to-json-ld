@@ -38,13 +38,19 @@ The nested record carries `mbo:InputMetadataDescription` alongside
 `schema:Dataset`. That type is how you tell a provenance record apart from a
 research dataset - filter it out if you only want the science.
 
-Its two `schema:distribution` entries describe where the entity came from and
-where it now lives:
+It carries a single `schema:distribution` entry, describing where the entity now
+lives:
 
 | `@id` suffix | `contentUrl` points at | `encodingFormat` |
 |---|---|---|
-| `#csv` | the source spreadsheet row | `text/csv` |
 | `#jsonld` | this document | `application/ld+json` |
+
+Where the entity *came from* is given by `schema:archivedAt` on the record
+itself, which pins the repository to the commit the document was built from.
+There was previously a second `#csv` distribution pointing at a source
+spreadsheet row (`mbo_0000019#row=78`); it was removed. Those row URLs tracked a
+moving branch, whereas `archivedAt` is immutable, and `config/uuid_mapping.json`
+already maps each UUID to a semantic id that is searchable in the source sheet.
 
 ## The `@context` is self-contained
 
