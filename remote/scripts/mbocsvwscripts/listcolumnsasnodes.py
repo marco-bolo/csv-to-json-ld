@@ -55,9 +55,19 @@ def _update_literals_to_nodes_in_graph_assert_success(
                 FILTER(datatype(?nodePID) = <https://w3id.org/marco-bolo/ConvertMboIdToNode>).
                 BIND (URI( CONCAT("https://w3id.org/marco-bolo/", STR(?nodePID))) as ?uriNode).
             } UNION {
-                # Map literals of type <https://w3id.org/marco-bolo/ConvertIriToNode> into IRIs pointing at resources.
+                # A `(URL PID)` column accepts either. An MBO identifier written bare is still an
+                # MBO identifier, so resolve it against our namespace exactly as ConvertMboIdToNode
+                # does; used verbatim it would be a relative IRI, and RDF would silently complete it
+                # against whatever file is being processed. See issues #161, #165.
                 ?s ?p ?nodePID.
                 FILTER(datatype(?nodePID) = <https://w3id.org/marco-bolo/ConvertIriToNode>).
+                FILTER(STRSTARTS(STR(?nodePID), "mbo_")).
+                BIND (URI( CONCAT("https://w3id.org/marco-bolo/", STR(?nodePID))) as ?uriNode).
+            } UNION {
+                # Any other value -- https://, doi:, ftp:// -- is someone else's URL. Used verbatim.
+                ?s ?p ?nodePID.
+                FILTER(datatype(?nodePID) = <https://w3id.org/marco-bolo/ConvertIriToNode>).
+                FILTER(!STRSTARTS(STR(?nodePID), "mbo_")).
                 BIND(URI(STR(?nodePID)) as ?uriNode).
             }
         }

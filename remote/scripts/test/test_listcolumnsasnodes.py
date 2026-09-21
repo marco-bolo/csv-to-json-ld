@@ -51,12 +51,70 @@ def test_mbo_list_columns_values_converted_to_node_references():
         assert list(results) == [True]
 
 
+def test_bare_mbo_identifier_in_url_pids_column_resolves_to_a_pid():
+    """
+    A `(URL PID)` column takes either form, and a bare MBO identifier is still an MBO identifier.
+    Used verbatim it would be relative and resolve against the build directory, which is how real
+    references to real records shipped as `file:///work/out/bulk/mbo_...`. See issues #161, #165.
+    """
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        ttl_file = tmp_dir / "action.ttl"
+        ttl_file.write_text(
+            """
+            @prefix schema: <https://schema.org/>.
+            @prefix mbo:    <https://w3id.org/marco-bolo/>.
+
+            mbo:mbo_TODO_ACTION_1 schema:object
+                "mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
+            """
+        )
+
+        _convert_literals_to_nodes_in_file(ttl_file)
+
+        graph = rdflib.Graph().parse(ttl_file, format="ttl")
+        assert {str(o) for o in graph.objects()} == {
+            "https://w3id.org/marco-bolo/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
+        }
+
+
+def test_bare_mbo_identifier_and_external_urls_coexist_in_one_column():
+    """The column is multivalued and mixes both kinds, so each value is treated on its own terms."""
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        ttl_file = tmp_dir / "action.ttl"
+        ttl_file.write_text(
+            """
+            @prefix schema: <https://schema.org/>.
+            @prefix mbo:    <https://w3id.org/marco-bolo/>.
+
+            mbo:mbo_TODO_ACTION_1 schema:object
+                "mbo_55ca5c88-e466-4fef-af2a-b9137d799136"^^<https://w3id.org/marco-bolo/ConvertIriToNode>,
+                "https://example.com/someone-elses-dataset"^^<https://w3id.org/marco-bolo/ConvertIriToNode>,
+                "doi:10.1000/example123"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
+            """
+        )
+
+        _convert_literals_to_nodes_in_file(ttl_file)
+
+        graph = rdflib.Graph().parse(ttl_file, format="ttl")
+        assert {str(o) for o in graph.objects()} == {
+            "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136",
+            "https://example.com/someone-elses-dataset",
+            "doi:10.1000/example123",
+        }
+
+
 def test_unsubstituted_mbo_id_in_url_pids_column_is_rejected():
     """
-    A `(URL PIDs)` value is used verbatim, so an mbo_ id which never got replaced with its UUID is a
-    relative IRI. Left alone it resolves against the build directory and ships as
-    `file:///work/out/bulk/...`. This is the real typo that reached published output: the mapping
-    has `mbo_t44_data_hydrophoneraw`, the sheet had `hydrophone` + `rraw`.
+    A value which is neither an MBO identifier nor an absolute URL cannot be resolved into anything
+    meaningful. Used verbatim it is a relative IRI, which RDF completes against the build directory,
+    shipping as `file:///work/out/bulk/...`.
+
+    Note this is no longer where a mistyped *MBO* identifier is caught: `mbo_t44_data_hydrophonerraw`
+    now resolves to an absolute PID and fails the foreign key check at `make validate` instead,
+    which is both earlier and a clearer message. The two checks ask different questions -- "is this
+    an address?" here, "does this record exist?" there.
     """
     with TemporaryDirectory() as tmp_dir:
         tmp_dir = Path(tmp_dir)
@@ -67,7 +125,7 @@ def test_unsubstituted_mbo_id_in_url_pids_column_is_rejected():
             @prefix mbo:    <https://w3id.org/marco-bolo/>.
 
             mbo:mbo_TODO_DATASET_1 schema:isBasedOn
-                "mbo_t44_data_hydrophonerraw"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
+                "www.example.com/missing-scheme"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
             """
         )
 
