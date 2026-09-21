@@ -51,6 +51,57 @@ def test_mbo_list_columns_values_converted_to_node_references():
         assert list(results) == [True]
 
 
+def test_unsubstituted_mbo_id_in_url_pids_column_is_rejected():
+    """
+    A `(URL PIDs)` value is used verbatim, so an mbo_ id which never got replaced with its UUID is a
+    relative IRI. Left alone it resolves against the build directory and ships as
+    `file:///work/out/bulk/...`. This is the real typo that reached published output: the mapping
+    has `mbo_t44_data_hydrophoneraw`, the sheet had `hydrophone` + `rraw`.
+    """
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        ttl_file = tmp_dir / "dataset.ttl"
+        ttl_file.write_text(
+            """
+            @prefix schema: <https://schema.org/>.
+            @prefix mbo:    <https://w3id.org/marco-bolo/>.
+
+            mbo:mbo_TODO_DATASET_1 schema:isBasedOn
+                "mbo_t44_data_hydrophonerraw"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
+            """
+        )
+
+        with pytest.raises(Exception, match="relative IRI"):
+            _convert_literals_to_nodes_in_file(ttl_file)
+
+
+def test_absolute_iris_in_url_pids_column_are_accepted():
+    """The same column legitimately holds any absolute URL, so those must pass untouched."""
+    with TemporaryDirectory() as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        ttl_file = tmp_dir / "dataset.ttl"
+        ttl_file.write_text(
+            """
+            @prefix schema: <https://schema.org/>.
+            @prefix mbo:    <https://w3id.org/marco-bolo/>.
+
+            mbo:mbo_TODO_DATASET_1 schema:isBasedOn
+                "https://example.com/a"^^<https://w3id.org/marco-bolo/ConvertIriToNode>,
+                "doi:10.1000/example123"^^<https://w3id.org/marco-bolo/ConvertIriToNode>,
+                "ftp://ftp.example.org/data"^^<https://w3id.org/marco-bolo/ConvertIriToNode>.
+            """
+        )
+
+        _convert_literals_to_nodes_in_file(ttl_file)
+
+        graph = rdflib.Graph().parse(ttl_file, format="ttl")
+        assert {str(o) for o in graph.objects()} == {
+            "https://example.com/a",
+            "doi:10.1000/example123",
+            "ftp://ftp.example.org/data",
+        }
+
+
 def test_number_literals_to_be_converted_in_graph():
     graph = rdflib.Graph()
     graph = graph.parse(TEST_CASES_DIR / "dataset.ttl", format="ttl")
