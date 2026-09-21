@@ -437,6 +437,7 @@ classes:
       - sponsorOrganizationMboIds
       - description
       - url
+      - identifiers
     extensions:
       csvw_virtual_triples: |
         <> schema:amount <#MonetaryAmount>.
