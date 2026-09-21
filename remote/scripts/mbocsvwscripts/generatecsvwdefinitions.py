@@ -54,6 +54,16 @@ _UNIONED_IDENTIFIERS_SCHEMA_FILE_NAME = "unioned-identifiers.schema.json"
 The schema file for the unioned identifiers table structure.
 """
 
+_ALL_IDENTIFIERS_CSV_FILE_NAME = "all-identifiers.csv"
+"""
+Generated at build time: every identifier in the catalogue, from all of the data CSVs.
+
+`(URL PIDs)` columns accept any URL, so they can carry a reference to any kind of record. This is
+the table those references are checked against.
+"""
+
+_ALL_IDENTIFIERS_COLUMN_TITLE = "MBO Permanent Identifier*"
+
 _SEPARATOR_CHAR: str = "|"
 _SCHEMA_ORG_PREFIX = "https://schema.org/"
 _MBO_PREFIX = "https://w3id.org/marco-bolo/"
@@ -83,6 +93,7 @@ class ManualForeignKeyCheckConfig:
     parent_table_path: Path
     parent_table_column: str
     separator: Optional[str]
+    mbo_identifiers_only: bool = False
 
 
 @click.command()
@@ -325,6 +336,9 @@ def _get_makefile_config_for_foreign_key_check(
         foreign_key_check_command += (
             f' --separator "{manual_foreign_key_check.separator}"'
         )
+
+    if manual_foreign_key_check.mbo_identifiers_only:
+        foreign_key_check_command += " --mbo-identifiers-only"
 
     foreign_key_check_command = f'@RES=$$({foreign_key_check_command}) && echo "$$RES" || echo "$$RES" >> "{err_log_file_path}"'
 
@@ -692,6 +706,26 @@ def _get_column_definition_for_slot(
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
 
+                # A `uri` range means the column may hold any URL, so there is no single table to
+                # check it against and CSV-W can express no foreign key here. That is how references
+                # to records which don't exist reached published output. The values which *are* ours
+                # can still be checked, against the union of every identifier in the catalogue;
+                # anything else is ignored. See issue #337.
+                all_identifiers_csv_path = _get_all_identifiers_csv_path(output_dir)
+                csv_dependencies_for_class.add(all_identifiers_csv_path)
+                manual_build_foreign_key_checks.append(
+                    ManualForeignKeyCheckConfig(
+                        child_table_path=output_dir
+                        / _DATA_DIR_NAME
+                        / _get_csv_name_for_class(clazz.name),
+                        child_table_column=slot_column_title,
+                        parent_table_path=all_identifiers_csv_path,
+                        parent_table_column=_ALL_IDENTIFIERS_COLUMN_TITLE,
+                        separator=_SEPARATOR_CHAR,
+                        mbo_identifiers_only=True,
+                    )
+                )
+
         if slot.implicit_prefix:
             if slot.multivalued:
                 raise Exception(
@@ -844,6 +878,10 @@ def _generate_manual_foreign_key_checks(
 
 def _get_virtual_file_path(output_dir: Path, virtual_class_name: str) -> Path:
     return output_dir / "out" / "validation" / _VIRTUAL_CSV_FILES[virtual_class_name]
+
+
+def _get_all_identifiers_csv_path(output_dir: Path) -> Path:
+    return output_dir / "out" / "validation" / _ALL_IDENTIFIERS_CSV_FILE_NAME
 
 
 def _get_primary_key_identifier_slot_definition(

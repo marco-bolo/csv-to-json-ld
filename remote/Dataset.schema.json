@@ -290,7 +290,7 @@
             },
             "dc:description": {
                 "en": [
-                    "WARNING: There are no foreign key checks.\n\nFor example: `https://example.com`, `http://example.com`, \n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
+                    "Any URL is accepted here, so most values cannot be checked. Those which name an MBO record --\neither `mbo_...` or the full `https://w3id.org/marco-bolo/mbo_...` -- are checked against the\ncatalogue; anything else is left alone.\n\nFor example: `https://example.com`, `http://example.com`,\n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
                 ]
             },
             "propertyUrl": "https://schema.org/isBasedOn",
@@ -309,7 +309,7 @@
             },
             "dc:description": {
                 "en": [
-                    "WARNING: There are no foreign key checks.\nYou are required to use the full URI here to reference pre-existing Datasets.\n\nFor example: `https://example.com`, `http://example.com`, \n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
+                    "Any URL is accepted here, so most values cannot be checked. Those which name an MBO record --\neither `mbo_...` or the full `https://w3id.org/marco-bolo/mbo_...` -- are checked against the\ncatalogue; anything else is left alone.\nYou are required to use the full URI here to reference pre-existing Datasets.\n\nFor example: `https://example.com`, `http://example.com`, \n`ftp://ftp.example.org/data`, `doi:10.1000/example123`\n\nPipe-delimited when there are multiple values"
                 ]
             },
             "propertyUrl": "https://schema.org/hasPart",

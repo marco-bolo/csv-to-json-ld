@@ -408,9 +408,11 @@ slots:
     range: uri
     slot_uri: schema:isBasedOn
     comments: |
-      WARNING: There are no foreign key checks.
+      Any URL is accepted here, so most values cannot be checked. Those which name an MBO record --
+      either `mbo_...` or the full `https://w3id.org/marco-bolo/mbo_...` -- are checked against the
+      catalogue; anything else is left alone.
 
-      For example: `https://example.com`, `http://example.com`, 
+      For example: `https://example.com`, `http://example.com`,
       `ftp://ftp.example.org/data`, `doi:10.1000/example123`
 
       Pipe-delimited when there are multiple values
@@ -424,7 +426,9 @@ slots:
     range: uri
     slot_uri: schema:hasPart
     comments: |
-      WARNING: There are no foreign key checks.
+      Any URL is accepted here, so most values cannot be checked. Those which name an MBO record --
+      either `mbo_...` or the full `https://w3id.org/marco-bolo/mbo_...` -- are checked against the
+      catalogue; anything else is left alone.
       You are required to use the full URI here to reference pre-existing Datasets.
 
       For example: `https://example.com`, `http://example.com`, 
