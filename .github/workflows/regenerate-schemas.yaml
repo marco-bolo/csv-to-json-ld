@@ -25,9 +25,17 @@ jobs:
           # Pull the latest Docker image with the schema generation tools
           docker pull ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
           
-          # Generate final schemas using Docker (run as current user to avoid permission issues)
+          # Generate final schemas using Docker (run as current user to avoid permission issues).
+          #
+          # HOME must be set to something writable. `--user` leaves the container's HOME pointing at
+          # a directory this uid does not own, and generatecsvwdefinitions.py imports linkml, which
+          # pulls in curies -> pystow; pystow creates a home directory on import and raises
+          # PermissionError if it cannot. None of the other scripts import linkml, which is why the
+          # build itself is unaffected and only this workflow broke.
           docker run --rm -v $(pwd):/work -w /work \
             --user $(id -u):$(id -g) \
+            -e HOME=/tmp \
+            -e PYSTOW_HOME=/tmp/.pystow \
             ghcr.io/marco-bolo/csv-to-json-ld-tools:latest \
             python remote/scripts/mbocsvwscripts/generatecsvwdefinitions.py -o temp-output remote/models/classes.yaml
           
