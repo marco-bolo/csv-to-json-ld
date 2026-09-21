@@ -365,8 +365,31 @@ classes:
     class_uri: schema:DefinedTerm
     is_a: DefinedTerm
     description: |
-      `DefinedTerm`s which describe the status of publication, 
+      `DefinedTerm`s which describe the status of publication,
       for example (Incomplete|Draft|Published|Embargoed)
+
+  AnyDefinedTerm:
+    abstract: true
+    description: |
+      Any term defined by the MBO project. The data is sourced from the underlying [DefinedTerm](#definedterm) and [PublishingStatusDefinedTerm](#publishingstatusdefinedterm) CSV files.
+    slots:
+      - id
+
+  DefinedTermSet:
+    class_uri: schema:DefinedTermSet
+    description: |
+      A controlled vocabulary defined by the MARCO-BOLO project, whose members are `DefinedTerm`s.
+
+      Only vocabularies MBO owns belong here. Terms which belong to someone else's vocabulary -- an
+      MSFD criterion on the NERC vocabulary server, say -- should reference that vocabulary's own
+      URI through `In Term-Set (URL PID)` instead, and no record is created here.
+    slots:
+      - id
+      - metadataPublisherId
+      - metadataDescribedForActionId
+      - name
+      - description
+      - hasDefinedTermIds
 
   Place:
     class_uri: schema:Place
