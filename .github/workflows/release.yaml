@@ -1,6 +1,9 @@
 name: Build Release
 on:
-  create:
+  # `push` honours the tags filter below. `create` does not -- GitHub supports ref filters only on
+  # `push` and `pull_request` -- so under `create` this ran on every *branch* creation too, and
+  # published that branch as `:latest`. See issue #340.
+  push:
     tags:
       - "v[0-9]+.[0-9]+.[0-9]+*"
   pull_request:
@@ -38,12 +41,15 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          # `latest` is what the build pulls (Makefile, remote/split.mk), so it must mean "the most
+          # recent release" and nothing else. It is gated on the ref explicitly rather than on
+          # is_default_branch, which evaluated true on branch-creation runs. See issue #340.
           tags: |
             type=ref,event=pr
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
-            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=latest,enable=${{ startsWith(github.ref, 'refs/tags/v') }}
 
       - name: Build and push Docker image
         id: push
