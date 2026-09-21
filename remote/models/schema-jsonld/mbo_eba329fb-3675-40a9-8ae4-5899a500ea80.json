@@ -27,10 +27,10 @@
   "@type": "Person",
   "affiliation": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
     }
   ],
   "contactPoint": {
@@ -47,13 +47,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },

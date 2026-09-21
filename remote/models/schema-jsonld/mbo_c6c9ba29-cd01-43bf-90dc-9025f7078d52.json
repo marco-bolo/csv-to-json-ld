@@ -27,7 +27,10 @@
   "@type": "ResearchOrganization",
   "description": "Norwegian Research Centre",
   "identifier": "https://ror.org/02gagpf75",
-  "keywords": "research centre, Norway",
+  "keywords": [
+    "Norway",
+    "research centre"
+  ],
   "legalName": "Norce Norwegian Research Centre As",
   "memberOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
@@ -41,13 +44,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_c6c9ba29-cd01-43bf-90dc-9025f7078d52"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

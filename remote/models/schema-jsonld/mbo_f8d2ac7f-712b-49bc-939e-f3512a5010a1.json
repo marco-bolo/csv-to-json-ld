@@ -27,56 +27,11 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      },
-      "value": "kingdom"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Genus",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Animalia"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      },
-      "value": "Animalia"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Order",
@@ -92,13 +47,58 @@
         "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       },
       "value": "accepted"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "kingdom"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Animalia"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Animalia"
     }
   ],
   "identifier": [
+    "worms:2",
     {
       "@id": "urn:lsid:marinespecies.org:taxname:2"
-    },
-    "worms:2"
+    }
   ],
   "name": "Animals",
   "subjectOf": {
@@ -115,7 +115,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

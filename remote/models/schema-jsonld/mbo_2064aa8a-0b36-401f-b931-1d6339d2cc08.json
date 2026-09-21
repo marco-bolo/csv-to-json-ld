@@ -41,13 +41,13 @@
   "description": "Slide decks from the 2nd Co-Design Workshop (November 2024, Sitges)",
   "identifier": "doi:10.5281/zenodo.17236878",
   "keywords": [
-    "MBO WP6",
-    "stakeholder engagement",
-    "AI",
     "co-design workshop",
+    "stakeholder engagement",
     "Community of Practice",
     "presentation slides",
-    "eDNA"
+    "eDNA",
+    "AI",
+    "MBO WP6"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 2nd Co-Design Workshop - presentations",
@@ -59,13 +59,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

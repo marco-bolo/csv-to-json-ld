@@ -27,7 +27,10 @@
   "@type": "ResearchOrganization",
   "description": "Ukrainian Scientific Centre of Ecology of the Sea",
   "identifier": "https://ror.org/0303yjn29",
-  "keywords": "marine ecology, Ukraine",
+  "keywords": [
+    "marine ecology",
+    "Ukraine"
+  ],
   "legalName": "Ukrainian Scientific Centre Of Ecology Of The Sea",
   "memberOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
@@ -41,13 +44,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_48bc8c1e-fa48-484d-b106-cf725851f349"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

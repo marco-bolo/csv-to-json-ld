@@ -40,7 +40,16 @@
   "dateCreated": "2025-10",
   "description": "PCR setup protocol for DNA amplification targeting the 12S marker for metabarcoding, specifically designed for fish detection in eDNA samples. Optimized for sequencing on MiSeq platform using AmpliTag Gold MasterMix with samples run in triplicates.",
   "identifier": "10.5281/zenodo.17590466",
-  "keywords": "metabarcoding; PCR; 12S; MiSeq; AmpliTag Gold; DNA amplification; fish eDNA; clean PCR lab",
+  "keywords": [
+    "DNA amplification",
+    "metabarcoding",
+    "AmpliTag Gold",
+    "PCR",
+    "fish eDNA",
+    "12S",
+    "MiSeq",
+    "clean PCR lab"
+  ],
   "name": "RGG metabarcoding protocol for the 12S marker",
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044-input-metadata",
@@ -56,7 +65,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

@@ -34,8 +34,8 @@
   "familyName": "Not",
   "givenName": "Fabrice",
   "identifier": [
-    "https://orcid.org/0000-0002-9342-195X",
-    "https://oceanexpert.org/expert/58571"
+    "https://oceanexpert.org/expert/58571",
+    "https://orcid.org/0000-0002-9342-195X"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9-input-metadata",
@@ -51,7 +51,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_4cc7d14a-6a60-4e12-8857-0f14aa5bc6d9"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
