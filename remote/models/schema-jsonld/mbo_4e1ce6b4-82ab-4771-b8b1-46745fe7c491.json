@@ -36,9 +36,6 @@
   "name": "T5.1.2 running habitat model - harbor seal",
   "object": [
     {
-      "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
-    },
-    {
       "@id": "file:///work/out/bulk/mbo_t44_data_echosounder_processedmbo_t44_data_fpod_processed"
     },
     {
@@ -46,6 +43,9 @@
     },
     {
       "@id": "file:///work/out/bulk/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+    },
+    {
+      "@id": "file:///work/out/bulk/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
     }
   ],
   "participant": {
@@ -68,11 +68,38 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     "distribution": [
+      {
+        "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata#jsonld",
+        "@reverse": {
+          "result": {
+            "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
+          }
+        },
+        "@type": "DataDownload",
+        "about": {
+          "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
+        },
+        "contentUrl": {
+          "@type": "URL",
+          "@value": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
+        },
+        "creator": {
+          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
+        },
+        "dateModified": {
+          "@type": "Date",
+          "@value": "2026-09-21"
+        },
+        "encodesCreativeWork": {
+          "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
+        },
+        "encodingFormat": "application/ld+json"
+      },
       {
         "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata#csv",
         "@reverse": {
@@ -95,33 +122,6 @@
           "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
         },
         "encodingFormat": "text/csv"
-      },
-      {
-        "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata#jsonld",
-        "@reverse": {
-          "result": {
-            "@id": "https://w3id.org/marco-bolo/mbo_d6300ab0-c6fa-48f5-a193-e5f6594e6fe1"
-          }
-        },
-        "@type": "DataDownload",
-        "about": {
-          "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
-        },
-        "contentUrl": {
-          "@type": "URL",
-          "@value": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491"
-        },
-        "creator": {
-          "@id": "https://w3id.org/marco-bolo/mbo_todo_organization_mbo"
-        },
-        "dateModified": {
-          "@type": "Date",
-          "@value": "2026-09-20"
-        },
-        "encodesCreativeWork": {
-          "@id": "https://w3id.org/marco-bolo/mbo_4e1ce6b4-82ab-4771-b8b1-46745fe7c491-input-metadata"
-        },
-        "encodingFormat": "application/ld+json"
       }
     ]
   }

@@ -27,6 +27,13 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
@@ -35,38 +42,10 @@
       "value": "Tursiops truncatus"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -77,10 +56,24 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
@@ -88,6 +81,13 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     }
   ],
@@ -103,13 +103,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -157,7 +157,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-20"
+          "@value": "2026-09-21"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44-input-metadata"

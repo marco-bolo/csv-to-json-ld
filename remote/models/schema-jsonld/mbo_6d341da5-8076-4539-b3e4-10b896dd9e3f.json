@@ -27,13 +27,13 @@
   "@type": "Dataset",
   "about": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cc511f0e-2597-47cc-90db-1538908f709f"
     }
   ],
   "description": "Raw eDNA metabarcoding sequences targeting 16S,18S, COI and 12S Fish genes",
@@ -49,13 +49,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_6d341da5-8076-4539-b3e4-10b896dd9e3f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_9c92b4e1-4080-442a-8bee-576cae4361a7"
     },
@@ -80,7 +80,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-20"
+          "@value": "2026-09-21"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_6d341da5-8076-4539-b3e4-10b896dd9e3f-input-metadata"

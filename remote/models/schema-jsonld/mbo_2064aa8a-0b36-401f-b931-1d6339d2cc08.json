@@ -41,13 +41,13 @@
   "description": "Slide decks from the 2nd Co-Design Workshop (November 2024, Sitges)",
   "identifier": "doi:10.5281/zenodo.17236878",
   "keywords": [
-    "MBO WP6",
-    "stakeholder engagement",
     "co-design workshop",
-    "AI",
     "eDNA",
+    "AI",
+    "stakeholder engagement",
     "presentation slides",
-    "Community of Practice"
+    "Community of Practice",
+    "MBO WP6"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 2nd Co-Design Workshop - presentations",
@@ -65,7 +65,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -113,7 +113,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-20"
+          "@value": "2026-09-21"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08-input-metadata"
@@ -125,11 +125,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236878"
+      "@value": "https://doi.org/10.5281/zenodo.17236878"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236878"
+      "@value": "https://zenodo.org/records/17236878"
     }
   ]
 }

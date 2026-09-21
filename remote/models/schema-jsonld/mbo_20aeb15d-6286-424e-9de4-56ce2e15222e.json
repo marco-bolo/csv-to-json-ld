@@ -56,7 +56,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/176a4d76181b6bfc35b8e433e685d6cac6d49924",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/001eaef460668707d3996ee053e500ddbe8fdfbf",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -104,7 +104,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-20"
+          "@value": "2026-09-21"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e-input-metadata"
@@ -116,11 +116,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590006"
+      "@value": "https://zenodo.org/records/17590006"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590006"
+      "@value": "https://doi.org/10.5281/zenodo.17590006"
     }
   ],
   "inProgressDate": "2026"
