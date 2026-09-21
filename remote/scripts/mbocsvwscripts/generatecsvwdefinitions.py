@@ -687,6 +687,17 @@ def _get_column_definition_for_slot(
         if slot.pattern is not None:
             column_definition["datatype"] = {"base": "string", "format": slot.pattern}
 
+        # Single-valued `(URL PID)` columns need the same check as the multivalued ones below: they
+        # accept any URL, so nothing validates the values which do name one of our records.
+        _add_mbo_identifier_foreign_key_check(
+            clazz,
+            slot_column_title,
+            manual_build_foreign_key_checks,
+            output_dir,
+            csv_dependencies_for_class,
+            separator=None,
+        )
+
     else:
         # Primitive data type
         data_type: Dict[str, Any] = _map_linkml_data_type_to_csvw(
@@ -706,24 +717,13 @@ def _get_column_definition_for_slot(
             if slot.range == "uri":
                 data_type = {"@id": f"{_MBO_PREFIX}ConvertIriToNode", "base": "string"}
 
-                # A `uri` range means the column may hold any URL, so there is no single table to
-                # check it against and CSV-W can express no foreign key here. That is how references
-                # to records which don't exist reached published output. The values which *are* ours
-                # can still be checked, against the union of every identifier in the catalogue;
-                # anything else is ignored. See issue #337.
-                all_identifiers_csv_path = _get_all_identifiers_csv_path(output_dir)
-                csv_dependencies_for_class.add(all_identifiers_csv_path)
-                manual_build_foreign_key_checks.append(
-                    ManualForeignKeyCheckConfig(
-                        child_table_path=output_dir
-                        / _DATA_DIR_NAME
-                        / _get_csv_name_for_class(clazz.name),
-                        child_table_column=slot_column_title,
-                        parent_table_path=all_identifiers_csv_path,
-                        parent_table_column=_ALL_IDENTIFIERS_COLUMN_TITLE,
-                        separator=_SEPARATOR_CHAR,
-                        mbo_identifiers_only=True,
-                    )
+                _add_mbo_identifier_foreign_key_check(
+                    clazz,
+                    slot_column_title,
+                    manual_build_foreign_key_checks,
+                    output_dir,
+                    csv_dependencies_for_class,
+                    separator=_SEPARATOR_CHAR,
                 )
 
         if slot.implicit_prefix:
@@ -882,6 +882,40 @@ def _get_virtual_file_path(output_dir: Path, virtual_class_name: str) -> Path:
 
 def _get_all_identifiers_csv_path(output_dir: Path) -> Path:
     return output_dir / "out" / "validation" / _ALL_IDENTIFIERS_CSV_FILE_NAME
+
+
+def _add_mbo_identifier_foreign_key_check(
+    clazz: ClassDefinition,
+    slot_column_title: str,
+    manual_build_foreign_key_checks: List[ManualForeignKeyCheckConfig],
+    output_dir: Path,
+    csv_dependencies_for_class: Set[Path],
+    separator: Optional[str],
+) -> None:
+    """
+    Checks the values of a `uri`-ranged column which name one of our records against the catalogue.
+
+    A `uri` range means the column accepts any URL, so there is no single table to check it against
+    and CSV-W can express no foreign key. That is how a reference to a record which does not exist
+    reached published output as `file:///work/out/bulk/mbo_wp2_t3_ds_02`. The values which *are*
+    ours can still be checked, against the union of every identifier in the catalogue; anything
+    else is left alone. See issue #337.
+    """
+    all_identifiers_csv_path = _get_all_identifiers_csv_path(output_dir)
+    csv_dependencies_for_class.add(all_identifiers_csv_path)
+
+    manual_build_foreign_key_checks.append(
+        ManualForeignKeyCheckConfig(
+            child_table_path=output_dir
+            / _DATA_DIR_NAME
+            / _get_csv_name_for_class(clazz.name),
+            child_table_column=slot_column_title,
+            parent_table_path=all_identifiers_csv_path,
+            parent_table_column=_ALL_IDENTIFIERS_COLUMN_TITLE,
+            separator=separator,
+            mbo_identifiers_only=True,
+        )
+    )
 
 
 def _get_primary_key_identifier_slot_definition(
