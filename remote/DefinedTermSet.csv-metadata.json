@@ -1,0 +1,135 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tables": [
+        {
+            "url": "../data/Action.csv",
+            "tableSchema": "Action.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/HowTo.csv",
+            "tableSchema": "HowTo.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/HowToStep.csv",
+            "tableSchema": "HowToStep.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/HowToTip.csv",
+            "tableSchema": "HowToTip.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Dataset.csv",
+            "tableSchema": "Dataset.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Organization.csv",
+            "tableSchema": "Organization.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/ContactPoint.csv",
+            "tableSchema": "ContactPoint.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/License.csv",
+            "tableSchema": "License.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/PropertyValue.csv",
+            "tableSchema": "PropertyValue.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/DataDownload.csv",
+            "tableSchema": "DataDownload.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/SoftwareSourceCode.csv",
+            "tableSchema": "SoftwareSourceCode.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/SoftwareApplication.csv",
+            "tableSchema": "SoftwareApplication.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Service.csv",
+            "tableSchema": "Service.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/EmbargoStatement.csv",
+            "tableSchema": "EmbargoStatement.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/PublishingStatusDefinedTerm.csv",
+            "tableSchema": "PublishingStatusDefinedTerm.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/DefinedTermSet.csv",
+            "tableSchema": "DefinedTermSet.schema.json",
+            "suppressOutput": false
+        },
+        {
+            "url": "../data/Place.csv",
+            "tableSchema": "Place.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/GeoShape.csv",
+            "tableSchema": "GeoShape.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/MonetaryGrant.csv",
+            "tableSchema": "MonetaryGrant.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Taxon.csv",
+            "tableSchema": "Taxon.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Audience.csv",
+            "tableSchema": "Audience.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Document.csv",
+            "tableSchema": "Document.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Instrument.csv",
+            "tableSchema": "Instrument.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../data/Platform.csv",
+            "tableSchema": "Platform.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/person-or-organization.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "../out/validation/any-defined-term.csv",
+            "tableSchema": "unioned-identifiers.schema.json",
+            "suppressOutput": true
+        }
+    ]
+}

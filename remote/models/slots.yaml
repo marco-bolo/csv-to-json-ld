@@ -927,6 +927,24 @@ slots:
     range: uri
     slot_uri: schema:inDefinedTermSet
 
+  hasDefinedTermIds:
+    title: "Has Defined Terms (mPIDs)"
+    description: |
+      The terms which make up this term-set.
+    required: false
+    multivalued: true
+    range: AnyDefinedTerm
+    slot_uri: schema:hasDefinedTerm
+    comments: |
+      The inverse of the `In Term-Set (URL PID)` each term carries, recorded here so that the
+      term-set resolves to a document naming its whole membership rather than an empty stub.
+
+      Since it is the inverse, the two must agree: a term listed here should point back at this
+      set. Only the reference is checked, not the direction.
+
+      Should be an mPID from the first column of either DefinedTerm.csv or
+      PublishingStatusDefinedTerm.csv. Pipe-delimited when there are multiple values
+
   existingTermId:
     title: "Existing Term (URL PID)"
     description: "An existing URI PID which describes what this term represents."

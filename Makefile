@@ -59,6 +59,10 @@ out/validation/person-or-organization.csv: data/Person.csv data/Organization.csv
 	@mkdir -p out/validation
 	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/person-or-organization.csv --column-name "MBO Permanent Identifier*" data/Person.csv data/Organization.csv
 
+out/validation/any-defined-term.csv: data/DefinedTerm.csv data/PublishingStatusDefinedTerm.csv
+	@mkdir -p out/validation
+	@$(UNION_UNIQUE_IDENTIFIERS) --out out/validation/any-defined-term.csv --column-name "MBO Permanent Identifier*" data/DefinedTerm.csv data/PublishingStatusDefinedTerm.csv
+
 # Every identifier in the catalogue. `(URL PIDs)` columns may reference any kind of record, so this
 # is what those references are validated against. See issue #337.
 out/validation/all-identifiers.csv: $(wildcard data/*.csv)

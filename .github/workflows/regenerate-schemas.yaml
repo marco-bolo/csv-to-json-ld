@@ -56,17 +56,24 @@ jobs:
               with open(schema_path, 'r') as f:
                   schema = json.load(f)
               
-              # Extract relevant structural data that affects Google Sheets layout
+              # Extract relevant structural data that affects Google Sheets layout.
+              #
+              # Virtual columns are excluded. They are CSV-W constants -- {"virtual": true,
+              # "propertyUrl": "rdf:type", "valueUrl": ".../Person"} -- with no name, title or cell,
+              # and the Apps Script filters them out (columns.filter(col => !col.virtual)) before
+              # building anything. Hashing them meant an internal pipeline change flagged every
+              # sheet as needing a rebuild: removing one virtual column in #336 changed 26 of 27
+              # checksums while not one header, note, validation rule or dropdown differed.
               relevant_data = {
                   'columns': [
                       {
                           'name': col.get('name'),
                           'titles': col.get('titles'),
                           'required': col.get('required'),
-                          'datatype': col.get('datatype'),
-                          'virtual': col.get('virtual')
+                          'datatype': col.get('datatype')
                       }
                       for col in schema.get('columns', [])
+                      if not col.get('virtual')
                   ],
                   'foreignKeys': schema.get('foreignKeys', [])
               }

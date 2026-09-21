@@ -39,7 +39,8 @@ _PARA_METADATA_SLOT_NAMES = {"metadataPublisherId", "metadataDescribedForActionI
 The set of slot names which identify the slot as contributing to the para-metadata document (which ends up stored separately)
 """
 _VIRTUAL_CSV_FILES: Dict[str, str] = {
-    "PersonOrOrganization": "person-or-organization.csv"
+    "PersonOrOrganization": "person-or-organization.csv",
+    "AnyDefinedTerm": "any-defined-term.csv",
 }
 """
 CSV files which don't exist as user inputs, but are instead generated as part of the build process.

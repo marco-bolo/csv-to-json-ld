@@ -1,0 +1,2 @@
+"MBO Permanent Identifier*","Data Entry Person (mPID - you)*","Data Entered for Action (mPID)*","Name*","Description","Has Defined Terms (mPIDs)"
+"mbo_definedtermset_publishing_status","mbo_sformel","mbo_db_tool_population","MARCO-BOLO Publishing Status","The statuses MARCO-BOLO uses to describe whether a dataset, document or piece of software is available, still being worked on, or restricted from release.","mbo_pub_status_published|mbo_pub_status_incomplete|mbo_pub_status_embargoed|mbo_pub_status_closedatsource"
