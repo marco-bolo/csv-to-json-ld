@@ -29,16 +29,16 @@
   "alternateName": "D5.4",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fedd28d7-b52b-48ef-bb6e-07e20336d1b9"
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_5733dedf-8277-412d-9c63-9b792037b59a"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
+      "@id": "https://w3id.org/marco-bolo/mbo_fedd28d7-b52b-48ef-bb6e-07e20336d1b9"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+      "@id": "https://w3id.org/marco-bolo/mbo_4bdea6e0-af73-4a27-940e-19e94e86add9"
     }
   ],
   "availableLanguage": "en",
@@ -52,14 +52,14 @@
   "datePublished": "2024-06-25",
   "description": "Summary of results on the multi-disciplinary mapping of the alien species distribution and impacts on the European coastal and marine habitats",
   "identifier": [
-    "Deliverable D5.4",
-    "doi:10.5281/zenodo.20787360"
+    "doi:10.5281/zenodo.20787360",
+    "Deliverable D5.4"
   ],
   "keywords": [
-    "species distribution modelling",
     "MBO WP5",
     "alien species",
     "non-indigenous species",
+    "species distribution modelling",
     "ARMS-MBON"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -78,7 +78,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_857e4cba-22d0-4107-92ad-b8e0ff800006"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/708c0811a3215fde6f112b844f6510124e59cda6",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

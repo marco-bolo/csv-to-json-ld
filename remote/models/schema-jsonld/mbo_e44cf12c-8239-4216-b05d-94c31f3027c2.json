@@ -36,9 +36,13 @@
   },
   "description": "EU funding for the MARine COastal BiOdiversity Long-term Observations (MARCO-BOLO) project under Horizon Europe programme call HORIZON-CL6-2022-BIODIV-01-01 (Biodiversity and ecosystem services). Total project budget is 8614089.50 EUR with EU contribution of 7255037.50 EUR. Project duration: 48 months (December 1, 2022 - November 30, 2026).",
   "funder": {
+    "@id": "https://w3id.org/marco-bolo/mbo_7351b43a-294d-4006-9a32-d6e02ba105f9"
+  },
+  "identifier": "101082021",
+  "name": "Horizon Europe Grant for MARCO-BOLO",
+  "sponsor": {
     "@id": "https://w3id.org/marco-bolo/mbo_97759e39-db22-40d1-bbb8-2b27adfaa825"
   },
-  "name": "Horizon Europe Grant for MARCO-BOLO",
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2-input-metadata",
     "@reverse": {
@@ -47,13 +51,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/708c0811a3215fde6f112b844f6510124e59cda6",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ca89c53d9859ad2d0d8a9b4fb41f894ee8541d66",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
     },
