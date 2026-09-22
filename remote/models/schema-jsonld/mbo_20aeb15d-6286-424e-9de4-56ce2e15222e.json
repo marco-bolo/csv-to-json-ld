@@ -41,15 +41,15 @@
   "description": "Field protocol for the European Marine Omics Biodiversity Observation Network (EMO BON) sampling operations. Covers materials needed, CTD deployment for metadata collection, Niskin bottle water sampling, and filtration procedures for metabarcoding analysis using both Sterivex and polycarbonate membrane filters.",
   "identifier": "10.5281/zenodo.17590006",
   "keywords": [
-    "field sampling",
-    "EMO BON",
-    "CTD",
-    "marine biodiversity",
-    "DNA/RNA Shield",
     "water sampling",
+    "marine biodiversity",
+    "field sampling",
+    "DNA/RNA Shield",
     "filtration",
+    "EMO BON",
     "metabarcoding",
-    "Niskin bottle"
+    "Niskin bottle",
+    "CTD"
   ],
   "name": "EMO BON Field Protocol (ESC68N), incl. sampling for metabarcoding",
   "subjectOf": {
@@ -66,7 +66,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/62c531d96852b745d76f6aeb3faa4525a0993a07",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c34adc1c7586dbbbca5e5fcc7dc13a06f1d713ad",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
