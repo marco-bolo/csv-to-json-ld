@@ -133,9 +133,14 @@ slots:
     multivalued: true
     range: string
     slot_uri: schema:keywords
+    pattern: '^[^,;]+$'
     comments: |
       Separate multiple keyword with a '|'.
       e.g. Whales|Population Genetics
+      Commas and semicolons are rejected. They are not separators, so a
+      comma-separated cell publishes as one keyword literal that should have
+      been several -- 'university, Sweden' rather than 'university' and
+      'Sweden'. The pattern is applied to each value after the '|' split.
 
   abstract:
     title: "Abstract"

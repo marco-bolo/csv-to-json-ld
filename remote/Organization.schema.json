@@ -315,13 +315,14 @@
             },
             "dc:description": {
                 "en": [
-                    "Separate multiple keyword with a '|'.\ne.g. Whales|Population Genetics"
+                    "Separate multiple keyword with a '|'.\ne.g. Whales|Population Genetics\nCommas and semicolons are rejected. They are not separators, so a\ncomma-separated cell publishes as one keyword literal that should have\nbeen several -- 'university, Sweden' rather than 'university' and\n'Sweden'. The pattern is applied to each value after the '|' split."
                 ]
             },
             "propertyUrl": "https://schema.org/keywords",
             "separator": "|",
             "datatype": {
-                "base": "string"
+                "base": "string",
+                "format": "^[^,;]+$"
             }
         },
         {
