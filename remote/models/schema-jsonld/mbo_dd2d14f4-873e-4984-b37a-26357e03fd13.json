@@ -27,10 +27,10 @@
   "@type": "Dataset",
   "about": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
+      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f8d2ac7f-712b-49bc-939e-f3512a5010a1"
+      "@id": "https://w3id.org/marco-bolo/mbo_a00a814e-2f7d-4d0c-948f-15fac5ae16e1"
     }
   ],
   "datePublished": "2026-04-02",
@@ -38,10 +38,10 @@
   "name": "MBO Task 4.4 ROV video data from mutti-camera",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
+      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9586537b-ed16-4eee-b27c-d5459a9075f3"
+      "@id": "https://w3id.org/marco-bolo/mbo_69dd7ec7-0b3f-4e5d-b413-20818b66d08d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_31061cfe-c611-4fd2-964a-b3e350ae521c"
@@ -64,7 +64,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -88,7 +88,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-21"
+        "@value": "2026-09-22"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_dd2d14f4-873e-4984-b37a-26357e03fd13-input-metadata"

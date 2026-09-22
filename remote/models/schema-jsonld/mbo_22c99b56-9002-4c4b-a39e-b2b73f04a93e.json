@@ -31,8 +31,8 @@
   "familyName": "Provoost",
   "givenName": "Pieter",
   "identifier": [
-    "https://oceanexpert.org/expert/26192",
-    "https://orcid.org/0000-0002-4236-0384"
+    "https://orcid.org/0000-0002-4236-0384",
+    "https://oceanexpert.org/expert/26192"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e-input-metadata",
@@ -48,7 +48,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -72,7 +72,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-21"
+        "@value": "2026-09-22"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e-input-metadata"

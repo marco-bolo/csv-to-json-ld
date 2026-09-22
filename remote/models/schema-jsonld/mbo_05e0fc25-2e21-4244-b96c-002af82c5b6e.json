@@ -49,15 +49,15 @@
   "datePublished": "2024-07-10",
   "description": "Ethics brief on environmental issues for planned marine operations",
   "identifier": [
-    "doi:10.5281/zenodo.17527043",
-    "Deliverable D7.9"
+    "Deliverable D7.9",
+    "doi:10.5281/zenodo.17527043"
   ],
   "keywords": [
-    "collision avoidance",
     "marine operations",
+    "ethics",
+    "collision avoidance",
     "MBO WP7",
-    "Belgian North Sea",
-    "ethics"
+    "Belgian North Sea"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.9 - Ethics brief on environmental issues for planned marine operations",
@@ -69,13 +69,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f5a7bffe87227836210bbd2510929741b5b1bc5d",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -99,7 +99,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-21"
+        "@value": "2026-09-22"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_05e0fc25-2e21-4244-b96c-002af82c5b6e-input-metadata"
@@ -110,7 +110,7 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17527043"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
     },
     {
       "@type": "URL",
@@ -118,7 +118,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.9_Jul-2024.pdf"
+      "@value": "https://zenodo.org/records/17527043"
     }
   ],
   "version": "2.1"
