@@ -31,8 +31,8 @@
   "familyName": "Iudicone",
   "givenName": "Daniele",
   "identifier": [
-    "https://orcid.org/0000-0002-7473-394X",
-    "https://oceanexpert.org/expert/59161"
+    "https://oceanexpert.org/expert/59161",
+    "https://orcid.org/0000-0002-7473-394X"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925-input-metadata",
@@ -48,7 +48,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf1361e7-7995-4de1-94ff-a734e849c925"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/212ecedc067028ba11478b406c8666a01d160fbb",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

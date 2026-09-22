@@ -37,13 +37,13 @@
     "https://www.wikidata.org/wiki/Q8880"
   ],
   "keywords": [
-    "Horizon Europe",
     "EU institutions",
-    "research funding",
     "policy making",
     "public administration",
-    "innovation",
-    "European Union"
+    "European Union",
+    "research funding",
+    "Horizon Europe",
+    "innovation"
   ],
   "legalName": "European Commission",
   "name": "European Commission",
@@ -58,13 +58,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/212ecedc067028ba11478b406c8666a01d160fbb",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

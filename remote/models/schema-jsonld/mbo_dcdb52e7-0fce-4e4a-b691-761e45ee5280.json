@@ -42,14 +42,14 @@
   "identifier": "10.5281/zenodo.17590611",
   "keywords": [
     "amplicons",
-    "pooling",
-    "MinElute",
     "metabarcoding",
-    "Illumina sequencing",
+    "pooling",
+    "Ampure beads",
     "library preparation",
-    "Qubit",
+    "Illumina sequencing",
     "Qiaseq",
-    "Ampure beads"
+    "Qubit",
+    "MinElute"
   ],
   "name": "RGG pooling, cleaning and library preparation protocol",
   "subjectOf": {
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_dcdb52e7-0fce-4e4a-b691-761e45ee5280"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5152cba22782486ed4c50aef97dc0a3fc271b573",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/212ecedc067028ba11478b406c8666a01d160fbb",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -101,11 +101,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590611"
+      "@value": "https://doi.org/10.5281/zenodo.17590611"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590611"
+      "@value": "https://zenodo.org/records/17590611"
     }
   ],
   "inProgressDate": "2026"
