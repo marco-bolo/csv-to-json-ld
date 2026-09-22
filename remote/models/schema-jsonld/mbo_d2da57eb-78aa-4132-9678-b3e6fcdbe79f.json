@@ -50,8 +50,8 @@
   "identifier": "doi:10.5281/zenodo.17244601",
   "keywords": [
     "MBO WP6",
-    "co-design workshop",
     "marine biodiversity policy",
+    "co-design workshop",
     "Community of Practice",
     "stakeholder engagement"
   ],
@@ -71,7 +71,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/212ecedc067028ba11478b406c8666a01d160fbb",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/26191509c3caab17fedb0c4726c8543e25bb5fbe",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -106,11 +106,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244601"
+      "@value": "https://doi.org/10.5281/zenodo.17244601"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244601"
+      "@value": "https://zenodo.org/records/17244601"
     }
   ]
 }

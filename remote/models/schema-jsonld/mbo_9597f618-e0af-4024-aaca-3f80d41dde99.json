@@ -27,56 +27,12 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      },
-      "value": "subphylum"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       },
       "value": "accepted"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      },
-      "value": "Animalia"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#ScientificName",
@@ -91,6 +47,50 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Animalia"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "subphylum"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     }
   ],
@@ -109,13 +109,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/212ecedc067028ba11478b406c8666a01d160fbb",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/26191509c3caab17fedb0c4726c8543e25bb5fbe",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
