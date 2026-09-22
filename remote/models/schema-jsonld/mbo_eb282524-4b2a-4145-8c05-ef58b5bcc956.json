@@ -29,9 +29,9 @@
   "description": "European Research Infrastructure Consortium for marine biological resources",
   "identifier": "https://ror.org/0038zss60",
   "keywords": [
-    "marine resources",
-    "research infrastructure",
     "ERIC",
+    "research infrastructure",
+    "marine resources",
     "marine biology"
   ],
   "legalName": "European Marine Biological Resource Centre European Research Infrastructure Consortium",
@@ -47,13 +47,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_eb282524-4b2a-4145-8c05-ef58b5bcc956"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/26191509c3caab17fedb0c4726c8543e25bb5fbe",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/62c531d96852b745d76f6aeb3faa4525a0993a07",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },

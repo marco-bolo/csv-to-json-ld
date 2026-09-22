@@ -31,10 +31,10 @@
   "name": "T5.1.2 running habitat model results - harbor porpoise",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
     }
   ],
   "subjectOf": {
@@ -45,13 +45,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_1a612cca-8be6-434e-9a26-9915c568a488"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/26191509c3caab17fedb0c4726c8543e25bb5fbe",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/62c531d96852b745d76f6aeb3faa4525a0993a07",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },

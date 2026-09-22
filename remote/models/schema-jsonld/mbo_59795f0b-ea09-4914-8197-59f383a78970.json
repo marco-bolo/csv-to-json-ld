@@ -29,10 +29,10 @@
   "foundingDate": "1980-07-15",
   "identifier": "https://ror.org/032e6b942",
   "keywords": [
-    "Helmholtz",
     "Germany",
     "polar research",
-    "marine research"
+    "marine research",
+    "Helmholtz"
   ],
   "legalName": "Alfred-Wegener-Institut Helmholtz-Zentrum Fur Polar- Und Meeresforschung",
   "memberOf": {
@@ -47,13 +47,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/26191509c3caab17fedb0c4726c8543e25bb5fbe",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/62c531d96852b745d76f6aeb3faa4525a0993a07",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
     },
