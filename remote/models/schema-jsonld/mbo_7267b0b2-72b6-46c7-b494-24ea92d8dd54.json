@@ -28,8 +28,8 @@
   "familyName": "Suominen",
   "givenName": "Saara",
   "identifier": [
-    "https://orcid.org/0000-0001-9401-8460",
-    "https://oceanexpert.org/expert/43352"
+    "https://oceanexpert.org/expert/43352",
+    "https://orcid.org/0000-0001-9401-8460"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54-input-metadata",
@@ -45,7 +45,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c34adc1c7586dbbbca5e5fcc7dc13a06f1d713ad",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -69,7 +69,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-22"
+        "@value": "2026-09-23"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7267b0b2-72b6-46c7-b494-24ea92d8dd54-input-metadata"

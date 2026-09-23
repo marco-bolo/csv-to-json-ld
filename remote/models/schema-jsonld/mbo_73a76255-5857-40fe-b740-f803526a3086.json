@@ -27,10 +27,10 @@
   "@type": "Person",
   "affiliation": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
+      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
+      "@id": "https://w3id.org/marco-bolo/mbo_79e66ad7-7cdb-430a-a6fd-e7eb6c641672"
     }
   ],
   "familyName": "Weitere",
@@ -50,7 +50,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c34adc1c7586dbbbca5e5fcc7dc13a06f1d713ad",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_eba329fb-3675-40a9-8ae4-5899a500ea80"
     },
@@ -74,7 +74,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-22"
+        "@value": "2026-09-23"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_73a76255-5857-40fe-b740-f803526a3086-input-metadata"

@@ -36,13 +36,13 @@
   "name": "T5.1.2 running habitat model - harbor porpoise",
   "object": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_dc3bd1e0-32f4-411d-a3cc-2b27f8018297"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_00c37bee-0fd8-42c6-adf5-fd13dfa7a1f1"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_55ca5c88-e466-4fef-af2a-b9137d799136"
     }
   ],
   "participant": {
@@ -59,13 +59,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c34adc1c7586dbbbca5e5fcc7dc13a06f1d713ad",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-22"
+        "@value": "2026-09-23"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_5d6a6d81-8efb-4cf5-b2bc-759d445be1d9-input-metadata"

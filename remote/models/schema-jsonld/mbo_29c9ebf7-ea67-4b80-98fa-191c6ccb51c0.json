@@ -35,10 +35,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": {
@@ -60,13 +60,13 @@
   "description": "Call for proposals topic focusing on observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems. This topic funded the MARCO-BOLO project (Grant Agreement 101082021) among other projects. The call aimed to structure and strengthen European coastal and marine biodiversity observation capabilities, linking them to global efforts to understand and restore ocean health.",
   "identifier": "HORIZON-CL6-2022-BIODIV-01-01",
   "keywords": [
-    "marine ecosystems",
-    "biodiversity observation",
+    "call for proposals",
+    "biodiversity mapping",
+    "research funding",
     "Horizon Europe",
     "coastal ecosystems",
-    "call for proposals",
-    "research funding",
-    "biodiversity mapping"
+    "marine ecosystems",
+    "biodiversity observation"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
@@ -83,13 +83,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c34adc1c7586dbbbca5e5fcc7dc13a06f1d713ad",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -113,7 +113,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-22"
+        "@value": "2026-09-23"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0-input-metadata"
