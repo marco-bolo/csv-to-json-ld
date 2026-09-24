@@ -29,6 +29,9 @@
   "alternateName": "HORIZON-CL6-2022-BIODIV-01-01",
   "audience": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
     },
     {
@@ -36,9 +39,6 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": {
@@ -61,12 +61,12 @@
   "identifier": "HORIZON-CL6-2022-BIODIV-01-01",
   "keywords": [
     "call for proposals",
+    "biodiversity observation",
     "biodiversity mapping",
     "research funding",
-    "Horizon Europe",
     "coastal ecosystems",
-    "marine ecosystems",
-    "biodiversity observation"
+    "Horizon Europe",
+    "marine ecosystems"
   ],
   "maintainer": {
     "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
@@ -83,13 +83,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -113,7 +113,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-23"
+        "@value": "2026-09-24"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_29c9ebf7-ea67-4b80-98fa-191c6ccb51c0-input-metadata"

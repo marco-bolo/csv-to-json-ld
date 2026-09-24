@@ -28,10 +28,10 @@
   "abstract": "Collecting and processing samples destined for eDNA",
   "mentions": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
+      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7a38df82-4f1a-427f-a1d1-2044fe6d85ea"
+      "@id": "https://w3id.org/marco-bolo/mbo_07f7bd8b-be05-43e2-90b1-61b5eb407c3e"
     }
   ],
   "name": "T4.4 eDNA collect and process: from RV",
@@ -53,7 +53,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -77,7 +77,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-23"
+        "@value": "2026-09-24"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_818aba98-c5bc-4327-92f8-92c9509bb8ac-input-metadata"

@@ -29,8 +29,8 @@
   "identifier": "https://ror.org/03a76f909",
   "keywords": [
     "infrastructure",
-    "Spain",
-    "port authority"
+    "port authority",
+    "Spain"
   ],
   "legalName": "Autoridad Portuaria De Sevilla",
   "memberOf": {
@@ -51,7 +51,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -75,7 +75,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-23"
+        "@value": "2026-09-24"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_028b9795-1cca-4124-b1e9-44bd8daec45a-input-metadata"

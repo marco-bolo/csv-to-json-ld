@@ -27,13 +27,13 @@
   "@type": "DigitalDocument",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_d713ddfe-7d3e-4f45-8bef-759ec21c1d0c"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_72bcebdd-f903-42b8-af39-d392a330dabe"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_115cf959-1d8f-46b8-888c-cad3bb2069b1"
     }
   ],
   "availableLanguage": "en",
@@ -48,11 +48,11 @@
   "description": "Poster on surveying biodiversity data needs among stakeholders (February 2024)",
   "identifier": "doi:10.5281/zenodo.10715749",
   "keywords": [
-    "survey",
+    "MBO WP6",
     "biodiversity data needs",
     "stakeholder engagement",
     "poster",
-    "MBO WP6"
+    "survey"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "Surveying Biodiversity Data Needs among Stakeholders",
@@ -64,13 +64,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_da4a19b5-f843-4f89-872a-9c876549cb68"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -94,7 +94,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-23"
+        "@value": "2026-09-24"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_da4a19b5-f843-4f89-872a-9c876549cb68-input-metadata"
@@ -105,11 +105,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/10715749"
+      "@value": "https://doi.org/10.5281/zenodo.10715749"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.10715749"
+      "@value": "https://zenodo.org/records/10715749"
     }
   ]
 }

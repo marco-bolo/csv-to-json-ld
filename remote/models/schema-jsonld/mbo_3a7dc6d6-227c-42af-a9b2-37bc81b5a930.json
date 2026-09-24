@@ -29,27 +29,27 @@
   "alternateName": "D1.1",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
@@ -65,19 +65,19 @@
   "datePublished": "2025-05-29",
   "description": "Joint data and information management plan with key external partners (e.g. OBIS, IODE ODIS, GBIF, INSDC, OBON, ML2030, DITTO)",
   "identifier": [
-    "Deliverable D1.1",
-    "doi:10.5281/zenodo.17537386"
+    "doi:10.5281/zenodo.17537386",
+    "Deliverable D1.1"
   ],
   "keywords": [
-    "JSON-LD",
-    "persistent identifiers",
     "metadata",
+    "JSON-LD",
+    "marine biodiversity",
+    "linked open data",
+    "persistent identifiers",
+    "EBV",
     "EOV",
     "data management",
-    "linked open data",
-    "marine biodiversity",
-    "FAIR",
-    "EBV"
+    "FAIR"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D1.1 - Joint Data and Information Management Plan",
@@ -89,13 +89,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/ac6da3a56fe5737dcdb0743af27a4883ef4eaca2",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -119,7 +119,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-23"
+        "@value": "2026-09-24"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3a7dc6d6-227c-42af-a9b2-37bc81b5a930-input-metadata"
@@ -130,15 +130,15 @@
   "url": [
     {
       "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.17537386"
+    },
+    {
+      "@type": "URL",
       "@value": "https://zenodo.org/records/17537386"
     },
     {
       "@type": "URL",
       "@value": "https://marcobolo-project.eu/wp-content/uploads/2025/10/MARCO-BOLO_D1.1_29.05.2025.pdf"
-    },
-    {
-      "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17537386"
     }
   ]
 }
