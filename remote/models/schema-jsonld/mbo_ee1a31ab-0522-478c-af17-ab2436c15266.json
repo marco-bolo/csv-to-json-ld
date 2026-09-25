@@ -34,31 +34,31 @@
   },
   "contributor": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_7d9ca136-f71d-411c-a1c5-1f92aa0e47ab"
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_7d9ca136-f71d-411c-a1c5-1f92aa0e47ab"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_22c99b56-9002-4c4b-a39e-b2b73f04a93e"
     }
   ],
   "creativeWorkStatus": {
@@ -67,13 +67,13 @@
   "dateCreated": "2025-02-04",
   "description": "Pipeline converting human-editable per-class metadata CSVs into validated, schema.org-aligned JSON-LD for the MARCO-BOLO metadata catalog. Driven by make and run in Docker, so it executes locally or in CI. Validates CSV-W constraints, manual foreign key constraints and SHACL shapes before conversion.",
   "keywords": [
-    "ODIS",
-    "linked data",
-    "CSV-W",
-    "MBO WP1",
     "schema.org",
-    "FAIR data",
     "metadata",
+    "FAIR data",
+    "MBO WP1",
+    "linked data",
+    "ODIS",
+    "CSV-W",
     "JSON-LD"
   ],
   "maintainer": {
@@ -81,9 +81,9 @@
   },
   "name": "csv-to-json-ld: MARCO-BOLO metadata pipeline",
   "programmingLanguage": [
-    "Shell",
+    "Makefile",
     "Python",
-    "Makefile"
+    "Shell"
   ],
   "publisher": {
     "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
@@ -97,13 +97,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_ee1a31ab-0522-478c-af17-ab2436c15266"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -127,7 +127,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-24"
+        "@value": "2026-09-25"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ee1a31ab-0522-478c-af17-ab2436c15266-input-metadata"

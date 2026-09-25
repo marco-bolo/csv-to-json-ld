@@ -45,11 +45,11 @@
     "Deliverable D7.4"
   ],
   "keywords": [
-    "dissemination",
-    "MBO WP7",
     "stakeholder engagement",
     "communication",
-    "exploitation"
+    "MBO WP7",
+    "exploitation",
+    "dissemination"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D7.4 - Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
@@ -67,7 +67,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -91,7 +91,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-24"
+        "@value": "2026-09-25"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"

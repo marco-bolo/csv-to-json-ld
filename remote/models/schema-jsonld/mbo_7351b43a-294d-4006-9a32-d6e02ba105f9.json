@@ -30,9 +30,9 @@
   "foundingDate": "1993-11-01",
   "identifier": "https://ror.org/019w4f821",
   "keywords": [
+    "supranational entity",
     "geopolitical entity",
-    "intergovernmental entity",
-    "supranational entity"
+    "intergovernmental entity"
   ],
   "legalName": "European Union",
   "name": "European Union",
@@ -50,7 +50,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_7351b43a-294d-4006-9a32-d6e02ba105f9"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -74,7 +74,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-24"
+        "@value": "2026-09-25"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_7351b43a-294d-4006-9a32-d6e02ba105f9-input-metadata"

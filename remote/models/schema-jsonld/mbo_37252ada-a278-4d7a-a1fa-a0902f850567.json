@@ -28,9 +28,9 @@
   "description": "National Institute for Marine Geology and Geoecology",
   "identifier": "https://ror.org/02qs41y18",
   "keywords": [
+    "marine geology",
     "Romania",
-    "geoecology",
-    "marine geology"
+    "geoecology"
   ],
   "legalName": "Ar Institutul National De Cercetare-Dezvoltare Pentru Geologie Si Geoecologie Marina Geoecomar",
   "memberOf": {
@@ -51,7 +51,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b6ae005a01c6ce47cb9b3d6e68da9ebad2ca730e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -75,7 +75,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-24"
+        "@value": "2026-09-25"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_37252ada-a278-4d7a-a1fa-a0902f850567-input-metadata"
