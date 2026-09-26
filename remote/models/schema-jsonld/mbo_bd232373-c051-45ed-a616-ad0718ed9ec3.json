@@ -28,16 +28,16 @@
   "description": "The statuses MARCO-BOLO uses to describe whether a dataset, document or piece of software is available, still being worked on, or restricted from release.",
   "hasDefinedTerm": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+      "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_e0f5ca4c-45d8-4f48-bd71-554cc3db26af"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
     }
   ],
   "name": "MARCO-BOLO Publishing Status",
@@ -55,7 +55,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_bd232373-c051-45ed-a616-ad0718ed9ec3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9e4094961e728fb65d3b52c37b431bb47a308a05",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -79,7 +79,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-25"
+        "@value": "2026-09-26"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_bd232373-c051-45ed-a616-ad0718ed9ec3-input-metadata"

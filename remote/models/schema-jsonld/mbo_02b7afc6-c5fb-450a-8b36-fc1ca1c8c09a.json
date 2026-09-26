@@ -35,10 +35,10 @@
   ],
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+      "@id": "https://w3id.org/marco-bolo/mbo_1319b317-4c23-4274-8ee4-a9d20f5ed458"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d58d8505-8248-4e66-9ab9-69d46c4601be"
@@ -46,10 +46,10 @@
   ],
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
+      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_996de6ad-6b80-4136-8f92-39b824cc5e6d"
+      "@id": "https://w3id.org/marco-bolo/mbo_d4907c57-3eee-4d41-b3b0-a0c0b9631802"
     }
   ],
   "copyrightHolder": {
@@ -63,13 +63,13 @@
     "@id": "https://w3id.org/marco-bolo/mbo_df9ccb75-9ce4-4a63-83da-be571a6221ad"
   },
   "keywords": [
-    "EMO BON",
     "eDNA",
     "eukaryotes",
+    "metabarcoding",
     "vertebrates",
     "Norway",
-    "marine biodiversity",
-    "metabarcoding"
+    "EMO BON",
+    "marine biodiversity"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "maintainer": {
@@ -90,13 +90,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06f768312479706d2f6b0179c9391d274036a0a9",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9e4094961e728fb65d3b52c37b431bb47a308a05",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -120,7 +120,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-25"
+        "@value": "2026-09-26"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_02b7afc6-c5fb-450a-8b36-fc1ca1c8c09a-input-metadata"
