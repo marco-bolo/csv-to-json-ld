@@ -41,14 +41,14 @@
   "description": "PCR setup protocol for DNA amplification targeting the 12S marker for metabarcoding, specifically designed for fish detection in eDNA samples. Optimized for sequencing on MiSeq platform using AmpliTag Gold MasterMix with samples run in triplicates.",
   "identifier": "10.5281/zenodo.17590466",
   "keywords": [
-    "MiSeq",
-    "clean PCR lab",
     "fish eDNA",
-    "AmpliTag Gold",
-    "DNA amplification",
     "12S",
-    "PCR",
-    "metabarcoding"
+    "clean PCR lab",
+    "DNA amplification",
+    "AmpliTag Gold",
+    "MiSeq",
+    "metabarcoding",
+    "PCR"
   ],
   "name": "RGG metabarcoding protocol for the 12S marker",
   "subjectOf": {
@@ -59,13 +59,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/1f1002264e694362a42c52fb5dd66a5e83962f37",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e910253ca968c3d66db352e457416a9df444c689",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-27"
+        "@value": "2026-09-28"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044-input-metadata"
@@ -100,11 +100,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590466"
+      "@value": "https://doi.org/10.5281/zenodo.17590466"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590466"
+      "@value": "https://zenodo.org/records/17590466"
     }
   ],
   "inProgressDate": "2026"

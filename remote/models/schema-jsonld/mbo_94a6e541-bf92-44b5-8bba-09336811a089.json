@@ -33,10 +33,10 @@
   "name": "Multi-sensor biodiversity observations: sea trial",
   "participant": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
+      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
+      "@id": "https://w3id.org/marco-bolo/mbo_fb5f8c5d-c22b-429f-a0bc-700ae161033c"
     }
   ],
   "result": [
@@ -47,13 +47,13 @@
       "@id": "https://w3id.org/marco-bolo/mbo_8e5c725e-475a-41e3-a997-0dded71bea6a"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_00b6cbaf-bb3b-4701-b0eb-19244a5587a0"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_872ece16-e42a-4b96-840a-920a096e760b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_5c579086-4026-4c79-a6d3-7da55092798d"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_69b672e9-2e69-4b5f-8fd3-e3a8acd30eb9"
@@ -61,13 +61,13 @@
     {
       "@id": "https://w3id.org/marco-bolo/mbo_94a6e541-bf92-44b5-8bba-09336811a089-input-metadata",
       "@type": [
-        "Dataset",
-        "InputMetadataDescription"
+        "InputMetadataDescription",
+        "Dataset"
       ],
       "about": {
         "@id": "https://w3id.org/marco-bolo/mbo_94a6e541-bf92-44b5-8bba-09336811a089"
       },
-      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/1f1002264e694362a42c52fb5dd66a5e83962f37",
+      "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e910253ca968c3d66db352e457416a9df444c689",
       "creator": {
         "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
       },
@@ -86,7 +86,7 @@
         },
         "dateModified": {
           "@type": "Date",
-          "@value": "2026-09-27"
+          "@value": "2026-09-28"
         },
         "encodesCreativeWork": {
           "@id": "https://w3id.org/marco-bolo/mbo_94a6e541-bf92-44b5-8bba-09336811a089-input-metadata"
@@ -106,13 +106,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_94a6e541-bf92-44b5-8bba-09336811a089"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/1f1002264e694362a42c52fb5dd66a5e83962f37",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e910253ca968c3d66db352e457416a9df444c689",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },

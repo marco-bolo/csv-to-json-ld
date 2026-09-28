@@ -31,13 +31,13 @@
   },
   "itemListElement": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_1b2505b3-f93a-426e-a3ad-f2c94bb15a4f"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_f826ea73-40c9-40af-9103-60524e625079"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_788cf369-1808-4a1d-a916-132dbcfdabd8"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1b2505b3-f93a-426e-a3ad-f2c94bb15a4f"
     }
   ],
   "name": "Author metadata in the shared editing dashboard",
@@ -53,13 +53,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_308af643-4723-4c6a-81d9-97f758e09b09"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/1f1002264e694362a42c52fb5dd66a5e83962f37",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e910253ca968c3d66db352e457416a9df444c689",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -83,7 +83,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-27"
+        "@value": "2026-09-28"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_308af643-4723-4c6a-81d9-97f758e09b09-input-metadata"
