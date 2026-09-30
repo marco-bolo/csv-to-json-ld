@@ -31,10 +31,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae"
+      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09"
+      "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae"
     }
   ],
   "availableLanguage": "en",
@@ -49,9 +49,9 @@
   "description": "First Community of Practice event and 1st Co-design/Co-creation Workshop report (May 2024)",
   "identifier": "doi:10.5281/zenodo.17244601",
   "keywords": [
-    "Community of Practice",
     "co-design workshop",
     "marine biodiversity policy",
+    "Community of Practice",
     "MBO WP6",
     "stakeholder engagement"
   ],
@@ -71,7 +71,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/0670e53e0c139c7a6aed07675ee3f4b39c13a07f",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/a56a46b1e20b5e107ff38d6b42bea4c5bd20a094",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -95,7 +95,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-29"
+        "@value": "2026-09-30"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f-input-metadata"
@@ -106,11 +106,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244601"
+      "@value": "https://zenodo.org/records/17244601"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244601"
+      "@value": "https://doi.org/10.5281/zenodo.17244601"
     }
   ]
 }
