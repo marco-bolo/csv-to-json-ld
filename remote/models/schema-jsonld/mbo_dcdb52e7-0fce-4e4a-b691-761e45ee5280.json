@@ -42,14 +42,14 @@
   "identifier": "10.5281/zenodo.17590611",
   "keywords": [
     "library preparation",
-    "pooling",
-    "amplicons",
-    "MinElute",
-    "Qubit",
-    "Qiaseq",
-    "metabarcoding",
     "Illumina sequencing",
-    "Ampure beads"
+    "Ampure beads",
+    "MinElute",
+    "Qiaseq",
+    "Qubit",
+    "amplicons",
+    "metabarcoding",
+    "pooling"
   ],
   "name": "RGG pooling, cleaning and library preparation protocol",
   "subjectOf": {
@@ -66,7 +66,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_dcdb52e7-0fce-4e4a-b691-761e45ee5280"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/a56a46b1e20b5e107ff38d6b42bea4c5bd20a094",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b772e7bc01dee11528a38450c7b33e1fa5736dde",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-09-30"
+        "@value": "2026-10-01"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_dcdb52e7-0fce-4e4a-b691-761e45ee5280-input-metadata"
