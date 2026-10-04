@@ -27,12 +27,11 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Phoca vitulina"
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#SpecificEpithet",
@@ -42,10 +41,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     },
     {
@@ -56,10 +55,18 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Phoca vitulina"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     },
     {
@@ -77,17 +84,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     }
   ],
@@ -103,13 +103,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9beebeda84a244a63f99a465986d4f47e2d02831",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0a6bd04ac88e099ca23eac389280ef9c1b8a3a4",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -133,7 +133,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-03"
+        "@value": "2026-10-04"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_04546c47-96c0-4afb-ae34-deed61ad7fca-input-metadata"

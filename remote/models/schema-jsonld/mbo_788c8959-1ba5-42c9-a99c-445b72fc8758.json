@@ -41,13 +41,13 @@
   "description": "Protocol for extracting environmental DNA (eDNA) from water samples collected on Sterivex filters, using the Qiagen DNeasy Blood & Tissue Kit. Includes detailed procedures for clean lab entry, filter processing, lysis, and DNA purification over a 2-day workflow.",
   "identifier": "10.5281/zenodo.17552850",
   "keywords": [
+    "water samples",
     "eDNA",
     "DNA extraction",
-    "Sterivex filters",
-    "water samples",
+    "marine genomics",
     "Qiagen DNeasy",
     "environmental DNA",
-    "marine genomics"
+    "Sterivex filters"
   ],
   "name": "RGG DNA extraction protocol for water samples (eDNA)",
   "subjectOf": {
@@ -64,7 +64,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_788c8959-1ba5-42c9-a99c-445b72fc8758"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9beebeda84a244a63f99a465986d4f47e2d02831",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f0a6bd04ac88e099ca23eac389280ef9c1b8a3a4",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -88,7 +88,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-03"
+        "@value": "2026-10-04"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_788c8959-1ba5-42c9-a99c-445b72fc8758-input-metadata"
@@ -99,11 +99,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17552850"
+      "@value": "https://doi.org/10.5281/zenodo.17552850"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17552850"
+      "@value": "https://zenodo.org/records/17552850"
     }
   ],
   "inProgressDate": "2026"
