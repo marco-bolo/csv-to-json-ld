@@ -44,8 +44,8 @@
     "Deliverable D3.2"
   ],
   "keywords": [
-    "Essential Ocean Variables (EOV)",
     "MBO WP3",
+    "Essential Ocean Variables (EOV)",
     "biodiversity monitoring",
     "river-coastal continuum",
     "Essential Biodiversity Variables (EBV)"
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/392bc22f6d8467285624aab0f223a344dbd60c11",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e92a1d16473a3f8d391534f0dead0526de3129b7",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-05"
+        "@value": "2026-10-06"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
@@ -101,11 +101,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
+      "@value": "https://zenodo.org/records/20776313"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
     },
     {
       "@type": "URL",

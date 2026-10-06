@@ -32,9 +32,9 @@
   },
   "identifier": "https://ror.org/0431sk359",
   "keywords": [
-    "scientific society",
     "marine biology",
-    "UK"
+    "UK",
+    "scientific society"
   ],
   "legalName": "Marine Biological Association Of The United Kingdom",
   "memberOf": {
@@ -49,13 +49,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/392bc22f6d8467285624aab0f223a344dbd60c11",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e92a1d16473a3f8d391534f0dead0526de3129b7",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -79,7 +79,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-05"
+        "@value": "2026-10-06"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9d637d7d-fdf7-43ae-bac1-9a45df083323-input-metadata"

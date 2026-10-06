@@ -27,56 +27,6 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Phocoena phocoena"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Family",
       "@type": "PropertyValue",
       "propertyID": {
@@ -88,6 +38,56 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/order"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Phocoena phocoena"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     }
   ],
@@ -109,7 +109,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/392bc22f6d8467285624aab0f223a344dbd60c11",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/e92a1d16473a3f8d391534f0dead0526de3129b7",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -133,7 +133,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-05"
+        "@value": "2026-10-06"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c5dd9d46-aa3a-4a57-8b46-c98e12ef5fd3-input-metadata"
