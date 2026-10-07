@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab",
+  "@type": "Person",
+  "familyName": "Koole",
+  "givenName": "Carlijn Adriënne",
+  "identifier": "https://orcid.org/0009-0004-4052-5829",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a"
+      }
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cb5b6a678794603edf66e26a55852d69b8781b5e",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-10-07"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  }
+}

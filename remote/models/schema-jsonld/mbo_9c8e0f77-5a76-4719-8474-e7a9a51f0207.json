@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207",
+  "@type": "DigitalDocument",
+  "abstract": "To promote the adoption of robust Data Management Plans (DMPs) and strengthen long-term data stewardship, MARCO-BOLO WP6 worked with WP1 experts to communicate how the project has advanced marine biodiversity data management, interoperability and digital legacy. The presentation is intended as a resource that can be adapted and tailored according to the audience, for example European ocean research and innovation project Coordinators and partners, European Commission and wider EU agencies e.g., project policy officers.",
+  "audience": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
+    }
+  ],
+  "author": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_56592f30-00f0-4165-b0fa-bf89b718604d"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b636e005-814c-4bec-948f-23dac3f3f85b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c5967f10-849e-4383-a6a1-110e950be4ab"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
+    }
+  ],
+  "availableLanguage": "en",
+  "contributor": [
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f5ef6ae7-f174-4a97-9002-34319b154e8e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ef104833-2ffb-46d7-8ad6-40ffc03c93f6"
+    }
+  ],
+  "creativeWorkStatus": {
+    "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
+  },
+  "datePublished": "2026-09-30",
+  "description": "Adaptable slide deck on how MARCO-BOLO advanced marine biodiversity data management, interoperability and digital legacy, promoting robust Data Management Plans",
+  "identifier": "doi:10.5281/zenodo.23063403",
+  "keywords": [
+    "MBO WP6",
+    "FAIR",
+    "data management plan",
+    "presentation slides",
+    "digital legacy",
+    "interoperability",
+    "knowledge transfer",
+    "MBO WP1"
+  ],
+  "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
+  "name": "From Project Data to Lasting Impact: Strengthening Digital Legacy and Interoperability in European Ocean Research",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a"
+      }
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cb5b6a678794603edf66e26a55852d69b8781b5e",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_a9fc8a15-bd96-4d8e-a260-e40c0fa8f17a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-10-07"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  },
+  "url": [
+    {
+      "@type": "URL",
+      "@value": "https://zenodo.org/records/23063404"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://doi.org/10.5281/zenodo.23063403"
+    }
+  ]
+}
