@@ -1,10 +1,30 @@
 {
-  "timestamp": "2026-09-21T18:55:13.023169",
+  "timestamp": "2026-10-07T06:47:23.032530",
   "new_ids": [
     {
-      "class": "Organization",
-      "uuid": "mbo_7351b43a-294d-4006-9a32-d6e02ba105f9",
-      "semantic_id": "mbo_european_union"
+      "class": "Document",
+      "uuid": "mbo_81cf85a2-a32c-4181-b25d-90108fef831d",
+      "semantic_id": "mbo_wp1_d1_3_doc"
+    },
+    {
+      "class": "Document",
+      "uuid": "mbo_9c8e0f77-5a76-4719-8474-e7a9a51f0207",
+      "semantic_id": "mbo_wp6_d6_3_dmp_slides"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_39deb0e0-9b05-4822-acbc-b854cca72c6e",
+      "semantic_id": "mbo_lvaira"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_b636e005-814c-4bec-948f-23dac3f3f85b",
+      "semantic_id": "mbo_dtsang"
+    },
+    {
+      "class": "Person",
+      "uuid": "mbo_c5967f10-849e-4383-a6a1-110e950be4ab",
+      "semantic_id": "mbo_ckoole"
     }
   ],
   "missing_ids": []
