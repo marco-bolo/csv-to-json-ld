@@ -41,14 +41,14 @@
   "description": "Protocol for post-PCR processing of metabarcoding amplicons including pooling, MinElute cleanup, Qubit quantification, and library preparation using the Qiaseq One Step Amplicon Library Preparation Kit. Includes Ampure bead cleanup procedure for Illumina sequencing platforms.",
   "identifier": "10.5281/zenodo.17590611",
   "keywords": [
-    "amplicons",
-    "library preparation",
-    "Qiaseq",
     "metabarcoding",
     "MinElute",
-    "Qubit",
+    "amplicons",
     "pooling",
+    "library preparation",
     "Ampure beads",
+    "Qiaseq",
+    "Qubit",
     "Illumina sequencing"
   ],
   "name": "RGG pooling, cleaning and library preparation protocol",
@@ -66,7 +66,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_dcdb52e7-0fce-4e4a-b691-761e45ee5280"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cb5b6a678794603edf66e26a55852d69b8781b5e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/13d7349a8d3db1fbc1b5167451866c5b6c494066",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-07"
+        "@value": "2026-10-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_dcdb52e7-0fce-4e4a-b691-761e45ee5280-input-metadata"

@@ -29,18 +29,30 @@
   "alternateName": "D1.3",
   "audience": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_e862de7b-955d-462c-b508-3b865478e94a"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9b8ac736-898c-45ab-9c68-57eb81242406"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c1e3e1da-9d8c-4a51-b725-3f6609ef80db"
     }
   ],
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_39deb0e0-9b05-4822-acbc-b854cca72c6e"
@@ -50,18 +62,6 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     }
   ],
   "availableLanguage": "en",
@@ -78,14 +78,14 @@
     "Deliverable D1.3"
   ],
   "keywords": [
-    "data management",
-    "knowledge graph",
-    "FAIR",
+    "schema.org",
+    "JSON-LD",
+    "linked open data",
     "marine biodiversity",
     "MBO WP1",
-    "JSON-LD",
-    "schema.org",
-    "linked open data",
+    "FAIR",
+    "data management",
+    "knowledge graph",
     "gap analysis",
     "metadata catalogue"
   ],
@@ -99,13 +99,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_81cf85a2-a32c-4181-b25d-90108fef831d"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cb5b6a678794603edf66e26a55852d69b8781b5e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/13d7349a8d3db1fbc1b5167451866c5b6c494066",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -129,7 +129,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-07"
+        "@value": "2026-10-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_81cf85a2-a32c-4181-b25d-90108fef831d-input-metadata"

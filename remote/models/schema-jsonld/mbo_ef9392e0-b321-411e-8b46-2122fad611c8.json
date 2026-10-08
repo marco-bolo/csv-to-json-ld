@@ -41,13 +41,13 @@
   "description": "Slide decks from the 3rd Co-Design Workshop (online sessions, June 2025)",
   "identifier": "doi:10.5281/zenodo.17236969",
   "keywords": [
-    "Community of Practice",
     "eDNA",
-    "stakeholder engagement",
     "Blue Carbon",
-    "co-design workshop",
+    "Community of Practice",
     "presentation slides",
-    "MBO WP6"
+    "stakeholder engagement",
+    "MBO WP6",
+    "co-design workshop"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 3rd Co-Design Workshop - presentations",
@@ -65,7 +65,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cb5b6a678794603edf66e26a55852d69b8781b5e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/13d7349a8d3db1fbc1b5167451866c5b6c494066",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-07"
+        "@value": "2026-10-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8-input-metadata"
@@ -100,11 +100,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236969"
+      "@value": "https://doi.org/10.5281/zenodo.17236969"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236969"
+      "@value": "https://zenodo.org/records/17236969"
     }
   ]
 }
