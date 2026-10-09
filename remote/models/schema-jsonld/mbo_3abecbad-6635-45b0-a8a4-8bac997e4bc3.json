@@ -29,16 +29,13 @@
   "alternateName": "D6.2",
   "author": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_cb1ceabe-7729-4166-b3e8-bafe5b7e48dd"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_61095dcc-bb5d-4b39-bd33-394d003d0ea8"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_531f86ba-15c5-4ce3-8dc5-17e85c3a9420"
@@ -48,6 +45,9 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_c873b3a0-32a7-452b-ba4f-9f10bc1cd091"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
     }
   ],
   "availableLanguage": "en",
@@ -61,13 +61,13 @@
   "datePublished": "2025-12-03",
   "description": "Three co-design/co-creation/stakeholder consultation workshop reports, with recommendations/decisions for the project workplan",
   "identifier": [
-    "doi:10.5281/zenodo.20707345",
-    "Deliverable D6.2"
+    "Deliverable D6.2",
+    "doi:10.5281/zenodo.20707345"
   ],
   "isBasedOn": [
-    "https://doi.org/10.5281/zenodo.17244601",
+    "https://doi.org/10.5281/zenodo.17244778",
     "https://doi.org/10.5281/zenodo.17244832",
-    "https://doi.org/10.5281/zenodo.17244778"
+    "https://doi.org/10.5281/zenodo.17244601"
   ],
   "keywords": [
     "marine biodiversity policy",
@@ -86,13 +86,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/13d7349a8d3db1fbc1b5167451866c5b6c494066",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cf309fcfbd133a75aa7f6f2ef90ba48d1a52db0e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -116,7 +116,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-08"
+        "@value": "2026-10-09"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_3abecbad-6635-45b0-a8a4-8bac997e4bc3-input-metadata"
@@ -127,7 +127,7 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D6.2_Dec-2025.pdf"
+      "@value": "https://zenodo.org/records/20707345"
     },
     {
       "@type": "URL",
@@ -135,7 +135,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20707345"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/02/MBO_D6.2_Dec-2025.pdf"
     }
   ],
   "version": "1"
