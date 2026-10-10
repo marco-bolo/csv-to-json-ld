@@ -31,10 +31,10 @@
       "@id": "https://w3id.org/marco-bolo/mbo_000a42bb-7b6b-4c23-a47b-f08e0ab253ae"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09"
+      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_f9937273-4541-46e2-8408-2e7f2c6bf733"
+      "@id": "https://w3id.org/marco-bolo/mbo_2482a6cd-9966-4186-ae60-e6950a62ac09"
     }
   ],
   "availableLanguage": "en",
@@ -49,11 +49,11 @@
   "description": "First Community of Practice event and 1st Co-design/Co-creation Workshop report (May 2024)",
   "identifier": "doi:10.5281/zenodo.17244601",
   "keywords": [
+    "MBO WP6",
+    "marine biodiversity policy",
     "Community of Practice",
     "co-design workshop",
-    "stakeholder engagement",
-    "marine biodiversity policy",
-    "MBO WP6"
+    "stakeholder engagement"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO 1st Community of Practice Event (M10) & 1st Co-Design Workshop Report",
@@ -71,7 +71,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cf309fcfbd133a75aa7f6f2ef90ba48d1a52db0e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/4d2e4a035fcfd340807bbbcdb81e8cece0dedb3e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -95,7 +95,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-09"
+        "@value": "2026-10-10"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_d2da57eb-78aa-4132-9678-b3e6fcdbe79f-input-metadata"
@@ -106,11 +106,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17244601"
+      "@value": "https://zenodo.org/records/17244601"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17244601"
+      "@value": "https://doi.org/10.5281/zenodo.17244601"
     }
   ]
 }

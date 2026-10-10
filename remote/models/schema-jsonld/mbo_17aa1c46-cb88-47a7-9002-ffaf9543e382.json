@@ -29,8 +29,8 @@
   "description": "Senckenberg Society for Nature Research",
   "identifier": "https://ror.org/01wz97s39",
   "keywords": [
-    "Germany",
     "biodiversity research",
+    "Germany",
     "natural history"
   ],
   "legalName": "Senckenberg Gesellschaft Fur Naturforschung",
@@ -52,7 +52,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cf309fcfbd133a75aa7f6f2ef90ba48d1a52db0e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/4d2e4a035fcfd340807bbbcdb81e8cece0dedb3e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -76,7 +76,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-09"
+        "@value": "2026-10-10"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_17aa1c46-cb88-47a7-9002-ffaf9543e382-input-metadata"

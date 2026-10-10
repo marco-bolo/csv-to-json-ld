@@ -50,9 +50,9 @@
   "keywords": [
     "stakeholder engagement",
     "MBO WP6",
-    "poster",
     "survey",
-    "biodiversity data needs"
+    "biodiversity data needs",
+    "poster"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "Surveying Biodiversity Data Needs among Stakeholders",
@@ -64,13 +64,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_da4a19b5-f843-4f89-872a-9c876549cb68"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cf309fcfbd133a75aa7f6f2ef90ba48d1a52db0e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/4d2e4a035fcfd340807bbbcdb81e8cece0dedb3e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -94,7 +94,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-09"
+        "@value": "2026-10-10"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_da4a19b5-f843-4f89-872a-9c876549cb68-input-metadata"
@@ -105,11 +105,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.10715749"
+      "@value": "https://zenodo.org/records/10715749"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/10715749"
+      "@value": "https://doi.org/10.5281/zenodo.10715749"
     }
   ]
 }
