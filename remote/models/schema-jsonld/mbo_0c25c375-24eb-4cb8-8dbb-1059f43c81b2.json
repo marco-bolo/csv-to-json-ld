@@ -43,13 +43,13 @@
   "keywords": [
     "PCR",
     "MiSeq",
-    "COI",
+    "16S",
     "18S",
+    "COI",
+    "clean PCR lab",
     "AmpliTag Gold",
     "metabarcoding",
-    "16S",
-    "DNA amplification",
-    "clean PCR lab"
+    "DNA amplification"
   ],
   "name": "RGG metabarcoding protocol for COI, 16S and 18S markers",
   "subjectOf": {
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/4d2e4a035fcfd340807bbbcdb81e8cece0dedb3e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/40ae2e997c45656321e0c5d22e62ab2dba356f87",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-10"
+        "@value": "2026-10-11"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2-input-metadata"
