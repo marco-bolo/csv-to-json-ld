@@ -29,16 +29,16 @@
   "alternateName": "D4.1",
   "author": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9145a8c8-d293-4b86-9344-368d94d43599"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_74d8ae60-3d99-4c28-8f62-192e484fa5d9"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_9145a8c8-d293-4b86-9344-368d94d43599"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_6c6a182c-469a-4828-a335-39359af3eb61"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_1563b216-98e8-47ed-a413-19b56c373d1c"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_d6e4f709-3431-4ccb-9968-1d8bbb404941"
@@ -65,9 +65,9 @@
     "Deliverable D4.1"
   ],
   "keywords": [
-    "autonomous sensors",
-    "geolocation",
     "biodiversity monitoring",
+    "geolocation",
+    "autonomous sensors",
     "MBO WP4",
     "marine instrumentation"
   ],
@@ -87,7 +87,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/bb8e35a88fae3f5f87ca34c20388a32dcf8f8f37",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6df3680b01b1bd06767d843f1d100c98d587bf10",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -111,7 +111,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-12"
+        "@value": "2026-10-13"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9c13b8c0-5143-4b51-9de7-1c848f7a8d23-input-metadata"
@@ -122,7 +122,7 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.20779638"
+      "@value": "https://zenodo.org/records/20779638"
     },
     {
       "@type": "URL",
@@ -130,7 +130,7 @@
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20779638"
+      "@value": "https://doi.org/10.5281/zenodo.20779638"
     }
   ],
   "version": "1"
