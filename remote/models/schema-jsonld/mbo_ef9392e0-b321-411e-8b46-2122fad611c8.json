@@ -42,11 +42,11 @@
   "identifier": "doi:10.5281/zenodo.17236969",
   "keywords": [
     "co-design workshop",
-    "MBO WP6",
-    "eDNA",
     "presentation slides",
-    "stakeholder engagement",
     "Community of Practice",
+    "stakeholder engagement",
+    "eDNA",
+    "MBO WP6",
     "Blue Carbon"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -65,7 +65,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6df3680b01b1bd06767d843f1d100c98d587bf10",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/69b9054a64c8de0f10fa163c6a1cf6b56a1120da",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-13"
+        "@value": "2026-10-14"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ef9392e0-b321-411e-8b46-2122fad611c8-input-metadata"
@@ -100,11 +100,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236969"
+      "@value": "https://doi.org/10.5281/zenodo.17236969"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236969"
+      "@value": "https://zenodo.org/records/17236969"
     }
   ]
 }
