@@ -28,11 +28,11 @@
   "description": "United Nations agency for education, science and culture",
   "identifier": "https://ror.org/04h4z8k05",
   "keywords": [
-    "United Nations",
-    "education",
     "culture",
     "intergovernmental",
-    "science"
+    "education",
+    "science",
+    "United Nations"
   ],
   "legalName": "United Nations Educational Scientific And Cultural Organization",
   "memberOf": {
@@ -47,13 +47,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/32131b85d874c9e1fc4a75bcbcc1b0d06a5f176c",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9509b28bba4db408821fe8cd50b6f281ee1cb868",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -77,7 +77,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-15"
+        "@value": "2026-10-16"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9c18f14e-6b23-48c9-bf6e-5eddb8173300-input-metadata"

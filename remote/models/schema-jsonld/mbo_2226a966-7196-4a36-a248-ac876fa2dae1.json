@@ -30,12 +30,6 @@
   },
   "contactPoint": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_65599d55-81a8-470a-9e90-0f32a6298dc1"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_cf719e8c-f9af-4766-be2b-bc6e0d5f53e3"
     },
     {
@@ -49,13 +43,19 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2e224b07-ddd2-4e4b-89ce-8a42f39a4e89"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_65599d55-81a8-470a-9e90-0f32a6298dc1"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_21a84746-420e-43d4-ba2e-8248281ee66a"
     }
   ],
   "familyName": "Lear",
   "givenName": "Dan",
   "identifier": [
-    "https://oceanexpert.org/expert/23316",
-    "https://orcid.org/0000-0002-5806-0837"
+    "https://orcid.org/0000-0002-5806-0837",
+    "https://oceanexpert.org/expert/23316"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1-input-metadata",
@@ -71,7 +71,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/32131b85d874c9e1fc4a75bcbcc1b0d06a5f176c",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9509b28bba4db408821fe8cd50b6f281ee1cb868",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -95,7 +95,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-15"
+        "@value": "2026-10-16"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1-input-metadata"
