@@ -31,8 +31,8 @@
   "familyName": "Peredo Arce",
   "givenName": "Andrés",
   "identifier": [
-    "https://orcid.org/0000-0002-6353-9121",
-    "https://oceanexpert.org/expert/84963"
+    "https://oceanexpert.org/expert/84963",
+    "https://orcid.org/0000-0002-6353-9121"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6-input-metadata",
@@ -42,13 +42,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9509b28bba4db408821fe8cd50b6f281ee1cb868",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6ff2ecaeec9c70b20f445de334054d13c9d67408",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
@@ -72,7 +72,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-16"
+        "@value": "2026-10-17"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6-input-metadata"

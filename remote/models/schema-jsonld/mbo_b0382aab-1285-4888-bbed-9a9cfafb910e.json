@@ -28,8 +28,8 @@
   "alternateName": "National Centre for Scientific Research (France)",
   "identifier": "https://ror.org/03mxktp47",
   "keywords": [
-    "research council",
-    "France"
+    "France",
+    "research council"
   ],
   "legalName": "Institut de Biologie de l'École Normale Supérieure; Centre National De La Recherche Scientifique Cnrs",
   "memberOf": {
@@ -50,7 +50,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9509b28bba4db408821fe8cd50b6f281ee1cb868",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6ff2ecaeec9c70b20f445de334054d13c9d67408",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -74,7 +74,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-16"
+        "@value": "2026-10-17"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_b0382aab-1285-4888-bbed-9a9cfafb910e-input-metadata"
