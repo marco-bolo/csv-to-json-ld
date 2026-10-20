@@ -42,14 +42,14 @@
   "identifier": "10.5281/zenodo.17590354",
   "keywords": [
     "clean PCR lab",
-    "16S",
-    "18S",
     "AmpliTag Gold",
-    "COI",
-    "DNA amplification",
+    "MiSeq",
+    "18S",
     "metabarcoding",
+    "DNA amplification",
+    "16S",
     "PCR",
-    "MiSeq"
+    "COI"
   ],
   "name": "RGG metabarcoding protocol for COI, 16S and 18S markers",
   "subjectOf": {
@@ -66,7 +66,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbcf3267de3c8dbcfd4bb5cf2cd6ea65f9c93e99",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b30e19dabd690ac1c51e269b6bd6dce91cac0acb",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-19"
+        "@value": "2026-10-20"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2-input-metadata"
@@ -101,11 +101,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590354"
+      "@value": "https://doi.org/10.5281/zenodo.17590354"
     },
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590354"
+      "@value": "https://zenodo.org/records/17590354"
     }
   ],
   "inProgressDate": "2026"
