@@ -52,9 +52,9 @@
   "keywords": [
     "climate projections",
     "species distribution modelling",
-    "alien species",
+    "MBO WP5",
     "non-indigenous species",
-    "MBO WP5"
+    "alien species"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D5.5 - Scientific document summarising the results of the Species distribution modelling and mapping of the alien species impacts on the European coastal and marine habitats",
@@ -66,13 +66,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b30e19dabd690ac1c51e269b6bd6dce91cac0acb",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/61710032de92c10ff154d39e57fff9a89ec1c859",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -96,7 +96,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-20"
+        "@value": "2026-10-21"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2622cabe-36b7-4ff0-bcbf-1adf77431904-input-metadata"
