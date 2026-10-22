@@ -43,12 +43,6 @@
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_2226a966-7196-4a36-a248-ac876fa2dae1"
     },
     {
@@ -62,6 +56,12 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_39deb0e0-9b05-4822-acbc-b854cca72c6e"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_58224f62-1d2e-490c-8c0d-7a0f3a79bf70"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9bac1d70-fd49-44f6-b3e9-38f2467983f3"
     }
   ],
   "availableLanguage": "en",
@@ -78,15 +78,15 @@
     "doi:10.5281/zenodo.22958523"
   ],
   "keywords": [
-    "marine biodiversity",
     "gap analysis",
-    "FAIR",
-    "linked open data",
-    "knowledge graph",
     "JSON-LD",
-    "metadata catalogue",
-    "schema.org",
     "data management",
+    "schema.org",
+    "knowledge graph",
+    "linked open data",
+    "metadata catalogue",
+    "FAIR",
+    "marine biodiversity",
     "MBO WP1"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
@@ -99,13 +99,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_81cf85a2-a32c-4181-b25d-90108fef831d"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/61710032de92c10ff154d39e57fff9a89ec1c859",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5edfd939538b75da2ec9f6d7edd98b3483e74da8",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -129,7 +129,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-21"
+        "@value": "2026-10-22"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_81cf85a2-a32c-4181-b25d-90108fef831d-input-metadata"
