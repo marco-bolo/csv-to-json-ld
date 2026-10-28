@@ -41,15 +41,15 @@
   "description": "Field protocol for the European Marine Omics Biodiversity Observation Network (EMO BON) sampling operations. Covers materials needed, CTD deployment for metadata collection, Niskin bottle water sampling, and filtration procedures for metabarcoding analysis using both Sterivex and polycarbonate membrane filters.",
   "identifier": "10.5281/zenodo.17590006",
   "keywords": [
-    "water sampling",
+    "marine biodiversity",
+    "field sampling",
+    "EMO BON",
+    "metabarcoding",
+    "Niskin bottle",
     "filtration",
     "CTD",
-    "Niskin bottle",
-    "DNA/RNA Shield",
-    "EMO BON",
-    "marine biodiversity",
-    "metabarcoding",
-    "field sampling"
+    "water sampling",
+    "DNA/RNA Shield"
   ],
   "name": "EMO BON Field Protocol (ESC68N), incl. sampling for metabarcoding",
   "subjectOf": {
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/0afa5a486fffde250182773830bab60a5d05866e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/3369089754916ba0f82e9a1d19d12083036b9f63",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-27"
+        "@value": "2026-10-28"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_20aeb15d-6286-424e-9de4-56ce2e15222e-input-metadata"
@@ -101,11 +101,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590006"
+      "@value": "https://zenodo.org/records/17590006"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590006"
+      "@value": "https://doi.org/10.5281/zenodo.17590006"
     }
   ],
   "inProgressDate": "2026"
