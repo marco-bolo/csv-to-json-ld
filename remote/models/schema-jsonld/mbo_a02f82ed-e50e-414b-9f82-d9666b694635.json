@@ -27,12 +27,12 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       },
-      "value": "Animalia"
+      "value": "Cetacea"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#VerbatimTaxonRank",
@@ -43,12 +43,34 @@
       "value": "infraorder"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       },
       "value": "Chordata"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      },
+      "value": "accepted"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Order",
@@ -59,41 +81,19 @@
       "value": "Cetartiodactyla"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Animalia"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Cetacea"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
     }
   ],
   "identifier": [
@@ -111,13 +111,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/3369089754916ba0f82e9a1d19d12083036b9f63",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/33ce000f8270143408a2ce6d556066eaaa37021e",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -141,7 +141,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-28"
+        "@value": "2026-10-29"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635-input-metadata"
