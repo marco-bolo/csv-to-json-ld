@@ -41,15 +41,15 @@
   "description": "PCR setup protocol for DNA amplification targeting COI, 16S and 18S markers for metabarcoding. Designed for sequencing on MiSeq platform using AmpliTag Gold MasterMix. Includes detailed mastermix preparation, primer handling, and clean lab procedures.",
   "identifier": "10.5281/zenodo.17590354",
   "keywords": [
+    "18S",
     "metabarcoding",
-    "MiSeq",
-    "PCR",
-    "AmpliTag Gold",
     "clean PCR lab",
     "DNA amplification",
+    "PCR",
     "COI",
+    "MiSeq",
     "16S",
-    "18S"
+    "AmpliTag Gold"
   ],
   "name": "RGG metabarcoding protocol for COI, 16S and 18S markers",
   "subjectOf": {
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/33ce000f8270143408a2ce6d556066eaaa37021e",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5a0731121267caabe0c45526473b66f7998a95ff",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-29"
+        "@value": "2026-10-30"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_0c25c375-24eb-4cb8-8dbb-1059f43c81b2-input-metadata"
