@@ -44,8 +44,8 @@
     "presentation slides",
     "stakeholder engagement",
     "Community of Practice",
-    "MBO WP6",
     "AI",
+    "MBO WP6",
     "co-design workshop",
     "eDNA"
   ],
@@ -59,13 +59,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/5a0731121267caabe0c45526473b66f7998a95ff",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fc7176a444d3e4be4f23a066b01e69899cf0f82a",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-10-30"
+        "@value": "2026-10-31"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2064aa8a-0b36-401f-b931-1d6339d2cc08-input-metadata"
@@ -100,11 +100,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17236878"
+      "@value": "https://zenodo.org/records/17236878"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17236878"
+      "@value": "https://doi.org/10.5281/zenodo.17236878"
     }
   ]
 }
