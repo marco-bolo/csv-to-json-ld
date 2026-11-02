@@ -43,13 +43,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/04d6e06d3005b18c3bc29f893dc398dc53d210d7",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9eea4f27c6d2a42f0bf7b8b396ae79e7eb03ec75",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -73,7 +73,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-01"
+        "@value": "2026-11-02"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_06ab63c6-d848-4faa-a567-eeb6f222ae88-input-metadata"

@@ -28,8 +28,8 @@
   "familyName": "Præbel",
   "givenName": "Kim",
   "identifier": [
-    "https://oceanexpert.org/expert/39344",
-    "https://orcid.org/0000-0002-0681-1854"
+    "https://orcid.org/0000-0002-0681-1854",
+    "https://oceanexpert.org/expert/39344"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557-input-metadata",
@@ -45,7 +45,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/04d6e06d3005b18c3bc29f893dc398dc53d210d7",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9eea4f27c6d2a42f0bf7b8b396ae79e7eb03ec75",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -69,7 +69,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-01"
+        "@value": "2026-11-02"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_449e98ff-817f-416d-9947-dcb533150557-input-metadata"

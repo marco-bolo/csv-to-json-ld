@@ -28,9 +28,6 @@
   "description": "The statuses MARCO-BOLO uses to describe whether a dataset, document or piece of software is available, still being worked on, or restricted from release.",
   "hasDefinedTerm": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_901ea8c8-33ef-44aa-8062-a6ace4450af6"
     },
     {
@@ -38,6 +35,9 @@
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_8bea6cfa-614a-477e-91f4-2ef8d992a2c3"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_c2fb3abb-2a8e-420b-8059-271b57a95840"
     }
   ],
   "name": "MARCO-BOLO Publishing Status",
@@ -49,13 +49,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_bd232373-c051-45ed-a616-ad0718ed9ec3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/04d6e06d3005b18c3bc29f893dc398dc53d210d7",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9eea4f27c6d2a42f0bf7b8b396ae79e7eb03ec75",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -79,7 +79,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-01"
+        "@value": "2026-11-02"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_bd232373-c051-45ed-a616-ad0718ed9ec3-input-metadata"
