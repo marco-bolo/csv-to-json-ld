@@ -1,5 +1,7 @@
 # Experimental CSV-W representation of data for MBO
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22877563.svg)](https://doi.org/10.5281/zenodo.22877563)
+
 ## To add your metadata to the CSVs via a browser
 * Go to the [editing dashboard](https://docs.google.com/spreadsheets/d/1PBFK3LW3DAdvXdbk2v8bSdtTf87mBhabeeegwRjOBRg/edit?usp=drive_link)
 * Edit the files

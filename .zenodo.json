@@ -1,7 +1,6 @@
 {
   "upload_type": "software",
   "title": "MARCO-BOLO csv-to-json-ld: a CSV-W to JSON-LD pipeline for marine biodiversity metadata",
-  "version": "0.7.0-draft",
   "language": "eng",
   "access_right": "open",
   "license": "cc-zero",
