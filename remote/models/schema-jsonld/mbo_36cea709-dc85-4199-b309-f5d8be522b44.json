@@ -27,17 +27,24 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Family",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     },
     {
@@ -48,10 +55,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -69,10 +76,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#Genus",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     },
     {
@@ -82,13 +89,6 @@
         "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       },
       "value": "Tursiops truncatus"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
     }
   ],
   "identifier": {
@@ -109,7 +109,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9eea4f27c6d2a42f0bf7b8b396ae79e7eb03ec75",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06d6f2832dab3e61d0e8a3ec92dc85914ac75d66",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -133,7 +133,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-02"
+        "@value": "2026-11-03"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_36cea709-dc85-4199-b309-f5d8be522b44-input-metadata"

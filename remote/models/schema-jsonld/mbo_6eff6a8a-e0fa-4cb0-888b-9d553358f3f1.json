@@ -27,10 +27,10 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
       }
     },
     {
@@ -41,10 +41,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     },
     {
@@ -55,10 +55,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
@@ -69,13 +76,6 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#Order",
       "@type": "PropertyValue",
       "propertyID": {
@@ -83,10 +83,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#ScientificName",
+      "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
       }
     }
   ],
@@ -99,13 +99,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/9eea4f27c6d2a42f0bf7b8b396ae79e7eb03ec75",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/06d6f2832dab3e61d0e8a3ec92dc85914ac75d66",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_65a9b71b-c3f0-402e-acdc-917b4a79f3c6"
     },
@@ -129,7 +129,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-02"
+        "@value": "2026-11-03"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_6eff6a8a-e0fa-4cb0-888b-9d553358f3f1-input-metadata"
