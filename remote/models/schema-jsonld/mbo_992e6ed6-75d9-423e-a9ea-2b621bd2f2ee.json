@@ -27,38 +27,10 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Order",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/order"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
@@ -69,17 +41,10 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Genus",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
@@ -87,6 +52,41 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/family"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
     }
   ],
@@ -99,13 +99,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -129,7 +129,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_992e6ed6-75d9-423e-a9ea-2b621bd2f2ee-input-metadata"

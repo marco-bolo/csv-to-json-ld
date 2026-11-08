@@ -35,11 +35,35 @@
       "value": "Animalia"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "infraorder"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
+      },
+      "value": "accepted"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Phylum",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
+      },
+      "value": "Chordata"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#ScientificName",
@@ -58,19 +82,11 @@
       "value": "Cetartiodactyla"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Genus",
@@ -78,22 +94,6 @@
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#Phylum",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      },
-      "value": "Chordata"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      },
-      "value": "infraorder"
     }
   ],
   "identifier": [
@@ -111,13 +111,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -141,7 +141,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_a02f82ed-e50e-414b-9f82-d9666b694635-input-metadata"

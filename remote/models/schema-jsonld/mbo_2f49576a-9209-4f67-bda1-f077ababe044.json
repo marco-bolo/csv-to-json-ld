@@ -42,12 +42,12 @@
   "identifier": "10.5281/zenodo.17590466",
   "keywords": [
     "DNA amplification",
-    "clean PCR lab",
-    "AmpliTag Gold",
-    "PCR",
     "metabarcoding",
+    "AmpliTag Gold",
     "fish eDNA",
     "12S",
+    "clean PCR lab",
+    "PCR",
     "MiSeq"
   ],
   "name": "RGG metabarcoding protocol for the 12S marker",
@@ -59,13 +59,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -89,7 +89,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2f49576a-9209-4f67-bda1-f077ababe044-input-metadata"
@@ -100,11 +100,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://doi.org/10.5281/zenodo.17590466"
+      "@value": "https://zenodo.org/records/17590466"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17590466"
+      "@value": "https://doi.org/10.5281/zenodo.17590466"
     }
   ],
   "inProgressDate": "2026"

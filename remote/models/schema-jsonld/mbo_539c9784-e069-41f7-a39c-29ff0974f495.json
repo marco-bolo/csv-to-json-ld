@@ -27,25 +27,17 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#SpecificEpithet",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      },
-      "value": "Bacteria"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Order",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -57,17 +49,18 @@
       "value": "kingdom"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#ScientificName",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      },
+      "value": "Bacteria"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Family",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+        "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
     },
     {
@@ -79,10 +72,10 @@
       "value": "accepted"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Family",
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Order",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/family"
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -91,13 +84,20 @@
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
     }
   ],
   "identifier": [
-    "worms:6",
     {
       "@id": "urn:lsid:marinespecies.org:taxname:6"
-    }
+    },
+    "worms:6"
   ],
   "name": "Bacteria",
   "subjectOf": {
@@ -108,13 +108,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -138,7 +138,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_539c9784-e069-41f7-a39c-29ff0974f495-input-metadata"

@@ -31,10 +31,10 @@
   },
   "contributor": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
+      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
+      "@id": "https://w3id.org/marco-bolo/mbo_fbd9101a-77af-46a2-8573-1e7a17caeb9d"
     }
   ],
   "description": "Calculating pelagic habitat indicator PH1 lifeform ratios",
@@ -57,7 +57,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_cbf418ff-4a28-4457-8c0f-aa9944ca80ea"
     },
@@ -81,7 +81,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cc3bb371-79f7-47eb-8105-57d4169b4a69-input-metadata"

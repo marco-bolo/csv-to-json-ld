@@ -31,8 +31,8 @@
   "familyName": "Vidal",
   "givenName": "Mathilde",
   "identifier": [
-    "https://orcid.org/0000-0003-2178-7052",
-    "https://oceanexpert.org/expert/60642"
+    "https://oceanexpert.org/expert/60642",
+    "https://orcid.org/0000-0003-2178-7052"
   ],
   "subjectOf": {
     "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de-input-metadata",
@@ -48,7 +48,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/fbc5c4bd456a02a7ab6b0539b93a352c69725372",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -72,7 +72,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-07"
+        "@value": "2026-11-08"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_5eaed598-c40d-4d27-aeec-7294e8acc2de-input-metadata"
