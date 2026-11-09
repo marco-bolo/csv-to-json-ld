@@ -40,15 +40,15 @@
   "datePublished": "2025-11-11",
   "description": "Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
   "identifier": [
-    "doi:10.5281/zenodo.20776313",
-    "Deliverable D3.2"
+    "Deliverable D3.2",
+    "doi:10.5281/zenodo.20776313"
   ],
   "keywords": [
-    "Essential Biodiversity Variables (EBV)",
     "Essential Ocean Variables (EOV)",
+    "Essential Biodiversity Variables (EBV)",
     "biodiversity monitoring",
-    "river-coastal continuum",
-    "MBO WP3"
+    "MBO WP3",
+    "river-coastal continuum"
   ],
   "license": "https://w3id.org/marco-bolo/mbo_500ee36e-324d-4f2f-9b0b-a4408f638201",
   "name": "MARCO-BOLO Deliverable D3.2 - Report on testing workflows generating biodiversity and environmental variables and uptake of new data into WFD, MFSD, and EV systems",
@@ -60,13 +60,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cca1694fdced63822d0d265b72f3c948c6dcec8b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -90,7 +90,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-08"
+        "@value": "2026-11-09"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_cbe00243-4dbd-4b39-81b3-a35a5a933c7b-input-metadata"
@@ -101,11 +101,11 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
+      "@value": "https://zenodo.org/records/20776313"
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/20776313"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2026/01/MBO_D3.2_Jan-2026.pdf"
     },
     {
       "@type": "URL",

@@ -31,10 +31,10 @@
   "name": "T5.1.2 running habitat model - common dolphin",
   "spatialCoverage": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
+      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_b719a49f-4b91-4a85-b5be-0aed7d867b64"
+      "@id": "https://w3id.org/marco-bolo/mbo_9fa5af1f-4ae1-4c36-b168-6458153fbad0"
     }
   ],
   "subjectOf": {
@@ -45,13 +45,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cca1694fdced63822d0d265b72f3c948c6dcec8b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -75,7 +75,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-08"
+        "@value": "2026-11-09"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_6aea13b9-1c7f-451a-8cde-bcd75f7e3eaf-input-metadata"

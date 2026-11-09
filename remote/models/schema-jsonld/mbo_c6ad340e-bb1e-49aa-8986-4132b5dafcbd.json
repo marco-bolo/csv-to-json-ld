@@ -28,9 +28,9 @@
   "description": "Helmholtz Centre for Environmental Research",
   "identifier": "https://ror.org/000h6jb29",
   "keywords": [
+    "environmental research",
     "Germany",
-    "Helmholtz",
-    "environmental research"
+    "Helmholtz"
   ],
   "legalName": "Helmholtz-Zentrum Fur Umweltforschung Gmbh - Ufz",
   "memberOf": {
@@ -51,7 +51,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/c22efca4d2267cf47b374e5a4e20b869cc17d5b9",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/cca1694fdced63822d0d265b72f3c948c6dcec8b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -75,7 +75,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-08"
+        "@value": "2026-11-09"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_c6ad340e-bb1e-49aa-8986-4132b5dafcbd-input-metadata"
