@@ -41,13 +41,13 @@
   "datePublished": "2023-05-31",
   "description": "Plan for Dissemination, Exploitation and Communication Activities (PDEC)",
   "identifier": [
-    "Deliverable D7.4",
-    "doi:10.5281/zenodo.17527033"
+    "doi:10.5281/zenodo.17527033",
+    "Deliverable D7.4"
   ],
   "keywords": [
-    "dissemination",
-    "stakeholder engagement",
     "communication",
+    "stakeholder engagement",
+    "dissemination",
     "MBO WP7",
     "exploitation"
   ],
@@ -67,7 +67,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/f06a2348064b1c78380d8e842b68d92303da7e10",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/18f19ce408003acf317eec22cd9c123cc50319fd",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -91,7 +91,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-10"
+        "@value": "2026-11-11"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
@@ -102,15 +102,15 @@
   "url": [
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
-    },
-    {
-      "@type": "URL",
       "@value": "https://zenodo.org/records/17527033"
     },
     {
       "@type": "URL",
       "@value": "https://doi.org/10.5281/zenodo.17527033"
+    },
+    {
+      "@type": "URL",
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
     }
   ],
   "version": "1"
