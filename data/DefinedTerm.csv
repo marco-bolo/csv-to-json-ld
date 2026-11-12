@@ -1,5 +1,215 @@
 MBO Permanent Identifier*,Data Entry Person (mPID - you)*,Data Entered for Action (mPID)*,Term Code*,In Term-Set (URL PID)*,Existing Term (URL PID),Description,Alternate Name,Disambiguating Description
-mbo_definedterm_d1c1,mbo_27401,mbo_wp1_t1_3,D1C1,https://example.com/TODO-msfd-d1c1,,"The mortality rate per species from incidental by-catch is below levels which threaten the species, such that its longterm viability is ensured. Member States shall establish the threshold values for the mortality rate from incidental by-catch per species, through regional or subregional cooperation.",,
-mbo_definedterm_d1c2,mbo_27401,mbo_wp1_t1_3,D1C2,https://example.com/TODO-msfd-d1c2,,"The population abundance of the species is not adversely affected due to anthropogenic pressures, such that its long-term viability is ensured. 
-Member States shall establish threshold values for each species through regional or subregional cooperation, taking account of natural variation in population size and the mortality rates derived from D1C1, D8C4 and D10C4 and other relevant pressures. For species covered by Directive 92/43/EEC, these values shall be
-consistent with the Favourable Reference Population values established by the relevant Member States under Directive 92/43/EEC.",,
+mbo_definedterm_d1c1,mbo_27401,mbo_wp1_t1_3,D1C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C1,"The mortality rate per species from incidental by-catch is below levels which
+threaten the species, such that its longterm viability is ensured.
+Member States shall establish the threshold values for the mortality rate from incidental by-catch per species, through regional or subregional cooperation.",Incidental by-catch mortality rate below threatening levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d1c2,mbo_27401,mbo_wp1_t1_3,D1C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C2,"The population abundance of the species
+is not adversely affected due to anthropogenic pressures, such that its long-term
+viability is ensured.
+Member States shall establish threshold
+values for each species through regional
+or subregional cooperation, taking account of natural variation in population
+size and the mortality rates derived from
+D1C1, D8C4 and D10C4 and other relevant pressures. For species covered by
+Directive 92/43/EEC, these values shall be
+consistent with the Favourable Reference
+Population values established by the relevant Member States under Directive
+92/43/EEC.",Population abundance not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d1c3,mbo_27401,mbo_wp1_t1_3,D1C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C3,"The population demographic characteristics (e.g. body size or age class structure,
+sex ratio, fecundity, and survival rates) of
+the species are indicative of a healthy population which is not adversely affected
+due to anthropogenic pressures.
+Member States shall establish threshold
+values for specified characteristics of each
+species through regional or subregional
+cooperation, taking account of adverse effects on their health derived from D8C2,
+D8C4 and other relevant pressures.",Demographic characteristics of a healthy population not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d1c4,mbo_27401,mbo_wp1_t1_3,D1C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C4,"The species distributional range and,
+where relevant, pattern is in line with prevailing physiographic, geographic and climatic conditions.
+Member States shall establish threshold
+values for each species through regional
+or subregional cooperation. For species
+covered by Directive 92/43/EEC, these
+shall be consistent with the Favourable
+Reference Range values established by the
+relevant Member States under Directive
+92/43/EEC.","Species distributional range and pattern in line with prevailing physiographic, geographic and climatic conditions",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d1c5,mbo_27401,mbo_wp1_t1_3,D1C5,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C5,"The habitat for the species has the necessary extent and condition to support the
+different stages in the life history of the
+species.",Habitat extent and condition to support different life history stages of the species,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d1c6,mbo_27401,mbo_wp1_t1_3,D1C6,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D1C6,"The condition of the habitat type, including its biotic and abiotic structure and its
+functions (e.g. its typical species composition and their relative abundance, absence
+of particularly sensitive or fragile species
+or species providing a key function, size
+structure of species), is not adversely affected due to anthropogenic pressures.
+Member States shall establish threshold
+values for the condition of each habitat
+type, ensuring compatibility with related
+values set under Descriptors 2, 5 and 8,
+through regional or subregional cooperation.",Habitat type condition not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d2c1,mbo_27401,mbo_wp1_t1_3,D2C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D2C1,"The number of non-indigenous species
+which are newly introduced via human
+activity into the wild, per assessment period (6 years), measured from the reference year as reported for the initial asessment under Article 8(1) of Directive
+2008/56/EC, is minimised and where
+possible reduced to zero.
+Member States shall establish the threshold value for the number of new introductions of non-indigenous species,
+through regional or subregional cooperation.",Number of non-indigenous species newly introduced via human activity minimised as measured from reference year,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d2c2,mbo_27401,mbo_wp1_t1_3,D2C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D2C2,"Abundance and spatial distribution of established non-indigenous species, particularly of invasive species, contributing significantly to adverse effects on particular
+species groups or broad habitat types.",Abundance and spatial distribution of established (invasive) non-indigenous species contributing to adverse effects on species groups or broad habitat types,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d2c3,mbo_27401,mbo_wp1_t1_3,D2C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D2C3,"Proportion of the species group or spatial
+extent of the broad habitat type which is
+adversely altered due to non-indigenous
+species, particularly invasive non-indigenous species.
+Member States shall establish the threshold values for the adverse alteration to
+species groups and broad habitat types
+due to non-indigenous species, through
+regional or subregional cooperation.",Proportion of species groups or broad habitat extent adversely altered by (invasive) non-indigenous species,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d3c1,mbo_27401,mbo_wp1_t1_3,D3C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D3C1,"The Fishing mortality rate of populations of
+commercially-exploited species is at or below
+levels which can produce the maximum sustainable yield (MSY). Appropriate scientific
+bodies shall be consulted in accordance with
+Article 26 of Regulation (EU) No 1380/2013.",Commercially-exploited species fishing mortality rate at or below maximum sustainable yield levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d3c2,mbo_27401,mbo_wp1_t1_3,D3C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D3C2,"The Spawning Stock Biomass of populations of
+commercially-exploited species are above biomass levels capable of producing maximum
+sustainable yield. Appropriate scientific bodies
+shall be consulted in accordance with Article 26
+of Regulation (EU) No 1380/2013.",Commercially-exploited species Spawning Stock Biomass above maximum sustainable yield biomass levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d3c3,mbo_27401,mbo_wp1_t1_3,D3C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D3C3,"The age and size distribution of individuals in
+the populations of commercially-exploited species is indicative of a healthy population. This
+shall include a high proportion of old/large
+individuals and limited adverse effects of exploitation on genetic diversity.
+Member States shall establish threshold values
+through regional or subregional cooperation for
+each population of species in accordance with
+scientific advice obtained pursuant t",Age and size distribution of commercially-exploited species populations indicative of healthy population,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d4c1,mbo_27401,mbo_wp1_t1_3,D4C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D4C1,"The diversity (species composition and
+their relative abundance) of the trophic
+guild is not adversely affected due to
+anthropogenic pressures.
+Member States shall establish threshold
+values through regional or subregional
+cooperation.",Trophic guild diversity not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d4c2,mbo_27401,mbo_wp1_t1_3,D4C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D4C2,"The balance of total abundance between
+the trophic guilds is not adversely affected
+due to anthropogenic pressures.
+Member States shall establish threshold
+values through regional or subregional
+cooperation.",Balance of total abundance between trophic guilds not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d4c3,mbo_27401,mbo_wp1_t1_3,D4C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D4C3,"The size distribution of individuals across
+the trophic guild is not adversely affected
+due to anthropogenic pressures.
+Member States shall establish threshold
+values through regional or subregional
+cooperation.",Size distribution of individuals across trophic guild not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d4c4,mbo_27401,mbo_wp1_t1_3,D4C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D4C4,Productivity of the trophic guild is not adversely affected due to anthropogenic pressures. Member States shall establish threshold values through regional or subregional cooperation.,Trophic guild productivity not affected adversely by anthropogenic pressures,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c1,mbo_27401,mbo_wp1_t1_3,D5C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C1,"Nutrient concentrations are not at levels that indicate adverse eutrophication effects. The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. 
+Member States shall establish those values through regional or subregional cooperation",Nutrient concentrations below adverse eutrophication levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c2,mbo_27401,mbo_wp1_t1_3,D5C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C2,"Chlorophyll a concentrations are not at levels that indicate adverse effects of nutrient enrichment. The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.",Chlorophyll a concentrations below adverse nutrient enrichment levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c3,mbo_27401,mbo_wp1_t1_3,D5C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C3,"The number, spatial extent and duration of harmful algal bloom events are not at levels that indicate adverse effects of nutrient enrichment.
+Member States shall establish threshold
+values for these levels through regional or
+subregional cooperation.","Harmful algal bloom events number, spatial extent and duration below adverse nutrient enrichment levels",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c4,mbo_27401,mbo_wp1_t1_3,D5C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C4,"The photic limit (transparency) of the water column is not reduced, due to increases in suspended algae, to a level that indicates adverse effects of nutrient enrichment. The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.",Water column photic depth is not reduced by suspended algal increases to levels indicative of adverse nutrient enrichment effects.,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c5,mbo_27401,mbo_wp1_t1_3,D5C5,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C5,"The concentration of dissolved oxygen is not reduced, due to nutrient enrichment, to levels that indicate adverse effects on benthic habitats (including on associated biota and mobile species) or other eutrophication effects. The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.","No reduction in dissolved oxygen contentation by eutrophication to levels adverse to benthic habitats, or other effects",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c6,mbo_27401,mbo_wp1_t1_3,D5C6,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C6,"The abundance of opportunistic macroalgae is not at levels that indicate adverse effects of nutrient enrichment. 
+The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) should this criterion be relevant for waters beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.",Opportunistic macroalgae abundance below adverse nutrient enrichment levels,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c7,mbo_27401,mbo_wp1_t1_3,D5C7,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C7,"The species composition and relative
+abundance or depth distribution of
+macrophyte communities achieve values
+that indicate there is no adverse effect due
+to nutrient enrichment including via a decrease in water transparency, as follows:
+(a) in coastal waters, the values set in accordance with Directive 2000/60/EC;
+(b) should this criterion be relevant for
+waters beyond coastal waters, values
+consistent with those for coastal
+waters under Directive 2000/60/EC.
+Member States shall establish those
+values through regional or subregional
+cooperation.","Macrophyte communities species composition, relative abundance or depth distribution with no adverse effect by nutrient enrichment",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d5c8,mbo_27401,mbo_wp1_t1_3,D5C8,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C8,"The species composition and relative abundance of macrofaunal communities, achieve values that indicate that there is no adverse effect due to nutrient and organic enrichment, as follows: (a) in coastal waters, the values for benthic biological quality elements set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.",Macrofaunal communities species composition and relative abundance not affected adversely by nutrient and organic enrichment,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d6c1,mbo_27401,mbo_wp1_t1_3,D6C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C1,Spatial extent and distribution of physical loss (permanent change) of the natural seabed.,Spatial extent and distribution of physical loss of natural seabed,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d6c2,mbo_27401,mbo_wp1_t1_3,D6C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C2,Spatial extent and distribution of physical disturbance pressures on the seabed.,Spatial extent and distribution of physical disturbance pressures on seabed,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d6c3,mbo_27401,mbo_wp1_t1_3,D6C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C3,"Spatial extent of each habitat type which is adversely affected, through change in its biotic and abiotic structure and its functions (e.g. through changes in species composition and their relative abundance, absence of particularly sensitive or fragile species or species providing a key function, size structure of species), by physical disturbance. 
+Member States shall establish threshold values for the adverse effects of physical disturbance, through regional or subregional cooperation.",Spatial extent of habitat adversely affected by physical disturbance of (a)biotic structure and functions,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d6c4,mbo_27401,mbo_wp1_t1_3,D6C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C4,"The extent of loss of the habitat type, resulting from anthropogenic pressures, does not exceed a specified proportion of the natural extent of the habitat type in the assessment area.
+Member States shall establish the maximum allowable extent of habitat loss as a proportion of the total natural extent of the habitat type, through cooperation at Union level, taking into account regional or subregional specificities.",Spatial loss of habitat type from anthropogenic pressures below specified proportion of natural habitat extent,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d6c5,mbo_27401,mbo_wp1_t1_3,D6C5,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C5,"The extent of adverse effects from anthropogenic pressures on the condition of the habitat type, including alteration to its biotic and abiotic structure and its functions (e.g. its typical species composition and their relative abundance, absence of particularly sensitive or fragile species or species providing a key function, size structure of species), does not exceed a specified proportion of the natural extent of the habitat type in the assessment area.
+Member States shall establish threshold
+values for adverse effects on the condition
+of each habitat type, ensuring compatibility with related values set under Descriptors 2, 5, 6, 7 and 8, through cooperation
+at Union level, taking into account regional or subregional specificities.
+Member States shall establish the maximum allowable extent of those adverse effects as a proportion of the total natural
+extent of the habitat type, through cooperation at Union level, taking into account regional or subregional specificities.",Extent of adverse effects from anthropogenic pressures on habitat type condition below specified proportion of natural extent in assessment area,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d7c1,mbo_27401,mbo_wp1_t1_3,D7C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D7C1,"Spatial extent and distribution of permanent alteration of hydrographical conditions (e.g. changes in wave action, currents, salinity, temperature) to the seabed and water column, associated in particular with physical loss ( 1) of the natural seabed.",Spatial extent and distribution of permanent alteration of hydrographical conditions to seabed and water column associated with physical loss of natural seabed,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d7c2,mbo_27401,mbo_wp1_t1_3,D7C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D7C2,"Spatial extent of each benthic habitat type adversely affected (physical and hydrographical characteristics and associated biological communities) due to permanent alteration of hydrographical conditions.
+Member States shall establish threshold values for the adverse
+effects of permanent alterations of hydrographical conditions,
+through regional or subregional cooperation.",Spatial extent of benthic habitat type adversely affected by permanent alteration of hydrographical conditions,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d8c1,mbo_27401,mbo_wp1_t1_3,D8C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D8C1,"Within coastal and territorial waters, the concentrations of contaminants do not exceed the following threshold values:
+(a) for contaminants set out under point 1(a) of criteria elements, the values set in accordance with Directive
+2000/60/EC; 
+(b) when contaminants under point (a) are measured in a matrix for which
+no value is set under Directive 2000/60/EC, the concentration of those contaminants in that matrix established by Member States through
+regional or subregional cooperation;
+(c) for additional contaminants selected under point 1(b) of criteria elements,
+the concentrations for a specified matrix (water, sediment or biota) which
+may give rise to pollution effects.
+
+Member States shall establish these
+concentrations through regional or
+subregional cooperation, considering
+their application within and beyond
+coastal and territorial waters.
+Beyond territorial waters, the concentrations of contaminants do not exceed the
+following threshold values:
+(a) for contaminants selected under
+point 2(a) of criteria elements, the values as applicable within coastal and
+territorial waters;
+(b) for contaminants selected under
+point 2(b) of criteria elements, the
+concentrations for a specified matrix
+(water, sediment or biota) which may
+give rise to pollution effects. Member
+States shall establish these concentrations through regional or subregional
+cooperation.",Contaminant concentrations in coastal and territorial waters below threshold values,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d8c2,mbo_27401,mbo_wp1_t1_3,D8C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D8C2,"The health of species and the condition of habitats (such as their species composition and relative abundance at locations of chronic pollution) are not adversely affected due to contaminants including cumulative and synergetic effects.
+Member States shall establish those adverse effects and their threshold values through regional or subregional cooperation.",Species health and habitat condition not affected adversely by contaminants including cumulative and synergetic effects,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d8c3,mbo_27401,mbo_wp1_t1_3,D8C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D8C3,The spatial extent and duration of significant acute pollution events are minimised.,Significant acute pollution events spatial extent and duration minimised,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d8c4,mbo_27401,mbo_wp1_t1_3,D8C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D8C4,"The adverse effects of significant acute
+pollution events on the health of species
+and on the condition of habitats (such as
+their species composition and relative
+abundance) are minimised and, where
+possible, eliminated.",Adverse effects of significant acute pollution events on species health and habitat condition minimised,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d9c1,mbo_27401,mbo_wp1_t1_3,D9C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D9C1,"The level of contaminants in edible tissues
+(muscle, liver, roe, flesh or other soft
+parts, as appropriate) of seafood (including fish, crustaceans, molluscs, echinoderms, seaweed and other marine plants)
+caught or harvested in the wild (excluding
+fin-fish from mariculture) does not exceed:
+
+(a) for contaminants listed in Regulation
+(EC) No 1881/2006, the maximum
+levels laid down in that Regulation,
+which are the threshold values for the
+purposes of this Decision;
+
+(b) for additional contaminants, not listed
+in Regulation (EC) No 1881/2006,
+threshold values, which Member
+States shall establish through regional
+or subregional cooperation.",Contaminants level in wild seafood edible tissues below threshold values,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d10c1,mbo_27401,mbo_wp1_t1_3,D10C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D10C1,"The composition, amount and spatial distribution of litter on the coastline, in the surface layer of the water column, and on the seabed, are at levels that do not cause harm to the coastal and marine environment. Member States shall establish threshold values for these levels through cooperation at Union level, taking into account regional or subregional specificities.","Litter composition, amount and spatial distribution below harmful levels in coastal and marine environment",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d10c2,mbo_27401,mbo_wp1_t1_3,D10C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D10C2,"The composition, amount and spatial distribution of micro-litter on the coastline, in the surface layer of the water column, and in seabed sediment, are at levels that do not cause harm to the coastal and marine environment.
+Member States shall establish threshold
+values for these levels through cooperation at Union level, taking into account regional or subregional specificities.","Micro-litter composition, amount and spatial distribution below harmful levels in coastal and marine environment",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d10c3,mbo_27401,mbo_wp1_t1_3,D10C3,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D10C3,"The amount of litter and micro-litter ingested by marine animals is at a level that does not adversely affect the health of the species concerned. 
+Member States shall establish threshold values for these levels through regional or subregional cooperation.",Amount of litter and micro-litter ingested by marine animals not adversely affecting species health,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d10c4,mbo_27401,mbo_wp1_t1_3,D10C4,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D10C4,"The number of individuals of each species which are adversely affected due to litter, such as by entanglement, other types of injury or mortality, or health effects. 
+Member States shall establish threshold values for the adverse effects of litter, through regional or subregional cooperation.",Number of individuals of each species adversely affected by litter,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d11c1,mbo_27401,mbo_wp1_t1_3,D11C1,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D11C1,"The spatial distribution, temporal extent, and levels of anthropogenic impulsive sound sources do not exceed levels that adversely affect populations of marine animals. 
+Member States shall establish threshold values for these levels through cooperation at Union level, taking into account regional or subregional specificities.",Spatial and temporal extent and levels of anthropogenic impulsive sound sources are below those harmful to marine animal populations.,This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
+mbo_definedterm_d11c2,mbo_27401,mbo_wp1_t1_3,D11C2,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection,http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D11C2,"The spatial distribution, temporal extent
+and levels of anthropogenic continuous
+low-frequency sound do not exceed levels
+that adversely affect populations of marine animals.
+Member States shall establish threshold
+values for these levels through cooperation at Union level, taking into account regional or subregional specificities.","Spatial distribution, temporal extent and levels of anthropogenic continuous low-frequency sound below adverse-effect levels for marine animals",This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD
