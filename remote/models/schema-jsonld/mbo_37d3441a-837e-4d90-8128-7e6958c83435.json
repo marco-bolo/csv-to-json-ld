@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435",
+  "@type": "DefinedTerm",
+  "alternateName": "Contaminant concentrations in coastal and territorial waters below threshold values",
+  "description": "Within coastal and territorial waters, the concentrations of contaminants do not exceed the following threshold values:\n(a) for contaminants set out under point 1(a) of criteria elements, the values set in accordance with Directive\n2000/60/EC; \n(b) when contaminants under point (a) are measured in a matrix for which\nno value is set under Directive 2000/60/EC, the concentration of those contaminants in that matrix established by Member States through\nregional or subregional cooperation;\n(c) for additional contaminants selected under point 1(b) of criteria elements,\nthe concentrations for a specified matrix (water, sediment or biota) which\nmay give rise to pollution effects.\n\nMember States shall establish these\nconcentrations through regional or\nsubregional cooperation, considering\ntheir application within and beyond\ncoastal and territorial waters.\nBeyond territorial waters, the concentrations of contaminants do not exceed the\nfollowing threshold values:\n(a) for contaminants selected under\npoint 2(a) of criteria elements, the values as applicable within coastal and\nterritorial waters;\n(b) for contaminants selected under\npoint 2(b) of criteria elements, the\nconcentrations for a specified matrix\n(water, sediment or biota) which may\ngive rise to pollution effects. Member\nStates shall establish these concentrations through regional or subregional\ncooperation.",
+  "disambiguatingDescription": "This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD",
+  "identifier": {
+    "@id": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D8C1"
+  },
+  "inDefinedTermSet": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+      }
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/373d7fbacfef6c155c019db14c360a954400a09f",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-11-12"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_37d3441a-837e-4d90-8128-7e6958c83435-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  },
+  "termCode": "D8C1"
+}

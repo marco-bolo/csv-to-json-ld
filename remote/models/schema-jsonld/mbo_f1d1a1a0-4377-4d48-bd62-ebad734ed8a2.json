@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2",
+  "@type": "DefinedTerm",
+  "alternateName": "Extent of adverse effects from anthropogenic pressures on habitat type condition below specified proportion of natural extent in assessment area",
+  "description": "The extent of adverse effects from anthropogenic pressures on the condition of the habitat type, including alteration to its biotic and abiotic structure and its functions (e.g. its typical species composition and their relative abundance, absence of particularly sensitive or fragile species or species providing a key function, size structure of species), does not exceed a specified proportion of the natural extent of the habitat type in the assessment area.\nMember States shall establish threshold\nvalues for adverse effects on the condition\nof each habitat type, ensuring compatibility with related values set under Descriptors 2, 5, 6, 7 and 8, through cooperation\nat Union level, taking into account regional or subregional specificities.\nMember States shall establish the maximum allowable extent of those adverse effects as a proportion of the total natural\nextent of the habitat type, through cooperation at Union level, taking into account regional or subregional specificities.",
+  "disambiguatingDescription": "This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD",
+  "identifier": {
+    "@id": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D6C5"
+  },
+  "inDefinedTermSet": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+      }
+    },
+    "@type": [
+      "Dataset",
+      "InputMetadataDescription"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/373d7fbacfef6c155c019db14c360a954400a09f",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-11-12"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_f1d1a1a0-4377-4d48-bd62-ebad734ed8a2-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  },
+  "termCode": "D6C5"
+}

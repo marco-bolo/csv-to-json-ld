@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "schema": "https://schema.org/",
+    "InputMetadataDescription": "https://w3id.org/marco-bolo/InputMetadataDescription",
+    "inProgressDate": "https://w3id.org/marco-bolo/inProgressDate",
+    "archivedAt": {
+      "@type": "@id"
+    },
+    "inDefinedTermSet": {
+      "@type": "@id"
+    },
+    "isBasedOn": {
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@type": "@id"
+    },
+    "license": {
+      "@type": "@id"
+    },
+    "usageInfo": {
+      "@type": "@id"
+    }
+  },
+  "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b",
+  "@type": "DefinedTerm",
+  "alternateName": "Water column photic depth is not reduced by suspended algal increases to levels indicative of adverse nutrient enrichment effects.",
+  "description": "The photic limit (transparency) of the water column is not reduced, due to increases in suspended algae, to a level that indicates adverse effects of nutrient enrichment. The threshold values are as follows: (a) in coastal waters, the values set in accordance with Directive 2000/60/EC; (b) beyond coastal waters, values consistent with those for coastal waters under Directive 2000/60/EC. Member States shall establish those values through regional or subregional cooperation.",
+  "disambiguatingDescription": "This term was created by MBO WP1 task 1.3 with external domain experts during the MARCO-BOLO Project to express that this object is of relevance to the named criterion of the MFSD",
+  "identifier": {
+    "@id": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/D5C4"
+  },
+  "inDefinedTermSet": "http://rdfdata.get-it.it/MBO-project/MSFD-criteria/collection",
+  "subjectOf": {
+    "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b-input-metadata",
+    "@reverse": {
+      "result": {
+        "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+      }
+    },
+    "@type": [
+      "InputMetadataDescription",
+      "Dataset"
+    ],
+    "about": {
+      "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b"
+    },
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/373d7fbacfef6c155c019db14c360a954400a09f",
+    "creator": {
+      "@id": "https://w3id.org/marco-bolo/mbo_b0382358-1a4e-46b3-a660-525eaa6aa155"
+    },
+    "distribution": {
+      "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b-input-metadata#jsonld",
+      "@reverse": {
+        "result": {
+          "@id": "https://w3id.org/marco-bolo/mbo_39fbd863-e2c1-4436-be55-f7caca2f498a"
+        }
+      },
+      "@type": "DataDownload",
+      "about": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b"
+      },
+      "contentUrl": {
+        "@type": "URL",
+        "@value": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b"
+      },
+      "creator": {
+        "@id": "https://w3id.org/marco-bolo/mbo_468ad172-b7d8-4d4a-b11b-6cb1d8b463f1"
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2026-11-12"
+      },
+      "encodesCreativeWork": {
+        "@id": "https://w3id.org/marco-bolo/mbo_6469137f-3ebb-4756-b411-538ff203e57b-input-metadata"
+      },
+      "encodingFormat": "application/ld+json"
+    }
+  },
+  "termCode": "D5C4"
+}
