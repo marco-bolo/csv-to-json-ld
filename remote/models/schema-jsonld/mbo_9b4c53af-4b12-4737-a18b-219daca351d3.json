@@ -45,9 +45,9 @@
     "doi:10.5281/zenodo.17527033"
   ],
   "keywords": [
-    "stakeholder engagement",
     "MBO WP7",
     "exploitation",
+    "stakeholder engagement",
     "dissemination",
     "communication"
   ],
@@ -67,7 +67,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/373d7fbacfef6c155c019db14c360a954400a09f",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/7b0a68a30a3c942b51afc1eb76e49b8b3a3a589b",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -91,7 +91,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-12"
+        "@value": "2026-11-13"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9b4c53af-4b12-4737-a18b-219daca351d3-input-metadata"
@@ -106,11 +106,11 @@
     },
     {
       "@type": "URL",
-      "@value": "https://zenodo.org/records/17527033"
+      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
     },
     {
       "@type": "URL",
-      "@value": "https://marcobolo-project.eu/wp-content/uploads/2024/08/MBO_D7.4_May-2023.pdf"
+      "@value": "https://zenodo.org/records/17527033"
     }
   ],
   "version": "1"
