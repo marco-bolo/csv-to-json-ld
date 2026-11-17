@@ -27,12 +27,11 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status",
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+      }
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Genus",
@@ -40,14 +39,6 @@
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/genus"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
-      },
-      "value": "Animalia"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Family",
@@ -72,11 +63,12 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#SpecificEpithet",
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
-      }
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "subphylum"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Order",
@@ -86,19 +78,27 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#VerbatimTaxonRank",
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       },
-      "value": "subphylum"
+      "value": "accepted"
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Animalia"
     }
   ],
   "identifier": [
-    "worms:146419",
     {
       "@id": "urn:lsid:marinespecies.org:taxname:146419"
-    }
+    },
+    "worms:146419"
   ],
   "name": "Vertebrates",
   "subjectOf": {
@@ -109,13 +109,13 @@
       }
     },
     "@type": [
-      "Dataset",
-      "InputMetadataDescription"
+      "InputMetadataDescription",
+      "Dataset"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/2c2351585f32632256d512020e983bf313b63b17",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/673302dc843e6609c3ecda07b0e66d192cb76ccd",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -139,7 +139,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-16"
+        "@value": "2026-11-17"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_9597f618-e0af-4024-aaca-3f80d41dde99-input-metadata"
