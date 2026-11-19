@@ -27,27 +27,26 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Genus",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/genus"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Kingdom",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+      },
+      "value": "Undefined"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Family",
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/family"
       }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#VerbatimTaxonRank",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
-      },
-      "value": "domain"
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Status",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
-      },
-      "value": "accepted"
     },
     {
       "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Order",
@@ -65,6 +64,14 @@
       "value": "Eukaryota"
     },
     {
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#VerbatimTaxonRank",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      },
+      "value": "domain"
+    },
+    {
       "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
@@ -79,19 +86,12 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Genus",
+      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Status",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/genus"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6#Kingdom",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/taxonomicStatus"
       },
-      "value": "Undefined"
+      "value": "accepted"
     }
   ],
   "identifier": "col:CS5HF",
@@ -110,7 +110,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/54aaa7d016ea85ccbe615f0d84e83795ad2ae405",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/2c94569f056de5a1c9a59984ae1d4d19091e5abd",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -134,7 +134,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-18"
+        "@value": "2026-11-19"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_2303ffd2-07c6-46db-a1da-9bf140c7b4c6-input-metadata"
