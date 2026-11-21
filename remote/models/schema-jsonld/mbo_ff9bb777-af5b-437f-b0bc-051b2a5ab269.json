@@ -27,17 +27,10 @@
   "@type": "Taxon",
   "additionalProperty": [
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Phylum",
+      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Kingdom",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
-      }
-    },
-    {
-      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#SpecificEpithet",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
+        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
       }
     },
     {
@@ -45,6 +38,20 @@
       "@type": "PropertyValue",
       "propertyID": {
         "@id": "http://rs.tdwg.org/dwc/terms/verbatimTaxonRank"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#ScientificName",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
+      }
+    },
+    {
+      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Order",
+      "@type": "PropertyValue",
+      "propertyID": {
+        "@id": "http://rs.tdwg.org/dwc/terms/order"
       }
     },
     {
@@ -62,13 +69,6 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#ScientificName",
-      "@type": "PropertyValue",
-      "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/scientificName"
-      }
-    },
-    {
       "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Family",
       "@type": "PropertyValue",
       "propertyID": {
@@ -76,17 +76,17 @@
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Order",
+      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Phylum",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/order"
+        "@id": "http://rs.tdwg.org/dwc/terms/phylum"
       }
     },
     {
-      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#Kingdom",
+      "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269#SpecificEpithet",
       "@type": "PropertyValue",
       "propertyID": {
-        "@id": "http://rs.tdwg.org/dwc/terms/kingdom"
+        "@id": "http://rs.tdwg.org/dwc/terms/specificEpithet"
       }
     }
   ],
@@ -99,13 +99,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/56fa8c53c66c3c76f83eff7d94ab3fe301ccb2e4",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/0ddef43386b5e7c56016063db48a9b607517ac71",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_50ed8cd2-591b-4f7a-bdae-4bf7b8f05556"
     },
@@ -129,7 +129,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-20"
+        "@value": "2026-11-21"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_ff9bb777-af5b-437f-b0bc-051b2a5ab269-input-metadata"
