@@ -8,7 +8,7 @@ This system demonstrates that comprehensive metadata doesn't require expensive i
 
 ## Why does this exist?
 
-The MARCO-BOLO project aims to align with IOC Data Architecture and ensure research outputs are discoverable through the [ODIS Catalog](https://catalog.odis.org/). Rather than requiring researchers to learn complex semantic web technologies, this tool provides:
+The MARCO-BOLO project aims to align with IOC Data Architecture and will ensure research outputs are discoverable through the [ODIS Catalogue](https://catalogue.odis.org/search) (note that this is still being developed). Rather than requiring researchers to learn complex semantic web technologies, this tool provides:
 
 - **User-friendly data entry** through Google Sheets
 - **Automated validation** to catch errors early  
