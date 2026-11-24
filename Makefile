@@ -6,7 +6,9 @@ UID					:= $(shell id -u)
 GID					:= $(shell id -g)
 
 CSVW_CHECK_DOCKER	:= ghcr.io/marco-bolo/csvw-check@sha256:b52d959a136f37f1f23e76b9b92cf1fb5ac2c64b7352e3b651211beba3cd0632
-CSV2RDF_DOCKER		:= europe-west2-docker.pkg.dev/swirrl-devops-infrastructure-1/public/csv2rdf:v0.7.1
+# Unmodified copy of Swirrl's csv2rdf v0.7.1 (source: https://github.com/Swirrl/csv2rdf, EPL-1.0).
+# Mirrored because Swirrl's registry stopped answering; see #367.
+CSV2RDF_DOCKER		:= ghcr.io/marco-bolo/csv2rdf@sha256:6d77a0a17bd3cb60bc5bb9f6292d6ef07eea3635865fad7bcec53488f6a5aa71
 JENA_CLI_DOCKER		:= gsscogs/gss-jvm-build-tools:latest
 MBO_TOOLS_DOCKER	:= ghcr.io/marco-bolo/csv-to-json-ld-tools:latest
 
