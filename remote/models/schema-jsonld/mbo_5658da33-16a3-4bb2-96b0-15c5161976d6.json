@@ -32,18 +32,18 @@
     "@id": "https://w3id.org/marco-bolo/mbo_e44cf12c-8239-4216-b05d-94c31f3027c2"
   },
   "identifier": [
-    "https://ror.org/00k4n6c32",
     "https://www.wikidata.org/wiki/Q8880",
-    "https://isni.org/isni/0000000404559054"
+    "https://isni.org/isni/0000000404559054",
+    "https://ror.org/00k4n6c32"
   ],
   "keywords": [
-    "policy making",
-    "Horizon Europe",
-    "innovation",
-    "EU institutions",
-    "European Union",
     "public administration",
-    "research funding"
+    "Horizon Europe",
+    "research funding",
+    "policy making",
+    "European Union",
+    "innovation",
+    "EU institutions"
   ],
   "legalName": "European Commission",
   "name": "European Commission",
@@ -64,7 +64,7 @@
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/d6acd560179c61ad3aadd9f59175f2ecc9cdd233",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/a9564252b75cc8d1a80a9c5c5860e936c207fbfa",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_bf08f5c2-fef3-48a1-80b3-413534d2925b"
     },
@@ -88,7 +88,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-23"
+        "@value": "2026-11-25"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_5658da33-16a3-4bb2-96b0-15c5161976d6-input-metadata"
