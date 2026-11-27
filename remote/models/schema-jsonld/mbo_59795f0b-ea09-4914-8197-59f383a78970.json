@@ -29,8 +29,8 @@
   "foundingDate": "1980-07-15",
   "identifier": "https://ror.org/032e6b942",
   "keywords": [
-    "Germany",
     "marine research",
+    "Germany",
     "Helmholtz",
     "polar research"
   ],
@@ -47,13 +47,13 @@
       }
     },
     "@type": [
-      "InputMetadataDescription",
-      "Dataset"
+      "Dataset",
+      "InputMetadataDescription"
     ],
     "about": {
       "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970"
     },
-    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/6940d112c43eb265a297df48b6f8b70c55155ba3",
+    "archivedAt": "https://github.com/marco-bolo/csv-to-json-ld/tree/b9bd7c55b02ca46930c6241ef3a1aa5d63b1bdfd",
     "creator": {
       "@id": "https://w3id.org/marco-bolo/mbo_3e649f80-c0c1-4049-a076-4d7b294d49c4"
     },
@@ -77,7 +77,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2026-11-26"
+        "@value": "2026-11-27"
       },
       "encodesCreativeWork": {
         "@id": "https://w3id.org/marco-bolo/mbo_59795f0b-ea09-4914-8197-59f383a78970-input-metadata"
